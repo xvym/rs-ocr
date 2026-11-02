@@ -1,0 +1,443 @@
+{
+  "status": "passed",
+  "method": "直接解析两份日版 rev0 ROM 的压缩资源、tilemap、调色板及 Thumb 指令，再与日版 GBA 原图核验",
+  "address_convention": "GBA 地址 = 文件偏移 + 0x08000000；像素坐标以 240x160 游戏画面为基准；窗口参数采用包含右下边界的 tile 坐标",
+  "tools": {
+    "capstone": "5.0.7"
+  },
+  "roms": {
+    "AXPJ": {
+      "file": "rom-resource\\0757 - 口袋妖怪蓝宝石 Pocket Monsters - Sapphire_JP__Nintendo__64Mb_.gba",
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+      "revision": 0,
+      "assets": {
+        "bag_tiles": {
+          "file_offset": "0x7F2134",
+          "gba_address": "0x087F2134",
+          "compressed_bytes": 1594,
+          "decoded_bytes": 4032,
+          "decoded_sha256": "194e565f720383484bd6ee584f62e21e79877152347903b3389618c477757c09",
+          "pointer_locations": [
+            "0x0809FAFC"
+          ]
+        },
+        "bag_palette_male": {
+          "file_offset": "0x7F2770",
+          "gba_address": "0x087F2770",
+          "compressed_bytes": 56,
+          "decoded_bytes": 64,
+          "decoded_sha256": "6d40147a9784a0f6c6fb27bfe32976e7c274171ba3538c6070151e5823873a81",
+          "pointer_locations": [
+            "0x0809FB3C"
+          ]
+        },
+        "bag_palette_female": {
+          "file_offset": "0x7F27A8",
+          "gba_address": "0x087F27A8",
+          "compressed_bytes": 56,
+          "decoded_bytes": 64,
+          "decoded_sha256": "7239c6b2fa2f7964d06b4de66a0accd946a25ea02227271342059ae1e10834d3",
+          "pointer_locations": [
+            "0x0809FB4C"
+          ]
+        },
+        "bag_tilemap": {
+          "file_offset": "0x7F27E0",
+          "gba_address": "0x087F27E0",
+          "compressed_bytes": 337,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "36d2c99f616c796c9abd76faa00a791869d5bceaf2a9ee479fd3e16aaa98aeb2",
+          "pointer_locations": [
+            "0x0809FB10",
+            "0x0809FE70"
+          ]
+        },
+        "shop_tiles": {
+          "file_offset": "0x7F2934",
+          "gba_address": "0x087F2934",
+          "compressed_bytes": 250,
+          "decoded_bytes": 768,
+          "decoded_sha256": "568da83541771677cc3acffb9d827d7fe50b516523c7678bb9e76db68b8da6fe",
+          "pointer_locations": [
+            "0x080AEB0C"
+          ]
+        },
+        "shop_palette": {
+          "file_offset": "0x7F2A30",
+          "gba_address": "0x087F2A30",
+          "compressed_bytes": 40,
+          "decoded_bytes": 32,
+          "decoded_sha256": "a7e1c2f8e5f39ecdf619d07597fbff76f76615a7fbabe89e73cab8c3e678b4e2",
+          "pointer_locations": [
+            "0x080AEB1C",
+            "0x083A4A20"
+          ]
+        },
+        "shop_tilemap": {
+          "file_offset": "0x7F2A58",
+          "gba_address": "0x087F2A58",
+          "compressed_bytes": 308,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "391848676fea7223491910fcfc109ed696aea303ca5a03e68c9a6f8f92b94829",
+          "pointer_locations": [
+            "0x080AEB14"
+          ]
+        },
+        "summary_tiles": {
+          "file_offset": "0x7EF81C",
+          "gba_address": "0x087EF81C",
+          "compressed_bytes": 2506,
+          "decoded_bytes": 6944,
+          "decoded_sha256": "edc332790bec2eaa8a3848b8288ab588b720709fbf127a651a9cd6bff97f1c73",
+          "pointer_locations": [
+            "0x0809A874"
+          ]
+        },
+        "summary_palette": {
+          "file_offset": "0x7F01E8",
+          "gba_address": "0x087F01E8",
+          "compressed_bytes": 160,
+          "decoded_bytes": 160,
+          "decoded_sha256": "658b1dc855150353132bff854b823a0f26d7ff769d7937b542a03d47955daebf",
+          "pointer_locations": [
+            "0x0809A8E8"
+          ]
+        },
+        "summary_info_tilemap": {
+          "file_offset": "0x7F0288",
+          "gba_address": "0x087F0288",
+          "compressed_bytes": 441,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "88202bb2acd31477bafa2d95bcfde15ed6e8e7ee2ddd52a7e1ac51d2f47e73a1",
+          "pointer_locations": [
+            "0x0809A884"
+          ]
+        },
+        "summary_skills_tilemap": {
+          "file_offset": "0x7F0444",
+          "gba_address": "0x087F0444",
+          "compressed_bytes": 355,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "c4677231ae36e7c604e4475517b9e8227aa079ad51a4c4eff45e024325c1be67",
+          "pointer_locations": [
+            "0x0809A8AC"
+          ]
+        },
+        "summary_battle_moves_tilemap": {
+          "file_offset": "0x7F05A8",
+          "gba_address": "0x087F05A8",
+          "compressed_bytes": 370,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "027fdc9ab3b8767d9d42595ec415339acfa0b4f0b5bb33e25546880bc0065788",
+          "pointer_locations": [
+            "0x0809A8C0",
+            "0x081EFD9B"
+          ]
+        },
+        "summary_contest_moves_tilemap": {
+          "file_offset": "0x7F071C",
+          "gba_address": "0x087F071C",
+          "compressed_bytes": 374,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "f4a66ed74357913f16dd4c6ea45f9596d0e238fcfb47a108e5b7454f970bb1d1",
+          "pointer_locations": [
+            "0x0809A8D4"
+          ]
+        }
+      }
+    },
+    "AXVJ": {
+      "file": "rom-resource\\0760 - 口袋妖怪红宝石 Pocket Monsters - Ruby_JP__Nintendo__64Mb_.gba",
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "revision": 0,
+      "assets": {
+        "bag_tiles": {
+          "file_offset": "0x7F2134",
+          "gba_address": "0x087F2134",
+          "compressed_bytes": 1594,
+          "decoded_bytes": 4032,
+          "decoded_sha256": "194e565f720383484bd6ee584f62e21e79877152347903b3389618c477757c09",
+          "pointer_locations": [
+            "0x0809FAFC"
+          ]
+        },
+        "bag_palette_male": {
+          "file_offset": "0x7F2770",
+          "gba_address": "0x087F2770",
+          "compressed_bytes": 56,
+          "decoded_bytes": 64,
+          "decoded_sha256": "6d40147a9784a0f6c6fb27bfe32976e7c274171ba3538c6070151e5823873a81",
+          "pointer_locations": [
+            "0x0809FB3C"
+          ]
+        },
+        "bag_palette_female": {
+          "file_offset": "0x7F27A8",
+          "gba_address": "0x087F27A8",
+          "compressed_bytes": 56,
+          "decoded_bytes": 64,
+          "decoded_sha256": "7239c6b2fa2f7964d06b4de66a0accd946a25ea02227271342059ae1e10834d3",
+          "pointer_locations": [
+            "0x0809FB4C"
+          ]
+        },
+        "bag_tilemap": {
+          "file_offset": "0x7F27E0",
+          "gba_address": "0x087F27E0",
+          "compressed_bytes": 337,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "36d2c99f616c796c9abd76faa00a791869d5bceaf2a9ee479fd3e16aaa98aeb2",
+          "pointer_locations": [
+            "0x0809FB10",
+            "0x0809FE70"
+          ]
+        },
+        "shop_tiles": {
+          "file_offset": "0x7F2934",
+          "gba_address": "0x087F2934",
+          "compressed_bytes": 250,
+          "decoded_bytes": 768,
+          "decoded_sha256": "568da83541771677cc3acffb9d827d7fe50b516523c7678bb9e76db68b8da6fe",
+          "pointer_locations": [
+            "0x080AEB0C"
+          ]
+        },
+        "shop_palette": {
+          "file_offset": "0x7F2A30",
+          "gba_address": "0x087F2A30",
+          "compressed_bytes": 40,
+          "decoded_bytes": 32,
+          "decoded_sha256": "a7e1c2f8e5f39ecdf619d07597fbff76f76615a7fbabe89e73cab8c3e678b4e2",
+          "pointer_locations": [
+            "0x080AEB1C",
+            "0x083A4A3C"
+          ]
+        },
+        "shop_tilemap": {
+          "file_offset": "0x7F2A58",
+          "gba_address": "0x087F2A58",
+          "compressed_bytes": 308,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "391848676fea7223491910fcfc109ed696aea303ca5a03e68c9a6f8f92b94829",
+          "pointer_locations": [
+            "0x080AEB14"
+          ]
+        },
+        "summary_tiles": {
+          "file_offset": "0x7EF81C",
+          "gba_address": "0x087EF81C",
+          "compressed_bytes": 2506,
+          "decoded_bytes": 6944,
+          "decoded_sha256": "edc332790bec2eaa8a3848b8288ab588b720709fbf127a651a9cd6bff97f1c73",
+          "pointer_locations": [
+            "0x0809A874"
+          ]
+        },
+        "summary_palette": {
+          "file_offset": "0x7F01E8",
+          "gba_address": "0x087F01E8",
+          "compressed_bytes": 160,
+          "decoded_bytes": 160,
+          "decoded_sha256": "658b1dc855150353132bff854b823a0f26d7ff769d7937b542a03d47955daebf",
+          "pointer_locations": [
+            "0x0809A8E8"
+          ]
+        },
+        "summary_info_tilemap": {
+          "file_offset": "0x7F0288",
+          "gba_address": "0x087F0288",
+          "compressed_bytes": 441,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "88202bb2acd31477bafa2d95bcfde15ed6e8e7ee2ddd52a7e1ac51d2f47e73a1",
+          "pointer_locations": [
+            "0x0809A884"
+          ]
+        },
+        "summary_skills_tilemap": {
+          "file_offset": "0x7F0444",
+          "gba_address": "0x087F0444",
+          "compressed_bytes": 355,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "c4677231ae36e7c604e4475517b9e8227aa079ad51a4c4eff45e024325c1be67",
+          "pointer_locations": [
+            "0x0809A8AC"
+          ]
+        },
+        "summary_battle_moves_tilemap": {
+          "file_offset": "0x7F05A8",
+          "gba_address": "0x087F05A8",
+          "compressed_bytes": 370,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "027fdc9ab3b8767d9d42595ec415339acfa0b4f0b5bb33e25546880bc0065788",
+          "pointer_locations": [
+            "0x0809A8C0",
+            "0x081EFE0B"
+          ]
+        },
+        "summary_contest_moves_tilemap": {
+          "file_offset": "0x7F071C",
+          "gba_address": "0x087F071C",
+          "compressed_bytes": 374,
+          "decoded_bytes": 2048,
+          "decoded_sha256": "f4a66ed74357913f16dd4c6ea45f9596d0e238fcfb47a108e5b7454f970bb1d1",
+          "pointer_locations": [
+            "0x0809A8D4"
+          ]
+        }
+      }
+    }
+  },
+  "checked_assets_identical_between_ruby_and_sapphire": true,
+  "screenshot_checks": {
+    "samples": [
+      "GBA-018",
+      "GBA-019",
+      "GBA-035",
+      "GBA-278",
+      "GBA-304",
+      "GBA-305",
+      "GBA-306",
+      "GBA-308"
+    ],
+    "border_run_checks": "列表横向边界、四种摘要面板纵向轮廓的颜色分段位置与 ROM 重建结果一致，未应用空间平移",
+    "screenshots": {
+      "GBA-018": {
+        "source": "gba_testcase/Screenshot 2026-10-31 15-41-18.png",
+        "sha256": "5de51c6fdf8877cdcf8a3cde7a265a4ac86632dcb06339da5241f046cc6b48ca"
+      },
+      "GBA-019": {
+        "source": "gba_testcase/Screenshot 2026-10-31 15-41-23.png",
+        "sha256": "97f631d6088355f45a34f1f82c69d0776d47b9bcdba91ed9f18aee799b0b321e"
+      },
+      "GBA-035": {
+        "source": "gba_testcase/Screenshot 2026-10-31 15-43-15.png",
+        "sha256": "2fad58b406d68aa5b1b0b414ed029ef169f099e45362133a3b47322a26972e00"
+      },
+      "GBA-278": {
+        "source": "gba_testcase/Screenshot 2026-10-31 16-07-07.png",
+        "sha256": "85275c152c8100e3dcb6ee2461c00d0ee4e5297ec1ff5a7d186be4b8681849ab"
+      },
+      "GBA-304": {
+        "source": "gba_testcase/Screenshot 2026-11-01 20-58-49.png",
+        "sha256": "b3ab796fa874e4e9cad523b2fada988847874a2a0362eb8226e13bfdbb30e854"
+      },
+      "GBA-305": {
+        "source": "gba_testcase/Screenshot 2026-11-01 20-58-56.png",
+        "sha256": "9fdb6d634bfbfbcdf6f45b724c6809a3ed1422365aabe1ee132a2bc1d83b1424"
+      },
+      "GBA-306": {
+        "source": "gba_testcase/Screenshot 2026-11-01 20-59-19.png",
+        "sha256": "b4fb418b9750da10a3efbf786456e786cf41be148dcd8f69463b6ee1916d8692"
+      },
+      "GBA-308": {
+        "source": "gba_testcase/Screenshot 2026-11-01 20-59-57.png",
+        "sha256": "3a4fb965af33c9c9ddfbb1d91d65579f91d245b2d4066f8985a2bcf1a1a32596"
+      }
+    }
+  },
+  "findings": [
+    {
+      "pair": [
+        "bag_description",
+        "bag_prompt"
+      ],
+      "result": "同一基础面板，操作菜单遮住上沿；不是窗口向下移动 2 像素",
+      "clear_tile_rect_both": [
+        0,
+        13,
+        13,
+        20
+      ],
+      "text_anchor_tiles_both": [
+        1,
+        13
+      ],
+      "action_frame_inclusive_tiles": [
+        0,
+        7,
+        13,
+        12
+      ],
+      "action_frame_pixel_cover": [
+        0,
+        56,
+        112,
+        48
+      ],
+      "same_unoccluded_screenshot_border_pixels": 780,
+      "differing_border_pixels": 0
+    },
+    {
+      "pair": [
+        "summary_memo",
+        "summary_experience"
+      ],
+      "result": "标注的 4 像素高差不是真实布局差；颜色和内部面板样式仍不同",
+      "title_band_y_both": 104,
+      "body_top_border_y_both": 112,
+      "body_bottom_border_y_both": 143
+    },
+    {
+      "pair": [
+        "summary_experience",
+        "summary_move_description",
+        "summary_contest_description"
+      ],
+      "result": "真实竖直位移为 8 像素，目录中的 6 像素差来自框选口径",
+      "title_band_y": [
+        104,
+        112,
+        112
+      ],
+      "body_top_border_y": [
+        112,
+        120,
+        120
+      ],
+      "body_bottom_border_y": [
+        143,
+        151,
+        151
+      ]
+    },
+    {
+      "pair": [
+        "bag_list",
+        "shop_list"
+      ],
+      "result": "真实横向差 2 像素，原标注的 4 像素差不精确",
+      "sampled_same_dark_border_at_y": 140,
+      "dark_border_x": [
+        108,
+        110
+      ]
+    },
+    {
+      "pair": [
+        "pc_item_description",
+        "bag_description",
+        "shop_description"
+      ],
+      "result": "PC 为动态标准窗口；背包和商店为预绘制面板，不能因粗略样式描述相同而合并",
+      "pc_frame_inclusive_tiles": [
+        0,
+        12,
+        13,
+        19
+      ],
+      "pc_frame_tile_allocation_pixels": [
+        0,
+        96,
+        112,
+        64
+      ],
+      "note": "tile 分配框含透明边距，不等于可见轮廓的紧框；背包和商店右侧接缝也有真实差异"
+    }
+  ],
+  "limitations": [
+    "属于指定 rev0 ROM 的静态资源和指定代码路径核对，并非全部窗口布局审计。",
+    "testcase 与两份 ROM 的实际采集来源没有逐图版本登记；本次证明画面几何相符，不据此认定每张截图的版本。",
+    "NGC 视口仍为人工近似映射，本次精确截图像素核验使用 GBA 原图。",
+    "未修改已有目录、Excel、原图或 ROM；此前 50 种仍不是全量像素校准后的最终框型数。"
+  ]
+}

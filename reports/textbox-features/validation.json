@@ -1,0 +1,3017 @@
+{
+  "structural_status": "passed",
+  "scope_profiles": 51,
+  "gba_frame_checks": {
+    "tested": 379,
+    "passed": 377,
+    "annotated_candidate_not_visible": 2
+  },
+  "representative_checks": [
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-001",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_connect_menu",
+      "image_id": "GBA-013",
+      "variant": "standard_1",
+      "probe_pixels": 2096,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_pokemon_menu",
+      "image_id": "GBA-016",
+      "variant": "standard_1",
+      "probe_pixels": 2432,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_item_menu",
+      "image_id": "GBA-017",
+      "variant": "standard_1",
+      "probe_pixels": 1872,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_store_menu",
+      "image_id": "GBA-021",
+      "variant": "standard_1",
+      "probe_pixels": 2208,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_item_heading",
+      "image_id": "GBA-018",
+      "variant": "standard_1",
+      "probe_pixels": 1424,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_item_list",
+      "image_id": "GBA-020",
+      "variant": "standard_1",
+      "probe_pixels": 3776,
+      "match_fraction": 0.996822
+    },
+    {
+      "key": "pc_item_description",
+      "image_id": "GBA-018",
+      "variant": "standard_1",
+      "probe_pixels": 2208,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_category",
+      "image_id": "GBA-019",
+      "variant": "bag_female",
+      "probe_pixels": 341,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_list",
+      "image_id": "GBA-024",
+      "variant": "bag_female",
+      "probe_pixels": 3376,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_description",
+      "image_id": "GBA-019",
+      "variant": "bag_male",
+      "probe_pixels": 900,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_action",
+      "image_id": "GBA-278",
+      "variant": "standard_1",
+      "probe_pixels": 1984,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_prompt",
+      "image_id": "GBA-278",
+      "variant": "bag_male",
+      "probe_pixels": 592,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "shop_menu",
+      "image_id": "GBA-034",
+      "variant": "standard_1",
+      "probe_pixels": 1872,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "shop_list",
+      "image_id": "GBA-036",
+      "variant": "shop",
+      "probe_pixels": 3088,
+      "match_fraction": 0.962435
+    },
+    {
+      "key": "shop_description",
+      "image_id": "GBA-035",
+      "variant": "shop",
+      "probe_pixels": 902,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_prompt",
+      "image_id": "GBA-214",
+      "variant": "standard_1",
+      "probe_pixels": 2880,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_short_prompt",
+      "image_id": "GBA-051",
+      "variant": "standard_1",
+      "probe_pixels": 2432,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_cancel",
+      "image_id": "GBA-201",
+      "variant": "party_cancel",
+      "probe_pixels": 384,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_field_action",
+      "image_id": "GBA-051",
+      "variant": "standard_1",
+      "probe_pixels": 2208,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_battle_action",
+      "image_id": "GBA-091",
+      "variant": "standard_1",
+      "probe_pixels": 1760,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_recovery",
+      "image_id": "GBA-201",
+      "variant": "standard_1",
+      "probe_pixels": 3104,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-070",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_prompt",
+      "image_id": "GBA-090",
+      "variant": "battle_red",
+      "probe_pixels": 1860,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_action",
+      "image_id": "GBA-090",
+      "variant": "standard_1",
+      "probe_pixels": 1872,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "blender_message",
+      "image_id": "GBA-276",
+      "variant": "standard_1",
+      "probe_pixels": 3776,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "block_title",
+      "image_id": "GBA-284",
+      "variant": "pokeblock",
+      "probe_pixels": 428,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "block_list",
+      "image_id": "GBA-284",
+      "variant": "pokeblock",
+      "probe_pixels": 1004,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "block_flavors",
+      "image_id": "GBA-284",
+      "variant": "pokeblock",
+      "probe_pixels": 1098,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "condition_title",
+      "image_id": "GBA-287",
+      "variant": "condition_title",
+      "probe_pixels": 2104,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "condition_graph",
+      "image_id": "GBA-287",
+      "variant": "condition",
+      "probe_pixels": 1674,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "condition_hint",
+      "image_id": "GBA-287",
+      "variant": "condition_hint",
+      "probe_pixels": 358,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "condition_message",
+      "image_id": "GBA-287",
+      "variant": "standard_1",
+      "probe_pixels": 3552,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_personal",
+      "image_id": "GBA-304",
+      "variant": "summary_info",
+      "probe_pixels": 93,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_ability",
+      "image_id": "GBA-304",
+      "variant": "summary_info",
+      "probe_pixels": 340,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_memo",
+      "image_id": "GBA-304",
+      "variant": "summary_info",
+      "probe_pixels": 340,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_item",
+      "image_id": "GBA-305",
+      "variant": "summary_skills",
+      "probe_pixels": 172,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_ribbon",
+      "image_id": "GBA-305",
+      "variant": "summary_skills",
+      "probe_pixels": 156,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_stats",
+      "image_id": "GBA-305",
+      "variant": "summary_skills",
+      "probe_pixels": 380,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_experience",
+      "image_id": "GBA-305",
+      "variant": "summary_skills",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_battle_moves",
+      "image_id": "GBA-306",
+      "variant": "summary_battle_expanded",
+      "probe_pixels": 444,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_move_description",
+      "image_id": "GBA-306",
+      "variant": "summary_battle",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_moves",
+      "image_id": "GBA-308",
+      "variant": "summary_contest_expanded",
+      "probe_pixels": 444,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_effect",
+      "image_id": "GBA-308",
+      "variant": "summary_contest",
+      "probe_pixels": 120,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_description",
+      "image_id": "GBA-308",
+      "variant": "summary_contest",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "boot_dialog",
+      "status": "ROM geometry; NGC visual counterpart",
+      "note": "未以人工近似 NGC 视口伪造像素精度"
+    },
+    {
+      "key": "save_summary",
+      "status": "ROM geometry; NGC visual counterpart",
+      "note": "未以人工近似 NGC 视口伪造像素精度"
+    },
+    {
+      "key": "battle_moves",
+      "status": "ROM geometry; NGC visual counterpart",
+      "note": "未以人工近似 NGC 视口伪造像素精度"
+    },
+    {
+      "key": "battle_move_meta",
+      "status": "ROM geometry; NGC visual counterpart",
+      "note": "未以人工近似 NGC 视口伪造像素精度"
+    },
+    {
+      "key": "berry_tag_description",
+      "status": "ROM geometry; NGC visual counterpart",
+      "note": "未以人工近似 NGC 视口伪造像素精度"
+    },
+    {
+      "key": "condition_identity",
+      "status": "ROM geometry; NGC visual counterpart",
+      "note": "未以人工近似 NGC 视口伪造像素精度"
+    }
+  ],
+  "review_items": [],
+  "gba_instance_checks": [
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-001",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-002",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-003",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-004",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-005",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-006",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-007",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-008",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-009",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-010",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-011",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-012",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-013",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-014",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-015",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-016",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-017",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-021",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-027",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-028",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-029",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-030",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-031",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-032",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-033",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-034",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-037",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-038",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-039",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-040",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-041",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-042",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-043",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-044",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-045",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-046",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-047",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-048",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-049",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-050",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-052",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-053",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-054",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-055",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-056",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-057",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-058",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-059",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-060",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-061",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-062",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-063",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-064",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-065",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-066",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-067",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-068",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-069",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-097",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-098",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-099",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-100",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-101",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-102",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-103",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-104",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-105",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-106",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-107",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-108",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-109",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-110",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-111",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-112",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-113",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-114",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-115",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-116",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-117",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-118",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-119",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-120",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-121",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-122",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-123",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-124",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-125",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-126",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-127",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-128",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-129",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-130",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-131",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-132",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-133",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-134",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-135",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-136",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-137",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-138",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-139",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-140",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-141",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-142",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-143",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-189",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-190",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-191",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-192",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-193",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-194",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-195",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-196",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-245",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-246",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-247",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-248",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-249",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-250",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-256",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-257",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-258",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-259",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-260",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-261",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-262",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-263",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-264",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-265",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-266",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-267",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-268",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-269",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-270",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-271",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-272",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-273",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-274",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-275",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-285",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-288",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-289",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-290",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-291",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-292",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-293",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-294",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-295",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-296",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-297",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-298",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-299",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-300",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-301",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-302",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "field_dialog",
+      "image_id": "GBA-303",
+      "variant": "dialogue_jp",
+      "probe_pixels": 2280,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_connect_menu",
+      "image_id": "GBA-013",
+      "variant": "standard_1",
+      "probe_pixels": 2096,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_pokemon_menu",
+      "image_id": "GBA-016",
+      "variant": "standard_1",
+      "probe_pixels": 2432,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_item_menu",
+      "image_id": "GBA-017",
+      "variant": "standard_1",
+      "probe_pixels": 1872,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_store_menu",
+      "image_id": "GBA-021",
+      "variant": "standard_1",
+      "probe_pixels": 2208,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_item_heading",
+      "image_id": "GBA-018",
+      "variant": "standard_1",
+      "probe_pixels": 1424,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_item_heading",
+      "image_id": "GBA-020",
+      "variant": "standard_1",
+      "probe_pixels": 1424,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_item_list",
+      "image_id": "GBA-018",
+      "variant": "standard_1",
+      "probe_pixels": 3776,
+      "match_fraction": 0.989407
+    },
+    {
+      "key": "pc_item_list",
+      "image_id": "GBA-020",
+      "variant": "standard_1",
+      "probe_pixels": 3776,
+      "match_fraction": 0.996822
+    },
+    {
+      "key": "pc_item_description",
+      "image_id": "GBA-018",
+      "variant": "standard_1",
+      "probe_pixels": 2208,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "pc_item_description",
+      "image_id": "GBA-020",
+      "variant": "standard_1",
+      "probe_pixels": 2208,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_category",
+      "image_id": "GBA-019",
+      "variant": "bag_female",
+      "probe_pixels": 341,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_category",
+      "image_id": "GBA-022",
+      "variant": "bag_female",
+      "probe_pixels": 341,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_category",
+      "image_id": "GBA-023",
+      "variant": "bag_female",
+      "probe_pixels": 341,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_category",
+      "image_id": "GBA-024",
+      "variant": "bag_female",
+      "probe_pixels": 341,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_category",
+      "image_id": "GBA-025",
+      "variant": "bag_female",
+      "probe_pixels": 341,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_category",
+      "image_id": "GBA-026",
+      "variant": "bag_female",
+      "probe_pixels": 341,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_category",
+      "image_id": "GBA-027",
+      "variant": "bag_female",
+      "probe_pixels": 341,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_category",
+      "image_id": "GBA-028",
+      "variant": "bag_female",
+      "probe_pixels": 341,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_list",
+      "image_id": "GBA-019",
+      "variant": "bag_female",
+      "probe_pixels": 3376,
+      "match_fraction": 0.996445
+    },
+    {
+      "key": "bag_list",
+      "image_id": "GBA-022",
+      "variant": "bag_female",
+      "probe_pixels": 3376,
+      "match_fraction": 0.996445
+    },
+    {
+      "key": "bag_list",
+      "image_id": "GBA-023",
+      "variant": "bag_female",
+      "probe_pixels": 3376,
+      "match_fraction": 0.994076
+    },
+    {
+      "key": "bag_list",
+      "image_id": "GBA-024",
+      "variant": "bag_female",
+      "probe_pixels": 3376,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_list",
+      "image_id": "GBA-025",
+      "variant": "bag_female",
+      "probe_pixels": 3376,
+      "match_fraction": 0.999408
+    },
+    {
+      "key": "bag_list",
+      "image_id": "GBA-026",
+      "variant": "bag_female",
+      "probe_pixels": 3376,
+      "match_fraction": 0.996445
+    },
+    {
+      "key": "bag_list",
+      "image_id": "GBA-027",
+      "variant": "bag_female",
+      "probe_pixels": 2496,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_list",
+      "image_id": "GBA-028",
+      "variant": "bag_female",
+      "probe_pixels": 2496,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_list",
+      "image_id": "GBA-278",
+      "variant": "bag_female",
+      "probe_pixels": 3088,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_description",
+      "image_id": "GBA-019",
+      "variant": "bag_male",
+      "probe_pixels": 900,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_description",
+      "image_id": "GBA-022",
+      "variant": "bag_male",
+      "probe_pixels": 900,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_description",
+      "image_id": "GBA-023",
+      "variant": "bag_male",
+      "probe_pixels": 900,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_description",
+      "image_id": "GBA-024",
+      "variant": "bag_male",
+      "probe_pixels": 900,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_description",
+      "image_id": "GBA-025",
+      "variant": "bag_male",
+      "probe_pixels": 900,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_description",
+      "image_id": "GBA-026",
+      "variant": "bag_male",
+      "probe_pixels": 900,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_description",
+      "image_id": "GBA-027",
+      "variant": "bag_male",
+      "probe_pixels": 480,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_description",
+      "image_id": "GBA-028",
+      "variant": "bag_male",
+      "probe_pixels": 480,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_action",
+      "image_id": "GBA-278",
+      "variant": "standard_1",
+      "probe_pixels": 1984,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "bag_prompt",
+      "image_id": "GBA-278",
+      "variant": "bag_male",
+      "probe_pixels": 592,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "shop_menu",
+      "image_id": "GBA-034",
+      "variant": "standard_1",
+      "probe_pixels": 1872,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "shop_list",
+      "image_id": "GBA-035",
+      "variant": "shop",
+      "probe_pixels": 3088,
+      "match_fraction": 0.962435
+    },
+    {
+      "key": "shop_list",
+      "image_id": "GBA-036",
+      "variant": "shop",
+      "probe_pixels": 3088,
+      "match_fraction": 0.962435
+    },
+    {
+      "key": "shop_description",
+      "image_id": "GBA-035",
+      "variant": "shop",
+      "probe_pixels": 902,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "shop_description",
+      "image_id": "GBA-036",
+      "variant": "shop",
+      "probe_pixels": 902,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_prompt",
+      "image_id": "GBA-201",
+      "variant": "standard_1",
+      "probe_pixels": 432,
+      "match_fraction": 0.0,
+      "state": "annotated_candidate_not_visible"
+    },
+    {
+      "key": "party_prompt",
+      "image_id": "GBA-214",
+      "variant": "standard_1",
+      "probe_pixels": 2880,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_prompt",
+      "image_id": "GBA-229",
+      "variant": "standard_1",
+      "probe_pixels": 432,
+      "match_fraction": 0.0,
+      "state": "annotated_candidate_not_visible"
+    },
+    {
+      "key": "party_short_prompt",
+      "image_id": "GBA-051",
+      "variant": "standard_1",
+      "probe_pixels": 2432,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_short_prompt",
+      "image_id": "GBA-091",
+      "variant": "standard_1",
+      "probe_pixels": 2432,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_short_prompt",
+      "image_id": "GBA-215",
+      "variant": "standard_1",
+      "probe_pixels": 2432,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_cancel",
+      "image_id": "GBA-201",
+      "variant": "party_cancel",
+      "probe_pixels": 384,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_cancel",
+      "image_id": "GBA-214",
+      "variant": "party_cancel",
+      "probe_pixels": 768,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_cancel",
+      "image_id": "GBA-229",
+      "variant": "party_cancel",
+      "probe_pixels": 384,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_field_action",
+      "image_id": "GBA-051",
+      "variant": "standard_1",
+      "probe_pixels": 2208,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_battle_action",
+      "image_id": "GBA-091",
+      "variant": "standard_1",
+      "probe_pixels": 1760,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_battle_action",
+      "image_id": "GBA-215",
+      "variant": "standard_1",
+      "probe_pixels": 1760,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_recovery",
+      "image_id": "GBA-201",
+      "variant": "standard_1",
+      "probe_pixels": 3104,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "party_recovery",
+      "image_id": "GBA-229",
+      "variant": "standard_1",
+      "probe_pixels": 3104,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-070",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-071",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-072",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-073",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-074",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-075",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-076",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-077",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-078",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-079",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-080",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-081",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-082",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-083",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-084",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-085",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-086",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-087",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-088",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-089",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-092",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-093",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-094",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-095",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-096",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-144",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-145",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-146",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-147",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-148",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-149",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-150",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-151",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-152",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-153",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-154",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-155",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-156",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-157",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-158",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-159",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-160",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-161",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-162",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-163",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-164",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-165",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-166",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-167",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-168",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-169",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-170",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-171",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-172",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-173",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-174",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-175",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-176",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-177",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-178",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-179",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-180",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-181",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-182",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-183",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-184",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-185",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-186",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-187",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-188",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-197",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-198",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-199",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-200",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-202",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-203",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-204",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-205",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-206",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-207",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-208",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-209",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-210",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-211",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-212",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-213",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-216",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-217",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-218",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-219",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-220",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-221",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-222",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-223",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-224",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-225",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-226",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-227",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-228",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-230",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-231",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-232",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-233",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-234",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-235",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-236",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-237",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-238",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-239",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-240",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-241",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-242",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-243",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-244",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-251",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-252",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-253",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-254",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_message",
+      "image_id": "GBA-255",
+      "variant": "battle_red",
+      "probe_pixels": 3400,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_prompt",
+      "image_id": "GBA-090",
+      "variant": "battle_red",
+      "probe_pixels": 1860,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "battle_action",
+      "image_id": "GBA-090",
+      "variant": "standard_1",
+      "probe_pixels": 1872,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "blender_message",
+      "image_id": "GBA-276",
+      "variant": "standard_1",
+      "probe_pixels": 3776,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "blender_message",
+      "image_id": "GBA-277",
+      "variant": "standard_1",
+      "probe_pixels": 3776,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "blender_message",
+      "image_id": "GBA-282",
+      "variant": "standard_1",
+      "probe_pixels": 3776,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "blender_message",
+      "image_id": "GBA-283",
+      "variant": "standard_1",
+      "probe_pixels": 3776,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "blender_message",
+      "image_id": "GBA-286",
+      "variant": "standard_1",
+      "probe_pixels": 3776,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "block_title",
+      "image_id": "GBA-284",
+      "variant": "pokeblock",
+      "probe_pixels": 428,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "block_title",
+      "image_id": "GBA-285",
+      "variant": "pokeblock",
+      "probe_pixels": 428,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "block_list",
+      "image_id": "GBA-284",
+      "variant": "pokeblock",
+      "probe_pixels": 1004,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "block_list",
+      "image_id": "GBA-285",
+      "variant": "pokeblock",
+      "probe_pixels": 777,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "block_flavors",
+      "image_id": "GBA-284",
+      "variant": "pokeblock",
+      "probe_pixels": 1098,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "block_flavors",
+      "image_id": "GBA-285",
+      "variant": "pokeblock",
+      "probe_pixels": 694,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "condition_title",
+      "image_id": "GBA-287",
+      "variant": "condition_title",
+      "probe_pixels": 2104,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "condition_graph",
+      "image_id": "GBA-287",
+      "variant": "condition",
+      "probe_pixels": 1674,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "condition_hint",
+      "image_id": "GBA-287",
+      "variant": "condition_hint",
+      "probe_pixels": 358,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "condition_message",
+      "image_id": "GBA-287",
+      "variant": "standard_1",
+      "probe_pixels": 3552,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_personal",
+      "image_id": "GBA-304",
+      "variant": "summary_info",
+      "probe_pixels": 93,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_personal",
+      "image_id": "GBA-310",
+      "variant": "summary_info",
+      "probe_pixels": 93,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_ability",
+      "image_id": "GBA-304",
+      "variant": "summary_info",
+      "probe_pixels": 340,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_ability",
+      "image_id": "GBA-310",
+      "variant": "summary_info",
+      "probe_pixels": 340,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_memo",
+      "image_id": "GBA-304",
+      "variant": "summary_info",
+      "probe_pixels": 340,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_memo",
+      "image_id": "GBA-310",
+      "variant": "summary_info",
+      "probe_pixels": 340,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_item",
+      "image_id": "GBA-305",
+      "variant": "summary_skills",
+      "probe_pixels": 172,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_item",
+      "image_id": "GBA-311",
+      "variant": "summary_skills",
+      "probe_pixels": 172,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_ribbon",
+      "image_id": "GBA-305",
+      "variant": "summary_skills",
+      "probe_pixels": 156,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_ribbon",
+      "image_id": "GBA-311",
+      "variant": "summary_skills",
+      "probe_pixels": 156,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_stats",
+      "image_id": "GBA-305",
+      "variant": "summary_skills",
+      "probe_pixels": 380,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_stats",
+      "image_id": "GBA-311",
+      "variant": "summary_skills",
+      "probe_pixels": 380,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_experience",
+      "image_id": "GBA-305",
+      "variant": "summary_skills",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_experience",
+      "image_id": "GBA-311",
+      "variant": "summary_skills",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_battle_moves",
+      "image_id": "GBA-306",
+      "variant": "summary_battle_expanded",
+      "probe_pixels": 444,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_battle_moves",
+      "image_id": "GBA-307",
+      "variant": "summary_battle_expanded",
+      "probe_pixels": 444,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_battle_moves",
+      "image_id": "GBA-312",
+      "variant": "summary_battle",
+      "probe_pixels": 412,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_battle_moves",
+      "image_id": "GBA-313",
+      "variant": "summary_battle_expanded",
+      "probe_pixels": 444,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_move_description",
+      "image_id": "GBA-306",
+      "variant": "summary_battle",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_move_description",
+      "image_id": "GBA-307",
+      "variant": "summary_battle",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_move_description",
+      "image_id": "GBA-312",
+      "variant": "summary_battle",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_move_description",
+      "image_id": "GBA-313",
+      "variant": "summary_battle",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_moves",
+      "image_id": "GBA-308",
+      "variant": "summary_contest_expanded",
+      "probe_pixels": 444,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_moves",
+      "image_id": "GBA-309",
+      "variant": "summary_contest_expanded",
+      "probe_pixels": 444,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_moves",
+      "image_id": "GBA-314",
+      "variant": "summary_contest_expanded",
+      "probe_pixels": 444,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_effect",
+      "image_id": "GBA-308",
+      "variant": "summary_contest",
+      "probe_pixels": 120,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_effect",
+      "image_id": "GBA-309",
+      "variant": "summary_contest",
+      "probe_pixels": 120,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_effect",
+      "image_id": "GBA-314",
+      "variant": "summary_contest",
+      "probe_pixels": 120,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_description",
+      "image_id": "GBA-308",
+      "variant": "summary_contest",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_description",
+      "image_id": "GBA-309",
+      "variant": "summary_contest",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    },
+    {
+      "key": "summary_contest_description",
+      "image_id": "GBA-314",
+      "variant": "summary_contest",
+      "probe_pixels": 348,
+      "match_fraction": 1.0
+    }
+  ],
+  "qa_method": "原图 SHA256 校验，5x 单元中心采样；ROM RGB888 乘 0.984 后单通道最大差 <=4 为发现性 QA。它不是最终捕获颜色模型或识别准确率。",
+  "ngc_pixel_accuracy": "未声明；保留链路校准工作",
+  "source_files_unchanged": true
+}

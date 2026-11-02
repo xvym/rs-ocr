@@ -1,0 +1,356 @@
+AXVJ rev0 重点反汇编证据
+SHA256 e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852
+小标题是核查者对行为的说明，不是原作源码符号。
+仅列红宝石地址；蓝宝石资源逐项位置及内容校验见 evidence.json。
+同参数调用检索并不自动绑定用途，不将其伪装成游戏 window ID。
+
+日版蓝框 left=1 top=14 width=22 height=4
+0806266C: 00b5     push     {lr}
+0806266E: 81b0     sub      sp, #4
+08062670: 0421     movs     r1, #4
+08062672: 0091     str      r1, [sp]
+08062674: 0121     movs     r1, #1
+08062676: 0e22     movs     r2, #0xe
+08062678: 1623     movs     r3, #0x16
+0806267A: fff79dff bl       #0x80625b8
+0806267E: 01b0     add      sp, #4
+08062680: 01bc     pop      {r0}
+08062682: 0047     bx       r0
+
+标准窗口包装函数
+0806F224: 70b5     push     {r4, r5, r6, lr}
+0806F226: 81b0     sub      sp, #4
+0806F228: 041c     adds     r4, r0, #0
+0806F22A: 0d1c     adds     r5, r1, #0
+0806F22C: 161c     adds     r6, r2, #0
+0806F22E: 2406     lsls     r4, r4, #0x18
+0806F230: 240e     lsrs     r4, r4, #0x18
+0806F232: 2d06     lsls     r5, r5, #0x18
+0806F234: 2d0e     lsrs     r5, r5, #0x18
+0806F236: 3606     lsls     r6, r6, #0x18
+0806F238: 360e     lsrs     r6, r6, #0x18
+0806F23A: 1b06     lsls     r3, r3, #0x18
+0806F23C: 1b0e     lsrs     r3, r3, #0x18
+0806F23E: 0648     ldr      r0, [pc, #0x18] ; [0x0806F258]=0x0202E6E8
+0806F240: 0068     ldr      r0, [r0]
+0806F242: 0093     str      r3, [sp]
+0806F244: 211c     adds     r1, r4, #0
+0806F246: 2a1c     adds     r2, r5, #0
+0806F248: 331c     adds     r3, r6, #0
+0806F24A: f2f76fff bl       #0x806212c
+0806F24E: 01b0     add      sp, #4
+0806F250: 70bc     pop      {r4, r5, r6}
+0806F252: 01bc     pop      {r0}
+0806F254: 0047     bx       r0
+
+PC 列表、说明和标题窗口参数
+08135AC4: 0e20     movs     r0, #0xe
+08135AC6: 0021     movs     r1, #0
+08135AC8: 1d22     movs     r2, #0x1d
+08135ACA: 1323     movs     r3, #0x13
+08135ACC: 39f7aafb bl       #0x806f224
+08135AD0: 0020     movs     r0, #0
+08135AD2: 0c21     movs     r1, #0xc
+08135AD4: 0d22     movs     r2, #0xd
+08135AD6: 1323     movs     r3, #0x13
+08135AD8: 39f7a4fb bl       #0x806f224
+08135ADC: 0020     movs     r0, #0
+08135ADE: 0021     movs     r1, #0
+08135AE0: 0a22     movs     r2, #0xa
+08135AE2: 0323     movs     r3, #3
+08135AE4: 39f79efb bl       #0x806f224
+
+背包说明清字范围
+080A0CD6: 0020     movs     r0, #0
+080A0CD8: 0d21     movs     r1, #0xd
+080A0CDA: 0d22     movs     r2, #0xd
+080A0CDC: 1423     movs     r3, #0x14
+080A0CDE: cef75ffa bl       #0x806f1a0
+
+背包说明文字坐标
+080A0D30: 201c     adds     r0, r4, #0
+080A0D32: 04f07bfb bl       #0x80a542c
+080A0D36: 0121     movs     r1, #1
+080A0D38: 0d22     movs     r2, #0xd
+080A0D3A: cef717fa bl       #0x806f16c
+
+背包操作菜单清字及四操作框
+080A0E86: 0020     movs     r0, #0
+080A0E88: 0d21     movs     r1, #0xd
+080A0E8A: 0d22     movs     r2, #0xd
+080A0E8C: 1423     movs     r3, #0x14
+080A0E8E: cef787f9 bl       #0x806f1a0
+080A0E92: 0f4d     ldr      r5, [pc, #0x3c] ; [0x080A0ED0]=0x02038260
+080A0E94: 2c78     ldrb     r4, [r5]
+080A0E96: 042c     cmp      r4, #4
+080A0E98: 4ad1     bne      #0x80a0f30
+080A0E9A: 0020     movs     r0, #0
+080A0E9C: 0721     movs     r1, #7
+080A0E9E: 0d22     movs     r2, #0xd
+080A0EA0: 0c23     movs     r3, #0xc
+080A0EA2: cef7bff9 bl       #0x806f224
+
+背包六操作框
+080A0F30: 0020     movs     r0, #0
+080A0F32: 0521     movs     r1, #5
+080A0F34: 0d22     movs     r2, #0xd
+080A0F36: 0c23     movs     r3, #0xc
+080A0F38: cef774f9 bl       #0x806f224
+
+背包操作提示文字坐标
+080A0FB6: 0748     ldr      r0, [pc, #0x1c] ; [0x080A0FD4]=0x083E9B81
+080A0FB8: 0121     movs     r1, #1
+080A0FBA: 0d22     movs     r2, #0xd
+080A0FBC: cef7d6f8 bl       #0x806f16c
+
+队伍返回按钮两行六列 tile，目的 BG_VRAM+0x3CB0
+08068E68: 10b5     push     {r4, lr}
+08068E6A: 86b0     sub      sp, #0x18
+08068E6C: 041c     adds     r4, r0, #0
+08068E6E: 2406     lsls     r4, r4, #0x18
+08068E70: 240e     lsrs     r4, r4, #0x18
+08068E72: 0f49     ldr      r1, [pc, #0x3c] ; [0x08068EB0]=0x0835082C
+08068E74: 6846     mov      r0, sp
+08068E76: 1822     movs     r2, #0x18
+08068E78: 4af194f9 bl       #0x81b31a4
+08068E7C: 0d4b     ldr      r3, [pc, #0x34] ; [0x08068EB4]=0x06003CB0
+08068E7E: 0022     movs     r2, #0
+08068E80: 2403     lsls     r4, r4, #0xc
+08068E82: 5000     lsls     r0, r2, #1
+08068E84: c118     adds     r1, r0, r3
+08068E86: 6844     add      r0, sp, r0
+08068E88: 0088     ldrh     r0, [r0]
+08068E8A: 0019     adds     r0, r0, r4
+08068E8C: 0880     strh     r0, [r1]
+08068E8E: 4031     adds     r1, #0x40
+08068E90: 901d     adds     r0, r2, #6
+08068E92: 4000     lsls     r0, r0, #1
+08068E94: 6844     add      r0, sp, r0
+08068E96: 0088     ldrh     r0, [r0]
+08068E98: 0019     adds     r0, r0, r4
+08068E9A: 0880     strh     r0, [r1]
+08068E9C: 501c     adds     r0, r2, #1
+08068E9E: 0006     lsls     r0, r0, #0x18
+08068EA0: 020e     lsrs     r2, r0, #0x18
+08068EA2: 052a     cmp      r2, #5
+08068EA4: edd9     bls      #0x8068e82
+08068EA6: 06b0     add      sp, #0x18
+08068EA8: 10bc     pop      {r4}
+08068EAA: 01bc     pop      {r0}
+08068EAC: 0047     bx       r0
+
+队伍场景菜单 top=18-2*n，left=20，width=9
+08086B06: 0e4e     ldr      r6, [pc, #0x38] ; [0x08086B40]=0x0202FCC5
+08086B08: 3078     ldrb     r0, [r6]
+08086B0A: 4000     lsls     r0, r0, #1
+08086B0C: 1224     movs     r4, #0x12
+08086B0E: 241a     subs     r4, r4, r0
+08086B10: 2406     lsls     r4, r4, #0x18
+08086B12: 240e     lsrs     r4, r4, #0x18
+08086B14: 3378     ldrb     r3, [r6]
+08086B16: 0b48     ldr      r0, [pc, #0x2c] ; [0x08086B44]=0x0837B324
+08086B18: 0090     str      r0, [sp]
+08086B1A: 0b48     ldr      r0, [pc, #0x2c] ; [0x08086B48]=0x0202FCC6
+08086B1C: 0190     str      r0, [sp, #4]
+08086B1E: 1420     movs     r0, #0x14
+08086B20: 211c     adds     r1, r4, #0
+08086B22: 0922     movs     r2, #9
+08086B24: fff7b2ff bl       #0x8086a8c
+
+队伍菜单 bottom=top+2*n+1 的通用绘制
+08086ABA: 2c19     adds     r4, r5, r4
+08086ABC: 2406     lsls     r4, r4, #0x18
+08086ABE: 240e     lsrs     r4, r4, #0x18
+08086AC0: 4046     mov      r0, r8
+08086AC2: 4300     lsls     r3, r0, #1
+08086AC4: f318     adds     r3, r6, r3
+08086AC6: 0133     adds     r3, #1
+08086AC8: 1b06     lsls     r3, r3, #0x18
+08086ACA: 1b0e     lsrs     r3, r3, #0x18
+08086ACC: 281c     adds     r0, r5, #0
+08086ACE: 311c     adds     r1, r6, #0
+08086AD0: 221c     adds     r2, r4, #0
+08086AD2: e8f7a7fb bl       #0x806f224
+
+保存摘要宽度和图鉴行分支
+08091160: 70b5     push     {r4, r5, r6, lr}
+08091162: 0004     lsls     r0, r0, #0x10
+08091164: 050c     lsrs     r5, r0, #0x10
+08091166: 0904     lsls     r1, r1, #0x10
+08091168: 0c0c     lsrs     r4, r1, #0x10
+0809116A: 0c26     movs     r6, #0xc
+0809116C: 00f0b6f8 bl       #0x80912dc
+08091170: 0006     lsls     r0, r0, #0x18
+08091172: 0028     cmp      r0, #0
+08091174: 00d0     beq      #0x8091178
+08091176: 0d26     movs     r6, #0xd
+08091178: 1f48     ldr      r0, [pc, #0x7c] ; [0x080911F8]=0x00000801
+0809117A: d5f787fa bl       #0x806668c
+0809117E: 0006     lsls     r0, r0, #0x18
+08091180: 0028     cmp      r0, #0
+08091182: 3bd0     beq      #0x80911fc
+08091184: 2806     lsls     r0, r5, #0x18
+08091186: 000e     lsrs     r0, r0, #0x18
+08091188: 2106     lsls     r1, r4, #0x18
+0809118A: 090e     lsrs     r1, r1, #0x18
+0809118C: aa19     adds     r2, r5, r6
+0809118E: 1206     lsls     r2, r2, #0x18
+08091190: 120e     lsrs     r2, r2, #0x18
+08091192: 231c     adds     r3, r4, #0
+08091194: 0b33     adds     r3, #0xb
+08091196: 1b06     lsls     r3, r3, #0x18
+08091198: 1b0e     lsrs     r3, r3, #0x18
+0809119A: def743f8 bl       #0x806f224
+0809119E: 2804     lsls     r0, r5, #0x10
+080911A0: 8021     movs     r1, #0x80
+080911A2: 4902     lsls     r1, r1, #9
+080911A4: 4018     adds     r0, r0, r1
+080911A6: 050c     lsrs     r5, r0, #0x10
+080911A8: 0014     asrs     r0, r0, #0x10
+080911AA: 2104     lsls     r1, r4, #0x10
+080911AC: 8022     movs     r2, #0x80
+080911AE: 5202     lsls     r2, r2, #9
+080911B0: 8918     adds     r1, r1, r2
+080911B2: 0c0c     lsrs     r4, r1, #0x10
+080911B4: 0914     asrs     r1, r1, #0x10
+080911B6: 00f0d1f8 bl       #0x809135c
+
+保存摘要无图鉴行 bottom=top+9
+080911FC: 2806     lsls     r0, r5, #0x18
+080911FE: 000e     lsrs     r0, r0, #0x18
+08091200: 2106     lsls     r1, r4, #0x18
+08091202: 090e     lsrs     r1, r1, #0x18
+08091204: aa19     adds     r2, r5, r6
+08091206: 1206     lsls     r2, r2, #0x18
+08091208: 120e     lsrs     r2, r2, #0x18
+0809120A: 231c     adds     r3, r4, #0
+0809120C: 0933     adds     r3, #9
+0809120E: 1b06     lsls     r3, r3, #0x18
+08091210: 1b0e     lsrs     r3, r3, #0x18
+08091212: def707f8 bl       #0x806f224
+
+日版保存摘要宽度判断，非恒真
+080912DC: 10b5     push     {r4, lr}
+080912DE: fff72fff bl       #0x8091140
+080912E2: 0004     lsls     r0, r0, #0x10
+080912E4: 000c     lsrs     r0, r0, #0x10
+080912E6: 0928     cmp      r0, #9
+080912E8: 0ad8     bhi      #0x8091300
+080912EA: 064c     ldr      r4, [pc, #0x18] ; [0x08091304]=0x02024C04
+080912EC: 201c     adds     r0, r4, #0
+080912EE: 73f73df8 bl       #0x800436c
+080912F2: 0004     lsls     r0, r0, #0x10
+080912F4: 000c     lsrs     r0, r0, #0x10
+080912F6: 0328     cmp      r0, #3
+080912F8: 02d8     bhi      #0x8091300
+080912FA: e089     ldrh     r0, [r4, #0xe]
+080912FC: 0928     cmp      r0, #9
+080912FE: 03d9     bls      #0x8091308
+08091300: 0120     movs     r0, #1
+08091302: 02e0     b        #0x809130a
+
+日版保存摘要宽度判断返回 false
+08091308: 0020     movs     r0, #0
+0809130A: 10bc     pop      {r4}
+0809130C: 02bc     pop      {r1}
+0809130E: 0847     bx       r1
+
+状态图 BG2VOFS/BG3VOFS=6
+08131118: 0248     ldr      r0, [pc, #8] ; [0x08131124]=0x0400001A
+0813111A: 0621     movs     r1, #6
+0813111C: 0180     strh     r1, [r0]
+0813111E: 0430     adds     r0, #4
+08131120: 0180     strh     r1, [r0]
+08131122: 61e0     b        #0x81311e8
+
+状态图性格条复制宽11高4到tile(0,13)
+080ECBA8: 0748     ldr      r0, [pc, #0x1c] ; [0x080ECBC8]=0x0600F000
+080ECBAA: 084b     ldr      r3, [pc, #0x20] ; [0x080ECBCC]=0x083B626C
+080ECBAC: 0021     movs     r1, #0
+080ECBAE: 0091     str      r1, [sp]
+080ECBB0: 0191     str      r1, [sp, #4]
+080ECBB2: 0b22     movs     r2, #0xb
+080ECBB4: 0292     str      r2, [sp, #8]
+080ECBB6: 0421     movs     r1, #4
+080ECBB8: 0391     str      r1, [sp, #0xc]
+080ECBBA: 0492     str      r2, [sp, #0x10]
+080ECBBC: 0021     movs     r1, #0
+080ECBBE: 0d22     movs     r2, #0xd
+080ECBC0: a5f71efe bl       #0x8092800
+
+状态图混合寄存器 BLDCNT=0x844 BLDALPHA=0x40B
+080ECC34: 0849     ldr      r1, [pc, #0x20] ; [0x080ECC58]=0x0400000E
+080ECC36: 094a     ldr      r2, [pc, #0x24] ; [0x080ECC5C]=0x00001E03
+080ECC38: 101c     adds     r0, r2, #0
+080ECC3A: 0880     strh     r0, [r1]
+080ECC3C: 0239     subs     r1, #2
+080ECC3E: 084a     ldr      r2, [pc, #0x20] ; [0x080ECC60]=0x00001702
+080ECC40: 101c     adds     r0, r2, #0
+080ECC42: 0880     strh     r0, [r1]
+080ECC44: 4431     adds     r1, #0x44
+080ECC46: 074a     ldr      r2, [pc, #0x1c] ; [0x080ECC64]=0x00000844
+080ECC48: 101c     adds     r0, r2, #0
+080ECC4A: 0880     strh     r0, [r1]
+080ECC4C: 0231     adds     r1, #2
+080ECC4E: 064a     ldr      r2, [pc, #0x18] ; [0x080ECC68]=0x0000040B
+080ECC50: 101c     adds     r0, r2, #0
+080ECC52: 0880     strh     r0, [r1]
+
+状态图性格文字tile(0,14)，最终受BG3上滚影响
+080ECD10: 0648     ldr      r0, [pc, #0x18] ; [0x080ECD2C]=0x083B4BAC
+080ECD12: 0068     ldr      r0, [r0]
+080ECD14: 0449     ldr      r1, [pc, #0x10] ; [0x080ECD28]=0x0000878C
+080ECD16: 4018     adds     r0, r0, r1
+080ECD18: 0021     movs     r1, #0
+080ECD1A: 0e22     movs     r2, #0xe
+080ECD1C: 82f726fa bl       #0x806f16c
+
+状态图身份文字tile(13,1)，最终受BG3上滚影响
+080EB428: 30b5     push     {r4, r5, lr}
+080EB42A: 85b0     sub      sp, #0x14
+080EB42C: 0004     lsls     r0, r0, #0x10
+080EB42E: 000c     lsrs     r0, r0, #0x10
+080EB430: 041c     adds     r4, r0, #0
+080EB432: 2349     ldr      r1, [pc, #0x8c] ; [0x080EB4C0]=0x083B4BAC
+080EB434: a001     lsls     r0, r4, #6
+080EB436: 234a     ldr      r2, [pc, #0x8c] ; [0x080EB4C4]=0x0000882D
+080EB438: 8018     adds     r0, r0, r2
+080EB43A: 0d68     ldr      r5, [r1]
+080EB43C: 2818     adds     r0, r5, r0
+080EB43E: 0d21     movs     r1, #0xd
+080EB440: 0122     movs     r2, #1
+080EB442: 83f793fe bl       #0x806f16c
+
+树果说明文字tile(4,14)/(4,16)
+08141232: e868     ldr      r0, [r5, #0xc]
+08141234: 0421     movs     r1, #4
+08141236: 0e22     movs     r2, #0xe
+08141238: 2df798ff bl       #0x806f16c
+0814123C: 2869     ldr      r0, [r5, #0x10]
+0814123E: 0421     movs     r1, #4
+08141240: 1022     movs     r2, #0x10
+08141242: 2df793ff bl       #0x806f16c
+
+摘要信息页tilemap加载
+0809A878: 0248     ldr      r0, [pc, #8] ; [0x0809A884]=0x087F0288
+0809A87A: 0349     ldr      r1, [pc, #0xc] ; [0x0809A888]=0x0600E000
+0809A87C: 6ff778ff bl       #0x800a770
+0809A880: 62e0     b        #0x809a948
+
+摘要能力页tilemap加载
+0809A8A0: 0248     ldr      r0, [pc, #8] ; [0x0809A8AC]=0x087F0444
+0809A8A2: 0349     ldr      r1, [pc, #0xc] ; [0x0809A8B0]=0x06004800
+0809A8A4: 6ff764ff bl       #0x800a770
+0809A8A8: 4ee0     b        #0x809a948
+
+摘要战斗招式页tilemap加载
+0809A8B4: 0248     ldr      r0, [pc, #8] ; [0x0809A8C0]=0x087F05A8
+0809A8B6: 0349     ldr      r1, [pc, #0xc] ; [0x0809A8C4]=0x06005800
+0809A8B8: 6ff75aff bl       #0x800a770
+0809A8BC: 44e0     b        #0x809a948
+
+摘要华丽招式页tilemap加载
+0809A8C8: 0248     ldr      r0, [pc, #8] ; [0x0809A8D4]=0x087F071C
+0809A8CA: 0349     ldr      r1, [pc, #0xc] ; [0x0809A8D8]=0x06006800
+0809A8CC: 6ff750ff bl       #0x800a770
+0809A8D0: 3ae0     b        #0x809a948

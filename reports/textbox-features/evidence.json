@@ -1,0 +1,1332 @@
+{
+  "roms": {
+    "AXPJ": {
+      "file": "rom-resource\\0757 - 口袋妖怪蓝宝石 Pocket Monsters - Sapphire_JP__Nintendo__64Mb_.gba",
+      "game_code": "AXPJ",
+      "revision": 0,
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+    },
+    "AXVJ": {
+      "file": "rom-resource\\0760 - 口袋妖怪红宝石 Pocket Monsters - Ruby_JP__Nintendo__64Mb_.gba",
+      "game_code": "AXVJ",
+      "revision": 0,
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+    }
+  },
+  "assets": {
+    "bag_female:gfx": {
+      "offset": "0x7F2134",
+      "gba_address": "0x087F2134",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 4032,
+      "sha256": "194e565f720383484bd6ee584f62e21e79877152347903b3389618c477757c09",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F2134",
+        "AXPJ": "0x087F2134"
+      }
+    },
+    "bag_female:tilemap": {
+      "offset": "0x7F27E0",
+      "gba_address": "0x087F27E0",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 2048,
+      "sha256": "36d2c99f616c796c9abd76faa00a791869d5bceaf2a9ee479fd3e16aaa98aeb2",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F27E0",
+        "AXPJ": "0x087F27E0"
+      }
+    },
+    "bag_female:palette": {
+      "offset": "0x7F27A8",
+      "gba_address": "0x087F27A8",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 64,
+      "sha256": "7239c6b2fa2f7964d06b4de66a0accd946a25ea02227271342059ae1e10834d3",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F27A8",
+        "AXPJ": "0x087F27A8"
+      }
+    },
+    "bag_male:gfx": {
+      "offset": "0x7F2134",
+      "gba_address": "0x087F2134",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 4032,
+      "sha256": "194e565f720383484bd6ee584f62e21e79877152347903b3389618c477757c09",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F2134",
+        "AXPJ": "0x087F2134"
+      }
+    },
+    "bag_male:tilemap": {
+      "offset": "0x7F27E0",
+      "gba_address": "0x087F27E0",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 2048,
+      "sha256": "36d2c99f616c796c9abd76faa00a791869d5bceaf2a9ee479fd3e16aaa98aeb2",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F27E0",
+        "AXPJ": "0x087F27E0"
+      }
+    },
+    "bag_male:palette": {
+      "offset": "0x7F2770",
+      "gba_address": "0x087F2770",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 64,
+      "sha256": "6d40147a9784a0f6c6fb27bfe32976e7c274171ba3538c6070151e5823873a81",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F2770",
+        "AXPJ": "0x087F2770"
+      }
+    },
+    "shop:gfx": {
+      "offset": "0x7F2934",
+      "gba_address": "0x087F2934",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 768,
+      "sha256": "568da83541771677cc3acffb9d827d7fe50b516523c7678bb9e76db68b8da6fe",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F2934",
+        "AXPJ": "0x087F2934"
+      }
+    },
+    "shop:tilemap": {
+      "offset": "0x7F2A58",
+      "gba_address": "0x087F2A58",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 2048,
+      "sha256": "391848676fea7223491910fcfc109ed696aea303ca5a03e68c9a6f8f92b94829",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F2A58",
+        "AXPJ": "0x087F2A58"
+      }
+    },
+    "shop:palette": {
+      "offset": "0x7F2A30",
+      "gba_address": "0x087F2A30",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 32,
+      "sha256": "a7e1c2f8e5f39ecdf619d07597fbff76f76615a7fbabe89e73cab8c3e678b4e2",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F2A30",
+        "AXPJ": "0x087F2A30"
+      }
+    },
+    "summary_info:gfx": {
+      "offset": "0x7EF81C",
+      "gba_address": "0x087EF81C",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 6944,
+      "sha256": "edc332790bec2eaa8a3848b8288ab588b720709fbf127a651a9cd6bff97f1c73",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087EF81C",
+        "AXPJ": "0x087EF81C"
+      }
+    },
+    "summary_info:tilemap": {
+      "offset": "0x7F0288",
+      "gba_address": "0x087F0288",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 2048,
+      "sha256": "88202bb2acd31477bafa2d95bcfde15ed6e8e7ee2ddd52a7e1ac51d2f47e73a1",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F0288",
+        "AXPJ": "0x087F0288"
+      }
+    },
+    "summary_info:palette": {
+      "offset": "0x7F01E8",
+      "gba_address": "0x087F01E8",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 160,
+      "sha256": "658b1dc855150353132bff854b823a0f26d7ff769d7937b542a03d47955daebf",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F01E8",
+        "AXPJ": "0x087F01E8"
+      }
+    },
+    "summary_skills:gfx": {
+      "offset": "0x7EF81C",
+      "gba_address": "0x087EF81C",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 6944,
+      "sha256": "edc332790bec2eaa8a3848b8288ab588b720709fbf127a651a9cd6bff97f1c73",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087EF81C",
+        "AXPJ": "0x087EF81C"
+      }
+    },
+    "summary_skills:tilemap": {
+      "offset": "0x7F0444",
+      "gba_address": "0x087F0444",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 2048,
+      "sha256": "c4677231ae36e7c604e4475517b9e8227aa079ad51a4c4eff45e024325c1be67",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F0444",
+        "AXPJ": "0x087F0444"
+      }
+    },
+    "summary_skills:palette": {
+      "offset": "0x7F01E8",
+      "gba_address": "0x087F01E8",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 160,
+      "sha256": "658b1dc855150353132bff854b823a0f26d7ff769d7937b542a03d47955daebf",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F01E8",
+        "AXPJ": "0x087F01E8"
+      }
+    },
+    "summary_battle:gfx": {
+      "offset": "0x7EF81C",
+      "gba_address": "0x087EF81C",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 6944,
+      "sha256": "edc332790bec2eaa8a3848b8288ab588b720709fbf127a651a9cd6bff97f1c73",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087EF81C",
+        "AXPJ": "0x087EF81C"
+      }
+    },
+    "summary_battle:tilemap": {
+      "offset": "0x7F05A8",
+      "gba_address": "0x087F05A8",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 2048,
+      "sha256": "027fdc9ab3b8767d9d42595ec415339acfa0b4f0b5bb33e25546880bc0065788",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F05A8",
+        "AXPJ": "0x087F05A8"
+      }
+    },
+    "summary_battle:palette": {
+      "offset": "0x7F01E8",
+      "gba_address": "0x087F01E8",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 160,
+      "sha256": "658b1dc855150353132bff854b823a0f26d7ff769d7937b542a03d47955daebf",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F01E8",
+        "AXPJ": "0x087F01E8"
+      }
+    },
+    "summary_contest:gfx": {
+      "offset": "0x7EF81C",
+      "gba_address": "0x087EF81C",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 6944,
+      "sha256": "edc332790bec2eaa8a3848b8288ab588b720709fbf127a651a9cd6bff97f1c73",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087EF81C",
+        "AXPJ": "0x087EF81C"
+      }
+    },
+    "summary_contest:tilemap": {
+      "offset": "0x7F071C",
+      "gba_address": "0x087F071C",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 2048,
+      "sha256": "f4a66ed74357913f16dd4c6ea45f9596d0e238fcfb47a108e5b7454f970bb1d1",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F071C",
+        "AXPJ": "0x087F071C"
+      }
+    },
+    "summary_contest:palette": {
+      "offset": "0x7F01E8",
+      "gba_address": "0x087F01E8",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 160,
+      "sha256": "658b1dc855150353132bff854b823a0f26d7ff769d7937b542a03d47955daebf",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F01E8",
+        "AXPJ": "0x087F01E8"
+      }
+    },
+    "battle_message:gfx": {
+      "offset": "0x67D000",
+      "gba_address": "0x0867D000",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 8192,
+      "sha256": "0b712921c5826b7e59d75357a7f0474945849e7f5e657cc4099c08e21f5e2a14",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x0867D000",
+        "AXPJ": "0x0867D000"
+      }
+    },
+    "battle_message:tilemap": {
+      "offset": "0x67D530",
+      "gba_address": "0x0867D530",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 4096,
+      "sha256": "70fe79456f6a52cbd26202d60e15fa55637d4e7a2bc77a31482238ece02974a5",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x0867D530",
+        "AXPJ": "0x0867D530"
+      }
+    },
+    "battle_message:palette": {
+      "offset": "0x67D4EC",
+      "gba_address": "0x0867D4EC",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 64,
+      "sha256": "80d9187ff118e5a72684f5fb6db05693ac58607916f16977709dc62b2830b5e8",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x0867D4EC",
+        "AXPJ": "0x0867D4EC"
+      }
+    },
+    "pokeblock:gfx": {
+      "offset": "0x7F2C18",
+      "gba_address": "0x087F2C18",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 1280,
+      "sha256": "80ecc45429d25e7aee338849e5be0e5c4ad335b68cee6b3201d9c34b04452374",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F2C18",
+        "AXPJ": "0x087F2C18"
+      }
+    },
+    "pokeblock:tilemap": {
+      "offset": "0x7F3178",
+      "gba_address": "0x087F3178",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 2048,
+      "sha256": "152f307361bf09ded2b96b7c46f0446ecdad9dbabd4824b7549f61b548f0679e",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F3178",
+        "AXPJ": "0x087F3178"
+      }
+    },
+    "pokeblock:palette": {
+      "offset": "0x7F2E20",
+      "gba_address": "0x087F2E20",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 192,
+      "sha256": "a9be77a213d6a393f7fc0993dc566065b0c855c9089461f916fe9817d6393a0f",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F2E20",
+        "AXPJ": "0x087F2E20"
+      }
+    },
+    "condition:gfx": {
+      "offset": "0x3B5908",
+      "gba_address": "0x083B5908",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 4000,
+      "sha256": "ba66eb001cb33a0f5a69fb241879eb0fa03265b12150836435bd541296f36bde",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x083B5908",
+        "AXPJ": "0x083B58EC"
+      }
+    },
+    "condition:tilemap": {
+      "offset": "0x3B608C",
+      "gba_address": "0x083B608C",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 1280,
+      "sha256": "a17ac69f9bd6a616cdf52c418143ff482656eb4474088387e6358189d7e382f4",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x083B608C",
+        "AXPJ": "0x083B6070"
+      }
+    },
+    "condition:palette": {
+      "offset": "0x3B58A8",
+      "gba_address": "0x083B58A8",
+      "encoding": "raw",
+      "decoded_bytes": 32,
+      "sha256": "3cbbe17cf4205226945623f6bb970f90121960f523e12941a3778137bd5a0667",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x083B58A8",
+        "AXPJ": "0x083B588C"
+      }
+    },
+    "berry:gfx": {
+      "offset": "0x7F34F4",
+      "gba_address": "0x087F34F4",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 2880,
+      "sha256": "d430bc9c7d4b884e9030bfba2bd30b09d6560f25654d28df4c227ba530d13749",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F34F4",
+        "AXPJ": "0x087F34F4"
+      }
+    },
+    "berry:tilemap": {
+      "offset": "0x7F39B8",
+      "gba_address": "0x087F39B8",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 2048,
+      "sha256": "c606f66e7646674ae3a084c0d35e73b4692eff6dc1eff9aa91c6ce63f0ed0af7",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F39B8",
+        "AXPJ": "0x087F39B8"
+      }
+    },
+    "berry:palette": {
+      "offset": "0x7F3910",
+      "gba_address": "0x087F3910",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 192,
+      "sha256": "8cbf15a78aa27d260a7c6f3107164edf97378b51f1b68c32a2371381d405c0e0",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087F3910",
+        "AXPJ": "0x087F3910"
+      }
+    },
+    "condition_hint:gfx": {
+      "offset": "0x3B5908",
+      "gba_address": "0x083B5908",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 4000,
+      "sha256": "ba66eb001cb33a0f5a69fb241879eb0fa03265b12150836435bd541296f36bde",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x083B5908",
+        "AXPJ": "0x083B58EC"
+      }
+    },
+    "condition_hint:tilemap": {
+      "offset": "0x3B608C",
+      "gba_address": "0x083B608C",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 1280,
+      "sha256": "a17ac69f9bd6a616cdf52c418143ff482656eb4474088387e6358189d7e382f4",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x083B608C",
+        "AXPJ": "0x083B6070"
+      }
+    },
+    "condition_hint:palette": {
+      "offset": "0x3B58A8",
+      "gba_address": "0x083B58A8",
+      "encoding": "raw",
+      "decoded_bytes": 32,
+      "sha256": "3cbbe17cf4205226945623f6bb970f90121960f523e12941a3778137bd5a0667",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x083B58A8",
+        "AXPJ": "0x083B588C"
+      }
+    },
+    "condition_hint:patch": {
+      "offset": "0x3B626C",
+      "gba_address": "0x083B626C",
+      "encoding": "raw",
+      "decoded_bytes": 88,
+      "sha256": "7abfb8cfbd5bc2ca82c832042d5320f030d5d9c287cd1b59ba63165ba2e079c2",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x083B626C",
+        "AXPJ": "0x083B6250"
+      }
+    },
+    "condition_title:gfx": {
+      "offset": "0x3BA2DC",
+      "gba_address": "0x083BA2DC",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 1536,
+      "sha256": "32b2366996a441d2b185da7adfc50f4e7125fd9ee0d8bd1d2634722f8942741d",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x083BA2DC",
+        "AXPJ": "0x083BA2C0"
+      }
+    },
+    "condition_title:palette": {
+      "offset": "0x3BA168",
+      "gba_address": "0x083BA168",
+      "encoding": "raw",
+      "decoded_bytes": 32,
+      "sha256": "2eeecbf9c50074c7e6214bab7aeb2a0163c6491cd188240c33cda96ce3473af9",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x083BA168",
+        "AXPJ": "0x083BA14C"
+      }
+    },
+    "party_cancel:gfx": {
+      "offset": "0x7EE038",
+      "gba_address": "0x087EE038",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 3712,
+      "sha256": "b91016912d05d771fb8977b360b0cbca25b5ec44b11320cb8d20aded67422857",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087EE038",
+        "AXPJ": "0x087EE038"
+      }
+    },
+    "party_cancel:palette": {
+      "offset": "0x7EE3AC",
+      "gba_address": "0x087EE3AC",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 352,
+      "sha256": "23429569087f28783555420d777445ca106f5745224c4cd6f9d3febefda91f4c",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087EE3AC",
+        "AXPJ": "0x087EE3AC"
+      }
+    },
+    "party_cancel:tilemap": {
+      "offset": "0x35082C",
+      "gba_address": "0x0835082C",
+      "encoding": "raw",
+      "decoded_bytes": 24,
+      "sha256": "228ff6cf124b7c20771280527903a568f6a174a4cae809070555958536ac924e",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x0835082C",
+        "AXPJ": "0x083507BC"
+      }
+    },
+    "party_cancel_selected:gfx": {
+      "offset": "0x7EE038",
+      "gba_address": "0x087EE038",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 3712,
+      "sha256": "b91016912d05d771fb8977b360b0cbca25b5ec44b11320cb8d20aded67422857",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087EE038",
+        "AXPJ": "0x087EE038"
+      }
+    },
+    "party_cancel_selected:palette": {
+      "offset": "0x7EE3AC",
+      "gba_address": "0x087EE3AC",
+      "encoding": "GBA LZ77",
+      "decoded_bytes": 352,
+      "sha256": "23429569087f28783555420d777445ca106f5745224c4cd6f9d3febefda91f4c",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x087EE3AC",
+        "AXPJ": "0x087EE3AC"
+      }
+    },
+    "party_cancel_selected:tilemap": {
+      "offset": "0x35082C",
+      "gba_address": "0x0835082C",
+      "encoding": "raw",
+      "decoded_bytes": 24,
+      "sha256": "228ff6cf124b7c20771280527903a568f6a174a4cae809070555958536ac924e",
+      "identical_content_in_both_roms": true,
+      "locations": {
+        "AXVJ": "0x0835082C",
+        "AXPJ": "0x083507BC"
+      }
+    }
+  },
+  "standard_frame_table": {
+    "AXPJ": "0x0834FE38",
+    "AXVJ": "0x0834FEA8"
+  },
+  "standard_frame_styles_content_identical_in_both_roms": true,
+  "menu_text_palette": {
+    "offset": "0x1B3A8C",
+    "entries": [
+      {
+        "index": 0,
+        "rgb555": "0x0000",
+        "rgb5": [
+          0,
+          0,
+          0
+        ],
+        "rgb888": [
+          0,
+          0,
+          0
+        ],
+        "hex": "#000000"
+      },
+      {
+        "index": 1,
+        "rgb555": "0x2529",
+        "rgb5": [
+          9,
+          9,
+          9
+        ],
+        "rgb888": [
+          74,
+          74,
+          74
+        ],
+        "hex": "#4A4A4A"
+      },
+      {
+        "index": 2,
+        "rgb555": "0x001F",
+        "rgb5": [
+          31,
+          0,
+          0
+        ],
+        "rgb888": [
+          255,
+          0,
+          0
+        ],
+        "hex": "#FF0000"
+      },
+      {
+        "index": 3,
+        "rgb555": "0x03E0",
+        "rgb5": [
+          0,
+          31,
+          0
+        ],
+        "rgb888": [
+          0,
+          255,
+          0
+        ],
+        "hex": "#00FF00"
+      },
+      {
+        "index": 4,
+        "rgb555": "0x7C00",
+        "rgb5": [
+          0,
+          0,
+          31
+        ],
+        "rgb888": [
+          0,
+          0,
+          255
+        ],
+        "hex": "#0000FF"
+      },
+      {
+        "index": 5,
+        "rgb555": "0x03FF",
+        "rgb5": [
+          31,
+          31,
+          0
+        ],
+        "rgb888": [
+          255,
+          255,
+          0
+        ],
+        "hex": "#FFFF00"
+      },
+      {
+        "index": 6,
+        "rgb555": "0x7FE0",
+        "rgb5": [
+          0,
+          31,
+          31
+        ],
+        "rgb888": [
+          0,
+          255,
+          255
+        ],
+        "hex": "#00FFFF"
+      },
+      {
+        "index": 7,
+        "rgb555": "0x7C1F",
+        "rgb5": [
+          31,
+          0,
+          31
+        ],
+        "rgb888": [
+          255,
+          0,
+          255
+        ],
+        "hex": "#FF00FF"
+      },
+      {
+        "index": 8,
+        "rgb555": "0x675A",
+        "rgb5": [
+          26,
+          26,
+          25
+        ],
+        "rgb888": [
+          214,
+          214,
+          206
+        ],
+        "hex": "#D6D6CE"
+      },
+      {
+        "index": 9,
+        "rgb555": "0x0000",
+        "rgb5": [
+          0,
+          0,
+          0
+        ],
+        "rgb888": [
+          0,
+          0,
+          0
+        ],
+        "hex": "#000000"
+      },
+      {
+        "index": 10,
+        "rgb555": "0x0000",
+        "rgb5": [
+          0,
+          0,
+          0
+        ],
+        "rgb888": [
+          0,
+          0,
+          0
+        ],
+        "hex": "#000000"
+      },
+      {
+        "index": 11,
+        "rgb555": "0x779C",
+        "rgb5": [
+          28,
+          28,
+          29
+        ],
+        "rgb888": [
+          230,
+          230,
+          239
+        ],
+        "hex": "#E6E6EF"
+      },
+      {
+        "index": 12,
+        "rgb555": "0x7FFF",
+        "rgb5": [
+          31,
+          31,
+          31
+        ],
+        "rgb888": [
+          255,
+          255,
+          255
+        ],
+        "hex": "#FFFFFF"
+      },
+      {
+        "index": 13,
+        "rgb555": "0x7F33",
+        "rgb5": [
+          19,
+          25,
+          31
+        ],
+        "rgb888": [
+          156,
+          206,
+          255
+        ],
+        "hex": "#9CCEFF"
+      },
+      {
+        "index": 14,
+        "rgb555": "0x72EF",
+        "rgb5": [
+          15,
+          23,
+          28
+        ],
+        "rgb888": [
+          123,
+          189,
+          230
+        ],
+        "hex": "#7BBDE6"
+      },
+      {
+        "index": 15,
+        "rgb555": "0x7FFF",
+        "rgb5": [
+          31,
+          31,
+          31
+        ],
+        "rgb888": [
+          255,
+          255,
+          255
+        ],
+        "hex": "#FFFFFF"
+      }
+    ],
+    "locations": {
+      "AXVJ": "0x081B3A8C",
+      "AXPJ": "0x081B3A1C"
+    },
+    "default_foreground_index": 1,
+    "default_shadow_index": 8,
+    "note": "具体窗口可能选择其他颜色索引；这些不是所有字段的强制颜色"
+  },
+  "important_code": {
+    "dialogue_draw": "0x0806266C",
+    "party_return": "0x08068E68",
+    "condition_scroll": "0x08131118",
+    "condition_blend": "0x080ECC34",
+    "condition_hint_patch": "0x080ECBA8",
+    "berry_description": "0x08141234",
+    "bag_description": "0x080A0CD0",
+    "bag_actions": "0x080A0E80",
+    "save_summary": "0x08091160",
+    "save_width_predicate": "0x080912DC"
+  },
+  "important_code_address_game": "AXVJ；两版本的同参数绘制调用另按版本列出，不假设所有函数地址相同",
+  "evidence_method": "ROM 压缩资源和调色板解码；原生窗口重建；固定像素/边界与截图比对。美版源码仅提供结构和机制参照。",
+  "source_integrity": {
+    "verified": true,
+    "archive_sha256": "a9c6cd518cef1ee0daf724729b3be2add87c43d78cff11bf4ac69f6a05bf7d0a",
+    "method": "所有引用源码与固定 SHA256 源码归档中的成员逐字节相等"
+  },
+  "condition_text_palettes": {
+    "BG11": {
+      "entries": [
+        {
+          "index": 0,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 1,
+          "rgb555": "0x7F28",
+          "rgb5": [
+            8,
+            25,
+            31
+          ],
+          "rgb888": [
+            66,
+            206,
+            255
+          ],
+          "hex": "#42CEFF"
+        },
+        {
+          "index": 2,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 3,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 4,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 5,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 6,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 7,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 8,
+          "rgb555": "0x5E20",
+          "rgb5": [
+            0,
+            17,
+            23
+          ],
+          "rgb888": [
+            0,
+            140,
+            189
+          ],
+          "hex": "#008CBD"
+        },
+        {
+          "index": 9,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 10,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 11,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 12,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 13,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 14,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 15,
+          "rgb555": "0x7B77",
+          "rgb5": [
+            23,
+            27,
+            30
+          ],
+          "rgb888": [
+            189,
+            222,
+            247
+          ],
+          "hex": "#BDDEF7"
+        }
+      ],
+      "locations": {
+        "AXVJ": "0x083B58C8",
+        "AXPJ": "0x083B58AC"
+      }
+    },
+    "BG12": {
+      "entries": [
+        {
+          "index": 0,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 1,
+          "rgb555": "0x4A7F",
+          "rgb5": [
+            31,
+            19,
+            18
+          ],
+          "rgb888": [
+            255,
+            156,
+            148
+          ],
+          "hex": "#FF9C94"
+        },
+        {
+          "index": 2,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 3,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 4,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 5,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 6,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 7,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 8,
+          "rgb555": "0x2977",
+          "rgb5": [
+            23,
+            11,
+            10
+          ],
+          "rgb888": [
+            189,
+            90,
+            82
+          ],
+          "hex": "#BD5A52"
+        },
+        {
+          "index": 9,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 10,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 11,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 12,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 13,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 14,
+          "rgb555": "0x0000",
+          "rgb5": [
+            0,
+            0,
+            0
+          ],
+          "rgb888": [
+            0,
+            0,
+            0
+          ],
+          "hex": "#000000"
+        },
+        {
+          "index": 15,
+          "rgb555": "0x7B77",
+          "rgb5": [
+            23,
+            27,
+            30
+          ],
+          "rgb888": [
+            189,
+            222,
+            247
+          ],
+          "hex": "#BDDEF7"
+        }
+      ],
+      "locations": {
+        "AXVJ": "0x083B58E8",
+        "AXPJ": "0x083B58CC"
+      }
+    }
+  }
+}

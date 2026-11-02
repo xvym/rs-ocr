@@ -1,0 +1,220 @@
+AXPJ SHA256 6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9
+
+bag graphics load
+0809FAF0: ldr      r0, [pc, #8] ; [0x0809FAFC] = 0x087F2134
+0809FAF2: ldr      r1, [pc, #0xc] ; [0x0809FB00] = 0x06004000
+0809FAF4: bl       #0x800a770
+0809FAF8: b        #0x809fb7a
+
+bag tilemap load
+0809FB04: ldr      r0, [pc, #8] ; [0x0809FB10] = 0x087F27E0
+0809FB06: ldr      r1, [pc, #0xc] ; [0x0809FB14] = 0x020221CC
+0809FB08: bl       #0x800a764
+0809FB0C: b        #0x809fb7a
+
+shop graphics and tilemap load
+080AEA5A: ldr      r0, [pc, #0xb0] ; [0x080AEB0C] = 0x087F2934
+080AEA5C: ldr      r1, [pc, #0xb0] ; [0x080AEB10] = 0x06007C00
+080AEA5E: bl       #0x800a770
+080AEA62: ldr      r0, [pc, #0xb0] ; [0x080AEB14] = 0x087F2A58
+080AEA64: ldr      r1, [pc, #0xb0] ; [0x080AEB18] = 0x02018000
+080AEA66: bl       #0x800a764
+080AEA6A: ldr      r0, [pc, #0xb0] ; [0x080AEB1C] = 0x087F2A30
+080AEA6C: movs     r1, #0xc0
+080AEA6E: movs     r2, #0x20
+080AEA70: bl       #0x8070a50
+
+summary info tilemap load
+0809A878: ldr      r0, [pc, #8] ; [0x0809A884] = 0x087F0288
+0809A87A: ldr      r1, [pc, #0xc] ; [0x0809A888] = 0x0600E000
+0809A87C: bl       #0x800a770
+0809A880: b        #0x809a948
+
+summary skills tilemap load
+0809A8A0: ldr      r0, [pc, #8] ; [0x0809A8AC] = 0x087F0444
+0809A8A2: ldr      r1, [pc, #0xc] ; [0x0809A8B0] = 0x06004800
+0809A8A4: bl       #0x800a770
+0809A8A8: b        #0x809a948
+
+summary battle tilemap load
+0809A8B4: ldr      r0, [pc, #8] ; [0x0809A8C0] = 0x087F05A8
+0809A8B6: ldr      r1, [pc, #0xc] ; [0x0809A8C4] = 0x06005800
+0809A8B8: bl       #0x800a770
+0809A8BC: b        #0x809a948
+
+summary contest tilemap load
+0809A8C8: ldr      r0, [pc, #8] ; [0x0809A8D4] = 0x087F071C
+0809A8CA: ldr      r1, [pc, #0xc] ; [0x0809A8D8] = 0x06006800
+0809A8CC: bl       #0x800a770
+0809A8D0: b        #0x809a948
+
+bag description clear
+080A0CD6: movs     r0, #0
+080A0CD8: movs     r1, #0xd
+080A0CDA: movs     r2, #0xd
+080A0CDC: movs     r3, #0x14
+080A0CDE: bl       #0x806f1a4
+
+bag description print
+080A0D30: adds     r0, r4, #0
+080A0D32: bl       #0x80a542c
+080A0D36: movs     r1, #1
+080A0D38: movs     r2, #0xd
+080A0D3A: bl       #0x806f170
+
+bag action clear and four-option frame
+080A0E86: movs     r0, #0
+080A0E88: movs     r1, #0xd
+080A0E8A: movs     r2, #0xd
+080A0E8C: movs     r3, #0x14
+080A0E8E: bl       #0x806f1a4
+080A0E92: ldr      r5, [pc, #0x3c] ; [0x080A0ED0] = 0x02038260
+080A0E94: ldrb     r4, [r5]
+080A0E96: cmp      r4, #4
+080A0E98: bne      #0x80a0f30
+080A0E9A: movs     r0, #0
+080A0E9C: movs     r1, #7
+080A0E9E: movs     r2, #0xd
+080A0EA0: movs     r3, #0xc
+080A0EA2: bl       #0x806f228
+
+bag six-option frame
+080A0F30: movs     r0, #0
+080A0F32: movs     r1, #5
+080A0F34: movs     r2, #0xd
+080A0F36: movs     r3, #0xc
+080A0F38: bl       #0x806f228
+
+bag prompt print
+080A0FB6: ldr      r0, [pc, #0x1c] ; [0x080A0FD4] = 0x083E9B69
+080A0FB8: movs     r1, #1
+080A0FBA: movs     r2, #0xd
+080A0FBC: bl       #0x806f170
+
+PC list and description frame coordinates
+08135AC4: movs     r0, #0xe
+08135AC6: movs     r1, #0
+08135AC8: movs     r2, #0x1d
+08135ACA: movs     r3, #0x13
+08135ACC: bl       #0x806f228
+08135AD0: movs     r0, #0
+08135AD2: movs     r1, #0xc
+08135AD4: movs     r2, #0xd
+08135AD6: movs     r3, #0x13
+08135AD8: bl       #0x806f228
+08135ADC: movs     r0, #0
+08135ADE: movs     r1, #0
+08135AE0: movs     r2, #0xa
+08135AE2: movs     r3, #3
+08135AE4: bl       #0x806f228
+
+
+AXVJ SHA256 e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852
+
+bag graphics load
+0809FAF0: ldr      r0, [pc, #8] ; [0x0809FAFC] = 0x087F2134
+0809FAF2: ldr      r1, [pc, #0xc] ; [0x0809FB00] = 0x06004000
+0809FAF4: bl       #0x800a770
+0809FAF8: b        #0x809fb7a
+
+bag tilemap load
+0809FB04: ldr      r0, [pc, #8] ; [0x0809FB10] = 0x087F27E0
+0809FB06: ldr      r1, [pc, #0xc] ; [0x0809FB14] = 0x020221CC
+0809FB08: bl       #0x800a764
+0809FB0C: b        #0x809fb7a
+
+shop graphics and tilemap load
+080AEA5A: ldr      r0, [pc, #0xb0] ; [0x080AEB0C] = 0x087F2934
+080AEA5C: ldr      r1, [pc, #0xb0] ; [0x080AEB10] = 0x06007C00
+080AEA5E: bl       #0x800a770
+080AEA62: ldr      r0, [pc, #0xb0] ; [0x080AEB14] = 0x087F2A58
+080AEA64: ldr      r1, [pc, #0xb0] ; [0x080AEB18] = 0x02018000
+080AEA66: bl       #0x800a764
+080AEA6A: ldr      r0, [pc, #0xb0] ; [0x080AEB1C] = 0x087F2A30
+080AEA6C: movs     r1, #0xc0
+080AEA6E: movs     r2, #0x20
+080AEA70: bl       #0x8070a4c
+
+summary info tilemap load
+0809A878: ldr      r0, [pc, #8] ; [0x0809A884] = 0x087F0288
+0809A87A: ldr      r1, [pc, #0xc] ; [0x0809A888] = 0x0600E000
+0809A87C: bl       #0x800a770
+0809A880: b        #0x809a948
+
+summary skills tilemap load
+0809A8A0: ldr      r0, [pc, #8] ; [0x0809A8AC] = 0x087F0444
+0809A8A2: ldr      r1, [pc, #0xc] ; [0x0809A8B0] = 0x06004800
+0809A8A4: bl       #0x800a770
+0809A8A8: b        #0x809a948
+
+summary battle tilemap load
+0809A8B4: ldr      r0, [pc, #8] ; [0x0809A8C0] = 0x087F05A8
+0809A8B6: ldr      r1, [pc, #0xc] ; [0x0809A8C4] = 0x06005800
+0809A8B8: bl       #0x800a770
+0809A8BC: b        #0x809a948
+
+summary contest tilemap load
+0809A8C8: ldr      r0, [pc, #8] ; [0x0809A8D4] = 0x087F071C
+0809A8CA: ldr      r1, [pc, #0xc] ; [0x0809A8D8] = 0x06006800
+0809A8CC: bl       #0x800a770
+0809A8D0: b        #0x809a948
+
+bag description clear
+080A0CD6: movs     r0, #0
+080A0CD8: movs     r1, #0xd
+080A0CDA: movs     r2, #0xd
+080A0CDC: movs     r3, #0x14
+080A0CDE: bl       #0x806f1a0
+
+bag description print
+080A0D30: adds     r0, r4, #0
+080A0D32: bl       #0x80a542c
+080A0D36: movs     r1, #1
+080A0D38: movs     r2, #0xd
+080A0D3A: bl       #0x806f16c
+
+bag action clear and four-option frame
+080A0E86: movs     r0, #0
+080A0E88: movs     r1, #0xd
+080A0E8A: movs     r2, #0xd
+080A0E8C: movs     r3, #0x14
+080A0E8E: bl       #0x806f1a0
+080A0E92: ldr      r5, [pc, #0x3c] ; [0x080A0ED0] = 0x02038260
+080A0E94: ldrb     r4, [r5]
+080A0E96: cmp      r4, #4
+080A0E98: bne      #0x80a0f30
+080A0E9A: movs     r0, #0
+080A0E9C: movs     r1, #7
+080A0E9E: movs     r2, #0xd
+080A0EA0: movs     r3, #0xc
+080A0EA2: bl       #0x806f224
+
+bag six-option frame
+080A0F30: movs     r0, #0
+080A0F32: movs     r1, #5
+080A0F34: movs     r2, #0xd
+080A0F36: movs     r3, #0xc
+080A0F38: bl       #0x806f224
+
+bag prompt print
+080A0FB6: ldr      r0, [pc, #0x1c] ; [0x080A0FD4] = 0x083E9B81
+080A0FB8: movs     r1, #1
+080A0FBA: movs     r2, #0xd
+080A0FBC: bl       #0x806f16c
+
+PC list and description frame coordinates
+08135AC4: movs     r0, #0xe
+08135AC6: movs     r1, #0
+08135AC8: movs     r2, #0x1d
+08135ACA: movs     r3, #0x13
+08135ACC: bl       #0x806f224
+08135AD0: movs     r0, #0
+08135AD2: movs     r1, #0xc
+08135AD4: movs     r2, #0xd
+08135AD6: movs     r3, #0x13
+08135AD8: bl       #0x806f224
+08135ADC: movs     r0, #0
+08135ADE: movs     r1, #0
+08135AE0: movs     r2, #0xa
+08135AE2: movs     r3, #3
+08135AE4: bl       #0x806f224
