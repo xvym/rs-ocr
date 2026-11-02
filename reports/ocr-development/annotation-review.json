@@ -1,0 +1,21 @@
+{
+  "status": "proposed_corrections_pending_independent_review",
+  "reference_modified": false,
+  "method": "Assistant visually re-read the original screenshot crops after comparison exposed discrepancies; ROM glyph matches provide additional pixel evidence. This is not independent human acceptance, and neither proposal changes the current accuracy denominator or strict comparison.",
+  "proposals": [
+    {
+      "instance_id": "NGC-086-R05",
+      "crop": "../../outputs/ocr-ground-truth-20261102/crops/NGC-086-R05.png",
+      "candidate": "とても かわいい はなが さく。\nまっかな みは とても からい",
+      "proposed": "とても かわいい はなが さく。\nまっかな みは とても からい。",
+      "reason": "A visible Japanese full stop follows the last い. The raw pixel OCR also matches the native full-stop glyph exactly."
+    },
+    {
+      "instance_id": "NGC-093-R05",
+      "crop": "../../outputs/ocr-ground-truth-20261102/crops/NGC-093-R05.png",
+      "candidate": "ももいろポロック ができた！\nレベル17で なめらかさは21だ",
+      "proposed": "ももいろポロック ができた！\nレベル11で なめらかさは21だ",
+      "reason": "The two level digits are visually identical 1 glyphs, not 1 followed by 7. Both match the native font-3 1 bitmap exactly."
+    }
+  ]
+}

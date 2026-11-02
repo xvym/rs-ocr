@@ -1,0 +1,223 @@
+{
+  "policy": {
+    "rule": "exclude_when_target_text_occluded",
+    "description": "仅目标文字或其正常显示区域被遮挡、或目标实际不可见时排除；只遮住框边缘、底板或空白且文字完整时保留识别。未拆分原有目标区域，不能补写隐藏文字。",
+    "geometry": "原生框和上层窗口重叠用于发现复核候选，不直接作为排除条件；匹配完整可见文字时扣除被遮挡的固定特征像素。",
+    "evidence": "已登记遮挡关系及已核查共现组合用于发现候选；最终文字可见性按 occlusion_review.json 的原图目视复核登记，不是 OCR 引擎输出，也不是运行时按截图编号判断。",
+    "scope_field": "recognition_in_scope；expect_region_visible 仅表示画面可见事实，不能替代识别范围。",
+    "archive": "保留全部585条原始区域转录供追溯；排除记录不进入字符、漏检或译文覆盖分母，单独检查是否被错误输出。"
+  },
+  "count": 11,
+  "regions": [
+    {
+      "instance_id": "GBA-027-R04",
+      "image_id": "GBA-027",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-42-31.png",
+      "region_type": "bag_description",
+      "region_name": "背包左下说明",
+      "recognition_box": [
+        4,
+        100,
+        104,
+        55
+      ],
+      "recognition_occluded_by": [
+        "field_dialog"
+      ],
+      "target_text_visibility": "text_area_covered",
+      "target_text_visibility_reason": "左下说明的正常文字区被底部对白覆盖，露出部分为空白；不能将不可观察的底层文字区作为完整空框目标。",
+      "recognition_exclusion_reason": "occluded_text"
+    },
+    {
+      "instance_id": "GBA-028-R04",
+      "image_id": "GBA-028",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-42-33.png",
+      "region_type": "bag_description",
+      "region_name": "背包左下说明",
+      "recognition_box": [
+        4,
+        100,
+        104,
+        55
+      ],
+      "recognition_occluded_by": [
+        "field_dialog"
+      ],
+      "target_text_visibility": "text_area_covered",
+      "target_text_visibility_reason": "左下说明的正常文字区被底部对白覆盖，露出部分为空白；不能将不可观察的底层文字区作为完整空框目标。",
+      "recognition_exclusion_reason": "occluded_text"
+    },
+    {
+      "instance_id": "GBA-201-R07",
+      "image_id": "GBA-201",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-58-25.png",
+      "region_type": "party_prompt",
+      "region_name": "队伍底部选择提示",
+      "recognition_box": [
+        0,
+        128,
+        192,
+        32
+      ],
+      "recognition_occluded_by": [
+        "party_recovery"
+      ],
+      "target_text_visibility": "not_visible",
+      "target_text_visibility_reason": "旧队伍提示候选在恢复弹窗状态实际不可见，不输出该候选。",
+      "recognition_exclusion_reason": "target_not_visible"
+    },
+    {
+      "instance_id": "GBA-201-R08",
+      "image_id": "GBA-201",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-58-25.png",
+      "region_type": "party_cancel",
+      "region_name": "队伍右下返回按钮",
+      "recognition_box": [
+        192,
+        144,
+        48,
+        16
+      ],
+      "recognition_occluded_by": [
+        "party_recovery"
+      ],
+      "target_text_visibility": "occluded",
+      "target_text_visibility_reason": "恢复弹窗遮住“も”和“ど”的左部；仅完整转录末尾“る”，不补全按钮名。",
+      "recognition_exclusion_reason": "occluded_text"
+    },
+    {
+      "instance_id": "GBA-229-R07",
+      "image_id": "GBA-229",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-01-30.png",
+      "region_type": "party_prompt",
+      "region_name": "队伍底部选择提示",
+      "recognition_box": [
+        0,
+        128,
+        192,
+        32
+      ],
+      "recognition_occluded_by": [
+        "party_recovery"
+      ],
+      "target_text_visibility": "not_visible",
+      "target_text_visibility_reason": "旧队伍提示候选在恢复弹窗状态实际不可见，不输出该候选。",
+      "recognition_exclusion_reason": "target_not_visible"
+    },
+    {
+      "instance_id": "GBA-229-R08",
+      "image_id": "GBA-229",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-01-30.png",
+      "region_type": "party_cancel",
+      "region_name": "队伍右下返回按钮",
+      "recognition_box": [
+        192,
+        144,
+        48,
+        16
+      ],
+      "recognition_occluded_by": [
+        "party_recovery"
+      ],
+      "target_text_visibility": "occluded",
+      "target_text_visibility_reason": "恢复弹窗遮住按钮前部；仅完整转录末尾“る”，不补全按钮名。",
+      "recognition_exclusion_reason": "occluded_text"
+    },
+    {
+      "instance_id": "GBA-285-R03",
+      "image_id": "GBA-285",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-08-06.png",
+      "region_type": "block_flavors",
+      "region_name": "方块盒左下口味属性",
+      "recognition_box": [
+        3,
+        99,
+        109,
+        58
+      ],
+      "recognition_occluded_by": [
+        "field_dialog"
+      ],
+      "target_text_visibility": "occluded",
+      "target_text_visibility_reason": "上方只露出口味标签的上半字形，没有完整字符；不据其他帧补写。",
+      "recognition_exclusion_reason": "occluded_text"
+    },
+    {
+      "instance_id": "GBA-287-R03",
+      "image_id": "GBA-287",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-08-23.png",
+      "region_type": "condition_graph",
+      "region_name": "状态图五项标签与 FEEL",
+      "recognition_box": [
+        96,
+        24,
+        144,
+        114
+      ],
+      "recognition_occluded_by": [
+        "condition_message"
+      ],
+      "target_text_visibility": "occluded",
+      "target_text_visibility_reason": "底部消息框遮住 FEEL 标签下部；仅转录五项完整日文标签。",
+      "recognition_exclusion_reason": "occluded_text"
+    },
+    {
+      "instance_id": "NGC-095-R03",
+      "image_id": "NGC-095",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-07-32.png",
+      "region_type": "block_flavors",
+      "region_name": "方块盒左下口味属性",
+      "recognition_box": [
+        3,
+        99,
+        109,
+        58
+      ],
+      "recognition_occluded_by": [
+        "field_dialog"
+      ],
+      "target_text_visibility": "occluded",
+      "target_text_visibility_reason": "上方只露出口味标签的上半字形，没有完整字符；不据其他帧补写。",
+      "recognition_exclusion_reason": "occluded_text"
+    },
+    {
+      "instance_id": "NGC-097-R03",
+      "image_id": "NGC-097",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-07-41.png",
+      "region_type": "condition_graph",
+      "region_name": "状态图五项标签与 FEEL",
+      "recognition_box": [
+        96,
+        24,
+        144,
+        114
+      ],
+      "recognition_occluded_by": [
+        "condition_choice",
+        "condition_message"
+      ],
+      "target_text_visibility": "occluded",
+      "target_text_visibility_reason": "右侧选择框遮住“かわいさ”标签后部；只转录完整露出的“か”，不补写后续字形。",
+      "recognition_exclusion_reason": "occluded_text"
+    },
+    {
+      "instance_id": "NGC-099-R03",
+      "image_id": "NGC-099",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-07-54.png",
+      "region_type": "condition_graph",
+      "region_name": "状态图五项标签与 FEEL",
+      "recognition_box": [
+        96,
+        24,
+        144,
+        114
+      ],
+      "recognition_occluded_by": [
+        "condition_message"
+      ],
+      "target_text_visibility": "occluded",
+      "target_text_visibility_reason": "底部消息框遮住 FEEL 标签下部；仅转录五项完整日文标签。",
+      "recognition_exclusion_reason": "occluded_text"
+    }
+  ]
+}

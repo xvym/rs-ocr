@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "article_count": 585,
+  "recognition_target_count": 574,
+  "gba_filter_count": 371,
+  "ngc_filter_count": 203,
+  "excluded_filter_count": 11,
+  "restored_prompt_visible": true,
+  "clipped_feel_excluded": true,
+  "id_search": true,
+  "japanese_search": true,
+  "visible_image_loaded": true,
+  "page_errors": []
+}

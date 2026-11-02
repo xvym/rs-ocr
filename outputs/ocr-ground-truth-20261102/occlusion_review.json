@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "method": "assistant_visual_review_of_source_screenshots",
+  "human_review_status": "pending",
+  "rule": "按目标文字是否被遮挡判断；框体重叠只作为复核线索，不直接排除。未拆分原有目标区域。",
+  "regions": [
+    {
+      "instance_id": "GBA-027-R03",
+      "source_sha256": "3e085525b58da428a9be4e20bd032ea85dbc211c91bf0222ceb71a6d7660b21e",
+      "target_text_visibility": "fully_visible",
+      "reason": "右侧六行当前列表文字均完整，底部对白只覆盖列表下方空白。"
+    },
+    {
+      "instance_id": "GBA-027-R04",
+      "source_sha256": "3e085525b58da428a9be4e20bd032ea85dbc211c91bf0222ceb71a6d7660b21e",
+      "target_text_visibility": "text_area_covered",
+      "reason": "左下说明的正常文字区被底部对白覆盖，露出部分为空白；不能将不可观察的底层文字区作为完整空框目标。"
+    },
+    {
+      "instance_id": "GBA-028-R03",
+      "source_sha256": "5b38bed27886937f4f1cd614f2daa374d1a89c606d2e19da521df2b2171314fc",
+      "target_text_visibility": "fully_visible",
+      "reason": "右侧六行当前列表文字均完整，底部对白只覆盖列表下方空白。"
+    },
+    {
+      "instance_id": "GBA-028-R04",
+      "source_sha256": "5b38bed27886937f4f1cd614f2daa374d1a89c606d2e19da521df2b2171314fc",
+      "target_text_visibility": "text_area_covered",
+      "reason": "左下说明的正常文字区被底部对白覆盖，露出部分为空白；不能将不可观察的底层文字区作为完整空框目标。"
+    },
+    {
+      "instance_id": "GBA-090-R03",
+      "source_sha256": "10d5d613d2f5841ea0a4efe73236067241346c482d6f73e0fe9597aef0c61548",
+      "target_text_visibility": "fully_visible",
+      "reason": "右侧菜单覆盖共享红框右半，左侧提示文字完整，按左侧目标ROI识别。"
+    },
+    {
+      "instance_id": "GBA-201-R07",
+      "source_sha256": "54460c900ff8327e90ed01c081b5fbd37e85af14d81e664a881a8ab510afefb9",
+      "target_text_visibility": "not_visible",
+      "reason": "旧队伍提示候选在恢复弹窗状态实际不可见，不输出该候选。"
+    },
+    {
+      "instance_id": "GBA-201-R08",
+      "source_sha256": "54460c900ff8327e90ed01c081b5fbd37e85af14d81e664a881a8ab510afefb9",
+      "target_text_visibility": "occluded",
+      "reason": "恢复弹窗遮住“も”和“ど”的左部；仅完整转录末尾“る”，不补全按钮名。"
+    },
+    {
+      "instance_id": "GBA-229-R07",
+      "source_sha256": "fe01a825c5c72c5324403ca1d3a4b0b2f78b25d0d8f869bcb55ad78fb2775075",
+      "target_text_visibility": "not_visible",
+      "reason": "旧队伍提示候选在恢复弹窗状态实际不可见，不输出该候选。"
+    },
+    {
+      "instance_id": "GBA-229-R08",
+      "source_sha256": "fe01a825c5c72c5324403ca1d3a4b0b2f78b25d0d8f869bcb55ad78fb2775075",
+      "target_text_visibility": "occluded",
+      "reason": "恢复弹窗遮住按钮前部；仅完整转录末尾“る”，不补全按钮名。"
+    },
+    {
+      "instance_id": "GBA-278-R01",
+      "source_sha256": "85275c152c8100e3dcb6ee2461c00d0ee4e5297ec1ff5a7d186be4b8681849ab",
+      "target_text_visibility": "fully_visible",
+      "reason": "操作菜单只覆盖列表左缘，八行名称及数量完整可见。"
+    },
+    {
+      "instance_id": "GBA-278-R03",
+      "source_sha256": "85275c152c8100e3dcb6ee2461c00d0ee4e5297ec1ff5a7d186be4b8681849ab",
+      "target_text_visibility": "fully_visible",
+      "reason": "操作菜单覆盖提示面板上沿，どうしますか？完整可见。"
+    },
+    {
+      "instance_id": "GBA-285-R02",
+      "source_sha256": "0f0e6ed712cd799e800293233cb0580dd0be4ebed03d345b6410735527985de2",
+      "target_text_visibility": "fully_visible",
+      "reason": "当前列表项目及关闭项均完整可见，底部对白只覆盖列表下方空白。"
+    },
+    {
+      "instance_id": "GBA-285-R03",
+      "source_sha256": "0f0e6ed712cd799e800293233cb0580dd0be4ebed03d345b6410735527985de2",
+      "target_text_visibility": "occluded",
+      "reason": "上方只露出口味标签的上半字形，没有完整字符；不据其他帧补写。"
+    },
+    {
+      "instance_id": "GBA-287-R03",
+      "source_sha256": "bad0382996163ef9b2875ffe7762b9f6ab24632e8ac9c5f1397b901b53f75530",
+      "target_text_visibility": "occluded",
+      "reason": "底部消息框遮住 FEEL 标签下部；仅转录五项完整日文标签。"
+    },
+    {
+      "instance_id": "NGC-084-R01",
+      "source_sha256": "2a0f90a6ab019b13a5ba69b26082b6c6193e16a3c7fac81ad0e1dc911cfd0255",
+      "target_text_visibility": "fully_visible",
+      "reason": "操作菜单只覆盖列表左缘，八行名称及数量完整可见。"
+    },
+    {
+      "instance_id": "NGC-084-R03",
+      "source_sha256": "2a0f90a6ab019b13a5ba69b26082b6c6193e16a3c7fac81ad0e1dc911cfd0255",
+      "target_text_visibility": "fully_visible",
+      "reason": "操作菜单覆盖提示面板上沿，どうしますか？完整可见。"
+    },
+    {
+      "instance_id": "NGC-095-R02",
+      "source_sha256": "577eafa83a22ae00aa970421ec0ad8e316790677236ba792b8f6e384294a3f1f",
+      "target_text_visibility": "fully_visible",
+      "reason": "当前两项名称、等级及关闭项完整可见，底部对白覆盖列表下方空白。"
+    },
+    {
+      "instance_id": "NGC-095-R03",
+      "source_sha256": "577eafa83a22ae00aa970421ec0ad8e316790677236ba792b8f6e384294a3f1f",
+      "target_text_visibility": "occluded",
+      "reason": "上方只露出口味标签的上半字形，没有完整字符；不据其他帧补写。"
+    },
+    {
+      "instance_id": "NGC-097-R03",
+      "source_sha256": "2bd025d50d83b79cdf56f3973d7d0cf46b569e965e9b04985f5841dd62561a80",
+      "target_text_visibility": "occluded",
+      "reason": "右侧选择框遮住“かわいさ”标签后部；只转录完整露出的“か”，不补写后续字形。"
+    },
+    {
+      "instance_id": "NGC-099-R03",
+      "source_sha256": "e637427f93444bb5190f205d8fec3b715a98ad8655a7f9cb7088d74ec11b3eec",
+      "target_text_visibility": "occluded",
+      "reason": "底部消息框遮住 FEEL 标签下部；仅转录五项完整日文标签。"
+    },
+    {
+      "instance_id": "NGC-115-R03",
+      "source_sha256": "5fc752875cb66eb71bc43159692bffa5916d8b40b9cb97dfd0ce2d0d7227977a",
+      "target_text_visibility": "fully_visible",
+      "reason": "右侧菜单覆盖共享红框右半，左侧提示文字完整，按左侧目标ROI识别。"
+    }
+  ]
+}

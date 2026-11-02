@@ -1,0 +1,77 @@
+{
+  "source_images": 456,
+  "images_with_scoped_regions": 450,
+  "source_hashes_verified": 456,
+  "region_records": 585,
+  "visible_regions": 583,
+  "not_visible_candidates": 2,
+  "unique_crops_visually_read": 524,
+  "exact_crop_reuse": 59,
+  "region_types": 51,
+  "status_counts": {
+    "transcribed": 579,
+    "empty": 2,
+    "not_visible": 2,
+    "fragment_only": 2
+  },
+  "recognition_target_records": 574,
+  "images_with_recognition_targets": 450,
+  "excluded_occluded_count": 11,
+  "excluded_occluded_records": [
+    "GBA-027-R04",
+    "GBA-028-R04",
+    "GBA-201-R07",
+    "GBA-201-R08",
+    "GBA-229-R07",
+    "GBA-229-R08",
+    "GBA-285-R03",
+    "GBA-287-R03",
+    "NGC-095-R03",
+    "NGC-097-R03",
+    "NGC-099-R03"
+  ],
+  "frame_overlap_records": 21,
+  "complete_text_with_frame_overlap_records": [
+    "GBA-027-R03",
+    "GBA-028-R03",
+    "GBA-090-R03",
+    "GBA-278-R01",
+    "GBA-278-R03",
+    "GBA-285-R02",
+    "NGC-084-R01",
+    "NGC-084-R03",
+    "NGC-095-R02",
+    "NGC-115-R03"
+  ],
+  "assertion_ready_records": 574,
+  "withheld_fragment_records": [],
+  "archived_fragment_records": [
+    "GBA-201-R08",
+    "GBA-229-R08",
+    "GBA-285-R03",
+    "GBA-287-R03",
+    "NGC-095-R03",
+    "NGC-097-R03",
+    "NGC-099-R03"
+  ],
+  "printing_partial_records": [
+    "GBA-079-R03",
+    "GBA-153-R03",
+    "GBA-175-R03",
+    "GBA-256-R01"
+  ],
+  "platforms": {
+    "gba": {
+      "regions": 379,
+      "types": 45,
+      "recognition_targets": 371,
+      "excluded_occluded": 8
+    },
+    "ngc": {
+      "regions": 206,
+      "types": 47,
+      "recognition_targets": 203,
+      "excluded_occluded": 3
+    }
+  }
+}

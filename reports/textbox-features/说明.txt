@@ -11,7 +11,7 @@
 - detection_roi：明确选择的识别裁切范围。无独立边框的字段只有 ROI，不能把 ROI 当作游戏窗口 ID。
 - fixed_runs：[y,x_start,x_end_exclusive,palette_index]。未列入的像素不要求固定颜色。
 - 对话、选择光标、滚动箭头、数值、绿色多边形、心形评分等动态内容不做固定图案。
-- 按 visibility_model 先检测高层窗口并扣除遮挡；不要把完整底图掩码强行匹配到被遮挡画面。
+- 按 visibility_model 检测上层窗口并核对目标文字；文字完整时扣除被盖固定像素后继续识别，仅文字被挡或目标不可见时按 Spec R18 排除。
 
 颜色口径
 - rgb555 为 ROM 调色板原字；RGB5 顺序为 R/G/B。RGB888 只是 round(channel5*255/31) 的色块显示值。

@@ -1,0 +1,117 @@
+{
+  "rom_sha256": {
+    "AXVJ": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+    "AXPJ": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "upstream_commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+  "charmap_sha256": "8c1db143d4f5f8186a6853d076b8b5dbd5d505b64e3c04ed79fe75afa54b7e9c",
+  "assets": [
+    {
+      "asset": "type1_map_u32_entries",
+      "sha256": "69cc1d34aa62492b28421c2ad8aec73ad9950e4b43210b3f16fef43876bddd14",
+      "bytes": 988,
+      "offsets": {
+        "AXPJ": "0x1B3438",
+        "AXVJ": "0x1B34A8"
+      }
+    },
+    {
+      "asset": "font0_jpn",
+      "sha256": "1b0b6700fc108deb199a734f3fa908e24582403b5df4de0a83ed01a8eaf7b606",
+      "bytes": 3840,
+      "offsets": {
+        "AXPJ": "0x1B3A3C",
+        "AXVJ": "0x1B3AAC"
+      }
+    },
+    {
+      "asset": "font1_jpn",
+      "sha256": "4282e04dc171b8488ea3d0463374d9d41950ec2fd05a4e4a1a748e71f9091d95",
+      "bytes": 2048,
+      "offsets": {
+        "AXPJ": "0x1B493C",
+        "AXVJ": "0x1B49AC"
+      }
+    },
+    {
+      "asset": "font3_jpn",
+      "sha256": "5a9b5ad531d800a5bf27bb6ad899dc53a1565e47cd9a7986b0db159929b767ca",
+      "bytes": 16256,
+      "offsets": {
+        "AXPJ": "0x1B6CBC",
+        "AXVJ": "0x1B6D2C"
+      }
+    },
+    {
+      "asset": "font4_jpn",
+      "sha256": "5d698dd1faf9162f595fc822e257803b1da85b37c703cef0d6f39ba8887574a0",
+      "bytes": 7040,
+      "offsets": {
+        "AXPJ": "0x1B513C",
+        "AXVJ": "0x1B51AC"
+      }
+    },
+    {
+      "asset": "summary_text_symbols",
+      "sha256": "b81c5d0d4032c11ceeae785d6a9e99858492fb8dc174ebf7f4299c9eb28149c6",
+      "bytes": 320,
+      "offsets": {
+        "AXPJ": "0x397780",
+        "AXVJ": "0x39779C"
+      }
+    }
+  ],
+  "glyph_count": 979,
+  "identical_foreground_groups": {
+    "3": [
+      [
+        "へ",
+        "ヘ"
+      ],
+      [
+        "0",
+        "O"
+      ]
+    ],
+    "4": [
+      [
+        "あ",
+        "ぁ"
+      ],
+      [
+        "い",
+        "ぃ"
+      ],
+      [
+        "う",
+        "ぅ"
+      ],
+      [
+        "え",
+        "ぇ"
+      ],
+      [
+        "お",
+        "ぉ"
+      ],
+      [
+        "へ",
+        "ヘ"
+      ],
+      [
+        "り",
+        "リ"
+      ],
+      [
+        "べ",
+        "ベ"
+      ],
+      [
+        "ぺ",
+        "ペ"
+      ]
+    ]
+  },
+  "runtime_resource_sha256": "65d01cd335908c4c0fd8532a8f984b1d2dfaab933b78164fce34242ef5290f46",
+  "boundary": "ROM-byte identity verifies shared assets and tile map; Unicode assignments are a development proposal pending independent review. No test transcriptions used."
+}

@@ -1,0 +1,6 @@
+{
+  "note": "Discovery QA only, GBA field/battle text only. Templates are learned from screenshot transcriptions, not an independent answer source. No automatic text corrections or accuracy claim. NGC excluded because its viewport is not pixel calibrated. Layout indent in GBA-137 line 2 is ignored; same bitmap for katakana/hiragana HE is allowed only for this QA.",
+  "gba_cells": 6480,
+  "unique_bitmaps": 158,
+  "gba_conflicts": []
+}

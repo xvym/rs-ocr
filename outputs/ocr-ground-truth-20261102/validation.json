@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "check_count": 5114,
+  "checked_source_images": 456,
+  "checked_region_records": 585,
+  "checked_export_hashes": 592,
+  "recognition_targets": 574,
+  "excluded_text_occluded_or_invisible_regions": 11,
+  "restored_complete_text_regions": 10,
+  "checks": [
+    "scope membership and counts",
+    "text-visibility decisions restore complete text despite frame overlap",
+    "all source hashes",
+    "coordinate and visible bounds",
+    "source-linked exact-crop reuse",
+    "JSONL/CSV lossless roundtrip",
+    "local HTML links",
+    "export and crop digests",
+    "comparator correct input / one-character error / missing restored region / excluded-region output rejection / duplicate ID"
+  ],
+  "comparator_fixture_check": {
+    "input": "synthetic annotations copied for comparator-only validation; not an OCR run",
+    "evaluated_records": 574,
+    "withheld_records": 0,
+    "entire_scope_verified": true
+  },
+  "ocr_engine_tested": false,
+  "annotation_accuracy_measured": false,
+  "human_review": "pending"
+}

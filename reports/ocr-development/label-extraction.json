@@ -1,0 +1,161 @@
+{
+  "label_count": 22,
+  "assets": {
+    "summary_info": {
+      "offsets": {
+        "gfx": {
+          "AXPJ": "0x7EF81C",
+          "AXVJ": "0x7EF81C"
+        },
+        "tilemap": {
+          "AXPJ": "0x7F0288",
+          "AXVJ": "0x7F0288"
+        },
+        "palette": {
+          "AXPJ": "0x7F01E8",
+          "AXVJ": "0x7F01E8"
+        }
+      }
+    },
+    "summary_skills": {
+      "offsets": {
+        "gfx": {
+          "AXPJ": "0x7EF81C",
+          "AXVJ": "0x7EF81C"
+        },
+        "tilemap": {
+          "AXPJ": "0x7F0444",
+          "AXVJ": "0x7F0444"
+        },
+        "palette": {
+          "AXPJ": "0x7F01E8",
+          "AXVJ": "0x7F01E8"
+        }
+      }
+    },
+    "summary_battle": {
+      "offsets": {
+        "gfx": {
+          "AXPJ": "0x7EF81C",
+          "AXVJ": "0x7EF81C"
+        },
+        "tilemap": {
+          "AXPJ": "0x7F05A8",
+          "AXVJ": "0x7F05A8"
+        },
+        "palette": {
+          "AXPJ": "0x7F01E8",
+          "AXVJ": "0x7F01E8"
+        }
+      }
+    },
+    "summary_contest": {
+      "offsets": {
+        "gfx": {
+          "AXPJ": "0x7EF81C",
+          "AXVJ": "0x7EF81C"
+        },
+        "tilemap": {
+          "AXPJ": "0x7F071C",
+          "AXVJ": "0x7F071C"
+        },
+        "palette": {
+          "AXPJ": "0x7F01E8",
+          "AXVJ": "0x7F01E8"
+        }
+      }
+    },
+    "condition_title": {
+      "offsets": {
+        "gfx": {
+          "AXPJ": "0x3BA2C0",
+          "AXVJ": "0x3BA2DC"
+        },
+        "palette": {
+          "AXPJ": "0x3BA14C",
+          "AXVJ": "0x3BA168"
+        }
+      }
+    },
+    "party_cancel": {
+      "offsets": {
+        "gfx": {
+          "AXPJ": "0x7EE038",
+          "AXVJ": "0x7EE038"
+        },
+        "palette": {
+          "AXPJ": "0x7EE3AC",
+          "AXVJ": "0x7EE3AC"
+        },
+        "tilemap": {
+          "AXPJ": "0x3507BC",
+          "AXVJ": "0x35082C"
+        }
+      }
+    },
+    "party_cancel_selected": {
+      "offsets": {
+        "gfx": {
+          "AXPJ": "0x7EE038",
+          "AXVJ": "0x7EE038"
+        },
+        "palette": {
+          "AXPJ": "0x7EE3AC",
+          "AXVJ": "0x7EE3AC"
+        },
+        "tilemap": {
+          "AXPJ": "0x3507BC",
+          "AXVJ": "0x35082C"
+        }
+      }
+    },
+    "pokeblock": {
+      "offsets": {
+        "gfx": {
+          "AXPJ": "0x7F2C18",
+          "AXVJ": "0x7F2C18"
+        },
+        "tilemap": {
+          "AXPJ": "0x7F3178",
+          "AXVJ": "0x7F3178"
+        },
+        "palette": {
+          "AXPJ": "0x7F2E20",
+          "AXVJ": "0x7F2E20"
+        }
+      }
+    },
+    "condition": {
+      "offsets": {
+        "gfx": {
+          "AXPJ": "0x3B58EC",
+          "AXVJ": "0x3B5908"
+        },
+        "tilemap": {
+          "AXPJ": "0x3B6070",
+          "AXVJ": "0x3B608C"
+        },
+        "palette": {
+          "AXPJ": "0x3B588C",
+          "AXVJ": "0x3B58A8"
+        }
+      }
+    },
+    "berry": {
+      "gfx": {
+        "AXPJ": "0x7F34F4",
+        "AXVJ": "0x7F34F4"
+      },
+      "tilemap": {
+        "AXPJ": "0x7F39B8",
+        "AXVJ": "0x7F39B8"
+      },
+      "palette": {
+        "AXPJ": "0x7F3910",
+        "AXVJ": "0x7F3910"
+      }
+    }
+  },
+  "resource_sha256": "35e5592662ba096056bc8799df74c6517f03fc35f5ab117f03f21b6649675b63",
+  "method": "Visual readings of native ROM bitmap labels; templates decoded only from the pinned Japanese ROM. No screenshot transcriptions used; independent review pending."
+}

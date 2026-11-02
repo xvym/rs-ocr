@@ -1,0 +1,25 @@
+{
+  "check_kind": "development_structure_and_isolated_runtime_smoke",
+  "runtime_jar_sha256": "9afe44be9edc6209fe94d3535e4b917e3a2f01d95cac28cc2b487fb9b96e9777",
+  "unit_tests": 10,
+  "unit_failures": 0,
+  "unit_errors": 0,
+  "jar_resources": [
+    "ocr/fonts.json",
+    "ocr/labels.json",
+    "ocr/regions.json",
+    "ocr/sprites.json"
+  ],
+  "forbidden_test_or_rom_entries": [],
+  "runtime_resources_have_no_testcase_identity_or_answers": true,
+  "isolated_jar_with_unicode_renamed_input_matches": true,
+  "review_regions": 574,
+  "review_images_exist": true,
+  "evaluated_input_frames": 456,
+  "strict_correct": 567,
+  "scope_records": 574,
+  "excluded_false_outputs": [],
+  "s3_gate_passed": false,
+  "reference_status": "candidate_pending_human_review",
+  "warning": "These checks do not freeze annotations, remove OCR failures, establish a holdout set or validate capture/timing."
+}

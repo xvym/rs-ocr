@@ -15,6 +15,13 @@
 
 # Dependencies, caches, and temporary inspection output
 node_modules/
+/target/
+/.tools/
+/reports/ocr-development/normalized/
+/reports/ocr-development/*-raw.json
+/reports/ocr-development/probe.json
+/reports/ocr-development/layouts-*.png
+/reports/ocr-development/*.png
 __pycache__/
 *.py[cod]
 *.inspect.ndjson

@@ -1,0 +1,70 @@
+{
+  "assets": {
+    "type_badges": {
+      "offsets": {
+        "AXPJ": "0x7EE9C8",
+        "AXVJ": "0x7EE9C8"
+      },
+      "decoded_sha256": "7665f471465048460b3d457c7608bcfe645936fb8679c6e2776779edfbcde04b",
+      "decoded_bytes": 5888
+    },
+    "bag_graphics": {
+      "offsets": {
+        "AXPJ": "0x7F2134",
+        "AXVJ": "0x7F2134"
+      },
+      "decoded_sha256": "194e565f720383484bd6ee584f62e21e79877152347903b3389618c477757c09",
+      "decoded_bytes": 4032
+    },
+    "bag_category_u8_top_tile_map": {
+      "offsets": {
+        "AXPJ": "0x397A80",
+        "AXVJ": "0x397A9C"
+      },
+      "decoded_sha256": "2905836577e43fb8ac09f8eda097542d300396b11721af36c5f22357f711d518",
+      "decoded_bytes": 40
+    },
+    "bag_palette_female": {
+      "offsets": {
+        "AXPJ": "0x7F27A8",
+        "AXVJ": "0x7F27A8"
+      },
+      "decoded_sha256": "7239c6b2fa2f7964d06b4de66a0accd946a25ea02227271342059ae1e10834d3",
+      "decoded_bytes": 64
+    }
+  },
+  "type_labels": [
+    "ノーマル",
+    "かくとう",
+    "ひこう",
+    "どく",
+    "じめん",
+    "いわ",
+    "むし",
+    "ゴースト",
+    "はがね",
+    "？？？",
+    "ほのお",
+    "みず",
+    "くさ",
+    "でんき",
+    "エスパー",
+    "こおり",
+    "ドラゴン",
+    "あく",
+    "かっこよさ",
+    "うつくしさ",
+    "かわいさ",
+    "かしこさ",
+    "たくましさ"
+  ],
+  "bag_labels": [
+    "どうぐ",
+    "モンスターボール",
+    "わざマシン",
+    "きのみ",
+    "たいせつなもの"
+  ],
+  "resource_sha256": "43ddbea38335edf10ae80816bc3a74306b1076735b4ef408a6bf23d399271abd",
+  "method": "Visual readings of decoded Japanese ROM graphics, pending independent review; no screenshot pixels or transcriptions in templates."
+}

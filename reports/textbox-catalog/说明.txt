@@ -31,6 +31,8 @@ build_catalog.py 中人工模板和逐图分组是本目录分类来源。
 重建：使用有 Pillow 的 Python 依次运行 build_catalog.py、finish_catalog.py。
 自动校验不代表 OCR 验收或人工真值准确率。
 
+当前识别范围按 Spec R18 仅排除目标文字被挡或目标不可见的区域，框体被盖但文字完整时继续识别；本目录保存原Excel整理范围与几何遮挡事实，不等于当前OCR目标清单。实际574个识别目标及11个排除项见 outputs/ocr-ground-truth-20261102/ground_truth.json 的 recognition_in_scope，同目录 occlusion_review.json 为21项框体重叠的文字可见性复核，excluded_regions.json 为最终排除清单；审阅入口为同目录 review.html。
+
 本轮用户筛选同步
 GBA：保留 45 类、379 个区域；原图 315 张，其中 311 张含保留区域。
 NGC：保留 47 类、206 个区域；原图 141 张，其中 139 张含保留区域。
