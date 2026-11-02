@@ -1,0 +1,42 @@
+Testcase 文本框目录（2026-11-01）
+
+入口：index.html；GBA 和 NGC 在 gba.html / ngc.html 分开整理。
+打开方式：直接用浏览器打开；不需要服务器、网络或依赖安装。
+原图目录保持不变。移动目录时必须保持 reports/textbox-catalog 与 *_testcase 的相对位置。
+
+数据：gba.json、ngc.json
+- images[].id：按文件名排序后分配的本次固定索引。
+- source、size、sha256：原图路径、尺寸和内容指纹。
+- viewport_original：[x,y,width,height]，原图中近似游戏视口。
+- layout：人工目视页面/状态。
+- regions[].type：对应 region_types[].key。
+- logical_box：[x,y,width,height]，归一化至 240×160 的人工近似区域。
+- original_box：映射到原始截图像素。
+- visible_*_rectangles：候选窗口减去已标注高层弹窗后的可见几何。
+- occluded_by：覆盖该窗口的已标注高层区域类型。
+- text_state：visible 有可见文字；empty 空文字框；heading_only_body_empty 有标题而正文为空；fully_occluded 完全被覆盖。
+- observations：逐图可见状态备注；疑似逐字打印不是时序实测结论。
+- external_text_regions：NGC 的 Game Boy Player 设备界面菜单提示。
+- region_types：用途、位置、外观、可见字段、样本索引和计数。
+
+“类”的计数包括不同位置的队伍卡片、不同用途的说明面板和确认框。
+它不是游戏源码窗口 ID 计数，也不是全部游戏页面的完整清单。
+本次为布局调查，没有逐字符日文转录、实际字库编号或像素级框校准。
+坐标约 ±3 个逻辑像素，仅为便于审查的区域范围。
+数值和字符不从其他截图补写；被遮挡部分不当作当前可见内容。
+
+thumbs/ 是归一化预览；sheets/ 是初始全量目视用联系表。
+audit/ 是各区域模板代表裁切；examples/ 是部分原图框选例。
+build_catalog.py 中人工模板和逐图分组是本目录分类来源。
+重建：使用有 Pillow 的 Python 依次运行 build_catalog.py、finish_catalog.py。
+自动校验不代表 OCR 验收或人工真值准确率。
+
+本轮用户筛选同步
+GBA：保留 47 类、381 个区域；原图 315 张，其中 312 张含保留区域。
+NGC：保留 47 类、206 个区域；原图 141 张，其中 139 张含保留区域。
+review_selection.json 为用户保留/删除行的依据；review_id 沿用 Excel 原编号。
+regions 只包含本轮保留项，excluded_regions / excluded_region_types 保存排除项。
+排除类型仍可作为可见区域的真实遮挡来源，因此不能重新把被遮挡文字当作可见。
+所有原图和实例编号保留。原先的布局备注属于画面事实，不因排除某类而改写。
+保留范围不等于审阅通过；本轮未修改原有坐标。
+新增 GBA-315 已确认 GBA-T073 战斗右下招式信息，并新增 GBA-T074 战斗左下四招式菜单。两项各 1 张 GBA 实图；原有两个状态栏仍排除。

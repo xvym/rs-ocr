@@ -1,0 +1,56 @@
+pkmn_rs_chn_rsc 汉化总文本(JP) 与 pret/pokeruby 美版 1.2 地址核验
+
+结论
+红宝石 9,805 条中，9,803 条记录地址可以在原版英文文本中定位，2 条地址有误。
+蓝宝石 9,805 条记录地址全部可以在原版英文文本中定位。
+这表示地址体系基本一致，可用于通过美版 1.2 构建的符号关联中文译文；并不表示所有地址都等于独立文本标签的起始地址，也不表示译文已逐句人工审核。
+
+红宝石需要修正的地址
+1. 求雨：0x3CAE94 -> 0x3CAEB0
+   正确标签：ContestString_MoveRainDance；英文 RAIN DANCE；原文 10 字节，不含 FF 终止符。
+   错误地址落在 gContestEffectStrings 指针表内部，不是文本。
+2. 小果然玩偶：0x3EC2761 -> 0x3EC261
+   正确位置：gDecorations[92].name，字段偏移 1；英文 WYNAUT DOLL；原文 11 字节，不含 FF。
+   错误地址超出原版 16 MiB ROM 范围。
+蓝宝石对应两条的地址分别为 0x3CAF0C、0x3EC2BD，均正确。
+只生成纠错清单；下载的原文件保持原样。
+
+地址起点的区别
+红宝石：7,938 条正好落在符号起点，1,865 条落在文本或结构成员内部，2 条错误。
+蓝宝石：7,939 条正好落在符号起点，1,866 条落在文本或结构成员内部。
+内部位置包括训练家名、道具名、图鉴分类名、装饰品名等结构成员，也包括从原字符串中间开始的条目。
+例如 ruby 的 0x167BF8 是 LilycoveCity_Text_MayDefeat + 3，而非标签本身。
+因此映射需要记录标签/数组成员以及内部偏移，不能只按标签起点等值连接。
+
+字节数不能视为英文原文长度
+红宝石：9,182 条长度与英文原文相同，621 条不同；另有上述 2 条错误地址。
+蓝宝石：9,484 条长度相同，321 条不同。
+这些长度差异不等同于地址错误。一些名称字段的字节数已经是汉化后的长度。
+例如红宝石 0x1F0220（gTrainerClassNames[0]）：文件字节数为 12，英文 {PKMN} TRAINER 实际为 10 字节，不含 FF。
+若要提取英文，应用源码字库和结束符，或以源标签/字段定义取得文本，不应盲用汉化文件的字节数切片。
+
+核验方法与可复现性
+使用 pret 官方 CI 发布到 symbols 分支的 pokeruby_rev2.sym、pokesapphire_rev2.sym；未在本机重新编译整个 ROM。
+根据官方源码的文本声明、charmap.txt 和已核实的 GBA 结构成员布局重建文本字节，并用 1.2 符号地址定位。
+对有尺寸的单独 C 字符串核对重建长度与 CI 符号尺寸；对主要命名结构数组核对条目数、步长与符号总尺寸。
+重建过程没有冲突字节或解析错误。所有原文件均有 9,805 个记录、9,805 个唯一地址。
+核验范围是地址、文本所在源定义和长度；没有对全部中文译文进行语义质量审核。
+
+版本固定
+pret/pokeruby master: 5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f
+pret/pokeruby symbols: 78b19905a760095bc45eab2e36906c6e8c208dce
+UWorldGX/pkmn_rs_chn_rsc main: f513cf437acca23d1a5882650ee3b148dc463a17
+全部下载 URL、提交时间和 SHA256 见 manifest.json。
+
+文件
+address-corrections.csv / .json：两处地址纠错。
+ruby-source-verification.csv / sapphire-source-verification.csv：完整逐条核验结果。
+  ByteCount：汉化文件原字段；ActualBytes：该地址到英文 FF 终止符的原始长度。
+  SourceSymbol、OffsetWithinSourceText、SourceFile：对应源码定义与内部偏移。
+  length_mismatch 仅表示长度字段与原文不同，不表示地址错误。
+ruby-address-audit.csv / sapphire-address-audit.csv：符号起点、最近符号和结构内部位置。
+source-summary.json / summary.json：汇总。
+download.ps1、audit.ps1、verify-source.mjs：下载和核验脚本。
+
+补充说明
+此前回复中红宝石的 9,804 条计数漏掉了一条闭合大括号前带空格的记录。修正解析格式后，两份文件均为 9,805 条。

@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "original_workbook_unchanged": true,
+  "image_count": 455,
+  "retained_regions": 585,
+  "excluded_regions": 455,
+  "platforms": {
+    "gba": {
+      "retained_types": 46,
+      "excluded_types": 27,
+      "retained_regions": 379,
+      "source_images": 314,
+      "images_with_retained_regions": 311,
+      "no_retained_regions": [
+        "GBA-279",
+        "GBA-280",
+        "GBA-281"
+      ],
+      "types_awaiting_gba_sample": [
+        "GBA-T073"
+      ]
+    },
+    "ngc": {
+      "retained_types": 47,
+      "excluded_types": 27,
+      "retained_regions": 206,
+      "source_images": 141,
+      "images_with_retained_regions": 139,
+      "no_retained_regions": [
+        "NGC-087",
+        "NGC-092"
+      ]
+    }
+  },
+  "workbook": {
+    "file": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\文本框分类审阅_补回招式信息.xlsx",
+    "embedded_images": 184,
+    "native_hyperlinks": 1138,
+    "sheet_count": 7,
+    "stable_type_ids": true
+  },
+  "checks": [
+    "User Excel row selection matched exactly and independently for GBA and NGC",
+    "Original type IDs and per-image region instance IDs preserved",
+    "All 455 source images and the user-edited workbook remain unchanged",
+    "Original coordinates and real occlusion geometries preserved for every retained/excluded region",
+    "Excel detail rows, counts, status fields and image review lists agree with JSON",
+    "184 embedded previews, 1138 native links, six frozen detail/review panes checked",
+    "Review progress formula recalculation tested and restored",
+    "Final workbook reimported without formula errors; filtered HTML gallery and excluded-occluder labels checked in browser",
+    "Only added GBA-T073 battle_move_meta as a sample-pending type with provisional NGC reference position; all previous retained/excluded types and region instances unchanged."
+  ]
+}

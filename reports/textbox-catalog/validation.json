@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-02",
+  "source_workbook": "outputs/textbox-review-20261101/文本框分类审阅.xlsx",
+  "source_sha256": "92f185120092c24c0360fb7def003cc2e799238f08bdef3668a5afbc02ca23e7",
+  "source_modified_at": "2026-11-01T23:21:42.323110+08:00",
+  "original_workbook_unchanged": true,
+  "scope_rule": "以最新 Excel 类型审阅页实际保留的行确定范围；区域明细页仍含筛选前的全量行，按保留类型编号筛选后核对。最新 Excel 未列出的类型不沿用旧版追加项。原图仅存档，不自动加入审阅范围。",
+  "platforms": {
+    "gba": {
+      "retained_types": 45,
+      "retained_regions": 379,
+      "excluded_types": 29,
+      "source_workbook_images": 314,
+      "archived_source_images": 315,
+      "images_with_retained_regions": 311,
+      "images_not_in_source_workbook": [
+        "GBA-315"
+      ],
+      "excel_unfiltered_detail_rows": 693,
+      "review_status_counts": {
+        "未审阅": 45
+      }
+    },
+    "ngc": {
+      "retained_types": 47,
+      "retained_regions": 206,
+      "excluded_types": 27,
+      "source_workbook_images": 141,
+      "archived_source_images": 141,
+      "images_with_retained_regions": 139,
+      "images_not_in_source_workbook": [],
+      "excel_unfiltered_detail_rows": 347,
+      "review_status_counts": {
+        "未审阅": 47
+      }
+    }
+  },
+  "checks": [
+    "Latest Excel selected by saved modification time and identified by SHA-256",
+    "Source workbook unchanged and identical to archived snapshot",
+    "Retained type IDs, ordering, labels, sample counts, coordinates, contents and review fields match Excel",
+    "All 585 retained detail rows reconciled by instance ID, type, coordinates, text state, occlusion and visible geometry",
+    "All 455 Excel image records reconciled; GBA-315 retained as an out-of-scope archive image",
+    "All 456 source screenshot hashes verified; all 1044 original region geometries and IDs preserved",
+    "Embedded HTML datasets match the generated JSON exactly"
+  ],
+  "retained_regions": 585,
+  "browser_checks": {
+    "summary_counts": true,
+    "type_table_rows": {
+      "gba": 45,
+      "ngc": 47
+    },
+    "type_filtering": true,
+    "page_errors": []
+  }
+}

@@ -1,0 +1,30 @@
+# Local attachments and development ROMs
+/.codex-attachments/
+/rom-resource/*
+!/rom-resource/README.md
+*.gba
+*.gb
+*.gbc
+*.nds
+*.sav
+*.srm
+
+# Downloaded upstream inputs; recreate from the source manifest
+/outputs/pokeruby-text-audit/inputs/
+/outputs/pokeruby-text-audit/source/
+
+# Dependencies, caches, and temporary inspection output
+node_modules/
+__pycache__/
+*.py[cod]
+*.inspect.ndjson
+~$*
+.DS_Store
+Thumbs.db
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key

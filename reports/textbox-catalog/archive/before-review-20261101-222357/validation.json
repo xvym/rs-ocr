@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "image_count": 455,
+  "game_region_count": 1040,
+  "checks": [
+    "455 original images indexed exactly once within their platform",
+    "All original SHA-256 hashes unchanged",
+    "All image paths, thumbnails, and HTML static links resolve",
+    "All region coordinates within image and logical bounds",
+    "All region-type example lists and counts agree with per-image data",
+    "Representative region crops visually reviewed and corrected",
+    "Browser interaction checked: filters, image viewer, selected region overlay; no JavaScript errors"
+  ],
+  "platforms": {
+    "gba": {
+      "images": 314,
+      "region_types": 72,
+      "game_regions": 693,
+      "layouts": 19
+    },
+    "ngc": {
+      "images": 141,
+      "region_types": 74,
+      "game_regions": 347,
+      "layouts": 20
+    }
+  }
+}

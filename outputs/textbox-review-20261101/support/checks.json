@@ -1,0 +1,12 @@
+{
+  "sheets": 7,
+  "images": 456,
+  "types": {
+    "gba": 47,
+    "ngc": 47
+  },
+  "regions": 587,
+  "embeddedImages": 188,
+  "progressRecalculation": true,
+  "output": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\文本框分类审阅_新增GBA315.xlsx"
+}

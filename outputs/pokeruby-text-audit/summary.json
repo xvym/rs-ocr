@@ -1,0 +1,18 @@
+[
+  {
+    "Game": "ruby",
+    "Entries": 9805,
+    "ExactSymbol": 7938,
+    "NoExactSymbol": 1867,
+    "ExactSizeMinusTerminatorMatch": 3362,
+    "NonExactInsideSizedSymbol": 1820
+  },
+  {
+    "Game": "sapphire",
+    "Entries": 9805,
+    "ExactSymbol": 7939,
+    "NoExactSymbol": 1866,
+    "ExactSizeMinusTerminatorMatch": 3364,
+    "NonExactInsideSizedSymbol": 1820
+  }
+]

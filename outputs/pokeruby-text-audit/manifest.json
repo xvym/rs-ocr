@@ -1,0 +1,72 @@
+[
+  {
+    "Repository": "pret/pokeruby",
+    "Branch": "symbols",
+    "Commit": "78b19905a760095bc45eab2e36906c6e8c208dce",
+    "CommitDate": "2026-09-29T01:47:49Z",
+    "Path": "pokeruby_rev2.sym",
+    "LocalFile": "pokeruby_rev2.sym",
+    "Url": "https://raw.githubusercontent.com/pret/pokeruby/78b19905a760095bc45eab2e36906c6e8c208dce/pokeruby_rev2.sym",
+    "SHA256": "B78E6AE48600B704041C54C6220951568B1A922555CE758158F7D219F5393DE1"
+  },
+  {
+    "Repository": "pret/pokeruby",
+    "Branch": "symbols",
+    "Commit": "78b19905a760095bc45eab2e36906c6e8c208dce",
+    "CommitDate": "2026-09-29T01:47:49Z",
+    "Path": "pokesapphire_rev2.sym",
+    "LocalFile": "pokesapphire_rev2.sym",
+    "Url": "https://raw.githubusercontent.com/pret/pokeruby/78b19905a760095bc45eab2e36906c6e8c208dce/pokesapphire_rev2.sym",
+    "SHA256": "8F5CBC4943B21108E5F65070537ACF53B30CF24A434E92A24B15529BB49F0612"
+  },
+  {
+    "Repository": "pret/pokeruby",
+    "Branch": "symbols",
+    "Commit": "78b19905a760095bc45eab2e36906c6e8c208dce",
+    "CommitDate": "2026-09-29T01:47:49Z",
+    "Path": "pokeruby.sym",
+    "LocalFile": "pokeruby.sym",
+    "Url": "https://raw.githubusercontent.com/pret/pokeruby/78b19905a760095bc45eab2e36906c6e8c208dce/pokeruby.sym",
+    "SHA256": "A1F84FC44670FC8AE3937A1AEC6F39A4EB1AC49F6B429B68082D4BCBE9B45128"
+  },
+  {
+    "Repository": "pret/pokeruby",
+    "Branch": "symbols",
+    "Commit": "78b19905a760095bc45eab2e36906c6e8c208dce",
+    "CommitDate": "2026-09-29T01:47:49Z",
+    "Path": "pokesapphire.sym",
+    "LocalFile": "pokesapphire.sym",
+    "Url": "https://raw.githubusercontent.com/pret/pokeruby/78b19905a760095bc45eab2e36906c6e8c208dce/pokesapphire.sym",
+    "SHA256": "EE3DC96E7C38A285E12D159E0BD72299EB3750B893F9C130B47D2C31969AFFE8"
+  },
+  {
+    "Repository": "UWorldGX/pkmn_rs_chn_rsc",
+    "Branch": "main",
+    "Commit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+    "CommitDate": "2026-09-07T02:18:55Z",
+    "Path": "1.2汉化红宝石拼合/红宝石1.2汉化总文本(JP).txt",
+    "LocalFile": "红宝石1.2汉化总文本(JP).txt",
+    "Url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E7%BA%A2%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E7%BA%A2%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC%28JP%29.txt",
+    "SHA256": "B0FCCB0A43F840F58AA32A420933C54E0BF1EB4BD854A368129F050910763E69"
+  },
+  {
+    "Repository": "UWorldGX/pkmn_rs_chn_rsc",
+    "Branch": "main",
+    "Commit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+    "CommitDate": "2026-09-07T02:18:55Z",
+    "Path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(JP).txt",
+    "LocalFile": "蓝宝石1.2汉化总文本(JP).txt",
+    "Url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E8%93%9D%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E8%93%9D%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC%28JP%29.txt",
+    "SHA256": "3BA491E6D71E366666DA42ED9877D1EF5C0B6D70440068C0D479DE65D4984BC1"
+  },
+  {
+    "Repository": "pret/pokeruby",
+    "Branch": "master",
+    "Commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "CommitDate": "2026-09-29T01:40:51Z",
+    "Path": "source archive",
+    "LocalFile": "pokeruby-source.zip",
+    "Url": "https://codeload.github.com/pret/pokeruby/zip/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "SHA256": "A9C6CD518CEF1EE0DAF724729B3BE2ADD87C43D78CFF11BF4AC69F6A05BF7D0A"
+  }
+]

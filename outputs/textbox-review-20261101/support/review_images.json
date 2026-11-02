@@ -1,0 +1,1514 @@
+{
+  "gba": [
+    {
+      "id": "GBA-T001",
+      "key": "field_dialog",
+      "representative": "GBA-001",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-38-28.png",
+      "actual_box": [
+        11,
+        115,
+        218,
+        43
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T001-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T001-crop.png"
+    },
+    {
+      "id": "GBA-T006",
+      "key": "pc_connect_menu",
+      "representative": "GBA-013",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-39-50.png",
+      "actual_box": [
+        0,
+        0,
+        88,
+        80
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T006-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T006-crop.png"
+    },
+    {
+      "id": "GBA-T007",
+      "key": "pc_pokemon_menu",
+      "representative": "GBA-016",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-40-57.png",
+      "actual_box": [
+        0,
+        0,
+        112,
+        80
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T007-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T007-crop.png"
+    },
+    {
+      "id": "GBA-T008",
+      "key": "pc_item_menu",
+      "representative": "GBA-017",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-41-15.png",
+      "actual_box": [
+        0,
+        0,
+        88,
+        64
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T008-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T008-crop.png"
+    },
+    {
+      "id": "GBA-T009",
+      "key": "pc_store_menu",
+      "representative": "GBA-021",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-41-31.png",
+      "actual_box": [
+        0,
+        0,
+        96,
+        80
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T009-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T009-crop.png"
+    },
+    {
+      "id": "GBA-T010",
+      "key": "pc_item_heading",
+      "representative": "GBA-018",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-41-18.png",
+      "actual_box": [
+        0,
+        0,
+        88,
+        32
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T010-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T010-crop.png"
+    },
+    {
+      "id": "GBA-T011",
+      "key": "pc_item_list",
+      "representative": "GBA-018",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-41-18.png",
+      "actual_box": [
+        112,
+        0,
+        128,
+        160
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T011-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T011-crop.png"
+    },
+    {
+      "id": "GBA-T012",
+      "key": "pc_item_description",
+      "representative": "GBA-018",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-41-18.png",
+      "actual_box": [
+        0,
+        96,
+        112,
+        64
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T012-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T012-crop.png"
+    },
+    {
+      "id": "GBA-T013",
+      "key": "bag_category",
+      "representative": "GBA-019",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-41-23.png",
+      "actual_box": [
+        0,
+        77,
+        108,
+        22
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T013-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T013-crop.png"
+    },
+    {
+      "id": "GBA-T014",
+      "key": "bag_list",
+      "representative": "GBA-019",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-41-23.png",
+      "actual_box": [
+        108,
+        0,
+        132,
+        160
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T014-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T014-crop.png"
+    },
+    {
+      "id": "GBA-T015",
+      "key": "bag_description",
+      "representative": "GBA-019",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-41-23.png",
+      "actual_box": [
+        0,
+        100,
+        108,
+        60
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T015-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T015-crop.png"
+    },
+    {
+      "id": "GBA-T016",
+      "key": "bag_action",
+      "representative": "GBA-278",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-07-07.png",
+      "actual_box": [
+        0,
+        58,
+        108,
+        44
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T016-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T016-crop.png"
+    },
+    {
+      "id": "GBA-T017",
+      "key": "bag_prompt",
+      "representative": "GBA-278",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-07-07.png",
+      "actual_box": [
+        0,
+        102,
+        108,
+        58
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T017-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T017-crop.png"
+    },
+    {
+      "id": "GBA-T018",
+      "key": "shop_menu",
+      "representative": "GBA-034",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-43-12.png",
+      "actual_box": [
+        0,
+        0,
+        88,
+        64
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T018-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T018-crop.png"
+    },
+    {
+      "id": "GBA-T020",
+      "key": "shop_list",
+      "representative": "GBA-035",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-43-15.png",
+      "actual_box": [
+        112,
+        0,
+        128,
+        160
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T020-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T020-crop.png"
+    },
+    {
+      "id": "GBA-T021",
+      "key": "shop_description",
+      "representative": "GBA-035",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-43-15.png",
+      "actual_box": [
+        0,
+        100,
+        112,
+        60
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T021-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T021-crop.png"
+    },
+    {
+      "id": "GBA-T029",
+      "key": "party_prompt",
+      "representative": "GBA-214",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-00-07.png",
+      "actual_box": [
+        0,
+        130,
+        192,
+        30
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T029-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T029-crop.png"
+    },
+    {
+      "id": "GBA-T030",
+      "key": "party_short_prompt",
+      "representative": "GBA-051",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-44-20.png",
+      "actual_box": [
+        0,
+        130,
+        160,
+        30
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T030-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T030-crop.png"
+    },
+    {
+      "id": "GBA-T031",
+      "key": "party_cancel",
+      "representative": "GBA-214",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-00-07.png",
+      "actual_box": [
+        192,
+        128,
+        48,
+        32
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T031-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T031-crop.png"
+    },
+    {
+      "id": "GBA-T032",
+      "key": "party_field_action",
+      "representative": "GBA-051",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-44-20.png",
+      "actual_box": [
+        160,
+        64,
+        80,
+        96
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T032-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T032-crop.png"
+    },
+    {
+      "id": "GBA-T033",
+      "key": "party_battle_action",
+      "representative": "GBA-091",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-48-18.png",
+      "actual_box": [
+        160,
+        96,
+        80,
+        64
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T033-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T033-crop.png"
+    },
+    {
+      "id": "GBA-T034",
+      "key": "party_recovery",
+      "representative": "GBA-201",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-58-25.png",
+      "actual_box": [
+        24,
+        112,
+        192,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T034-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T034-crop.png"
+    },
+    {
+      "id": "GBA-T035",
+      "key": "battle_message",
+      "representative": "GBA-070",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-46-00.png",
+      "actual_box": [
+        0,
+        112,
+        240,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T035-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T035-crop.png"
+    },
+    {
+      "id": "GBA-T038",
+      "key": "battle_prompt",
+      "representative": "GBA-090",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-48-09.png",
+      "actual_box": [
+        0,
+        112,
+        136,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T038-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T038-crop.png"
+    },
+    {
+      "id": "GBA-T039",
+      "key": "battle_action",
+      "representative": "GBA-090",
+      "source": "gba_testcase/Screenshot 2026-10-31 15-48-09.png",
+      "actual_box": [
+        136,
+        112,
+        104,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T039-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T039-crop.png"
+    },
+    {
+      "id": "GBA-T044",
+      "key": "blender_message",
+      "representative": "GBA-276",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-07-03.png",
+      "actual_box": [
+        0,
+        112,
+        240,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T044-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T044-crop.png"
+    },
+    {
+      "id": "GBA-T049",
+      "key": "block_title",
+      "representative": "GBA-284",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-08-01.png",
+      "actual_box": [
+        8,
+        0,
+        88,
+        32
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T049-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T049-crop.png"
+    },
+    {
+      "id": "GBA-T050",
+      "key": "block_list",
+      "representative": "GBA-284",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-08-01.png",
+      "actual_box": [
+        112,
+        0,
+        128,
+        160
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T050-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T050-crop.png"
+    },
+    {
+      "id": "GBA-T051",
+      "key": "block_flavors",
+      "representative": "GBA-284",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-08-01.png",
+      "actual_box": [
+        8,
+        100,
+        104,
+        52
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T051-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T051-crop.png"
+    },
+    {
+      "id": "GBA-T052",
+      "key": "condition_title",
+      "representative": "GBA-287",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-08-23.png",
+      "actual_box": [
+        0,
+        0,
+        88,
+        24
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T052-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T052-crop.png"
+    },
+    {
+      "id": "GBA-T054",
+      "key": "condition_graph",
+      "representative": "GBA-287",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-08-23.png",
+      "actual_box": [
+        96,
+        32,
+        144,
+        96
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T054-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T054-crop.png"
+    },
+    {
+      "id": "GBA-T055",
+      "key": "condition_hint",
+      "representative": "GBA-287",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-08-23.png",
+      "actual_box": [
+        0,
+        104,
+        88,
+        24
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T055-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T055-crop.png"
+    },
+    {
+      "id": "GBA-T056",
+      "key": "condition_message",
+      "representative": "GBA-287",
+      "source": "gba_testcase/Screenshot 2026-10-31 16-08-23.png",
+      "actual_box": [
+        0,
+        128,
+        240,
+        32
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T056-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T056-crop.png"
+    },
+    {
+      "id": "GBA-T060",
+      "key": "summary_personal",
+      "representative": "GBA-304",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-58-49.png",
+      "actual_box": [
+        80,
+        20,
+        160,
+        44
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T060-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T060-crop.png"
+    },
+    {
+      "id": "GBA-T061",
+      "key": "summary_ability",
+      "representative": "GBA-304",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-58-49.png",
+      "actual_box": [
+        80,
+        60,
+        160,
+        44
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T061-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T061-crop.png"
+    },
+    {
+      "id": "GBA-T062",
+      "key": "summary_memo",
+      "representative": "GBA-304",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-58-49.png",
+      "actual_box": [
+        80,
+        100,
+        160,
+        44
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T062-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T062-crop.png"
+    },
+    {
+      "id": "GBA-T063",
+      "key": "summary_item",
+      "representative": "GBA-305",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-58-56.png",
+      "actual_box": [
+        80,
+        22,
+        80,
+        26
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T063-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T063-crop.png"
+    },
+    {
+      "id": "GBA-T064",
+      "key": "summary_ribbon",
+      "representative": "GBA-305",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-58-56.png",
+      "actual_box": [
+        160,
+        22,
+        80,
+        26
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T064-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T064-crop.png"
+    },
+    {
+      "id": "GBA-T065",
+      "key": "summary_stats",
+      "representative": "GBA-305",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-58-56.png",
+      "actual_box": [
+        80,
+        46,
+        160,
+        58
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T065-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T065-crop.png"
+    },
+    {
+      "id": "GBA-T066",
+      "key": "summary_experience",
+      "representative": "GBA-305",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-58-56.png",
+      "actual_box": [
+        80,
+        104,
+        160,
+        44
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T066-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T066-crop.png"
+    },
+    {
+      "id": "GBA-T067",
+      "key": "summary_battle_moves",
+      "representative": "GBA-306",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-59-19.png",
+      "actual_box": [
+        80,
+        24,
+        160,
+        88
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T067-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T067-crop.png"
+    },
+    {
+      "id": "GBA-T069",
+      "key": "summary_move_description",
+      "representative": "GBA-306",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-59-19.png",
+      "actual_box": [
+        80,
+        110,
+        160,
+        42
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T069-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T069-crop.png"
+    },
+    {
+      "id": "GBA-T070",
+      "key": "summary_contest_moves",
+      "representative": "GBA-308",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-59-57.png",
+      "actual_box": [
+        80,
+        24,
+        160,
+        88
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T070-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T070-crop.png"
+    },
+    {
+      "id": "GBA-T071",
+      "key": "summary_contest_effect",
+      "representative": "GBA-308",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-59-57.png",
+      "actual_box": [
+        0,
+        110,
+        80,
+        42
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T071-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T071-crop.png"
+    },
+    {
+      "id": "GBA-T072",
+      "key": "summary_contest_description",
+      "representative": "GBA-308",
+      "source": "gba_testcase/Screenshot 2026-11-01 20-59-57.png",
+      "actual_box": [
+        80,
+        110,
+        160,
+        42
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T072-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T072-crop.png"
+    },
+    {
+      "id": "GBA-T073",
+      "key": "battle_move_meta",
+      "representative": "GBA-315",
+      "source": "gba_testcase/Screenshot 2026-11-01 22-45-03.png",
+      "actual_box": [
+        144,
+        112,
+        96,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T073-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T073-crop.png"
+    },
+    {
+      "id": "GBA-T074",
+      "key": "battle_moves",
+      "representative": "GBA-315",
+      "source": "gba_testcase/Screenshot 2026-11-01 22-45-03.png",
+      "actual_box": [
+        0,
+        112,
+        144,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T074-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\GBA-T074-crop.png"
+    }
+  ],
+  "ngc": [
+    {
+      "id": "NGC-T001",
+      "key": "field_dialog",
+      "representative": "NGC-002",
+      "source": "ngc_testcase/Screenshot 2026-11-01 14-58-15.png",
+      "actual_box": [
+        11,
+        115,
+        218,
+        43
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T001-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T001-crop.png"
+    },
+    {
+      "id": "NGC-T002",
+      "key": "boot_dialog",
+      "representative": "NGC-001",
+      "source": "ngc_testcase/Screenshot 2026-11-01 14-57-46.png",
+      "actual_box": [
+        16,
+        113,
+        208,
+        47
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T002-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T002-crop.png"
+    },
+    {
+      "id": "NGC-T007",
+      "key": "pc_connect_menu",
+      "representative": "NGC-005",
+      "source": "ngc_testcase/Screenshot 2026-11-01 14-58-24.png",
+      "actual_box": [
+        0,
+        0,
+        88,
+        80
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T007-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T007-crop.png"
+    },
+    {
+      "id": "NGC-T008",
+      "key": "pc_pokemon_menu",
+      "representative": "NGC-008",
+      "source": "ngc_testcase/Screenshot 2026-11-01 14-58-42.png",
+      "actual_box": [
+        0,
+        0,
+        112,
+        80
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T008-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T008-crop.png"
+    },
+    {
+      "id": "NGC-T009",
+      "key": "pc_item_menu",
+      "representative": "NGC-010",
+      "source": "ngc_testcase/Screenshot 2026-11-01 14-58-53.png",
+      "actual_box": [
+        0,
+        0,
+        88,
+        64
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T009-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T009-crop.png"
+    },
+    {
+      "id": "NGC-T010",
+      "key": "pc_item_heading",
+      "representative": "NGC-011",
+      "source": "ngc_testcase/Screenshot 2026-11-01 14-58-56.png",
+      "actual_box": [
+        0,
+        0,
+        88,
+        32
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T010-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T010-crop.png"
+    },
+    {
+      "id": "NGC-T011",
+      "key": "pc_item_list",
+      "representative": "NGC-011",
+      "source": "ngc_testcase/Screenshot 2026-11-01 14-58-56.png",
+      "actual_box": [
+        112,
+        0,
+        128,
+        160
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T011-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T011-crop.png"
+    },
+    {
+      "id": "NGC-T012",
+      "key": "pc_item_description",
+      "representative": "NGC-011",
+      "source": "ngc_testcase/Screenshot 2026-11-01 14-58-56.png",
+      "actual_box": [
+        0,
+        96,
+        112,
+        64
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T012-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T012-crop.png"
+    },
+    {
+      "id": "NGC-T013",
+      "key": "bag_category",
+      "representative": "NGC-012",
+      "source": "ngc_testcase/Screenshot 2026-11-01 14-59-00.png",
+      "actual_box": [
+        0,
+        77,
+        108,
+        22
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T013-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T013-crop.png"
+    },
+    {
+      "id": "NGC-T014",
+      "key": "bag_list",
+      "representative": "NGC-012",
+      "source": "ngc_testcase/Screenshot 2026-11-01 14-59-00.png",
+      "actual_box": [
+        108,
+        0,
+        132,
+        160
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T014-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T014-crop.png"
+    },
+    {
+      "id": "NGC-T015",
+      "key": "bag_description",
+      "representative": "NGC-012",
+      "source": "ngc_testcase/Screenshot 2026-11-01 14-59-00.png",
+      "actual_box": [
+        0,
+        100,
+        108,
+        60
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T015-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T015-crop.png"
+    },
+    {
+      "id": "NGC-T016",
+      "key": "bag_action",
+      "representative": "NGC-084",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-05-25.png",
+      "actual_box": [
+        0,
+        58,
+        108,
+        44
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T016-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T016-crop.png"
+    },
+    {
+      "id": "NGC-T017",
+      "key": "bag_prompt",
+      "representative": "NGC-084",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-05-25.png",
+      "actual_box": [
+        0,
+        102,
+        108,
+        58
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T017-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T017-crop.png"
+    },
+    {
+      "id": "NGC-T018",
+      "key": "shop_menu",
+      "representative": "NGC-039",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-01-39.png",
+      "actual_box": [
+        0,
+        0,
+        88,
+        64
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T018-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T018-crop.png"
+    },
+    {
+      "id": "NGC-T020",
+      "key": "shop_list",
+      "representative": "NGC-040",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-01-42.png",
+      "actual_box": [
+        112,
+        0,
+        128,
+        160
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T020-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T020-crop.png"
+    },
+    {
+      "id": "NGC-T021",
+      "key": "shop_description",
+      "representative": "NGC-040",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-01-42.png",
+      "actual_box": [
+        0,
+        100,
+        112,
+        60
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T021-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T021-crop.png"
+    },
+    {
+      "id": "NGC-T022",
+      "key": "save_summary",
+      "representative": "NGC-044",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-02-02.png",
+      "actual_box": [
+        0,
+        0,
+        112,
+        96
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T022-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T022-crop.png"
+    },
+    {
+      "id": "NGC-T029",
+      "key": "party_prompt",
+      "representative": "NGC-069",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-04-25.png",
+      "actual_box": [
+        0,
+        130,
+        192,
+        30
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T029-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T029-crop.png"
+    },
+    {
+      "id": "NGC-T030",
+      "key": "party_short_prompt",
+      "representative": "NGC-068",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-04-21.png",
+      "actual_box": [
+        0,
+        130,
+        160,
+        30
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T030-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T030-crop.png"
+    },
+    {
+      "id": "NGC-T032",
+      "key": "party_field_action",
+      "representative": "NGC-068",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-04-21.png",
+      "actual_box": [
+        160,
+        64,
+        80,
+        96
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T032-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T032-crop.png"
+    },
+    {
+      "id": "NGC-T033",
+      "key": "battle_message",
+      "representative": "NGC-113",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-09-34.png",
+      "actual_box": [
+        0,
+        112,
+        240,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T033-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T033-crop.png"
+    },
+    {
+      "id": "NGC-T036",
+      "key": "battle_prompt",
+      "representative": "NGC-115",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-09-39.png",
+      "actual_box": [
+        0,
+        112,
+        136,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T036-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T036-crop.png"
+    },
+    {
+      "id": "NGC-T037",
+      "key": "battle_action",
+      "representative": "NGC-115",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-09-39.png",
+      "actual_box": [
+        136,
+        112,
+        104,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T037-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T037-crop.png"
+    },
+    {
+      "id": "NGC-T038",
+      "key": "battle_moves",
+      "representative": "NGC-116",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-09-41.png",
+      "actual_box": [
+        0,
+        112,
+        144,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T038-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T038-crop.png"
+    },
+    {
+      "id": "NGC-T039",
+      "key": "battle_move_meta",
+      "representative": "NGC-116",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-09-41.png",
+      "actual_box": [
+        144,
+        112,
+        96,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T039-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T039-crop.png"
+    },
+    {
+      "id": "NGC-T044",
+      "key": "blender_message",
+      "representative": "NGC-082",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-05-18.png",
+      "actual_box": [
+        0,
+        112,
+        240,
+        48
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T044-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T044-crop.png"
+    },
+    {
+      "id": "NGC-T050",
+      "key": "berry_tag_description",
+      "representative": "NGC-086",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-05-32.png",
+      "actual_box": [
+        24,
+        112,
+        192,
+        40
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T050-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T050-crop.png"
+    },
+    {
+      "id": "NGC-T051",
+      "key": "block_title",
+      "representative": "NGC-095",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-07-32.png",
+      "actual_box": [
+        8,
+        0,
+        88,
+        32
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T051-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T051-crop.png"
+    },
+    {
+      "id": "NGC-T052",
+      "key": "block_list",
+      "representative": "NGC-095",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-07-32.png",
+      "actual_box": [
+        112,
+        0,
+        128,
+        160
+      ],
+      "text_state": "visible",
+      "occluded_by": [
+        "field_dialog"
+      ],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T052-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T052-crop.png"
+    },
+    {
+      "id": "NGC-T053",
+      "key": "block_flavors",
+      "representative": "NGC-095",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-07-32.png",
+      "actual_box": [
+        8,
+        100,
+        104,
+        52
+      ],
+      "text_state": "visible",
+      "occluded_by": [
+        "field_dialog"
+      ],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T053-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T053-crop.png"
+    },
+    {
+      "id": "NGC-T054",
+      "key": "condition_title",
+      "representative": "NGC-096",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-07-37.png",
+      "actual_box": [
+        0,
+        0,
+        88,
+        24
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T054-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T054-crop.png"
+    },
+    {
+      "id": "NGC-T055",
+      "key": "condition_identity",
+      "representative": "NGC-096",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-07-37.png",
+      "actual_box": [
+        96,
+        0,
+        112,
+        24
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T055-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T055-crop.png"
+    },
+    {
+      "id": "NGC-T056",
+      "key": "condition_graph",
+      "representative": "NGC-096",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-07-37.png",
+      "actual_box": [
+        96,
+        32,
+        144,
+        96
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T056-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T056-crop.png"
+    },
+    {
+      "id": "NGC-T057",
+      "key": "condition_hint",
+      "representative": "NGC-096",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-07-37.png",
+      "actual_box": [
+        0,
+        104,
+        88,
+        24
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T057-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T057-crop.png"
+    },
+    {
+      "id": "NGC-T058",
+      "key": "condition_message",
+      "representative": "NGC-097",
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-07-41.png",
+      "actual_box": [
+        0,
+        128,
+        240,
+        32
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T058-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T058-crop.png"
+    },
+    {
+      "id": "NGC-T062",
+      "key": "summary_personal",
+      "representative": "NGC-123",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-01.png",
+      "actual_box": [
+        80,
+        20,
+        160,
+        44
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T062-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T062-crop.png"
+    },
+    {
+      "id": "NGC-T063",
+      "key": "summary_ability",
+      "representative": "NGC-123",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-01.png",
+      "actual_box": [
+        80,
+        60,
+        160,
+        44
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T063-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T063-crop.png"
+    },
+    {
+      "id": "NGC-T064",
+      "key": "summary_memo",
+      "representative": "NGC-123",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-01.png",
+      "actual_box": [
+        80,
+        100,
+        160,
+        44
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T064-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T064-crop.png"
+    },
+    {
+      "id": "NGC-T065",
+      "key": "summary_item",
+      "representative": "NGC-124",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-04.png",
+      "actual_box": [
+        80,
+        22,
+        80,
+        26
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T065-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T065-crop.png"
+    },
+    {
+      "id": "NGC-T066",
+      "key": "summary_ribbon",
+      "representative": "NGC-124",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-04.png",
+      "actual_box": [
+        160,
+        22,
+        80,
+        26
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T066-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T066-crop.png"
+    },
+    {
+      "id": "NGC-T067",
+      "key": "summary_stats",
+      "representative": "NGC-124",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-04.png",
+      "actual_box": [
+        80,
+        46,
+        160,
+        58
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T067-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T067-crop.png"
+    },
+    {
+      "id": "NGC-T068",
+      "key": "summary_experience",
+      "representative": "NGC-124",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-04.png",
+      "actual_box": [
+        80,
+        104,
+        160,
+        44
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T068-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T068-crop.png"
+    },
+    {
+      "id": "NGC-T069",
+      "key": "summary_battle_moves",
+      "representative": "NGC-125",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-07.png",
+      "actual_box": [
+        80,
+        24,
+        160,
+        88
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T069-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T069-crop.png"
+    },
+    {
+      "id": "NGC-T071",
+      "key": "summary_move_description",
+      "representative": "NGC-126",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-10.png",
+      "actual_box": [
+        80,
+        110,
+        160,
+        42
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T071-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T071-crop.png"
+    },
+    {
+      "id": "NGC-T072",
+      "key": "summary_contest_moves",
+      "representative": "NGC-128",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-19.png",
+      "actual_box": [
+        80,
+        24,
+        160,
+        88
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T072-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T072-crop.png"
+    },
+    {
+      "id": "NGC-T073",
+      "key": "summary_contest_effect",
+      "representative": "NGC-129",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-22.png",
+      "actual_box": [
+        0,
+        110,
+        80,
+        42
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T073-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T073-crop.png"
+    },
+    {
+      "id": "NGC-T074",
+      "key": "summary_contest_description",
+      "representative": "NGC-129",
+      "source": "ngc_testcase/Screenshot 2026-11-01 21-17-22.png",
+      "actual_box": [
+        80,
+        110,
+        160,
+        42
+      ],
+      "text_state": "visible",
+      "occluded_by": [],
+      "context": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T074-context.png",
+      "crop": "D:\\Code\\Workspace\\rs-ocr\\outputs\\textbox-review-20261101\\support\\images\\NGC-T074-crop.png"
+    }
+  ]
+}

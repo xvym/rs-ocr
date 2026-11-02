@@ -1,0 +1,20 @@
+[
+  {
+    "Chinese": "求雨",
+    "RecordedOffset": "0x3CAE94",
+    "CorrectOffset": "0x3CAEB0",
+    "Reason": "Recorded address falls inside the gContestEffectStrings pointer table, not text.",
+    "SourceSymbol": "ContestString_MoveRainDance",
+    "ActualBytes": 10,
+    "SourceFile": "src/data/text/contest_en.h"
+  },
+  {
+    "Chinese": "小果然玩偶",
+    "RecordedOffset": "0x3EC2761",
+    "CorrectOffset": "0x3EC261",
+    "Reason": "Recorded offset is outside the original 16 MiB ROM; the corrected offset is the WYNAUT DOLL field in gDecorations.",
+    "SourceSymbol": "gDecorations[92]+1",
+    "ActualBytes": 11,
+    "SourceFile": "src/decoration.c"
+  }
+]

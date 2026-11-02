@@ -1,0 +1,26 @@
+[
+  {
+    "game": "ruby",
+    "entries": 9805,
+    "uniqueAddresses": 9805,
+    "reconstructedBytes": 573851,
+    "statusCounts": {
+      "length_match": 9182,
+      "length_mismatch": 621,
+      "not_reconstructed": 1,
+      "outside_original_rom": 1
+    },
+    "reconstructionErrors": 0
+  },
+  {
+    "game": "sapphire",
+    "entries": 9805,
+    "uniqueAddresses": 9805,
+    "reconstructedBytes": 574383,
+    "statusCounts": {
+      "length_match": 9484,
+      "length_mismatch": 321
+    },
+    "reconstructionErrors": 0
+  }
+]

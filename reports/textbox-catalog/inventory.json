@@ -1,0 +1,4106 @@
+[
+  {
+    "id": "GBA-001",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-38-28.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-002",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-38-35.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-003",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-38-39.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-004",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-38-47.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-005",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-38-51.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-006",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-38-54.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-007",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-38-57.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-008",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-39-05.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-009",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-39-11.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-010",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-39-14.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-011",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-39-17.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-012",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-39-46.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-013",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-39-50.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-014",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-39-55.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-015",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-40-54.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-016",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-40-57.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-017",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-41-15.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-018",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-41-18.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-019",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-41-23.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-020",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-41-28.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-021",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-41-31.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-022",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-41-46.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-023",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-41-49.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-024",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-41-52.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-025",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-41-55.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-026",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-41-57.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-027",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-42-31.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-028",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-42-33.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-029",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-42-46.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-030",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-42-48.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-031",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-42-49.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-032",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-42-50.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-033",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-11.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-034",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-12.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-035",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-15.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-036",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-18.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-037",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-30.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-038",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-31.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-039",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-33.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-040",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-34.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-041",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-38.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-042",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-40.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-043",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-50.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-044",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-52.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-045",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-43-53.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-046",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-00.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-047",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-02.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-048",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-04.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-049",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-05.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-050",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-13.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-051",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-20.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-052",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-43.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-053",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-46.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-054",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-47.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-055",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-51.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-056",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-55.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-057",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-56.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-058",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-44-58.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-059",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-45-08.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-060",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-45-10.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-061",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-45-11.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-062",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-45-16.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-063",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-45-17.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-064",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-45-19.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-065",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-45-24.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-066",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-45-38.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-067",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-45-40.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-068",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-45-42.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-069",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-45-43.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-070",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-46-00.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-071",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-46-03.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-072",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-46-07.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-073",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-46-12.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-074",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-46-14.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-075",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-46-16.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-076",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-46-55.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-077",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-46-58.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-078",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-47-00.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-079",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-47-02.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-080",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-47-09.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-081",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-47-11.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-082",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-47-48.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-083",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-47-52.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-084",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-47-53.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-085",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-47-55.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-086",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-47-57.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-087",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-47-59.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-088",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-48-03.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-089",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-48-05.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-090",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-48-09.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-091",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-48-18.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-092",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-48-21.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-093",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-48-23.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-094",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-48-26.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-095",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-48-28.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-096",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-48-32.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-097",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-49-01.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-098",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-49-44.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-099",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-49-45.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-100",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-49-47.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-101",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-49-48.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-102",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-49-49.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-103",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-49-54.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-104",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-49-55.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-105",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-49-56.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-106",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-06.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-107",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-07.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-108",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-08.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-109",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-12.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-110",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-13.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-111",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-15.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-112",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-30.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-113",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-31.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-114",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-35.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-115",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-36.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-116",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-40.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-117",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-48.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-118",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-52.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-119",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-53.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-120",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-50-54.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-121",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-51-13.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-122",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-51-14.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-123",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-51-18.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-124",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-51-19.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-125",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-51-25.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-126",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-51-26.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-127",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-51-32.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-128",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-51-33.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-129",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-00.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-130",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-02.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-131",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-05.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-132",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-06.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-133",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-14.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-134",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-15.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-135",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-16.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-136",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-18.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-137",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-22.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-138",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-23.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-139",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-57.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-140",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-58.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-141",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-52-59.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-142",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-00.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-143",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-02.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-144",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-11.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-145",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-13.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-146",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-17.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-147",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-19.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-148",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-23.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-149",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-30.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-150",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-32.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-151",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-34.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-152",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-36 (2).png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-153",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-36.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-154",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-49.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-155",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-51.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-156",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-53.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-157",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-53-59.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-158",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-05.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-159",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-06.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-160",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-09.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-161",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-10.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-162",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-15.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-163",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-22.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-164",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-27.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-165",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-30.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-166",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-32.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-167",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-35.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-168",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-36.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-169",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-56.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-170",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-54-59.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-171",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-01.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-172",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-03.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-173",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-05.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-174",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-16 (2).png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-175",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-16.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-176",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-26.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-177",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-27.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-178",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-30.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-179",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-31.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-180",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-43.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-181",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-46.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-182",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-53.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-183",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-55.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-184",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-55-59.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-185",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-56-16.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-186",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-56-24.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-187",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-56-27.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-188",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-56-28.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-189",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-56-33.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-190",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-56-35.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-191",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-56-36.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-192",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-57-31.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-193",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-57-32.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-194",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-57-33.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-195",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-57-35.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-196",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-57-36.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-197",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-57-46.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-198",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-57-48.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-199",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-58-05.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-200",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-58-11.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-201",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-58-25.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-202",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-58-31.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-203",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-58-45.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-204",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-58-50.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-205",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-58-52.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-206",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-58-59.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-207",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-59-11.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-208",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-59-12.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-209",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-59-15.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-210",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-59-16.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-211",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-59-25.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-212",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-59-36.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-213",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 15-59-43.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-214",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-07.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-215",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-09.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-216",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-11.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-217",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-13.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-218",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-23.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-219",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-27.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-220",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-32.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-221",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-37.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-222",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-39.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-223",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-41.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-224",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-54.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-225",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-00-55.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-226",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-01-05.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-227",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-01-10.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-228",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-01-14.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-229",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-01-30.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-230",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-01-39.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-231",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-01-42.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-232",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-01.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-233",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-11.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-234",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-13.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-235",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-14.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-236",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-16.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-237",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-22.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-238",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-28.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-239",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-31.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-240",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-35.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-241",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-37.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-242",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-39.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-243",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-41.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-244",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-43.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-245",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-47.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-246",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-48.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-247",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-50.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-248",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-02-51.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-249",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-03-52.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-250",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-03-56.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-251",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-04-18.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-252",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-04-25.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-253",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-04-28.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-254",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-04-30.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-255",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-04-43.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-256",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-13.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-257",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-14.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-258",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-15.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-259",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-20.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-260",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-29.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-261",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-30.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-262",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-31.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-263",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-35.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-264",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-36.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-265",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-41.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-266",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-42.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-267",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-43.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-268",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-48.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-269",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-49.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-270",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-50.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-271",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-55.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-272",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-56.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-273",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-58.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-274",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-06-59.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-275",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-07-00.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-276",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-07-03.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-277",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-07-04.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-278",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-07-07.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-279",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-07-15.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-280",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-07-43.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-281",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-07-46.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-282",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-07-48.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-283",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-07-50.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-284",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-08-01.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-285",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-08-06.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-286",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-08-19.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-287",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-08-23.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-288",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-06.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-289",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-08.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-290",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-09.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-291",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-10.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-292",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-13.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-293",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-14.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-294",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-15.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-295",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-16.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-296",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-18.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-297",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-19.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-298",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-20.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-299",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-32.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-300",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-33.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-301",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-34.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-302",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-35.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-303",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-10-31 16-09-40.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-304",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 20-58-49.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-305",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 20-58-56.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-306",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 20-59-19.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-307",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 20-59-31.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-308",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 20-59-57.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-309",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 21-00-51.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-310",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 21-09-47.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-311",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 21-09-49.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-312",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 21-09-52.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-313",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 21-09-59.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-314",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 21-10-06.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "GBA-315",
+    "platform": "gba",
+    "source": "gba_testcase/Screenshot 2026-11-01 22-45-03.png",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "id": "NGC-001",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-57-46.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-002",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-58-15.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-003",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-58-17.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-004",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-58-22.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-005",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-58-24.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-006",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-58-26.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-007",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-58-28.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-008",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-58-42.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-009",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-58-44.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-010",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-58-53.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-011",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-58-56.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-012",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-59-00.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-013",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-59-09.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-014",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 14-59-11.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-015",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-00-15.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-016",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-00-16.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-017",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-00-23.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-018",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-00-25.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-019",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-00-27.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-020",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-00-36.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-021",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-00-40.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-022",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-00-44.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-023",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-00-46.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-024",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-00-48.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-025",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-00-49.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-026",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-00.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-027",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-02.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-028",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-03.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-029",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-06.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-030",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-10.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-031",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-20.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-032",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-22.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-033",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-24.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-034",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-28.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-035",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-30.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-036",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-31.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-037",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-33.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-038",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-38.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-039",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-39.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-040",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-42.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-041",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-46.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-042",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-53.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-043",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-01-55.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-044",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-02.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-045",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-10.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-046",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-11.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-047",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-13.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-048",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-21.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-049",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-24.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-050",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-26.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-051",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-28.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-052",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-29.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-053",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-41.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-054",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-43.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-055",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-45.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-056",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-02-46.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-057",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-03-34.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-058",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-03-37.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-059",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-03-40.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-060",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-03-44.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-061",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-03-46.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-062",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-03-54.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-063",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-03-56.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-064",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-03-57.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-065",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-03-59.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-066",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-04-03.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-067",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-04-05.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-068",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-04-21.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-069",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-04-25.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-070",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-04-44.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-071",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-04-46.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-072",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-04-48.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-073",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-04-59.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-074",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-01.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-075",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-03.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-076",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-04.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-077",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-08.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-078",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-10.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-079",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-12.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-080",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-13.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-081",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-15.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-082",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-18.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-083",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-20.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-084",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-25.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-085",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-26.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-086",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-05-32.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-087",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-06-17.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-088",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-06-19.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-089",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-06-21.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-090",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-06-24.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-091",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-06-26.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-092",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-07-09.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-093",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-07-11.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-094",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-07-12.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-095",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-07-32.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-096",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-07-37.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-097",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-07-41.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-098",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-07-46.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-099",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-07-54.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-100",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-08-37.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-101",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-08-40.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-102",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-08-44.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-103",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-08-48.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-104",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-08-49.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-105",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-08-53.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-106",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-08-57.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-107",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-08-58.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-108",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-00.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-109",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-13.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-110",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-15.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-111",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-17.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-112",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-18.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-113",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-34.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-114",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-35.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-115",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-39.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-116",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-41.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-117",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-44.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-118",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-48.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-119",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-51.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-120",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-53.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-121",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-09-59.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-122",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 15-10-01.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-123",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-17-01.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-124",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-17-04.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-125",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-17-07.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-126",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-17-10.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-127",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-17-14.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-128",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-17-19.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-129",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-17-22.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-130",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-17-25.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-131",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-18-38.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-132",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-18-39.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-133",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-18-41.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-134",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-18-44.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-135",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-18-45.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-136",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-18-47 (3).png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-137",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-18-47 (4).png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-138",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-18-56.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-139",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-18-57 (2).png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-140",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-18-57.png",
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "id": "NGC-141",
+    "platform": "ngc",
+    "source": "ngc_testcase/Screenshot 2026-11-01 21-19-01.png",
+    "size": [
+      1600,
+      1200
+    ]
+  }
+]
