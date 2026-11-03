@@ -1,0 +1,225 @@
+{
+  "evidenceKind" : "controlled window replay of existing actual-device screenshots through real WGC and JavaFX",
+  "hardwareLiveCaptureVerified" : false,
+  "realContinuousGameplayVerified" : false,
+  "chains" : {
+    "GBA" : {
+      "measurement" : {
+        "endpoint" : "raw Japanese canvas after JavaFX post-layout pulse; not Chinese latency acceptance",
+        "timingScope" : "native callback arrival of the first processed frame for a region state; superseded native frames are counted separately",
+        "polls" : 33,
+        "newNativeFrames" : 16,
+        "repeatedNativeFramePolls" : 17,
+        "changedNormalizedFrames" : 1,
+        "layoutUpdates" : 1,
+        "nativeFramesNotSampled" : 3,
+        "unknownGlyphDisplays" : 0,
+        "textSamples" : 1,
+        "p50Ms" : 270.3079,
+        "p95Ms" : 270.3079,
+        "maxMs" : 270.3079,
+        "over200Ms" : 1,
+        "contentGenerationsNotShown" : 0,
+        "pendingBeforeChange" : 0,
+        "contentGenerations" : 1,
+        "discardedCompletions" : 0,
+        "events" : [ {
+          "rawJapanese" : "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+          "ocrThroughAcceptanceMs" : 45.4373,
+          "session" : 1,
+          "displayLatencyMs" : 270.3079,
+          "acceptanceToUiPulseMs" : 12.0311,
+          "receiveToSubmissionMs" : 212.8395,
+          "generation" : 1,
+          "status" : "recognized",
+          "region" : "field_dialog",
+          "mappingGeneration" : 3
+        } ],
+        "sourceWindow" : {
+          "hwnd" : 199146,
+          "pid" : 7036,
+          "title" : "RS OCR S5 controlled screenshot replay · 42"
+        },
+        "currentMapping" : {
+          "viewport" : {
+            "x" : 2.0,
+            "y" : 45.0,
+            "width" : 1200.0,
+            "height" : 800.0
+          },
+          "gain" : 0.984,
+          "width" : 1204,
+          "height" : 847,
+          "dpi" : 144,
+          "manual" : false
+        },
+        "profileIndex" : 1,
+        "pollIntervalMs" : 16,
+        "stabilityWaitMs" : 150,
+        "stabilityPolicy" : "Wait until every visible text region is unchanged for 150ms before whole-frame OCR. Background animation and recognized cursor/wait-arrow pixels do not reset text stability. Timing includes stability wait; pixel stability does not prove sentence completion."
+      },
+      "fullyShown" : 1,
+      "states" : 1,
+      "minimumExposureMs" : 500,
+      "missedStates" : [ ]
+    },
+    "NGC" : {
+      "measurement" : {
+        "endpoint" : "raw Japanese canvas after JavaFX post-layout pulse; not Chinese latency acceptance",
+        "timingScope" : "native callback arrival of the first processed frame for a region state; superseded native frames are counted separately",
+        "polls" : 14,
+        "newNativeFrames" : 10,
+        "repeatedNativeFramePolls" : 4,
+        "changedNormalizedFrames" : 1,
+        "layoutUpdates" : 1,
+        "nativeFramesNotSampled" : 2,
+        "unknownGlyphDisplays" : 0,
+        "textSamples" : 1,
+        "p50Ms" : 366.4866,
+        "p95Ms" : 366.4866,
+        "maxMs" : 366.4866,
+        "over200Ms" : 1,
+        "contentGenerationsNotShown" : 0,
+        "pendingBeforeChange" : 0,
+        "contentGenerations" : 1,
+        "discardedCompletions" : 0,
+        "events" : [ {
+          "rawJapanese" : "とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます",
+          "ocrThroughAcceptanceMs" : 71.1353,
+          "session" : 3,
+          "displayLatencyMs" : 366.4866,
+          "acceptanceToUiPulseMs" : 5.8436,
+          "receiveToSubmissionMs" : 289.5077,
+          "generation" : 1,
+          "status" : "recognized",
+          "region" : "boot_dialog",
+          "mappingGeneration" : 16
+        } ],
+        "sourceWindow" : {
+          "hwnd" : 199146,
+          "pid" : 7036,
+          "title" : "RS OCR S5 controlled screenshot replay · 42"
+        },
+        "currentMapping" : {
+          "viewport" : {
+            "x" : 214.0,
+            "y" : 245.0,
+            "width" : 1168.0,
+            "height" : 800.0
+          },
+          "gain" : 0.82,
+          "width" : 1604,
+          "height" : 1247,
+          "dpi" : 144,
+          "manual" : false
+        },
+        "profileIndex" : 2,
+        "pollIntervalMs" : 16,
+        "stabilityWaitMs" : 150,
+        "stabilityPolicy" : "Wait until every visible text region is unchanged for 150ms before whole-frame OCR. Background animation and recognized cursor/wait-arrow pixels do not reset text stability. Timing includes stability wait; pixel stability does not prove sentence completion."
+      },
+      "fullyShown" : 0,
+      "states" : 1,
+      "minimumExposureMs" : 500,
+      "missedStates" : [ "NGC-001" ]
+    }
+  },
+  "scenarios" : [ {
+    "chain" : "GBA",
+    "scenario" : "new content while fully occluded",
+    "passed" : true
+  }, {
+    "chain" : "GBA",
+    "scenario" : "minimize clears results",
+    "passed" : true
+  }, {
+    "chain" : "GBA",
+    "scenario" : "restore reacquires content",
+    "passed" : true
+  }, {
+    "chain" : "GBA",
+    "scenario" : "size change clears mapping and old results",
+    "passed" : true
+  }, {
+    "chain" : "GBA",
+    "scenario" : "manual viewport calibration",
+    "passed" : true
+  }, {
+    "chain" : "GBA",
+    "scenario" : "size restore recalibrates",
+    "passed" : true
+  }, {
+    "chain" : "GBA",
+    "scenario" : "stale calibration is rejected",
+    "passed" : true
+  }, {
+    "chain" : "GBA",
+    "scenario" : "stop clears source and results",
+    "passed" : true
+  }, {
+    "chain" : "NGC",
+    "scenario" : "new content while fully occluded",
+    "passed" : true
+  }, {
+    "chain" : "NGC",
+    "scenario" : "minimize clears results",
+    "passed" : true
+  }, {
+    "chain" : "NGC",
+    "scenario" : "restore reacquires content",
+    "passed" : true
+  }, {
+    "chain" : "NGC",
+    "scenario" : "size change clears mapping and old results",
+    "passed" : true
+  }, {
+    "chain" : "NGC",
+    "scenario" : "manual viewport calibration",
+    "passed" : true
+  }, {
+    "chain" : "NGC",
+    "scenario" : "size restore recalibrates",
+    "passed" : true
+  }, {
+    "chain" : "NGC",
+    "scenario" : "stale calibration is rejected",
+    "passed" : true
+  }, {
+    "chain" : "NGC",
+    "scenario" : "stop clears source and results",
+    "passed" : true
+  }, {
+    "chain" : "constructed",
+    "scenario" : "switch to a different source window",
+    "passed" : true
+  }, {
+    "chain" : "constructed",
+    "scenario" : "switch back rejects prior window results",
+    "passed" : true
+  }, {
+    "chain" : "constructed",
+    "scenario" : "empty dialogue keeps panel and clears text",
+    "passed" : true
+  }, {
+    "chain" : "constructed",
+    "scenario" : "partial glyphs replace prior text",
+    "passed" : true
+  }, {
+    "chain" : "constructed",
+    "scenario" : "disappeared dialogue removes panel",
+    "passed" : true
+  }, {
+    "chain" : "constructed",
+    "scenario" : "visibility restore recognizes again",
+    "passed" : true
+  }, {
+    "chain" : "constructed",
+    "scenario" : "closed window clears results",
+    "passed" : true
+  } ],
+  "unexpectedDisplayedText" : null,
+  "completed" : true,
+  "passed" : false,
+  "pixelComparison" : "38,398 of 38,400 normalized pixels exact; only two bottom corner samples blended by the test host window frame excluded. No text comparison exceptions.",
+  "constructedLoad" : "Replay window caption refresh requested every 16ms to exercise continuous WGC frame delivery while each game screenshot is exposed at least 500ms, including a deliberate 150ms text-stability wait; not real continuous gameplay."
+}

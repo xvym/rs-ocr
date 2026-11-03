@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-02",
+  "method": "Windows desktop observation through computer-use @oai/sky",
+  "windowTitle": "RS OCR · 原始日文",
+  "observed": [
+    "Final desktop artifact started successfully and displayed source image plus Japanese result",
+    "At image 27/315, three recognized regions were displayed with no diagnostics required",
+    "Later observation showed image 30/315 and one recognized region",
+    "Later observation reported the window minimized"
+  ],
+  "automatedInput": "Cancelled by the tool because user input was detected; no cancelled action counted as successful",
+  "nativeMoveResize": "Provided by the standard JavaFX Stage and Windows title bar; actual mouse drag/maximize not independently exercised",
+  "resizeEvidence": "JavaFX rendering snapshots at 720x480 and 640x700 result canvas areas, plus mathematical 240:160 fit tests",
+  "captureTimingVerified": false,
+  "screenshots": "Desktop screenshots inspected directly through the tool; saved PNG artifacts are separately identified rendering-harness output"
+}

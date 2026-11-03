@@ -1,0 +1,50 @@
+{
+  "evidenceKind" : "controlled window replay of existing actual-device screenshots through real WGC and JavaFX",
+  "hardwareLiveCaptureVerified" : false,
+  "realContinuousGameplayVerified" : false,
+  "chains" : {
+    "GBA" : {
+      "measurement" : {
+        "endpoint" : "raw Japanese canvas after JavaFX post-layout pulse; not Chinese latency acceptance",
+        "timingScope" : "native callback arrival of the first processed frame for a region state; superseded native frames are counted separately",
+        "polls" : 0,
+        "newNativeFrames" : 0,
+        "repeatedNativeFramePolls" : 0,
+        "changedNormalizedFrames" : 0,
+        "layoutUpdates" : 0,
+        "nativeFramesNotSampled" : 0,
+        "unknownGlyphDisplays" : 0,
+        "textSamples" : 0,
+        "p50Ms" : null,
+        "p95Ms" : null,
+        "maxMs" : null,
+        "over200Ms" : 0,
+        "contentGenerationsNotShown" : 0,
+        "pendingBeforeChange" : 0,
+        "discardedCompletions" : 0,
+        "contentGenerations" : 0,
+        "events" : [ ],
+        "sourceWindow" : {
+          "hwnd" : 68814,
+          "pid" : 2436,
+          "title" : "RS OCR S5 controlled screenshot replay · 476"
+        },
+        "currentMapping" : null,
+        "profileIndex" : 1,
+        "pollIntervalMs" : 16,
+        "stabilityWaitMs" : 150,
+        "stabilityPolicy" : "Wait until every visible text region is unchanged for 150ms before whole-frame OCR. Background animation and recognized cursor/wait-arrow pixels do not reset text stability. Timing includes stability wait; pixel stability does not prove sentence completion."
+      },
+      "missedStates" : [ "GBA-001" ],
+      "minimumExposureMs" : 500,
+      "states" : 1,
+      "fullyShown" : 0
+    }
+  },
+  "scenarios" : [ ],
+  "unexpectedDisplayedText" : null,
+  "completed" : false,
+  "passed" : false,
+  "pixelComparison" : "38,398 of 38,400 normalized pixels exact; only two bottom corner samples blended by the test host window frame excluded. No text comparison exceptions.",
+  "constructedLoad" : "Replay window caption refresh requested every 16ms to exercise continuous WGC frame delivery while each game screenshot is exposed at least 500ms, including a deliberate 150ms text-stability wait; not real continuous gameplay."
+}

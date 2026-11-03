@@ -1,0 +1,57 @@
+{
+  "status": "development_proposal_not_frozen",
+  "font_resource_sha256": "65d01cd335908c4c0fd8532a8f984b1d2dfaab933b78164fce34242ef5290f46",
+  "pairs": [
+    {
+      "characters": [
+        "へ",
+        "ヘ"
+      ],
+      "font": 3,
+      "rows": [
+        0,
+        0,
+        0,
+        0,
+        32,
+        80,
+        72,
+        136,
+        132,
+        4,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "characters": [
+        "0",
+        "O"
+      ],
+      "font": 3,
+      "rows": [
+        0,
+        0,
+        0,
+        56,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        56,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "policy": "Each changed codepoint must be an exact-distance font-3 observation retaining both candidates. Spaces, linebreaks, labels and all other codepoints remain strict."
+}

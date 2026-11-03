@@ -121,6 +121,9 @@ public final class OcrEngine {
             for(var row:d.profile().get("rows")) {
                 var line=new StringBuilder();
                 for(var segment:row) {
+                    // A dialogue owns the lower list slots while it is visible.
+                    // Never sample its border/text as part of the underlying list.
+                    if(coveredRow(segment,d.profile(),detected))continue;
                     String value=segment.has("label")?readLabel(image,segment.get("label").asText(),chars,gain):
                             segment.has("sprite")?readSprite(image,segment,chars,gain):readGrid(image,segment,key,chars,gain);
                     if(!value.isEmpty()) {
@@ -135,6 +138,17 @@ public final class OcrEngine {
             results.add(new Region(List.copyOf(types),d.variant().get("id").asText(),box(d.variant().get("detection_roi")),d.score(),value,status,List.copyOf(chars)));
         }
         return List.copyOf(results);
+    }
+
+    private static boolean coveredRow(JsonNode segment,JsonNode profile,List<Detected> detected) {
+        if(!profile.has("row_occluders") || !segment.has("right"))return false;
+        int left=segment.get("x").asInt(),top=segment.get("y").asInt(),right=segment.get("right").asInt();
+        for(var other:detected) for(var type:profile.get("row_occluders")) {
+            if(!type.asText().equals(other.profile().get("key").asText()))continue;
+            int[] cover=box(other.variant().get("detection_roi"));
+            if(left>=cover[0] && right<=cover[0]+cover[2] && top>=cover[1] && top+16<=cover[1]+cover[3])return true;
+        }
+        return false;
     }
 
     private static boolean foreground(int rgb,String mode) {

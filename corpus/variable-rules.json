@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "status": "development_rules_not_runtime_bindings",
+  "japanesePrintingVerified": false,
+  "rules": [
+    {"pattern":"^PLAYER$","kind":"player_identity","binding":"complete_visible_value","status":"needs_japanese_name_constraints","reference":"charmap.txt: PLAYER = FD 01; Spec R9/R12"},
+    {"pattern":"^STR_VAR_[123]$","kind":"context_buffer","binding":"per_qid_and_callsite","status":"requires_callsite_review","reference":"charmap.txt: FD 02..04; buffer number does not determine semantic type"},
+    {"pattern":"^RIVAL$","kind":"rival_identity","binding":"complete_visible_value","status":"needs_japanese_callsite_review","reference":"charmap.txt: RIVAL = FD 06"},
+    {"pattern":"^(VERSION|EVIL_TEAM|GOOD_TEAM|EVIL_LEADER|GOOD_LEADER|EVIL_LEGENDARY|GOOD_LEGENDARY)$","kind":"game_dependent_term","binding":"explicit_target_game","status":"requires_per_game_review","reference":"charmap.txt: FD 07..0D; both games remain separate"},
+    {"pattern":"^KUN$","kind":"honorific","binding":"speaker_and_identity_context","status":"requires_japanese_review","reference":"charmap.txt: KUN = FD 05"},
+    {"pattern":"^B_BUFF[123]$","kind":"battle_buffer_union","binding":"per_qid_and_battle_script","status":"requires_callsite_review","reference":"include/battle_message.h: B_BUFF_STRING..B_BUFF_ITEM; buffer can contain names, numbers, stats, types or other strings"},
+    {"pattern":"^B_.*(NAME|PREFIX).*$","kind":"battle_identity_or_side_prefix","binding":"complete_visible_value_and_side","status":"requires_japanese_battle_review","reference":"include/battle_message.h: B_TXT_*; prefixes may be part of rendered names"},
+    {"pattern":"^B_.*(MOVE|ITEM|ABILITY)$","kind":"battle_typed_term","binding":"whole_typed_dictionary_value","status":"requires_japanese_battle_review","reference":"include/battle_message.h: B_TXT_CURRENT_MOVE, LAST_ITEM, *_ABILITY"},
+    {"pattern":"^(PAUSE|PLAY_SE|PLAY_BGM|COLOR|HIGHLIGHT|SHADOW|CLEAR|CLEAR_TO|SHIFT_TEXT|MIN_LETTER_SPACING|PALETTE|FONT|NOP|WAIT_SE|BRAILLE_FORMAT|PAUSE_UNTIL_PRESS).*","kind":"rendering_control","binding":"none","status":"preserve_until_printing_review","reference":"fixed Poké Corpus NOTES.md and English charmap; not translated text"},
+    {"pattern":"^(PKMN|PK|POKEBLOCK|UP_ARROW|RIGHT_ARROW|LEFT_ARROW|DOWN_ARROW|PLUS)$","kind":"display_symbol","binding":"none","status":"requires_japanese_glyph_review","reference":"fixed corpus notation; display symbols must not be bound as player variables"}
+  ],
+  "fallback": {"kind":"unclassified","status":"blocked_pending_review","binding":"none"},
+  "corpusEscapes": {"\\n":"line_break","\\r":"prompt_then_scroll_one_line","\\c":"prompt_then_clear_window"},
+  "releasePolicy": "No dynamic entry is publishable until its Japanese printing behavior, slot meaning, variable completeness and semantic window have been reviewed. Never infer a slot type from its buffer number."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "review_articles": 590,
+  "image_links": 590,
+  "local_links": 594,
+  "frozen_files_verified": 471,
+  "gate_tests": 8,
+  "approved_targets": 579,
+  "approved_CER": 0.0,
+  "reference_sha256": "a0dad9cf66144bafee1ca465ebcfc5755fe2fade36f18acfa549e76459999658",
+  "review_states": {
+    "同形字等价": 2,
+    "严格相同": 577,
+    "排除": 11
+  }
+}

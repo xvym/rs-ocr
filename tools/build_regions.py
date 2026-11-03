@@ -61,7 +61,7 @@ def main():
         'block_flavors':[[grid(16,104,104)],[grid(16,120,104)],[grid(16,136,48),label('smoothness'),grid(88,136,104,join='')]],
         'condition_identity':[[grid(104,2,144),grid(152,2,160,'gender'),grid(160,2,208,join='')]],
         'condition_graph':[[label('condition_cool')],[label('condition_tough'),label('condition_beauty')],
-            [label('condition_smart'),label('condition_cute')],[dict(x=218,y=116,right=234,font=4,advance=4,color='light',join=' ')]],
+            [label('condition_smart'),label('condition_cute')],[label('condition_feel')]],
         'condition_title':[[label('condition_title')]],
         'summary_personal':[[label('personal')],[grid(88,32,112,'light'),grid(112,32,152,'name',join=''),grid(160,32,232,'light')],[grid(88,48,120),sprite('types',120,48,join=''),sprite('types',160,48)]],
         'summary_ability':[[label('ability')],[grid(88,72,232,'light')],[grid(88,88,232)]],
@@ -92,6 +92,7 @@ def main():
         if p['key'].startswith('summary_') and profile['rows'][0][0].get('label'):
             profile['required_label']=profile['rows'][0][0]['label']
         if p['key']=='berry_tag_description':profile['required_context']='berry_header'
+        if p['key']=='bag_list':profile['row_occluders']=['field_dialog']
         profiles.append(profile)
     resource=dict(schema_version=1, source_sha256=hashlib.sha256(path.read_bytes()).hexdigest(), profiles=profiles)
     out=ROOT/'src/main/resources/ocr/regions.json'

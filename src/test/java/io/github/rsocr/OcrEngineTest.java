@@ -57,6 +57,27 @@ class OcrEngineTest {
         assertEquals("カイオーガの たいりょくが\n17 かいふくした",region(results,"party_recovery").rawOcr());
     }
 
+    @Test void dialogueDoesNotBecomeExtraBagListRowsAndDoesNotLeaveAClippedLayout() throws Exception {
+        for(String source:List.of("15-42-31","15-42-33")) {
+            var image=capture("gba_testcase/Screenshot 2026-10-31 "+source+".png","gba-5x");
+            var results=engine.recognize(image);
+            assertEquals("はいぶくろ\nゴーゴーゴーグル\nツメのカセキ\nちかのカギ\nいいつりざお\nデボンスコープ",region(results,"bag_list").rawOcr());
+            assertFalse(region(results,"field_dialog").rawOcr().isEmpty());
+        }
+        // The next input must still read all eight slots when no dialogue owns them.
+        var restored=capture("gba_testcase/Screenshot 2026-10-31 16-07-07.png","gba-5x");
+        assertEquals(8,region(engine.recognize(restored),"bag_list").rawOcr().lines().count());
+    }
+
+    @Test void readsFeelFromNativeSpriteButDoesNotInventItAfterPixelDamage() throws Exception {
+        var image=capture("ngc_testcase/Screenshot 2026-11-01 15-07-37.png","ngc-capture");
+        assertEquals("かっこよさ\nたくましさ うつくしさ\nかしこさ かわいさ\nFEEL",region(engine.recognize(image,.82),"condition_graph").rawOcr());
+        for(int x=218;x<222;x++)image.setRGB(x,124,0x222222);
+        var damaged=region(engine.recognize(image,.82),"condition_graph");
+        assertTrue(damaged.rawOcr().endsWith("�"));
+        assertEquals("unknown_glyph",damaged.status());
+    }
+
     @Test void uniformFramesDoNotBecomeTextAndNoResultLeaksAcrossCalls() throws Exception {
         engine.recognize(capture("gba_testcase/Screenshot 2026-10-31 15-38-28.png","gba-5x"));
         for(int color:new int[]{0x000000,0xFFFFFF,0x777777}) {

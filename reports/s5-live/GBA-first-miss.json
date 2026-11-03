@@ -1,0 +1,7 @@
+{
+  "expected" : [ "[80, 112, 160, 40]::せつめい", "[80, 24, 160, 88]::おぼえているわざ\nひこう つつく PP35/35\nひこう つばさでうつ PP35/35\nノーマル きあいだめ PP30/30\nノーマル でんこうせっか PP30/30" ],
+  "mapping" : "LiveMapping[viewport=Viewport[x=2.0, y=45.0, width=1200.0, height=800.0], gain=0.984, width=1204, height=847, dpi=144, manual=false]",
+  "status" : "实时识别中",
+  "actual" : [ "[80, 112, 160, 40]::せつめい", "[80, 24, 160, 72]::おぼえているわざ\nひこう つつく PP35/35\nひこう つばさでうつ PP35/35\nノーマル きあいだめ PP30/30\nノーマル でんこうせっか PP30/30" ],
+  "diagnostics" : "窗口=RS OCR S5 controlled screenshot replay · 153 [PID 3624]\n会话=1 映射代次=3\n映射=LiveMapping[viewport=Viewport[x=2.0, y=45.0, width=1200.0, height=800.0], gain=0.984, width=1204, height=847, dpi=144, manual=false]\n捕获代次=1 帧=3745 DPI=144\n原生接收=7672540532100 采样=7672548760400\n状态={discardedCompletions=0, pendingBeforeChange=0, contentGenerations=356}"
+}

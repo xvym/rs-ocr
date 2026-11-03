@@ -29,6 +29,12 @@ def main():
     jar=ROOT/'target/rs-ocr-0.1.0.jar'
     evaluation=json.loads((REPORT/'evaluation.json').read_text(encoding='utf-8'))
     assert evaluation['runtime_jar_sha256']==sha(jar),'Evaluation belongs to another build.'
+    assert evaluation['reference_sha256']==sha(ROOT/'outputs/ocr-ground-truth-20261102/ground_truth.json'),'Stale candidate annotations.'
+    assert evaluation['unreviewed_detections']==0,'New supplemental detections need visual review.'
+    assert evaluation['supplemental_text_mismatches']==0,'Supplemental text changed.'
+    assert not evaluation['supplemental_missing_records'],'Reviewed supplemental regions disappeared.'
+    equivalence=json.loads((REPORT/'font3-equivalence.json').read_text(encoding='utf-8'))
+    assert equivalence['font_resource_sha256']==sha(ROOT/'src/main/resources/ocr/fonts.json')
     suite=ET.parse(ROOT/'target/surefire-reports/TEST-io.github.rsocr.OcrEngineTest.xml').getroot()
     assert int(suite.attrib['failures'])==0 and int(suite.attrib['errors'])==0
     with ZipFile(jar) as archive:
@@ -64,6 +70,12 @@ def main():
     review=Review();review.feed((REPORT/'review.html').read_text(encoding='utf-8'))
     assert review.articles==evaluation['total_scope_records']==574
     assert all((REPORT/path).is_file() for path in review.images)
+    acceptance_path=ROOT/'reports/s3-acceptance/evaluation.json'
+    acceptance=json.loads(acceptance_path.read_text(encoding='utf-8')) if acceptance_path.exists() else None
+    if acceptance:
+        assert acceptance['runtime_jar_sha256']==sha(jar),'S3 report belongs to another engine.'
+        assert acceptance['reference_sha256']==sha(ROOT/'reports/s3-acceptance/reference.json')
+        assert acceptance['freeze_manifest_sha256']==sha(ROOT/'reports/s3-acceptance/freeze-manifest.json')
     report=dict(check_kind='development_structure_and_isolated_runtime_smoke',
         runtime_jar_sha256=sha(jar),unit_tests=int(suite.attrib['tests']),unit_failures=0,unit_errors=0,
         jar_resources=resources,forbidden_test_or_rom_entries=forbidden,
@@ -71,8 +83,13 @@ def main():
         isolated_jar_with_unicode_renamed_input_matches=True,review_regions=review.articles,review_images_exist=True,
         evaluated_input_frames=evaluation['evaluated_frames'],strict_correct=evaluation['strict_correct'],
         scope_records=evaluation['total_scope_records'],excluded_false_outputs=evaluation['false_positive_excluded_regions'],
-        s3_gate_passed=False,reference_status=evaluation['reference_freeze_status'],
-        warning='These checks do not freeze annotations, remove OCR failures, establish a holdout set or validate capture/timing.')
+        font3_equivalent_correct=evaluation['groups']['all']['font3_equivalent_correct'],
+        supplemental_reviewed=len(evaluation['unassigned_detections']),unreviewed_detections=evaluation['unreviewed_detections'],
+        supplemental_text_mismatches=evaluation['supplemental_text_mismatches'],
+        supplemental_missing_records=evaluation['supplemental_missing_records'],
+        s3_gate_passed=bool(acceptance and acceptance['s3_gate_passed']),reference_status=evaluation['reference_freeze_status'],
+        s3_acceptance_report='reports/s3-acceptance/evaluation.json' if acceptance else None,
+        warning='Development reference fields describe the original 574-region candidate archive. S3 uses the separate AI-rereviewed 579-target frozen set under the updated user policy. Neither validates capture/timing or claims a holdout.')
     (REPORT/'checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(report,ensure_ascii=True,indent=2))
 

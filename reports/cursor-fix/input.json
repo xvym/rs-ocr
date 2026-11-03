@@ -1,0 +1,18 @@
+{
+  "source": "reported-screen.png",
+  "source_sha256": "0d7f1a72298a95a79f3ad0475c72d035833919ed076af8c48a916eb4f9c247dc",
+  "viewport": [
+    10,
+    203,
+    901,
+    601
+  ],
+  "sampling": "floor(origin+(logical+.5)*extent/logicalSize)",
+  "normalized_fixture": "desktop/src/test/resources/battle-right-cursor.png",
+  "cursor_cell": [
+    72,
+    120,
+    8,
+    16
+  ]
+}

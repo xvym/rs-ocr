@@ -1,0 +1,898 @@
+{
+  "source" : "user-reported screenshot; see input.json",
+  "before" : [ {
+    "typeCandidates" : [ "battle_moves" ],
+    "variant" : "standard_1",
+    "logicalBox" : [ 0, 112, 144, 48 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "あさのひざし �すいとる\nかぜおこし しびれごな",
+    "status" : "unknown_glyph",
+    "characters" : [ {
+      "x" : 16,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "あ",
+      "candidates" : [ "あ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 24,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "さ",
+      "candidates" : [ "さ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 32,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "の",
+      "candidates" : [ "の" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 40,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "ひ",
+      "candidates" : [ "ひ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 48,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "ざ",
+      "candidates" : [ "ざ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 16
+    }, {
+      "x" : 56,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "し",
+      "candidates" : [ "し" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 72,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "�",
+      "candidates" : [ "▶" ],
+      "distance" : 6,
+      "runnerUpDistance" : 18
+    }, {
+      "x" : 80,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "す",
+      "candidates" : [ "す" ],
+      "distance" : 0,
+      "runnerUpDistance" : 5
+    }, {
+      "x" : 88,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "い",
+      "candidates" : [ "い" ],
+      "distance" : 0,
+      "runnerUpDistance" : 13
+    }, {
+      "x" : 96,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "と",
+      "candidates" : [ "と" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 104,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "る",
+      "candidates" : [ "る" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 16,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "か",
+      "candidates" : [ "か" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 24,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "ぜ",
+      "candidates" : [ "ぜ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 32,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "お",
+      "candidates" : [ "お" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 40,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "こ",
+      "candidates" : [ "こ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 48,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "し",
+      "candidates" : [ "し" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 80,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "し",
+      "candidates" : [ "し" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 88,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "び",
+      "candidates" : [ "び" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 96,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "れ",
+      "candidates" : [ "れ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 104,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "ご",
+      "candidates" : [ "ご" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 112,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "な",
+      "candidates" : [ "な" ],
+      "distance" : 0,
+      "runnerUpDistance" : 18
+    } ]
+  }, {
+    "typeCandidates" : [ "battle_move_meta" ],
+    "variant" : "standard_1",
+    "logicalBox" : [ 144, 112, 96, 48 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "PP 18/20\nわざタイプ/くさ",
+    "status" : "recognized",
+    "characters" : [ {
+      "x" : 152,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "P",
+      "candidates" : [ "P" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 160,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "P",
+      "candidates" : [ "P" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 192,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "1",
+      "candidates" : [ "1" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 200,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "8",
+      "candidates" : [ "8" ],
+      "distance" : 0,
+      "runnerUpDistance" : 3
+    }, {
+      "x" : 208,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 216,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "2",
+      "candidates" : [ "2" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 224,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "0",
+      "candidates" : [ "0", "O" ],
+      "distance" : 0,
+      "runnerUpDistance" : 2
+    }, {
+      "x" : 152,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "わ",
+      "candidates" : [ "わ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 160,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "ざ",
+      "candidates" : [ "ざ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 16
+    }, {
+      "x" : 168,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "タ",
+      "candidates" : [ "タ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 176,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "イ",
+      "candidates" : [ "イ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 184,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "プ",
+      "candidates" : [ "プ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 192,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 200,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "く",
+      "candidates" : [ "く" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 208,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "さ",
+      "candidates" : [ "さ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    } ]
+  } ],
+  "after" : [ {
+    "typeCandidates" : [ "battle_moves" ],
+    "variant" : "standard_1",
+    "logicalBox" : [ 0, 112, 144, 48 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "あさのひざし すいとる\nかぜおこし しびれごな",
+    "status" : "recognized",
+    "characters" : [ {
+      "x" : 16,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "あ",
+      "candidates" : [ "あ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 24,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "さ",
+      "candidates" : [ "さ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 32,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "の",
+      "candidates" : [ "の" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 40,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "ひ",
+      "candidates" : [ "ひ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 48,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "ざ",
+      "candidates" : [ "ざ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 16
+    }, {
+      "x" : 56,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "し",
+      "candidates" : [ "し" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 80,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "す",
+      "candidates" : [ "す" ],
+      "distance" : 0,
+      "runnerUpDistance" : 5
+    }, {
+      "x" : 88,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "い",
+      "candidates" : [ "い" ],
+      "distance" : 0,
+      "runnerUpDistance" : 13
+    }, {
+      "x" : 96,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "と",
+      "candidates" : [ "と" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 104,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "る",
+      "candidates" : [ "る" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 16,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "か",
+      "candidates" : [ "か" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 24,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "ぜ",
+      "candidates" : [ "ぜ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 32,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "お",
+      "candidates" : [ "お" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 40,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "こ",
+      "candidates" : [ "こ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 48,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "し",
+      "candidates" : [ "し" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 80,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "し",
+      "candidates" : [ "し" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 88,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "び",
+      "candidates" : [ "び" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 96,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "れ",
+      "candidates" : [ "れ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 104,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "ご",
+      "candidates" : [ "ご" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 112,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "な",
+      "candidates" : [ "な" ],
+      "distance" : 0,
+      "runnerUpDistance" : 18
+    } ]
+  }, {
+    "typeCandidates" : [ "battle_move_meta" ],
+    "variant" : "standard_1",
+    "logicalBox" : [ 144, 112, 96, 48 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "PP 18/20\nわざタイプ/くさ",
+    "status" : "recognized",
+    "characters" : [ {
+      "x" : 152,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "P",
+      "candidates" : [ "P" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 160,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "P",
+      "candidates" : [ "P" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 192,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "1",
+      "candidates" : [ "1" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 200,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "8",
+      "candidates" : [ "8" ],
+      "distance" : 0,
+      "runnerUpDistance" : 3
+    }, {
+      "x" : 208,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 216,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "2",
+      "candidates" : [ "2" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 224,
+      "y" : 120,
+      "font" : 3,
+      "raw" : "0",
+      "candidates" : [ "0", "O" ],
+      "distance" : 0,
+      "runnerUpDistance" : 2
+    }, {
+      "x" : 152,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "わ",
+      "candidates" : [ "わ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 160,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "ざ",
+      "candidates" : [ "ざ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 16
+    }, {
+      "x" : 168,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "タ",
+      "candidates" : [ "タ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 176,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "イ",
+      "candidates" : [ "イ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 184,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "プ",
+      "candidates" : [ "プ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 192,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 200,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "く",
+      "candidates" : [ "く" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 208,
+      "y" : 136,
+      "font" : 3,
+      "raw" : "さ",
+      "candidates" : [ "さ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    } ]
+  } ],
+  "displayPanels" : [ {
+    "key" : "battle_moves",
+    "name" : "战斗左下四招式菜单",
+    "clip" : {
+      "x" : 0.0,
+      "y" : 112.0,
+      "width" : 144.0,
+      "height" : 48.0
+    },
+    "frame" : {
+      "x" : 0.0,
+      "y" : 112.0,
+      "width" : 144.0,
+      "height" : 48.0
+    },
+    "order" : 20,
+    "raw" : "あさのひざし すいとる\nかぜおこし しびれごな",
+    "status" : "recognized",
+    "runs" : [ {
+      "x" : 16.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "あ",
+      "unknown" : false
+    }, {
+      "x" : 24.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "さ",
+      "unknown" : false
+    }, {
+      "x" : 32.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "の",
+      "unknown" : false
+    }, {
+      "x" : 40.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "ひ",
+      "unknown" : false
+    }, {
+      "x" : 48.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "ざ",
+      "unknown" : false
+    }, {
+      "x" : 56.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "し",
+      "unknown" : false
+    }, {
+      "x" : 80.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "す",
+      "unknown" : false
+    }, {
+      "x" : 88.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "い",
+      "unknown" : false
+    }, {
+      "x" : 96.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "と",
+      "unknown" : false
+    }, {
+      "x" : 104.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "る",
+      "unknown" : false
+    }, {
+      "x" : 16.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "か",
+      "unknown" : false
+    }, {
+      "x" : 24.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "ぜ",
+      "unknown" : false
+    }, {
+      "x" : 32.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "お",
+      "unknown" : false
+    }, {
+      "x" : 40.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "こ",
+      "unknown" : false
+    }, {
+      "x" : 48.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "し",
+      "unknown" : false
+    }, {
+      "x" : 80.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "し",
+      "unknown" : false
+    }, {
+      "x" : 88.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "び",
+      "unknown" : false
+    }, {
+      "x" : 96.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "れ",
+      "unknown" : false
+    }, {
+      "x" : 104.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "ご",
+      "unknown" : false
+    }, {
+      "x" : 112.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "な",
+      "unknown" : false
+    } ],
+    "pointers" : [ {
+      "x" : 72.0,
+      "y" : 120.0
+    } ],
+    "selections" : [ ]
+  }, {
+    "key" : "battle_move_meta",
+    "name" : "战斗右下招式信息",
+    "clip" : {
+      "x" : 144.0,
+      "y" : 112.0,
+      "width" : 96.0,
+      "height" : 48.0
+    },
+    "frame" : {
+      "x" : 144.0,
+      "y" : 112.0,
+      "width" : 96.0,
+      "height" : 48.0
+    },
+    "order" : 20,
+    "raw" : "PP 18/20\nわざタイプ/くさ",
+    "status" : "recognized",
+    "runs" : [ {
+      "x" : 152.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "P",
+      "unknown" : false
+    }, {
+      "x" : 160.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "P",
+      "unknown" : false
+    }, {
+      "x" : 192.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "1",
+      "unknown" : false
+    }, {
+      "x" : 200.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "8",
+      "unknown" : false
+    }, {
+      "x" : 208.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "/",
+      "unknown" : false
+    }, {
+      "x" : 216.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "2",
+      "unknown" : false
+    }, {
+      "x" : 224.0,
+      "y" : 120.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "0",
+      "unknown" : false
+    }, {
+      "x" : 152.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "わ",
+      "unknown" : false
+    }, {
+      "x" : 160.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "ざ",
+      "unknown" : false
+    }, {
+      "x" : 168.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "タ",
+      "unknown" : false
+    }, {
+      "x" : 176.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "イ",
+      "unknown" : false
+    }, {
+      "x" : 184.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "プ",
+      "unknown" : false
+    }, {
+      "x" : 192.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "/",
+      "unknown" : false
+    }, {
+      "x" : 200.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "く",
+      "unknown" : false
+    }, {
+      "x" : 208.0,
+      "y" : 136.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "さ",
+      "unknown" : false
+    } ],
+    "pointers" : [ ],
+    "selections" : [ ]
+  } ],
+  "cursorPositionsTested" : [ [ 8, 120 ], [ 72, 120 ], [ 8, 136 ], [ 72, 136 ] ],
+  "evidenceKind" : "reported static screenshot plus explicitly constructed four-position state checks"
+}

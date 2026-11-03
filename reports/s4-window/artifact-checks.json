@@ -1,0 +1,17 @@
+{
+  "s3FrozenFilesVerified": 471,
+  "s3EngineSha256": "f7ecb5ee9c3928938214377cd97c1d50d2e681537014f80085325163f173d597",
+  "embeddedEngineEntriesIdentical": 14,
+  "desktopJarSha256": "727a60bc1e1f5bcf9bb711aa5ee25e805ee309c2b363f60039dfc5cb935cc995",
+  "noRomScreenshotsOrAnswersInJar": true,
+  "tests": [
+    {
+      "suite": "io.github.rsocr.desktop.ImageSessionTest",
+      "tests": 3
+    },
+    {
+      "suite": "io.github.rsocr.desktop.PresentationTest",
+      "tests": 6
+    }
+  ]
+}

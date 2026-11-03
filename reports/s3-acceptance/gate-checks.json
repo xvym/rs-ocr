@@ -1,0 +1,8 @@
+{
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "reference_sha256": "a0dad9cf66144bafee1ca465ebcfc5755fe2fade36f18acfa549e76459999658",
+  "method": "Real frame output with controlled character, target, extra-region, excluded-region, negative-page and identity failures; canonical acceptance reports are not overwritten."
+}

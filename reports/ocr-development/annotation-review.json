@@ -1,7 +1,7 @@
 {
-  "status": "proposed_corrections_pending_independent_review",
-  "reference_modified": false,
-  "method": "Assistant visually re-read the original screenshot crops after comparison exposed discrepancies; ROM glyph matches provide additional pixel evidence. This is not independent human acceptance, and neither proposal changes the current accuracy denominator or strict comparison.",
+  "status": "applied_to_candidate_pending_human_review",
+  "reference_modified": true,
+  "method": "Assistant visually re-read the original screenshot regions and applied both corrections to candidate annotations using guarded revision records. Original sheet transcriptions are unchanged. Human review and formal freezing remain pending.",
   "proposals": [
     {
       "instance_id": "NGC-086-R05",
@@ -17,5 +17,6 @@
       "proposed": "ももいろポロック ができた！\nレベル11で なめらかさは21だ",
       "reason": "The two level digits are visually identical 1 glyphs, not 1 followed by 7. Both match the native font-3 1 bitmap exactly."
     }
-  ]
+  ],
+  "revision_log": "../../outputs/ocr-ground-truth-20261102/annotation-revisions.json"
 }

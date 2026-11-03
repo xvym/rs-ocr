@@ -1062,7 +1062,7 @@ NGC-085-R03,NGC-085,ngc,ngc_testcase/Screenshot 2026-11-01 15-05-26.png,a42e608e
 まひ じょうたいを
 かいふくする",[],[],crops/NGC-085-R03.png,NGC-013-R03
 NGC-086-R05,NGC-086,ngc,ngc_testcase/Screenshot 2026-11-01 15-05-32.png,5bb71b648f369226fcbdf64674702c4cc9dd07fb56a948dad584eba75c227c8d,berry_tag_description,树果标签说明,True,,"[31, 111, 178, 34]",[],unoccluded,没有已确认的上层窗口遮挡。,transcribed,visible,True,"[24, 104, 192, 48]","[329.2, 720.0, 937.6, 240.0]","[[24, 104, 192, 48]]","とても かわいい はなが さく。
-まっかな みは とても からい",[],[],crops/NGC-086-R05.png,
+まっかな みは とても からい。",[],"[""AI 回看原图修正候选转录；修改前后及图像哈希见 annotation-revisions.json，仍待人工复核。""]",crops/NGC-086-R05.png,
 NGC-088-R05,NGC-088,ngc,ngc_testcase/Screenshot 2026-11-01 15-06-19.png,78e7bfc706a0744b09e30b59c4aff38de57e1f523131c4f5ea52d8e8bf26a0ae,blender_message,混合机／喂食底部提示,True,,"[0, 112, 240, 48]",[],unoccluded,没有已确认的上层窗口遮挡。,transcribed,visible,True,"[0, 112, 240, 48]","[212.0, 760.0, 1172.0, 240.0]","[[0, 112, 240, 48]]","あかいポロック ができた！
 レベル11で なめらかさは21だ","[""11"", ""21""]",[],crops/NGC-088-R05.png,
 NGC-089-R05,NGC-089,ngc,ngc_testcase/Screenshot 2026-11-01 15-06-21.png,e6c543637202630e5bc36022c44e5cdbf20c0a6792c9362e82242a93c61c0158,blender_message,混合机／喂食底部提示,True,,"[0, 112, 240, 48]",[],unoccluded,没有已确认的上层窗口遮挡。,transcribed,visible,True,"[0, 112, 240, 48]","[212.0, 760.0, 1172.0, 240.0]","[[0, 112, 240, 48]]",もういちど きのみを まぜますか？,[],[],crops/NGC-089-R05.png,
@@ -1070,7 +1070,7 @@ NGC-090-R05,NGC-090,ngc,ngc_testcase/Screenshot 2026-11-01 15-06-24.png,cc6682eb
 NGC-091-R05,NGC-091,ngc,ngc_testcase/Screenshot 2026-11-01 15-06-26.png,0e6d7c9a871907df2b8cbb73c0fd8d4f68c739bf75b2fbec8d95b7d273b49fb9,blender_message,混合机／喂食底部提示,True,,"[0, 112, 240, 48]",[],unoccluded,没有已确认的上层窗口遮挡。,transcribed,visible,True,"[0, 112, 240, 48]","[212.0, 760.0, 1172.0, 240.0]","[[0, 112, 240, 48]]","バッグから きのみブレンダーに いれる
 きのみを えらんでください",[],[],crops/NGC-091-R05.png,
 NGC-093-R05,NGC-093,ngc,ngc_testcase/Screenshot 2026-11-01 15-07-11.png,ee75e509518b7868c4ecb9e2e354d05e60f74afab43c4073181f2add14ba0b2c,blender_message,混合机／喂食底部提示,True,,"[0, 112, 240, 48]",[],unoccluded,没有已确认的上层窗口遮挡。,transcribed,visible,True,"[0, 112, 240, 48]","[212.0, 760.0, 1172.0, 240.0]","[[0, 112, 240, 48]]","ももいろポロック ができた！
-レベル17で なめらかさは21だ","[""17"", ""21""]",[],crops/NGC-093-R05.png,
+レベル11で なめらかさは21だ","[""11"", ""21""]","[""AI 回看原图修正候选转录；修改前后及图像哈希见 annotation-revisions.json，仍待人工复核。""]",crops/NGC-093-R05.png,
 NGC-094-R05,NGC-094,ngc,ngc_testcase/Screenshot 2026-11-01 15-07-12.png,62c7da4d100114125c5b2275d0285cfde6a0aecd2476e88ef7f8a3cc454f1b20,blender_message,混合机／喂食底部提示,True,,"[0, 112, 240, 48]",[],unoccluded,没有已确认的上层窗口遮挡。,transcribed,visible,True,"[0, 112, 240, 48]","[212.0, 760.0, 1172.0, 240.0]","[[0, 112, 240, 48]]",もういちど きのみを まぜますか？,[],[],crops/NGC-094-R05.png,
 NGC-095-R01,NGC-095,ngc,ngc_testcase/Screenshot 2026-11-01 15-07-32.png,577eafa83a22ae00aa970421ec0ad8e316790677236ba792b8f6e384294a3f1f,block_title,方块盒左上标题,True,,"[10, 2, 84, 28]",[],unoccluded,没有已确认的上层窗口遮挡。,transcribed,visible,True,"[8, 0, 88, 32]","[251.067, 200.0, 429.733, 160.0]","[[8, 0, 88, 32]]",ポロックケース,[],[],crops/NGC-095-R01.png,
 NGC-095-R02,NGC-095,ngc,ngc_testcase/Screenshot 2026-11-01 15-07-32.png,577eafa83a22ae00aa970421ec0ad8e316790677236ba792b8f6e384294a3f1f,block_list,方块盒右侧列表,True,,"[114, 2, 124, 156]","[""field_dialog""]",fully_visible,当前两项名称、等级及关闭项完整可见，底部对白覆盖列表下方空白。,transcribed,visible,True,"[112, 0, 128, 160]","[758.933, 200.0, 625.067, 800.0]","[[112, 0, 128, 112], [232, 112, 8, 48]]","あかいポロック Lv11

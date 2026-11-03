@@ -1,0 +1,34 @@
+{
+  "status": "partially_registered_from_user",
+  "reported_date": "2026-11-02",
+  "evidence_kind": "user_report_not_runtime_capture_validation",
+  "user_statement": "nds和ngc实机采集，nds用的应该是loopy采集卡，ngc是转hdmi后用obs采集",
+  "chains": [
+    {
+      "id": "nds",
+      "hardware": "NDS 实机",
+      "capture_card": {"name": "Loopy", "confidence": "tentative_user_said_probably"},
+      "capture_software": null,
+      "capture_settings": null,
+      "filters": null,
+      "actual_game": null,
+      "actual_rom_revision": null
+    },
+    {
+      "id": "ngc",
+      "hardware": "NGC 实机",
+      "signal_path": ["NGC", "HDMI 转换", "OBS 采集"],
+      "hdmi_converter_model": null,
+      "capture_card_model": null,
+      "obs_settings": null,
+      "filters_or_deinterlacing": null,
+      "actual_game": null,
+      "actual_rom_revision": null
+    }
+  ],
+  "scope_note": "登记两条链路的一般来源；不据此推断逐份截图的软件参数、滤镜、转换器型号或两作实际修订版。现有截图仍按独立显式配置归一化。",
+  "runtime_capture_verified": false,
+  "occluded_window_capture_verified": false,
+  "continuous_frames_verified": false,
+  "latency_200ms_verified": false
+}

@@ -1,0 +1,77 @@
+{
+  "status": "assistant_visual_review_pending_human_review",
+  "scope_decision": "supplemental_visible_regions_outside_original_retained_catalog",
+  "method": "Assistant visually re-read original game viewports; normalized previews use the same explicit sampling calibration. Not independent human acceptance. Original 574-region denominator and source images are unchanged.",
+  "records": [
+    {
+      "source": "gba_testcase/Screenshot 2026-10-31 16-08-23.png",
+      "source_sha256": "bad0382996163ef9b2875ffe7762b9f6ab24632e8ac9c5f1397b901b53f75530",
+      "type": "condition_identity",
+      "logical_box": [
+        96,
+        0,
+        120,
+        24
+      ],
+      "text": "ラグラージ ♂/Lv46",
+      "reason": "顶部身份文字完整可见，底部消息仅遮住状态图的下方。",
+      "human_review_status": "pending"
+    },
+    {
+      "source": "gba_testcase/Screenshot 2026-10-31 16-09-40.png",
+      "source_sha256": "a4505cdff8f635dc98b25be7ff9157cfa0a1da86f1a33ad0b0cd3bdf5e62f90f",
+      "type": "save_summary",
+      "logical_box": [
+        0,
+        0,
+        112,
+        96
+      ],
+      "text": "ミナモシティ\nしゅじんこう ハルカ\nもっているバッジ 8こ\nポケモンずかん 63ひき\nプレイじかん 30:14",
+      "reason": "存档摘要左上五行完整可见；原保留目录未登记该框。",
+      "human_review_status": "pending"
+    },
+    {
+      "source": "gba_testcase/Screenshot 2026-11-01 22-45-03.png",
+      "source_sha256": "49f78b7752e0468b998eaacf3f022b1e913b319294350f7eb590f98bde6d49f5",
+      "type": "battle_moves",
+      "logical_box": [
+        0,
+        112,
+        144,
+        48
+      ],
+      "text": "あさのひざし すいとる\nかぜおこし しびれごな",
+      "reason": "左下四个招式均可见；本图不在原保留区域列表中。",
+      "human_review_status": "pending"
+    },
+    {
+      "source": "gba_testcase/Screenshot 2026-11-01 22-45-03.png",
+      "source_sha256": "49f78b7752e0468b998eaacf3f022b1e913b319294350f7eb590f98bde6d49f5",
+      "type": "battle_move_meta",
+      "logical_box": [
+        144,
+        112,
+        96,
+        48
+      ],
+      "text": "PP 4/ 5\nわざタイプ/ノーマル",
+      "reason": "右下 PP 和类型字段可见；本图不在原保留区域列表中。",
+      "human_review_status": "pending"
+    },
+    {
+      "source": "ngc_testcase/Screenshot 2026-11-01 15-04-25.png",
+      "source_sha256": "696c23c967a0daa2ca3f931200f038369a25544a959e7e7bc9f1fc71483d4af5",
+      "type": "party_cancel",
+      "logical_box": [
+        192,
+        144,
+        48,
+        16
+      ],
+      "text": "もどる",
+      "reason": "右下返回文字完整可见，位于左侧队伍提示框以外。",
+      "human_review_status": "pending"
+    }
+  ]
+}

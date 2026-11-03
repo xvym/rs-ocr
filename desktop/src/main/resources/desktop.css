@@ -1,0 +1,11 @@
+.root { -fx-font-family: "Microsoft YaHei"; -fx-font-size: 13px; -fx-background-color: #f4f7fc; }
+.toolbar { -fx-background-color: white; -fx-border-color: transparent transparent #dce4f0 transparent; }
+.button { -fx-background-color: #e9effa; -fx-background-radius: 5; -fx-text-fill: #234474; -fx-padding: 7 12; -fx-cursor: hand; }
+.button:hover { -fx-background-color: #dce7fa; }
+.button:focused { -fx-border-color: #7199df; -fx-border-radius: 5; }
+.combo-box { -fx-background-color: #edf2fa; -fx-background-radius: 5; }
+.label { -fx-text-fill: #263c5c; }
+.filename { -fx-text-fill: #536984; -fx-font-size: 12px; }
+.board-title { -fx-font-weight: bold; -fx-padding: 0 0 3 0; }
+.status { -fx-background-color: white; -fx-text-fill: #536984; -fx-font-size: 12px; }
+.text-area { -fx-font-family: "Consolas"; -fx-font-size: 12px; }

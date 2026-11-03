@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "Aligned import preserves blank and NULL records",
+      "passed": true
+    },
+    {
+      "name": "Alignment rejects unequal counts, missing qids and duplicate qids",
+      "passed": true
+    },
+    {
+      "name": "Version-specific records retain separate games",
+      "passed": true
+    },
+    {
+      "name": "CSV preserves punctuation, actual line breaks, and literal control escapes",
+      "passed": true
+    },
+    {
+      "name": "RSC imports full content independently of declared byte count",
+      "passed": true
+    },
+    {
+      "name": "Dictionary parser keeps whole source terms and original line provenance",
+      "passed": true
+    },
+    {
+      "name": "Corpus controls remain distinct and literal brackets are not variables",
+      "passed": true
+    },
+    {
+      "name": "Source terminator handling does not stop inside sound/control arguments",
+      "passed": true
+    },
+    {
+      "name": "Both known address corrections preserve original addresses",
+      "passed": true
+    },
+    {
+      "name": "Legacy qid to rev2 source requires exact English evidence",
+      "passed": true
+    },
+    {
+      "name": "RS species internal IDs are not replaced with National Dex numbers",
+      "passed": true
+    },
+    {
+      "name": "Reviews are bound to Japanese, English and complete original candidate set",
+      "passed": true
+    },
+    {
+      "name": "Exact complete term query publishes reviewed names and refuses prefixes",
+      "passed": true
+    },
+    {
+      "name": "Reviewed complete battle sentence is usable without predicting an unfinished prefix",
+      "passed": true
+    },
+    {
+      "name": "Real homographs keep species/type and type/status meanings separate",
+      "passed": true
+    },
+    {
+      "name": "Unreviewed dialogue and dynamic templates cannot enter static runtime resources",
+      "passed": true
+    },
+    {
+      "name": "Coverage accounts for every eligible source record in each game",
+      "passed": true
+    },
+    {
+      "name": "Generated outputs and pinned sources match the build manifest",
+      "passed": true
+    },
+    {
+      "name": "Offline rebuild is byte-for-byte reproducible",
+      "passed": true
+    }
+  ],
+  "scope": "corpus construction, source integrity and conservative static publication; not final Chinese acceptance"
+}

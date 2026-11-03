@@ -1,0 +1,7 @@
+{
+  "status" : "实时识别中",
+  "actual" : [ "[16, 112, 208, 48]::とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます" ],
+  "diagnostics" : "窗口=RS OCR S5 controlled screenshot replay · 42 [PID 7036]\n会话=3 映射代次=16\n映射=LiveMapping[viewport=Viewport[x=214.0, y=245.0, width=1168.0, height=800.0], gain=0.82, width=1604, height=1247, dpi=144, manual=false]\n捕获代次=2 帧=11 DPI=144\n原生接收=10012992000300 采样=10013011673100\n状态={pendingBeforeChange=0, contentGenerations=1, discardedCompletions=0}",
+  "expected" : [ "[16, 112, 208, 48]::とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます" ],
+  "mapping" : "LiveMapping[viewport=Viewport[x=214.0, y=245.0, width=1168.0, height=800.0], gain=0.82, width=1604, height=1247, dpi=144, manual=false]"
+}

@@ -1,0 +1,4864 @@
+{
+  "stage": "S3",
+  "s3_gate_passed": true,
+  "policy_id": "s3-existing-hardware-testcase-ai-review-v1",
+  "reference_sha256": "a0dad9cf66144bafee1ca465ebcfc5755fe2fade36f18acfa549e76459999658",
+  "freeze_manifest_sha256": "29d3e8e6c002fafb21bdbf41cab25c660f1e95955ef7a6bee809a5649a32816f",
+  "runtime_jar_sha256": "f7ecb5ee9c3928938214377cd97c1d50d2e681537014f80085325163f173d597",
+  "implementation_version": "0.1.0",
+  "evaluated_frames": 456,
+  "strict": {
+    "reference_freeze_status": "frozen_ai_reviewed",
+    "recognition_scope_rule": "exclude_when_target_text_occluded",
+    "total_reference_records": 590,
+    "total_scope_records": 579,
+    "evaluated_records": 579,
+    "excluded_occluded_records": [
+      "GBA-027-R04",
+      "GBA-028-R04",
+      "GBA-201-R07",
+      "GBA-201-R08",
+      "GBA-229-R07",
+      "GBA-229-R08",
+      "GBA-285-R03",
+      "GBA-287-R03",
+      "NGC-095-R03",
+      "NGC-097-R03",
+      "NGC-099-R03"
+    ],
+    "false_positive_excluded_regions": [],
+    "withheld_fragment_records": [],
+    "include_fragments": false,
+    "unknown_prediction_ids": [],
+    "strict_correct": 577,
+    "strict_region_accuracy": 0.9965457685664939,
+    "visual_correct": 577,
+    "visual_region_accuracy": 0.9965457685664939,
+    "missing_visible_regions": [],
+    "false_positive_invisible_candidates": [],
+    "strict_CER": 0.00012043114349370748,
+    "strict_character_edits": 2,
+    "strict_reference_characters": 16607,
+    "visual_CER": 0.0001408252358822701,
+    "visual_character_edits": 2,
+    "visual_reference_characters": 14202,
+    "numeric_records": 97,
+    "numeric_records_correct": 97,
+    "fully_evaluated_images": 451,
+    "strict_fully_correct_images": 449,
+    "partially_withheld_images": [],
+    "failures": [
+      {
+        "instance_id": "GBA-078-R03",
+        "image_id": "GBA-078",
+        "strict_correct": false,
+        "visual_correct": false,
+        "region_expected": true,
+        "region_predicted": true,
+        "expected_text": "ヘラクロスの\nすばやさが さがった！",
+        "actual_text": "へラクロスの\nすばやさが さがった！",
+        "strict_edits": 1,
+        "strict_reference_characters": 18,
+        "visual_edits": 1,
+        "visual_reference_characters": 16,
+        "numbers_correct": true,
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-080-R03",
+        "image_id": "GBA-080",
+        "strict_correct": false,
+        "visual_correct": false,
+        "region_expected": true,
+        "region_predicted": true,
+        "expected_text": "ヘラクロスは\nかわらわりを した！",
+        "actual_text": "へラクロスは\nかわらわりを した！",
+        "strict_edits": 1,
+        "strict_reference_characters": 17,
+        "visual_edits": 1,
+        "visual_reference_characters": 15,
+        "numbers_correct": true,
+        "roi_iou_informational": 1.0
+      }
+    ],
+    "geometry_iou": [
+      {
+        "instance_id": "GBA-001-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-002-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-003-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-004-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-005-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-006-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-007-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-008-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-009-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-010-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-011-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-012-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-013-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-013-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-014-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-015-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-016-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-016-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-017-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-017-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-018-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-018-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-018-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-019-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-019-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-019-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-020-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-020-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-020-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-021-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-021-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-022-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-022-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-022-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-023-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-023-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-023-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-024-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-024-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-024-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-025-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-025-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-025-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-026-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-026-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-026-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-027-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-027-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-027-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-028-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-028-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-028-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-029-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-030-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-031-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-032-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-033-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-034-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-034-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-035-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-035-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-036-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-036-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-037-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-038-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-039-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-040-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-041-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-042-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-043-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-044-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-045-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-046-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-047-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-048-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-049-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-050-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-051-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-051-R08",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-052-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-053-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-054-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-055-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-056-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-057-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-058-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-059-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-060-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-061-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-062-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-063-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-064-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-065-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-066-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-067-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-068-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-069-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-070-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-071-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-072-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-073-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-074-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-075-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-076-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-077-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-078-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-079-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-080-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-081-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-082-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-083-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-084-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-085-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-086-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-087-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-088-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-089-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-090-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-090-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-091-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-091-R08",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-092-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-093-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-094-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-095-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-096-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-097-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-098-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-099-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-100-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-101-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-102-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-103-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-104-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-105-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-106-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-107-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-108-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-109-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-110-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-111-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-112-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-113-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-114-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-115-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-116-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-117-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-118-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-119-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-120-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-121-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-122-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-123-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-124-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-125-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-126-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-127-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-128-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-129-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-130-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-131-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-132-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-133-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-134-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-135-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-136-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-137-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-138-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-139-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-140-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-141-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-142-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-143-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-144-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-145-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-146-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-147-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-148-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-149-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-150-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-151-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-152-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-153-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-154-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-155-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-156-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-157-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-158-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-159-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-160-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-161-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-162-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-163-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-164-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-165-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-166-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-167-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-168-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-169-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-170-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-171-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-172-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-173-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-174-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-175-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-176-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-177-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-178-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-179-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-180-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-181-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-182-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-183-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-184-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-185-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-186-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-187-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-188-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-189-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-190-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-191-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-192-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-193-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-194-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-195-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-196-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-197-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-198-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-199-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-200-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-201-R09",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-202-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-203-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-204-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-205-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-206-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-207-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-208-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-209-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-210-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-211-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-212-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-213-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-214-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-214-R08",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-215-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-215-R08",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-216-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-217-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-218-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-219-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-220-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-221-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-222-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-223-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-224-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-225-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-226-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-227-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-228-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-229-R09",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-230-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-231-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-232-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-233-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-234-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-235-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-236-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-237-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-238-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-239-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-240-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-241-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-242-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-243-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-244-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-245-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-246-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-247-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-248-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-249-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-250-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-251-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-252-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-253-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-254-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-255-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-256-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-257-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-258-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-259-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-260-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-261-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-262-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-263-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-264-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-265-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-266-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-267-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-268-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-269-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-270-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-271-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-272-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-273-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-274-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-275-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-276-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-277-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-278-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-278-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-278-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-282-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-283-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-284-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-284-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-284-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-285-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-285-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-285-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-286-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-287-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-287-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-287-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-288-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-289-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-290-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-291-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-292-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-293-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-294-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-295-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-296-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-297-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-298-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-299-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-300-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-301-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-302-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-303-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-304-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-304-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-304-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-305-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-305-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-305-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-305-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-306-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-306-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-307-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-307-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-308-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-308-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-308-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-309-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-309-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-309-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-310-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-310-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-310-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-311-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-311-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-311-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-311-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-312-R04",
+        "roi_iou_informational": 0.8181818181818182
+      },
+      {
+        "instance_id": "GBA-312-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-313-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-313-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-314-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-314-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-314-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-001-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-002-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-003-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-004-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-005-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-005-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-006-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-007-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-008-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-008-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-009-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-009-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-010-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-010-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-011-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-011-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-011-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-012-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-012-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-012-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-013-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-013-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-013-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-014-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-014-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-014-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-015-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-016-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-017-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-018-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-019-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-020-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-021-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-022-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-023-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-024-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-025-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-026-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-027-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-028-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-029-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-030-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-031-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-032-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-033-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-034-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-035-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-036-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-037-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-038-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-039-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-039-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-040-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-040-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-041-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-041-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-042-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-043-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-044-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-044-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-045-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-046-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-047-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-048-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-049-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-050-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-051-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-052-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-053-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-054-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-055-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-056-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-057-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-058-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-059-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-060-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-061-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-062-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-063-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-064-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-065-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-066-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-067-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-068-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-068-R08",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-069-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-070-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-071-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-072-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-073-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-074-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-075-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-076-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-077-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-078-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-079-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-080-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-081-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-082-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-083-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-084-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-084-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-084-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-085-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-085-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-085-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-086-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-088-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-089-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-090-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-091-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-093-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-094-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-095-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-095-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-095-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-096-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-096-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-096-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-096-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-097-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-097-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-097-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-097-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-098-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-099-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-099-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-099-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-099-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-100-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-101-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-102-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-103-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-104-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-105-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-106-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-107-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-108-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-109-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-110-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-111-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-112-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-113-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-114-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-115-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-115-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-116-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-116-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-117-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-118-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-119-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-120-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-121-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-122-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-123-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-123-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-123-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-124-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-124-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-124-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-124-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-125-R04",
+        "roi_iou_informational": 0.8181818181818182
+      },
+      {
+        "instance_id": "NGC-125-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-126-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-126-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-127-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-127-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-128-R04",
+        "roi_iou_informational": 0.8181818181818182
+      },
+      {
+        "instance_id": "NGC-128-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-129-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-129-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-129-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-130-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-130-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-130-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-131-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-131-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-131-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-132-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-132-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-132-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-132-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-133-R04",
+        "roi_iou_informational": 0.8181818181818182
+      },
+      {
+        "instance_id": "NGC-133-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-134-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-134-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-135-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-135-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-136-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-136-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-137-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-137-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-138-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-138-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-138-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-139-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-139-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-139-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-140-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-140-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-140-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-141-R04",
+        "roi_iou_informational": 0.8181818181818182
+      },
+      {
+        "instance_id": "NGC-141-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-287-S01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-303-S01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-315-S01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-315-S02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-069-S01",
+        "roi_iou_informational": 1.0
+      }
+    ],
+    "geometry_note": "IoU 仅为信息项；NGC 视口估计及 ROI 不是字形紧框真值，未设置自动几何验收阈值。",
+    "all_evaluated_passed": false,
+    "entire_scope_verified": false
+  },
+  "approved": {
+    "reference_freeze_status": "frozen_ai_reviewed",
+    "recognition_scope_rule": "exclude_when_target_text_occluded",
+    "total_reference_records": 590,
+    "total_scope_records": 579,
+    "evaluated_records": 579,
+    "excluded_occluded_records": [
+      "GBA-027-R04",
+      "GBA-028-R04",
+      "GBA-201-R07",
+      "GBA-201-R08",
+      "GBA-229-R07",
+      "GBA-229-R08",
+      "GBA-285-R03",
+      "GBA-287-R03",
+      "NGC-095-R03",
+      "NGC-097-R03",
+      "NGC-099-R03"
+    ],
+    "false_positive_excluded_regions": [],
+    "withheld_fragment_records": [],
+    "include_fragments": false,
+    "unknown_prediction_ids": [],
+    "strict_correct": 579,
+    "strict_region_accuracy": 1.0,
+    "visual_correct": 579,
+    "visual_region_accuracy": 1.0,
+    "missing_visible_regions": [],
+    "false_positive_invisible_candidates": [],
+    "strict_CER": 0.0,
+    "strict_character_edits": 0,
+    "strict_reference_characters": 16607,
+    "visual_CER": 0.0,
+    "visual_character_edits": 0,
+    "visual_reference_characters": 14202,
+    "numeric_records": 97,
+    "numeric_records_correct": 97,
+    "fully_evaluated_images": 451,
+    "strict_fully_correct_images": 451,
+    "partially_withheld_images": [],
+    "failures": [],
+    "geometry_iou": [
+      {
+        "instance_id": "GBA-001-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-002-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-003-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-004-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-005-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-006-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-007-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-008-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-009-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-010-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-011-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-012-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-013-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-013-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-014-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-015-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-016-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-016-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-017-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-017-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-018-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-018-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-018-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-019-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-019-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-019-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-020-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-020-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-020-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-021-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-021-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-022-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-022-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-022-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-023-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-023-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-023-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-024-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-024-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-024-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-025-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-025-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-025-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-026-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-026-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-026-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-027-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-027-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-027-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-028-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-028-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-028-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-029-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-030-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-031-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-032-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-033-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-034-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-034-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-035-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-035-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-036-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-036-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-037-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-038-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-039-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-040-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-041-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-042-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-043-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-044-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-045-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-046-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-047-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-048-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-049-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-050-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-051-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-051-R08",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-052-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-053-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-054-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-055-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-056-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-057-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-058-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-059-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-060-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-061-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-062-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-063-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-064-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-065-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-066-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-067-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-068-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-069-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-070-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-071-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-072-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-073-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-074-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-075-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-076-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-077-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-078-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-079-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-080-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-081-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-082-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-083-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-084-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-085-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-086-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-087-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-088-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-089-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-090-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-090-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-091-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-091-R08",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-092-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-093-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-094-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-095-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-096-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-097-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-098-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-099-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-100-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-101-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-102-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-103-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-104-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-105-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-106-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-107-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-108-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-109-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-110-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-111-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-112-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-113-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-114-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-115-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-116-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-117-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-118-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-119-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-120-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-121-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-122-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-123-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-124-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-125-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-126-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-127-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-128-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-129-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-130-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-131-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-132-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-133-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-134-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-135-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-136-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-137-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-138-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-139-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-140-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-141-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-142-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-143-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-144-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-145-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-146-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-147-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-148-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-149-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-150-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-151-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-152-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-153-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-154-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-155-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-156-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-157-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-158-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-159-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-160-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-161-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-162-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-163-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-164-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-165-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-166-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-167-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-168-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-169-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-170-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-171-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-172-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-173-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-174-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-175-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-176-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-177-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-178-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-179-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-180-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-181-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-182-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-183-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-184-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-185-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-186-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-187-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-188-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-189-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-190-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-191-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-192-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-193-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-194-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-195-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-196-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-197-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-198-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-199-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-200-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-201-R09",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-202-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-203-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-204-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-205-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-206-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-207-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-208-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-209-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-210-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-211-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-212-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-213-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-214-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-214-R08",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-215-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-215-R08",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-216-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-217-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-218-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-219-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-220-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-221-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-222-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-223-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-224-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-225-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-226-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-227-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-228-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-229-R09",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-230-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-231-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-232-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-233-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-234-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-235-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-236-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-237-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-238-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-239-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-240-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-241-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-242-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-243-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-244-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-245-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-246-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-247-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-248-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-249-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-250-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-251-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-252-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-253-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-254-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-255-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-256-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-257-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-258-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-259-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-260-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-261-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-262-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-263-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-264-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-265-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-266-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-267-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-268-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-269-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-270-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-271-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-272-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-273-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-274-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-275-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-276-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-277-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-278-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-278-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-278-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-282-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-283-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-284-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-284-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-284-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-285-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-285-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-285-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-286-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-287-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-287-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-287-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-288-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-289-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-290-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-291-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-292-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-293-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-294-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-295-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-296-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-297-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-298-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-299-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-300-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-301-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-302-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-303-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-304-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-304-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-304-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-305-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-305-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-305-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-305-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-306-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-306-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-307-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-307-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-308-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-308-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-308-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-309-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-309-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-309-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-310-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-310-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-310-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-311-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-311-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-311-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-311-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-312-R04",
+        "roi_iou_informational": 0.8181818181818182
+      },
+      {
+        "instance_id": "GBA-312-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-313-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-313-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-314-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-314-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-314-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-001-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-002-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-003-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-004-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-005-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-005-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-006-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-007-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-008-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-008-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-009-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-009-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-010-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-010-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-011-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-011-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-011-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-012-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-012-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-012-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-013-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-013-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-013-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-014-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-014-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-014-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-015-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-016-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-017-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-018-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-019-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-020-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-021-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-022-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-023-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-024-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-025-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-026-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-027-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-028-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-029-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-030-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-031-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-032-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-033-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-034-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-035-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-036-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-037-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-038-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-039-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-039-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-040-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-040-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-041-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-041-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-042-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-043-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-044-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-044-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-045-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-046-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-047-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-048-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-049-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-050-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-051-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-052-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-053-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-054-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-055-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-056-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-057-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-058-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-059-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-060-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-061-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-062-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-063-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-064-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-065-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-066-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-067-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-068-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-068-R08",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-069-R07",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-070-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-071-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-072-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-073-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-074-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-075-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-076-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-077-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-078-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-079-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-080-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-081-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-082-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-083-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-084-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-084-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-084-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-085-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-085-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-085-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-086-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-088-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-089-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-090-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-091-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-093-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-094-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-095-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-095-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-095-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-096-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-096-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-096-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-096-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-097-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-097-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-097-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-097-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-098-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-099-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-099-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-099-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-099-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-100-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-101-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-102-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-103-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-104-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-105-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-106-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-107-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-108-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-109-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-110-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-111-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-112-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-113-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-114-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-115-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-115-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-116-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-116-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-117-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-118-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-119-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-120-R02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-121-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-122-R01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-123-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-123-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-123-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-124-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-124-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-124-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-124-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-125-R04",
+        "roi_iou_informational": 0.8181818181818182
+      },
+      {
+        "instance_id": "NGC-125-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-126-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-126-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-127-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-127-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-128-R04",
+        "roi_iou_informational": 0.8181818181818182
+      },
+      {
+        "instance_id": "NGC-128-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-129-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-129-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-129-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-130-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-130-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-130-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-131-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-131-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-131-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-132-R03",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-132-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-132-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-132-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-133-R04",
+        "roi_iou_informational": 0.8181818181818182
+      },
+      {
+        "instance_id": "NGC-133-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-134-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-134-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-135-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-135-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-136-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-136-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-137-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-137-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-138-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-138-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-138-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-139-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-139-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-139-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-140-R04",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-140-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-140-R06",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-141-R04",
+        "roi_iou_informational": 0.8181818181818182
+      },
+      {
+        "instance_id": "NGC-141-R05",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-287-S01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-303-S01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-315-S01",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "GBA-315-S02",
+        "roi_iou_informational": 1.0
+      },
+      {
+        "instance_id": "NGC-069-S01",
+        "roi_iou_informational": 1.0
+      }
+    ],
+    "geometry_note": "IoU 仅为信息项；NGC 视口估计及 ROI 不是字形紧框真值，未设置自动几何验收阈值。",
+    "all_evaluated_passed": true,
+    "entire_scope_verified": true
+  },
+  "groups": {
+    "gba": {
+      "chain": "NDS",
+      "targets": 375,
+      "strict_correct": 373,
+      "approved_correct": 375,
+      "approved_CER": 0.0,
+      "target_images": 312,
+      "approved_correct_images": 312
+    },
+    "ngc": {
+      "chain": "NGC",
+      "targets": 204,
+      "strict_correct": 204,
+      "approved_correct": 204,
+      "approved_CER": 0.0,
+      "target_images": 139,
+      "approved_correct_images": 139
+    }
+  },
+  "baseline": {
+    "targets": 574,
+    "strict_correct": 572
+  },
+  "additional_targets": 5,
+  "equivalent_only_records": [
+    "GBA-078-R03",
+    "GBA-080-R03"
+  ],
+  "equivalence_evidence": [
+    {
+      "characters": [
+        "へ",
+        "ヘ"
+      ],
+      "font": 3,
+      "rows": [
+        0,
+        0,
+        0,
+        0,
+        32,
+        80,
+        72,
+        136,
+        132,
+        4,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "characters": [
+        "0",
+        "O"
+      ],
+      "font": 3,
+      "rows": [
+        0,
+        0,
+        0,
+        56,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        68,
+        56,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "unexpected_detections": [],
+  "unknown_or_unsupported": [],
+  "scope_negative_images": 5,
+  "scope_negative_false_outputs": [],
+  "target_game": "Japanese Ruby/Sapphire as specified by user",
+  "per_image_game_assignment": "not established; not an S3 blocker under the user-confirmed scope",
+  "evidence_kind": "fixed_existing_hardware_screenshot_set_with_ai_rereview",
+  "holdout_established": false,
+  "human_review_performed": false,
+  "limitations": [
+    "不代表未见画面、全游戏、实时捕获、中文、200ms 延迟或发行包验收通过。",
+    "实机卡带修订号及逐图红宝石／蓝宝石归属未补齐；按用户已指定的日版 RS 范围推进，不作为本次固定集验收阻塞。",
+    "旧候选转录档案仍保留历史人工复核字段；本目录的冻结快照与 AI 复核记录为当前 S3 依据。"
+  ]
+}

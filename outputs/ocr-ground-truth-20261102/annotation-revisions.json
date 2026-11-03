@@ -1,0 +1,20 @@
+{
+  "status": "applied_to_candidate_pending_human_review",
+  "method": "Assistant visually re-read the original image regions; not independent human acceptance. Original sheet transcriptions remain unchanged and each correction is replayed with a source hash and before-text guard by build.py.",
+  "revisions": [
+    {
+      "instance_id": "NGC-086-R05",
+      "source_sha256": "5bb71b648f369226fcbdf64674702c4cc9dd07fb56a948dad584eba75c227c8d",
+      "before": "とても かわいい はなが さく。\nまっかな みは とても からい",
+      "after": "とても かわいい はなが さく。\nまっかな みは とても からい。",
+      "reason": "原图中第二行末尾可见独立句号。"
+    },
+    {
+      "instance_id": "NGC-093-R05",
+      "source_sha256": "ee75e509518b7868c4ecb9e2e354d05e60f74afab43c4073181f2add14ba0b2c",
+      "before": "ももいろポロック ができた！\nレベル17で なめらかさは21だ",
+      "after": "ももいろポロック ができた！\nレベル11で なめらかさは21だ",
+      "reason": "原图中等级的两位数字均为 1，第二位没有 7 的横画与斜画。"
+    }
+  ]
+}

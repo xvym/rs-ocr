@@ -1,0 +1,4 @@
+# Keep corpus evidence hashes stable across Windows and Unix checkouts.
+/corpus/*.json text eol=lf
+/tools/*corpus*.mjs text eol=lf
+/outputs/corpus-mapping/* -text

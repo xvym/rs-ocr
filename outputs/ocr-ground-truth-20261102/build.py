@@ -38,6 +38,16 @@ def build():
     rows=manifest['regions']
     byid={r['instance_id']:r for r in rows}
     assert len(rows)==585 and len(byid)==585 and len(read)==524
+    revisions=json.loads((HERE/'annotation-revisions.json').read_text(encoding='utf-8'))
+    revised={}
+    for revision in revisions['revisions']:
+        rid=revision['instance_id']
+        original,sheet=read[rid]
+        assert original.replace('|','\n')==revision['before'],rid
+        assert byid[rid]['source_sha256']==revision['source_sha256'],rid
+        assert hashlib.sha256((ROOT/byid[rid]['source']).read_bytes()).hexdigest()==revision['source_sha256'],rid
+        read[rid]=(revision['after'].replace('\n','|'),sheet)
+        revised[rid]=revision
     for r in rows:
         rid=r['instance_id']
         r['expect_region_visible']=r['status']!='not_visible'
@@ -82,6 +92,10 @@ def build():
             r['notes'].append('引号内第二行相对第一行正文起点缩进 8 个逻辑像素；布局缩进另存，不计为词间空格。')
         r['annotation_method']='assistant_visual_transcription'
         r['human_review_status']='pending'
+        reference=r.get('duplicate_of',rid)
+        if reference in revised:
+            r['annotation_revision']=reference
+            r['notes'].append('AI 回看原图修正候选转录；修改前后及图像哈希见 annotation-revisions.json，仍待人工复核。')
         r['crop_file_sha256']=hashlib.sha256((HERE/r['crop']).read_bytes()).hexdigest()
     # Use native frame/panel geometry, not padding in an OCR detection ROI.
     features=json.loads((ROOT/'reports/textbox-features/features.json').read_text(encoding='utf-8'))
@@ -218,7 +232,7 @@ def build():
     page=page.replace('__ACTIVE__',str(len(active))).replace('__EXCLUDED__',str(len(excluded)))
     (HERE/'review.html').write_text(page,encoding='utf-8')
     # Portable digest manifest covers delivered answers and every review crop.
-    files=['ground_truth.json','regions.jsonl','regions.csv','summary.json','review.html','excluded_regions.json','occlusion_review.json']+[r['crop'] for r in rows]
+    files=['ground_truth.json','regions.jsonl','regions.csv','summary.json','review.html','excluded_regions.json','occlusion_review.json','annotation-revisions.json']+[r['crop'] for r in rows]
     (HERE/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256((HERE/name).read_bytes()).hexdigest()+'  '+name+'\n' for name in files),encoding='utf-8')
     print(json.dumps(summary,ensure_ascii=True,indent=2))
 

@@ -1,0 +1,38 @@
+{
+  "embeddedEngineEntriesIdentical": 14,
+  "stabilityWaitMs": 150,
+  "desktopJarSha256": "4739d0d218d3ecc4da5e44f3079c987e6738b2826affe356f6d7caa90d67dd88",
+  "tests": [
+    {
+      "tests": 3,
+      "suite": "io.github.rsocr.desktop.BattleCursorTest"
+    },
+    {
+      "tests": 1,
+      "suite": "io.github.rsocr.desktop.capture.WindowCapturePixelsTest"
+    },
+    {
+      "tests": 3,
+      "suite": "io.github.rsocr.desktop.ImageSessionTest"
+    },
+    {
+      "tests": 1,
+      "suite": "io.github.rsocr.desktop.LiveMetricsTest"
+    },
+    {
+      "tests": 2,
+      "suite": "io.github.rsocr.desktop.LivePresentationTest"
+    },
+    {
+      "tests": 8,
+      "suite": "io.github.rsocr.desktop.LiveStateTest"
+    },
+    {
+      "tests": 6,
+      "suite": "io.github.rsocr.desktop.PresentationTest"
+    }
+  ],
+  "noRomScreenshotsOrAnswersInJar": true,
+  "s3FrozenFilesVerified": 471,
+  "s3EngineSha256": "f7ecb5ee9c3928938214377cd97c1d50d2e681537014f80085325163f173d597"
+}

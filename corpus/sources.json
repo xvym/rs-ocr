@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "upstream-1",
+      "repository": "pret/pokeruby",
+      "commit": "78b19905a760095bc45eab2e36906c6e8c208dce",
+      "path": "pokeruby_rev2.sym",
+      "url": "https://raw.githubusercontent.com/pret/pokeruby/78b19905a760095bc45eab2e36906c6e8c208dce/pokeruby_rev2.sym",
+      "local": "outputs/pokeruby-text-audit/inputs/pokeruby_rev2.sym",
+      "sha256": "b78e6ae48600b704041c54c6220951568b1a922555ce758158f7d219f5393de1"
+    },
+    {
+      "id": "upstream-2",
+      "repository": "pret/pokeruby",
+      "commit": "78b19905a760095bc45eab2e36906c6e8c208dce",
+      "path": "pokesapphire_rev2.sym",
+      "url": "https://raw.githubusercontent.com/pret/pokeruby/78b19905a760095bc45eab2e36906c6e8c208dce/pokesapphire_rev2.sym",
+      "local": "outputs/pokeruby-text-audit/inputs/pokesapphire_rev2.sym",
+      "sha256": "8f5cbc4943b21108e5f65070537acf53b30cf24a434e92a24b15529bb49f0612"
+    },
+    {
+      "id": "upstream-3",
+      "repository": "pret/pokeruby",
+      "commit": "78b19905a760095bc45eab2e36906c6e8c208dce",
+      "path": "pokeruby.sym",
+      "url": "https://raw.githubusercontent.com/pret/pokeruby/78b19905a760095bc45eab2e36906c6e8c208dce/pokeruby.sym",
+      "local": "outputs/pokeruby-text-audit/inputs/pokeruby.sym",
+      "sha256": "a1f84fc44670fc8ae3937a1aec6f39a4eb1ac49f6b429b68082d4bcbe9b45128"
+    },
+    {
+      "id": "upstream-4",
+      "repository": "pret/pokeruby",
+      "commit": "78b19905a760095bc45eab2e36906c6e8c208dce",
+      "path": "pokesapphire.sym",
+      "url": "https://raw.githubusercontent.com/pret/pokeruby/78b19905a760095bc45eab2e36906c6e8c208dce/pokesapphire.sym",
+      "local": "outputs/pokeruby-text-audit/inputs/pokesapphire.sym",
+      "sha256": "ee3dc96e7c38a285e12d159e0bd72299eb3750b893f9c130b47d2c31969affe8"
+    },
+    {
+      "id": "upstream-5",
+      "repository": "UWorldGX/pkmn_rs_chn_rsc",
+      "commit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+      "path": "1.2汉化红宝石拼合/红宝石1.2汉化总文本(JP).txt",
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E7%BA%A2%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E7%BA%A2%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC%28JP%29.txt",
+      "local": "outputs/pokeruby-text-audit/inputs/红宝石1.2汉化总文本(JP).txt",
+      "sha256": "b0fccb0a43f840f58aa32a420933c54e0bf1eb4bd854a368129f050910763e69"
+    },
+    {
+      "id": "upstream-6",
+      "repository": "UWorldGX/pkmn_rs_chn_rsc",
+      "commit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+      "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(JP).txt",
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E8%93%9D%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E8%93%9D%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC%28JP%29.txt",
+      "local": "outputs/pokeruby-text-audit/inputs/蓝宝石1.2汉化总文本(JP).txt",
+      "sha256": "3ba491e6d71e366666da42ed9877d1ef5c0b6d70440068c0d479de65d4984bc1"
+    },
+    {
+      "id": "upstream-7",
+      "repository": "pret/pokeruby",
+      "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+      "path": "source archive",
+      "url": "https://codeload.github.com/pret/pokeruby/zip/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+      "local": "outputs/pokeruby-text-audit/inputs/pokeruby-source.zip",
+      "sha256": "a9c6cd518cef1ee0daf724729b3be2add87c43d78cff11bf4ac69f6a05bf7d0a"
+    },
+    {
+      "id": "corpus-1",
+      "repository": "abcboy101/poke-corpus",
+      "commit": "0370812d2a2d7b148de0504ab16d5ef90c7af5c9",
+      "path": "corpus/RubySapphire/qid_msg.txt",
+      "url": "https://raw.githubusercontent.com/abcboy101/poke-corpus/0370812d2a2d7b148de0504ab16d5ef90c7af5c9/corpus/RubySapphire/qid_msg.txt",
+      "local": "outputs/corpus-inputs/qid_msg.txt",
+      "sha256": "bafdfb4540e8b766e7cbc947890b12164234d81f1ca039f2bdfadc8dd1d5d1b8"
+    },
+    {
+      "id": "corpus-2",
+      "repository": "abcboy101/poke-corpus",
+      "commit": "0370812d2a2d7b148de0504ab16d5ef90c7af5c9",
+      "path": "corpus/RubySapphire/ja-Hrkt_msg.txt",
+      "url": "https://raw.githubusercontent.com/abcboy101/poke-corpus/0370812d2a2d7b148de0504ab16d5ef90c7af5c9/corpus/RubySapphire/ja-Hrkt_msg.txt",
+      "local": "outputs/corpus-inputs/ja-Hrkt_msg.txt",
+      "sha256": "8bc1ba84bd6fba37071f9082a63fcbabcf84f66ee5dfce8e71428cf1a032e038"
+    },
+    {
+      "id": "corpus-3",
+      "repository": "abcboy101/poke-corpus",
+      "commit": "0370812d2a2d7b148de0504ab16d5ef90c7af5c9",
+      "path": "corpus/RubySapphire/en_msg.txt",
+      "url": "https://raw.githubusercontent.com/abcboy101/poke-corpus/0370812d2a2d7b148de0504ab16d5ef90c7af5c9/corpus/RubySapphire/en_msg.txt",
+      "local": "outputs/corpus-inputs/en_msg.txt",
+      "sha256": "c3deee1a461c71d19b9dbeb5e119d477ee9b10cbbcf59c1b045ebd2b2407ab55"
+    },
+    {
+      "id": "corpus-4",
+      "repository": "abcboy101/poke-corpus",
+      "commit": "0370812d2a2d7b148de0504ab16d5ef90c7af5c9",
+      "path": "NOTES.md",
+      "url": "https://raw.githubusercontent.com/abcboy101/poke-corpus/0370812d2a2d7b148de0504ab16d5ef90c7af5c9/NOTES.md",
+      "local": "outputs/corpus-inputs/NOTES.md",
+      "sha256": "df449fd6184dd171e29f1232408a6bdfe4483ce135912666eab69794f2d2c90a"
+    },
+    {
+      "id": "corpus-5",
+      "repository": "abcboy101/poke-corpus",
+      "commit": "0370812d2a2d7b148de0504ab16d5ef90c7af5c9",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/abcboy101/poke-corpus/0370812d2a2d7b148de0504ab16d5ef90c7af5c9/README.md",
+      "local": "outputs/corpus-inputs/README.md",
+      "sha256": "52b5638b232923fbbf7885f736464e1b2703ff79076083d1bc64677cefb96959"
+    },
+    {
+      "id": "corpus-6",
+      "repository": "UWorldGX/pkmn_rs_chn_rsc",
+      "commit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+      "path": "词典（校队）/宝可梦名称_英-中_现行官译版.txt",
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD_%E7%8E%B0%E8%A1%8C%E5%AE%98%E8%AF%91%E7%89%88.txt",
+      "local": "outputs/corpus-inputs/宝可梦名称_英-中_现行官译版.txt",
+      "sha256": "3b8b08b6beebecdae4fcad9e4d7630a969a2373010d1ef3f635ef220efcb0880"
+    },
+    {
+      "id": "corpus-7",
+      "repository": "UWorldGX/pkmn_rs_chn_rsc",
+      "commit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+      "path": "词典（校队）/技能名称_英-中_现行官译版.txt",
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E6%8A%80%E8%83%BD%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD_%E7%8E%B0%E8%A1%8C%E5%AE%98%E8%AF%91%E7%89%88.txt",
+      "local": "outputs/corpus-inputs/技能名称_英-中_现行官译版.txt",
+      "sha256": "53283155d31b8e121d803f04172774e2321100e8c423f5042a97e0aecf306b88"
+    },
+    {
+      "id": "corpus-8",
+      "repository": "UWorldGX/pkmn_rs_chn_rsc",
+      "commit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+      "path": "词典（校队）/特性名称_英-中_官译版.txt",
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E7%89%B9%E6%80%A7%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD_%E5%AE%98%E8%AF%91%E7%89%88.txt",
+      "local": "outputs/corpus-inputs/特性名称_英-中_官译版.txt",
+      "sha256": "03b8df96d0dd5c898c4ff0019e275f2388e435f00358759484017fbd076ec661"
+    },
+    {
+      "id": "corpus-9",
+      "repository": "UWorldGX/pkmn_rs_chn_rsc",
+      "commit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+      "path": "词典（校队）/道具名称_英-中_现行官译版.txt",
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E9%81%93%E5%85%B7%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD_%E7%8E%B0%E8%A1%8C%E5%AE%98%E8%AF%91%E7%89%88.txt",
+      "local": "outputs/corpus-inputs/道具名称_英-中_现行官译版.txt",
+      "sha256": "04fb9ecb46d522f7e3c7b71a8ca6728c1cb9e99764dea793344efca773c0e66e"
+    }
+  ]
+}

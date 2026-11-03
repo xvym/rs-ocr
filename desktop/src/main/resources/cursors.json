@@ -1,0 +1,44 @@
+{
+  "battle_arrow": [
+    0,
+    0,
+    0,
+    0,
+    96,
+    112,
+    120,
+    124,
+    124,
+    124,
+    120,
+    112,
+    96,
+    0,
+    0,
+    0
+  ],
+  "evidence": [
+    {
+      "game": "AXPJ",
+      "rom_sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+      "stream_offset": "0x67d000",
+      "decoded_sha256": "0b712921c5826b7e59d75357a7f0474945849e7f5e657cc4099c08e21f5e2a14",
+      "tiles": [
+        1,
+        2
+      ],
+      "foreground_index": 9
+    },
+    {
+      "game": "AXVJ",
+      "rom_sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "stream_offset": "0x67d000",
+      "decoded_sha256": "0b712921c5826b7e59d75357a7f0474945849e7f5e657cc4099c08e21f5e2a14",
+      "tiles": [
+        1,
+        2
+      ],
+      "foreground_index": 9
+    }
+  ]
+}

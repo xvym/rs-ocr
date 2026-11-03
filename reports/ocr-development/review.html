@@ -1,6 +1,6 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>日文 OCR 开发比对</title>
 <style>body{max-width:1100px;margin:32px auto;padding:0 20px;font:16px/1.6 system-ui;background:#f4f6f8;color:#18232f}article{background:white;border:1px solid #d7dce1;border-radius:10px;padding:20px;margin:20px 0}h2{font-size:18px}h3{font-size:14px;color:#51616e}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.7 ui-monospace,monospace}img{max-width:100%;max-height:260px;object-fit:contain;image-rendering:pixelated}.texts{display:grid;grid-template-columns:1fr 1fr;gap:24px}select{padding:8px;margin:8px}details pre{font-size:13px}article[hidden]{display:none}@media(max-width:700px){.texts{grid-template-columns:1fr}}</style>
-<h1>日文原文 OCR 开发比对</h1><p>严格相同 567 / 574；574 项分母完整保留。11 个遮挡排除区域误输出 0 项。另有 5 项未分配检测待复核。</p><p>此页比较程序输出与尚未冻结的候选转录，不能视为 100% 产品验收。图片只用于测试；运行程序不读取答案。</p><label>状态<select id="state"><option>差异</option><option>全部</option><option>严格相同</option></select></label><label>分组<select id="platform"><option>全部</option><option>gba</option><option>ngc</option></select></label><article data-state="严格相同" data-platform="gba"><h2>GBA-001-R01 · field_dialog · 严格相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-001-R01.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>ポケモンの とくせいに よっては
+<h1>日文原文 OCR 开发比对</h1><p>严格相同 572 / 574；574 项分母完整保留。11 个遮挡排除区域误输出 0 项。另有 5 项原目录外补充检测，处理状态见下文。</p><p>同形字提案相同 574 / 574，仅同形字差异 2 项。额外检测中未复核 0 项、与补充转录不一致 0 项；<a href="scope-review.json">范围复核</a>、<a href="font3-equivalence.json">同形字证据</a>。</p><p>此页比较程序输出与尚未冻结的候选转录，不能视为 100% 产品验收。图片只用于测试；运行程序不读取答案。</p><label>状态<select id="state"><option>全部</option><option>差异</option><option>同形字提案相同</option><option>严格相同</option></select></label><label>分组<select id="platform"><option>全部</option><option>gba</option><option>ngc</option></select></label><article data-state="严格相同" data-platform="gba"><h2>GBA-001-R01 · field_dialog · 严格相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-001-R01.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>ポケモンの とくせいに よっては
 わざの いりょくが かわったり</pre></section><section><h3>原始 OCR</h3><pre>ポケモンの とくせいに よっては
 わざの いりょくが かわったり</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
   &quot;status&quot;: &quot;recognized&quot;,
@@ -547,7 +547,7 @@ No08キーのみ × 9</pre></section></div><details><summary>检测与字形诊�
   &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 1.0,
   &quot;characters&quot;: []
-}</pre></details></article><article data-state="差异" data-platform="gba"><h2>GBA-027-R03 · bag_list · 差异</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-027-R03.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>はいぶくろ
+}</pre></details></article><article data-state="严格相同" data-platform="gba"><h2>GBA-027-R03 · bag_list · 严格相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-027-R03.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>はいぶくろ
 ゴーゴーゴーグル
 ツメのカセキ
 ちかのカギ
@@ -557,46 +557,10 @@ No08キーのみ × 9</pre></section></div><details><summary>检测与字形诊�
 ツメのカセキ
 ちかのカギ
 いいつりざお
-デボンスコープ
-�
-��</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
-  &quot;status&quot;: &quot;unknown_glyph&quot;,
+デボンスコープ</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
+  &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 1.0,
-  &quot;characters&quot;: [
-    {
-      &quot;x&quot;: 120,
-      &quot;y&quot;: 112,
-      &quot;font&quot;: 3,
-      &quot;raw&quot;: &quot;�&quot;,
-      &quot;candidates&quot;: [
-        &quot; &quot;
-      ],
-      &quot;distance&quot;: 2,
-      &quot;runnerUpDistance&quot;: 4
-    },
-    {
-      &quot;x&quot;: 120,
-      &quot;y&quot;: 128,
-      &quot;font&quot;: 3,
-      &quot;raw&quot;: &quot;�&quot;,
-      &quot;candidates&quot;: [
-        &quot; &quot;
-      ],
-      &quot;distance&quot;: 8,
-      &quot;runnerUpDistance&quot;: 10
-    },
-    {
-      &quot;x&quot;: 128,
-      &quot;y&quot;: 128,
-      &quot;font&quot;: 3,
-      &quot;raw&quot;: &quot;�&quot;,
-      &quot;candidates&quot;: [
-        &quot; &quot;
-      ],
-      &quot;distance&quot;: 14,
-      &quot;runnerUpDistance&quot;: 16
-    }
-  ]
+  &quot;characters&quot;: []
 }</pre></details></article><article data-state="严格相同" data-platform="gba"><h2>GBA-028-R01 · field_dialog · 严格相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-028-R01.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>ハルカ！ こういうものには
 つかいどきが あるんだ！</pre></section><section><h3>原始 OCR</h3><pre>ハルカ！ こういうものには
 つかいどきが あるんだ！</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
@@ -607,7 +571,7 @@ No08キーのみ × 9</pre></section></div><details><summary>检测与字形诊�
   &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 1.0,
   &quot;characters&quot;: []
-}</pre></details></article><article data-state="差异" data-platform="gba"><h2>GBA-028-R03 · bag_list · 差异</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-028-R03.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>はいぶくろ
+}</pre></details></article><article data-state="严格相同" data-platform="gba"><h2>GBA-028-R03 · bag_list · 严格相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-028-R03.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>はいぶくろ
 ゴーゴーゴーグル
 ツメのカセキ
 ちかのカギ
@@ -617,57 +581,10 @@ No08キーのみ × 9</pre></section></div><details><summary>检测与字形诊�
 ツメのカセキ
 ちかのカギ
 いいつりざお
-デボンスコープ
-��
-��</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
-  &quot;status&quot;: &quot;unknown_glyph&quot;,
+デボンスコープ</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
+  &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 1.0,
-  &quot;characters&quot;: [
-    {
-      &quot;x&quot;: 120,
-      &quot;y&quot;: 112,
-      &quot;font&quot;: 3,
-      &quot;raw&quot;: &quot;�&quot;,
-      &quot;candidates&quot;: [
-        &quot; &quot;
-      ],
-      &quot;distance&quot;: 8,
-      &quot;runnerUpDistance&quot;: 10
-    },
-    {
-      &quot;x&quot;: 128,
-      &quot;y&quot;: 112,
-      &quot;font&quot;: 3,
-      &quot;raw&quot;: &quot;�&quot;,
-      &quot;candidates&quot;: [
-        &quot; &quot;
-      ],
-      &quot;distance&quot;: 14,
-      &quot;runnerUpDistance&quot;: 16
-    },
-    {
-      &quot;x&quot;: 120,
-      &quot;y&quot;: 128,
-      &quot;font&quot;: 3,
-      &quot;raw&quot;: &quot;�&quot;,
-      &quot;candidates&quot;: [
-        &quot;こ&quot;
-      ],
-      &quot;distance&quot;: 25,
-      &quot;runnerUpDistance&quot;: 26
-    },
-    {
-      &quot;x&quot;: 128,
-      &quot;y&quot;: 128,
-      &quot;font&quot;: 3,
-      &quot;raw&quot;: &quot;�&quot;,
-      &quot;candidates&quot;: [
-        &quot; &quot;
-      ],
-      &quot;distance&quot;: 16,
-      &quot;runnerUpDistance&quot;: 18
-    }
-  ]
+  &quot;characters&quot;: []
 }</pre></details></article><article data-state="严格相同" data-platform="gba"><h2>GBA-029-R01 · field_dialog · 严格相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-029-R01.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>この トクサネの しゅうへん では
 やせいの ホエルコが けんぶつ できるんだ</pre></section><section><h3>原始 OCR</h3><pre>この トクサネの しゅうへん では
 やせいの ホエルコが けんぶつ できるんだ</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
@@ -1447,7 +1364,7 @@ No08キーのみ × 9</pre></section></div><details><summary>检测与字形诊�
   &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 1.0,
   &quot;characters&quot;: []
-}</pre></details></article><article data-state="差异" data-platform="gba"><h2>GBA-078-R03 · battle_message · 差异</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-078-R03.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>ヘラクロスの
+}</pre></details></article><article data-state="同形字提案相同" data-platform="gba"><h2>GBA-078-R03 · battle_message · 同形字提案相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-078-R03.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>ヘラクロスの
 すばやさが さがった！</pre></section><section><h3>原始 OCR</h3><pre>へラクロスの
 すばやさが さがった！</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
   &quot;status&quot;: &quot;recognized&quot;,
@@ -1470,7 +1387,7 @@ No08キーのみ × 9</pre></section></div><details><summary>检测与字形诊�
   &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 1.0,
   &quot;characters&quot;: []
-}</pre></details></article><article data-state="差异" data-platform="gba"><h2>GBA-080-R03 · battle_message · 差异</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-080-R03.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>ヘラクロスは
+}</pre></details></article><article data-state="同形字提案相同" data-platform="gba"><h2>GBA-080-R03 · battle_message · 同形字提案相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/GBA-080-R03.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>ヘラクロスは
 かわらわりを した！</pre></section><section><h3>原始 OCR</h3><pre>へラクロスは
 かわらわりを した！</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
   &quot;status&quot;: &quot;recognized&quot;,
@@ -5256,8 +5173,8 @@ No08キーのみ × 9</pre></section></div><details><summary>检测与字形诊�
   &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 1.0,
   &quot;characters&quot;: []
-}</pre></details></article><article data-state="差异" data-platform="ngc"><h2>NGC-086-R05 · berry_tag_description · 差异</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/NGC-086-R05.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>とても かわいい はなが さく。
-まっかな みは とても からい</pre></section><section><h3>原始 OCR</h3><pre>とても かわいい はなが さく。
+}</pre></details></article><article data-state="严格相同" data-platform="ngc"><h2>NGC-086-R05 · berry_tag_description · 严格相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/NGC-086-R05.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>とても かわいい はなが さく。
+まっかな みは とても からい。</pre></section><section><h3>原始 OCR</h3><pre>とても かわいい はなが さく。
 まっかな みは とても からい。</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
   &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 0.9915458937198067,
@@ -5282,8 +5199,8 @@ No08キーのみ × 9</pre></section></div><details><summary>检测与字形诊�
   &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 1.0,
   &quot;characters&quot;: []
-}</pre></details></article><article data-state="差异" data-platform="ngc"><h2>NGC-093-R05 · blender_message · 差异</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/NGC-093-R05.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>ももいろポロック ができた！
-レベル17で なめらかさは21だ</pre></section><section><h3>原始 OCR</h3><pre>ももいろポロック ができた！
+}</pre></details></article><article data-state="严格相同" data-platform="ngc"><h2>NGC-093-R05 · blender_message · 严格相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/NGC-093-R05.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>ももいろポロック ができた！
+レベル11で なめらかさは21だ</pre></section><section><h3>原始 OCR</h3><pre>ももいろポロック ができた！
 レベル11で なめらかさは21だ</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
   &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 1.0,
@@ -5318,65 +5235,16 @@ No08キーのみ × 9</pre></section></div><details><summary>检测与字形诊�
   &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 1.0,
   &quot;characters&quot;: []
-}</pre></details></article><article data-state="差异" data-platform="ngc"><h2>NGC-096-R03 · condition_graph · 差异</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/NGC-096-R03.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>かっこよさ
+}</pre></details></article><article data-state="严格相同" data-platform="ngc"><h2>NGC-096-R03 · condition_graph · 严格相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/NGC-096-R03.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>かっこよさ
 たくましさ うつくしさ
 かしこさ かわいさ
 FEEL</pre></section><section><h3>原始 OCR</h3><pre>かっこよさ
 たくましさ うつくしさ
 かしこさ かわいさ
-����</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
-  &quot;status&quot;: &quot;unknown_glyph&quot;,
+FEEL</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
+  &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 0.9850136239782016,
-  &quot;characters&quot;: [
-    {
-      &quot;x&quot;: 218,
-      &quot;y&quot;: 116,
-      &quot;font&quot;: 4,
-      &quot;raw&quot;: &quot;�&quot;,
-      &quot;candidates&quot;: [
-        &quot;D&quot;
-      ],
-      &quot;distance&quot;: 4,
-      &quot;runnerUpDistance&quot;: 6
-    },
-    {
-      &quot;x&quot;: 222,
-      &quot;y&quot;: 116,
-      &quot;font&quot;: 4,
-      &quot;raw&quot;: &quot;�&quot;,
-      &quot;candidates&quot;: [
-        &quot;ル&quot;,
-        &quot;D&quot;
-      ],
-      &quot;distance&quot;: 7,
-      &quot;runnerUpDistance&quot;: 8
-    },
-    {
-      &quot;x&quot;: 226,
-      &quot;y&quot;: 116,
-      &quot;font&quot;: 4,
-      &quot;raw&quot;: &quot;�&quot;,
-      &quot;candidates&quot;: [
-        &quot;ル&quot;,
-        &quot;B&quot;,
-        &quot;D&quot;,
-        &quot;E&quot;
-      ],
-      &quot;distance&quot;: 7,
-      &quot;runnerUpDistance&quot;: 8
-    },
-    {
-      &quot;x&quot;: 230,
-      &quot;y&quot;: 116,
-      &quot;font&quot;: 4,
-      &quot;raw&quot;: &quot;�&quot;,
-      &quot;candidates&quot;: [
-        &quot;L&quot;
-      ],
-      &quot;distance&quot;: 4,
-      &quot;runnerUpDistance&quot;: 6
-    }
-  ]
+  &quot;characters&quot;: []
 }</pre></details></article><article data-state="严格相同" data-platform="ngc"><h2>NGC-096-R04 · condition_hint · 严格相同</h2><img loading="lazy" src="../../outputs/ocr-ground-truth-20261102/crops/NGC-096-R04.png" alt="原图区域"><div class="texts"><section><h3>候选转录（待人工复核）</h3><pre>せいかく/がんばりや</pre></section><section><h3>原始 OCR</h3><pre>せいかく/がんばりや</pre></section></div><details><summary>检测与字形诊断</summary><pre>{
   &quot;status&quot;: &quot;recognized&quot;,
   &quot;score&quot;: 1.0,

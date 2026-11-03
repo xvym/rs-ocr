@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "sourceManifestSha256": "6850287479516bc69fb0bb8687cb722e8e26f11018bbd8179ee410b56a36f53b",
+  "corpusRecords": 13479,
+  "japanese": {
+    "empty": 53,
+    "null": 856
+  },
+  "english": {
+    "empty": 82,
+    "null": 17
+  },
+  "recordApplicability": {
+    "both": 11931,
+    "ruby": 774,
+    "sapphire": 774
+  },
+  "engines": {
+    "ruby": {
+      "rscEntries": 9805,
+      "reconstructedBytes": 582987,
+      "reconstructionErrors": 0,
+      "encodingErrors": 36
+    },
+    "sapphire": {
+      "rscEntries": 9805,
+      "reconstructedBytes": 583519,
+      "reconstructionErrors": 0,
+      "encodingErrors": 36
+    }
+  },
+  "candidateRows": 21192,
+  "candidateKinds": {
+    "ability": 158,
+    "item": 462,
+    "move": 740,
+    "rsc_address": 19060,
+    "species": 772
+  },
+  "perGame": {
+    "ruby": {
+      "eligibleSourceRecords": 12705,
+      "recordsWithChineseCandidates": 10413,
+      "recordsWithSourceLinks": 10793,
+      "homographGroups": {
+        "context_required": 4,
+        "resolved_offline": 5,
+        "unresolved": 98
+      },
+      "gaps": {
+        "english_absent": 34,
+        "english_source_unmatched": 1320,
+        "japanese_absent": 522,
+        "rsc_translation_missing": 380,
+        "unsupported_english_encoding": 36
+      },
+      "reviewedRecords": 220,
+      "publishableStaticRecords": 205
+    },
+    "sapphire": {
+      "eligibleSourceRecords": 12705,
+      "recordsWithChineseCandidates": 10414,
+      "recordsWithSourceLinks": 10793,
+      "homographGroups": {
+        "context_required": 4,
+        "resolved_offline": 6,
+        "unresolved": 98
+      },
+      "gaps": {
+        "english_absent": 34,
+        "english_source_unmatched": 1320,
+        "japanese_absent": 522,
+        "rsc_translation_missing": 379,
+        "unsupported_english_encoding": 36
+      },
+      "reviewedRecords": 220,
+      "publishableStaticRecords": 205
+    }
+  },
+  "sourceLinks": 22038,
+  "addressCorrections": [
+    {
+      "game": "ruby",
+      "recorded": "0x3CAE94",
+      "corrected": "0x3CAEB0",
+      "reason": "Rain Dance: pointer-table address replaced with actual text address"
+    },
+    {
+      "game": "ruby",
+      "recorded": "0x3EC2761",
+      "corrected": "0x3EC261",
+      "reason": "Wynaut Doll: address outside original ROM replaced with structure member"
+    }
+  ],
+  "semanticWorklistRecords": 6887,
+  "tokenOccurrences": {
+    "STR_VAR_1": 485,
+    "PLAYER": 353,
+    "EVIL_TEAM": 56,
+    "KUN": 114,
+    "STR_VAR_2": 200,
+    "UP_ARROW": 7,
+    "RIGHT_ARROW": 14,
+    "LEFT_ARROW": 16,
+    "DOWN_ARROW": 5,
+    "EVIL_LEADER": 3,
+    "GOOD_LEADER": 6,
+    "GOOD_TEAM": 4,
+    "RIVAL": 9,
+    "STR_VAR_3": 146,
+    "PAUSE_UNTIL_PRESS": 77,
+    "NULL": 856,
+    "PAUSE 57": 3,
+    "BRAILLE_FORMAT 4 6 26 13 7 9": 1,
+    "BRAILLE_FORMAT 7 6 21 13 10 9": 8,
+    "BRAILLE_FORMAT 9 6 19 13 12 9": 2,
+    "BRAILLE_FORMAT 7 4 23 15 10 7": 1,
+    "BRAILLE_FORMAT 0 0 29 19 3 3": 2,
+    "BRAILLE_FORMAT 2 0 26 19 5 3": 1,
+    "BRAILLE_FORMAT 7 2 23 17 10 5": 1,
+    "BRAILLE_FORMAT 3 0 25 19 6 3": 2,
+    "BRAILLE_FORMAT 5 6 25 13 8 9": 1,
+    "BRAILLE_FORMAT 6 0 24 19 9 3": 1,
+    "BRAILLE_FORMAT 3 2 27 17 6 5": 1,
+    "BRAILLE_FORMAT 7 0 23 19 10 3": 1,
+    "COLOR DARK_GREY": 13,
+    "HIGHLIGHT RED": 7,
+    "HIGHLIGHT TRANSPARENT": 16,
+    "COLOR RED": 8,
+    "HIGHLIGHT WHITE2": 11,
+    "COLOR CYAN": 1,
+    "COLOR MAGENTA": 2,
+    "PAUSE 60": 74,
+    "COLOR WHITE2": 4,
+    "COLOR GREEN": 1,
+    "SHADOW RED": 1,
+    "COLOR LIGHT_GREY": 1,
+    "COLOR": 1,
+    "FONT_NORMAL": 1,
+    "COLOR_HIGHLIGHT_SHADOW WHITE2 DARK_GREY LIGHT_BLUE": 1,
+    "PALETTE 0": 1,
+    "SHADOW LIGHT_GREY": 8,
+    "B_TRAINER1_LOSE_TEXT": 1,
+    "B_BUFF1": 67,
+    "B_BUFF2": 20,
+    "WAIT_SE": 5,
+    "PAUSE 32": 4,
+    "B_ATK_NAME_WITH_PREFIX": 117,
+    "B_DEF_NAME_WITH_PREFIX": 83,
+    "B_DEF_ABILITY": 22,
+    "B_PLAYER_NAME": 10,
+    "B_SCR_ACTIVE_NAME_WITH_PREFIX": 41,
+    "B_SCR_ACTIVE_ABILITY": 18,
+    "B_EFF_NAME_WITH_PREFIX": 17,
+    "B_CURRENT_MOVE": 18,
+    "B_26": 6,
+    "B_ATK_PREFIX3": 1,
+    "B_ATK_PREFIX1": 1,
+    "B_LAST_ITEM": 24,
+    "B_TRAINER1_WIN_TEXT": 1,
+    "PAUSE 64": 1,
+    "B_ACTIVE_NAME_WITH_PREFIX": 6,
+    "B_EFF_ABILITY": 2,
+    "B_ATK_ABILITY": 3,
+    "B_LAST_ABILITY": 1,
+    "PAUSE 15": 15,
+    "PLAY_SE SE_BALL_BOUNCE_1": 3,
+    "PLAY_SE SE_FLEE": 6,
+    "B_LINK_OPPONENT1_NAME": 15,
+    "B_LINK_OPPONENT2_NAME": 6,
+    "B_TRAINER1_CLASS": 8,
+    "B_TRAINER1_NAME": 8,
+    "B_COPY_VAR_2": 19,
+    "PLAY_SE SE_DING_DONG": 1,
+    "PAUSE 127": 2,
+    "B_OPPONENT_MON2_NAME": 3,
+    "B_LINK_OPPONENT_MON1_NAME": 1,
+    "B_LINK_OPPONENT_MON2_NAME": 1,
+    "B_LINK_SCR_TRAINER_NAME": 2,
+    "B_COPY_VAR_1": 2,
+    "B_COPY_VAR_3": 1,
+    "B_LINK_PARTNER_NAME": 1,
+    "B_LINK_PLAYER_MON2_NAME": 1,
+    "B_LINK_PLAYER_MON1_NAME": 1,
+    "PLAY_BGM MUS_CAUGHT": 2,
+    "B_PC_CREATOR_NAME": 1,
+    "PAUSE 16": 1,
+    "PALETTE 5": 11,
+    "COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2": 8,
+    "PLUS": 2,
+    "PALETTE 9": 41,
+    "AMPERSAND": 3,
+    "PALETTE 15": 16,
+    "PALETTE 8": 1,
+    "EQUALS": 1,
+    "SHADOW DARK_GREY": 2,
+    "PALETTE 14": 3
+  },
+  "heldReviews": [
+    {
+      "game": "ruby",
+      "japanese": "ゴースト",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "鬼斯通",
+        "幽灵"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "ゴースト",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "鬼斯通",
+        "幽灵"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "ノーマル",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "一般",
+        "普通"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "ノーマル",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "一般",
+        "普通"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "どく",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "毒",
+        "中毒"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "どく",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "毒",
+        "中毒"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "こおり",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "冰",
+        "冰冻"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "こおり",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "冰",
+        "冰冻"
+      ]
+    }
+  ],
+  "semanticAcceptance": "not_complete",
+  "runtimeIntegration": "S7_pending",
+  "denominator": "all pinned RS records; includes out-of-first-release scope; not screenshot/runtime coverage"
+}

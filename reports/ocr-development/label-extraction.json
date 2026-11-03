@@ -1,5 +1,5 @@
 {
-  "label_count": 22,
+  "label_count": 23,
   "assets": {
     "summary_info": {
       "offsets": {
@@ -141,6 +141,28 @@
         }
       }
     },
+    "condition_feel": {
+      "offsets": {
+        "gfx": {
+          "AXPJ": "0x3BAF74",
+          "AXVJ": "0x3BAF90"
+        }
+      },
+      "decoded_bytes": 256,
+      "decoded_sha256": "c3ec096f88985ea0346570e61fb14d868fd29460882aa15df365e38ed2a3bb86",
+      "native_sprite_table_pointer": "AXVJ:0x3BBFA8",
+      "tile_sheet": [
+        32,
+        16
+      ],
+      "caption_box_in_sheet": [
+        4,
+        4,
+        15,
+        7
+      ],
+      "foreground_palette_index": 2
+    },
     "berry": {
       "gfx": {
         "AXPJ": "0x7F34F4",
@@ -156,6 +178,6 @@
       }
     }
   },
-  "resource_sha256": "35e5592662ba096056bc8799df74c6517f03fc35f5ab117f03f21b6649675b63",
+  "resource_sha256": "dd7a9f7e67ecd7b94304ecdd1fda7859f30b37245cdb89acbb8186b593c454e0",
   "method": "Visual readings of native ROM bitmap labels; templates decoded only from the pinned Japanese ROM. No screenshot transcriptions used; independent review pending."
 }

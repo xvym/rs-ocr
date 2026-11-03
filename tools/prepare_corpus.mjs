@@ -1,0 +1,41 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {inflateRawSync} from 'node:zlib';
+import {fileURLToPath} from 'node:url';
+import {sha256,read} from './corpus_common.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const manifest=JSON.parse(read(path.join(root,'corpus/sources.json')));
+const source=manifest.sources.find(s=>s.path==='source archive');
+const bytes=fs.readFileSync(path.join(root,source.local));
+if (sha256(bytes)!==source.sha256) throw Error('Pinned source archive hash mismatch');
+const destination=path.join(root,'.tools/corpus-source');
+fs.mkdirSync(destination,{recursive:true});
+// GitHub codeload archives are ordinary non-ZIP64 archives. Walk the central directory;
+// sizes in local headers may be unset when a ZIP data descriptor is used.
+let end=bytes.length-22;
+while(end>=Math.max(0,bytes.length-65557) && bytes.readUInt32LE(end)!==0x06054B50) end--;
+if(end<0 || bytes.readUInt32LE(end)!==0x06054B50) throw Error('ZIP end record not found');
+const count=bytes.readUInt16LE(end+10), files=[];
+let pos=bytes.readUInt32LE(end+16);
+for(let i=0;i<count;i++) {
+  if(bytes.readUInt32LE(pos)!==0x02014B50) throw Error('Invalid ZIP central directory');
+  const method=bytes.readUInt16LE(pos+10),size=bytes.readUInt32LE(pos+20),actual=bytes.readUInt32LE(pos+24);
+  const nameLength=bytes.readUInt16LE(pos+28),extraLength=bytes.readUInt16LE(pos+30),commentLength=bytes.readUInt16LE(pos+32),offset=bytes.readUInt32LE(pos+42);
+  const name=bytes.subarray(pos+46,pos+46+nameLength).toString('utf8');
+  pos+=46+nameLength+extraLength+commentLength;
+  if(!name.startsWith(`pokeruby-${source.commit}/`)) throw Error('Unexpected archive root');
+  const target=path.resolve(destination,name),relative=path.relative(destination,target);
+  if(relative.startsWith('..')||path.isAbsolute(relative)) throw Error('Unsafe archive path');
+  if(name.endsWith('/')) continue;
+  if(bytes.readUInt32LE(offset)!==0x04034B50) throw Error('Invalid ZIP local header');
+  const dataOffset=offset+30+bytes.readUInt16LE(offset+26)+bytes.readUInt16LE(offset+28);
+  const compressed=bytes.subarray(dataOffset,dataOffset+size);
+  const data=method===0?compressed:method===8?inflateRawSync(compressed):null;
+  if(!data || data.length!==actual) throw Error('Unsupported or invalid ZIP member');
+  fs.mkdirSync(path.dirname(target),{recursive:true});
+  fs.writeFileSync(target,data);
+  files.push({path:name.split('/').slice(1).join('/'),sha256:sha256(data)});
+}
+files.sort((a,b)=>a.path<b.path?-1:a.path>b.path?1:0);
+fs.writeFileSync(path.join(destination,'tree.json'),JSON.stringify({archiveSha256:source.sha256,files},null,2)+'\n');
+console.log(`Verified and extracted ${files.length} pinned source files`);

@@ -1,7 +1,7 @@
 {
   "check_kind": "development_structure_and_isolated_runtime_smoke",
-  "runtime_jar_sha256": "9afe44be9edc6209fe94d3535e4b917e3a2f01d95cac28cc2b487fb9b96e9777",
-  "unit_tests": 10,
+  "runtime_jar_sha256": "f7ecb5ee9c3928938214377cd97c1d50d2e681537014f80085325163f173d597",
+  "unit_tests": 12,
   "unit_failures": 0,
   "unit_errors": 0,
   "jar_resources": [
@@ -16,10 +16,16 @@
   "review_regions": 574,
   "review_images_exist": true,
   "evaluated_input_frames": 456,
-  "strict_correct": 567,
+  "strict_correct": 572,
   "scope_records": 574,
   "excluded_false_outputs": [],
-  "s3_gate_passed": false,
+  "font3_equivalent_correct": 574,
+  "supplemental_reviewed": 5,
+  "unreviewed_detections": 0,
+  "supplemental_text_mismatches": 0,
+  "supplemental_missing_records": [],
+  "s3_gate_passed": true,
   "reference_status": "candidate_pending_human_review",
-  "warning": "These checks do not freeze annotations, remove OCR failures, establish a holdout set or validate capture/timing."
+  "s3_acceptance_report": "reports/s3-acceptance/evaluation.json",
+  "warning": "Development reference fields describe the original 574-region candidate archive. S3 uses the separate AI-rereviewed 579-target frozen set under the updated user policy. Neither validates capture/timing or claims a holdout."
 }

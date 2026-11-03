@@ -22,56 +22,24 @@
   "withheld_fragment_records": [],
   "include_fragments": false,
   "unknown_prediction_ids": [],
-  "strict_correct": 567,
-  "strict_region_accuracy": 0.9878048780487805,
-  "visual_correct": 567,
-  "visual_region_accuracy": 0.9878048780487805,
+  "strict_correct": 572,
+  "strict_region_accuracy": 0.9965156794425087,
+  "visual_correct": 572,
+  "visual_region_accuracy": 0.9965156794425087,
   "missing_visible_regions": [],
   "false_positive_invisible_candidates": [],
-  "strict_CER": 0.001151864201273113,
-  "strict_character_edits": 19,
-  "strict_reference_characters": 16495,
-  "visual_CER": 0.0010634526763559022,
-  "visual_character_edits": 15,
-  "visual_reference_characters": 14105,
+  "strict_CER": 0.00012124151309408342,
+  "strict_character_edits": 2,
+  "strict_reference_characters": 16496,
+  "visual_CER": 0.0001417836381681554,
+  "visual_character_edits": 2,
+  "visual_reference_characters": 14106,
   "numeric_records": 94,
-  "numeric_records_correct": 93,
+  "numeric_records_correct": 94,
   "fully_evaluated_images": 450,
-  "strict_fully_correct_images": 443,
+  "strict_fully_correct_images": 448,
   "partially_withheld_images": [],
   "failures": [
-    {
-      "instance_id": "GBA-027-R03",
-      "image_id": "GBA-027",
-      "strict_correct": false,
-      "visual_correct": false,
-      "region_expected": true,
-      "region_predicted": true,
-      "expected_text": "はいぶくろ\nゴーゴーゴーグル\nツメのカセキ\nちかのカギ\nいいつりざお\nデボンスコープ",
-      "actual_text": "はいぶくろ\nゴーゴーゴーグル\nツメのカセキ\nちかのカギ\nいいつりざお\nデボンスコープ\n�\n��",
-      "strict_edits": 5,
-      "strict_reference_characters": 42,
-      "visual_edits": 3,
-      "visual_reference_characters": 37,
-      "numbers_correct": true,
-      "roi_iou_informational": 1.0
-    },
-    {
-      "instance_id": "GBA-028-R03",
-      "image_id": "GBA-028",
-      "strict_correct": false,
-      "visual_correct": false,
-      "region_expected": true,
-      "region_predicted": true,
-      "expected_text": "はいぶくろ\nゴーゴーゴーグル\nツメのカセキ\nちかのカギ\nいいつりざお\nデボンスコープ",
-      "actual_text": "はいぶくろ\nゴーゴーゴーグル\nツメのカセキ\nちかのカギ\nいいつりざお\nデボンスコープ\n��\n��",
-      "strict_edits": 6,
-      "strict_reference_characters": 42,
-      "visual_edits": 4,
-      "visual_reference_characters": 37,
-      "numbers_correct": true,
-      "roi_iou_informational": 1.0
-    },
     {
       "instance_id": "GBA-078-R03",
       "image_id": "GBA-078",
@@ -101,54 +69,6 @@
       "strict_reference_characters": 17,
       "visual_edits": 1,
       "visual_reference_characters": 15,
-      "numbers_correct": true,
-      "roi_iou_informational": 1.0
-    },
-    {
-      "instance_id": "NGC-086-R05",
-      "image_id": "NGC-086",
-      "strict_correct": false,
-      "visual_correct": false,
-      "region_expected": true,
-      "region_predicted": true,
-      "expected_text": "とても かわいい はなが さく。\nまっかな みは とても からい",
-      "actual_text": "とても かわいい はなが さく。\nまっかな みは とても からい。",
-      "strict_edits": 1,
-      "strict_reference_characters": 32,
-      "visual_edits": 1,
-      "visual_reference_characters": 25,
-      "numbers_correct": true,
-      "roi_iou_informational": 1.0
-    },
-    {
-      "instance_id": "NGC-093-R05",
-      "image_id": "NGC-093",
-      "strict_correct": false,
-      "visual_correct": false,
-      "region_expected": true,
-      "region_predicted": true,
-      "expected_text": "ももいろポロック ができた！\nレベル17で なめらかさは21だ",
-      "actual_text": "ももいろポロック ができた！\nレベル11で なめらかさは21だ",
-      "strict_edits": 1,
-      "strict_reference_characters": 31,
-      "visual_edits": 1,
-      "visual_reference_characters": 28,
-      "numbers_correct": false,
-      "roi_iou_informational": 1.0
-    },
-    {
-      "instance_id": "NGC-096-R03",
-      "image_id": "NGC-096",
-      "strict_correct": false,
-      "visual_correct": false,
-      "region_expected": true,
-      "region_predicted": true,
-      "expected_text": "かっこよさ\nたくましさ うつくしさ\nかしこさ かわいさ\nFEEL",
-      "actual_text": "かっこよさ\nたくましさ うつくしさ\nかしこさ かわいさ\n����",
-      "strict_edits": 4,
-      "strict_reference_characters": 32,
-      "visual_edits": 4,
-      "visual_reference_characters": 27,
       "numbers_correct": true,
       "roi_iou_informational": 1.0
     }
@@ -2457,18 +2377,18 @@
   "groups": {
     "all": {
       "total": 574,
-      "strict_correct": 567,
-      "font3_equivalent_correct": 569,
+      "strict_correct": 572,
+      "font3_equivalent_correct": 574,
       "missing": 0,
-      "unknown": 3,
+      "unknown": 0,
       "unsupported": 0
     },
     "gba": {
       "total": 371,
-      "strict_correct": 367,
-      "font3_equivalent_correct": 369,
+      "strict_correct": 369,
+      "font3_equivalent_correct": 371,
       "missing": 0,
-      "unknown": 2,
+      "unknown": 0,
       "unsupported": 0
     },
     "field_dialog": {
@@ -2537,10 +2457,10 @@
     },
     "bag_list": {
       "total": 14,
-      "strict_correct": 12,
-      "font3_equivalent_correct": 12,
+      "strict_correct": 14,
+      "font3_equivalent_correct": 14,
       "missing": 0,
-      "unknown": 2,
+      "unknown": 0,
       "unsupported": 0
     },
     "bag_description": {
@@ -2657,8 +2577,8 @@
     },
     "blender_message": {
       "total": 14,
-      "strict_correct": 13,
-      "font3_equivalent_correct": 13,
+      "strict_correct": 14,
+      "font3_equivalent_correct": 14,
       "missing": 0,
       "unknown": 0,
       "unsupported": 0
@@ -2825,10 +2745,10 @@
     },
     "ngc": {
       "total": 203,
-      "strict_correct": 200,
-      "font3_equivalent_correct": 200,
+      "strict_correct": 203,
+      "font3_equivalent_correct": 203,
       "missing": 0,
-      "unknown": 1,
+      "unknown": 0,
       "unsupported": 0
     },
     "boot_dialog": {
@@ -2849,8 +2769,8 @@
     },
     "berry_tag_description": {
       "total": 1,
-      "strict_correct": 0,
-      "font3_equivalent_correct": 0,
+      "strict_correct": 1,
+      "font3_equivalent_correct": 1,
       "missing": 0,
       "unknown": 0,
       "unsupported": 0
@@ -2865,10 +2785,10 @@
     },
     "condition_graph": {
       "total": 1,
-      "strict_correct": 0,
-      "font3_equivalent_correct": 0,
+      "strict_correct": 1,
+      "font3_equivalent_correct": 1,
       "missing": 0,
-      "unknown": 1,
+      "unknown": 0,
       "unsupported": 0
     },
     "battle_moves": {
@@ -2892,7 +2812,12 @@
     "rule": "font 3: へ=ヘ; 0=O; other codepoints/spaces/linebreaks unchanged",
     "basis": "Identical full 8x16 foreground masks extracted byte-identically from both pinned Japanese ROMs.",
     "status": "development_proposal_not_frozen",
-    "correct": 569
+    "correct": 574,
+    "equivalent_only_records": [
+      "GBA-078-R03",
+      "GBA-080-R03"
+    ],
+    "evidence": "font3-equivalence.json"
   },
   "unassigned_detections": [
     {
@@ -3023,7 +2948,9 @@
             "runnerUpDistance": 3
           }
         ]
-      }
+      },
+      "scope_review": "visible_outside_retained_catalog",
+      "matches_reviewed_text": true
     },
     {
       "source": "gba_testcase/Screenshot 2026-10-31 16-09-40.png",
@@ -3561,7 +3488,9 @@
             "runnerUpDistance": 10
           }
         ]
-      }
+      },
+      "scope_review": "visible_outside_retained_catalog",
+      "matches_reviewed_text": true
     },
     {
       "source": "gba_testcase/Screenshot 2026-11-01 22-45-03.png",
@@ -3801,7 +3730,9 @@
             "runnerUpDistance": 18
           }
         ]
-      }
+      },
+      "scope_review": "visible_outside_retained_catalog",
+      "matches_reviewed_text": true
     },
     {
       "source": "gba_testcase/Screenshot 2026-11-01 22-45-03.png",
@@ -3986,7 +3917,9 @@
             "runnerUpDistance": 16
           }
         ]
-      }
+      },
+      "scope_review": "visible_outside_retained_catalog",
+      "matches_reviewed_text": true
     },
     {
       "source": "ngc_testcase/Screenshot 2026-11-01 15-04-25.png",
@@ -4017,11 +3950,16 @@
             "runnerUpDistance": -1
           }
         ]
-      }
+      },
+      "scope_review": "visible_outside_retained_catalog",
+      "matches_reviewed_text": true
     }
   ],
-  "coverage_note": "All 574 candidate targets remain in the denominator. Unassigned detections require review; catalog omissions are not automatically approved negatives.",
+  "unreviewed_detections": 0,
+  "supplemental_text_mismatches": 0,
+  "supplemental_missing_records": [],
+  "coverage_note": "All 574 candidate targets remain in the denominator. Supplemental detections are separately reviewed against original pixels in scope-review.json; neither added to the original denominator nor treated as approved negatives.",
   "evaluated_frames": 456,
-  "reference_sha256": "d9e7c576d10f57ccc4bfddfd7c0807c465edb1d5e60451ebc3fb893594695daf",
-  "runtime_jar_sha256": "9afe44be9edc6209fe94d3535e4b917e3a2f01d95cac28cc2b487fb9b96e9777"
+  "reference_sha256": "0032f6bea2e72b146a7418d49fed962f422e42c50150a63f7b41f218c228533d",
+  "runtime_jar_sha256": "f7ecb5ee9c3928938214377cd97c1d50d2e681537014f80085325163f173d597"
 }

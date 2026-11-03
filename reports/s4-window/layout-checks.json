@@ -1,0 +1,1839 @@
+{
+  "evidenceKind" : "real_static_image_layout_sweep_and_constructed_state_snapshots",
+  "images" : 456,
+  "panels" : 579,
+  "textRuns" : 13322,
+  "pointers" : 38,
+  "selectionOutlines" : 10,
+  "rawTextUnchanged" : true,
+  "allTextWithinOwnedRegion" : true,
+  "representativePairs" : 10,
+  "snapshots" : 23,
+  "constructedStates" : [ "pending with observed geometry", "observable empty panel", "removed/stopped" ],
+  "captureTimingVerified" : false,
+  "frames" : [ {
+    "sourceSha256" : "f382c01cb31fe38f9374d97ce918b2da1674702a5c6facb1d18451d29e04d704",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-38-28.png"
+  }, {
+    "sourceSha256" : "c5a70864b7d9a7517986d1745ed6229bc747ec33899703043361411c1df6e2e7",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-38-35.png"
+  }, {
+    "sourceSha256" : "de1fd11930bc3027ac3833893f68d02a0587b8a1fddf72ac38a551ca90bead92",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-38-39.png"
+  }, {
+    "sourceSha256" : "2c1c1cb69f7280acaa347906a001d84fd6f8d17c5d23addfba47efa7133b1ab5",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-38-47.png"
+  }, {
+    "sourceSha256" : "8ec3ac269aba429417202c345970a8c60d090ad78afaf91daf50cf0864653f3a",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-38-51.png"
+  }, {
+    "sourceSha256" : "bd3feb34531e22eec8922f9aa8f9d306f0ca72c3f66a7ff2e2472c3a85a3188f",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-38-54.png"
+  }, {
+    "sourceSha256" : "35fb37a091676f3231eea8c5f1c08fd4bae6b88563acfff5681670d55e318fda",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-38-57.png"
+  }, {
+    "sourceSha256" : "ca9b71a08e6ba08bfb8bf74cc0a60803639ace9dc6921d1ee4e292ecbc54e914",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-39-05.png"
+  }, {
+    "sourceSha256" : "f112d042520ce09eaa74810434418dda418ae3cf8f9ae02dc347071d9d97caf9",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-39-11.png"
+  }, {
+    "sourceSha256" : "a3117d4256be683d85ef09ec8479e37d7ef830e9f3354058bcc6f35050fdd084",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-39-14.png"
+  }, {
+    "sourceSha256" : "dfba6def60b40d84797147e0df86b29383c5a09b5d1137b2b73602303e1626ca",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-39-17.png"
+  }, {
+    "sourceSha256" : "44106de812fb3568814f04a883222a2fa8d10d79bd32b437fe3e3a48aeacc09d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-39-46.png"
+  }, {
+    "sourceSha256" : "9b54399e184351319649853af1dcf83d1d729cea4bae0af7f47ae062588d4d10",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-39-50.png"
+  }, {
+    "sourceSha256" : "6b911a31d2fd69583f2dc9c90cf87a2883dff606ba90970b1ff898e3330ce18b",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-39-55.png"
+  }, {
+    "sourceSha256" : "4ca81c7029d6793e6cffee4816ec91b66e709b001a2e751c536bd453c3bebc0c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-40-54.png"
+  }, {
+    "sourceSha256" : "a64ef6cbecaa50f602c14d2cbe9753e24c20ab2b109887a737fa312f39f3763f",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-40-57.png"
+  }, {
+    "sourceSha256" : "a24bdae7463d47800b479b06474c6da01fdad67ad443a6de30ccf1a63f83f268",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-41-15.png"
+  }, {
+    "sourceSha256" : "5de51c6fdf8877cdcf8a3cde7a265a4ac86632dcb06339da5241f046cc6b48ca",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-41-18.png"
+  }, {
+    "sourceSha256" : "97f631d6088355f45a34f1f82c69d0776d47b9bcdba91ed9f18aee799b0b321e",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-41-23.png"
+  }, {
+    "sourceSha256" : "731839a963fbe645f686506fa92f719f98c0b7da12425975557916e603115d8b",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-41-28.png"
+  }, {
+    "sourceSha256" : "bba1dd1bd6db5c740ef355732d28be86aae27c9439220b55fe13fd9bd89d7345",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-41-31.png"
+  }, {
+    "sourceSha256" : "97f631d6088355f45a34f1f82c69d0776d47b9bcdba91ed9f18aee799b0b321e",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-41-46.png"
+  }, {
+    "sourceSha256" : "66dd2a0365b1432bcdce438bed1edca664233846b7ab8ab3a4947d695e7f700b",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-41-49.png"
+  }, {
+    "sourceSha256" : "b9509d332ee07f87a178f95858154ab0104e369e800f970fdff3da72189e65dd",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-41-52.png"
+  }, {
+    "sourceSha256" : "82444effdb63b754d1675599d814930a836196edbb4f19773c3c5df58cd1822d",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-41-55.png"
+  }, {
+    "sourceSha256" : "240701eb1d4aff5172d0741a72392afec504a69fa2fcf6a56c2c2decd506ab3c",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-41-57.png"
+  }, {
+    "sourceSha256" : "3e085525b58da428a9be4e20bd032ea85dbc211c91bf0222ceb71a6d7660b21e",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-42-31.png"
+  }, {
+    "sourceSha256" : "5b38bed27886937f4f1cd614f2daa374d1a89c606d2e19da521df2b2171314fc",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-42-33.png"
+  }, {
+    "sourceSha256" : "edc931aa78d221a392e87ae7f187c94a8a49ce5a23a2361b5626e1d90fce641b",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-42-46.png"
+  }, {
+    "sourceSha256" : "f87bf9168e6e1490d6fdc1514e810f2b577551131013a696cb805812e94369a7",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-42-48.png"
+  }, {
+    "sourceSha256" : "35233e8e4c3487ff29bc113182c48a6f7f8f4073088407fcde7e85cc083430dc",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-42-49.png"
+  }, {
+    "sourceSha256" : "f8de18a208602ccb9e0f9bb34d08e850dba312a38ac9299d6cde639a8f03f72a",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-42-50.png"
+  }, {
+    "sourceSha256" : "5e0c57dfe48ef39be6802863c83c44fcc953da008726d1b783423465b1ca931c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-11.png"
+  }, {
+    "sourceSha256" : "64fc3093244557110267425f86e212348ac8155270cd2491484ab5a0f977ce0a",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-12.png"
+  }, {
+    "sourceSha256" : "2fad58b406d68aa5b1b0b414ed029ef169f099e45362133a3b47322a26972e00",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-15.png"
+  }, {
+    "sourceSha256" : "c6367065ce8c48f8077593306c13552ea6695b96d58c124ecf361e5fdec87b9d",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-18.png"
+  }, {
+    "sourceSha256" : "891f2300b909c600aba087192958741827c11de8cb5e6a518af2afac61d3559b",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-30.png"
+  }, {
+    "sourceSha256" : "8a409631277d7dec7d2d8929e7d1dd467e7ac6b2dd77e7537fcbdd98c485c4ee",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-31.png"
+  }, {
+    "sourceSha256" : "7629972e86dabdf87bd9d326d477e42f1be17126b8c493b84edf2540a9100b34",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-33.png"
+  }, {
+    "sourceSha256" : "b31fbafc11e9ec16d9db656adb3400922b1564c94830a56489237819543ddb1e",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-34.png"
+  }, {
+    "sourceSha256" : "2d18944ed7043980a7f8b255a9f9db8ddfc1166ccd9b107a32d01b5fa9d176dd",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-38.png"
+  }, {
+    "sourceSha256" : "0a06e20f35857e4da6f5fd7a7da1624793fe9a676d843f705a8d491ef93c0d8d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-40.png"
+  }, {
+    "sourceSha256" : "8df23511abca051381adaa8cecd569fb33e2e4da93387e0334a62b3ac3f06969",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-50.png"
+  }, {
+    "sourceSha256" : "3b6182fa8eaaf4a28a6876a007958aab2b5e4ae2145f5aa30c083c437bfb33cb",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-52.png"
+  }, {
+    "sourceSha256" : "035445588a39703c588a95d89834c449ae516b7504ad8323da2aaef097317316",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-43-53.png"
+  }, {
+    "sourceSha256" : "8f8e8e41f639c7b9e7f528a694a1425229555c87052e0afd96a3480b3f054dc1",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-00.png"
+  }, {
+    "sourceSha256" : "33805ed4121c237838966c23fbabae9ba442e5022df1f7ff0e4733314e41ca68",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-02.png"
+  }, {
+    "sourceSha256" : "385b70d64ab9656a57e96379e7305b0a571a15e6bc63f1ee9291c67b1ae37261",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-04.png"
+  }, {
+    "sourceSha256" : "3b77421728faac0e8a993d4c4427e97e536c8c45ee887d1a17a9c6a99d66ff1e",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-05.png"
+  }, {
+    "sourceSha256" : "813a4e23e813cb424336a766856d6652fa5be4f4e925f2ddb542a275ef50b1ff",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-13.png"
+  }, {
+    "sourceSha256" : "bf5b79235b44a23695e6b244c3fdc1a75ad4437a8f88f85c79b11e949d6b91c6",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-20.png"
+  }, {
+    "sourceSha256" : "c3f7845d484e4156a2c6ca5f26aa531110de67a0a9f637cfb4867e82319d75e4",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-43.png"
+  }, {
+    "sourceSha256" : "83e68d4d7dad1553d5b96deafb181b3b6a7a18f99deaa1913e36634d5f07d52a",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-46.png"
+  }, {
+    "sourceSha256" : "20b12fd0f006eb5752e6e210ab1f8040d9cf082fcc1772cf139e8d779d3dd87e",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-47.png"
+  }, {
+    "sourceSha256" : "3ca6de6a52646aad54056633d830d3cc8eb1c0bb95022f39cf1dfe15a4825886",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-51.png"
+  }, {
+    "sourceSha256" : "1d3c3896cf75456f4bf966d7cef16d3e5d79dd06fb381991f70630aca77f76ff",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-55.png"
+  }, {
+    "sourceSha256" : "37338870c9e40d3fca2985b599921d504d0510d361dc9728f5d04829496f185f",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-56.png"
+  }, {
+    "sourceSha256" : "afc270a3b580a6ff055850534cb339fcd3d76cc8857070fa9c81269a5aa3fdfc",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-44-58.png"
+  }, {
+    "sourceSha256" : "3079c0cf2a86efbc3d67cae5b3c59a37eabc7bb25c60a2602560df5c225e1f72",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-45-08.png"
+  }, {
+    "sourceSha256" : "8896f8132f33ca222d22cf1d93f2e561679280e7d583ab908397e476ff303993",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-45-10.png"
+  }, {
+    "sourceSha256" : "d946d4b93e9d479a3d074686db58ca423bd66bf304c19ae20c1a992214fb8c5f",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-45-11.png"
+  }, {
+    "sourceSha256" : "c6205ffe17a0e443a8550a6fb2aed1b3d1a4ea969bc29a11d3357f7b0e34b084",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-45-16.png"
+  }, {
+    "sourceSha256" : "18072341001c7f3b9f0216e821db7d4564da904c175675d250b4f640df764743",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-45-17.png"
+  }, {
+    "sourceSha256" : "6b19c593b192ead4bb09a151645192490f3e41b9ea209e6b80b896ad3972e610",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-45-19.png"
+  }, {
+    "sourceSha256" : "e308f0a94fee7a3a2525dcf584ffaad6872c55527e415510c5285f5ebde4b873",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-45-24.png"
+  }, {
+    "sourceSha256" : "d646a7ead3243adb7f00fdfe7242417a03b0e36882d1243a388af283acfafa26",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-45-38.png"
+  }, {
+    "sourceSha256" : "3b454553918413b3e8a15d0723f3f80ec44049a59f4144b0a12638e0d50ddbb8",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-45-40.png"
+  }, {
+    "sourceSha256" : "05a779344feca44a003498fc9f2d035e707cf8014937d58ffa34a4bb9f678a3c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-45-42.png"
+  }, {
+    "sourceSha256" : "ebb7d19d62e5172dfdb96d0f24114a8bb47225b48e7e2e0767cf176f061cc0e2",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-45-43.png"
+  }, {
+    "sourceSha256" : "dac72e287a527f1ae2a4c4531948f48d160982b68b7663501ed26d94d5277ff2",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-46-00.png"
+  }, {
+    "sourceSha256" : "beee4d7fae8410caa8c38c2c28db8a8e168742a645088b0c6d45e2efee02200c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-46-03.png"
+  }, {
+    "sourceSha256" : "d1f831d7b84e0df8e0d344df95dc04dc90b4892b6c0a31f3d8aaed79d870982d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-46-07.png"
+  }, {
+    "sourceSha256" : "8974fcbad963c47dda07bbd46019edad5351925bf0c0c5f71d881af0084a4f44",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-46-12.png"
+  }, {
+    "sourceSha256" : "3b9ab5ef159f9f41e63d60ef7ab8d08affd9653decd0d875a228a8eada59d796",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-46-14.png"
+  }, {
+    "sourceSha256" : "f47cc6a3d942db45f925fbf60a9641fd34ce3b10f7913076dba7c5da2038f6e9",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-46-16.png"
+  }, {
+    "sourceSha256" : "50737a14a7614606a71a065018011e80fcf6bdc943ac45d4aa0c338dd681f0f1",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-46-55.png"
+  }, {
+    "sourceSha256" : "4fe7008d27a9e68f07f1798c8beeb71d6017afad4e22b64ac34d23977771eb8d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-46-58.png"
+  }, {
+    "sourceSha256" : "0cded217b6827709b90cc8fa7a5da9257a1ee479846b75e8f7b8dbf278061c52",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-47-00.png"
+  }, {
+    "sourceSha256" : "8f5db5831bbcd721bbddeff973284287c5f598014e946f0182f4e11a2357a081",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-47-02.png"
+  }, {
+    "sourceSha256" : "c69f584f13d638be850eaf9cb414eb731a15ca9a68fa20b4e51bacf05912ce8c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-47-09.png"
+  }, {
+    "sourceSha256" : "f7ed5eb5521f34959ecb9a6fa4da526e30ab5b97eeb59a29cb69fb039ba82cb6",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-47-11.png"
+  }, {
+    "sourceSha256" : "8c12a08dfaf1302daf42d344381c2234480ad4d772a474f77345f3a12caaa9e5",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-47-48.png"
+  }, {
+    "sourceSha256" : "3178b4d0c10b3b61000db27616f517fd98e5581b7a36b705055bd010aee17862",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-47-52.png"
+  }, {
+    "sourceSha256" : "7bd8713e902113ce5a1f4d431d7f6405f8ffb5b6a9ecaab3e09f4a6925d75663",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-47-53.png"
+  }, {
+    "sourceSha256" : "d9bea01b1203eef84d3a07d847256fe6a5bd7221afb59e3b721d76567ce86a9f",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-47-55.png"
+  }, {
+    "sourceSha256" : "9acd67e5ab3e9eca588754c43be567085d56c1da77054018b23893bfc25de7b8",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-47-57.png"
+  }, {
+    "sourceSha256" : "5cd23571739b204e8612ea7189f723d4a473eb9e298b624bfba1111a831a5ca5",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-47-59.png"
+  }, {
+    "sourceSha256" : "e6dc0a28386fd63148cd33adf3a7f9fcd7d4174336388807adc833a4702b827b",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-48-03.png"
+  }, {
+    "sourceSha256" : "9287a81f6ad17cef832405604625c724d11458c5dcf09a2c34da8a38802c6c10",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-48-05.png"
+  }, {
+    "sourceSha256" : "10d5d613d2f5841ea0a4efe73236067241346c482d6f73e0fe9597aef0c61548",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-48-09.png"
+  }, {
+    "sourceSha256" : "e48bf07cc60018ad3348b58918e2d90359a8470c8baae072df84abd79f718711",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-48-18.png"
+  }, {
+    "sourceSha256" : "019cade0f6b190f9ebca2e18ae2a41a6cc53cb7009bcc2316f3c4ee3e6a162c4",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-48-21.png"
+  }, {
+    "sourceSha256" : "20e0f4defcd6350c9c1380bb12706f981b923d5c2cf71919c3c4b3732bfee763",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-48-23.png"
+  }, {
+    "sourceSha256" : "cf982539db2e6cd891b9ddc5505a78544db2b12187cfa966ca782906efd4b8c5",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-48-26.png"
+  }, {
+    "sourceSha256" : "9aec6bfc26ba225f400138d210a8fad277df06ba4e8eba874e3395e88f45d006",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-48-28.png"
+  }, {
+    "sourceSha256" : "dc3f2005b9f4356c1c7d609da969fd55f8d0a5f730a6a537133827501d0018d7",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-48-32.png"
+  }, {
+    "sourceSha256" : "3af0082cb1d318f7cb7f5acc68820022fa6c38271f20b3387885bf3de401b4fc",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-49-01.png"
+  }, {
+    "sourceSha256" : "5e25d2c9c18eba63d676d92c808d430e290e15a44e684cee500f0293e2c7ef55",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-49-44.png"
+  }, {
+    "sourceSha256" : "138f81c553eab59244e6a39382d63f0e243fbd4d00431be232b22c89cbf939ce",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-49-45.png"
+  }, {
+    "sourceSha256" : "934b119e98e320009d5d2242c4783b0f48597dc5561a1f180a5ebe74c8c5192d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-49-47.png"
+  }, {
+    "sourceSha256" : "56afa446c82cc5b7732c07a772fbc74a03f23bbaa6c4497a023d00afce8e9de8",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-49-48.png"
+  }, {
+    "sourceSha256" : "30882861fccf1bfceb339aaedc05c905a193a11668153ac5371069220032b63e",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-49-49.png"
+  }, {
+    "sourceSha256" : "a52fd4b502a62e3bf0f573160ba9a58a18756adf435f74aecc565c907baa919c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-49-54.png"
+  }, {
+    "sourceSha256" : "924a735589eca2fbe315b4346c2e057a3acf9ffc9dfa179dfd41bb6d46edff23",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-49-55.png"
+  }, {
+    "sourceSha256" : "076678afe28a5433a942d624f2849e305b4b00155eaa407ea4f82432a6a34506",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-49-56.png"
+  }, {
+    "sourceSha256" : "f83f2282f76cfecc56e0e6bf48cdbf0e2f5ab0024a99a3f8b4bf072c43fb351c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-06.png"
+  }, {
+    "sourceSha256" : "f8bcd27ce0642a7a7426f31d5ec0a64462bc9d28050172f6bce3386bb9f1f2f1",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-07.png"
+  }, {
+    "sourceSha256" : "e7c3211915adbdcc4fcc692adfd9fe842e19c64b1edd1956e435a51fe5c21394",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-08.png"
+  }, {
+    "sourceSha256" : "43ac27c37f80d785821bb69e76a1894acdc91d0ff6a9d0287b36d3e61aa17d2e",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-12.png"
+  }, {
+    "sourceSha256" : "7570f708a357bd8adc54b53eb4de85359c2b52f3a5bb22d64ca7f30b3d0b4f06",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-13.png"
+  }, {
+    "sourceSha256" : "8b7f3faa28989c2bd0372987246ec0efe6ac15990268122ea0b83af135599f85",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-15.png"
+  }, {
+    "sourceSha256" : "55ab851775bdf7aa59aee49e6467dd10f59d25e148b30efd28b79bfdce403907",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-30.png"
+  }, {
+    "sourceSha256" : "ea9f1585a5001957a558886b816b48d38f771771271ec62b366bf72fe90557af",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-31.png"
+  }, {
+    "sourceSha256" : "cc7473be30d87e762afffab4374c8172fe9562fa5bf61f719a52987fc60ee039",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-35.png"
+  }, {
+    "sourceSha256" : "b64c96f7e4212c7774ea61b7b61a19fd4aa7759b6aa732777390a6743a1b8864",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-36.png"
+  }, {
+    "sourceSha256" : "78513dbae678ac8890ea6e837a291a108754b24d98a522383dc9eeac57b073d4",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-40.png"
+  }, {
+    "sourceSha256" : "def261ba48a04893999bd23cf3cf6ddf7f00db4cbb6bc8aadca0edce8c57e84e",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-48.png"
+  }, {
+    "sourceSha256" : "d87af2a01dbe21773252e34d00f953a1f0564a802d3e6a8e5af4c3ba46164c42",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-52.png"
+  }, {
+    "sourceSha256" : "7951ba64d7dfd8d0c068b0d2b90923d9da4a745f7058fa18435add85a470d352",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-53.png"
+  }, {
+    "sourceSha256" : "53726e2b8cb8aa40880dd9aa6fb7467de31db59cf0cc9fe8d3b47c142f193abc",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-50-54.png"
+  }, {
+    "sourceSha256" : "8f23b86ab25167e1998a54a4761021b374fa3d11df6ccedc0ca5ece82855f8f4",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-51-13.png"
+  }, {
+    "sourceSha256" : "2d73fc453157be82b29127876e7ce0bef785bdbcaadcb96e485b3901cbe82cc0",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-51-14.png"
+  }, {
+    "sourceSha256" : "0465757b817f9eb6a0707b99a5d6a73478c3850b5de292fe3811beab3469e0de",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-51-18.png"
+  }, {
+    "sourceSha256" : "996a72fb9f37f493f3035a705e74fe234f270423b0d924aa6818d98053f0d00a",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-51-19.png"
+  }, {
+    "sourceSha256" : "30c2aa2cbfdee1d5ed4d5b1533e4bf90ac89143c2598a0130b15da239a659827",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-51-25.png"
+  }, {
+    "sourceSha256" : "7fcbac4792aad4ee8af394c205d076648f2fc5acffd5e8ed204ec91daf6b359d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-51-26.png"
+  }, {
+    "sourceSha256" : "5c0e88781295fcf4e693200870dca56ea4bbd87b27a14c310c0f033c5e72e3c8",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-51-32.png"
+  }, {
+    "sourceSha256" : "2ad3814473667517f076044291cef4b289cd2a3143d312ba5048c9d754023f12",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-51-33.png"
+  }, {
+    "sourceSha256" : "587767d40b5b13f6a15731a0351e3e0c92e9df960e54df7117dac847f588cb79",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-00.png"
+  }, {
+    "sourceSha256" : "3e52cbd0e3c5144213f9510d6bf737fb1611dfd811b414c173fb613d24dd87b8",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-02.png"
+  }, {
+    "sourceSha256" : "fa6b515e8c68d60056268b1ffdb909c71d4c0b4a43f140c51455066d3a1dc7fa",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-05.png"
+  }, {
+    "sourceSha256" : "52484ca0064e60577292913c20279ee4ad8f247634d7ae1dce3c7bea87560c0f",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-06.png"
+  }, {
+    "sourceSha256" : "762384f1e95e3630eb6c5a2eda00add812dae3208a9a635aeae676b518040359",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-14.png"
+  }, {
+    "sourceSha256" : "c7f277b0e8de85210561cfcaf6db1265dd167c30ed8e477794f2e161904907c3",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-15.png"
+  }, {
+    "sourceSha256" : "4ad09b4e360f99d437d9d986cfee4f6f194a3a861099d0cfe99447a9f1e350cc",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-16.png"
+  }, {
+    "sourceSha256" : "4ffa125e594eb74132b76b5cb3d25957dff2acc2f54aa74be826188b17601e34",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-18.png"
+  }, {
+    "sourceSha256" : "1822fa06e721de06cbdb341451eefc50ae8587b9ec52daffb0ae9b3fce9920d1",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-22.png"
+  }, {
+    "sourceSha256" : "781ffc31d5ec601174734fa55af27d65d5ce0785eb9d55a6713fe04d253e2f2c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-23.png"
+  }, {
+    "sourceSha256" : "8f7e1f57008d598599c365cd5a969bb78cc797061b0af7797563c664dce1c9b5",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-57.png"
+  }, {
+    "sourceSha256" : "eaa2a91eda7b42e725be19c4961065c1f25a920fd846ecdce47a125ce6f981b2",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-58.png"
+  }, {
+    "sourceSha256" : "c39d816eaa1d44c67269433fd08f62c4286228dfbf7dc6f27d3c7998ec11700a",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-52-59.png"
+  }, {
+    "sourceSha256" : "ba84c8b6322bc0f951d3f7fc7bd2ff65627148d8d6e0f4df990221192ac1c8bb",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-00.png"
+  }, {
+    "sourceSha256" : "f4ae3ba15741eb557c3434dab50b98abc87dcc74156fc2af6e875e1c9e8a5c82",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-02.png"
+  }, {
+    "sourceSha256" : "9a3b7666895d864e6802752f98046245bd15d3aac24e149399030fb6fef03864",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-11.png"
+  }, {
+    "sourceSha256" : "6c70c7b47ef099f8cace4f34ef666a8b85d9e5a93cef5df6b0b3baeca76003ce",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-13.png"
+  }, {
+    "sourceSha256" : "2cd6c9d95f730976f7dabd2f33827d604a59bdf4435c7e6d20460da313e22019",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-17.png"
+  }, {
+    "sourceSha256" : "07dd4aabeb90c256a94a54625de7022465b886b872c55df709ff9a3b44b6adc6",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-19.png"
+  }, {
+    "sourceSha256" : "dfba774caf789aa8cdda65b592c1c7bf578a0752aee5afdc8fcd849a142b5da6",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-23.png"
+  }, {
+    "sourceSha256" : "d53b67e76ac705db50f87826d260c35cca9d739e6d77e17c7098e32a4f033493",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-30.png"
+  }, {
+    "sourceSha256" : "7d9f765429ce393131a6d2afb038fafff9a26c2ae7ba3ce2c8b21133d043396c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-32.png"
+  }, {
+    "sourceSha256" : "bb58ad9dd03eff157c9cac9d0835b71dd1252101b38e2f43ff6d7e305edefacc",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-34.png"
+  }, {
+    "sourceSha256" : "e6eeddcdf313cfdd312ab037e1f6e4b2412f00adc40b1d26a3818cf0e8818286",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-36 (2).png"
+  }, {
+    "sourceSha256" : "d46d9dd9e76926fc0cc11bea905d08be0ee465226a44a394f2622d5d265ede14",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-36.png"
+  }, {
+    "sourceSha256" : "28d373d7a28172f4c32c1ec032fc519bfeafddd0b7692495195bdec124799d98",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-49.png"
+  }, {
+    "sourceSha256" : "a30aaad011b546055f71f637a1ccdf4a40d7199e0c3ebe4429227d88ac3443a8",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-51.png"
+  }, {
+    "sourceSha256" : "8e487cbe4849f43a6f190cf5ba7ef3ca7ae75467b3b7c012952e6bd777190ff8",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-53.png"
+  }, {
+    "sourceSha256" : "bf90f101f28161d2feb63095567842a07fe2e1e35c18db3ef1fdc534592f822b",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-53-59.png"
+  }, {
+    "sourceSha256" : "7f51f966d268fef9b9c04c87d98f4881f6bd22da8640fd95ab96d2661c40d304",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-05.png"
+  }, {
+    "sourceSha256" : "b434869e045883a706bf8573d1d548712a33e5dec29dd66b6a64884a453d27a8",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-06.png"
+  }, {
+    "sourceSha256" : "466b3114e65a09a260e9bd925be841f30a5fbcf1c3055b88ca18c5a7da9ecb6c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-09.png"
+  }, {
+    "sourceSha256" : "1a2456a7ef1910dd642bbabc73abb2bf52575abd55f8715ca7bbcd546c9fffc2",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-10.png"
+  }, {
+    "sourceSha256" : "25a2c5a1ea00029d27026b6dd9ef8ab3d8727543a689d7ab9792e6621e757f17",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-15.png"
+  }, {
+    "sourceSha256" : "a76412e4c7a9b76aa28c091b6d9d7892f3e96787e9844a9524e3a97627cb2c66",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-22.png"
+  }, {
+    "sourceSha256" : "da78dabfef2efcff4dc7a741b40759755402ef73557fbf3812f65a7d75315ebe",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-27.png"
+  }, {
+    "sourceSha256" : "0258d2dc9f0e5164befa66a6c20933c3f91c1ac69bad7da0d0954d2ab4bba5ab",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-30.png"
+  }, {
+    "sourceSha256" : "315f9ceac7bc8a71ab7f09c261bce0bc03caa60685d094f53c3951e40efa212d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-32.png"
+  }, {
+    "sourceSha256" : "558a2a5f0641680b741a4f4e8910fb813873b971813c06f85cf3f52f90c53f81",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-35.png"
+  }, {
+    "sourceSha256" : "3ef4942d121b7cacffb4dfdb19a6858a94c4d93ed3f97e24e4576d56ab961631",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-36.png"
+  }, {
+    "sourceSha256" : "32aae27de0f1e42fe99f33ae2316338b4b2db38cbf3777f5177213e2db64fd44",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-56.png"
+  }, {
+    "sourceSha256" : "d2a4a41c6fb2c6ab0645585e13600cd664ab26c795497ef7d02df687ab9528ba",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-54-59.png"
+  }, {
+    "sourceSha256" : "c411df216c51ff88a79b1b190b6878c9373a778ee89d406e204e4d6ebebd3a93",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-01.png"
+  }, {
+    "sourceSha256" : "a16ea458ab23e8e7ea8d0ff1ae16129da83e1ae1db746be98c505423e28b782d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-03.png"
+  }, {
+    "sourceSha256" : "3ef4942d121b7cacffb4dfdb19a6858a94c4d93ed3f97e24e4576d56ab961631",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-05.png"
+  }, {
+    "sourceSha256" : "94a63a256ce50cf092a6b8e4263af97b19069c7567cc7f211dd2bdf45dd87c67",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-16 (2).png"
+  }, {
+    "sourceSha256" : "4f4c71131bbd64e811dfbd3f26738e9bd5ec500ac2d4651779ce2a2aa2a5239c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-16.png"
+  }, {
+    "sourceSha256" : "3af0ab86c578169b2523ba5827befd1cb36cbae9acaf48b4142ff290ae70ae70",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-26.png"
+  }, {
+    "sourceSha256" : "a985715c842890e2df011638ee91ddf16f66a874daaf1683ccd6822f25da7529",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-27.png"
+  }, {
+    "sourceSha256" : "ce7b7882cd8ccb0991afc540b68370d7f56bbeb12796660073e6d670769e0484",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-30.png"
+  }, {
+    "sourceSha256" : "3ef4942d121b7cacffb4dfdb19a6858a94c4d93ed3f97e24e4576d56ab961631",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-31.png"
+  }, {
+    "sourceSha256" : "58556f72392e377ba9e235671a00c790a3089de6e1552f71d3722451ccfc28fb",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-43.png"
+  }, {
+    "sourceSha256" : "43add3edb7c0c03a9fe3aebe88f3ca0feed5f8bdcdf3a2f2bceb8d253e1e065c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-46.png"
+  }, {
+    "sourceSha256" : "e67301ff87dc8c9d8f343b3f8d0a6870fc82453e478908d007634d94a94cf46e",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-53.png"
+  }, {
+    "sourceSha256" : "cf997d92466e44d35e2e8d7aee5acb68b465d5f9c95392d823c275e85c0446b4",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-55.png"
+  }, {
+    "sourceSha256" : "ff738a62dc5a78676e300a8f6d4bc2461503dc99e9be121a861b2af26ab195fa",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-55-59.png"
+  }, {
+    "sourceSha256" : "0fcdc9ddd3d27c5f38f779c115506dd9dc9d6f0f43cd8f17ea85f9c4f1709392",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-56-16.png"
+  }, {
+    "sourceSha256" : "24e3b17db52b4262b542887bc8b5ea5d871dfe4201697067b7981538768177ac",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-56-24.png"
+  }, {
+    "sourceSha256" : "e7aff76ebf566db3956e3ff2a31dc91a87bc3d13f909dd14b38f23d9e46710ed",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-56-27.png"
+  }, {
+    "sourceSha256" : "f5fb6b3328db5d0f153a42f300857ca949b7f152353c17a463abb27703177856",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-56-28.png"
+  }, {
+    "sourceSha256" : "c4c0637551d0c10691d33736649def5466f5cdb32c21aaf849a9d7750b976708",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-56-33.png"
+  }, {
+    "sourceSha256" : "535430cbc5cf0daf1d75f32382920e575e5db954dbf0fdbb9395e24d7832a8cf",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-56-35.png"
+  }, {
+    "sourceSha256" : "6093b215a2a3f1499e1c4535395053f18cbb11d0b1434cdfef183fc4332527dd",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-56-36.png"
+  }, {
+    "sourceSha256" : "db34283328fbac42d034d20bb16e5de4c6b481faf5b4d6a87b055fb1fe465502",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-57-31.png"
+  }, {
+    "sourceSha256" : "f80fc30a4f5e29fde3b9bcc2248acfb6736ca98043bc761beadf6b35ea4b740d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-57-32.png"
+  }, {
+    "sourceSha256" : "7b2945a2e1976543c46e382e97dbee478e3de71c6c3e8dcf0c94e2afa9d45c01",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-57-33.png"
+  }, {
+    "sourceSha256" : "45b2fd9d5c4010c15fdca78e0cc935f59613cc5d7b9f318de6f90d00479b5d99",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-57-35.png"
+  }, {
+    "sourceSha256" : "637c1f697414edc471cd59f3650cea7f51d77c014ab5984aa2ac81e32c836b32",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-57-36.png"
+  }, {
+    "sourceSha256" : "bd23f181af9e5230cf47e2a688f10d6e13f11419152092b1be143c542019649e",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-57-46.png"
+  }, {
+    "sourceSha256" : "ba290808e3cc52749b43f39ab7054ce31b569b094e7449d699e4bd2cf05e49e1",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-57-48.png"
+  }, {
+    "sourceSha256" : "00e470306400bf0adf237b9cdde80bb4a03b2003d146b79d2b6decb0cfeb386f",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-58-05.png"
+  }, {
+    "sourceSha256" : "d3c3d3c9e425bb2ad73b1f5a205b2b2655a56461c2e9d5dd8a7c98ba83edab02",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-58-11.png"
+  }, {
+    "sourceSha256" : "54460c900ff8327e90ed01c081b5fbd37e85af14d81e664a881a8ab510afefb9",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-58-25.png"
+  }, {
+    "sourceSha256" : "0b30af3752b5755919e8f11523c8aa988396b4ab9198f21486f3668e341dbb15",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-58-31.png"
+  }, {
+    "sourceSha256" : "5dcaf890c6a8ac75709a2a2281a0b39ad0e567dee6634e05e85ad0ae37c6c2fe",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-58-45.png"
+  }, {
+    "sourceSha256" : "8e4adb70313e6feadcec112008e8cd4115e3496fbc018e7d5fc37ad546de2d54",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-58-50.png"
+  }, {
+    "sourceSha256" : "a173e12a3f2d1784e5f3b6d5be04e58307a21fe9c639b6113c8b5b03cb36e4b7",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-58-52.png"
+  }, {
+    "sourceSha256" : "2fd67a6f718193fb37c6e1e46f1127c8925f93dbc0089b5aa16a83dd3cdcadfb",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-58-59.png"
+  }, {
+    "sourceSha256" : "41538148d61ec5a7d904bb808857f7d24fcbfb9254e718cdc6cd10282dc8a82c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-59-11.png"
+  }, {
+    "sourceSha256" : "2ad63a3244dc4a414b25657ea279aca6f239a497be6d44ac9135eed5598436d8",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-59-12.png"
+  }, {
+    "sourceSha256" : "e18bb4815bc9f7bd86af50f5f0f8bed89d397e18d2c136b3bee03ed6ac59db87",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-59-15.png"
+  }, {
+    "sourceSha256" : "4854940d2dab821b95ec4a622d0c9a7cdf01f52bdb6e39b3d52b34ab8995db12",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-59-16.png"
+  }, {
+    "sourceSha256" : "993a3936c6da1f48ad254fbc4e7dbc12bbc1a5bd767ac69841722905d9e458dc",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-59-25.png"
+  }, {
+    "sourceSha256" : "03d29f94a5e1339c3b183dad6ca70f062afd04e4d06abe278ac9edea14039823",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-59-36.png"
+  }, {
+    "sourceSha256" : "f6a86a3e13217db7f4be48b449035ff9ca014a5e516d58b2a7ca727ccefadb3a",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 15-59-43.png"
+  }, {
+    "sourceSha256" : "8c0afa6ffe83f04b7cacd0cb071c1558080b9a7fe8768cd8229af4b2e232dde8",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-07.png"
+  }, {
+    "sourceSha256" : "b99352ca9548d25cd7714eb6decd8e345c25ac9b88499e3c8ab8000355ef50e9",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-09.png"
+  }, {
+    "sourceSha256" : "bd9fafd17639deac5de82c94002b16d1ec947d136ac2c520206ce502ff83c7b9",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-11.png"
+  }, {
+    "sourceSha256" : "613ec7e67641ffdec45462b34f46e20c3e3efa1d653ae807d888ce6eaedb7245",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-13.png"
+  }, {
+    "sourceSha256" : "02db6acf2d04271c18851ed10a1a7eb6cb09de81d963d2e4d908c0c4dcc9ee79",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-23.png"
+  }, {
+    "sourceSha256" : "06af82ebab634e3d9acf27dabefdd309188666569b26680acf801ef448f5b936",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-27.png"
+  }, {
+    "sourceSha256" : "5d3563ec70f6ec15524428a2f8dd9142c55ec184b43edf2486c2c59491bd9178",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-32.png"
+  }, {
+    "sourceSha256" : "ef6127f3463c7b258c2f2ecaafb71e74b405937a5f5c337708b92e31e4bd9423",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-37.png"
+  }, {
+    "sourceSha256" : "f1587d9ecd24b3abbf615b32a9ca024084b86a71082f54f4897f2dc885ba13b8",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-39.png"
+  }, {
+    "sourceSha256" : "979eb7e41f64f34ace7763ffb7d5495817bb4058aed2d17eb9ddae62fd202c5d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-41.png"
+  }, {
+    "sourceSha256" : "2ce648c7829a8d48a616e0a6591b3f31bcd911cc4b55767b3f19795c589a8660",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-54.png"
+  }, {
+    "sourceSha256" : "465abf3c3dcbc0db731fd1a6f44a546cec73371c3811a6d391c5b3ad339121ef",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-00-55.png"
+  }, {
+    "sourceSha256" : "1299520add580327e305d8b1448c90edb31da199f24fe22568c2fad9eee9f391",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-01-05.png"
+  }, {
+    "sourceSha256" : "5c61881d1b93724cfffbf58ce1dafdf47bc4d7095a7add694707e5afe4d66b70",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-01-10.png"
+  }, {
+    "sourceSha256" : "56e954ff00dcd6daa794ca60d2e0386edb60fe62fbc1e984db01107aa22fe7fa",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-01-14.png"
+  }, {
+    "sourceSha256" : "fe01a825c5c72c5324403ca1d3a4b0b2f78b25d0d8f869bcb55ad78fb2775075",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-01-30.png"
+  }, {
+    "sourceSha256" : "3110e47c44faa13742623b39be568490fe4f56c166e7669a0a49dfa6fe472dfa",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-01-39.png"
+  }, {
+    "sourceSha256" : "98c5c374508137c27fd7ef927492ff9fab54f698fd899607811b6259d27424fd",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-01-42.png"
+  }, {
+    "sourceSha256" : "222c1c0a0560096dc3aca1508a821eecbe0617d8a6fd73bf3980e403cb139bbb",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-01.png"
+  }, {
+    "sourceSha256" : "ecea3596e1dd3310dcb36dac7e15ee2ff0f8e6a2fa8d51b75a80e0256d1f9332",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-11.png"
+  }, {
+    "sourceSha256" : "a366631706bf8fc5be28724f033b4db6d02b7b5b3dfb116cb80a7bc8e5540cfd",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-13.png"
+  }, {
+    "sourceSha256" : "142048e418df67f36f37d791a10d835241df20640f7d05a9b6c32663b26a6ca1",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-14.png"
+  }, {
+    "sourceSha256" : "3cf4732a450c82118d0836b81a3557050e8f487f940311cca8476d15eed832ae",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-16.png"
+  }, {
+    "sourceSha256" : "98a20ae9a327c6299f2d8ad6e5dc064a8773ec642b3eb1b899bc2328a8f05dd1",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-22.png"
+  }, {
+    "sourceSha256" : "6ffe424e94b9bf2a613a32eb099dcc0d2f7fc1b4237bbfa3a995beb9e80d3469",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-28.png"
+  }, {
+    "sourceSha256" : "3a66bc36719ca2860cd16b73fd8ce58850c4273c6f99af62a084c5ace5668260",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-31.png"
+  }, {
+    "sourceSha256" : "4d6d408581d0a474fa85fc6f279821e667fee533ca3c1c00563d36bb2ff74d2f",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-35.png"
+  }, {
+    "sourceSha256" : "6ce32faef2142573542be0ab51a79019560fc3b941cd2f643ee2f9848778cb20",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-37.png"
+  }, {
+    "sourceSha256" : "7ae10f9c963fa808ebcaf90e637127aafb54f9c8256f89163f81e006b6ab2ccd",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-39.png"
+  }, {
+    "sourceSha256" : "0a59b04c3495453f36968c25aebb486dde7f28d8aa4fdabce54c79d132386dfd",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-41.png"
+  }, {
+    "sourceSha256" : "15273fba52c516f8457f18ed8c13ccd0127742169a428d55a54105291c5bf70e",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-43.png"
+  }, {
+    "sourceSha256" : "88d7ddae3f37102effedd55f2c105a768480a7428ef91b5384ee785e91df9c17",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-47.png"
+  }, {
+    "sourceSha256" : "59f9442bd903a77c8149bd0641cc7963b13322143ab833594fe80a96d723fbaf",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-48.png"
+  }, {
+    "sourceSha256" : "88eee7556b6dcca4782f976c61d3bbfe2eca8cb732d3a0a4016aafeab17a2d81",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-50.png"
+  }, {
+    "sourceSha256" : "6de01df3baa4d75ded1888e5e6b95da453b162ea17532f927d285785735ca9d0",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-02-51.png"
+  }, {
+    "sourceSha256" : "4a941e215342451bd07ccb4774db77d7c818eb1d7f26bc898fe298b718f54126",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-03-52.png"
+  }, {
+    "sourceSha256" : "1bbd6a6734b0b530c3998576411063d7a2c686ad1503a5a80ff5956a26fca370",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-03-56.png"
+  }, {
+    "sourceSha256" : "573eaf36cf5c6203fa888580210cfbe0419c2c315c7ee3ff0840820805ac3fb3",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-04-18.png"
+  }, {
+    "sourceSha256" : "6e0b0c7b8e898fa56e2324b3555a099abc1e11d02029ecc91e0c7f0751d2ae0a",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-04-25.png"
+  }, {
+    "sourceSha256" : "9ab9f8026e8b8a49062ef92dfbc1adb758af24c8ae1031fcb060dc9ee1753560",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-04-28.png"
+  }, {
+    "sourceSha256" : "479b4a5e5ba3b260e851645eb7183e546ed8a5254dce553d36f94573d31c6cd2",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-04-30.png"
+  }, {
+    "sourceSha256" : "abbe66a81f41473b9a23cf8d81bfd0ee49a56f4ac9cd980a5234b02146e502f9",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-04-43.png"
+  }, {
+    "sourceSha256" : "2d87cdd4cc06eeca098feb407a4c73454daa82b9a552a203c8e38ac7e92c96cf",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-13.png"
+  }, {
+    "sourceSha256" : "2b3309c366290656c8f005c39372ea47f37b5109ad586d007dcb9b40265e3321",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-14.png"
+  }, {
+    "sourceSha256" : "8b620f50bfc4129fdc0f60b74325b46925b5de48e91c287cb0cf7c0337cd3ac7",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-15.png"
+  }, {
+    "sourceSha256" : "486a706887fb9065e0ad65b3c1733460cabe2afb4463b131254550ab3dbb6953",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-20.png"
+  }, {
+    "sourceSha256" : "805c5f20432a67fb22cf3e53d3b19f46aeab5427f7b183f6f7c0f6bea0a58c86",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-29.png"
+  }, {
+    "sourceSha256" : "6e9576cf8b8f90311ca295041fc8033d21e2e74d71e69d77b45ce38dab56253f",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-30.png"
+  }, {
+    "sourceSha256" : "92b17e3898706be9f55acf17650890e4e3d734882ed7554216611f1e364988ae",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-31.png"
+  }, {
+    "sourceSha256" : "3bc773ed23482c007355d25c098eba158985300cfefc6dc16dd5c43b6d63fda6",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-35.png"
+  }, {
+    "sourceSha256" : "4f51a3fbf2d4a96de3b7a1874161b53711e9801b524a83948dc3dafcc9031dd4",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-36.png"
+  }, {
+    "sourceSha256" : "36f62bbb1d8ffb804a85e90ce6a6f55a4586941f1e360b6ab08109979c9a4034",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-41.png"
+  }, {
+    "sourceSha256" : "7185444c91df799fb6d982a41c8509ba06f98b6e4f4eed9b1efc5c7a6a1f80c3",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-42.png"
+  }, {
+    "sourceSha256" : "e00b9dd169f76ba22be215e02f1114ba236f8779401cd11464808f9592750568",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-43.png"
+  }, {
+    "sourceSha256" : "8c615f31094d7aeb14585a914f68d7a40c082f8577b700d73836b8ae98132df2",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-48.png"
+  }, {
+    "sourceSha256" : "76be014fcf24a7ce8783c5c8c12ea3b9cb02f3ca676814de5ecdbf4f731ce968",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-49.png"
+  }, {
+    "sourceSha256" : "b30d749e4a8f5f5d8b3c214f0618cb13b3fb131f4ffa702b7fbdb0b66c0141eb",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-50.png"
+  }, {
+    "sourceSha256" : "cdc2bfccb54da5996f64ef6e0344d3ff4e25a016f2c2f75f2af72db7cf8c77ec",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-55.png"
+  }, {
+    "sourceSha256" : "653330b3bf159e1d7d416c5384cfab51e2287e60bcb25724c37bfb5f03d0fb1f",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-56.png"
+  }, {
+    "sourceSha256" : "302072401a1d1e2e592a1dd126d7ad59c32e6b3c03f2c2be6b33932d9b45694d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-58.png"
+  }, {
+    "sourceSha256" : "7a011082e5099be1eb86fb20f6f9fb5731c416c1a721681e91ede14e801b579d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-06-59.png"
+  }, {
+    "sourceSha256" : "cfaba60ff2c8aa5deffd91c5c44747812a533df6f5571813e0a43a9662ae0d2e",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-07-00.png"
+  }, {
+    "sourceSha256" : "697d042897d57d4390cc52fb0931e1a3147895c5ed0bc6e64b5998bae863d4ec",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-07-03.png"
+  }, {
+    "sourceSha256" : "9d27d2f85c08155ebb110ed1a7234cbf52ec4f975dc5c52bad8aa209295290fd",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-07-04.png"
+  }, {
+    "sourceSha256" : "85275c152c8100e3dcb6ee2461c00d0ee4e5297ec1ff5a7d186be4b8681849ab",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-07-07.png"
+  }, {
+    "sourceSha256" : "f08f1c038e047ca76ac887c9080cfc0b41a6ce84659cb6b80ca80c2109dbe965",
+    "regions" : 0,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-07-15.png"
+  }, {
+    "sourceSha256" : "d700ddb27851f21b3b6587fe6a39fd95fc00aace06abd8e5dfe6e54fc12aa8c5",
+    "regions" : 0,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-07-43.png"
+  }, {
+    "sourceSha256" : "b127171a873d8d2a949acb35e848055de7eaaf441a7d58b95398b9b3b68a130b",
+    "regions" : 0,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-07-46.png"
+  }, {
+    "sourceSha256" : "653afc26d1461708421e34aa56c80e5b1314a2135df0fc3427fedf2c989e68a4",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-07-48.png"
+  }, {
+    "sourceSha256" : "db20e22af78d50844c8ed70017391503177e7799cc2fc2c529b6e98bf5676d7d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-07-50.png"
+  }, {
+    "sourceSha256" : "e46c749f38ea72044065a095e8af4b62e89afba0ed2c64006534f84bb5a14fab",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-08-01.png"
+  }, {
+    "sourceSha256" : "0f0e6ed712cd799e800293233cb0580dd0be4ebed03d345b6410735527985de2",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-08-06.png"
+  }, {
+    "sourceSha256" : "0ecfc49ad77ef7512e702f19decf0c35bdec413e514d3199a40530790e618899",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-08-19.png"
+  }, {
+    "sourceSha256" : "bad0382996163ef9b2875ffe7762b9f6ab24632e8ac9c5f1397b901b53f75530",
+    "regions" : 4,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-08-23.png"
+  }, {
+    "sourceSha256" : "d679f1521876bb584b3c8b80cd22e37137be64d8d7616b51d65f8ca3bbe06c00",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-06.png"
+  }, {
+    "sourceSha256" : "e47074dabaa5fba91d4e29cd2bcfd44a8ea1c75336ee1187977a64314d6e7598",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-08.png"
+  }, {
+    "sourceSha256" : "9120e078284744437f55a6946f7d687027a254d567e2680c9f44bd4edbce6c16",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-09.png"
+  }, {
+    "sourceSha256" : "6d7419089f44c767cfb5d51f365674cbe935f580b92994d56fbbbfe14d2c69e7",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-10.png"
+  }, {
+    "sourceSha256" : "21f5675e4d9f575c166fee5b99710ebcc43d34f07719f303b9e7f3f6d6b1ddf8",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-13.png"
+  }, {
+    "sourceSha256" : "535964846aaf79a344e0aa906607ae755b9a3da0cbd3deff9777d440216c652d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-14.png"
+  }, {
+    "sourceSha256" : "a6b8150d5d12c2f503f5fdc5c85e71cea780cfc25e75adeb1e8b39237a90610b",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-15.png"
+  }, {
+    "sourceSha256" : "e4c77a7a343a9b65730701b0d318849103da7552aeefde6057797c2ea3d63005",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-16.png"
+  }, {
+    "sourceSha256" : "1574f219a2ed12e61aa3357268bb0850a31b5d68d119b8e0c9fb7eeed682f47c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-18.png"
+  }, {
+    "sourceSha256" : "057e40f0bb3b2b99a5ecdac8ed3f1fc9b604f412c49cecb23789b09347f7c51c",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-19.png"
+  }, {
+    "sourceSha256" : "da8918da2c478cf76f12585642b47aa7cbb5f65d5ef70f2e96b8819078878379",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-20.png"
+  }, {
+    "sourceSha256" : "d60f5e136f9834bc582e2245b3e901f3e2eabfad82f4939743d9a81d4164e011",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-32.png"
+  }, {
+    "sourceSha256" : "dcb6541480c90eff8040751afc5cbc905df3174004c266f015a29ada2ae5cecf",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-33.png"
+  }, {
+    "sourceSha256" : "8cdb7613ea43264fab08424a9742ea58934a1908139e527650e2c1158860506d",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-34.png"
+  }, {
+    "sourceSha256" : "0bd4639849959b3fcbc5522d7490eeb85c439d5593442db250d930110b419632",
+    "regions" : 1,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-35.png"
+  }, {
+    "sourceSha256" : "a4505cdff8f635dc98b25be7ff9157cfa0a1da86f1a33ad0b0cd3bdf5e62f90f",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-10-31 16-09-40.png"
+  }, {
+    "sourceSha256" : "b3ab796fa874e4e9cad523b2fada988847874a2a0362eb8226e13bfdbb30e854",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-11-01 20-58-49.png"
+  }, {
+    "sourceSha256" : "9fdb6d634bfbfbcdf6f45b724c6809a3ed1422365aabe1ee132a2bc1d83b1424",
+    "regions" : 4,
+    "source" : "gba_testcase/Screenshot 2026-11-01 20-58-56.png"
+  }, {
+    "sourceSha256" : "b4fb418b9750da10a3efbf786456e786cf41be148dcd8f69463b6ee1916d8692",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-11-01 20-59-19.png"
+  }, {
+    "sourceSha256" : "91d80c07290382f330507e7c853bad271b3f3391caa6db57e0601836c0ffde35",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-11-01 20-59-31.png"
+  }, {
+    "sourceSha256" : "3a4fb965af33c9c9ddfbb1d91d65579f91d245b2d4066f8985a2bcf1a1a32596",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-11-01 20-59-57.png"
+  }, {
+    "sourceSha256" : "e63e4fa38c1014cb9a899f24628e0f1e91f22eff4efed336b040836ecbb35f53",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-11-01 21-00-51.png"
+  }, {
+    "sourceSha256" : "373fb2505af1bab5cff91221341355cc13cdaa3b3ebf610e0f8099e3b969b546",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-11-01 21-09-47.png"
+  }, {
+    "sourceSha256" : "662d05f3729648dd27aee38a86ceb62de50ad0c840119defeb25f2ba7bf10401",
+    "regions" : 4,
+    "source" : "gba_testcase/Screenshot 2026-11-01 21-09-49.png"
+  }, {
+    "sourceSha256" : "d1ae63100a4fef7fb76051b45ffc42d5e103356f4831dc124b8c0b3d02e529a9",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-11-01 21-09-52.png"
+  }, {
+    "sourceSha256" : "b4b846972bf57be8956bbc2c0bb5e217fa57c6757c1ec288c9a89f76d20e8168",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-11-01 21-09-59.png"
+  }, {
+    "sourceSha256" : "341a1cad1a638290de412fcd6cc6c31379f083268676c8ebd52ba9f9c0c11e06",
+    "regions" : 3,
+    "source" : "gba_testcase/Screenshot 2026-11-01 21-10-06.png"
+  }, {
+    "sourceSha256" : "49f78b7752e0468b998eaacf3f022b1e913b319294350f7eb590f98bde6d49f5",
+    "regions" : 2,
+    "source" : "gba_testcase/Screenshot 2026-11-01 22-45-03.png"
+  }, {
+    "sourceSha256" : "61292f373ac5d520eff723e86610c022ab0c8c95a171dca76bb63d1080d6a12e",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-57-46.png"
+  }, {
+    "sourceSha256" : "773c47f4683b30773330ccde8a24318d9addf759b907a40cd3ef988ec41178a5",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-58-15.png"
+  }, {
+    "sourceSha256" : "bc7ad930a22527c2a657d5d23601f515bd601952e75eb43ad57be6b1b188f7ad",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-58-17.png"
+  }, {
+    "sourceSha256" : "bd49784b7b053e01aa18a50988702f0ccbaab19fc74393ac81bc8d0926213295",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-58-22.png"
+  }, {
+    "sourceSha256" : "b10dd60077b8e5ce482a2971a565598087e9a218da2345656cc75dc4fcc403ee",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-58-24.png"
+  }, {
+    "sourceSha256" : "d1326179e4c7fb6d5a09893352966cd3566f5942c0d3643639bdb147998cbafd",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-58-26.png"
+  }, {
+    "sourceSha256" : "f4a1c2795624edf448d8d653c53807e90d1f7577aba4961220b5c2fee19a2a69",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-58-28.png"
+  }, {
+    "sourceSha256" : "c0454380552e631b1b5f05b65966129597d14b65ad85a5f5a37ea400829d4601",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-58-42.png"
+  }, {
+    "sourceSha256" : "0ce0e7457dce8b8ad20a40370db14b64e0e9ca995c33fd274fa93a31c332ec50",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-58-44.png"
+  }, {
+    "sourceSha256" : "3c07a9cb34ae7ebc94181b19ce062823314e3a5ed4bcebe5fb0b008fdfc2d910",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-58-53.png"
+  }, {
+    "sourceSha256" : "cf3ca9eac3c18b4112b36d0aaf530b0b5df26f5ee15aee3300ea57d392659f62",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-58-56.png"
+  }, {
+    "sourceSha256" : "97911d3285868f76d2b37922ee78bba54caa0998a9b67c3b3e96027803aee182",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-59-00.png"
+  }, {
+    "sourceSha256" : "7a0ee570d5da918a504080a42be9d325cfe6d75d889a2cb79ae72194a8b8d901",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-59-09.png"
+  }, {
+    "sourceSha256" : "32b46b92708bca729e8824214dfccc8910d35cff609ac0848eaf61f6eca8e2c4",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 14-59-11.png"
+  }, {
+    "sourceSha256" : "b156c3b4aeca255a6ecd83cda3dc5036cd7ad29b29bb7804a0c964135e20c477",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-00-15.png"
+  }, {
+    "sourceSha256" : "54c3ee09dd758ed9a29598df08e1dbd33c6e2130d1cdd926da7e562d41403e2b",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-00-16.png"
+  }, {
+    "sourceSha256" : "6cd3bc0f53d4ca5854824a3bd3bcaf5141e84c2233672f6ba742497c7a383054",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-00-23.png"
+  }, {
+    "sourceSha256" : "f2a3c6efd11794af48a9d5fcc2a0071bc3924891e2868da5288022ed883f9174",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-00-25.png"
+  }, {
+    "sourceSha256" : "5eb66b742250c6224ec5e0034bdc8bee61390c95a49157abe60ba371f5366b1e",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-00-27.png"
+  }, {
+    "sourceSha256" : "25ddf54f697f767eccd3b92ee78ca2f54c492e6ab9b423ff8846221b8ff8bc46",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-00-36.png"
+  }, {
+    "sourceSha256" : "a7323d5596ef3bb843819c6b816ddf3e5e8b0229d83d07ed8b5f853a76e9183a",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-00-40.png"
+  }, {
+    "sourceSha256" : "52d72e9b01e2ba0e98c6740cc252752e59d3ad74c2bb1d61a8b209cec403cfc2",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-00-44.png"
+  }, {
+    "sourceSha256" : "b8475bbd4cb0f38d1f19a13b009f0b0a997a5b86ab55a665626777b2a57b0b77",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-00-46.png"
+  }, {
+    "sourceSha256" : "99cf08e7e2ed3cf5a4c92133817dbd261bfe5ed738f05ea6af997fbb10cab03c",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-00-48.png"
+  }, {
+    "sourceSha256" : "7f4524fcdad17c0fab3aff2dd3bdbbda5588963f2931f29859886801d05d7a59",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-00-49.png"
+  }, {
+    "sourceSha256" : "5ddcd66c0404096bc3934635c5dd73b4865937c850db73d9be34ba1dd4246365",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-00.png"
+  }, {
+    "sourceSha256" : "84647975f0b90dfc35aa4caf02622143d9037ca973b25c32b478ddab82ef0703",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-02.png"
+  }, {
+    "sourceSha256" : "a77a11204c3c4d19beb07bed3cb20e42b70541a821b27447171ea5db140ebe24",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-03.png"
+  }, {
+    "sourceSha256" : "053b8fa01c9fe231683fe03e3361940886aaf5d8cfea9a4c61e7b845ce5919a3",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-06.png"
+  }, {
+    "sourceSha256" : "9fd5da4aa7c6ebbffb8cc0c4983334504ed077d3a2ab0cdc864a1201b83c0837",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-10.png"
+  }, {
+    "sourceSha256" : "f8dc04c590075a8920d52a2590a53ac4da96dd978a0ad392705a03fd3d2700e9",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-20.png"
+  }, {
+    "sourceSha256" : "ea25f1e1c8732958ef7333c935095ce7a7eda1f3a9b5a189a351c808705ecdc3",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-22.png"
+  }, {
+    "sourceSha256" : "40f6ff4b6b04297803c5130a604833283e02ad49342ff3e0089605a2ac952741",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-24.png"
+  }, {
+    "sourceSha256" : "c7a1bd22176708a61f6e458e43afcba15014656c9403fdaef17a4ad5eab56c6b",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-28.png"
+  }, {
+    "sourceSha256" : "b3f45cce3257e927d3ba088c3fb70c3c5ecd7bc858e7920734df36a1063214c0",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-30.png"
+  }, {
+    "sourceSha256" : "2b6671a38b4a7ad0d5dab555f237da8b770c1bd41037c630b8d1b0b92b9e0907",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-31.png"
+  }, {
+    "sourceSha256" : "aa10fd094529e9f6b7e75ee965ec33b3267dd0099bf74da1c28d4206e8932343",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-33.png"
+  }, {
+    "sourceSha256" : "fa5fc429768f73b770a97476832691fb48f88de8bdce89df86cefbdc8c0de801",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-38.png"
+  }, {
+    "sourceSha256" : "591ad6da67c5c4e5a5de6537de188ea9d0ef0c369a1e4bd70edc4538617bbefc",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-39.png"
+  }, {
+    "sourceSha256" : "c62a65944ed731894243dd6d1e85f546aa2baa138c15a85480d716b0dde88f40",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-42.png"
+  }, {
+    "sourceSha256" : "1268427673fc6440b3d94e1303fd7784eeb54063f1dfe1c5c2bfeae282957644",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-46.png"
+  }, {
+    "sourceSha256" : "39857e600dc50d666ed89ee24475330a5f55ba4c00648bfc382456d48997fe6b",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-53.png"
+  }, {
+    "sourceSha256" : "2e2851a9a08d760872908e9c23a8fc4a9c0455298604bbbe0d4813ef3ac9e7d2",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-01-55.png"
+  }, {
+    "sourceSha256" : "a6834835f267fd58308dd5ddae5e17198f3975662ddd0d88d15c076e8ff02989",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-02.png"
+  }, {
+    "sourceSha256" : "15abda8ca20597abc6ccad24ab7979ada406f7abb7db7f2cec8dc12ed579575f",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-10.png"
+  }, {
+    "sourceSha256" : "bd15fbe391453990480de89cebb194a7fbcf5209f8939f4ed513570717fce116",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-11.png"
+  }, {
+    "sourceSha256" : "7c2f9146bd529d51747b4cd3ae1d9b706f445ab7d45ce05a444e12f134009d50",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-13.png"
+  }, {
+    "sourceSha256" : "79e726085dcc2347e086123792e12c220d8379decbd4bfafab8adccac3efa28a",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-21.png"
+  }, {
+    "sourceSha256" : "55dc9be7fa3e0adefc3181101a95d1d89861aee6e6a199cb93f8d1267fbc66c1",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-24.png"
+  }, {
+    "sourceSha256" : "913806abb9fa09abb22886957507dd0676c75fbb2d4a1eae6810d4eb3042e995",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-26.png"
+  }, {
+    "sourceSha256" : "ff2f5926b79ae2177142fa2dc7ee3dc3a8abd05c25324f6e7e508e4f014d855f",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-28.png"
+  }, {
+    "sourceSha256" : "f2ffc901f3ba2939f5e1f4e0795d6417524d24914414808f7c5bd33c142292fa",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-29.png"
+  }, {
+    "sourceSha256" : "403b3c1bfe905e91cebe65a5d2b54eac8aec2c283ac4ab2155dd0cb72d76b305",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-41.png"
+  }, {
+    "sourceSha256" : "5f11e6fb90eed4b05719a6150e171290f57b6a544e4552d06e544e2bf1d5c251",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-43.png"
+  }, {
+    "sourceSha256" : "ed633c655cf1d784b78b106a38c25398e4e91205f09ae1f0082bde000afbd7f5",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-45.png"
+  }, {
+    "sourceSha256" : "283e29882cce8dab9416ae0d39394ca4870fb0c043e8513cae26039a425f00ed",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-02-46.png"
+  }, {
+    "sourceSha256" : "f3e222a40415f0de9e43c3fba7d59327a1dd0b911204c1e02f9489a03118961b",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-03-34.png"
+  }, {
+    "sourceSha256" : "646d27543667fc322704c15b0f84b4a27e0f8895f4d4b3f2743b7bd2762ea131",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-03-37.png"
+  }, {
+    "sourceSha256" : "25eb2caa20bc7ed2615ee9f538a9c6015b7b86a2129c8a7efecb4ffc209acf59",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-03-40.png"
+  }, {
+    "sourceSha256" : "ac29a780ef9d29ba2ebc856b2c29c97d5ccb0a853c0da4b58112971093fd7a6f",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-03-44.png"
+  }, {
+    "sourceSha256" : "7438fdaf93fa6449deb73c4ebfb18ce3d03492ba44f76536ad53e7c177a0503c",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-03-46.png"
+  }, {
+    "sourceSha256" : "464399aa05f4017e927fcb4c712f9880411b3db61fcb1e0b0f438a32eb053976",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-03-54.png"
+  }, {
+    "sourceSha256" : "da209e725138852711fe1a6345386a966675cf70986eeff4463c5acf280eb10d",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-03-56.png"
+  }, {
+    "sourceSha256" : "c8cd91cc3d611e7ebab0195599d8cba95681e8b6c0307cc26f3f4a8d171059a1",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-03-57.png"
+  }, {
+    "sourceSha256" : "08b1fa218ae68578f6a97c34837bf09629870d486e9fbd450e49a2cdb89ec4ea",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-03-59.png"
+  }, {
+    "sourceSha256" : "7457b858c0f062d3bf08e7e91e9f91dfeb42a86d48c0fb961d6dc46a297989dc",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-04-03.png"
+  }, {
+    "sourceSha256" : "a35dd2bef3c25d7e26a81734d0eda4f0bdf22af77728847de1c9eef044be645c",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-04-05.png"
+  }, {
+    "sourceSha256" : "86f7138dd380cb5d2639157f487c9ce70121330ba69e5620a5b35d3d3e74e62f",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-04-21.png"
+  }, {
+    "sourceSha256" : "696c23c967a0daa2ca3f931200f038369a25544a959e7e7bc9f1fc71483d4af5",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-04-25.png"
+  }, {
+    "sourceSha256" : "26c70c75c55c65a009376dffb4c9cd53a2731d66967dcc119441125a5dc28105",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-04-44.png"
+  }, {
+    "sourceSha256" : "ed127cb4576997102045d895410904cbf3a777e9140b221533b0c862f3099e63",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-04-46.png"
+  }, {
+    "sourceSha256" : "3fee26d2478521b5463480c4565ef7e298dad23702874fe32c681945ca80c98e",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-04-48.png"
+  }, {
+    "sourceSha256" : "5919874d8a6ab29daf3375ab473324ce7abdad72ac27d87cda65b9f1fe3e4bb9",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-04-59.png"
+  }, {
+    "sourceSha256" : "1469f8ac86d907ae5182f0e39044f708ae32a8844caff665485c7e9e34c58768",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-01.png"
+  }, {
+    "sourceSha256" : "4df0a0db1499681981a3496c218bf30857c40eb641696d00e4c9a6a872fbd7a3",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-03.png"
+  }, {
+    "sourceSha256" : "d0b53e5f2598cca37e5437cb774aced1e8cf842eab6ad07f24759f990d69b370",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-04.png"
+  }, {
+    "sourceSha256" : "975ef24d2b14418265317b3e6b95230b0c1480a10c131637c3c18a84e5e7ba7f",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-08.png"
+  }, {
+    "sourceSha256" : "2eae38a3e40a9b44e739edcade58a5034a316f5353e8c097a50c77a7592ed9a2",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-10.png"
+  }, {
+    "sourceSha256" : "ecd2d74d26d034cedd75743ebadab5582ebe57184b12adb7d8f0b7e1ce56343c",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-12.png"
+  }, {
+    "sourceSha256" : "b6760add57d494938d33a0352d5ccd5bda7ca57df22f3fbaf90fedbf87d19379",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-13.png"
+  }, {
+    "sourceSha256" : "8b5281e2a4a94740c15348ce5fdd04abe95cac5a7ee0a176413ca667fa5e0c90",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-15.png"
+  }, {
+    "sourceSha256" : "21f8452e5a48fe6e9e782fb715c26b3babb96b431e1c4731497340fa97ffbc8e",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-18.png"
+  }, {
+    "sourceSha256" : "14d337d257333d88b60ff47521f80ac1507b5771080dc7a5bac3a5cf5498b4f9",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-20.png"
+  }, {
+    "sourceSha256" : "2a0f90a6ab019b13a5ba69b26082b6c6193e16a3c7fac81ad0e1dc911cfd0255",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-25.png"
+  }, {
+    "sourceSha256" : "a42e608e6358b3f5dad0d2086370cc73c8a285eada4beaf6bce99337395aa333",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-26.png"
+  }, {
+    "sourceSha256" : "5bb71b648f369226fcbdf64674702c4cc9dd07fb56a948dad584eba75c227c8d",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-05-32.png"
+  }, {
+    "sourceSha256" : "a5e904c02adb845bed34d4e1e591c440a08cc6dd40412dcea037f1013cbd08e4",
+    "regions" : 0,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-06-17.png"
+  }, {
+    "sourceSha256" : "78e7bfc706a0744b09e30b59c4aff38de57e1f523131c4f5ea52d8e8bf26a0ae",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-06-19.png"
+  }, {
+    "sourceSha256" : "e6c543637202630e5bc36022c44e5cdbf20c0a6792c9362e82242a93c61c0158",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-06-21.png"
+  }, {
+    "sourceSha256" : "cc6682eba887305467d9d0b157a683985718d182f0c3b6827c6ebcd3a6ceb813",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-06-24.png"
+  }, {
+    "sourceSha256" : "0e6d7c9a871907df2b8cbb73c0fd8d4f68c739bf75b2fbec8d95b7d273b49fb9",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-06-26.png"
+  }, {
+    "sourceSha256" : "06830de13a1374f2124c278d4d9f502a2ec52597cee5d09e5e34ae970f3b5696",
+    "regions" : 0,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-07-09.png"
+  }, {
+    "sourceSha256" : "ee75e509518b7868c4ecb9e2e354d05e60f74afab43c4073181f2add14ba0b2c",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-07-11.png"
+  }, {
+    "sourceSha256" : "62c7da4d100114125c5b2275d0285cfde6a0aecd2476e88ef7f8a3cc454f1b20",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-07-12.png"
+  }, {
+    "sourceSha256" : "577eafa83a22ae00aa970421ec0ad8e316790677236ba792b8f6e384294a3f1f",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-07-32.png"
+  }, {
+    "sourceSha256" : "bece673c45e44ed7329d11f8fb42700b502b5644d2c4571370b6737a0cc19648",
+    "regions" : 4,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-07-37.png"
+  }, {
+    "sourceSha256" : "2bd025d50d83b79cdf56f3973d7d0cf46b569e965e9b04985f5841dd62561a80",
+    "regions" : 4,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-07-41.png"
+  }, {
+    "sourceSha256" : "30b5ec1be1bb9ee679d0a26973122a11b6f676ed74e62e0ab2abdaa83e8517f0",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-07-46.png"
+  }, {
+    "sourceSha256" : "e637427f93444bb5190f205d8fec3b715a98ad8655a7f9cb7088d74ec11b3eec",
+    "regions" : 4,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-07-54.png"
+  }, {
+    "sourceSha256" : "eb4f0d4005a1c138597d1ddd38c537e54c8406072a0df2b0b105ddda6245aa54",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-08-37.png"
+  }, {
+    "sourceSha256" : "769e1ca26840020f4b286eafece5b51aaaab42a217aab7c9d7208ea2f32f6505",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-08-40.png"
+  }, {
+    "sourceSha256" : "aa180ab8805a6a8400ed88f0f466894e52bbf5ee7917e811eac32ba316ae2e8e",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-08-44.png"
+  }, {
+    "sourceSha256" : "2d1ebbba897ec26037633838241d08a853b711e2c924451e4bbf949f9857558f",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-08-48.png"
+  }, {
+    "sourceSha256" : "37be2cb265c75c78915c0077e2a7e996b8b211f377ba1f0fc700114a4af0a859",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-08-49.png"
+  }, {
+    "sourceSha256" : "585eb490b32e964c1b3a3b34a51ae19e72b37aaf7d78ade0100bea71f7285759",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-08-53.png"
+  }, {
+    "sourceSha256" : "3cb08f8910c46deffd2089987bf327f4f217c1bfaaa12ff5b78d155693731cd5",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-08-57.png"
+  }, {
+    "sourceSha256" : "6f65cb768ccdd5a99cdecc4efde4e9a25c888381c244980ec9956975a4ae2bc2",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-08-58.png"
+  }, {
+    "sourceSha256" : "1667be2b2decb0c60bb0c250cdc3fa043d145a15cc6947b6a1b63f96ef22efb1",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-00.png"
+  }, {
+    "sourceSha256" : "07a7a6c93bae41570fc804dcb3c257499ce401f9ce4803d04d48de3f5137b416",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-13.png"
+  }, {
+    "sourceSha256" : "48f71ae9a44a6caf32238db012be426a56f002a0b687b3fd35bf1b212a90bc57",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-15.png"
+  }, {
+    "sourceSha256" : "c7de8de06a4e50a79f87ecdffd766c048bbdc38eb050d060b9657b9b953d5faa",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-17.png"
+  }, {
+    "sourceSha256" : "64c9bb66a21357ebd5944bd4508bb4cbbd3200247342449c41eed981073b1a61",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-18.png"
+  }, {
+    "sourceSha256" : "201e64a5722127441418cdcd91a2e1588f098a3feaaf5cba2ac9e5caea1ce358",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-34.png"
+  }, {
+    "sourceSha256" : "291fdcfa28b6de5b574e27d4c5806e7e881a2a7ccc6b42eebd98cc7c51f20f91",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-35.png"
+  }, {
+    "sourceSha256" : "5fc752875cb66eb71bc43159692bffa5916d8b40b9cb97dfd0ce2d0d7227977a",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-39.png"
+  }, {
+    "sourceSha256" : "8aecc4d9a4e2f5f318e08a4af55e506924edd9995595973d88c7c57bc4334513",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-41.png"
+  }, {
+    "sourceSha256" : "3bae663f09393389ac28327669818f11d70b929f47e2ab01a4b56f935516c047",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-44.png"
+  }, {
+    "sourceSha256" : "4ca155d1cc1116b15e8552712b2c05a1b8858590312b0970eeaf0f167364e57d",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-48.png"
+  }, {
+    "sourceSha256" : "ffd7c56c0394a10c4f5529e176da974e577ca9cef77a84ed425a9b3341801481",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-51.png"
+  }, {
+    "sourceSha256" : "8e87216d83e2ec79a0acae9960661c6386a1264b2d58ae84d5e0c4d7f032bb28",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-53.png"
+  }, {
+    "sourceSha256" : "fda89d96bc1c0ca08f7df3c762676d93ea139b59eec7cb8f619e79005fdba0e1",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-09-59.png"
+  }, {
+    "sourceSha256" : "d0bbb68c0984b6bc58b3889524a0f0aeec0fc026d96face3c2cff4b2d6db6740",
+    "regions" : 1,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 15-10-01.png"
+  }, {
+    "sourceSha256" : "08fe0a834ae93e89d211203eb280ba0a34394ac5dd3ffc4485dcd143e633239c",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-17-01.png"
+  }, {
+    "sourceSha256" : "fb69f02a7d687e6c7ef35e4324c1d68c4d03418f920fef7c668050a5891704bd",
+    "regions" : 4,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-17-04.png"
+  }, {
+    "sourceSha256" : "04180e0efbc636e721e8bf9b3a6ea030b6697a1bf30d292de0dc95ce37ca0490",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-17-07.png"
+  }, {
+    "sourceSha256" : "135f34323204bbf3868242782f157d024f9b59569cb2cb927e95621411244e05",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-17-10.png"
+  }, {
+    "sourceSha256" : "7a65b99e19d3f9b819286934fd318f7a3d5089b2d1b29b15ff4a69ea036fec20",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-17-14.png"
+  }, {
+    "sourceSha256" : "b985359ac8221491e1c6bbc9d86cad9427a0062c2ebcac1a492f2ea6748250fc",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-17-19.png"
+  }, {
+    "sourceSha256" : "f4b9c521d37f62e4a3955e75090d6906d8c30bc7df1f4272e761c27bdb658ba1",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-17-22.png"
+  }, {
+    "sourceSha256" : "d2ae85fc9fd731f34868849d6adbda616f14bfc02fc33d7d0f87350a961ac74b",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-17-25.png"
+  }, {
+    "sourceSha256" : "fe5425e8d6ab0f762e7577d6c97b0363eaf1883fdb68bde0bbd19697201ec627",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-18-38.png"
+  }, {
+    "sourceSha256" : "021ee6e5e447f6d0c74c72f0ad995f97f621b0d1a94712c81fee7506df8655af",
+    "regions" : 4,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-18-39.png"
+  }, {
+    "sourceSha256" : "646a8ee2d872aed397413c8b58b373b8a6306a4a870c5dcb5f31a5286db3606a",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-18-41.png"
+  }, {
+    "sourceSha256" : "0d9571d19b3df848bd5bf8e5a333c6eba997f5874e1b5b989890cda5a6307f02",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-18-44.png"
+  }, {
+    "sourceSha256" : "7ae125bd8d0e2d6ae465b03015b1106d338f00586d9ffa7a27261137ebae6376",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-18-45.png"
+  }, {
+    "sourceSha256" : "b11391c79b48d8d1a59fca449bd40477431c6e470766ff3f90206f32094e5b16",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-18-47 (3).png"
+  }, {
+    "sourceSha256" : "4dfad891cf65eb0764249e084819dd248fa92e334d30b7bda60cde09f47c30e6",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-18-47 (4).png"
+  }, {
+    "sourceSha256" : "eb0cf7b3d7c048457d38829a024577a09f2eb50629fef7635d98dad0661be319",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-18-56.png"
+  }, {
+    "sourceSha256" : "a85944b65ad4695278bddf89badbcdf70d504878ce3ff8bf09d577a476980c69",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-18-57 (2).png"
+  }, {
+    "sourceSha256" : "fc32cfdf3b7bfada657aaf86f2d704f3fec6888e882bdc3545e9d1bfe47c2b06",
+    "regions" : 3,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-18-57.png"
+  }, {
+    "sourceSha256" : "044f1b3b580735b117fbb4d4e5c1c5f81c01ba7ae15e3629d3bb2063e625cf8e",
+    "regions" : 2,
+    "source" : "ngc_testcase/Screenshot 2026-11-01 21-19-01.png"
+  } ]
+}

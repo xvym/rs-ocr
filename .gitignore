@@ -12,10 +12,13 @@
 # Downloaded upstream inputs; recreate from the source manifest
 /outputs/pokeruby-text-audit/inputs/
 /outputs/pokeruby-text-audit/source/
+/outputs/corpus-inputs/
 
 # Dependencies, caches, and temporary inspection output
+/.idea/
 node_modules/
 /target/
+/desktop/target/
 /.tools/
 /reports/ocr-development/normalized/
 /reports/ocr-development/*-raw.json

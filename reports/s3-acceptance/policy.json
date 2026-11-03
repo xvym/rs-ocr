@@ -1,0 +1,34 @@
+{
+  "id": "s3-existing-hardware-testcase-ai-review-v1",
+  "date": "2026-11-02",
+  "user_direction": [
+    "人工复核改为由AI再次复核即可",
+    "当前testcase已经是实机素材，我认为不需要新素材了",
+    "按以上调整继续推进"
+  ],
+  "review_method": "AI 再次目视复核转录、文字可见性及字体证据；人工复核不再是本次 S3 前置条件。",
+  "dataset_policy": "使用现有 456 张实机截图；不要求新增素材或独立保留集。原图全部曾用于开发，此结果仅证明固定集符合程度。",
+  "scope_policy": "保留原 585 个存档区域，按 R18 排除 11 个文字被挡或不可见区域；将已复核的 5 个可见遗漏字段加入正式目标，总计 579 个目标。",
+  "negative_policy": "其余 5 张搅拌动画、排名及混合结果页没有本次 51 个区域键范围内的目标，检查该范围无误输出；画面仍有其他文字，不声明全图无文字。",
+  "equivalence": {
+    "status": "frozen_by_ai_review_under_user_direction",
+    "font": 3,
+    "pairs": [["へ", "ヘ"], ["0", "O"]],
+    "condition": "两个字符的完整原生前景位图相同；该位置的实际识别距离为 0 且保留两个候选。",
+    "unchanged": "空白、换行、数字串、其他字体及预绘制标签保持严格比较；原始 OCR 不改写。"
+  },
+  "gate": {
+    "target_region_accuracy": 1.0,
+    "target_image_accuracy": 1.0,
+    "CER": 0,
+    "missing": 0,
+    "unknown": 0,
+    "unexpected_detections": 0,
+    "excluded_outputs": 0
+  },
+  "limitations": [
+    "不代表未见画面、全游戏、实时捕获、中文、200ms 延迟或发行包验收通过。",
+    "实机卡带修订号及逐图红宝石／蓝宝石归属未补齐；按用户已指定的日版 RS 范围推进，不作为本次固定集验收阻塞。",
+    "旧候选转录档案仍保留历史人工复核字段；本目录的冻结快照与 AI 复核记录为当前 S3 依据。"
+  ]
+}

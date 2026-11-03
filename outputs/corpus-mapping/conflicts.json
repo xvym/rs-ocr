@@ -1,0 +1,3884 @@
+[
+  {
+    "game": "ruby",
+    "japanese": "どうぐ　いっぱいで\\nスーパーボール　あげられないね",
+    "qids": [
+      "rs.script.RustboroCity.RustboroCity_Text_16704C",
+      "rs.script.PetalburgWoods.PetalburgWoods_Text_195182"
+    ],
+    "translations": [
+      "你的包包已经满了。\\n我没办法给你这个超级球。",
+      "你的包包满了。\\n我无法给你这个超级球。"
+    ],
+    "candidateIds": [
+      "candidate-000117",
+      "candidate-001853"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "みえない　なにかが　いるようだ",
+    "qids": [
+      "rs.script.FortreeCity.FortreeCity_Text_167868",
+      "rs.script.Route120.Text_SomethingUnseeable"
+    ],
+    "translations": [
+      "有个看不见的东西\\n挡住了去路。",
+      "有个看不见的东西挡住了去路。"
+    ],
+    "candidateIds": [
+      "candidate-000137",
+      "candidate-000536"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ハギ『ふねに　のる　ひつようが　あるときは\\nいつでも　こえを　かけておくれ",
+    "qids": [
+      "rs.script.DewfordTown.DewfordTown_Text_16B627",
+      "rs.script.Route109.Route109_Text_16E2C5"
+    ],
+    "translations": [
+      "哈奇老人: 想再次出海的话，\\n记得来告诉我一声。",
+      "哈奇老人：什么时候想再次出海，\\n尽管过来告诉我一声！"
+    ],
+    "candidateIds": [
+      "candidate-000277",
+      "candidate-000381"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ハギ『ムロタウン　か\\cよっしゃ！　いくぞ　ピーコちゃん！",
+    "qids": [
+      "rs.script.Route109.Route109_Text_16E159",
+      "rs.script.Route104_MrBrineysHouse.Route104_MrBrineysHouse_Text_191BFD"
+    ],
+    "translations": [
+      "哈奇老人：好嘞，出发去武斗镇！\\p起锚啦！小皮，\\n咱们要出航啦，宝贝！",
+      "哈奇老人：武斗镇，我们来了！\\n准备起锚！\\p起锚啦！小皮，\\n咱们要出航啦，宝贝！"
+    ],
+    "candidateIds": [
+      "candidate-000377",
+      "candidate-001746"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "いつも　みずを　あげてたら\\nたくさん　はなが　さいたんだ\\cそしたら　きのみも　たくさん　できた！\\cはい！\\nこれ　あげる",
+    "qids": [
+      "rs.script.Route110.UnknownString_816F5D7",
+      "rs.script.berries.Route111_Text_1C56F0"
+    ],
+    "translations": [
+      "我每天都给植物浇水。\\n它们开出了很多花。\\p而且还结了很多树果。\\p给你！\\n你收下它吧！",
+      "我给植株浇了好多好多水！\\n开了好多好多花！\\l然后结了很多很多树果！\\p给你！\\n这个你可以收下！"
+    ],
+    "candidateIds": [
+      "candidate-000429",
+      "candidate-004108"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "がんばって　あかいポロック　つくるんだ！\\n[STR_VAR_1]も　がんばってね！",
+    "qids": [
+      "rs.script.Route110.UnknownString_816F657",
+      "rs.script.berries.Route111_Text_1C5781"
+    ],
+    "translations": [
+      "我正在做红色宝可方块！\\n你也来试试吧！",
+      "我会非常努力，\\n做一些红色的宝可方块！\\p希望你也加油！"
+    ],
+    "candidateIds": [
+      "candidate-000430",
+      "candidate-004109"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "[PLAYER]は　パソコンの\\nスイッチを　いれた！",
+    "qids": [
+      "rs.script.LittlerootTown_BrendansHouse_2F.UnknownString_8172F85",
+      "rs.script.event_scripts.LittlerootTown_MaysHouse_2F_Text_1A10D6"
+    ],
+    "translations": [
+      "[玩家]启动了电脑。",
+      "[玩家]开启了电脑。"
+    ],
+    "candidateIds": [
+      "candidate-000590",
+      "candidate-002461"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "はかせは　つくえのうえで　けんきゅうを\\nするよりも　じっさいに　そとへ　とびだして\\rたいけんする　タイプのひと　なんです！",
+    "qids": [
+      "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173B29",
+      "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173C88"
+    ],
+    "translations": [
+      "嗯？小田卷博士？\\p博士外出做户外研究了。\\n所以他不在这里。\\p哦，我解释一下户外研究。\\p就是在自然环境中研究事物，\\n比如田野和山脉，\\l而不是在实验室里。\\p博士不是喜欢做案头工作的人。\\n他是那种宁愿在外身体力行，\\l也不愿在这里阅读的人。",
+      "博士不是喜欢做案头工作的人。\\n他是那种宁愿在外身体力行，\\l也不愿在这里阅读的人。"
+    ],
+    "candidateIds": [
+      "candidate-000609",
+      "candidate-000610"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ピーコちゃん『ピー　ピひょろー！",
+    "qids": [
+      "rs.script.SlateportCity_SternsShipyard_1F.UnknownString_817C6A6",
+      "rs.script.Route104_MrBrineysHouse.Route104_MrBrineysHouse_Text_191FB9"
+    ],
+    "translations": [
+      "小皮：皮皮皮哟咯！",
+      "小皮：皮皮皮！"
+    ],
+    "candidateIds": [
+      "candidate-000926",
+      "candidate-001753"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "えっ？　ふね　ですか？\\cもうしわけ　ございません　げんざい\\nれんらくせんは　ないんです‥‥",
+    "qids": [
+      "rs.script.SlateportCity_Harbor.SlateportCity_Harbor_Text_17FA0A",
+      "rs.script.LilycoveCity_Harbor.LilycoveCity_Harbor_Text_18B306"
+    ],
+    "translations": [
+      "你说什么？\\n你是在找船吗？\\p很抱歉，客船服务\\n目前不可用...",
+      "你说什么？\\n你是在找船吗？\\p很抱歉，\\n客船服务目前不可用..."
+    ],
+    "candidateIds": [
+      "candidate-001034",
+      "candidate-001483"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "[PLAYER]は\\nチケットを　もっていない！\\c‥‥もうしわけ　ありません！\\cふねに　のれるのは\\nチケットの　ある　かた　だけです",
+    "qids": [
+      "rs.script.SlateportCity_Harbor.SlateportCity_Harbor_Text_17FAAD",
+      "rs.script.LilycoveCity_Harbor.LilycoveCity_Harbor_Text_18B3A9",
+      "rs.script.BattleTower_Outside.BattleTower_Outside_Text_199D40"
+    ],
+    "translations": [
+      "[玩家]没有船票...\\p非常抱歉。\\p你必须持有船票\\n才能登上客船。",
+      "[玩家]没有船票...\\p非常抱歉。\\p你必须持有船票才能\\n登上客船。"
+    ],
+    "candidateIds": [
+      "candidate-001036",
+      "candidate-001485",
+      "candidate-002119"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "れんらくせんに　のって　おまちください",
+    "qids": [
+      "rs.script.SlateportCity_Harbor.SlateportCity_Harbor_Text_17FBB6",
+      "rs.script.LilycoveCity_Harbor.LilycoveCity_Harbor_Text_18B4B3",
+      "rs.script.BattleTower_Outside.BattleTower_Outside_Text_199E4B"
+    ],
+    "translations": [
+      "请登上客船\\n并等待出发。",
+      "请登上客船，等待出发。"
+    ],
+    "candidateIds": [
+      "candidate-001041",
+      "candidate-001490",
+      "candidate-002124"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "どうも　ありがとう！\\nじたくの　パソコンに　おくって　おきますね！",
+    "qids": [
+      "rs.script.MauvilleCity_GameCorner.MauvilleCity_GameCorner_Text_181E49",
+      "rs.common.strings.gOtherText_HereYouGo2"
+    ],
+    "translations": [
+      "谢谢！\\n我们会把它送到你家的电脑上。",
+      "谢谢惠顾！物品发送到了\\n您家的电脑了哦！"
+    ],
+    "candidateIds": [
+      "candidate-001123",
+      "candidate-009740"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "はい　どうぞ！",
+    "qids": [
+      "rs.script.MauvilleCity_GameCorner.MauvilleCity_GameCorner_Text_181F08",
+      "rs.script.MauvilleCity_GameCorner.MauvilleCity_GameCorner_Text_181F89",
+      "rs.script.Route109_SeashoreHouse.UnknownString_819B7C5"
+    ],
+    "translations": [
+      "请收下！",
+      "给你！"
+    ],
+    "candidateIds": [
+      "candidate-001127",
+      "candidate-001130",
+      "candidate-002202"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "おお！　せいかい　じゃ！\\cつぎは　みぎてと　ひだりて\\nどちらに　コインが　はいっておるか\\rちょっかんで　えらんで　みなさい",
+    "qids": [
+      "rs.script.FortreeCity_House2.FortreeCity_House2_Text_1863F6",
+      "rs.script.FortreeCity_House2.FortreeCity_House2_Text_186455"
+    ],
+    "translations": [
+      "啊！很好，答对了！\\p我们再试一次。\\p我把硬币藏在了哪只手里？\\n是右手还是左手？",
+      "啊！很好，又答对了！\\p我们再试一次。\\p我把硬币藏在了哪只手里？\\n是右手还是左手？选一个吧！"
+    ],
+    "candidateIds": [
+      "candidate-001290",
+      "candidate-001291"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "またの　さんかを　おまち　してます！",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188559",
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_1887F4"
+    ],
+    "translations": [
+      "我们希望你\\n能再次参与。",
+      "我们希望你\\n下次再来参加。"
+    ],
+    "candidateIds": [
+      "candidate-001369",
+      "candidate-001380"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "どの　コンテストに　さんか　しますか？",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_1886DC",
+      "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A6623"
+    ],
+    "translations": [
+      "你想参加哪个类别的华丽大赛？",
+      "你想参加哪种华丽大赛？"
+    ],
+    "candidateIds": [
+      "candidate-001373",
+      "candidate-002633"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "おたがいの　せんたくが　ちがっているようです",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_18878D",
+      "rs.script.cable_club.OldaleTown_PokemonCenter_2F_Text_1A4B1D"
+    ],
+    "translations": [
+      "你可能做出了与其他玩家\\n不同的选择。",
+      "和你连接的伙伴\\n似乎做出了不同的选择。"
+    ],
+    "candidateIds": [
+      "candidate-001378",
+      "candidate-002600"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "しょうしょう　おまち　ください\\n‥‥Ｂボタンで　キャンセル",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_1887C7",
+      "rs.script.cable_club.gUnknown_081A490C"
+    ],
+    "translations": [
+      "请稍候。\\n按B键取消...",
+      "请稍候。\\n... ... B键：取消"
+    ],
+    "candidateIds": [
+      "candidate-001379",
+      "candidate-002592"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "[PLAYER]は　リボンを　もらった！",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188C03",
+      "rs.script.contest_hall.LinkContestRoom1_Text_1A6D96"
+    ],
+    "translations": [
+      "[玩家]获得了奖章。",
+      "[玩家]获得了一枚奖章。"
+    ],
+    "candidateIds": [
+      "candidate-001391",
+      "candidate-002655"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "[PLAYER]は　リボンを\\n[STR_VAR_1]に　つけて　あげた！",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188C19",
+      "rs.script.contest_hall.LinkContestRoom1_Text_1A6DAC"
+    ],
+    "translations": [
+      "[玩家]将奖章挂在了\\n[buffer1]身上。",
+      "[玩家]将奖章挂在了\\n[buffer1]的身上。"
+    ],
+    "candidateIds": [
+      "candidate-001392",
+      "candidate-002656"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "まいりました‥‥！",
+    "qids": [
+      "rs.script.MossdeepCity_Gym.MossdeepCity_Gym_Text_18CD66",
+      "rs.script.trainers.Route125_Text_1C1002"
+    ],
+    "translations": [
+      "我投降！",
+      "我认输了！"
+    ],
+    "candidateIds": [
+      "candidate-001561",
+      "candidate-003842"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ありゃ？\\nきみ　もちもの　いっぱいだね",
+    "qids": [
+      "rs.script.SootopolisCity_House8.SootopolisCity_House8_Text_1902C4",
+      "rs.script.SootopolisCity_House8.SootopolisCity_House8_Text_1905C1",
+      "rs.script.barboach.UnknownString_81C4340"
+    ],
+    "translations": [
+      "嗯？\\n你的包包已经塞得满满的了。",
+      "哎呀，看来你的包包\\n已经满了。"
+    ],
+    "candidateIds": [
+      "candidate-001700",
+      "candidate-001707",
+      "candidate-004050"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ベッドが　ある‥‥\\nやすんでいこう",
+    "qids": [
+      "rs.script.SSTidalRooms.SSTidalRooms_Text_19956B",
+      "rs.script.Route119_WeatherInstitute_1F.Route119_WeatherInstitute_1F_Text_19EE8B"
+    ],
+    "translations": [
+      "是一张床。\\n休息一下吧。",
+      "这儿有张床...\\n休息一下吧。"
+    ],
+    "candidateIds": [
+      "candidate-002091",
+      "candidate-002383"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "きょうは　きてくれて\\nほんとうに　ありがとう！\\cはつばいを　たのしみに　まっていてね！",
+    "qids": [
+      "rs.script.Route104_Prototype.Route104_Prototype_Text_19B267",
+      "rs.script.Route104_Prototype.Route104_Prototype_Text_19B2E9"
+    ],
+    "translations": [
+      "谢谢今天能来！\\p希望你们期待这款游戏的发布！",
+      "谢谢你们今天能来！\\p希望你们期待这款游戏的发布！"
+    ],
+    "candidateIds": [
+      "candidate-002187",
+      "candidate-002189"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "なにを　しますか？",
+    "qids": [
+      "rs.script.secret_base.SecretBase_Text_WhatWouldYouLikeToDo",
+      "rs.common.strings.gOtherText_WhatWillYouDo",
+      "rs.common.strings.PCText_WhatDoYouWant"
+    ],
+    "translations": [
+      "你想要做什么呢？",
+      "你想要做些什么呢？",
+      "你想要做什么？"
+    ],
+    "candidateIds": [
+      "candidate-002575",
+      "candidate-009660",
+      "candidate-010171"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "そう‥‥\\nわし　ざんねん‥‥",
+    "qids": [
+      "rs.script.trader.gTextTrader_FeelUnwanted1",
+      "rs.script.storyteller.gTextStoryteller_OhIFeelStifled",
+      "rs.script.bard.gTextBard_OhYouveLeftMe",
+      "rs.script.bard.gTextBard_OhYouveLeftMe2"
+    ],
+    "translations": [
+      "哦...\\n我感到不被需要...",
+      "哦...\\n我可真是憋得慌...",
+      "哦...\\n你让我感到忧郁..."
+    ],
+    "candidateIds": [
+      "candidate-002838",
+      "candidate-002852",
+      "candidate-002974",
+      "candidate-002977"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "まいりましたーっ！",
+    "qids": [
+      "rs.script.trainers.Route106_Text_1B917F",
+      "rs.script.trainers.Route119_Text_1BE88D"
+    ],
+    "translations": [
+      "我认输！",
+      "我投降！"
+    ],
+    "candidateIds": [
+      "candidate-003303",
+      "candidate-003684"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "それでは　また　おこし　ください",
+    "qids": [
+      "rs.script.lottery_corner.LilycoveCity_DepartmentStore_1F_Text_1C4C85",
+      "rs.script.lottery_corner.LilycoveCity_DepartmentStore_1F_Text_1C501C"
+    ],
+    "translations": [
+      "请务必再次光临。",
+      "请再次光临。"
+    ],
+    "candidateIds": [
+      "candidate-004082",
+      "candidate-004095"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "マコト",
+    "qids": [
+      "rs.common.trainers.gTrainers.77",
+      "rs.common.trainers.gTrainers.475",
+      "rs.common.trainers.gTrainers.649"
+    ],
+    "translations": [
+      "诚",
+      "妮娜",
+      "真琴"
+    ],
+    "candidateIds": [
+      "candidate-004313",
+      "candidate-004702",
+      "candidate-004870"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "マサシ",
+    "qids": [
+      "rs.common.trainers.gTrainers.144",
+      "rs.common.trainers.gTrainers.693"
+    ],
+    "translations": [
+      "崔斯",
+      "正志"
+    ],
+    "candidateIds": [
+      "candidate-004378",
+      "candidate-004914"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ヒロミ",
+    "qids": [
+      "rs.common.trainers.gTrainers.152",
+      "rs.common.strings.SecretBaseText_Tristan"
+    ],
+    "translations": [
+      "弘道",
+      "崔斯坦"
+    ],
+    "candidateIds": [
+      "candidate-004386",
+      "candidate-009895"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "シノブ",
+    "qids": [
+      "rs.common.trainers.gTrainers.161",
+      "rs.common.trainers.gTrainers.425"
+    ],
+    "translations": [
+      "信夫",
+      "小忍"
+    ],
+    "candidateIds": [
+      "candidate-004395",
+      "candidate-004652"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "テルオ",
+    "qids": [
+      "rs.common.trainers.gTrainers.202",
+      "rs.common.trainers.gTrainers.654"
+    ],
+    "translations": [
+      "菲林",
+      "辉夫"
+    ],
+    "candidateIds": [
+      "candidate-004435",
+      "candidate-004875"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ノブヒコ",
+    "qids": [
+      "rs.common.trainers.gTrainers.206",
+      "rs.common.trainers.gTrainers.207",
+      "rs.common.trainers.gTrainers.208",
+      "rs.common.trainers.gTrainers.209",
+      "rs.common.trainers.gTrainers.210",
+      "rs.common.trainers.gTrainers.510"
+    ],
+    "translations": [
+      "信彦",
+      "达蒙"
+    ],
+    "candidateIds": [
+      "candidate-004439",
+      "candidate-004440",
+      "candidate-004441",
+      "candidate-004442",
+      "candidate-004443",
+      "candidate-004734"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ヒロト",
+    "qids": [
+      "rs.common.trainers.gTrainers.323",
+      "rs.common.trainers.gTrainers.403"
+    ],
+    "translations": [
+      "弘人",
+      "坦纳"
+    ],
+    "candidateIds": [
+      "candidate-004556",
+      "candidate-004630"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ミキコ",
+    "qids": [
+      "rs.common.trainers.gTrainers.459",
+      "rs.common.trainers.gTrainers.655"
+    ],
+    "translations": [
+      "艾琳",
+      "美季子"
+    ],
+    "candidateIds": [
+      "candidate-004686",
+      "candidate-004876"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "タクロウ",
+    "qids": [
+      "rs.common.trainers.gTrainers.506",
+      "rs.common.trainers.gTrainers.648"
+    ],
+    "translations": [
+      "格拉德",
+      "卓郎"
+    ],
+    "candidateIds": [
+      "candidate-004730",
+      "candidate-004869"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "タダヒロ",
+    "qids": [
+      "rs.common.trainers.gTrainers.539",
+      "rs.common.trainers.gTrainers.653"
+    ],
+    "translations": [
+      "瑞雷",
+      "忠弘"
+    ],
+    "candidateIds": [
+      "candidate-004763",
+      "candidate-004874"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "イクオ",
+    "qids": [
+      "rs.common.trainers.gTrainers.540",
+      "rs.common.trainers.gTrainers.674"
+    ],
+    "translations": [
+      "艾丹",
+      "郁夫"
+    ],
+    "candidateIds": [
+      "candidate-004764",
+      "candidate-004895"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "トモミ",
+    "qids": [
+      "rs.common.trainers.gTrainers.547",
+      "rs.common.trainers.gTrainers.650"
+    ],
+    "translations": [
+      "达妮勒",
+      "知美"
+    ],
+    "candidateIds": [
+      "candidate-004771",
+      "candidate-004871"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ゴースト",
+    "qids": [
+      "rs.common.species_names.gSpeciesNames.93",
+      "rs.common.type_names.gTypeNames.7",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.31"
+    ],
+    "translations": [
+      "鬼斯通",
+      "幽灵"
+    ],
+    "candidateIds": [
+      "candidate-005007",
+      "candidate-005678",
+      "candidate-008103"
+    ],
+    "status": "context_required"
+  },
+  {
+    "game": "ruby",
+    "japanese": "とっしん",
+    "qids": [
+      "rs.common.move_names.gMoveNames.36",
+      "rs.common.pokedex_entries.gPokedexEntries.264"
+    ],
+    "translations": [
+      "猛撞",
+      "猛冲"
+    ],
+    "candidateIds": [
+      "candidate-005339",
+      "candidate-006509"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "なきごえ",
+    "qids": [
+      "rs.common.move_names.gMoveNames.45",
+      "rs.common.strings.gDexText_CryOf.0"
+    ],
+    "translations": [
+      "叫声",
+      "[擦除到02]叫声"
+    ],
+    "candidateIds": [
+      "candidate-005348",
+      "candidate-009576"
+    ],
+    "status": "resolved_offline"
+  },
+  {
+    "game": "ruby",
+    "japanese": "かみなり",
+    "qids": [
+      "rs.common.move_names.gMoveNames.87",
+      "rs.common.pokedex_entries.gPokedexEntries.135"
+    ],
+    "translations": [
+      "打雷",
+      "雷"
+    ],
+    "candidateIds": [
+      "candidate-005395",
+      "candidate-006380"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "どくガス",
+    "qids": [
+      "rs.common.move_names.gMoveNames.139",
+      "rs.common.pokedex_entries.gPokedexEntries.109",
+      "rs.common.pokedex_entries.gPokedexEntries.110"
+    ],
+    "translations": [
+      "毒瓦斯",
+      "毒气"
+    ],
+    "candidateIds": [
+      "candidate-005449",
+      "candidate-006354",
+      "candidate-006355"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ノーマル",
+    "qids": [
+      "rs.common.type_names.gTypeNames.0",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.69",
+      "rs.common.easy_chat_group_events.gEasyChatGroupWords_Events.10",
+      "rs.common.strings.OtherText_Normal"
+    ],
+    "translations": [
+      "一般",
+      "普通",
+      "进化"
+    ],
+    "candidateIds": [
+      "candidate-005671",
+      "candidate-008122",
+      "candidate-008123",
+      "candidate-008188",
+      "candidate-010071"
+    ],
+    "status": "context_required"
+  },
+  {
+    "game": "ruby",
+    "japanese": "どく",
+    "qids": [
+      "rs.common.type_names.gTypeNames.3",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.60",
+      "rs.common.battle_strings.BattleText_PoisonStatus",
+      "rs.common.strings.OtherText_Poison"
+    ],
+    "translations": [
+      "毒",
+      "中毒"
+    ],
+    "candidateIds": [
+      "candidate-005674",
+      "candidate-008113",
+      "candidate-009298",
+      "candidate-009976"
+    ],
+    "status": "context_required"
+  },
+  {
+    "game": "ruby",
+    "japanese": "でんき",
+    "qids": [
+      "rs.common.type_names.gTypeNames.13",
+      "rs.common.pokedex_entries.gPokedexEntries.239",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.57"
+    ],
+    "translations": [
+      "电",
+      "电气",
+      "电击"
+    ],
+    "candidateIds": [
+      "candidate-005683",
+      "candidate-006484",
+      "candidate-008110",
+      "candidate-008111",
+      "candidate-008112"
+    ],
+    "status": "resolved_offline"
+  },
+  {
+    "game": "ruby",
+    "japanese": "エスパー",
+    "qids": [
+      "rs.common.type_names.gTypeNames.14",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.14"
+    ],
+    "translations": [
+      "超能力",
+      "超能力者"
+    ],
+    "candidateIds": [
+      "candidate-005684",
+      "candidate-008092"
+    ],
+    "status": "resolved_offline"
+  },
+  {
+    "game": "ruby",
+    "japanese": "こおり",
+    "qids": [
+      "rs.common.type_names.gTypeNames.15",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.32",
+      "rs.common.battle_strings.BattleText_IceStatus",
+      "rs.common.strings.OtherText_Frozen"
+    ],
+    "translations": [
+      "冰",
+      "冰冻"
+    ],
+    "candidateIds": [
+      "candidate-005685",
+      "candidate-008104",
+      "candidate-009301",
+      "candidate-009980"
+    ],
+    "status": "context_required"
+  },
+  {
+    "game": "ruby",
+    "japanese": "あく",
+    "qids": [
+      "rs.common.type_names.gTypeNames.17",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.0"
+    ],
+    "translations": [
+      "恶",
+      "阴暗"
+    ],
+    "candidateIds": [
+      "candidate-005687",
+      "candidate-008081",
+      "candidate-008082",
+      "candidate-008083"
+    ],
+    "status": "resolved_offline"
+  },
+  {
+    "game": "ruby",
+    "japanese": "てんきの　えいきょうが　なくなる",
+    "qids": [
+      "rs.common.ability_descriptions.gAbilityDescription_CloudNine",
+      "rs.common.ability_descriptions.gAbilityDescription_AirLock"
+    ],
+    "translations": [
+      "去除所有天气的影响。",
+      "所有天气的影响都会消失。"
+    ],
+    "candidateIds": [
+      "candidate-005701",
+      "candidate-005765"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "あいてを　にげられなくする",
+    "qids": [
+      "rs.common.ability_descriptions.gAbilityDescription_ShadowTag",
+      "rs.common.ability_descriptions.gAbilityDescription_ArenaTrap"
+    ],
+    "translations": [
+      "让对手无法逃走或替换。",
+      "让对手无法逃走。"
+    ],
+    "candidateIds": [
+      "candidate-005711",
+      "candidate-005759"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "あいてに　のうりょくを　さげられない",
+    "qids": [
+      "rs.common.ability_descriptions.gAbilityDescription_ClearBody",
+      "rs.common.ability_descriptions.gAbilityDescription_WhiteSmoke"
+    ],
+    "translations": [
+      "使得能力不会降低。",
+      "白色烟雾防止能力被降低。"
+    ],
+    "candidateIds": [
+      "candidate-005717",
+      "candidate-005761"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "はっこう",
+    "qids": [
+      "rs.common.ability_names.gAbilityNames.35",
+      "rs.common.pokedex_entries.gPokedexEntries.213"
+    ],
+    "translations": [
+      "发光",
+      "发酵"
+    ],
+    "candidateIds": [
+      "candidate-005802",
+      "candidate-006458"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ありじごく",
+    "qids": [
+      "rs.common.ability_names.gAbilityNames.71",
+      "rs.common.pokedex_entries.gPokedexEntries.328"
+    ],
+    "translations": [
+      "沙穴",
+      "蚁狮"
+    ],
+    "candidateIds": [
+      "candidate-005838",
+      "candidate-006573"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "おとこのこ",
+    "qids": [
+      "rs.common.berry_blender.sBlenderOpponentName2",
+      "rs.common.easy_chat_group_people.gEasyChatGroupWords_People.12"
+    ],
+    "translations": [
+      "女士",
+      "男生"
+    ],
+    "candidateIds": [
+      "candidate-005852",
+      "candidate-008142",
+      "candidate-008143"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "おんなのこ",
+    "qids": [
+      "rs.common.berry_blender.sBlenderOpponentName3",
+      "rs.common.easy_chat_group_people.gEasyChatGroupWords_People.21"
+    ],
+    "translations": [
+      "小姐",
+      "女生"
+    ],
+    "candidateIds": [
+      "candidate-005853",
+      "candidate-008145",
+      "candidate-008146"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ボール",
+    "qids": [
+      "rs.common.pokedex_entries.gPokedexEntries.100",
+      "rs.common.pokedex_entries.gPokedexEntries.101",
+      "rs.common.easy_chat_group_hobbies.gEasyChatGroupWords_Hobbies.45",
+      "rs.common.strings.OtherText_Balls"
+    ],
+    "translations": [
+      "球",
+      "精灵球"
+    ],
+    "candidateIds": [
+      "candidate-006345",
+      "candidate-006346",
+      "candidate-008173",
+      "candidate-008174",
+      "candidate-010082"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "でんげき",
+    "qids": [
+      "rs.common.pokedex_entries.gPokedexEntries.125",
+      "rs.common.pokedex_entries.gPokedexEntries.145"
+    ],
+    "translations": [
+      "电气",
+      "电击"
+    ],
+    "candidateIds": [
+      "candidate-006370",
+      "candidate-006390"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "みずたま",
+    "qids": [
+      "rs.common.pokedex_entries.gPokedexEntries.298",
+      "rs.common.strings.PCText_Polka"
+    ],
+    "translations": [
+      "水珠",
+      "圆点花纹"
+    ],
+    "candidateIds": [
+      "candidate-006543",
+      "candidate-010167"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ぬいぐるみ",
+    "qids": [
+      "rs.common.pokedex_entries.gPokedexEntries.354",
+      "rs.common.strings.SecretBaseText_Doll"
+    ],
+    "translations": [
+      "布偶",
+      "玩偶"
+    ],
+    "candidateIds": [
+      "candidate-006599",
+      "candidate-009874"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "いわやま",
+    "qids": [
+      "rs.common.pokedex_entries.gPokedexEntries.377",
+      "rs.common.strings.PCText_Crag"
+    ],
+    "translations": [
+      "岩山",
+      "峭壁"
+    ],
+    "candidateIds": [
+      "candidate-006622",
+      "candidate-010159"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "するどいツメを　つかい\\nてきを　ひっかいて　こうげき",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Scratch",
+      "rs.common.move_descriptions.MoveDescription_DragonClaw"
+    ],
+    "translations": [
+      "用坚硬且无比锋利的爪子\\n抓对手。",
+      "用尖锐的巨爪劈开对手。"
+    ],
+    "candidateIds": [
+      "candidate-006641",
+      "candidate-006968"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "２ー３ターンのあいだ　あばれつづける\\nあばれたあとは　こんらんしてしまう",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Thrash",
+      "rs.common.move_descriptions.MoveDescription_PetalDance",
+      "rs.common.move_descriptions.MoveDescription_Outrage"
+    ],
+    "translations": [
+      "在2-3回合内大闹一番，\\n然后自己陷入混乱。",
+      "在2-3回合内散落花瓣攻击，\\n然后自己陷入混乱。",
+      "在2-3回合内乱打一气，\\n然后自己陷入混乱。"
+    ],
+    "candidateIds": [
+      "candidate-006668",
+      "candidate-006711",
+      "candidate-006831"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "いのちをかけて　てきに　たいあたり\\nじぶんもすこし　ダメージをうける",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_DoubleEdge",
+      "rs.common.move_descriptions.MoveDescription_VoltTackle"
+    ],
+    "translations": [
+      "拼命地猛撞向对手。\\n自己也会受到不少伤害。",
+      "自身会受到不小的伤害。\\n有时会让对手麻痹。"
+    ],
+    "candidateIds": [
+      "candidate-006669",
+      "candidate-006975"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "するどいハリを　てきに　はっしゃして\\n２ー５かい　れんぞくで　こうげき",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_PinMissile",
+      "rs.common.move_descriptions.MoveDescription_SpikeCannon"
+    ],
+    "translations": [
+      "向对手发射锐针。\\n连续攻击2-5次。",
+      "向对手连续发射锐针。\\n连续攻击2-5次。"
+    ],
+    "candidateIds": [
+      "candidate-006673",
+      "candidate-006762"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ふしぎな　ひかりを　はっしゃする\\nてきを　こんらんさせることがある",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Psybeam",
+      "rs.common.move_descriptions.MoveDescription_SignalBeam"
+    ],
+    "translations": [
+      "向对手发射神奇的光线。\\n有时会使对手混乱。",
+      "发射神奇的光线。\\n有时会使对手混乱。"
+    ],
+    "candidateIds": [
+      "candidate-006691",
+      "candidate-006955"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ダメージは　おおきいが　つかうと\\nつぎのターン　うごけなくなってしまう",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_HyperBeam",
+      "rs.common.move_descriptions.MoveDescription_BlastBurn",
+      "rs.common.move_descriptions.MoveDescription_HydroCannon",
+      "rs.common.move_descriptions.MoveDescription_FrenzyPlant"
+    ],
+    "translations": [
+      "向对手发射强烈的光线。\\n下一回合自己将无法动弹。",
+      "用爆炸的火焰烧净对手。\\n下一回合自己将无法动弹。",
+      "向对手喷射水炮。\\n下一回合自己将无法动弹。",
+      "用大树摔打对手。\\n下一回合自己将无法动弹。"
+    ],
+    "candidateIds": [
+      "candidate-006694",
+      "candidate-006938",
+      "candidate-006939",
+      "candidate-006969"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "てきに　あたえた　ダメージの\\nはんぶん　たいりょくを　かいふくする",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Absorb",
+      "rs.common.move_descriptions.MoveDescription_MegaDrain",
+      "rs.common.move_descriptions.MoveDescription_LeechLife",
+      "rs.common.move_descriptions.MoveDescription_GigaDrain"
+    ],
+    "translations": [
+      "吸取对手的养分。可以回复\\n给予对手伤害的一半HP。",
+      "大量吸取对手的养分。回复\\n给予对手伤害的一半HP。",
+      "吸取血液攻击对手。\\n回复给予对手伤害一半HP。",
+      "剧烈吸取对手的养分。\\n回复给予对手伤害一半HP。"
+    ],
+    "candidateIds": [
+      "candidate-006702",
+      "candidate-006703",
+      "candidate-006772",
+      "candidate-006833"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "キズついた　からだを　たいりょくの\\nはんぶんだけ　かいふくする",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Recover",
+      "rs.common.move_descriptions.MoveDescription_SoftBoiled",
+      "rs.common.move_descriptions.MoveDescription_MilkDrink"
+    ],
+    "translations": [
+      "回复自己最大HP的一半。",
+      "生蛋来回复自己\\n最大HP的一半。"
+    ],
+    "candidateIds": [
+      "candidate-006736",
+      "candidate-006766",
+      "candidate-006839"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "てきに　だいダメージを　あたえるが\\nつかうと　せんとうふのうに　なる",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_SelfDestruct",
+      "rs.common.move_descriptions.MoveDescription_Explosion"
+    ],
+    "translations": [
+      "引发爆炸，攻击所有的\\n宝可梦。使用后陷入昏厥。",
+      "引发大爆炸攻击场上所有\\n宝可梦。用后会陷入昏厥。"
+    ],
+    "candidateIds": [
+      "candidate-006751",
+      "candidate-006784"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ヘドロを　なげつけて　こうげき\\nてきに　どくをあたえることがある",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Sludge",
+      "rs.common.move_descriptions.MoveDescription_SludgeBomb"
+    ],
+    "translations": [
+      "用污泥投掷对手。\\n有时会让对手中毒。",
+      "用污泥炸弹投掷对手。\\n有时会让对手中毒。"
+    ],
+    "candidateIds": [
+      "candidate-006755",
+      "candidate-006819"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "じぶんの　たいりょくが　すくないほど\\nてきに　おおきなダメージを　あたえる",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Flail",
+      "rs.common.move_descriptions.MoveDescription_Reversal"
+    ],
+    "translations": [
+      "抓狂般乱打进行攻击。\\n自己的HP越少，威力越大。",
+      "竭尽全力进行攻击。\\n自己的HP越少，威力越大。"
+    ],
+    "candidateIds": [
+      "candidate-006806",
+      "candidate-006810"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "５ターンのあいだ　てきを　こうげき\\nあてるたびに　ダメージが　あがる",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Rollout",
+      "rs.common.move_descriptions.MoveDescription_IceBall"
+    ],
+    "translations": [
+      "连续滚动5回合。\\n连续击中，威力就会提高。",
+      "在5回合内攻击对手。\\n每击中一次，威力越大。"
+    ],
+    "candidateIds": [
+      "candidate-006836",
+      "candidate-006932"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "２ー５ターンのあいだ　てきを\\nうずの　ちゅうしんに　とじこめる",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Whirlpool",
+      "rs.common.move_descriptions.MoveDescription_SandTomb"
+    ],
+    "translations": [
+      "将对手困在激烈的旋涡中\\n2-5回合，并造成伤害。",
+      "将对手困在沙暴中\\n2-5回合并造成持续伤害。"
+    ],
+    "candidateIds": [
+      "candidate-006881",
+      "candidate-006959"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "じぶんの　たいりょくが　おおいほど\\nおおきな　ダメージを　あたえる",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Eruption",
+      "rs.common.move_descriptions.MoveDescription_WaterSpout"
+    ],
+    "translations": [
+      "爆发怒火攻击对手。\\n自己的HP越少，威力越小。",
+      "掀起潮水进行攻击。\\n自己的HP越多，威力越大。"
+    ],
+    "candidateIds": [
+      "candidate-006915",
+      "candidate-006954"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "おとなしい",
+    "qids": [
+      "rs.common.nature_names.NatureName_Gentle",
+      "rs.common.easy_chat_group_conditions.gEasyChatGroupWords_Conditions.22"
+    ],
+    "translations": [
+      "温顺",
+      "坦率"
+    ],
+    "candidateIds": [
+      "candidate-007007",
+      "candidate-008155"
+    ],
+    "status": "resolved_offline"
+  },
+  {
+    "game": "ruby",
+    "japanese": "[STR_VAR_1]の　アピールは\\nうまく　みせられなかった！[PAUSE 60]",
+    "qids": [
+      "rs.common.contest.ContestString_AppealNotWell2",
+      "rs.common.contest.ContestString_AppealNotShownWell"
+    ],
+    "translations": [
+      "[buffer1]的表演\\n完成得不佳。 [延时3C]",
+      "[buffer1]的表演\\n并非特别理想。[延时3C]"
+    ],
+    "candidateIds": [
+      "candidate-007835",
+      "candidate-007836"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "うつくしさ",
+    "qids": [
+      "rs.common.contest.ContestString_Beauty2",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.12",
+      "rs.common.strings.OtherText_Beauty3",
+      "rs.common.strings.OtherText_Beauty"
+    ],
+    "translations": [
+      "美丽",
+      "大姐姐"
+    ],
+    "candidateIds": [
+      "candidate-007891",
+      "candidate-008088",
+      "candidate-008089",
+      "candidate-008090",
+      "candidate-008091",
+      "candidate-010067",
+      "candidate-010266"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ちからが　やどるという　うわさが　ある。",
+    "qids": [
+      "rs.common.berry.sBerryDescriptionPart2_Liechi",
+      "rs.common.berry.sBerryDescriptionPart2_Ganlon",
+      "rs.common.berry.sBerryDescriptionPart2_Salac"
+    ],
+    "translations": [
+      "传言说，它蕴藏着大海的力量。",
+      "传言说，它蕴藏着大地的力量。",
+      "传言说，它蕴藏着天空的力量。"
+    ],
+    "candidateIds": [
+      "candidate-008004",
+      "candidate-008006",
+      "candidate-008008"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ポケモンずかん",
+    "qids": [
+      "rs.common.easy_chat_group_trainer.gEasyChatGroupWords_Trainer.16",
+      "rs.common.strings.gMainMenuString_Pokedex",
+      "rs.common.strings2.gOtherText_Pokedex"
+    ],
+    "translations": [
+      "图鉴数",
+      "图鉴"
+    ],
+    "candidateIds": [
+      "candidate-008077",
+      "candidate-008078",
+      "candidate-008079",
+      "candidate-009568",
+      "candidate-010407"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "なまえ",
+    "qids": [
+      "rs.common.easy_chat_group_lifestyle.gEasyChatGroupWords_Lifestyle.30",
+      "rs.common.strings.gOtherText_Name"
+    ],
+    "translations": [
+      "名称",
+      "名称 /"
+    ],
+    "candidateIds": [
+      "candidate-008169",
+      "candidate-009628"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "じかん",
+    "qids": [
+      "rs.common.easy_chat_group_time.gEasyChatGroupWords_Time.19",
+      "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Time",
+      "rs.common.strings2.gOtherText_RequiredTime"
+    ],
+    "translations": [
+      "时间",
+      "所用时间"
+    ],
+    "candidateIds": [
+      "candidate-008177",
+      "candidate-008178",
+      "candidate-010383",
+      "candidate-010533"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "きのみ",
+    "qids": [
+      "rs.common.easy_chat_group_events.gEasyChatGroupWords_Events.3",
+      "rs.common.strings.OtherText_Berries"
+    ],
+    "translations": [
+      "果",
+      "",
+      "树果"
+    ],
+    "candidateIds": [
+      "candidate-008182",
+      "candidate-008183",
+      "candidate-008184",
+      "candidate-010084"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "かっこよさコンテスト",
+    "qids": [
+      "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_CoolContest",
+      "rs.common.strings.OtherText_CoolContest"
+    ],
+    "translations": [
+      "在帅气大赛中",
+      "帅气大赛"
+    ],
+    "candidateIds": [
+      "candidate-008204",
+      "candidate-009964"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "うつくしさコンテスト",
+    "qids": [
+      "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_BeautyContest",
+      "rs.common.strings.OtherText_BeautyContest"
+    ],
+    "translations": [
+      "在美丽大赛中",
+      "美丽大赛"
+    ],
+    "candidateIds": [
+      "candidate-008205",
+      "candidate-009965"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "かわいさコンテスト",
+    "qids": [
+      "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_CuteContest",
+      "rs.common.strings.OtherText_CuteContest"
+    ],
+    "translations": [
+      "在可爱大赛中",
+      "可爱大赛"
+    ],
+    "candidateIds": [
+      "candidate-008206",
+      "candidate-009966"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "かしこさコンテスト",
+    "qids": [
+      "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_SmartContest",
+      "rs.common.strings.OtherText_SmartContest"
+    ],
+    "translations": [
+      "在聪明大赛中",
+      "聪明大赛"
+    ],
+    "candidateIds": [
+      "candidate-008207",
+      "candidate-009967"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "たくましさコンテスト",
+    "qids": [
+      "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_ToughContest",
+      "rs.common.strings.OtherText_ToughContest"
+    ],
+    "translations": [
+      "在强壮大赛中",
+      "强壮大赛"
+    ],
+    "candidateIds": [
+      "candidate-008208",
+      "candidate-009968"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "たたみかける　ような　こうげき",
+    "qids": [
+      "rs.common.trainer_eye_descriptions.TrainerEyeDescription_BugManiac_Brandon.0",
+      "rs.common.trainer_eye_descriptions.TrainerEyeDescription_PkmnRanger_Jackson.0"
+    ],
+    "translations": [
+      "轮番攻击！",
+      "轮番攻击。"
+    ],
+    "candidateIds": [
+      "candidate-008339",
+      "candidate-008467"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "いろんな　タイプで　しょうぶ",
+    "qids": [
+      "rs.common.trainer_eye_descriptions.TrainerEyeDescription_Youngster_Calvin.1",
+      "rs.common.trainer_eye_descriptions.TrainerEyeDescription_PkmnRanger_Jackson.1"
+    ],
+    "translations": [
+      "我用不同的属性。",
+      "不同的属性。"
+    ],
+    "candidateIds": [
+      "candidate-008384",
+      "candidate-008468"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "[PAUSE 32]１　[PAUSE 15]２の　[PAUSE 15]‥[PAUSE 15]‥[PAUSE 15]‥　[PAUSE 15][PLAY_SE SE_BALL_BOUNCE_1]ポカン！\\c",
+    "qids": [
+      "rs.common.battle_strings.BattleText_MoveForget123",
+      "rs.common.strings2.gOtherText_ForgotMove123"
+    ],
+    "translations": [
+      "[延时20]1，[延时0F]2...[延时0F] ...[延时0F] ...[延时0F]\\n[延时0F][提示音38]砰！\\p",
+      "[延时20]1，[延时0F]2 [延时0F]...[延时0F]...[延时0F]...[延时0F] [提示音38]砰！\\p"
+    ],
+    "candidateIds": [
+      "candidate-009122",
+      "candidate-010459"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "プレイじかん",
+    "qids": [
+      "rs.common.strings.gMainMenuString_Time",
+      "rs.common.strings2.gOtherText_PlayTime"
+    ],
+    "translations": [
+      "时间",
+      "游玩时间"
+    ],
+    "candidateIds": [
+      "candidate-009569",
+      "candidate-010408"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "Ｌｖ",
+    "qids": [
+      "rs.common.strings.gOtherText_Level3",
+      "rs.common.strings.gOtherText_Lv",
+      "rs.common.strings2.gOtherText_ControlAndMiscText.2"
+    ],
+    "translations": [
+      "Lv.",
+      "Lv"
+    ],
+    "candidateIds": [
+      "candidate-009626",
+      "candidate-009658",
+      "candidate-010366"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "けってい",
+    "qids": [
+      "rs.common.strings.OtherText_Confirm",
+      "rs.common.strings2.gOtherText_OK"
+    ],
+    "translations": [
+      "确认",
+      "好"
+    ],
+    "candidateIds": [
+      "candidate-009640",
+      "candidate-010542"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "[STR_VAR_1]は　あたらしく\\n[STR_VAR_2]を　おぼえた！",
+    "qids": [
+      "rs.common.strings.gOtherText_LearnedMove",
+      "rs.common.strings2.gOtherText_PokeLearnedMove"
+    ],
+    "translations": [
+      "[buffer1]学会了\\n[buffer2]！",
+      "[buffer1]学会了[buffer2]。"
+    ],
+    "candidateIds": [
+      "candidate-009786",
+      "candidate-010456"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "それでは‥‥　[STR_VAR_2]を\\nおぼえるのを　あきらめますか？",
+    "qids": [
+      "rs.common.strings.gOtherText_StopTryingTo",
+      "rs.common.strings2.gOtherText_StopLearningMove"
+    ],
+    "translations": [
+      "那么，要放弃学习\\n[buffer2]吗？",
+      "放弃学习[buffer2]吗？"
+    ],
+    "candidateIds": [
+      "candidate-009789",
+      "candidate-010458"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ポケモンを　えらんで　ください",
+    "qids": [
+      "rs.common.strings.OtherText_ChoosePoke",
+      "rs.common.strings2.TradeText_ChoosePoke"
+    ],
+    "translations": [
+      "请选择一只宝可梦。",
+      "请选择宝可梦。"
+    ],
+    "candidateIds": [
+      "candidate-009808",
+      "candidate-010352"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "じょうたい",
+    "qids": [
+      "rs.common.strings.gOtherText_Status",
+      "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Conditions"
+    ],
+    "translations": [
+      "状态",
+      "条件"
+    ],
+    "candidateIds": [
+      "candidate-009840",
+      "candidate-010379"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "たたかうわざ",
+    "qids": [
+      "rs.common.strings.OtherText_BattleMoves",
+      "rs.common.strings2.OtherText_Battle"
+    ],
+    "translations": [
+      "对战招式",
+      "对战"
+    ],
+    "candidateIds": [
+      "candidate-009848",
+      "candidate-010446"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "コンテストわざ",
+    "qids": [
+      "rs.common.strings.OtherText_ContestMoves",
+      "rs.common.strings2.OtherText_Contest"
+    ],
+    "translations": [
+      "华丽大赛招式",
+      "大赛"
+    ],
+    "candidateIds": [
+      "candidate-009849",
+      "candidate-010447"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "せつめいをきく",
+    "qids": [
+      "rs.common.strings.OtherText_Info3",
+      "rs.common.strings.OtherText_ObtainInformation"
+    ],
+    "translations": [
+      "信息",
+      "获取信息"
+    ],
+    "candidateIds": [
+      "candidate-009959",
+      "candidate-009992"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "レベル１００",
+    "qids": [
+      "rs.common.strings.OtherText_Lv100_2",
+      "rs.common.strings2.gOtherText_Lv100"
+    ],
+    "translations": [
+      "100级",
+      "LV 100"
+    ],
+    "candidateIds": [
+      "candidate-009994",
+      "candidate-010422"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "ジャンプ",
+    "qids": [
+      "rs.common.strings.OtherText_Jumping",
+      "rs.common.strings.PCText_Jump"
+    ],
+    "translations": [
+      "跳跃",
+      "跳转"
+    ],
+    "candidateIds": [
+      "candidate-010032",
+      "candidate-010149"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "ruby",
+    "japanese": "２つの　ことばを　くみあわせて",
+    "qids": [
+      "rs.common.strings.OtherText_CombineTwoPhrasesPage1",
+      "rs.common.strings.OtherText_HipsterPage1"
+    ],
+    "translations": [
+      "组合两条短语，",
+      "我将两条短语结合起来，"
+    ],
+    "candidateIds": [
+      "candidate-010227",
+      "candidate-010231"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "どうぐ　いっぱいで\\nスーパーボール　あげられないね",
+    "qids": [
+      "rs.script.RustboroCity.RustboroCity_Text_16704C",
+      "rs.script.PetalburgWoods.PetalburgWoods_Text_195182"
+    ],
+    "translations": [
+      "你的包包已经满了。\\n我没办法给你这个超级球。",
+      "你的包包满了。\\n我无法给你这个超级球。"
+    ],
+    "candidateIds": [
+      "candidate-010671",
+      "candidate-012459"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "みえない　なにかが　いるようだ",
+    "qids": [
+      "rs.script.FortreeCity.FortreeCity_Text_167868",
+      "rs.script.Route120.Text_SomethingUnseeable"
+    ],
+    "translations": [
+      "有个看不见的东西\\n挡住了去路。",
+      "有个看不见的东西挡住了去路。"
+    ],
+    "candidateIds": [
+      "candidate-010691",
+      "candidate-010692",
+      "candidate-011099"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ハギ『ふねに　のる　ひつようが　あるときは\\nいつでも　こえを　かけておくれ",
+    "qids": [
+      "rs.script.DewfordTown.DewfordTown_Text_16B627",
+      "rs.script.Route109.Route109_Text_16E2C5"
+    ],
+    "translations": [
+      "哈奇老人: 想再次出海的话，\\n记得来告诉我一声。",
+      "哈奇老人：什么时候想再次出海，\\n尽管过来告诉我一声！"
+    ],
+    "candidateIds": [
+      "candidate-010839",
+      "candidate-010944"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ハギ『ムロタウン　か\\cよっしゃ！　いくぞ　ピーコちゃん！",
+    "qids": [
+      "rs.script.Route109.Route109_Text_16E159",
+      "rs.script.Route104_MrBrineysHouse.Route104_MrBrineysHouse_Text_191BFD"
+    ],
+    "translations": [
+      "哈奇老人：好嘞，出发去武斗镇！\\p起锚啦！小皮，\\n咱们要出航啦，宝贝！",
+      "哈奇老人：武斗镇，我们来了！\\n准备起锚！\\p起锚啦！小皮，\\n咱们要出航啦，宝贝！"
+    ],
+    "candidateIds": [
+      "candidate-010940",
+      "candidate-012352"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "いつも　みずを　あげてたら\\nたくさん　はなが　さいたんだ\\cそしたら　きのみも　たくさん　できた！\\cはい！\\nこれ　あげる",
+    "qids": [
+      "rs.script.Route110.UnknownString_816F5D7",
+      "rs.script.berries.Route111_Text_1C56F0"
+    ],
+    "translations": [
+      "我每天都给植物浇水。\\n它们开出了很多花。\\p而且还结了很多树果。\\p给你！\\n你收下它吧！",
+      "我给植株浇了好多好多水！\\n开了好多好多花！\\l然后结了很多很多树果！\\p给你！\\n这个你可以收下！"
+    ],
+    "candidateIds": [
+      "candidate-010992",
+      "candidate-014745"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "がんばって　あかいポロック　つくるんだ！\\n[STR_VAR_1]も　がんばってね！",
+    "qids": [
+      "rs.script.Route110.UnknownString_816F657",
+      "rs.script.berries.Route111_Text_1C5781"
+    ],
+    "translations": [
+      "我正在做红色宝可方块！\\n你也来试试吧！",
+      "我会非常努力，\\n做一些红色的宝可方块！\\p希望你也加油！"
+    ],
+    "candidateIds": [
+      "candidate-010993",
+      "candidate-014746"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "[PLAYER]は　パソコンの\\nスイッチを　いれた！",
+    "qids": [
+      "rs.script.LittlerootTown_BrendansHouse_2F.UnknownString_8172F85",
+      "rs.script.event_scripts.LittlerootTown_MaysHouse_2F_Text_1A10D6"
+    ],
+    "translations": [
+      "[玩家]启动了电脑。",
+      "[玩家]开启了电脑。"
+    ],
+    "candidateIds": [
+      "candidate-011153",
+      "candidate-013094",
+      "candidate-013095",
+      "candidate-013096",
+      "candidate-013097"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "はかせは　つくえのうえで　けんきゅうを\\nするよりも　じっさいに　そとへ　とびだして\\rたいけんする　タイプのひと　なんです！",
+    "qids": [
+      "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173B29",
+      "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173C88"
+    ],
+    "translations": [
+      "嗯？小田卷博士？\\p博士外出做户外研究了。\\n所以他不在这里。\\p哦，我解释一下户外研究。\\p就是在自然环境中研究事物，\\n比如田野和山脉，\\l而不是在实验室里。\\p博士不是喜欢做案头工作的人。\\n他是那种宁愿在外身体力行，\\l也不愿在这里阅读的人。",
+      "博士不是喜欢做案头工作的人。\\n他是那种宁愿在外身体力行，\\l也不愿在这里阅读的人。"
+    ],
+    "candidateIds": [
+      "candidate-011172",
+      "candidate-011173"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ピーコちゃん『ピー　ピひょろー！",
+    "qids": [
+      "rs.script.SlateportCity_SternsShipyard_1F.UnknownString_817C6A6",
+      "rs.script.Route104_MrBrineysHouse.Route104_MrBrineysHouse_Text_191FB9"
+    ],
+    "translations": [
+      "小皮：皮皮皮哟咯！",
+      "小皮：皮皮皮！"
+    ],
+    "candidateIds": [
+      "candidate-011490",
+      "candidate-012359"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "えっ？　ふね　ですか？\\cもうしわけ　ございません　げんざい\\nれんらくせんは　ないんです‥‥",
+    "qids": [
+      "rs.script.SlateportCity_Harbor.SlateportCity_Harbor_Text_17FA0A",
+      "rs.script.LilycoveCity_Harbor.LilycoveCity_Harbor_Text_18B306"
+    ],
+    "translations": [
+      "你说什么？\\n你是在找船吗？\\p很抱歉，\\n客船服务目前不可用...",
+      "你说什么？\\n你是在找船吗？\\p很抱歉，客船服务\\n目前不可用..."
+    ],
+    "candidateIds": [
+      "candidate-011598",
+      "candidate-011599",
+      "candidate-012071",
+      "candidate-012072"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "[PLAYER]は\\nチケットを　もっていない！\\c‥‥もうしわけ　ありません！\\cふねに　のれるのは\\nチケットの　ある　かた　だけです",
+    "qids": [
+      "rs.script.SlateportCity_Harbor.SlateportCity_Harbor_Text_17FAAD",
+      "rs.script.LilycoveCity_Harbor.LilycoveCity_Harbor_Text_18B3A9",
+      "rs.script.BattleTower_Outside.BattleTower_Outside_Text_199D40"
+    ],
+    "translations": [
+      "[玩家]没有船票...\\p非常抱歉。\\p你必须持有船票才能\\n登上客船。",
+      "[玩家]没有船票...\\p非常抱歉。\\p你必须持有船票\\n才能登上客船。"
+    ],
+    "candidateIds": [
+      "candidate-011603",
+      "candidate-011604",
+      "candidate-011605",
+      "candidate-012076",
+      "candidate-012077",
+      "candidate-012078",
+      "candidate-012732"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "れんらくせんに　のって　おまちください",
+    "qids": [
+      "rs.script.SlateportCity_Harbor.SlateportCity_Harbor_Text_17FBB6",
+      "rs.script.LilycoveCity_Harbor.LilycoveCity_Harbor_Text_18B4B3",
+      "rs.script.BattleTower_Outside.BattleTower_Outside_Text_199E4B"
+    ],
+    "translations": [
+      "请登上客船，等待出发。",
+      "请登上客船\\n并等待出发。"
+    ],
+    "candidateIds": [
+      "candidate-011616",
+      "candidate-011617",
+      "candidate-011618",
+      "candidate-012089",
+      "candidate-012090",
+      "candidate-012091",
+      "candidate-012737"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "どうも　ありがとう！\\nじたくの　パソコンに　おくって　おきますね！",
+    "qids": [
+      "rs.script.MauvilleCity_GameCorner.MauvilleCity_GameCorner_Text_181E49",
+      "rs.common.strings.gOtherText_HereYouGo2"
+    ],
+    "translations": [
+      "谢谢！\\n我们会把它送到你家的电脑上。",
+      "谢谢惠顾！物品发送到了\\n您家的电脑了哦！"
+    ],
+    "candidateIds": [
+      "candidate-011702",
+      "candidate-020378"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "はい　どうぞ！",
+    "qids": [
+      "rs.script.MauvilleCity_GameCorner.MauvilleCity_GameCorner_Text_181F08",
+      "rs.script.MauvilleCity_GameCorner.MauvilleCity_GameCorner_Text_181F89",
+      "rs.script.Route109_SeashoreHouse.UnknownString_819B7C5"
+    ],
+    "translations": [
+      "请收下！",
+      "给你！",
+      "交给你了！"
+    ],
+    "candidateIds": [
+      "candidate-011707",
+      "candidate-011708",
+      "candidate-011709",
+      "candidate-011710",
+      "candidate-011713",
+      "candidate-012815"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "おお！　せいかい　じゃ！\\cつぎは　みぎてと　ひだりて\\nどちらに　コインが　はいっておるか\\rちょっかんで　えらんで　みなさい",
+    "qids": [
+      "rs.script.FortreeCity_House2.FortreeCity_House2_Text_1863F6",
+      "rs.script.FortreeCity_House2.FortreeCity_House2_Text_186455"
+    ],
+    "translations": [
+      "啊！很好，答对了！\\p我们再试一次。\\p我把硬币藏在了哪只手里？\\n是右手还是左手？",
+      "啊！很好，又答对了！\\p我们再试一次。\\p我把硬币藏在了哪只手里？\\n是右手还是左手？选一个吧！"
+    ],
+    "candidateIds": [
+      "candidate-011873",
+      "candidate-011874"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "またの　さんかを　おまち　してます！",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188559",
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_1887F4"
+    ],
+    "translations": [
+      "我们希望你\\n能再次参与。",
+      "我们希望你\\n下次再来参加。"
+    ],
+    "candidateIds": [
+      "candidate-011953",
+      "candidate-011966"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "どの　コンテストに　さんか　しますか？",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_1886DC",
+      "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A6623"
+    ],
+    "translations": [
+      "你想参加哪个类别的华丽大赛？",
+      "你想参加哪种华丽大赛？"
+    ],
+    "candidateIds": [
+      "candidate-011957",
+      "candidate-011958",
+      "candidate-013270"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "おたがいの　せんたくが　ちがっているようです",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_18878D",
+      "rs.script.cable_club.OldaleTown_PokemonCenter_2F_Text_1A4B1D"
+    ],
+    "translations": [
+      "你可能做出了与其他玩家\\n不同的选择。",
+      "和你连接的伙伴\\n似乎做出了不同的选择。"
+    ],
+    "candidateIds": [
+      "candidate-011964",
+      "candidate-013236"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "しょうしょう　おまち　ください\\n‥‥Ｂボタンで　キャンセル",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_1887C7",
+      "rs.script.cable_club.gUnknown_081A490C"
+    ],
+    "translations": [
+      "请稍候。\\n按B键取消...",
+      "请稍候。\\n... ... B键：取消"
+    ],
+    "candidateIds": [
+      "candidate-011965",
+      "candidate-013228"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "[PLAYER]は　リボンを　もらった！",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188C03",
+      "rs.script.contest_hall.LinkContestRoom1_Text_1A6D96"
+    ],
+    "translations": [
+      "[玩家]获得了奖章。",
+      "[玩家]获得了一枚奖章。"
+    ],
+    "candidateIds": [
+      "candidate-011977",
+      "candidate-011978",
+      "candidate-013292"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "[PLAYER]は　リボンを\\n[STR_VAR_1]に　つけて　あげた！",
+    "qids": [
+      "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188C19",
+      "rs.script.contest_hall.LinkContestRoom1_Text_1A6DAC"
+    ],
+    "translations": [
+      "[玩家]将奖章挂在了\\n[buffer1]身上。",
+      "[玩家]将奖章挂在了\\n[buffer1]的身上。"
+    ],
+    "candidateIds": [
+      "candidate-011979",
+      "candidate-011980",
+      "candidate-013293"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "まいりました‥‥！",
+    "qids": [
+      "rs.script.MossdeepCity_Gym.MossdeepCity_Gym_Text_18CD66",
+      "rs.script.trainers.Route125_Text_1C1002"
+    ],
+    "translations": [
+      "我投降！",
+      "我认输了！"
+    ],
+    "candidateIds": [
+      "candidate-012164",
+      "candidate-012165",
+      "candidate-014479"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ありゃ？\\nきみ　もちもの　いっぱいだね",
+    "qids": [
+      "rs.script.SootopolisCity_House8.SootopolisCity_House8_Text_1902C4",
+      "rs.script.SootopolisCity_House8.SootopolisCity_House8_Text_1905C1",
+      "rs.script.barboach.UnknownString_81C4340"
+    ],
+    "translations": [
+      "嗯？\\n你的包包已经塞得满满的了。",
+      "哎呀，看来你包包\\n已经满了。"
+    ],
+    "candidateIds": [
+      "candidate-012305",
+      "candidate-012306",
+      "candidate-012313",
+      "candidate-014687"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ベッドが　ある‥‥\\nやすんでいこう",
+    "qids": [
+      "rs.script.SSTidalRooms.SSTidalRooms_Text_19956B",
+      "rs.script.Route119_WeatherInstitute_1F.Route119_WeatherInstitute_1F_Text_19EE8B"
+    ],
+    "translations": [
+      "是一张床。\\n休息一下吧。",
+      "这儿有张床...\\n休息一下吧。"
+    ],
+    "candidateIds": [
+      "candidate-012704",
+      "candidate-013016"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "きょうは　きてくれて\\nほんとうに　ありがとう！\\cはつばいを　たのしみに　まっていてね！",
+    "qids": [
+      "rs.script.Route104_Prototype.Route104_Prototype_Text_19B267",
+      "rs.script.Route104_Prototype.Route104_Prototype_Text_19B2E9"
+    ],
+    "translations": [
+      "谢谢今天能来！\\p希望你们期待这款游戏的发布！",
+      "谢谢你们今天能来！\\p希望你们期待这款游戏的发布！"
+    ],
+    "candidateIds": [
+      "candidate-012800",
+      "candidate-012802"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "なにを　しますか？",
+    "qids": [
+      "rs.script.secret_base.SecretBase_Text_WhatWouldYouLikeToDo",
+      "rs.common.strings.gOtherText_WhatWillYouDo",
+      "rs.common.strings.PCText_WhatDoYouWant"
+    ],
+    "translations": [
+      "你想要做什么呢？",
+      "你想要做些什么呢？",
+      "你想要做什么？"
+    ],
+    "candidateIds": [
+      "candidate-013211",
+      "candidate-020298",
+      "candidate-020809"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "なし",
+    "qids": [
+      "rs.script.tv.gTVBravoTrainerBattleTowerText8",
+      "rs.script.tv.gTVBravoTrainerBattleTowerText9",
+      "rs.script.tv.gTVBravoTrainerBattleTowerText10",
+      "rs.script.tv.gTVBravoTrainerBattleTowerText11",
+      "rs.common.strings.DexText_None",
+      "rs.common.strings.gOtherText_None"
+    ],
+    "translations": [
+      "无",
+      "空"
+    ],
+    "candidateIds": [
+      "candidate-013328",
+      "candidate-013329",
+      "candidate-013330",
+      "candidate-013331",
+      "candidate-020256",
+      "candidate-020293"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "そう‥‥\\nわし　ざんねん‥‥",
+    "qids": [
+      "rs.script.trader.gTextTrader_FeelUnwanted1",
+      "rs.script.storyteller.gTextStoryteller_OhIFeelStifled",
+      "rs.script.bard.gTextBard_OhYouveLeftMe",
+      "rs.script.bard.gTextBard_OhYouveLeftMe2"
+    ],
+    "translations": [
+      "哦...\\n我感到不被需要...",
+      "哦...\\n我可真是憋得慌...",
+      "哦...\\n你让我感到忧郁..."
+    ],
+    "candidateIds": [
+      "candidate-013475",
+      "candidate-013489",
+      "candidate-013611",
+      "candidate-013614"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "まいりましたーっ！",
+    "qids": [
+      "rs.script.trainers.Route106_Text_1B917F",
+      "rs.script.trainers.Route119_Text_1BE88D"
+    ],
+    "translations": [
+      "我认输！",
+      "我投降！"
+    ],
+    "candidateIds": [
+      "candidate-013940",
+      "candidate-014321"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "それでは　また　おこし　ください",
+    "qids": [
+      "rs.script.lottery_corner.LilycoveCity_DepartmentStore_1F_Text_1C4C85",
+      "rs.script.lottery_corner.LilycoveCity_DepartmentStore_1F_Text_1C501C"
+    ],
+    "translations": [
+      "请务必再次光临。",
+      "请再次光临。"
+    ],
+    "candidateIds": [
+      "candidate-014719",
+      "candidate-014732"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "マコト",
+    "qids": [
+      "rs.common.trainers.gTrainers.77",
+      "rs.common.trainers.gTrainers.475",
+      "rs.common.trainers.gTrainers.649"
+    ],
+    "translations": [
+      "诚",
+      "妮娜",
+      "真琴"
+    ],
+    "candidateIds": [
+      "candidate-014950",
+      "candidate-015339",
+      "candidate-015507"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "マサシ",
+    "qids": [
+      "rs.common.trainers.gTrainers.144",
+      "rs.common.trainers.gTrainers.693"
+    ],
+    "translations": [
+      "崔斯",
+      "正志"
+    ],
+    "candidateIds": [
+      "candidate-015015",
+      "candidate-015551"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ヒロミ",
+    "qids": [
+      "rs.common.trainers.gTrainers.152",
+      "rs.common.strings.SecretBaseText_Tristan"
+    ],
+    "translations": [
+      "弘道",
+      "崔斯坦"
+    ],
+    "candidateIds": [
+      "candidate-015023",
+      "candidate-020533"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "シノブ",
+    "qids": [
+      "rs.common.trainers.gTrainers.161",
+      "rs.common.trainers.gTrainers.425"
+    ],
+    "translations": [
+      "信夫",
+      "小忍"
+    ],
+    "candidateIds": [
+      "candidate-015032",
+      "candidate-015289"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "テルオ",
+    "qids": [
+      "rs.common.trainers.gTrainers.202",
+      "rs.common.trainers.gTrainers.654"
+    ],
+    "translations": [
+      "菲林",
+      "辉夫"
+    ],
+    "candidateIds": [
+      "candidate-015072",
+      "candidate-015512"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ノブヒコ",
+    "qids": [
+      "rs.common.trainers.gTrainers.206",
+      "rs.common.trainers.gTrainers.207",
+      "rs.common.trainers.gTrainers.208",
+      "rs.common.trainers.gTrainers.209",
+      "rs.common.trainers.gTrainers.210",
+      "rs.common.trainers.gTrainers.510"
+    ],
+    "translations": [
+      "信彦",
+      "达蒙"
+    ],
+    "candidateIds": [
+      "candidate-015076",
+      "candidate-015077",
+      "candidate-015078",
+      "candidate-015079",
+      "candidate-015080",
+      "candidate-015371"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ヒロト",
+    "qids": [
+      "rs.common.trainers.gTrainers.323",
+      "rs.common.trainers.gTrainers.403"
+    ],
+    "translations": [
+      "弘人",
+      "tanna"
+    ],
+    "candidateIds": [
+      "candidate-015193",
+      "candidate-015267"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ミキコ",
+    "qids": [
+      "rs.common.trainers.gTrainers.459",
+      "rs.common.trainers.gTrainers.655"
+    ],
+    "translations": [
+      "艾琳",
+      "美季子"
+    ],
+    "candidateIds": [
+      "candidate-015323",
+      "candidate-015513"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "タクロウ",
+    "qids": [
+      "rs.common.trainers.gTrainers.506",
+      "rs.common.trainers.gTrainers.648"
+    ],
+    "translations": [
+      "格拉德",
+      "卓郎"
+    ],
+    "candidateIds": [
+      "candidate-015367",
+      "candidate-015506"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "タダヒロ",
+    "qids": [
+      "rs.common.trainers.gTrainers.539",
+      "rs.common.trainers.gTrainers.653"
+    ],
+    "translations": [
+      "瑞雷",
+      "忠弘"
+    ],
+    "candidateIds": [
+      "candidate-015400",
+      "candidate-015511"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "イクオ",
+    "qids": [
+      "rs.common.trainers.gTrainers.540",
+      "rs.common.trainers.gTrainers.674"
+    ],
+    "translations": [
+      "艾丹",
+      "郁夫"
+    ],
+    "candidateIds": [
+      "candidate-015401",
+      "candidate-015532"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "トモミ",
+    "qids": [
+      "rs.common.trainers.gTrainers.547",
+      "rs.common.trainers.gTrainers.650"
+    ],
+    "translations": [
+      "达妮勒",
+      "知美"
+    ],
+    "candidateIds": [
+      "candidate-015408",
+      "candidate-015508"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ゴースト",
+    "qids": [
+      "rs.common.species_names.gSpeciesNames.93",
+      "rs.common.type_names.gTypeNames.7",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.31"
+    ],
+    "translations": [
+      "鬼斯通",
+      "幽灵"
+    ],
+    "candidateIds": [
+      "candidate-015644",
+      "candidate-016315",
+      "candidate-018741"
+    ],
+    "status": "context_required"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "とっしん",
+    "qids": [
+      "rs.common.move_names.gMoveNames.36",
+      "rs.common.pokedex_entries.gPokedexEntries.264"
+    ],
+    "translations": [
+      "猛撞",
+      "猛冲"
+    ],
+    "candidateIds": [
+      "candidate-015976",
+      "candidate-017146"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "なきごえ",
+    "qids": [
+      "rs.common.move_names.gMoveNames.45",
+      "rs.common.strings.gDexText_CryOf.0"
+    ],
+    "translations": [
+      "叫声",
+      "[擦除到02]叫声"
+    ],
+    "candidateIds": [
+      "candidate-015985",
+      "candidate-020214"
+    ],
+    "status": "resolved_offline"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "かみなり",
+    "qids": [
+      "rs.common.move_names.gMoveNames.87",
+      "rs.common.pokedex_entries.gPokedexEntries.135"
+    ],
+    "translations": [
+      "打雷",
+      "闪电"
+    ],
+    "candidateIds": [
+      "candidate-016032",
+      "candidate-017017"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "どくガス",
+    "qids": [
+      "rs.common.move_names.gMoveNames.139",
+      "rs.common.pokedex_entries.gPokedexEntries.109",
+      "rs.common.pokedex_entries.gPokedexEntries.110"
+    ],
+    "translations": [
+      "毒瓦斯",
+      "毒气"
+    ],
+    "candidateIds": [
+      "candidate-016086",
+      "candidate-016991",
+      "candidate-016992"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ノーマル",
+    "qids": [
+      "rs.common.type_names.gTypeNames.0",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.69",
+      "rs.common.easy_chat_group_events.gEasyChatGroupWords_Events.10",
+      "rs.common.strings.OtherText_Normal"
+    ],
+    "translations": [
+      "一般",
+      "普通",
+      "进化"
+    ],
+    "candidateIds": [
+      "candidate-016308",
+      "candidate-018760",
+      "candidate-018761",
+      "candidate-018826",
+      "candidate-020709"
+    ],
+    "status": "context_required"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "どく",
+    "qids": [
+      "rs.common.type_names.gTypeNames.3",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.60",
+      "rs.common.battle_strings.BattleText_PoisonStatus",
+      "rs.common.strings.OtherText_Poison"
+    ],
+    "translations": [
+      "毒",
+      "中毒"
+    ],
+    "candidateIds": [
+      "candidate-016311",
+      "candidate-018751",
+      "candidate-019936",
+      "candidate-020614"
+    ],
+    "status": "context_required"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ほのお",
+    "qids": [
+      "rs.common.type_names.gTypeNames.10",
+      "rs.common.pokedex_entries.gPokedexEntries.136",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.90"
+    ],
+    "translations": [
+      "火",
+      "火焰"
+    ],
+    "candidateIds": [
+      "candidate-016317",
+      "candidate-017018",
+      "candidate-018764"
+    ],
+    "status": "resolved_offline"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "でんき",
+    "qids": [
+      "rs.common.type_names.gTypeNames.13",
+      "rs.common.pokedex_entries.gPokedexEntries.239",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.57"
+    ],
+    "translations": [
+      "电",
+      "电气"
+    ],
+    "candidateIds": [
+      "candidate-016320",
+      "candidate-017121",
+      "candidate-018748",
+      "candidate-018749",
+      "candidate-018750"
+    ],
+    "status": "resolved_offline"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "エスパー",
+    "qids": [
+      "rs.common.type_names.gTypeNames.14",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.14"
+    ],
+    "translations": [
+      "超能力",
+      "超能力者"
+    ],
+    "candidateIds": [
+      "candidate-016321",
+      "candidate-018730"
+    ],
+    "status": "resolved_offline"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "こおり",
+    "qids": [
+      "rs.common.type_names.gTypeNames.15",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.32",
+      "rs.common.battle_strings.BattleText_IceStatus",
+      "rs.common.strings.OtherText_Frozen"
+    ],
+    "translations": [
+      "冰",
+      "冰冻"
+    ],
+    "candidateIds": [
+      "candidate-016322",
+      "candidate-018742",
+      "candidate-019939",
+      "candidate-020618"
+    ],
+    "status": "context_required"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "あく",
+    "qids": [
+      "rs.common.type_names.gTypeNames.17",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.0"
+    ],
+    "translations": [
+      "恶",
+      "阴暗"
+    ],
+    "candidateIds": [
+      "candidate-016324",
+      "candidate-018719",
+      "candidate-018720",
+      "candidate-018721"
+    ],
+    "status": "resolved_offline"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "てんきの　えいきょうが　なくなる",
+    "qids": [
+      "rs.common.ability_descriptions.gAbilityDescription_CloudNine",
+      "rs.common.ability_descriptions.gAbilityDescription_AirLock"
+    ],
+    "translations": [
+      "去除所有天气的影响。",
+      "所有天气的影响都会消失。"
+    ],
+    "candidateIds": [
+      "candidate-016338",
+      "candidate-016402"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "あいてを　にげられなくする",
+    "qids": [
+      "rs.common.ability_descriptions.gAbilityDescription_ShadowTag",
+      "rs.common.ability_descriptions.gAbilityDescription_ArenaTrap"
+    ],
+    "translations": [
+      "让对手无法逃走或替换。",
+      "让对手无法逃走。"
+    ],
+    "candidateIds": [
+      "candidate-016348",
+      "candidate-016396"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "あいてに　のうりょくを　さげられない",
+    "qids": [
+      "rs.common.ability_descriptions.gAbilityDescription_ClearBody",
+      "rs.common.ability_descriptions.gAbilityDescription_WhiteSmoke"
+    ],
+    "translations": [
+      "使得能力不会降低。",
+      "白色烟雾防止能力被降低。"
+    ],
+    "candidateIds": [
+      "candidate-016354",
+      "candidate-016398"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "はっこう",
+    "qids": [
+      "rs.common.ability_names.gAbilityNames.35",
+      "rs.common.pokedex_entries.gPokedexEntries.213"
+    ],
+    "translations": [
+      "发光",
+      "发酵"
+    ],
+    "candidateIds": [
+      "candidate-016439",
+      "candidate-017095"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ありじごく",
+    "qids": [
+      "rs.common.ability_names.gAbilityNames.71",
+      "rs.common.pokedex_entries.gPokedexEntries.328"
+    ],
+    "translations": [
+      "沙穴",
+      "蚁狮"
+    ],
+    "candidateIds": [
+      "candidate-016475",
+      "candidate-017210"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "おとこのこ",
+    "qids": [
+      "rs.common.berry_blender.sBlenderOpponentName2",
+      "rs.common.easy_chat_group_people.gEasyChatGroupWords_People.12"
+    ],
+    "translations": [
+      "女士",
+      "男生"
+    ],
+    "candidateIds": [
+      "candidate-016489",
+      "candidate-018780",
+      "candidate-018781"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "おんなのこ",
+    "qids": [
+      "rs.common.berry_blender.sBlenderOpponentName3",
+      "rs.common.easy_chat_group_people.gEasyChatGroupWords_People.21"
+    ],
+    "translations": [
+      "小姐",
+      "女生"
+    ],
+    "candidateIds": [
+      "candidate-016490",
+      "candidate-018783",
+      "candidate-018784"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ボール",
+    "qids": [
+      "rs.common.pokedex_entries.gPokedexEntries.100",
+      "rs.common.pokedex_entries.gPokedexEntries.101",
+      "rs.common.easy_chat_group_hobbies.gEasyChatGroupWords_Hobbies.45",
+      "rs.common.strings.OtherText_Balls"
+    ],
+    "translations": [
+      "球",
+      "精灵球"
+    ],
+    "candidateIds": [
+      "candidate-016982",
+      "candidate-016983",
+      "candidate-018811",
+      "candidate-018812",
+      "candidate-020720"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "みずたま",
+    "qids": [
+      "rs.common.pokedex_entries.gPokedexEntries.298",
+      "rs.common.strings.PCText_Polka"
+    ],
+    "translations": [
+      "水珠",
+      "圆点花纹"
+    ],
+    "candidateIds": [
+      "candidate-017180",
+      "candidate-020805"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ぬいぐるみ",
+    "qids": [
+      "rs.common.pokedex_entries.gPokedexEntries.354",
+      "rs.common.strings.SecretBaseText_Doll"
+    ],
+    "translations": [
+      "布偶",
+      "玩偶"
+    ],
+    "candidateIds": [
+      "candidate-017236",
+      "candidate-020512"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "いわやま",
+    "qids": [
+      "rs.common.pokedex_entries.gPokedexEntries.377",
+      "rs.common.strings.PCText_Crag"
+    ],
+    "translations": [
+      "岩山",
+      "峭壁"
+    ],
+    "candidateIds": [
+      "candidate-017259",
+      "candidate-020797"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "するどいツメを　つかい\\nてきを　ひっかいて　こうげき",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Scratch",
+      "rs.common.move_descriptions.MoveDescription_DragonClaw"
+    ],
+    "translations": [
+      "用坚硬且无比锋利的爪子\\n抓对手。",
+      "用尖锐的巨爪劈开对手。"
+    ],
+    "candidateIds": [
+      "candidate-017278",
+      "candidate-017605"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "２ー３ターンのあいだ　あばれつづける\\nあばれたあとは　こんらんしてしまう",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Thrash",
+      "rs.common.move_descriptions.MoveDescription_PetalDance",
+      "rs.common.move_descriptions.MoveDescription_Outrage"
+    ],
+    "translations": [
+      "在2-3回合内大闹一番，\\n然后自己陷入混乱。",
+      "在2-3回合内散落花瓣攻击，\\n然后自己陷入混乱。",
+      "在2-3回合内乱打一气，\\n然后自己陷入混乱。"
+    ],
+    "candidateIds": [
+      "candidate-017305",
+      "candidate-017348",
+      "candidate-017468"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "いのちをかけて　てきに　たいあたり\\nじぶんもすこし　ダメージをうける",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_DoubleEdge",
+      "rs.common.move_descriptions.MoveDescription_VoltTackle"
+    ],
+    "translations": [
+      "拼命地猛撞向对手。\\n自己也会受到不少伤害。",
+      "自身会受到不小的伤害。\\n有时会让对手麻痹。"
+    ],
+    "candidateIds": [
+      "candidate-017306",
+      "candidate-017612"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "するどいハリを　てきに　はっしゃして\\n２ー５かい　れんぞくで　こうげき",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_PinMissile",
+      "rs.common.move_descriptions.MoveDescription_SpikeCannon"
+    ],
+    "translations": [
+      "向对手发射锐针。\\n连续攻击2-5次。",
+      "向对手连续发射锐针。\\n连续攻击2-5次。"
+    ],
+    "candidateIds": [
+      "candidate-017310",
+      "candidate-017399"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ふしぎな　ひかりを　はっしゃする\\nてきを　こんらんさせることがある",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Psybeam",
+      "rs.common.move_descriptions.MoveDescription_SignalBeam"
+    ],
+    "translations": [
+      "向对手发射神奇的光线。\\n有时会使对手混乱。",
+      "发射神奇的光线。\\n有时会使对手混乱。"
+    ],
+    "candidateIds": [
+      "candidate-017328",
+      "candidate-017592"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ダメージは　おおきいが　つかうと\\nつぎのターン　うごけなくなってしまう",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_HyperBeam",
+      "rs.common.move_descriptions.MoveDescription_BlastBurn",
+      "rs.common.move_descriptions.MoveDescription_HydroCannon",
+      "rs.common.move_descriptions.MoveDescription_FrenzyPlant"
+    ],
+    "translations": [
+      "向对手发射强烈的光线。\\n下一回合自己将无法动弹。",
+      "用爆炸的火焰烧净对手。\\n下一回合自己将无法动弹。",
+      "向对手喷射水炮。\\n下一回合自己将无法动弹。",
+      "用大树摔打对手。\\n下一回合自己将无法动弹。"
+    ],
+    "candidateIds": [
+      "candidate-017331",
+      "candidate-017575",
+      "candidate-017576",
+      "candidate-017606"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "てきに　あたえた　ダメージの\\nはんぶん　たいりょくを　かいふくする",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Absorb",
+      "rs.common.move_descriptions.MoveDescription_MegaDrain",
+      "rs.common.move_descriptions.MoveDescription_LeechLife",
+      "rs.common.move_descriptions.MoveDescription_GigaDrain"
+    ],
+    "translations": [
+      "吸取对手的养分。可以回复\\n给予对手伤害的一半HP。",
+      "大量吸取对手的养分。回复\\n给予对手伤害的一半HP。",
+      "吸取血液攻击对手。\\n回复给予对手伤害一半HP。",
+      "剧烈吸取对手的养分。\\n回复给予对手伤害一半HP。"
+    ],
+    "candidateIds": [
+      "candidate-017339",
+      "candidate-017340",
+      "candidate-017409",
+      "candidate-017470"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "キズついた　からだを　たいりょくの\\nはんぶんだけ　かいふくする",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Recover",
+      "rs.common.move_descriptions.MoveDescription_SoftBoiled",
+      "rs.common.move_descriptions.MoveDescription_MilkDrink"
+    ],
+    "translations": [
+      "回复自己最大HP的一半。",
+      "生蛋来回复自己\\n最大HP的一半。"
+    ],
+    "candidateIds": [
+      "candidate-017373",
+      "candidate-017403",
+      "candidate-017476"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "てきに　だいダメージを　あたえるが\\nつかうと　せんとうふのうに　なる",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_SelfDestruct",
+      "rs.common.move_descriptions.MoveDescription_Explosion"
+    ],
+    "translations": [
+      "引发爆炸，攻击所有的\\n宝可梦。使用后陷入昏厥。",
+      "引发大爆炸攻击场上所有\\n宝可梦。用后会陷入昏厥。"
+    ],
+    "candidateIds": [
+      "candidate-017388",
+      "candidate-017421"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "じぶんの　たいりょくが　すくないほど\\nてきに　おおきなダメージを　あたえる",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Flail",
+      "rs.common.move_descriptions.MoveDescription_Reversal"
+    ],
+    "translations": [
+      "抓狂般乱打进行攻击。\\n自己的HP越少，威力越大。",
+      "竭尽全力进行攻击。\\n自己的HP越少，威力越大。"
+    ],
+    "candidateIds": [
+      "candidate-017443",
+      "candidate-017447"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "５ターンのあいだ　てきを　こうげき\\nあてるたびに　ダメージが　あがる",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Rollout",
+      "rs.common.move_descriptions.MoveDescription_IceBall"
+    ],
+    "translations": [
+      "连续滚动5回合。\\n连续击中，威力就会提高。",
+      "在5回合内攻击对手。\\n每击中一次，威力越大。"
+    ],
+    "candidateIds": [
+      "candidate-017473",
+      "candidate-017569"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "２ー５ターンのあいだ　てきを\\nうずの　ちゅうしんに　とじこめる",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Whirlpool",
+      "rs.common.move_descriptions.MoveDescription_SandTomb"
+    ],
+    "translations": [
+      "将对手困在激烈的旋涡中\\n2-5回合，并造成伤害。",
+      "将对手困在沙暴中\\n2-5回合并造成持续伤害。"
+    ],
+    "candidateIds": [
+      "candidate-017518",
+      "candidate-017596"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "じぶんの　たいりょくが　おおいほど\\nおおきな　ダメージを　あたえる",
+    "qids": [
+      "rs.common.move_descriptions.MoveDescription_Eruption",
+      "rs.common.move_descriptions.MoveDescription_WaterSpout"
+    ],
+    "translations": [
+      "爆发怒火攻击对手。\\n自己的HP越少，威力越小。",
+      "掀起潮水进行攻击。\\n自己的HP越多，威力越大。"
+    ],
+    "candidateIds": [
+      "candidate-017552",
+      "candidate-017591"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "おとなしい",
+    "qids": [
+      "rs.common.nature_names.NatureName_Gentle",
+      "rs.common.easy_chat_group_conditions.gEasyChatGroupWords_Conditions.22"
+    ],
+    "translations": [
+      "温顺",
+      "坦率"
+    ],
+    "candidateIds": [
+      "candidate-017644",
+      "candidate-018793"
+    ],
+    "status": "resolved_offline"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "[STR_VAR_1]の　アピールは\\nうまく　みせられなかった！[PAUSE 60]",
+    "qids": [
+      "rs.common.contest.ContestString_AppealNotWell2",
+      "rs.common.contest.ContestString_AppealNotShownWell"
+    ],
+    "translations": [
+      "[buffer1]的表演\\n完成得不佳。 [延时3C]",
+      "[buffer1]的表演\\n并非特别理想。[延时3C]"
+    ],
+    "candidateIds": [
+      "candidate-018474",
+      "candidate-018475"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "うつくしさ",
+    "qids": [
+      "rs.common.contest.ContestString_Beauty2",
+      "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.12",
+      "rs.common.strings.OtherText_Beauty3",
+      "rs.common.strings.OtherText_Beauty"
+    ],
+    "translations": [
+      "美丽",
+      "大姐姐"
+    ],
+    "candidateIds": [
+      "candidate-018530",
+      "candidate-018726",
+      "candidate-018727",
+      "candidate-018728",
+      "candidate-018729",
+      "candidate-020705",
+      "candidate-020904"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ちからが　やどるという　うわさが　ある。",
+    "qids": [
+      "rs.common.berry.sBerryDescriptionPart2_Liechi",
+      "rs.common.berry.sBerryDescriptionPart2_Ganlon",
+      "rs.common.berry.sBerryDescriptionPart2_Salac"
+    ],
+    "translations": [
+      "传言说，它蕴藏着大海的力量。",
+      "传言说，它蕴藏着大地的力量。",
+      "传言说，它蕴藏着天空的力量。"
+    ],
+    "candidateIds": [
+      "candidate-018642",
+      "candidate-018644",
+      "candidate-018646"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ポケモンずかん",
+    "qids": [
+      "rs.common.easy_chat_group_trainer.gEasyChatGroupWords_Trainer.16",
+      "rs.common.strings.gMainMenuString_Pokedex",
+      "rs.common.strings2.gOtherText_Pokedex"
+    ],
+    "translations": [
+      "图鉴数",
+      "图鉴"
+    ],
+    "candidateIds": [
+      "candidate-018715",
+      "candidate-018716",
+      "candidate-018717",
+      "candidate-020206",
+      "candidate-021045"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ない",
+    "qids": [
+      "rs.common.easy_chat_group_conditions.gEasyChatGroupWords_Conditions.47"
+    ],
+    "translations": [
+      "空",
+      "无"
+    ],
+    "candidateIds": [
+      "candidate-018794",
+      "candidate-018795"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "なまえ",
+    "qids": [
+      "rs.common.easy_chat_group_lifestyle.gEasyChatGroupWords_Lifestyle.30",
+      "rs.common.strings.gOtherText_Name"
+    ],
+    "translations": [
+      "名称",
+      "名称 /"
+    ],
+    "candidateIds": [
+      "candidate-018807",
+      "candidate-020266"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "じかん",
+    "qids": [
+      "rs.common.easy_chat_group_time.gEasyChatGroupWords_Time.19",
+      "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Time",
+      "rs.common.strings2.gOtherText_RequiredTime"
+    ],
+    "translations": [
+      "时间",
+      "所用时间"
+    ],
+    "candidateIds": [
+      "candidate-018815",
+      "candidate-018816",
+      "candidate-021021",
+      "candidate-021171"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "きのみ",
+    "qids": [
+      "rs.common.easy_chat_group_events.gEasyChatGroupWords_Events.3",
+      "rs.common.strings.OtherText_Berries"
+    ],
+    "translations": [
+      "果",
+      "",
+      "树果"
+    ],
+    "candidateIds": [
+      "candidate-018820",
+      "candidate-018821",
+      "candidate-018822",
+      "candidate-020722"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "かっこよさコンテスト",
+    "qids": [
+      "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_CoolContest",
+      "rs.common.strings.OtherText_CoolContest"
+    ],
+    "translations": [
+      "在帅气大赛中",
+      "帅气大赛"
+    ],
+    "candidateIds": [
+      "candidate-018842",
+      "candidate-020602"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "うつくしさコンテスト",
+    "qids": [
+      "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_BeautyContest",
+      "rs.common.strings.OtherText_BeautyContest"
+    ],
+    "translations": [
+      "在美丽大赛中",
+      "美丽大赛"
+    ],
+    "candidateIds": [
+      "candidate-018843",
+      "candidate-020603"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "かわいさコンテスト",
+    "qids": [
+      "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_CuteContest",
+      "rs.common.strings.OtherText_CuteContest"
+    ],
+    "translations": [
+      "在可爱大赛中",
+      "可爱大赛"
+    ],
+    "candidateIds": [
+      "candidate-018844",
+      "candidate-020604"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "かしこさコンテスト",
+    "qids": [
+      "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_SmartContest",
+      "rs.common.strings.OtherText_SmartContest"
+    ],
+    "translations": [
+      "在聪明大赛中",
+      "聪明大赛"
+    ],
+    "candidateIds": [
+      "candidate-018845",
+      "candidate-020605"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "たくましさコンテスト",
+    "qids": [
+      "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_ToughContest",
+      "rs.common.strings.OtherText_ToughContest"
+    ],
+    "translations": [
+      "在强壮大赛中",
+      "强壮大赛"
+    ],
+    "candidateIds": [
+      "candidate-018846",
+      "candidate-020606"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "たたみかける　ような　こうげき",
+    "qids": [
+      "rs.common.trainer_eye_descriptions.TrainerEyeDescription_BugManiac_Brandon.0",
+      "rs.common.trainer_eye_descriptions.TrainerEyeDescription_PkmnRanger_Jackson.0"
+    ],
+    "translations": [
+      "轮番攻击！",
+      "轮番攻击。"
+    ],
+    "candidateIds": [
+      "candidate-018977",
+      "candidate-019105"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "いろんな　タイプで　しょうぶ",
+    "qids": [
+      "rs.common.trainer_eye_descriptions.TrainerEyeDescription_Youngster_Calvin.1",
+      "rs.common.trainer_eye_descriptions.TrainerEyeDescription_PkmnRanger_Jackson.1"
+    ],
+    "translations": [
+      "我用不同的属性。",
+      "不同的属性。"
+    ],
+    "candidateIds": [
+      "candidate-019022",
+      "candidate-019106"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "[PAUSE 32]１　[PAUSE 15]２の　[PAUSE 15]‥[PAUSE 15]‥[PAUSE 15]‥　[PAUSE 15][PLAY_SE SE_BALL_BOUNCE_1]ポカン！\\c",
+    "qids": [
+      "rs.common.battle_strings.BattleText_MoveForget123",
+      "rs.common.strings2.gOtherText_ForgotMove123"
+    ],
+    "translations": [
+      "[延时20]1，[延时0F]2...[延时0F] ...[延时0F] ...[延时0F]\\n[延时0F][提示音38]砰！\\p",
+      "[延时20]1，[延时0F]2 [延时0F]...[延时0F]...[延时0F]...[延时0F] [提示音38]砰！\\p"
+    ],
+    "candidateIds": [
+      "candidate-019760",
+      "candidate-021097"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "プレイじかん",
+    "qids": [
+      "rs.common.strings.gMainMenuString_Time",
+      "rs.common.strings2.gOtherText_PlayTime"
+    ],
+    "translations": [
+      "时间",
+      "游玩时间"
+    ],
+    "candidateIds": [
+      "candidate-020207",
+      "candidate-021046"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "Ｌｖ",
+    "qids": [
+      "rs.common.strings.gOtherText_Level3",
+      "rs.common.strings.gOtherText_Lv",
+      "rs.common.strings2.gOtherText_ControlAndMiscText.2"
+    ],
+    "translations": [
+      "Lv.",
+      "Lv"
+    ],
+    "candidateIds": [
+      "candidate-020264",
+      "candidate-020296",
+      "candidate-021004"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "けってい",
+    "qids": [
+      "rs.common.strings.OtherText_Confirm",
+      "rs.common.strings2.gOtherText_OK"
+    ],
+    "translations": [
+      "确认",
+      "好"
+    ],
+    "candidateIds": [
+      "candidate-020278",
+      "candidate-021180"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "[STR_VAR_1]は　あたらしく\\n[STR_VAR_2]を　おぼえた！",
+    "qids": [
+      "rs.common.strings.gOtherText_LearnedMove",
+      "rs.common.strings2.gOtherText_PokeLearnedMove"
+    ],
+    "translations": [
+      "[buffer1]学会了\\n[buffer2]！",
+      "[buffer1]学会了[buffer2]。"
+    ],
+    "candidateIds": [
+      "candidate-020424",
+      "candidate-021094"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "それでは‥‥　[STR_VAR_2]を\\nおぼえるのを　あきらめますか？",
+    "qids": [
+      "rs.common.strings.gOtherText_StopTryingTo",
+      "rs.common.strings2.gOtherText_StopLearningMove"
+    ],
+    "translations": [
+      "那么，要放弃学习\\n[buffer2]吗？",
+      "放弃学习[buffer2]吗？"
+    ],
+    "candidateIds": [
+      "candidate-020427",
+      "candidate-021096"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ポケモンを　えらんで　ください",
+    "qids": [
+      "rs.common.strings.OtherText_ChoosePoke",
+      "rs.common.strings2.TradeText_ChoosePoke"
+    ],
+    "translations": [
+      "请选择一只宝可梦。",
+      "请选择宝可梦。"
+    ],
+    "candidateIds": [
+      "candidate-020446",
+      "candidate-020990"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "じょうたい",
+    "qids": [
+      "rs.common.strings.gOtherText_Status",
+      "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Conditions"
+    ],
+    "translations": [
+      "状态",
+      "条件"
+    ],
+    "candidateIds": [
+      "candidate-020478",
+      "candidate-021017"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "たたかうわざ",
+    "qids": [
+      "rs.common.strings.OtherText_BattleMoves",
+      "rs.common.strings2.OtherText_Battle"
+    ],
+    "translations": [
+      "对战招式",
+      "对战"
+    ],
+    "candidateIds": [
+      "candidate-020486",
+      "candidate-021084"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "コンテストわざ",
+    "qids": [
+      "rs.common.strings.OtherText_ContestMoves",
+      "rs.common.strings2.OtherText_Contest"
+    ],
+    "translations": [
+      "华丽大赛招式",
+      "大赛"
+    ],
+    "candidateIds": [
+      "candidate-020487",
+      "candidate-021085"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "せつめいをきく",
+    "qids": [
+      "rs.common.strings.OtherText_Info3",
+      "rs.common.strings.OtherText_ObtainInformation"
+    ],
+    "translations": [
+      "信息",
+      "获取信息"
+    ],
+    "candidateIds": [
+      "candidate-020597",
+      "candidate-020630"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "レベル１００",
+    "qids": [
+      "rs.common.strings.OtherText_Lv100_2",
+      "rs.common.strings2.gOtherText_Lv100"
+    ],
+    "translations": [
+      "100级",
+      "LV 100"
+    ],
+    "candidateIds": [
+      "candidate-020632",
+      "candidate-021060"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "ジャンプ",
+    "qids": [
+      "rs.common.strings.OtherText_Jumping",
+      "rs.common.strings.PCText_Jump"
+    ],
+    "translations": [
+      "跳跃",
+      "跳转"
+    ],
+    "candidateIds": [
+      "candidate-020670",
+      "candidate-020787"
+    ],
+    "status": "unresolved"
+  },
+  {
+    "game": "sapphire",
+    "japanese": "２つの　ことばを　くみあわせて",
+    "qids": [
+      "rs.common.strings.OtherText_CombineTwoPhrasesPage1",
+      "rs.common.strings.OtherText_HipsterPage1"
+    ],
+    "translations": [
+      "组合两条短语，",
+      "我将两条短语结合起来，"
+    ],
+    "candidateIds": [
+      "candidate-020865",
+      "candidate-020869"
+    ],
+    "status": "unresolved"
+  }
+]

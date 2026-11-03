@@ -55,6 +55,20 @@ def main():
                 raw=ref['streams'][off][0] if off in ref['streams'] else ref['data'][off:off+size]
                 offsets[role]={game:f'0x{locate_equivalent(ref,rom,off,len(raw)):06X}' for game,rom in roms.items()}
             evidence[family]=dict(offsets=offsets)
+    # FEEL is a precomposed 32x16 OBJ, not font 4. The native sprite table
+    # points to this uncompressed block; only its 15x7 caption is sampled.
+    feel_offset=0x3BAF90
+    assert int.from_bytes(ref['data'][0x3BBFA8:0x3BBFAC],'little')==0x08000000+feel_offset
+    feel_raw=ref['data'][feel_offset:feel_offset+256]
+    feel=decode_tiles(feel_raw).reshape(2,4,8,8).transpose(0,2,1,3).reshape(16,32)
+    feel_mask=feel[4:11,4:19]==2
+    result.append(dict(id='condition_feel',text='FEEL',box=[218,124,15,7],color='light',
+        mask=[''.join('1' if v else '0' for v in row) for row in feel_mask]))
+    evidence['condition_feel']=dict(
+        offsets={'gfx':{game:f'0x{locate_equivalent(ref,rom,feel_offset,256):06X}' for game,rom in roms.items()}},
+        decoded_bytes=256,decoded_sha256=hashlib.sha256(feel_raw).hexdigest(),
+        native_sprite_table_pointer='AXVJ:0x3BBFA8',tile_sheet=[32,16],
+        caption_box_in_sheet=[4,4,15,7],foreground_palette_index=2)
     # A description panel alone resembles other white windows. The stable
     # right-hand part of the berry page header supplies independent context.
     berry=families['berry'];_,pal=palette555(berry['palette'])

@@ -1,0 +1,8 @@
+{
+  "realMoveChangesResultPixels" : true,
+  "cursorBlinkResultPixelsIdentical" : true,
+  "size" : [ 960, 640 ],
+  "physicalScreenFlickerVerified" : false,
+  "passed" : true,
+  "pendingMessageRendered" : true
+}

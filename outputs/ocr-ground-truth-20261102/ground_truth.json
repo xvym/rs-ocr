@@ -53683,7 +53683,7 @@
       "crop_sha256": "ba562b03e134b4944e5c1ca999558714e53bc4aa84b9f739a801a55bbd2122b9",
       "lines": [
         "とても かわいい はなが さく。",
-        "まっかな みは とても からい"
+        "まっかな みは とても からい。"
       ],
       "expect_region_visible": true,
       "game_version": null,
@@ -53697,9 +53697,11 @@
           240.0
         ]
       ],
-      "notes": [],
+      "notes": [
+        "AI 回看原图修正候选转录；修改前后及图像哈希见 annotation-revisions.json，仍待人工复核。"
+      ],
       "review_sheet": "sheets/panel-10.png",
-      "text": "とても かわいい はなが さく。\nまっかな みは とても からい",
+      "text": "とても かわいい はなが さく。\nまっかな みは とても からい。",
       "text_state": "visible",
       "assertion_ready": true,
       "number_tokens": [],
@@ -53709,6 +53711,7 @@
       ],
       "annotation_method": "assistant_visual_transcription",
       "human_review_status": "pending",
+      "annotation_revision": "NGC-086-R05",
       "crop_file_sha256": "1a951efec180691beaee40bc1c25d4f98becb8c35e6744a9ebf5c39042440f2b",
       "recognition_box": [
         31,
@@ -54112,7 +54115,7 @@
       "crop_sha256": "e9ecd40224c7c9c6053fe9863cfb4d4b4358876637389fe25815ae53b0ba0177",
       "lines": [
         "ももいろポロック ができた！",
-        "レベル17で なめらかさは21だ"
+        "レベル11で なめらかさは21だ"
       ],
       "expect_region_visible": true,
       "game_version": null,
@@ -54126,13 +54129,15 @@
           240.0
         ]
       ],
-      "notes": [],
+      "notes": [
+        "AI 回看原图修正候选转录；修改前后及图像哈希见 annotation-revisions.json，仍待人工复核。"
+      ],
       "review_sheet": "sheets/dialog-14.png",
-      "text": "ももいろポロック ができた！\nレベル17で なめらかさは21だ",
+      "text": "ももいろポロック ができた！\nレベル11で なめらかさは21だ",
       "text_state": "visible",
       "assertion_ready": true,
       "number_tokens": [
-        "17",
+        "11",
         "21"
       ],
       "line_indents_logical": [
@@ -54141,6 +54146,7 @@
       ],
       "annotation_method": "assistant_visual_transcription",
       "human_review_status": "pending",
+      "annotation_revision": "NGC-093-R05",
       "crop_file_sha256": "295740d161a1500dfffe569c6b34e749728f033b110f4e1501f353729b0676a3",
       "recognition_box": [
         0,
