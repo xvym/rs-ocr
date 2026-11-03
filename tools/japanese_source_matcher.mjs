@@ -12,6 +12,7 @@ const NONPRINTING=/^(?:COLOR(?:_HIGHLIGHT_SHADOW)?|HIGHLIGHT|SHADOW|PALETTE|PAUS
 const applicable=(r,game)=>game==='both'||r.game==='both'||r.game===game;
 const add=(map,key,value)=>{const list=map.get(key)||[];list.push(value);map.set(key,list);};
 const BATTLE_MENU_QIDS=new Set(['rs.common.battle_strings.BattleText_MenuOptions','rs.common.battle_strings.BattleText_MenuOptionsSafari']);
+const NAME_SLOT=/^(?:PLAYER|RIVAL)$|^B_.*_NAME(?:_WITH_PREFIX)?$/;
 
 // Keep original offsets and digit boundaries. The default is width-sensitive;
 // the explicit display projection folds only digits, H/P and the slash.
@@ -82,7 +83,7 @@ function piecesFor(source) {
   return pieces;
 }
 
-function compileTemplate(piece) {
+function compileTemplate(piece,trainerClasses=[],slotRules=[]) {
   const parts=piece.key.split(/(\uE000[^\uE001]+\uE001)/),names=[];
   const tokens=[];let fixed=0,previousSlot=false;
   for(const part of parts) {
@@ -91,7 +92,11 @@ function compileTemplate(piece) {
       // Only a finite Japanese honorific may follow a name without a literal
       // delimiter. Arbitrary adjacent buffers still cannot be separated.
       if(previousSlot&&!(slot==='KUN'&&['PLAYER','RIVAL'].includes(tokens.at(-1)?.slot)))return null;
-      names.push(slot);tokens.push({slot,...(slot==='KUN'?{choices:['くん','ちゃん']}:{} )});previousSlot=true;
+      const rule=slotRules.find(r=>r.slot===slot);
+      names.push(slot);tokens.push({slot,...(slot==='KUN'?{choices:['くん','ちゃん']}:{} ),
+        singleLine:NAME_SLOT.test(slot),
+        ...(/^B_TRAINER[12]_CLASS$/.test(slot)?{terms:trainerClasses,constraint:'complete_trainer_class_term'}:{} ),
+        ...(rule?{terms:rule.terms,singleLine:rule.singleLine,constraint:'complete_qid_typed_term',termKind:rule.kind,ruleSource:rule.qid}:{} )});previousSlot=true;
     } else {if(part)tokens.push({literal:part});fixed+=part.length;if(part)previousSlot=false;}
   }
   // A name or a bare buffer cannot match arbitrary text. Short templates need
@@ -100,7 +105,7 @@ function compileTemplate(piece) {
   return {...piece,tokens,names,fixed};
 }
 
-function matchTemplate(template,projection,raw) {
+function matchTemplate(template,projection,raw,game) {
   if(template.fixed/Math.max(1,projection.key.length)<0.25)return {matches:[],complete:true};
   const results=[],key=projection.key;
   let steps=0,overflow=false;
@@ -116,10 +121,17 @@ function matchTemplate(template,projection,raw) {
       const value=key.slice(offset,end),startRaw=projection.offsets[offset],endRaw=projection.offsets[end-1]+1;
       if(token.slot==='VISIBLE_RIBBON_COUNT'&&!/^[0-9]{1,2}$/.test(value))continue;
       const rawValue=raw.slice(startRaw,endRaw),identity=rawValue.replace(/[\r\n]/g,'');
+      // These are lexical retrieval constraints, not name/identity approval.
+      // Opaque buffers deliberately retain their multiline and multitype forms.
+      if(token.singleLine&&/[\r\n]/.test(rawValue))continue;
+      const terms=token.terms?.filter(t=>applicable(t,game)&&t.key===value);
+      if(token.terms&&(!terms.length||/[\r\n]/.test(rawValue)))continue;
       if(value.includes('�')||/[\uE000\uE001]/.test(value)||(seen.has(token.slot)&&seen.get(token.slot)!==identity))continue;
       const nextSeen=new Map(seen);nextSeen.set(token.slot,identity);
       visit(index+1,end,[...bindings,{slot:token.slot,raw:rawValue,normalized:value,start:startRaw,end:endRaw,
         semanticType:token.slot==='PLAYER'?'player_identity_hypothesis':token.slot==='RIVAL'?'rival_identity_hypothesis':token.slot==='KUN'?'honorific_hypothesis':'unreviewed_callsite_buffer',
+        ...(token.singleLine?{retrievalConstraint:'single_observed_name_line'}:{}),
+        ...(terms?{retrievalConstraint:token.constraint,termSourceQids:terms.map(t=>t.qid),...(token.termKind?{termKind:token.termKind,constraintSourceQid:token.ruleSource}:{})}:{}),
         crossesObservedLineBreak:/[\r\n]/.test(rawValue),completeness:'syntactic_span_requires_callsite_review',approvedForTranslation:false}],nextSeen);
       if(overflow)return;
     }
@@ -134,6 +146,11 @@ export class JapaneseSourceMatcher {
     this.records=records;this.exact=new Map();this.layout=new Map();this.templates=[];this.fragments=[];this.unsupported=[];
     this.candidates=new Map();this.runtime=new Map();
     this.battle=battleTemplates?new BattleSourceMatcher(battleTemplates,{records,project}):null;
+    // Use complete pinned Japanese class terms, preserving duplicate and game
+    // evidence. Do not split a class at an internal の (e.g. してんのう).
+    const trainerClasses=records.filter(r=>r.qid.startsWith('rs.common.trainer_class_names.')&&r.japanese&&r.japanese!=='[NULL]'&&!/[\[\\]/.test(r.japanese))
+      .map(r=>({qid:r.qid,game:r.game,key:project(r.japanese,{display:true}).key}));
+    const slotRules=(battleTemplates?.slotConstraints||[]).map(rule=>({...rule,terms:rule.terms.map(t=>({...t,key:project(t.text,{display:true}).key}))}));
     for(const c of candidates)add(this.candidates,c.qid,c);
     for(const r of runtime.records)add(this.runtime,r.qid,r);
     for(const record of records) {
@@ -141,12 +158,11 @@ export class JapaneseSourceMatcher {
       const kind=sourceKind(record.qid),parsed=parseSource(record.japanese);
       if(parsed.unsupported.length){this.unsupported.push({qid:record.qid,tokens:parsed.unsupported});continue;}
       const source={...record,kind,controls:parsed.controls};
-      if(!parsed.slots.length&&!this.battle?.sourceQids.has(record.qid))add(this.exact,record.japanese,{record:source,mode:'exact_record',page:0,lineStart:0,lineCount:1,key:project(record.japanese).key});
+      if(!parsed.slots.length&&!this.battle?.fullyModeledSourceQids.has(record.qid))add(this.exact,record.japanese,{record:source,mode:'exact_record',page:0,lineStart:0,lineCount:1,key:project(record.japanese).key});
       for(const piece of piecesFor(parsed)) {
-        if(this.battle?.sourceQids.has(record.qid)&&piece.mode==='full_record')continue;
+        if(this.battle?.replacesWindow(record.qid,piece))continue;
         if(piece.key.includes('\uE000')) {
-          if(this.battle?.sourceQids.has(record.qid))continue;
-          const compiled=compileTemplate(piece);
+          const compiled=compileTemplate(piece,trainerClasses,slotRules.filter(r=>r.qid===record.qid));
           if(compiled)this.templates.push({...compiled,record:source});
         } else {
           const item={...piece,record:source};add(this.layout,piece.key,item);
@@ -200,10 +216,10 @@ export class JapaneseSourceMatcher {
     for(const v of variants) {
       const projection=project(v.text,{display:true}),hits=[...(this.exact.get(v.text)||[]),...(this.layout.get(projection.key)||[])];
       for(const t of this.templates)if(eligible(t)){
-        const matches=matchTemplate(t,projection,raw);hits.push(...matches.matches);bindingSearchComplete&&=matches.complete;
+        const matches=matchTemplate(t,projection,raw,game);hits.push(...matches.matches);bindingSearchComplete&&=matches.complete;
       }
-      if(this.battle&&(!kind||kind==='battle')){
-        const matches=this.battle.lookup(projection,raw);hits.push(...matches.hits);bindingSearchComplete&&=matches.complete;
+      if(this.battle){
+        const matches=this.battle.lookup(projection,raw,{kind});hits.push(...matches.hits);bindingSearchComplete&&=matches.complete;
       }
       for(const p of hits.filter(eligible)) {
         const cs=(this.candidates.get(p.record.qid)||[]).filter(c=>game==='both'||c.game===game||c.game==='both');
@@ -212,6 +228,7 @@ export class JapaneseSourceMatcher {
           kind:p.record.kind,mode:p.mode==='battle_composed'?'battle_composed':p.names?'template_hypothesis':p.mode,page:p.page,lineStart:p.lineStart,lineCount:p.lineCount,
           ...(p.record.nativeEvidence?{nativeEvidence:p.record.nativeEvidence}:{}),
           ...(p.sourceUnit?{sourceUnit:p.sourceUnit}:{}),
+          ...(p.sourceWindow?{sourceWindow:p.sourceWindow}:{}),
           matchedJapanese:v.text,resolvedVisibleJapanese:v.text,ocrAlternatives:v.evidence,bindings:p.bindings||[],
           bindingSearchComplete:p.bindingSearchComplete??true,bindingInterpretations:p.bindingInterpretations??0,
           controlsElided:p.record.controls,requiresPrintingReview:Boolean(p.record.controls.length)||p.mode==='control_window'||Boolean(p.names),

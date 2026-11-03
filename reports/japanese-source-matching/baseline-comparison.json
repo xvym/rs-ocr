@@ -3373,11 +3373,9 @@
       {
         "raw": "ラグラージは\n15 けいけんちを もらった！",
         "searchText": "ラグラージは\n15 けいけんちを もらった！",
-        "status": "ambiguous",
+        "status": "template_candidate",
         "sourceQids": [
-          "rs.script.barboach.UnknownString_81C432C",
-          "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
-          "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94"
+          "rs.common.battle_strings.BattleText_GainExpPoints"
         ]
       }
     ]
@@ -4948,11 +4946,9 @@
       {
         "raw": "カイオーガは\n1261 けいけんちを もらった！",
         "searchText": "カイオーガは\n1261 けいけんちを もらった！",
-        "status": "ambiguous",
+        "status": "template_candidate",
         "sourceQids": [
-          "rs.script.barboach.UnknownString_81C432C",
-          "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
-          "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94"
+          "rs.common.battle_strings.BattleText_GainExpPoints"
         ]
       }
     ]
@@ -5070,11 +5066,9 @@
       {
         "raw": "カイオーガは\n1744 けいけんちを もらった！",
         "searchText": "カイオーガは\n1744 けいけんちを もらった！",
-        "status": "ambiguous",
+        "status": "template_candidate",
         "sourceQids": [
-          "rs.script.barboach.UnknownString_81C432C",
-          "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
-          "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94"
+          "rs.common.battle_strings.BattleText_GainExpPoints"
         ]
       }
     ]
@@ -5158,11 +5152,9 @@
       {
         "raw": "カイオーガは\n1800 けいけんちを もらった！",
         "searchText": "カイオーガは\n1800 けいけんちを もらった！",
-        "status": "ambiguous",
+        "status": "template_candidate",
         "sourceQids": [
-          "rs.script.barboach.UnknownString_81C432C",
-          "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
-          "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94"
+          "rs.common.battle_strings.BattleText_GainExpPoints"
         ]
       }
     ]
@@ -5263,11 +5255,9 @@
       {
         "raw": "カイオーガは\n1827 けいけんちを もらった！",
         "searchText": "カイオーガは\n1827 けいけんちを もらった！",
-        "status": "ambiguous",
+        "status": "template_candidate",
         "sourceQids": [
-          "rs.script.barboach.UnknownString_81C432C",
-          "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
-          "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94"
+          "rs.common.battle_strings.BattleText_GainExpPoints"
         ]
       }
     ]
@@ -5799,11 +5789,9 @@
       {
         "raw": "カイオーガは\n1840 けいけんちを もらった！",
         "searchText": "カイオーガは\n1840 けいけんちを もらった！",
-        "status": "ambiguous",
+        "status": "template_candidate",
         "sourceQids": [
-          "rs.script.barboach.UnknownString_81C432C",
-          "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
-          "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94"
+          "rs.common.battle_strings.BattleText_GainExpPoints"
         ]
       }
     ]
@@ -6130,11 +6118,9 @@
       {
         "raw": "レックウザは\n1879 けいけんちを もらった！",
         "searchText": "レックウザは\n1879 けいけんちを もらった！",
-        "status": "ambiguous",
+        "status": "template_candidate",
         "sourceQids": [
-          "rs.script.barboach.UnknownString_81C432C",
-          "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
-          "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94"
+          "rs.common.battle_strings.BattleText_GainExpPoints"
         ]
       }
     ]
@@ -6340,13 +6326,9 @@
       {
         "raw": "レックウザは\nねむるを つかった！",
         "searchText": "レックウザは\nねむるを つかった！",
-        "status": "ambiguous",
+        "status": "template_candidate",
         "sourceQids": [
-          "rs.common.battle_strings.BattleText_OpponentUsedMove",
-          "rs.common.strings.gOtherText_UsedFlute",
-          "rs.common.strings.gOtherText_UsedItem",
-          "rs.common.strings.gOtherText_UsedRepel",
-          "rs.script.field_move_scripts.UsedCutRockSmashText"
+          "rs.common.battle_strings.BattleText_OpponentUsedMove"
         ]
       }
     ]
@@ -6464,11 +6446,9 @@
       {
         "raw": "レックウザは\n1956 けいけんちを もらった！",
         "searchText": "レックウザは\n1956 けいけんちを もらった！",
-        "status": "ambiguous",
+        "status": "template_candidate",
         "sourceQids": [
-          "rs.script.barboach.UnknownString_81C432C",
-          "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
-          "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94"
+          "rs.common.battle_strings.BattleText_GainExpPoints"
         ]
       }
     ]
@@ -6643,8 +6623,7 @@
           "rs.common.battle_strings.BattleText_Used1",
           "rs.common.strings.gOtherText_UsedFlute",
           "rs.common.strings.gOtherText_UsedItem",
-          "rs.common.strings.gOtherText_UsedRepel",
-          "rs.script.field_move_scripts.UsedCutRockSmashText"
+          "rs.common.strings.gOtherText_UsedRepel"
         ]
       }
     ]
@@ -13807,11 +13786,9 @@
       {
         "raw": "ラグラージは\n15 けいけんちを もらった！",
         "searchText": "ラグラージは\n15 けいけんちを もらった！",
-        "status": "ambiguous",
+        "status": "template_candidate",
         "sourceQids": [
-          "rs.script.barboach.UnknownString_81C432C",
-          "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
-          "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94"
+          "rs.common.battle_strings.BattleText_GainExpPoints"
         ]
       }
     ]

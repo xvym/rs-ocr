@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "total": 18,
+  "total": 30,
   "checks": [
     {
       "name": "All 28 ordinary forms retain the seven actual stat names and four exact changes",
@@ -40,6 +40,54 @@
     },
     {
       "name": "An item-use slot cannot accept an arbitrary known move name",
+      "passed": true
+    },
+    {
+      "name": "Native experience composition binds the recipient and current amount in both wording forms",
+      "passed": true
+    },
+    {
+      "name": "Experience numbers preserve observed width and reject fabricated, padded or incomplete values",
+      "passed": true
+    },
+    {
+      "name": "Experience source and displayed-value judgments cover all nine archived cases",
+      "passed": true
+    },
+    {
+      "name": "Experience lookup cannot reuse an earlier recipient or amount",
+      "passed": true
+    },
+    {
+      "name": "Eight send-out windows retain the separately reviewed current actors and source sets",
+      "passed": true
+    },
+    {
+      "name": "Single and double source identities remain while the current send-out meaning agrees",
+      "passed": true
+    },
+    {
+      "name": "Send-out intent cannot expose the later clear-window question or imply completion",
+      "passed": true
+    },
+    {
+      "name": "Only reviewed windows are replaced; a full double clause remains an unreviewed source form",
+      "passed": true
+    },
+    {
+      "name": "Window actors preserve complete display labels and reject swallowed clauses or unknown glyphs",
+      "passed": true
+    },
+    {
+      "name": "Nine observation cases preserve every separately reviewed current source and value",
+      "passed": true
+    },
+    {
+      "name": "Typed observations reject prose in copied names and malformed amounts",
+      "passed": true
+    },
+    {
+      "name": "Item use keeps compatible first pages and cannot infer a later repel or flute effect",
       "passed": true
     },
     {

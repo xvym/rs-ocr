@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "method": "model_reviewed_current_Japanese_meaning",
+  "statNames": {
+    "attack": "攻击",
+    "defense": "防御",
+    "speed": "速度",
+    "special_attack": "特攻",
+    "special_defense": "特防",
+    "accuracy": "命中率",
+    "evasion": "闪避率"
+  },
+  "changes": {
+    "1": "提高了",
+    "2": "大幅提高了",
+    "-1": "降低了",
+    "-2": "大幅降低了"
+  },
+  "formats": {
+    "wild_encounter": "啊！野生的{subject}出现了！",
+    "caught": "太好了！捉到了{subject}！",
+    "move_use": "{subject}使出了{move}！",
+    "item_use": "{subject}使用了{item}！",
+    "hp_restored": "{subject}的体力恢复了{restoredAmount}点。",
+    "money_reward": "{subject}获得了{moneyAmount}元奖金！",
+    "experience_gain": "{subject}获得了{experienceAmount}点经验值！",
+    "experience_gain_boosted": "{subject}获得了额外的{experienceAmount}点经验值！",
+    "stat_change": "{subject}的{stat}{change}！",
+    "stat_change_cause": "{cause}的{ability}使{subject}的{stat}{change}！",
+    "send_out": "{trainer}派出了{subject}！",
+    "send_out_without_trainer": "派出了{subject}！",
+    "send_out_intent": "{trainer}正准备派出{subject}。",
+    "send_out_intent_without_trainer": "正准备派出{subject}。",
+    "stat_limit_upper": "{subject}的{stat}已经无法再提高了！",
+    "stat_limit_lower": "{subject}的{stat}已经无法再降低了！",
+    "stat_loss_prevented": "{subject}的能力降低被阻止了！",
+    "stat_changes_copied": "{subject}复制了{copied_from}的能力变化！",
+    "stat_changes_reset": "所有能力变化恢复原状！",
+    "fire_power_boosted": "{subject}的火属性招式威力提高了！",
+    "ability_copied": "{subject}复制了{copied_from}的{ability}！"
+  },
+  "boundary": "Only previously resolved current meaning. Required visible variables must exist, full candidate consensus must hold, amounts and labels are from this input; no runtime paraphrase, future independent unit, species or identity inference."
+}

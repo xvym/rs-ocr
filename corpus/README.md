@@ -1,10 +1,19 @@
 # 中日文语料映射库
 
-当前提供固定来源的全量日英索引、中文候选及经离线模型核对的静态子集。构建阶段为 S6；尚未完成全量日中语义审核、动态模板、可见窗口分段及 S7 窗口集成。
+当前提供固定来源的全量日英索引、中文候选和新的 S6 正式语料包。S6 整体仍未完成，全首版语义、电视变量及任意组合短语仍有缺口；S7 窗口集成尚未开始。
 
-入口：[建设报告](../reports/corpus-mapping/README.md)、[覆盖统计](../outputs/corpus-mapping/summary.json)、[检查结果](../reports/corpus-mapping/checks.json)。
+当前入口：[正式包/结构/重建说明](../reports/s6-corpus/README.md)、[新覆盖与正确性验收](../reports/s6-acceptance/README.md)、[阶段未完成项](../reports/s6-corpus/progress.json)。`s6/` 保存词条、语义单元、模板、名字政策、同文多译及电视页面的离线决定；只有获批单元进入新包。
 
-[中文库固定集验收](../reports/chinese-corpus-acceptance/README.md)已从冻结日文另编预期并执行：25／770 个应翻译单元可用，覆盖 3.25%，未通过。标注方法、非盲限制、原文保留、数值及未执行的中文管线检查均单列。`acceptance/` 保存冻结答案和输出绑定的语义复核，不参与语料构建或运行资源生成。
+[新中文库验收](../reports/s6-acceptance/README.md)采用未改动的冻结答案：770／770 个应翻译单元和 8／8 个合法保留单元通过。300 组实际输出差异的非盲模型复核保存于 `s6/output-judgments.json`，不参与建库。最终应用 A6 尚未执行。
+
+```powershell
+node tools/build_s6_corpus.mjs
+node tools/evaluate_s6_corpus.mjs --gate
+node tools/test_s6_corpus.mjs
+node tools/audit_s6_progress.mjs
+```
+
+以下 `outputs/corpus-mapping/`、`reviews.json`、原查询命令和 [旧中文验收](../reports/chinese-corpus-acceptance/README.md)描述保持不变的 v1 导入/静态基线：410 条完整静态记录、25／770 未通过。新包位于 `outputs/s6-corpus/`，两者不能混用计数。旧包通过失败退出码不表示新包门槛失败。
 
 ## 重建与查询
 
@@ -52,6 +61,12 @@ node tools/test_chinese_corpus_acceptance.mjs
 `reviews.json` 是可维护的离线核对／补译／订正决定。每条绑定 qid、游戏、原始日英文本和全部原中文候选；输入或候选变化时构建失败，须重新核对。所有本次核对标为 `model_reviewed`，未冒充人工。补译必须原本没有候选；订正保留原译文和原因。`variable-rules.json` 只记录开发期约束，未将缓冲编号当作语义类型，也未批准动态运行绑定。
 
 `source-matching/` 保存来源检索的单独复核、固定源文本证据及基线哈希。与 `acceptance/` 一样只供验证，不参与建库或查询。来源匹配器即使捕获到槽位，也仍标为未核对调用点的语法假设，不批准身份缓存、实际变量语义或中文绑定。
+
+`source-matching/binding-review-cases.mjs` 另编 13 个实际区域的玩家名/训练家类别与姓名判断，仅供边界审计。`node tools/audit_source_bindings.mjs` 比较原 148 个槽位单元，累计排除 138 个错误解释并补回 9 个正确经验值解释；只余 2 个含义一致的双打行号身份多解。新增 `observation-review-cases.mjs` 的 9 项野生/捕获/金额/回复/使用消息复核通过。逐源规则不批准全量缓冲或完整调用点，见 [来源报告](../reports/japanese-source-matching/README.md)。
+
+`source-matching/experience-review-cases.mjs` 另编 9 个存档区域的正确来源、当前名字与经验值；`typed-slot-rules.json` 只为三个明确 qid 保存赠物／物种的保守词条约束和原始日英哈希，不全局定义缓冲编号。经验值普通／额外句式具有两份日版 ROM 的局部缓冲执行证据，排除 78 个领取误解释并加入 9 个正确经验值解释；约束的模型核对、未验证调用点及自定义显示回退边界见 [专项报告](../reports/japanese-source-matching/README.md#经验值来源与数值专项)。中文静态包保持原样。
+
+`battle-matching/send-out-rules.json` 以完整日文锁定 8 个派出／换入预告源记录，生成 15 个当前行动窗口。只替换明确审过的段／行，不删除同源的未审整段或后续清屏窗口；类别＋姓名与完整姓名比较当前显示标签，保留单／双打来源和行号。`source-matching/send-out-review-cases.mjs` 另编 8 个实际区域的来源集合及行动含义，见 [窗口报告](../reports/japanese-source-matching/README.md#单／双打来源窗口与当前含义)。此项模型复核没有新增原生脚本执行或中文批准。
 
 `battle-matching/rules.json` 是单独的战斗来源／显示含义模型：普通升降预展开，其他句式按有限词表约束，招式使用形式由日版原生选择函数核验。`node tools/build_battle_source_templates.mjs` 生成资源与审阅 CSV，`node tools/test_battle_source_matching.mjs` 检查边界及固定案例。生成器不读取答案，`battle-matching/review-*` 仅用于另行复核，不参与运行资源。它不修改原中文库或 `variable-rules.json` 的全局待审状态，详见 [战斗来源报告](../reports/battle-source-matching/README.md)。
 

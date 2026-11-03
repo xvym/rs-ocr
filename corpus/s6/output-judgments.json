@@ -1,0 +1,3002 @@
+[
+  {
+    "key": "cb41f5a30c1c3d548dcf5cac8950489f87cd7083afb7029a93d58f912204c517",
+    "japanese": "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+    "expectedChinese": "根据宝可梦的特性，招式的威力可能会变化……",
+    "actualChinese": "根据宝可梦的特性，招式的威力可能会改变……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "ede37a2064b9db70e7b73fd5d13be6f6e76754f27ed977fd29f1203c1e97d7f0",
+    "japanese": "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+    "expectedChinese": "这个城市的道馆馆主，尤其是那种配合……",
+    "actualChinese": "这座城市的道馆馆主，尤其是他们的配合……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "49f782d1fd85c7ed101b96b38ae6702ac65a61821afe5b62afa44adc0c68d5bf",
+    "japanese": "なんといっても あの コンビネーションは\nさいこう！ さすが！ って かんじよ",
+    "expectedChinese": "尤其是那种配合，真是最棒了！不愧是他们！",
+    "actualChinese": "尤其是他们的配合，真是最棒了！不愧是他们！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "6363401f7274af5dd2e26e18f8d970a349329fae578734e135c0ed30119216ce",
+    "japanese": "あなたの ポケモンを\nやすませて あげますか？",
+    "expectedChinese": "要让你的宝可梦休息一下吗？",
+    "actualChinese": "要让您的宝可梦休息一下吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "2b3244ced9bbf51f6c22146b23b4250ea5913bfa58fbe38caec529eb2ff0fe66",
+    "japanese": "またの\nごりようを おまち してます！",
+    "expectedChinese": "期待你的再次光临！",
+    "actualChinese": "期待您的再次光临！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "d48ad95c601d77a2849b9d462abe52f3c1ccaf332d39f44dd9dcf1e393dfc4c1",
+    "japanese": "ハルカは\nパソコンの スイッチを いれた！",
+    "expectedChinese": "ハルカ打开了电脑！",
+    "actualChinese": "小遥打开了电脑！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "0a02ddf61ea6b87583e51b54a7f3e9f7062dfb58bba3a8a781fc7c6b0030530c",
+    "japanese": "マユミのパソコン",
+    "expectedChinese": "マユミ的电脑",
+    "actualChinese": "真由美的电脑",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "8a18ba35925d73398f6573a28f58d8effb0a08cdb63720f515e429098bea756e",
+    "japanese": "ハルカのパソコン",
+    "expectedChinese": "ハルカ的电脑",
+    "actualChinese": "小遥的电脑",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "26403943d408bb8d2db3324b095485ad39f79f4ca9b939dc521a68bfa777eafb",
+    "japanese": "マユミの パソコンに せつぞく した！",
+    "expectedChinese": "连接了マユミ的电脑！",
+    "actualChinese": "连接了真由美的电脑！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "d347cc16ce2da5e0a754bc805e1aba69e94dc930d69eea47d22814bbe541545b",
+    "japanese": "ボックスに あずけている ポケモンを\nてもちに くわえる ことが できます",
+    "expectedChinese": "可以把寄存在盒子里的宝可梦加入同行队伍。",
+    "actualChinese": "可以将寄存在盒子里的宝可梦加入同行队伍。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "ab5d78bbb7e8c930fc3613429fc514aaca1e5899c6a6b2b5d1c20bb10871ca06",
+    "japanese": "ポイントアップ × 5",
+    "expectedChinese": "ＰＰ提升剂 × 5",
+    "actualChinese": "PP提升剂 × 5",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 已核对英文字母宽度差异及词条引入PP/HP，原数值和符号不变。"
+  },
+  {
+    "key": "59a0bc0a0f6c43bc786d2183d5060de9ffe5238414c0c8df877b7f550156fad9",
+    "japanese": "ピーピーエイド × 3",
+    "expectedChinese": "ＰＰ单项小补剂 × 3",
+    "actualChinese": "PP单项小补剂 × 3",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 已核对英文字母宽度差异及词条引入PP/HP，原数值和符号不变。"
+  },
+  {
+    "key": "fb4777efc50828abe9999b71b247b373251647cbf415fa613ea4c83f2f085b74",
+    "japanese": "マックスアップ × 1",
+    "expectedChinese": "ＨＰ增强剂 × 1",
+    "actualChinese": "HP增强剂 × 1",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 已核对英文字母宽度差异及词条引入PP/HP，原数值和符号不变。"
+  },
+  {
+    "key": "31aac6641d01d9b5c85efe66d8bcf69b69b04c1c110061b8c4738241793abecd",
+    "japanese": "ちょうおんぱ こうげきで\nてきを こんらんさせる\nことがある",
+    "expectedChinese": "用超声波攻击，有时会使对手混乱。",
+    "actualChinese": "以超声波攻击，有时会让对手混乱。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "79f20b93b5826fccecb3f6aba979816a50b750dcd5bf4d8c71ff47c9a65dd0ca",
+    "japanese": "ゴーゴーゴーグル",
+    "expectedChinese": "ＧＯＧＯ护目镜",
+    "actualChinese": "GOGO护目镜",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 已核对英文字母宽度差异及词条引入PP/HP，原数值和符号不变。"
+  },
+  {
+    "key": "51fb5acbb6841767954c97834bacf099cf12f8e68b2b8299a05b55ea4c44450f",
+    "japanese": "みずを かける どうぐ\nつちに うめた きのみを\nすくすく そだてる",
+    "expectedChinese": "浇水用的道具，可以让埋在土里的树果茁壮成长。",
+    "actualChinese": "浇水用的道具，能让埋在土里的树果茁壮成长。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "76e94027ce88424414e284e724258de61614073469b271d32f4ae6468c3b1b0a",
+    "japanese": "おとうさんの ことば‥‥\nハルカ！ こういうものには",
+    "expectedChinese": "爸爸的话……ハルカ！这种东西……",
+    "actualChinese": "爸爸的话……小遥！这种东西……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "ddf043a7810f276f2bcc72b90fb1166807b0917a732bdcac343d35974ef38307",
+    "japanese": "ハルカ！ こういうものには\nつかいどきが あるんだ！",
+    "expectedChinese": "ハルカ！这种东西要在合适的时候使用！",
+    "actualChinese": "小遥！这种东西要看时机使用！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "27997ca6c4fd6eb22997edb22550680cbf02ac389da64e8f694274c532ed8e46",
+    "japanese": "この トクサネの しゅうへん では\nやせいの ホエルコが けんぶつ できるんだ",
+    "expectedChinese": "在绿岭市附近，可以观察到野生的吼吼鲸。",
+    "actualChinese": "在这座绿岭市附近，可以看到野生的吼吼鲸。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "98b9edd9ea16acbb65ceedf3d471f78f53bdd36cfd6c6ec3cdbfe4d20ad190d7",
+    "japanese": "そーいうのを えーと‥‥\nなんて いったっけ かな‥‥",
+    "expectedChinese": "那个，嗯……那叫什么来着……",
+    "actualChinese": "那种事，呃……叫什么来着……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "480936cfb115dfd4274e9c564c14fda7cfae59257f7511f5d54a83ce68eb4edd",
+    "japanese": "ホエルコ ウオッチング だ！",
+    "expectedChinese": "是观察吼吼鲸！",
+    "actualChinese": "是观赏吼吼鲸！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "24fccc63b0f00cd56b082a2c283ca3f2a9c2f4e211de3dd21a5062499ae77fc1",
+    "japanese": "おかいもの ですね！",
+    "expectedChinese": "是来买东西的吧！",
+    "actualChinese": "您要购物吧！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "22c289580596775625d737949da8235d5f64aefdd4e9f5eb8d39a2f5011ac0c5",
+    "japanese": "かいに きた",
+    "expectedChinese": "来买东西",
+    "actualChinese": "购买",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "66128de4526ba24868c0e5b8ddb2c68863fc5a425cb9130e5b13dfd0908dba92",
+    "japanese": "うりに きた",
+    "expectedChinese": "来卖东西",
+    "actualChinese": "出售",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "2ef5e92ea2e08caf9f1c2181de828d138325640bd17ad9fd5b656e2b8cf60783",
+    "japanese": "スーパーボール より\nつかまえ やすくなった\nとても すごい ボール",
+    "expectedChinese": "比超级球更容易捕捉宝可梦的非常出色的球。",
+    "actualChinese": "比超级球更容易捕捉宝可梦的强力球。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "5233f687410f68eca17bd39056e9454813778432f8bda8b9402d07753ca81787",
+    "japanese": "つかった せんとうちゅう\nこうげきりょくが あがる",
+    "expectedChinese": "在使用后的这场战斗中提高攻击力。",
+    "actualChinese": "使用后在当前战斗中提高攻击力。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "cf676f19aec51380ab72e830ed7a77e2c8511ec8eea81751f32de9d71cedd904",
+    "japanese": "ネットボールと ダイブボールは\nここ トクサネでしか つくっていない",
+    "expectedChinese": "捕网球和潜水球，只在这里绿岭市制造。",
+    "actualChinese": "捕网球和潜水球只在这座绿岭市制造。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "8b9b9a8f35f9cf20ad2f39723b20c21f0ed611aa2e3b9d135098f20d33cb2e3c",
+    "japanese": "ここ トクサネでしか つくっていない\nめずらしい モンスターボール！",
+    "expectedChinese": "只在这里绿岭市制造的稀有精灵球！",
+    "actualChinese": "只在这座绿岭市制造的稀有精灵球！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "67dbe31900dc0bff6169faae9f6954586a995a623f3e38c17d3abc98ef7cc61c",
+    "japanese": "ダイブボールは かいていに いる\nポケモンを つかまえ やすいんだ！",
+    "expectedChinese": "潜水球很容易捕捉海底的宝可梦！",
+    "actualChinese": "潜水球更容易捕捉海底的宝可梦！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "886a047812a5dad38411aab9c510613f6f5427db71ccd6c42ed341c8ffd4394f",
+    "japanese": "かずある スプレーの なかで\nいちばん ながもち するんだ！",
+    "expectedChinese": "在各种喷雾中，它持续的时间最长！",
+    "actualChinese": "在各种喷雾中，它的持续时间最长！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "6dc1a3eddf4126ba0192fa186c82501dbf650a950b28c370884cf309f13371cc",
+    "japanese": "ミナモの なかま から\nホエルコが いなくなった！ って",
+    "expectedChinese": "水静市的伙伴说，吼吼鲸不见了……",
+    "actualChinese": "水静市的朋友说，吼吼鲸不见了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "b34e0e314f0fccabee0d919667be96fe3d831f446fa27627a23e6d2c9fca4b60",
+    "japanese": "ホエルコが いなくなった！ って\nれんらくが あったんだ",
+    "expectedChinese": "有人联络我，说吼吼鲸不见了。",
+    "actualChinese": "收到了“吼吼鲸不见了！”这样的消息。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "7487a26ca56cef1bff3fda60d3c4b0fd186bdbd714183263f2790342f28411bd",
+    "japanese": "いったいぜんたい\nミナモで なにが あったんだろうな？",
+    "expectedChinese": "水静市到底发生了什么事呢？",
+    "actualChinese": "水静市究竟发生了什么事呢？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "9c5578b13808374823b0a08baf3fda2d97febcb010af5a8fdd37daa3d10d5f3b",
+    "japanese": "わしも わかいころは\nポケモン トレーナーとして",
+    "expectedChinese": "我年轻时，也曾作为宝可梦训练家……",
+    "actualChinese": "我年轻的时候，也曾作为宝可梦训练家……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "dc3496eafdae7d29cec17f527764d17f3f18d40409f23738b2b5c89535f52bba",
+    "japanese": "ポケモン トレーナーとして\nせかいじゅうを たび していたのじゃ",
+    "expectedChinese": "曾作为宝可梦训练家周游世界。",
+    "actualChinese": "作为宝可梦训练家，游历了世界各地。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "129259d933c1114c708a5e50e45561b521fe93b3b00760a8f1cd75b25f2a7669",
+    "japanese": "ジジイとなった いまでは\nわかい トレーナーの しょうぶを みるのが",
+    "expectedChinese": "如今成了老头，看年轻训练家对战……",
+    "actualChinese": "如今成了老头子，看年轻训练家的对战……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "8d91bbadca629f8ea45c9e694af4cf8fc5043d5a98a3c9d9f76741a427c33b96",
+    "japanese": "わかい トレーナーの しょうぶを みるのが\nゆいいつの たのしみ じゃ",
+    "expectedChinese": "看年轻训练家对战，是我唯一的乐趣。",
+    "actualChinese": "看年轻训练家的对战，是我唯一的乐趣。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "251b3606af8c448187198bc1822b1d0271d32cfe77a1045dea4780fd6343b770",
+    "japanese": "みずは ふかい あおに そまっている‥‥\nなみのりを つかいますか？",
+    "expectedChinese": "海水呈现深蓝色……要使用冲浪吗？",
+    "actualChinese": "水面染上了深蓝色……要使用冲浪吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "363e969cb6e8bdc47a22ff69c7217925d35ffeea9a77a1d63aed9ec647beae45",
+    "japanese": "レックウザを どうする？",
+    "expectedChinese": "要对レックウザ做什么？",
+    "actualChinese": "要对烈空坐做什么？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "82b755f95fcd22df64fe0c0cf69d8489ec902609949afd546a6421eabaed6178",
+    "japanese": "ならびかえ",
+    "expectedChinese": "交换位置",
+    "actualChinese": "调整顺序",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "0c0010282ec488e8fc3cf8c7eb4d4446c6c889495d6a2991722dd7608aa75884",
+    "japanese": "パソコンを つかえば\nどうぐや ポケモンが ほぞん できるんだ！",
+    "expectedChinese": "使用电脑，就可以寄存道具和宝可梦！",
+    "actualChinese": "使用电脑，就能存储道具和宝可梦！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "7983a9bbf73bacb2ba04a3b1056a4458f88e7719abae55f877bff0204524a21d",
+    "japanese": "かがくの ちからって しびれるーっ！",
+    "expectedChinese": "科学的力量真让人震撼！",
+    "actualChinese": "科学的力量真令人震撼！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "ea5f8619fa181303cb95703ac50beaad574e823891c0c4d139becbc124254e31",
+    "japanese": "ずーっと けんきゅうしつに こもって\nしらべものを しているかと おもえば",
+    "expectedChinese": "本以为他一直待在研究所里做研究……",
+    "actualChinese": "还以为他一直待在研究室里查资料……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "92d3f0bd86139a7907cdd86a93bfc2c2e56bd9ef9aaba8abfa226ab6b2dfbd24",
+    "japanese": "しらべものを しているかと おもえば\nとつぜん のやまに とびだしていく‥‥",
+    "expectedChinese": "本以为他在做研究，却突然跑到野外去了……",
+    "actualChinese": "刚以为他在查资料，转眼就突然跑到山野里去了……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "5cd82a4ee8333ea8456546c92817f2a1ca5b7a8d4f47c78175242d1ed31f4f60",
+    "japanese": "オダマキはかせって いったい\nいつ うちに かえっているんだろう？",
+    "expectedChinese": "小田卷博士到底什么时候回家呢？",
+    "actualChinese": "小田卷博士到底什么时候才回家呢？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "e6bdb78165021a035f2cdb130e341e886b812052c22fa8ca297bfe2eca18e4f9",
+    "japanese": "オダマキはかせは\nポケモンが どこに すんでいるのか",
+    "expectedChinese": "小田卷博士正在调查宝可梦居住在哪里……",
+    "actualChinese": "小田卷博士正在研究宝可梦住在哪里……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "6b013c66dfb93378bd12558bf449d50a6ee68f8bf4221b68e1aa4b3c7e6443f0",
+    "japanese": "ポケモンが どこに すんでいるのか\nぶんぷの ちょうさを なさっています",
+    "expectedChinese": "正在调查宝可梦的栖息分布。",
+    "actualChinese": "正在调查宝可梦栖息在哪里、如何分布。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "5792a84987a37f8edfd2d1991d9572ba1c8c046bd3661de5c3473708d96373ae",
+    "japanese": "ユウキさんは すきな おとうさんの\nおてつだいを なさって いるのですよ",
+    "expectedChinese": "ユウキ正在帮助他喜爱的父亲。",
+    "actualChinese": "小悠在帮自己最喜欢的爸爸工作呢。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "1504e7d33d179da7c0ce922f01446509f886930b0ce2994b417102d5394efd5d",
+    "japanese": "オダマキ『おお ハルカちゃん！",
+    "expectedChinese": "小田卷：“哦，ハルカ！”",
+    "actualChinese": "小田卷：“哦，小遥！”",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "b802528912895ae3cf1ba44442b80af5e6f77fb2f6198917f251352929d13491",
+    "japanese": "ポケモンずかんの ようすを\nみせて くれるのかい？",
+    "expectedChinese": "要让我看看宝可梦图鉴的情况吗？",
+    "actualChinese": "是来让我看看宝可梦图鉴的情况吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "ccc9fb0a63a875da98099379a5899b37de02764cd9b995e9afe2755ca7d7145c",
+    "japanese": "うん？ みせるほど\nポケモンを つかまえて いないのか",
+    "expectedChinese": "嗯？还没捉到足够多的宝可梦来展示吗？",
+    "actualChinese": "嗯？还没捉到足够多、值得展示的宝可梦吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "d4ee1f005276bf8ec2e548a953bad8cd14ab18e7098c98cda7cd26ff538d9c7f",
+    "japanese": "ポケモンに ついて かかれた\nほんが いっぱい ある！",
+    "expectedChinese": "有好多关于宝可梦的书！",
+    "actualChinese": "有很多介绍宝可梦的书！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "1e538f9ffc4e75599a42d4473ef1160ef59e1f2a8d132e49ce7dbd93c3704a63",
+    "japanese": "ポケモンと いっしょに\nぼうけん するのも いいけど",
+    "expectedChinese": "和宝可梦一起冒险当然很好，不过……",
+    "actualChinese": "和宝可梦一起冒险固然很好……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "68cde0cd52c9eff9b45180114cc8b3b2881f181fc04e963763417debe64292c6",
+    "japanese": "たまには おうちに かえって おかあさんに\nげんきな かおを みせてあげてね！",
+    "expectedChinese": "偶尔也回家，让妈妈看看你精神的样子吧！",
+    "actualChinese": "偶尔也要回家，让妈妈看看你精神的样子哦！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "6ac3ec9dea13325e3fc9b2c6575d3cf76e010e1dbedbe01b35cfd262575fcf7d",
+    "japanese": "こころの なかでは きっと\nハルカちゃんの こと",
+    "expectedChinese": "她心里一定在想着ハルカ……",
+    "actualChinese": "在心里，一定很惦记小遥……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "a5391d0f383b30adbb56ace162c15df01a98cf15414f59bac4ec9e85cf212203",
+    "japanese": "ハルカちゃんの こと\nしんぱい してる はずだから‥‥",
+    "expectedChinese": "她一定在担心ハルカ……",
+    "actualChinese": "一定很担心小遥的情况……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "37802016d0b4819f5454dbb803aecb2c853e7fa96030ebea621109afaf62a3b6",
+    "japanese": "あ！ やせいの\nケムッソが とびだしてきた！",
+    "expectedChinese": "啊！野生的ケムッソ跳出来了！",
+    "actualChinese": "啊！野生的刺尾虫出现了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "fcc8ed90f9f70873de46d82434b89a8bc97a70a5f1c758b5f636e6a68949c6f3",
+    "japanese": "ゆけっ！ ラグラージ！",
+    "expectedChinese": "去吧！ラグラージ！",
+    "actualChinese": "上吧！巨沼怪！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "36d5d8e996394dea125cc9d62a3285b067bfcdebeae3aa118e062dd9b0001121",
+    "japanese": "ラグラージの\nマッドショット！",
+    "expectedChinese": "ラグラージ使出了泥巴射击！",
+    "actualChinese": "巨沼怪使出了泥巴射击！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "417c06899926df51ac10661647553abeb975ab720f620cc2b0800a9b79a26d95",
+    "japanese": "こうかは いまひとつの ようだ",
+    "expectedChinese": "好像效果不太好。",
+    "actualChinese": "效果似乎不太好。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "81a1161f6e4419b5a8dee11a596e9b072ad642c36c20a524a9f41823f8cda86b",
+    "japanese": "やせいの ケムッソは たおれた！",
+    "expectedChinese": "野生的ケムッソ倒下了！",
+    "actualChinese": "野生的刺尾虫倒下了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "06d4e016b58714508dfac65d6ec0a51d52a4ee2efa48f473b3e88abd4ce65881",
+    "japanese": "ラグラージは\n15 けいけんちを もらった！",
+    "expectedChinese": "ラグラージ获得了15点经验值！",
+    "actualChinese": "巨沼怪获得了15点经验值！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "1a27385a42bdd77865dd4a4292bfb2c8e2b2f72fe43e25f0e4c639f21f9ea0f0",
+    "japanese": "やせいの ケムッソの\nいとをはく こうげき！",
+    "expectedChinese": "野生的ケムッソ使出了吐丝！",
+    "actualChinese": "野生的刺尾虫使出了吐丝！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "cf4c28558b0fe809097dcdfb0f3d1fa826dbdb19d9140690bd49d2775d312dc9",
+    "japanese": "ヘラクロスの\nすばやさが さがった！",
+    "expectedChinese": "ヘラクロス的速度降低了！",
+    "actualChinese": "赫拉克罗斯的速度降低了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "52e357ba16a507d3fb20bbc0ed922a050322977ce13a5233df3f45f54f0b7c6a",
+    "japanese": "ヘラクロスは\nかわらわりを した！",
+    "expectedChinese": "ヘラクロス使出了劈瓦！",
+    "actualChinese": "赫拉克罗斯使出了劈瓦！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "80080fcdcbfbd264e7a78db2b6051dbd623f52bfb8762b0809bed66ecefab073",
+    "japanese": "カイオーガの あめふらしで\nあめが ふりはじめた！",
+    "expectedChinese": "カイオーガ的降雨特性使天空开始下雨了！",
+    "actualChinese": "盖欧卡的降雨使雨下了起来！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "dfdeceb3b5ce3bec7cba1d2e5e9c212e75851a155a228f916eae0ca55992738d",
+    "japanese": "カイオーガは\nめいそうを した！",
+    "expectedChinese": "カイオーガ使出了冥想！",
+    "actualChinese": "盖欧卡使出了冥想！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "7c1d85b1719a56441cbc53b7ccfec08da20c3b9551d2fbada63881b500ac6176",
+    "japanese": "カイオーガの\nとくこうが あがった！",
+    "expectedChinese": "カイオーガ的特攻提高了！",
+    "actualChinese": "盖欧卡的特攻提高了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "a08ae54c5f76b37454ef953bcafef0fedbc648af7df9e72330064cf7f34200d9",
+    "japanese": "カイオーガの\nとくぼうが あがった！",
+    "expectedChinese": "カイオーガ的特防提高了！",
+    "actualChinese": "盖欧卡的特防提高了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "1a19cde16d80acb1a4ed73014e6bab0a1d2e9d2e613e0e78e252419bc9ed39d6",
+    "japanese": "カイオーガの\nすばやさが さがった！",
+    "expectedChinese": "カイオーガ的速度降低了！",
+    "actualChinese": "盖欧卡的速度降低了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "a8ac8b76bf11c119b2061b7e716474ae1aa2243b9efad4e55ec101bf0ab88bdb",
+    "japanese": "あめが ふりつづいている",
+    "expectedChinese": "雨还在继续下。",
+    "actualChinese": "雨还在持续下着。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "8519fc9f3b4ea4fb1b9f13cb879c7b3e11004ee3b7a0300aece80e96e91c7808",
+    "japanese": "カイオーガは どうする？",
+    "expectedChinese": "カイオーガ要做什么？",
+    "actualChinese": "盖欧卡要做什么？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "6ab237b4b677fb43f08b3513d4f543c65bbb953219b90824ac25e4b02b1925c0",
+    "japanese": "ボスゴドラを どうする？",
+    "expectedChinese": "要对ボスゴドラ做什么？",
+    "actualChinese": "要对波士可多拉做什么？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "e2e1095dc64ce714c28efd318cac29ebc1cb4c23ee8e916d528022932f7b7b57",
+    "japanese": "カイオーガ もういい！\nもどれ！",
+    "expectedChinese": "カイオーガ，够了！回来吧！",
+    "actualChinese": "盖欧卡，已经够了！回来吧！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "3166640928a5d79a2089a9e57dc9d7bd54c140e8ad79bf133dbc167854e1f358",
+    "japanese": "ゆけっ！ ボスゴドラ！",
+    "expectedChinese": "去吧！ボスゴドラ！",
+    "actualChinese": "上吧！波士可多拉！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "0266746bb63469516bee272f50f49e872dcc55d28aa9b426981a0b817f1aee79",
+    "japanese": "トレーナーよ！ おのれと\nポケモンを しんじて すすみたまえ！",
+    "expectedChinese": "训练家啊！相信自己和宝可梦，前进吧！",
+    "actualChinese": "训练家啊！相信自己和宝可梦，勇往直前吧！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "397414d7be55e165200b5b7ba6eab32f6f668fdc8caf2bea5b7cd0bb78280c31",
+    "japanese": "ひでんは たたかっていない ときでも\nポケモンが つかえる わざ！",
+    "expectedChinese": "秘传招式即使不在战斗时，宝可梦也可以使用！",
+    "actualChinese": "秘传招式是宝可梦在战斗之外也能使用的招式！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "2d71d775f0994388a32862e78192bcda58163fdf9af0df0654535bd7c98057dc",
+    "japanese": "いあいぎりを おぼえた ポケモンは\nストーンバッジを もっていれば",
+    "expectedChinese": "学会居合劈的宝可梦，如果拥有岩石徽章……",
+    "actualChinese": "学会居合劈的宝可梦，只要训练家拥有岩石徽章……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "5e3983b321265414bee886d9905c96b2323266da828af407880606f394396501",
+    "japanese": "ストーンバッジを もっていれば\nほそい きを きれるように なるのだよ！",
+    "expectedChinese": "只要拥有岩石徽章，就可以砍断细树！",
+    "actualChinese": "只要拥有岩石徽章，就能砍断细小的树木！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "85236a6cc32263194bf55aaada90fcbfa1e7970154fe35dc421177bdfe959ac7",
+    "japanese": "しかも ひでんマシンは わざマシンと ちがい\nつかっても なくならないぞ！",
+    "expectedChinese": "而且秘传学习器和招式学习器不同，用过后不会消失！",
+    "actualChinese": "而且秘传学习器与招式学习器不同，使用后不会消失！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "86e557d208f8c7098463f944029209ff129474acdb5e383046df4d9ac840dd6a",
+    "japanese": "この カナズミが おおきくなるとき\nおとうさん みんなの ために",
+    "expectedChinese": "卡那兹市发展的时候，爸爸为了大家……",
+    "actualChinese": "卡那兹市扩建时，爸爸为了大家……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "013655a876466adb099c4279f552e5af5d1c9b691f5712606dbe0d849ad6ed43",
+    "japanese": "いあいぎりを つかって\nあたりを きりひらいたんだって！",
+    "expectedChinese": "听说他用居合劈开拓了这一带！",
+    "actualChinese": "据说使用居合劈，开辟了周围的地带！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "c28ea5e4a830998f3f50c9a57f372b0a47ddd43bb1276dd9744a7ecd443dfa77",
+    "japanese": "ここに にゅうがく すれば\nめずらしい ポケモンでも かんたんに",
+    "expectedChinese": "如果进入这所学校，就连稀有的宝可梦也能轻松……",
+    "actualChinese": "只要进入这所学校，连稀有的宝可梦也能轻松地……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "8c2505294a73ce076c7c886b4d45db32bd7b0936401191a1a67ea849d1fb96b8",
+    "japanese": "めずらしい ポケモンでも かんたんに\nつかまえられるように なるのかな？",
+    "expectedChinese": "连稀有的宝可梦，也能轻松捕捉了吗？",
+    "actualChinese": "连稀有的宝可梦，也能轻松捉到吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "574a08e7ed6e2b58d62f9b24eecff8886692106089948578d91ca3ab32031bcc",
+    "japanese": "ジムリーダーに ちょうせん したけど‥‥",
+    "expectedChinese": "我向道馆馆主挑战过，不过……",
+    "actualChinese": "我挑战了道馆馆主，可是……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "ad8284527012a26a19e7ae331cca78b310bfd07ba143cbea6959604aa6a0b696",
+    "japanese": "あたしの ほのおタイプの ポケモンじゃ\nちょっと かつのは たいへんそう‥‥",
+    "expectedChinese": "凭我的火属性宝可梦，看来有点难赢……",
+    "actualChinese": "凭我的火属性宝可梦，想赢似乎有些困难……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "2657f4678076d622de6f836956f5d5e39746fe524db4c04007fbdee5d891bae4",
+    "japanese": "だって ほのおタイプ って\nいわタイプに あいしょうが わるいもの‥‥",
+    "expectedChinese": "因为火属性对上岩石属性不利……",
+    "actualChinese": "因为火属性对岩石属性的相性不好……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "d28b8f7f6ce8435c967a2ef8727733cc99b1e17045ab6ffb31e20c528ea20420",
+    "japanese": "あなた サイクルショップ には\nもう いってみた？",
+    "expectedChinese": "你已经去过自行车店了吗？",
+    "actualChinese": "你去过自行车店了吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "d4e26f83259a5b7163404acc79b6c110009de1adcf4765ae5620ca0470285b37",
+    "japanese": "あそこの ごしゅじんの カゼノさんは\nすごく きまえが いいのよね！",
+    "expectedChinese": "那家店的カゼノ老板非常大方呢！",
+    "actualChinese": "那里的风野老板非常慷慨呢！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "c851319f599f10e0e811359059c652b6e547236a4e8cb355ca98eaf2c3d6cd7d",
+    "japanese": "この まちは とうざい なんぼく に\nみちが つうじて いるから",
+    "expectedChinese": "这个城市的道路通向东西南北，所以……",
+    "actualChinese": "这座城市通往东西南北的道路都连通着……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "d783340d10cf1ea6e8228e51190d5d0ef075b820c6f83e7d73cba71f2527fb75",
+    "japanese": "みちが つうじて いるから\nいろんな ひとが やってきます！",
+    "expectedChinese": "因为道路相通，所以各式各样的人都会来！",
+    "actualChinese": "因为道路四通八达，各种各样的人都会来到这里！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "16ce284a7ed994a859a2d4dcd88338f6d61c10f78148b3ee7c58a90be3ba37de",
+    "japanese": "じてんしゃに のっていても\nやせいの ポケモンは とびだしてくるよ！",
+    "expectedChinese": "就算骑着自行车，野生宝可梦也会跳出来哦！",
+    "actualChinese": "就算骑着自行车，野生宝可梦也会突然出现哦！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "96a17c8bef7fc3c42b78091d286f0b042f66468a978eaac573dec67fbba5e2f6",
+    "japanese": "あまいかおりを うまく つかうと\nポケモンが さそわれて やってくるわね",
+    "expectedChinese": "善用甜甜香气，就会吸引宝可梦过来。",
+    "actualChinese": "巧妙使用甜甜香气，就能吸引宝可梦过来呢。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "b6c73d9debf91b6eb687072a0b08dd606d17df37d1321fba53e238542917db19",
+    "japanese": "なみのりを おぼえた ポケモンが いれば\nうみや かわを わたって いけちゃうの！",
+    "expectedChinese": "只要有学会冲浪的宝可梦，就能渡过海洋和河流！",
+    "actualChinese": "有学会冲浪的宝可梦，就能渡过海洋和河流！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "cb3e0d729de7f5c07de2a6013992196328c3d7501cba64e81c95e936b777b626",
+    "japanese": "おや あんた\nおんせんが すき なのかい？",
+    "expectedChinese": "哎呀，你喜欢温泉吗？",
+    "actualChinese": "哎呀，你也喜欢温泉吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "ff899c3baf42f54ab83f47ca63284479a2248b5f318f59f49b965a502267a55c",
+    "japanese": "まだ わかいのに めずらしいねえ‥‥",
+    "expectedChinese": "还这么年轻，真少见啊……",
+    "actualChinese": "年纪轻轻就喜欢温泉，真少见啊……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "06469936df8a92817a0d3dc8815ab950b8a580763ed97acdd50c8f89f27f0843",
+    "japanese": "あたし アスナさん みたいに\nすてきで つよい ジムリーダーに なるため",
+    "expectedChinese": "为了成为像亚莎那样出色又强大的道馆馆主……",
+    "actualChinese": "为了成为像亚莎小姐那样出色又强大的道馆馆主……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "af5083cdbada0289fef3f1b72bb04ec852446d0d32b53f0f3b3553a293cc2318",
+    "japanese": "すてきで つよい ジムリーダーに なるため\nまいにち おんせんに はいってるの！",
+    "expectedChinese": "为了成为出色又强大的道馆馆主，我每天都泡温泉！",
+    "actualChinese": "为了成为出色又强大的道馆馆主，我每天都来泡温泉！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "cbc6e4accce262f8783d97fcbfbb6877bb86749294aa6d79a3bfb4b69a9cda23",
+    "japanese": "うーむ‥‥ キンセツに いきたいのだが‥‥\nこの だんさを おりてしまうと",
+    "expectedChinese": "嗯……想去紫堇市……可要是跳下这个台阶……",
+    "actualChinese": "唔……我想去紫堇市……可一旦走下这处落差……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "0b37fd37a9e37c613bed71545fce17b9a9fa43a065a3920b757c1df9a267eee0",
+    "japanese": "この だんさを おりてしまうと\nフエンに もどるのは たいへん だよな‥‥",
+    "expectedChinese": "要是跳下这个台阶，回来釜炎镇就麻烦了……",
+    "actualChinese": "一旦下了这个台阶，要回釜炎镇就很麻烦了……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "d1fa36b3f6a9b0700cc4a28cfe2fa5c9111dd5d290e5e81374fd776a3e9b0f6f",
+    "japanese": "こんな デコボコしたところ\nじてんしゃで じょうずに のぼっていく",
+    "expectedChinese": "这么凹凸不平的地方，有人能骑自行车熟练地爬上去……",
+    "actualChinese": "这种崎岖不平的地方，也有人能骑着自行车灵巧地爬上去……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "c054377ad41de6cdb4f09780598ec495b0465ebf575eee93601ac0321f2545e9",
+    "japanese": "じてんしゃで じょうずに のぼっていく\nひとも いるのよ！",
+    "expectedChinese": "也有人能骑自行车熟练地爬上去呢！",
+    "actualChinese": "也有人能骑着自行车灵巧地爬上去哦！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "d47f00ce0baf972c79de6b3cefc1a396b3c74fddaf306af226d2bcdc378f87c7",
+    "japanese": "ね！ ね！ すごいでしょ！\nみずの うえに おうちが たってるの！",
+    "expectedChinese": "喂！喂！很厉害吧！房子建在水面上！",
+    "actualChinese": "看！看！很厉害吧！房子建在水面上呢！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "de25326da4cb20c514de8fdc4b83d95aaec838d34db8c04d7baa682a6c5d6dd2",
+    "japanese": "ぼく ここで うまれたんだよ！",
+    "expectedChinese": "我就是在这里出生的！",
+    "actualChinese": "我就是在这里出生的哦！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "311c43c37519caa742ecfd6539317302711b4a195688ec2867463d075d56e83e",
+    "japanese": "キナギの にんげんは\nみんな つりをしたり もぐったりして",
+    "expectedChinese": "暮水镇的人，大家都靠钓鱼和潜水……",
+    "actualChinese": "暮水镇的人们，大家都靠钓鱼、潜水……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "32c36597b49aee9bc8e4d246cb538cfbd84c1f0b5d2b589a2c8a04447de26fac",
+    "japanese": "みんな つりをしたり もぐったりして\nせいかつ してるんだな",
+    "expectedChinese": "大家都是靠钓鱼和潜水生活的。",
+    "actualChinese": "大家都靠钓鱼、潜水过日子呢。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "62fa96bb6b701a24fe2b80b56c0a389b219fe19faa8609c11132dbcd4c144363",
+    "japanese": "ホウエンちほう には\nいわ‥‥ こおり‥‥ はがね‥‥",
+    "expectedChinese": "在丰缘地区，岩石……冰……钢……",
+    "actualChinese": "在丰缘地区，岩石……冰……钢铁……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "7364ca5f32f92d2c011414d13d49464df924e7a448c8a0c88f07654bd40f0b2b",
+    "japanese": "それぞれの ちからを つかさどる\n3びきの ポケモンが",
+    "expectedChinese": "掌管各种力量的3只宝可梦……",
+    "actualChinese": "有3只宝可梦，分别掌管着这些力量……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "3ae2e5865a6b826171ece94631bd4ec4caf7030b36a17d9ebefd601775d72a6e",
+    "japanese": "3びきの ポケモンが\nそれぞれ どこかの どうくつに いる‥‥",
+    "expectedChinese": "3只宝可梦，分别住在某处洞窟里……",
+    "actualChinese": "3只宝可梦分别住在某处的洞窟里……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "2ef0ebff364f999ac17c9110dfba64d28fa0391c56dec15bf70cd0241e9176d9",
+    "japanese": "おれ ちいさな ころに\nそんな はなしを きいたことが あるよ",
+    "expectedChinese": "我小时候听过这样的传说。",
+    "actualChinese": "我小时候听过这样的故事。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "237e063be879bd19fdae72b7e1879c35dcb9816aac6a422d3e942b4dd7facbfb",
+    "japanese": "おじいちゃんが よく いっていたけど\nいまだに なんのことだか わからないわ",
+    "expectedChinese": "爷爷以前常这么说，但我到现在还是不懂是什么意思。",
+    "actualChinese": "爷爷常常这么说，但至今我也不知道是什么意思。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "b7cff9622249ed0667ce51609f234146734b565f569d5b8aae359d2dcdc6d57d",
+    "japanese": "ようこそ チャレンジャー！\nおれは してんのうの カゲツ",
+    "expectedChinese": "欢迎，挑战者！我是四天王花月。",
+    "actualChinese": "欢迎你，挑战者！我是四天王花月。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "6d2d6cfc93fe67e7f8e39839d02c26325ce3dc448d1f0be8fd467d3ae922d213",
+    "japanese": "うーん いい かお してるな\nなかなか たのしませて くれそうだぞ！",
+    "expectedChinese": "嗯，神情不错！看来能让我好好享受一番！",
+    "actualChinese": "嗯，你的神情不错，看来能让我好好享受一场！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "6ceecc6480b9e8a34765601b93d0d5b20c8256ec80477224f0ee77686461212c",
+    "japanese": "なかなか たのしませて くれそうだぞ！\nいいぞ！ いい かんじだぞ！",
+    "expectedChinese": "看来能让我好好享受一番！不错！很有感觉！",
+    "actualChinese": "看来能让我好好享受一场！不错！感觉很好！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "b37812348335a587b8497104af2c60d053e4a9b44ba39103039490f6fe3ddfb1",
+    "japanese": "よーし！ おれと おまえ とで\nポケモン リーグでしか できない",
+    "expectedChinese": "好！你和我一起，只有在宝可梦联盟才能做到的……",
+    "actualChinese": "好！就让我和你享受一场只有在宝可梦联盟才能……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "e75e23685cc878877ef80fb3e4eed7505ca52abbc6f81f7ceff249fd43224e64",
+    "japanese": "ポケモン リーグでしか できない\nたたかいを たのしむと しようぜ！！",
+    "expectedChinese": "来享受只有宝可梦联盟才有的对战吧！",
+    "actualChinese": "让我们享受只有在宝可梦联盟才能体验的战斗吧！！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "34854b91c248ec1c63ff7ad8e3f55895cfb56966ba9b0b1a2ebbfa9a3314a270",
+    "japanese": "してんのうの カゲツが\nしょうぶを しかけてきた！",
+    "expectedChinese": "四天王花月发起了挑战！",
+    "actualChinese": "四天王 花月前来挑战！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "3fd71101f2ca7c976bf3738bbcf1bf8d400bdcaa5889292d85177ae506cdc8d7",
+    "japanese": "してんのうの カゲツは\nグラエナを くりだした！",
+    "expectedChinese": "四天王花月派出了グラエナ！",
+    "actualChinese": "四天王 花月派出了大狼犬！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "4c64a9376db20ed12e9c9311e3260a9b00ccac91730f6a15c348530ddb3c6000",
+    "japanese": "ゆけっ！ カイオーガ！",
+    "expectedChinese": "去吧！カイオーガ！",
+    "actualChinese": "上吧！盖欧卡！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "6ddafb5a6fe3cfef09f86c4231903b7e7afd22a3a020124dd9e33902655bca11",
+    "japanese": "あいての グラエナの いかくで\nカイオーガの こうげきりょくが さがった！",
+    "expectedChinese": "对方グラエナ的威吓使カイオーガ的攻击力降低了！",
+    "actualChinese": "对手的大狼犬的威吓使盖欧卡的攻击降低了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "030fb5b8869aee3f23a06d1adf3d23292003a66eca13ef1d5bc0f55eab1aaa77",
+    "japanese": "しかし あいての グラエナの\nこうげきは はずれた！",
+    "expectedChinese": "但是对方グラエナ的攻击没有命中！",
+    "actualChinese": "但是，对手的大狼犬的攻击没有命中！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "c36e47bff0e7a7d324fed26cfad91ac30ecccc2c73c6876fe2a5e99fe0e1f281",
+    "japanese": "あいての グラエナの\nすなかけ！",
+    "expectedChinese": "对方グラエナ使出了泼沙！",
+    "actualChinese": "对手的大狼犬使出了泼沙！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "cfef9181ffbfac547dea4aa9723f6873ebf83afbc152a1f708264ae3ac8eaa8e",
+    "japanese": "カイオーガの\nめいちゅうりつが さがった！",
+    "expectedChinese": "カイオーガ的命中率降低了！",
+    "actualChinese": "盖欧卡的命中率降低了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "a4e025c64665a58b7732577899080d5737a438c6972769d68d8037d3ac821d5f",
+    "japanese": "カイオーガの\nなみのり！",
+    "expectedChinese": "カイオーガ使出了冲浪！",
+    "actualChinese": "盖欧卡使出了冲浪！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "26250e84bd3898e348495a45c845f674ea13d912ef51bf76d39ac1d214005714",
+    "japanese": "あいての グラエナは たおれた！",
+    "expectedChinese": "对方グラエナ倒下了！",
+    "actualChinese": "对手的大狼犬倒下了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "8739a719e915240b1c573e2d924829824372c51f3cd35e26189d0d6e65dc9ffd",
+    "japanese": "カイオーガは\n1261 けいけんちを もらった！",
+    "expectedChinese": "カイオーガ获得了1261点经验值！",
+    "actualChinese": "盖欧卡获得了1261点经验值！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "c93e843b4e4e21580a7fd6c5e4eb33386e521b59b41e8b192111bd0fcfb8c6d8",
+    "japanese": "してんのうの カゲツは\nノクタスを くりだそうと している",
+    "expectedChinese": "四天王花月即将派出ノクタス。",
+    "actualChinese": "四天王 花月正准备派出梦歌仙人掌。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "fb29475815567af64ffdfcc09721a18e2d08237b757e6911d6ba827e6b98dbe6",
+    "japanese": "ハルカも ポケモンを\nいれかえますか？",
+    "expectedChinese": "ハルカ也要替换宝可梦吗？",
+    "actualChinese": "小遥也要替换宝可梦吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "df0c55dc0de12bf719e4f60d3fe4b4b3b1364bb3a75094ceede8cecd00056db6",
+    "japanese": "カイオーガの\nれいとうビーム！",
+    "expectedChinese": "カイオーガ使出了冰冻光束！",
+    "actualChinese": "盖欧卡使出了冰冻光束！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "589764fde1a2b12381cfc0baa204e0596bccf768077a065bec5b6af03f115e89",
+    "japanese": "あいての ノクタスは たおれた！",
+    "expectedChinese": "对方ノクタス倒下了！",
+    "actualChinese": "对手的梦歌仙人掌倒下了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "6df5ec73d6161929795afb67616da004b0155acde9858ec9a3da967f8c26a786",
+    "japanese": "カイオーガは\n1744 けいけんちを もらった！",
+    "expectedChinese": "カイオーガ获得了1744点经验值！",
+    "actualChinese": "盖欧卡获得了1744点经验值！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "e7e7569470f494f3be3356dae6bd84a1d9eb2453726f37bce7480b9ccb6e1366",
+    "japanese": "してんのうの カゲツは\nサメハダーを くりだそうと している",
+    "expectedChinese": "四天王花月即将派出サメハダー。",
+    "actualChinese": "四天王 花月正准备派出巨牙鲨。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "01f7d007495bcc225b7dc71aa2b9f9092c9cb44553c378ad9d423e86237cebaa",
+    "japanese": "あいての サメハダーは たおれた！",
+    "expectedChinese": "对方サメハダー倒下了！",
+    "actualChinese": "对手的巨牙鲨倒下了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "f17e80083393c5cb3e74da5215064b5c6804a9369790ef7466a5577d167b09d0",
+    "japanese": "カイオーガは\n1800 けいけんちを もらった！",
+    "expectedChinese": "カイオーガ获得了1800点经验值！",
+    "actualChinese": "盖欧卡获得了1800点经验值！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "6cbf7bd49ba0a9a54204367f086a003e0d1a8bcda5c07482003c6589db88bdd3",
+    "japanese": "してんのうの カゲツは\nアブソルを くりだそうと している",
+    "expectedChinese": "四天王花月即将派出アブソル。",
+    "actualChinese": "四天王 花月正准备派出阿勃梭鲁。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "0f5cbb7ade0eb9e6a3fde845844fdcc6245440bf7325dbd268753abce8344ba3",
+    "japanese": "あいての アブソルは\nあいての でかたを うかがっている！",
+    "expectedChinese": "对方アブソル正在观察对手的动向！",
+    "actualChinese": "对手的阿勃梭鲁正在观察对手的动向！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "60e6409708d31ebc6ad23a1427858dc8386a87471e1cd2a43bb7c456bcffd64d",
+    "japanese": "あいての アブソルは たおれた！",
+    "expectedChinese": "对方アブソル倒下了！",
+    "actualChinese": "对手的阿勃梭鲁倒下了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "9425769ed8895c043ef9195bdc78fe40b0fbcc6311ffd8e34110d9adefe7c058",
+    "japanese": "カイオーガは\n1827 けいけんちを もらった！",
+    "expectedChinese": "カイオーガ获得了1827点经验值！",
+    "actualChinese": "盖欧卡获得了1827点经验值！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "ca1c7549789cd45e1af055f1f0958c15539fee772b7b1c2ac13bbf750da9b7ec",
+    "japanese": "してんのうの カゲツは\nダーテングを くりだそうと している",
+    "expectedChinese": "四天王花月即将派出ダーテング。",
+    "actualChinese": "四天王 花月正准备派出狡猾天狗。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "5863425adf18c5a83a5ee48ffa5c40acbbda0f5f74200511bd96f273ef09f7c7",
+    "japanese": "あいての ダーテングの\nねこだまし！",
+    "expectedChinese": "对方ダーテング使出了击掌奇袭！",
+    "actualChinese": "对手的狡猾天狗使出了击掌奇袭！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "930f7e08acb60a636c30125ff2176c5eb91e0a6d34bd8d47bc5cb3e87f7babbb",
+    "japanese": "カイオーガは ひるんで\nうごけなかった！",
+    "expectedChinese": "カイオーガ畏缩了，无法行动！",
+    "actualChinese": "盖欧卡畏缩了，无法行动！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "b24b742b2482a419a9c861d5a7194a882140d13b2f6b0c699e7e2263350c53cc",
+    "japanese": "しかし カイオーガの\nこうげきは はずれた！",
+    "expectedChinese": "但是カイオーガ的攻击没有命中！",
+    "actualChinese": "但是，盖欧卡的攻击没有命中！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "ee69b3d590ab80534141535a4a6cbdca04029cb7c9a68f256f37b889f3240ec0",
+    "japanese": "あいての ダーテングは\nかげぶんしんを した！",
+    "expectedChinese": "对方ダーテング使出了影子分身！",
+    "actualChinese": "对手的狡猾天狗使出了影子分身！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "a825a6c762c4b48f7329e479ec2d573af69cacf319d90411db29ccc2ac8cb9d1",
+    "japanese": "あいての ダーテングの\nかいひりつが あがった！",
+    "expectedChinese": "对方ダーテング的闪避率提高了！",
+    "actualChinese": "对手的狡猾天狗的闪避率提高了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "d3f05923e924b15d74f48c06860e845da3ca18d4b50b7a903e4ca3394fcf4f3c",
+    "japanese": "あいての ダーテングは たおれた！",
+    "expectedChinese": "对方ダーテング倒下了！",
+    "actualChinese": "对手的狡猾天狗倒下了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "c3f83214463e8ee4b2a2543b0a03616681b9e65453820cb2e3eec965fec912a2",
+    "japanese": "してんのうの カゲツ\nとの しょうぶに かった！",
+    "expectedChinese": "战胜了四天王花月！",
+    "actualChinese": "战胜了四天王 花月！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "a5b47a0d3581c7142f412f12e21c72679067a7e089fe4994d0d46bedc5b7fe6a",
+    "japanese": "おやおや まけちまったよ\nまっ たのしんだから いいんだけどよ",
+    "expectedChinese": "哎呀，我输了。不过玩得很开心，倒也不错。",
+    "actualChinese": "哎呀，我输了。不过玩得很开心，也无所谓啦。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "77a7e09bc68d8d7033180d1f1ab1fde37ed04547e7f26972afc4abf0d7b75a71",
+    "japanese": "ハルカは しょうきんとして\n4900円 てにいれた！",
+    "expectedChinese": "ハルカ得到了4900元奖金！",
+    "actualChinese": "小遥获得了4900元奖金！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "618d1692f65160ab9e73263512db93adc8bc4d142f726de3a1f6fba393a7a747",
+    "japanese": "まけた おれから ひとこと",
+    "expectedChinese": "让我这个输家说一句。",
+    "actualChinese": "让我这个失败者说一句。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "09b672dab6ac049e37469be43117ca93de075918002f0a50d67b98c22fe542e9",
+    "japanese": "おまえなら もっと さきに すすめるぜ\nさあ つぎの へやに いって",
+    "expectedChinese": "你的话一定能继续前进。来，去下一个房间……",
+    "actualChinese": "凭你的实力还能走得更远。来，去下一个房间……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "9fda9e72b1e1e411d1af9e13778bba419a66c7ffe9cdf553d544c3e3b8bf1651",
+    "japanese": "さあ つぎの へやに いって\nたたかいを たのしんで きなよ！",
+    "expectedChinese": "来，去下一个房间享受对战吧！",
+    "actualChinese": "来，去下一个房间，好好享受战斗吧！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "2bde6b0bce3a4340880fed90f0e0f9a896123f82bdd8042be58b95cfa4b6a2c0",
+    "japanese": "おくりびやまで しゅぎょう するうちに\nゴーストタイプの ポケモンと きもちを",
+    "expectedChinese": "在送神山修行的过程中，我和幽灵属性宝可梦的心意……",
+    "actualChinese": "在送神山修行的过程中，我与幽灵属性宝可梦的心意……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "5cad3f8aed14cd2890d45b8af87e267177610c681bb7b804e2d957e55d4edb59",
+    "japanese": "ゴーストタイプの ポケモンと きもちを\nかよわせる ことが できるように なったの",
+    "expectedChinese": "我能够和幽灵属性的宝可梦心意相通了。",
+    "actualChinese": "我变得能够与幽灵属性的宝可梦心意相通了。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "a398adb57f4ae69d29b00d9ffeeffe848fc44084ad976107f1afec94da18de81",
+    "japanese": "そう アタシと ポケモンの きずな\nとっても つよいんだ！",
+    "expectedChinese": "没错，我和宝可梦之间的羁绊非常深！",
+    "actualChinese": "没错，我和宝可梦之间的羁绊非常强！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "90c3143b175c613236b9ac711ae962f298001ff1fb90a3620e06b6befdae4678",
+    "japanese": "そんな アタシの ポケモンたちに\nダメージを あたえる ことが できるか",
+    "expectedChinese": "能不能对我的这些宝可梦造成伤害呢……",
+    "actualChinese": "能不能对我的这些宝可梦造成伤害……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "d11be11811eefb8487e4b476ddaf59ed04514534c23ac1332d376e0e3be36b33",
+    "japanese": "ダメージを あたえる ことが できるか\nためして ごらんよ！",
+    "expectedChinese": "试试看能不能造成伤害吧！",
+    "actualChinese": "能不能造成伤害，就来试试看吧！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "9377fbad56c6989262d2c14199d71e0169ad9f21b4584849d54f2628dc1e20c9",
+    "japanese": "してんのうの フヨウが\nしょうぶを しかけてきた！",
+    "expectedChinese": "四天王芙蓉发起了挑战！",
+    "actualChinese": "四天王 芙蓉前来挑战！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "9bb0332e599934e3a16bb6790ae8ec9d97424ff3bc03ccfa9cbfbe9aa2c0f291",
+    "japanese": "あいての サマヨールの\nあやしいひかり！",
+    "expectedChinese": "对方サマヨール使出了奇异之光！",
+    "actualChinese": "对手的彷徨夜灵使出了奇异之光！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "c0b89252364893f649bd3f9339c9b3ec9fd678f85b31aa680bfec404d14e5ecb",
+    "japanese": "カイオーガは\nこんらんした！",
+    "expectedChinese": "カイオーガ混乱了！",
+    "actualChinese": "盖欧卡混乱了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "ada77313de10d5ae80aba4343762803b4974eff57438b12ecfbb57af7b5c276f",
+    "japanese": "カイオーガの たいりょくが\n17 かいふくした",
+    "expectedChinese": "カイオーガ恢复了17点体力。",
+    "actualChinese": "盖欧卡的体力恢复了17点。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "f99ad91ea082a319fe83eccc8428aae0815ec6a313f4aca239be1b8c2286e76e",
+    "japanese": "あいての サマヨールの\nシャドーパンチ！",
+    "expectedChinese": "对方サマヨール使出了暗影拳！",
+    "actualChinese": "对手的彷徨夜灵使出了暗影拳！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "de1a669bef99bbb3276931355257c9ea96a8adcf75365d3e3e8aaf4f8684ae1e",
+    "japanese": "あいての サマヨールの\nのろい こうげき！",
+    "expectedChinese": "对方サマヨール使出了诅咒！",
+    "actualChinese": "对手的彷徨夜灵使出了咒术！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "8d8b5577abf69e8044d0171b9caea5dda24db1dce6ee0a0cdd044d062566044f",
+    "japanese": "あいての サマヨールは じぶんの たいりょくを\nけずって カイオーガに のろいを かけた！",
+    "expectedChinese": "对方サマヨール削减自己的体力，向カイオーガ施加了诅咒！",
+    "actualChinese": "对手的彷徨夜灵削减自己的体力，对盖欧卡施加了诅咒！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "970bd339054532d67adf14f722e81713c923f0c4d92ae23c0cd3508f1f87c4c6",
+    "japanese": "カイオーガは\nのろわれている！",
+    "expectedChinese": "カイオーガ受到了诅咒！",
+    "actualChinese": "盖欧卡正受到诅咒！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "ba59deef67ba15eb6588ea3b588f6ce846307532d8ed39e3ec6405092eb9f233",
+    "japanese": "あいての サマヨールは たおれた！",
+    "expectedChinese": "对方サマヨール倒下了！",
+    "actualChinese": "对手的彷徨夜灵倒下了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "d5a9088ed6e83b076c7ffa98ac06233faef86329d023bbe28ef0816b76e83da6",
+    "japanese": "カイオーガは\n1840 けいけんちを もらった！",
+    "expectedChinese": "カイオーガ获得了1840点经验值！",
+    "actualChinese": "盖欧卡获得了1840点经验值！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "d71b42131bf7403581f4613d54b4840b983220ad6728a219aa6e36492be5b9db",
+    "japanese": "してんのうの フヨウは\nジュペッタを くりだそうと している",
+    "expectedChinese": "四天王芙蓉即将派出ジュペッタ。",
+    "actualChinese": "四天王 芙蓉正准备派出诅咒娃娃。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "351580ac80105b7e1fc226888eaa1c719d4a81fe5d12a616519badbd432ed685",
+    "japanese": "あいての ジュペッタは たおれた！",
+    "expectedChinese": "对方ジュペッタ倒下了！",
+    "actualChinese": "对手的诅咒娃娃倒下了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "36210a07686e2de6dca6d25eff5408a31579726392a77af9fbb575b672a49b66",
+    "japanese": "してんのうの フヨウは\nヤミラミを くりだした！",
+    "expectedChinese": "四天王芙蓉派出了ヤミラミ！",
+    "actualChinese": "四天王 芙蓉派出了勾魂眼！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "e6630e01f6733c818bd259aded3b3d01046651ecdc42320964dbce393d09c284",
+    "japanese": "カイオーガ よくやった！\nもどれ！",
+    "expectedChinese": "カイオーガ，干得好！回来吧！",
+    "actualChinese": "盖欧卡，干得好！回来吧！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "8c6ee72b478190e72aa801c8d746677a33da45041da41afaaa3de0ac44ed94bc",
+    "japanese": "ゆけっ！ レックウザ！",
+    "expectedChinese": "去吧！レックウザ！",
+    "actualChinese": "上吧！烈空坐！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "e006614ceff528e604f7b0a57c3f2e9fd7bfb425584a89867b0f62a7ba1cb297",
+    "japanese": "レックウザは\nそらたかく とびあがった！",
+    "expectedChinese": "レックウザ飞上了高空！",
+    "actualChinese": "烈空坐飞向了高空！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "e0a1543734371bdc18b6aacb827e94909db6e3e51788da029fb7c4b3ef108894",
+    "japanese": "しかし あいての ジュペッタの\nこうげきは はずれた！",
+    "expectedChinese": "但是对方ジュペッタ的攻击没有命中！",
+    "actualChinese": "但是，对手的诅咒娃娃的攻击没有命中！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "2d5fe9c7ce91322a220b53f0cbf8175200ccb97564d1e02d73f4369a3d3dc1c4",
+    "japanese": "レックウザの\nそらをとぶ こうげき！",
+    "expectedChinese": "レックウザ使出了飞翔！",
+    "actualChinese": "烈空坐使出了飞翔！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "5be8b39cc4212968aec25d2bd1f6d3e3595fb135865541a01aa772833edffd20",
+    "japanese": "レックウザは\n1879 けいけんちを もらった！",
+    "expectedChinese": "レックウザ获得了1879点经验值！",
+    "actualChinese": "烈空坐获得了1879点经验值！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "7626f7bc4f79b2f0d014771c90f2ac3e8c11cd2e884c39836cb37e66198b13bf",
+    "japanese": "してんのうの フヨウは\nサマヨールを くりだそうと している",
+    "expectedChinese": "四天王芙蓉即将派出サマヨール。",
+    "actualChinese": "四天王 芙蓉正准备派出彷徨夜灵。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "fc44f2c13a1eefcf9f008aba5b48776b5e12f37392336cabedadadb43c7f876e",
+    "japanese": "あいての サマヨールの\nれいとうビーム！",
+    "expectedChinese": "对方サマヨール使出了冰冻光束！",
+    "actualChinese": "对手的彷徨夜灵使出了冰冻光束！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "e678a4766884090634797f24d35bfd1efa2fa6542a0b3b9d973af60ac5ffdcee",
+    "japanese": "しかし あいての サマヨールの\nこうげきは はずれた！",
+    "expectedChinese": "但是对方サマヨール的攻击没有命中！",
+    "actualChinese": "但是，对手的彷徨夜灵的攻击没有命中！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "8cd113771d95d3d60e5c23fe3a8c8e3ffebe4e109883128f242b72f92049cca7",
+    "japanese": "レックウザは\nこおりづけになった！",
+    "expectedChinese": "レックウザ被冰冻了！",
+    "actualChinese": "烈空坐被冰冻了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "15f918d67e2f42fff79314abd71ee675e9a8449cdf80b7c3607baba1b8690bcf",
+    "japanese": "レックウザの たいりょくが\n91 かいふくした",
+    "expectedChinese": "レックウザ恢复了91点体力。",
+    "actualChinese": "烈空坐的体力恢复了91点。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "0156f12aaffbfa439667cd0f8415c82f623efe90006a48a3b9c2faad21483849",
+    "japanese": "レックウザは\nこんらんした！",
+    "expectedChinese": "レックウザ混乱了！",
+    "actualChinese": "烈空坐混乱了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "57c5d42a5af46b0183f9933acbde8714495bb37942ee6c3f396e963ee470c8e2",
+    "japanese": "レックウザは\nこんらんしている！",
+    "expectedChinese": "レックウザ正在混乱中！",
+    "actualChinese": "烈空坐正在混乱中！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "7ee0d4d758f5285959522f5c31edc827c5420f4d4fe74772aca4d6b316ba3b98",
+    "japanese": "レックウザは\nねむるを つかった！",
+    "expectedChinese": "レックウザ使用了睡觉！",
+    "actualChinese": "烈空坐使出了睡觉！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "51f5c427f731bf4da18e2204a66d2cb8043103d93c51653cf983d32427d461de",
+    "japanese": "しかし レックウザの\nたいりょくは まんたんだ！",
+    "expectedChinese": "但是レックウザ的体力是满的！",
+    "actualChinese": "但是，烈空坐的体力已经全满！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "48a5b11796e20281e7a9794634e94e14935cb0695ffad409f6cfdbbde1a4926f",
+    "japanese": "レックウザの\nこんらんが とけた！",
+    "expectedChinese": "レックウザ解除了混乱！",
+    "actualChinese": "烈空坐的混乱解除了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "5f5fd6a5e581910b55f9a98f797ada191448228a68d7b50170d3acae1f53889e",
+    "japanese": "レックウザの\nげきりん！",
+    "expectedChinese": "レックウザ使出了逆鳞！",
+    "actualChinese": "烈空坐使出了逆鳞！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "71308c2cf8cc7f9baaa12b9bc4c8d47091e430ae3f35c7ac10c24a26624353b6",
+    "japanese": "レックウザは\n1956 けいけんちを もらった！",
+    "expectedChinese": "レックウザ获得了1956点经验值！",
+    "actualChinese": "烈空坐获得了1956点经验值！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "8080a4dc5e3d271ac915b765a391df7ac33a946aa6465efff8443e2fc0bf6158",
+    "japanese": "してんのうの フヨウ\nとの しょうぶに かった！",
+    "expectedChinese": "战胜了四天王芙蓉！",
+    "actualChinese": "战胜了四天王 芙蓉！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "1024984868737df6e95722ab7dc13345f5a1360addf91abbfa7ef6d71bda9af6",
+    "japanese": "あーあ\nまけちゃった",
+    "expectedChinese": "啊……输了。",
+    "actualChinese": "啊啊，输掉了。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "90f53590322a6cbc754e2e773605fbd92f57cf38fc4dfe9b97553f4af3139425",
+    "japanese": "ハルカは しょうきんとして\n5100円 てにいれた！",
+    "expectedChinese": "ハルカ得到了5100元奖金！",
+    "actualChinese": "小遥获得了5100元奖金！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "82b4f55ea1f6d67e6b5cade4881cec6af5f015b057cf25d16d1df05f68bc4fcb",
+    "japanese": "あなたと ポケモンとの あいだにも\nたしかな きずなが あったのね",
+    "expectedChinese": "你和宝可梦之间，也有着确实的羁绊呢。",
+    "actualChinese": "原来你和宝可梦之间，也有着牢固的羁绊呢。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "23f7de79ed9ac13d0475ba2edba108ffca03db1700f109a09e9565d515c386e9",
+    "japanese": "それが わからなかった\nアタシが まけたのは とうぜん",
+    "expectedChinese": "没有看出这一点的我，输了也是理所当然的。",
+    "actualChinese": "我没能看出这一点，输掉也是理所当然的。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "2c312bbcc927cffe02f36d52458a0c053303f1a65a4257082e623bc96ce84dd7",
+    "japanese": "ウン あなたたちの きずなが\nどこまで つうじるか みてみたいな",
+    "expectedChinese": "嗯，真想看看你们的羁绊能走到什么地步。",
+    "actualChinese": "嗯，我想看看你们的羁绊究竟能走到哪里。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "3905cf39cf309daa0df70225718398dea60445e544b4dd684f156437d850d87f",
+    "japanese": "どこまで つうじるか みてみたいな\nつぎの へやに すすみなよ",
+    "expectedChinese": "真想看看能走到什么地步。去下一个房间吧。",
+    "actualChinese": "想看看你们能走多远，去下一个房间吧。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "be2e5e88fbc5588fc0f21fe9ee3c24f0c2385e87bdc0776e0d8dba2bc27d3b44",
+    "japanese": "「ハルカの いえ」",
+    "expectedChinese": "“ハルカ的家”",
+    "actualChinese": "“小遥的家”",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "3f2cd712a62fadc65e3f0223e2d8f9b692401923f39bdbaabb70623f7abaee45",
+    "japanese": "ハルカは\nスーパーボールを つかった！",
+    "expectedChinese": "ハルカ使用了超级球！",
+    "actualChinese": "小遥使用了超级球！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "0e2a60f662146351e2ca03f2a8b1cf71ee8de406a758f7ba625bb1e608b1dcd0",
+    "japanese": "おしい！\nあと ちょっとの ところだったのに！",
+    "expectedChinese": "真可惜！就差那么一点！",
+    "actualChinese": "可惜！明明只差一点点了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "c90bf1640cffa38168d8d24607611f381263b24d13a5cb01bf036ccb4b95b434",
+    "japanese": "やせいの ジグザグマの\nなきごえ こうげき！",
+    "expectedChinese": "野生的ジグザグマ使出了叫声！",
+    "actualChinese": "野生的蛇纹熊使出了叫声！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "0dd7ed8027c29df96e21a190594d3e27694a54b63bc84663466b1378524e297d",
+    "japanese": "ラグラージの\nこうげきりょくが さがった！",
+    "expectedChinese": "ラグラージ的攻击力降低了！",
+    "actualChinese": "巨沼怪的攻击降低了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "d21cb5606c5bcac5680bbeeac5f8d29efa045ff6945d8f56658bc2d002ca0a2b",
+    "japanese": "やったー！\nジグザグマを つかまえたぞ！",
+    "expectedChinese": "太好了！捉到ジグザグマ了！",
+    "actualChinese": "太好了！捉到了蛇纹熊！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "586173209933d8d5d3ed48897c9e70925b7f2584cbf5b61b9709b2e9db76c86b",
+    "japanese": "ぜんこく から かちぬいてきた\nポケモンが あつまって いるんだな！",
+    "expectedChinese": "从全国各地脱颖而出的宝可梦都聚集在这里！",
+    "actualChinese": "从全国各地一路胜出的宝可梦聚集在这里！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "bd7cc75b30a5e42521dee5f708effeeae9138a4b3e6ea08ded7f3c0bdc4abc00",
+    "japanese": "わしの ハートは わくわく なんだな！",
+    "expectedChinese": "我的心都激动起来了！",
+    "actualChinese": "我的心真是激动不已！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "484d08cc862c7143d2d5d13eb81352a1ec2539e0a21adbdc92698c3544178327",
+    "japanese": "いなくなってた わたしの ポケモン\nいつのまにか かえってきたの！",
+    "expectedChinese": "我失踪的宝可梦，不知什么时候回来了！",
+    "actualChinese": "失踪的宝可梦，不知不觉就回来了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "306cbf3088d2be33f503854b1790d338a8c9483a4b05ecc89e801528f6371a2e",
+    "japanese": "あら まだ コンテストパスを\nもらって ないのね！",
+    "expectedChinese": "哎呀，你还没拿到华丽大赛参加证呢！",
+    "actualChinese": "哎呀，你还没拿到华丽大赛通行证呢！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "19bc93e2fdf086748c95cc7c16b14d7baed056c6987b86019dc0852d7825bb78",
+    "japanese": "もらって ないのね！\nシダケタウンで はやく もらっておいでよ！",
+    "expectedChinese": "还没拿到呢！快去绿荫镇领取吧！",
+    "actualChinese": "还没拿到呢！快去绿茵镇领一张吧！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "38ee97487bd74f47f16f6c432b35fbe01f11eae06b9792977e53ccc2d71bc565",
+    "japanese": "だいじに そだてた ポケモンを\nおおぜいに みてもらうのって かいかんよ！",
+    "expectedChinese": "让很多人看到自己用心培养的宝可梦，真让人愉快！",
+    "actualChinese": "让很多人看见自己精心培育的宝可梦，真令人愉快！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "99c4295271e3e875c5bfdfa6719555523f02e4ed8a88f46055426f611934d601",
+    "japanese": "たくましさコンテストって\nさいこう だよな！",
+    "expectedChinese": "强壮竞赛最棒了！",
+    "actualChinese": "强壮大赛真是太棒了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "a4414fa17b49430d37ce88e02b564b1c85e5a9db6deeea40834be2d0d4c98649",
+    "japanese": "ちからづよい アピール‥‥\nほとばしる あせ‥‥ たまらん！",
+    "expectedChinese": "强而有力的表演……挥洒的汗水……太棒了！",
+    "actualChinese": "充满力量的表演……飞溅的汗水……真让人受不了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "6836e141e8e609c11b120561b96ce1cb821e6b717c826da48f115ae620c02180",
+    "japanese": "ママと パパと おねえちゃんと\n4にんで ポロックを つくったら",
+    "expectedChinese": "和妈妈、爸爸、姐姐，我们4个人一起制作宝可方块的话……",
+    "actualChinese": "和妈妈、爸爸、姐姐4人一起做宝可方块时……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "ebc31cdf31c30ad8fafbec219461a6943ba9b2f354a234608713e57c59905bd7",
+    "japanese": "4にんで ポロックを つくったら\nすごく いいやつが できたんだ！",
+    "expectedChinese": "4个人一起制作宝可方块，做出了特别好的成品！",
+    "actualChinese": "4人一起做宝可方块，做出了特别好的方块！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "10264cceb6a9338b4e2f5f4858b6e2a653c1a68017c3976fb25cbecbdb2aace4",
+    "japanese": "きっと おおぜいで つくれば つくるほど\nなめらかで いい ポロックが できるんだよ！",
+    "expectedChinese": "一定是参与制作的人越多，就越能做出细腻又好的宝可方块！",
+    "actualChinese": "一定是一起做的人越多，做出的宝可方块就越润滑、越好！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "336829302fe82ec3af610bd228458e03716242b631f4659ebb3c6c687bb76e76",
+    "japanese": "まいにち だいじに だいじに\nそだてあげた わしの ポケモン",
+    "expectedChinese": "我每天都用心培养的宝可梦……",
+    "actualChinese": "我每天都悉心照料着的宝可梦……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "d148d04b93cadb43ee86f4d03cff97e191a53b5bae389b85ec21be38d472c519",
+    "japanese": "そだてあげた わしの ポケモン\nコンディションは カンペキ！",
+    "expectedChinese": "我培养的宝可梦，状态完美！",
+    "actualChinese": "我精心培育的宝可梦，状态无可挑剔！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "f373307ed3e19e0064d347ab6eb6a9530a8b9bc576613d0c60350db9b1232903",
+    "japanese": "コンディションは カンペキ！\nきょうは かつぞおおおおおうう！",
+    "expectedChinese": "状态完美！今天一定要赢！",
+    "actualChinese": "状态无可挑剔！今天一定要赢啊啊啊！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "4d25e176fa2150125e7451a37991fbe890a9130f08a6c3758c161b17097ad7ea",
+    "japanese": "お！ おじさんと いっしょに\nポロックを つくりたいのかい？",
+    "expectedChinese": "哦！想和大叔一起制作宝可方块吗？",
+    "actualChinese": "哦！你想和大叔一起做宝可方块吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "cea2a0bfd7015496cdf060ea8232b9101c5220ae5597b93311e8e6febc6da185",
+    "japanese": "じゃあ ポロックの つくりかたは\nもう しってるかい？",
+    "expectedChinese": "那么，你已经知道宝可方块的制作方法了吗？",
+    "actualChinese": "那么，你已经知道宝可方块的做法了吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "2f0f9b03696018e5cd8e416b96d1e62ab9cad85ba6a3398dc05b4d7ec640de96",
+    "japanese": "じゃあ はじめるぞ！",
+    "expectedChinese": "那么开始吧！",
+    "actualChinese": "那么，开始吧！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "04b28b5a7750ea5f83a1667d3ed175afdda0569b8358ba67a948bd4b2db996dc",
+    "japanese": "レッツ きのみブレンダー！！",
+    "expectedChinese": "来吧，树果混合器！",
+    "actualChinese": "来混合树果吧！！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "8cf93611d1f2c98faf1676900413a88ec487d9605728dafd184050660fe7f3dc",
+    "japanese": "バッグから きのみブレンダーに いれる\nきのみを えらんでください",
+    "expectedChinese": "请从背包里选择放入树果混合器的树果。",
+    "actualChinese": "请从背包中选择要放入树果混合器的树果。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "b2cb7f3caa810014db061a165c7b5afa53035d1e1122446d2dc10a4fc9afde03",
+    "japanese": "あかいポロック ができた！\nレベル11で なめらかさは21だ",
+    "expectedChinese": "做出了红色宝可方块！等级为11，细腻度为21。",
+    "actualChinese": "做出了红色方块！\n等级11，润滑度21。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "a38d5ea2375b6021dfc19407f3aea2bf92fb6b7aba9e12b31e62298a0970fa3f",
+    "japanese": "もういちど きのみを まぜますか？",
+    "expectedChinese": "还要再混合一次树果吗？",
+    "actualChinese": "要再混合一次树果吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "52adb003759971894f7646330abc39703a775ce2a9d3ae461db679cb76a7eaef",
+    "japanese": "あかいポロック Lv11",
+    "expectedChinese": "红色宝可方块 Lv11",
+    "actualChinese": "红色方块 Lv11",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "2f7bd9e23aba6fea256b655a270c01a474d64b4e25e08494f809cd785ddfdbfd",
+    "japanese": "ケースをしまう",
+    "expectedChinese": "收起方块盒",
+    "actualChinese": "收起盒子",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "4cf706f7c97d31ac9ff56f250bd9b974f640b6042c051ab6bb44361da1bbb00c",
+    "japanese": "からい にがい\nしぶい すっぱい\nあまい なめらかさ21",
+    "expectedChinese": "辣 苦\n涩 酸\n甜 细腻度21",
+    "actualChinese": "辣 苦\n涩 酸\n甜 润滑度21",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "070312f8bd12e25c9d2b406f45c93bb18ce37fce47a8970ac22af5d7dafa281f",
+    "japanese": "あかいポロックを\nすてても よろしいですか？",
+    "expectedChinese": "确定要丢弃红色宝可方块吗？",
+    "actualChinese": "要丢弃红色方块吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "3590517a5fb87f30e9bf8dc7df832e3a5f4260106b00d7f275fd95877be0f62f",
+    "japanese": "ラグラージは あかいポロックを\nたべた！",
+    "expectedChinese": "ラグラージ吃下了红色宝可方块！",
+    "actualChinese": "巨沼怪吃下了红色方块！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "9aa21475a9c601dab8ad1201e90ebfa7c8d3c45ce7eca8aea560b4c73c355705",
+    "japanese": "かっこよさに みがきが かかった！",
+    "expectedChinese": "帅气度得到了提升！",
+    "actualChinese": "帅气变得更出色了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "064a09e11f7c6276f57ba8076b9297f50944501163630051e8a6f6d1d46f40ea",
+    "japanese": "コンテストパスを おもちの かたは\nどなたでも さんか できます！",
+    "expectedChinese": "只要持有华丽大赛参加证，任何人都能参加！",
+    "actualChinese": "只要持有华丽大赛通行证，任何人都能参加！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "c82665679ac0ebf33031429aeb0be1316fec32e4e31f6d89e63d497c29a5d33f",
+    "japanese": "コンテストパスは シダケタウンに ある\nノーマルランクの コンテスト かいじょうで",
+    "expectedChinese": "华丽大赛参加证，在绿荫镇的普通级华丽大赛会场……",
+    "actualChinese": "华丽大赛通行证可以在绿茵镇的一般级大赛会场……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "375e481118c89893b641fd8137947d9a94fdfad0f779522ee23704c92697c602",
+    "japanese": "ノーマルランクの コンテスト かいじょうで\nどなたでも もらえますよ！",
+    "expectedChinese": "在普通级华丽大赛会场，任何人都能领取！",
+    "actualChinese": "任何人都能在一般级大赛会场领取哦！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "342150e906952d0f0e84c1ef50e28135c2fddf683dcd7b3aa49c12075803fbe1",
+    "japanese": "パスをもって また いらして くださいね！",
+    "expectedChinese": "拿到参加证后，请再来吧！",
+    "actualChinese": "拿到通行证后，请再来吧！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "38adbf032f2648d854580d9d553b058243b9c59f39af3e42409502af2768507d",
+    "japanese": "こんにちは！\nこちらでは ポケモンコンテスト",
+    "expectedChinese": "你好！这里是宝可梦华丽大赛……",
+    "actualChinese": "您好！这里正在办理宝可梦华丽大赛……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "b64cc481c49bdd1176062be6d0d4a34dd825b024000633ace2be9f7a252e76d8",
+    "japanese": "こちらでは ポケモンコンテスト\nマスター ランクの",
+    "expectedChinese": "这里是宝可梦华丽大赛大师级的……",
+    "actualChinese": "这里正在办理大师级宝可梦华丽大赛的……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "74111527fd0ef70160f18e1049eeaa9f7598e2011ebd420a6affcab47a7db60b",
+    "japanese": "マスター ランクの\nうけつけを おこなって います！",
+    "expectedChinese": "正在办理大师级的报名手续！",
+    "actualChinese": "正在办理大师级的报名！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "11e95bae2a134bb4463a2622cbbb40629dac3bdc986da008b10ab03152138d8f",
+    "japanese": "うつくしさ コンテストで\nゆうしょうした この ポケモンを",
+    "expectedChinese": "把在美丽竞赛中夺冠的这只宝可梦……",
+    "actualChinese": "这只曾在美丽大赛中夺冠的宝可梦……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "eb14fc471d752c3f263bc78ccbcf5056575d361492d2ab8424727a03df6e41da",
+    "japanese": "ゆうしょうした この ポケモンを\nきょうは かしこさ コンテストで",
+    "expectedChinese": "把这只夺冠的宝可梦，今天又放到聪明竞赛里……",
+    "actualChinese": "这只曾经夺冠的宝可梦，今天参加聪明大赛……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "08b9165a68def8515fe9ed963a63c4962d3b86eaffe67d2beb3f72bc9f3595a7",
+    "japanese": "きょうは かしこさ コンテストで\nゆうしょう させたんだぜ！",
+    "expectedChinese": "今天又让它在聪明竞赛里夺冠了！",
+    "actualChinese": "今天又让它赢得了聪明大赛冠军！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "bbde97371aa16455ec96a700a98f48babc38c64a210c7fcc57d8bc37da23cb03",
+    "japanese": "ああ じぶんの さいのうが こわい‥‥",
+    "expectedChinese": "啊，连我都害怕自己的才华……",
+    "actualChinese": "啊，连我自己都害怕自己的才华……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "f421e9bff83d1072f16386abaf45421775ade8f2c59ee5ccb0ba101af3579c48",
+    "japanese": "ここまでの かつやくを\nポケモンレポートに かきこみますか？",
+    "expectedChinese": "要把目前的冒险经历写入宝可梦记录吗？",
+    "actualChinese": "要把至今的冒险经历记录进宝可梦报告吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "518a48fa38b537a13354c7b37882839f413ddcb67a043932eb6b7242e87eaab7",
+    "japanese": "パーソナル\nおや/ジーク IDNo40517\nタイプ/ほのお かくとう",
+    "expectedChinese": "个人资料\n初训家/ジーク IDNo40517\n属性/火 格斗",
+    "actualChinese": "个人资料\n原训练家/ジーク IDNo40517\n属性/火 格斗",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "f3b4656ada9993a8d95e36c80886c9a2fdae22d7e9eb6a91a0d6f210d9818d85",
+    "japanese": "とくせい\nもうか\nピンチに ほのおが つよくなる",
+    "expectedChinese": "特性\n猛火\n危急时火属性招式的威力提高。",
+    "actualChinese": "特性\n猛火\n危急时火属性招式的威力增强。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "35cf1d6fa1b51c4a08e948ac52e24aac4d9389f19ebbcd33afde7db079b20167",
+    "japanese": "トレーナーメモ\nのうてんきなせいかく Lv5のとき\n101ばん どうろで であった",
+    "expectedChinese": "训练家笔记\n乐天的性格。Lv5时，\n在101号道路相遇。",
+    "actualChinese": "训练家笔记\n乐天的性格 Lv5时\n在101号道路相遇。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "0b61f92a2eaa4c21fdf347b2a82faa52ec54c2f5c3d22a1c3e120a83ad6c71d5",
+    "japanese": "けいけんち\nげんざいのけいけんち 21927\nレベルアップまで あと 2367\nEXP",
+    "expectedChinese": "经验值\n当前经验值 21927\n距离升级还需 2367\nEXP",
+    "actualChinese": "经验值\n当前经验值 21927\n距离升级 还差 2367\nEXP",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "3d0b39ce80a28cf270fe2942158a2d2793afb2c5e8af1aee2e09f748ab961846",
+    "japanese": "せつめい\n2ほんの あしをつかって てきを\n2かい れんぞくで こうげき",
+    "expectedChinese": "说明\n用2条腿连续攻击对手2次。",
+    "actualChinese": "说明\n用2只脚连续攻击对手2次。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "77b77bf32357749b0e4979efa70a52a0f1a1b064e44a5e3a7fab474a14e57a3e",
+    "japanese": "せつめい\n1つまえの ポケモンの アピールと\nタイプが おなじなら きにいられる",
+    "expectedChinese": "说明\n如果和前1只宝可梦的表演类型相同，就会受到喜爱。",
+    "actualChinese": "说明\n如果表演类型与前1只宝可梦相同，就会受到喜爱。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "82c76d912d38be87867e1cbbbab553af69327fd848e54e8869eafac2d616036d",
+    "japanese": "パーソナル\nおや/ジーク IDNo40517\nタイプ/ノーマル ひこう",
+    "expectedChinese": "个人资料\n初训家/ジーク IDNo40517\n属性/一般 飞行",
+    "actualChinese": "个人资料\n原训练家/ジーク IDNo40517\n属性/一般 飞行",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "05ec8d403e0e40b7390251dd176ac2789974e4a63b8cc23e6a08bf0ddba3021e",
+    "japanese": "とくせい\nこんじょう\nいじょうのとき こうげきが あがる",
+    "expectedChinese": "特性\n毅力\n异常状态时攻击提高。",
+    "actualChinese": "特性\n毅力\n处于异常状态时，攻击力提高。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "857ec761f393eb48e09fbce2defd29e0f3cd7c27f141e9b8e0304749aef7e58a",
+    "japanese": "トレーナーメモ\nようきなせいかく Lv4のとき\n104ばん どうろで であった",
+    "expectedChinese": "训练家笔记\n爽朗的性格。Lv4时，\n在104号道路相遇。",
+    "actualChinese": "训练家笔记\n爽朗的性格 Lv4时\n在104号道路相遇。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "f2337a2a3fa22fcc2398d82228f6f1de0df68d7a1d48ce7a4864aa2efa2f46da",
+    "japanese": "けいけんち\nげんざいのけいけんち 3147\nレベルアップまで あと 651\nEXP",
+    "expectedChinese": "经验值\n当前经验值 3147\n距离升级还需 651\nEXP",
+    "actualChinese": "经验值\n当前经验值 3147\n距离升级 还差 651\nEXP",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "86e8b987b6a1f2267bdf44e29a5118fcfa03cea55ee4f646efde1abafbb670d2",
+    "japanese": "せつめい\nつばさを おおきく ひろげて\nそのまま てきに たいあたりする",
+    "expectedChinese": "说明\n大大展开翅膀，就这样撞向对手。",
+    "actualChinese": "说明\n大大展开翅膀，撞向对手。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "65c8373119aab0320151ebff8b4b1b8b7ec2fae85fd16b8ba46f6f71e5c95155",
+    "japanese": "とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます",
+    "expectedChinese": "与时钟有关的事件不会发生，但仍然可以继续游戏。",
+    "actualChinese": "与时钟有关的事件将不再发生，但仍可继续游玩。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "d079ec07a7f1c3c9cecac5111d2e5b9bf02d6f5b5f58b58ac0a20dc3f73dc3c4",
+    "japanese": "てもちポケモンが いっぱいです！",
+    "expectedChinese": "同行宝可梦已经满了！",
+    "actualChinese": "同行的宝可梦已满！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "a458084a457b74d4b2a73e4c96191f2cc4290147df43df492c8d5ab5f4f5b1b2",
+    "japanese": "わざの いりょくが かわったり\nまったく きかなかったり するよ！",
+    "expectedChinese": "招式的威力会改变，或者完全不起作用！",
+    "actualChinese": "招式威力可能改变，也可能完全无效！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "7534229ec10895d8bd179a649780dfef4a7f5d23ba52beedf5d30b7cb499ec42",
+    "japanese": "いし あつめて たのしいのかな？\nおれには わかんないや！",
+    "expectedChinese": "收集石头很有趣吗？我可不明白！",
+    "actualChinese": "收集石头真有那么有趣吗？我可不明白！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "5dc3576b69bd2eaa95434909423ea6c463fa0c405dd11298a3754a7c2e4f4192",
+    "japanese": "おとうと ったら\nともだちの ひみつきちに いって",
+    "expectedChinese": "我弟弟啊，总去朋友的秘密基地……",
+    "actualChinese": "我弟弟啊，去朋友的秘密基地……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "1067c4802095081801518a66eab8cacefe9d0b71cd99e5f7f58e6f3fdc4e0d2a",
+    "japanese": "ポケモンしょうぶを するのが\nたのしみ なんだって！",
+    "expectedChinese": "他说进行宝可梦对战就是他的乐趣！",
+    "actualChinese": "据说进行宝可梦对战是他的乐趣！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "0f806038794822a0e69a57d9b367a46d069710bd82552d2a2ba999f0df0583d6",
+    "japanese": "エネコロロ『みゃあん？",
+    "expectedChinese": "エネコロロ：“喵？”",
+    "actualChinese": "优雅猫：“喵？”",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "43df83027859a052c772ffd578e6b4553221939efdfb4b1fafee3d189f8913d2",
+    "japanese": "きみ どこかに ひみつきち つくりなよ！\nぼくが さがしだして みせるからさ",
+    "expectedChinese": "你也找个地方建秘密基地吧！我一定会找到它的。",
+    "actualChinese": "你也找个地方建秘密基地吧！我一定会把它找出来的。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "2eac18696f195f19c3ff9e93bd828333c326a9a8533f61a3aef76466ea359487",
+    "japanese": "これを あたえると\nひんしの ポケモンも めざめるの！",
+    "expectedChinese": "给宝可梦使用后，就连濒死的宝可梦也会醒来！",
+    "actualChinese": "用了它，就算濒死的宝可梦也会醒来！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "68fa2c795074fd4da9229fc5e333bf3f96c2de2964f1f48bcbd0c318983aecbd",
+    "japanese": "でも パワーポイントは\nかいふく しないから きをつけて！",
+    "expectedChinese": "不过不会恢复招式点数，要注意哦！",
+    "actualChinese": "但是招式点数不会恢复，要注意哦！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "f6550ff4beaf64bab3262e432a170631288c84522517a37606cee075daef85e2",
+    "japanese": "かいもの を やめます",
+    "expectedChinese": "结束购物。",
+    "actualChinese": "结束购物",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "9b183d6e5c27e617e3d80f5e40dd6f542863e491d748977ec24addde14e5f42f",
+    "japanese": "トクサネシティ\nしゅじんこう ハルカ\nもっているバッジ 8こ\nポケモンずかん 63ひき\nプレイじかん 30:12",
+    "expectedChinese": "绿岭市\n主角 ハルカ\n持有徽章 8枚\n宝可梦图鉴 63只\n游戏时间 30:12",
+    "actualChinese": "绿岭市\n主角 小遥\n拥有的徽章 8枚\n宝可梦图鉴 63只\n游玩时间 30:12",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "c37e0bff1c64ba8bdad90b8d5e2eda300f4392c10ef350fa4548c49b01f175e5",
+    "japanese": "とびらには かぎが かかって いるようだ！",
+    "expectedChinese": "门好像锁住了！",
+    "actualChinese": "门似乎被锁上了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "777ef33a2b73f5cf213c56aaf49fa831be483de10dab8fa9ee67344ed8f95640",
+    "japanese": "いのちの みなもとは うみから うまれて\nりくに あがって きた",
+    "expectedChinese": "生命的起源诞生于海洋，后来登上了陆地。",
+    "actualChinese": "生命的起源诞生于大海，后来才来到陆地。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "b5d02d32132016e860f47ba645109e0db6097dd31403970e1bed22a9d98f1d1d",
+    "japanese": "そして うみと だいちは\nいつでも つながって いる‥‥",
+    "expectedChinese": "而海洋和大地，始终相连……",
+    "actualChinese": "而大海与大地，始终相连……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "aed1ea1c2ae9b732b3fc6030cba720b39f95b7097c273a6a02566dd08904a562",
+    "japanese": "だれかが アクアだんを\nけちらしてくれた らしいんだ！",
+    "expectedChinese": "听说有人把海洋队打跑了！",
+    "actualChinese": "好像有人把海洋队给赶走了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "65053155fec7bd8c635be4c1ad2eadb99bdad84dd091ba939236689abece638a",
+    "japanese": "おかげで ホエルコ いなくなって\nうみに でられるように なったよ！",
+    "expectedChinese": "多亏如此，吼吼鲸不见了，可以出海了！",
+    "actualChinese": "多亏这样，吼吼鲸不见了，我们又能出海了！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "bccd82452f4b9c599019ae97937d80de2d66834dae9419160d2672eccf793cf8",
+    "japanese": "わしは ポロックを\nつくるのが だいすきで",
+    "expectedChinese": "我最喜欢制作宝可方块……",
+    "actualChinese": "我最喜欢做宝可方块……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "e15eaa5b259cd0b963dd9481cc647a43dcbcbc717c807d5f97cb55cbacd2243b",
+    "japanese": "いつも きのみを\nもって きてるんだ",
+    "expectedChinese": "所以总是带着树果。",
+    "actualChinese": "总会随身带着树果。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "39c945e10196bcd72cca5080c705f13566ef61723e62818d7d9ff378aae7fdce",
+    "japanese": "もし よかったら\nいっしょに きのみブレンダーで",
+    "expectedChinese": "如果愿意的话，一起使用树果混合器……",
+    "actualChinese": "如果你愿意的话，一起用树果混合器……",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "1a6fdbc125f1d59f8f2ec66e8db8573da1bb0e7927e6df5fe699a677c1cf2840",
+    "japanese": "いっしょに きのみブレンダーで\nポロックを つくろうや",
+    "expectedChinese": "一起用树果混合器制作宝可方块吧。",
+    "actualChinese": "一起用树果混合器来做宝可方块吧。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "b68d6f38fe75fe9177f3ecd4cfed9a451212bc9d03b3914014b21dc3c9079fba",
+    "japanese": "とても かわいい はなが さく。\nまっかな みは とても からい。",
+    "expectedChinese": "会开出非常可爱的花。鲜红的果实非常辣。",
+    "actualChinese": "会开出非常可爱的花朵。\n鲜红色的果实非常辛辣。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "51ff4c6997f50e818ba1bc25866fa9bc2be824d8de57ad32ee9a5221c1128099",
+    "japanese": "ももいろポロック ができた！\nレベル11で なめらかさは21だ",
+    "expectedChinese": "做出了粉红色宝可方块！等级为11，细腻度为21。",
+    "actualChinese": "做出了粉色方块！\n等级11，润滑度21。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "8b13ef4c92887cd2af9e4426f7473e0aa63ecb898e8eb2b629018c51e692f6dd",
+    "japanese": "ももいろポロック Lv11",
+    "expectedChinese": "粉红色宝可方块 Lv11",
+    "actualChinese": "粉色方块 Lv11",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "6a511a31f8622504ac879e0e469b39054f0c8ceb009fed13162737beb46c426d",
+    "japanese": "ももいろポロックを\nすてても よろしいですか？",
+    "expectedChinese": "确定要丢弃粉红色宝可方块吗？",
+    "actualChinese": "要丢弃粉色方块吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "a07db61e88391e81c0ba871bb2b9a89f27421b031e781d11d3be0381dab30a40",
+    "japanese": "かっこよさ\nたくましさ うつくしさ\nかしこさ かわいさ\nFEEL",
+    "expectedChinese": "帅气\n强壮 美丽\n聪明 可爱\nFEEL",
+    "actualChinese": "帅气\n强壮 美丽\n聪明 可爱\n饱食度",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "日文图表的FEEL在固定源码pokenav.c:3726由MON_DATA_SHEEN映射显示。中文饱食度为该字段功能译名；独立预期保留FEEL，两者指同一已观察字段，不是单个方块的细腻度。"
+  },
+  {
+    "key": "92c7672cd2d1d68970c83f19814fc676187154ee6eb7ba4970b7b59a19d842a0",
+    "japanese": "ラグラージに ポロックを あげますか？",
+    "expectedChinese": "要给ラグラージ吃宝可方块吗？",
+    "actualChinese": "要给巨沼怪宝可方块吗？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。 核对大赛类别、宝可方块简称、细腻度/润滑度术语及当前等级/数值；未混用战斗属性。"
+  },
+  {
+    "key": "d045a2bb29028359f0a74539f9c219b37df1d5e71ec2e992dd7039873e96ebb4",
+    "japanese": "ラグラージは どうする？",
+    "expectedChinese": "ラグラージ要做什么？",
+    "actualChinese": "巨沼怪要做什么？",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "719c5d92e48daf3ad9f69920950be74e9adb3a01a30edfc2300306dd7d22af0b",
+    "japanese": "やせいの ポケモンは\nくさむらから とびだしてくる からな！",
+    "expectedChinese": "野生宝可梦会从草丛里跳出来！",
+    "actualChinese": "野生宝可梦会从草丛里突然跳出来！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "1a64764045b7b52d4606457ac941c49cae82fd446702e685e728386fd61af038",
+    "japanese": "こうして くさむらの なかに はいって\nつかまえたい ポケモンを さがすんだよ！",
+    "expectedChinese": "像这样走进草丛，寻找想捉的宝可梦！",
+    "actualChinese": "像这样走进草丛，寻找想捉的宝可梦吧！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "b20fe1bbcb7460e9ceee8990a8f5ec374de57f77f4206c8b35551f53a0569784",
+    "japanese": "パーソナル\nおや/ハルカ IDNo58333\nタイプ/みず じめん",
+    "expectedChinese": "个人资料\n初训家/ハルカ IDNo58333\n属性/水 地面",
+    "actualChinese": "个人资料\n原训练家/小遥 IDNo58333\n属性/水 地面",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "f92f5582bc23a64443e29528ea86aa16e3bd790dde6d7f2a93f0617345a16d25",
+    "japanese": "トレーナーメモ\nがんばりやなせいかく Lv5のとき\n101ばん どうろで であった",
+    "expectedChinese": "训练家笔记\n勤奋的性格。Lv5时，\n在101号道路相遇。",
+    "actualChinese": "训练家笔记\n勤奋的性格 Lv5时\n在101号道路相遇。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "c17833d95c7ad234a1d13ba961a489c5beec63b39c184d2bfb04a0efe35951e4",
+    "japanese": "リボン\nげんざい 1こ",
+    "expectedChinese": "奖章\n当前 1枚",
+    "actualChinese": "奖章\n当前1个",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "c2ef41159cef54aacb2c4352b9885a7e083e09be3cafb47e6183bcd9c55c4017",
+    "japanese": "けいけんち\nげんざいのけいけんち 90838\nレベルアップまで あと 5174\nEXP",
+    "expectedChinese": "经验值\n当前经验值 90838\n距离升级还需 5174\nEXP",
+    "actualChinese": "经验值\n当前经验值 90838\n距离升级 还差 5174\nEXP",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "b625cb6cfedc795a2e1bb7fc5990c330906e496b39dc0101ddf8ec03c721d6fe",
+    "japanese": "せつめい\nどろを なげつけて こうげき\nすばやさを さげさせる",
+    "expectedChinese": "说明\n投掷泥巴攻击，使速度降低。",
+    "actualChinese": "说明\n投掷泥块攻击，降低对手的速度。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "c3e87471857373af3a29361a152ade69e52e4fb16074ace3f320cc395d0348d1",
+    "japanese": "せつめい\nたきを さかのぼるような いきおいで\nてきに とっしんする",
+    "expectedChinese": "说明\n以攀登瀑布般的气势冲向对手。",
+    "actualChinese": "说明\n像逆流攀瀑一般，气势十足地撞向对手。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "65cc3620f24b6031ccd1fb10f23b094e66004c0c4b83e1311f3de99c705f0762",
+    "japanese": "せつめい\nおなじ タイプの アピールを した\nポケモンを とくに おどろかす",
+    "expectedChinese": "说明\n特别惊吓做了相同类型表演的宝可梦。",
+    "actualChinese": "说明\n特别惊吓使用相同类别表演的宝可梦。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "4d79c91eab458c6bb9e2b6a7231a71dc5cbba97e8ca426268d74958c2d2c56d8",
+    "japanese": "せつめい\nしんさいんに ちゅうもく されている\nポケモンを とくに おどろかす",
+    "expectedChinese": "说明\n特别惊吓受到评审关注的宝可梦。",
+    "actualChinese": "说明\n特别惊吓受到评审注目的宝可梦。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "979e5947a66e2858ac066595804d8fa3202631f386f9ba5d29c0e0e7959f619c",
+    "japanese": "パーソナル\nおや/ハルカ IDNo58333\nタイプ/でんき",
+    "expectedChinese": "个人资料\n初训家/ハルカ IDNo58333\n属性/电",
+    "actualChinese": "个人资料\n原训练家/小遥 IDNo58333\n属性/电",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "c2becf502b4872cf261a9e39ae723bf4eb8dcb8bd2839e31437213bb23d941ef",
+    "japanese": "とくせい\nひらいしん\nでんきタイプの わざが じぶんにくる",
+    "expectedChinese": "特性\n避雷针\n电属性招式会朝自己而来。",
+    "actualChinese": "特性\n避雷针\n电属性招式会被引向自己。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "35c48f81f4aeb77dd812fd5448931c1ac1c0541c25f3e5e39a3f788f586292f4",
+    "japanese": "トレーナーメモ\nさみしがりなせいかく Lv26のとき\n118ばん どうろで であった",
+    "expectedChinese": "训练家笔记\n怕寂寞的性格。Lv26时，\n在118号道路相遇。",
+    "actualChinese": "训练家笔记\n怕寂寞的性格 Lv26时\n在118号道路相遇。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "b700787ea07439547185fc5b4c79a18671a6cda57ab8d9095a8815137c1603ad",
+    "japanese": "けいけんち\nげんざいのけいけんち 130408\nレベルアップまで あと 7832\nEXP",
+    "expectedChinese": "经验值\n当前经验值 130408\n距离升级还需 7832\nEXP",
+    "actualChinese": "经验值\n当前经验值 130408\n距离升级 还差 7832\nEXP",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "4c403534d45777cdea322ba3b8bfb2287bcabb173534d84e64d40cd1e10c5284",
+    "japanese": "せつめい\nつよいでんげきを あびせて こうげき\nてきを まひさせることがある",
+    "expectedChinese": "说明\n用强烈的电击攻击，有时会使对手麻痹。",
+    "actualChinese": "说明\n发出强烈电击攻击，有时会让对手麻痹。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "7e9d0ef6a0477f8139bc1d053ae6e1f4d86ec4b9374cdf557cd1fcd17b6d6fff",
+    "japanese": "せつめい\nてきに むかって かみなりを おとす\nまひさせることがある",
+    "expectedChinese": "说明\n朝对手落下雷电，有时会使其麻痹。",
+    "actualChinese": "说明\n向对手劈下雷电，有时会让对手麻痹。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "37524871ad2bd79d1addadde324496a9043bece1674e25976782a6e26c33b6b0",
+    "japanese": "せつめい\nじぶんの まえに アピールした\nポケモンを かなり おどろかす",
+    "expectedChinese": "说明\n大幅惊吓在自己之前表演的宝可梦。",
+    "actualChinese": "说明\n严重惊吓在自己之前表演的宝可梦。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "3395f272565427314403d9232d84a004ff94a3a1dc0d822450b53224e9b1f984",
+    "japanese": "ミナモシティ\nしゅじんこう ハルカ\nもっているバッジ 8こ\nポケモンずかん 63ひき\nプレイじかん 30:14",
+    "expectedChinese": "水静市\n主角 ハルカ\n持有徽章 8枚\n宝可梦图鉴 63只\n游戏时间 30:14",
+    "actualChinese": "水静市\n主角 小遥\n拥有的徽章 8枚\n宝可梦图鉴 63只\n游玩时间 30:14",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "b1b248b2572ae8ab175691697bf98d8283071b1e656fe4d23632b001b3587582",
+    "japanese": "あいての ピカチュウの １０まんボルト！",
+    "expectedChinese": "对方皮卡丘使出了十万伏特！",
+    "actualChinese": "对手的皮卡丘使出了十万伏特！",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  },
+  {
+    "key": "628f48771a97e0cfbe72a6ee825809e6bf7b970ea5cd0ace3d90ab6978a8b85d",
+    "japanese": "ラグラージの たいりょくが\n17 かいふくした",
+    "expectedChinese": "ラグラージ恢复了17点体力。",
+    "actualChinese": "巨沼怪的体力恢复了17点。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "3d274a0785a8edc42ef66bf0086fff08bc9336e6d3a78682932cf3a7c03dda16",
+    "japanese": "ラグラージの たいりょくが\n18 かいふくした",
+    "expectedChinese": "ラグラージ恢复了18点体力。",
+    "actualChinese": "巨沼怪的体力恢复了18点。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。 完整名字按已核对词条显示中文，预期保留的日文名字与此显示译名等价；不推断实际物种或玩家身份。"
+  },
+  {
+    "key": "aa7b68feeaf6971d7921f93fc969468de2b0415716db6495d93d72009eed66c9",
+    "japanese": "でんきタイプの わざが じぶんにくる",
+    "expectedChinese": "电属性招式会朝自己而来。",
+    "actualChinese": "电属性招式会被引向自己。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "blind": false,
+    "reason": "逐项核对当前日文、独立中文预期及实际输出；词序、敬语、句尾或标点不同，当前可见命题与情态一致，未增加后续清屏内容。"
+  }
+]

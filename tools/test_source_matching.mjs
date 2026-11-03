@@ -103,6 +103,69 @@ check('Trainer class/name source templates remain candidates alongside generic l
  assert.ok(r.sourceQids.includes('rs.common.battle_strings.BattleText_SentOutSingle2'));
  assert.equal(r.status,'ambiguous');assert.equal(r.resolvedJapanese,null);
 });
+check('A player or explicit battle name cannot absorb an observed prose line',()=>{
+ const {matcher}=loadSourceMatcher(root),raw='おとうさんの ことば‥‥\nハルカ！ こういうものには';
+ const r=matcher.lookup(raw),cs=r.candidates.filter(c=>c.qid.endsWith('.gOtherText_DadsAdvice'));
+ assert.ok(cs.length);assert.ok(cs.every(c=>c.bindings.find(b=>b.slot==='PLAYER')?.raw==='ハルカ'));
+ for(const slot of ['PLAYER','RIVAL','B_TRAINER1_NAME','B_ATK_NAME_WITH_PREFIX']){
+   const m=mock([record('rs.script.name',`[${slot}]の パソコンを つけました！`)]);
+   assert.equal(m.lookup('前の文章\nハルカの パソコンを つけました！').candidates.length,0);
+   const valid=m.lookup('あ いの パソコンを つけました！');assert.ok(valid.candidates.length);
+   assert.equal(valid.candidates[0].bindings[0].raw,'あ い');assert.equal(valid.translationPublishable,false);
+ }
+});
+check('Trainer classes use full source terms and do not split at an internal の',()=>{
+ const {matcher}=loadSourceMatcher(root),r=matcher.lookup('してんのうの カゲツが\nしょうぶを しかけてきた！');
+ const cs=r.candidates.filter(c=>c.bindings.some(b=>b.slot==='B_TRAINER1_CLASS'));
+ assert.ok(cs.length);for(const c of cs){
+   const b=c.bindings.find(b=>b.slot==='B_TRAINER1_CLASS');assert.equal(b.raw,'してんのう');
+   assert.equal(c.bindings.find(b=>b.slot==='B_TRAINER1_NAME').raw,'カゲツ');
+   assert.ok(b.termSourceQids.length);assert.equal(b.approvedForTranslation,false);
+ }
+ // A compatible link-name interpretation remains unresolved, rather than
+ // choosing a trainer script using the newly corrected lexical boundary.
+ assert.ok(r.sourceQids.includes('rs.common.battle_strings.BattleText_SingleWantToBattle2'));
+ assert.equal(r.status,'ambiguous');assert.equal(r.semanticResolution.status,'not_applicable');
+});
+check('Finite class evidence respects target game and missing terms fail closed',()=>{
+ const rows=[record('rs.common.trainer_class_names.test','してんのう','ruby'),
+   record('rs.common.battle_strings.test','[B_TRAINER1_CLASS]の [B_TRAINER1_NAME]が しょうぶです！')];
+ const m=mock(rows),raw='してんのうの カゲツが しょうぶです！';
+ assert.ok(m.lookup(raw,{game:'ruby'}).candidates.length);assert.ok(m.lookup(raw,{game:'both'}).candidates.length);
+ assert.equal(m.lookup(raw,{game:'sapphire'}).candidates.length,0);
+ assert.equal(mock(rows.slice(1)).lookup(raw).candidates.length,0);
+});
+check('Unreviewed multiline buffers and genuine multiple splits remain hypotheses',()=>{
+ const m=mock([record('rs.script.a','[STR_VAR_1]を もらいました！')]);
+ const r=m.lookup('前の文章\nアイテムを もらいました！');assert.ok(r.candidates.length);
+ assert.equal(r.candidates[0].bindings[0].raw,'前の文章\nアイテム');
+ assert.equal(r.candidates[0].bindings[0].retrievalConstraint,undefined);
+ assert.equal(r.translationPublishable,false);
+});
+check('Experience messages no longer match the reviewed gift-item or starter-species buffers',()=>{
+ const {matcher}=loadSourceMatcher(root),r=matcher.lookup('カイオーガは\n1800 けいけんちを もらった！');
+ assert.deepEqual(r.sourceQids,['rs.common.battle_strings.BattleText_GainExpPoints']);assert.equal(r.bindingAmbiguous,false);
+ assert.equal(r.rawOcr,'カイオーガは\n1800 けいけんちを もらった！');assert.equal(r.translationPublishable,false);
+ assert.equal(r.semanticResolution.meaning.experienceAmount,1800);
+});
+check('Source-scoped gift constraints retain actual item/species values and their provenance',()=>{
+ const {matcher}=loadSourceMatcher(root);
+ for(const [value,qid,kind] of [['すごいキズぐすり','rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506','item'],
+   ['すごいキズぐすり','rs.script.barboach.UnknownString_81C432C','item'],
+   ['キモリ','rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94','species']]){
+   const r=matcher.lookup(`ハルカは\n${value}を もらった！`),cs=r.candidates.filter(c=>c.qid===qid);
+   assert.ok(cs.length,qid);for(const c of cs){
+     const b=c.bindings.find(b=>b.termKind===kind);assert.equal(b.raw,value);assert.ok(b.termSourceQids.length);
+     assert.equal(b.constraintSourceQid,qid);assert.equal(b.approvedForTranslation,false);
+   }
+ }
+});
+check('A buffer type is never inferred globally from its number or suffix wording',()=>{
+ const m=mock([record('rs.script.other','[PLAYER]は\\n[STR_VAR_1]を　もらった！')]);
+ const r=m.lookup('ハルカは\n15 けいけんちを もらった！');assert.ok(r.candidates.length);
+ assert.ok(r.candidates.every(c=>c.bindings.every(b=>b.termKind===undefined)));
+ assert.equal(r.translationPublishable,false);
+});
 check('Typed Intimidate grammar resolves the ability/name boundary without choosing a generic buffer split',()=>{
  const {matcher}=loadSourceMatcher(root),r=matcher.lookup('あいての グラエナの いかくで\nカイオーガの こうげきりょくが さがった！');
  assert.equal(r.bindingAmbiguous,false);assert.equal(r.translationPublishable,false);assert.equal(r.semanticResolution.status,'consistent');
@@ -265,6 +328,24 @@ check('All actual OCR inputs and source-review judgments retain their bound evid
 check('Review HTML keeps all 579 regions and has a syntactically valid offline filter',()=>{
  const html=read(path.join(root,'reports/japanese-source-matching/review.html'));
  assert.equal((html.match(/<section /g)||[]).length,579);new vm.Script(html.match(/<script>([\s\S]*)<\/script>/)[1]);
+});
+check('Binding boundary audit preserves its baseline and reproduces all named reviews',()=>{
+ const output='.tools/source-binding-audit-test';
+ const run=spawnSync(process.execPath,['tools/audit_source_bindings.mjs',output],{cwd:root,encoding:'utf8'});
+ assert.equal(run.status,0,run.stderr);
+ const manifest=JSON.parse(read(path.join(root,'reports/japanese-source-matching/binding-audit-manifest.json')));
+ for(const f of [...manifest.inputs,...manifest.implementation])assert.equal(sha256(fs.readFileSync(path.join(root,f.local))),f.sha256,f.local);
+ for(const f of [...manifest.outputs,{file:'binding-audit-manifest.json'}])assert.equal(sha256(fs.readFileSync(path.join(root,output,f.file))),sha256(fs.readFileSync(path.join(root,'reports/japanese-source-matching',f.file))),f.file);
+ const {summary,comparisons}=JSON.parse(read(path.join(root,output,'binding-audit.json')));
+ assert.equal(summary.previousBindingUnits,148);assert.equal(summary.previousAmbiguousUnits,31);
+ assert.equal(summary.reviewedCases,13);assert.equal(summary.passedCases,13);assert.deepEqual(summary.lostAllSourceCandidates,[]);
+ assert.equal(summary.removedInterpretations,138);assert.equal(summary.currentAmbiguousUnits,2);
+ assert.equal(summary.ambiguousUnitsWithConsistentMeaning,2);assert.equal(summary.ambiguousUnitsNeedingMeaningReview,0);
+ assert.equal(summary.sendOutReview.total,8);assert.equal(summary.sendOutReview.passed,8);
+ assert.equal(summary.addedNativeExperienceInterpretations,9);
+ assert.equal(summary.experienceReview.total,9);assert.equal(summary.experienceReview.passed,9);
+ assert.equal(summary.observationReview.total,9);assert.equal(summary.observationReview.passed,9);
+ assert.ok(comparisons.every(c=>c.removed.every(r=>r.reasons.length)));
 });
 check('Repeated full evaluation is byte-for-byte reproducible',()=>{
  const output='.tools/source-matching-test';fs.mkdirSync(path.join(root,output),{recursive:true});

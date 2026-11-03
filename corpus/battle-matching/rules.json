@@ -35,6 +35,12 @@
     "maxNicknameCharacters":10,
     "constraintBoundary":"Conservative retrieval bound, not a claim that the Japanese name-entry UI permits ten characters. Full observed display retained; no species or player identity inferred."
   },
+  "experience": {
+    "source":"BattleText_GainExpPoints",
+    "forms":[{"id":"normal","component":"BattleText_Terminator","boostedWording":false},{"id":"boosted","component":"BattleText_BoostedExp","boostedWording":true}],
+    "maxDigits":5,
+    "boundary":"Displayed amount and wording only; no trade, species or experience-calculation inference. Numbers beyond the verified display budget fall back."
+  },
   "related": [
     {"id":"stat_ceiling","source":"BattleText_AttackingStatNoHigher","event":"stat_limit","limit":"upper","actors":{"B_ATK_NAME_WITH_PREFIX":"subject"},"finite":{"B_BUFF1":"stats"}},
     {"id":"stat_floor","source":"BattleText_DefendingStatNoHigher","event":"stat_limit","limit":"lower","actors":{"B_DEF_NAME_WITH_PREFIX":"subject"},"finite":{"B_BUFF1":"stats"}},

@@ -1,0 +1,2243 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "qid": "rs.common.trainers.gTrainers.1",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "アオギリ",
+      "english": "ARCHIE",
+      "chinese": "水梧桐",
+      "japaneseSha256": "e0dd224bd1f8e5278e0f75f257f4458b5178ebb63a8b7e6b4e5e8dc8c6a8c6e5",
+      "englishSha256": "977c0670e6a5b378639c5e26722d0ec3e866d4a0a726fd310072a76411a1a054",
+      "originalCandidates": [
+        "水梧桐"
+      ],
+      "candidateIds": [
+        "candidate-004238"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.1",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "アオギリ",
+      "english": "ARCHIE",
+      "chinese": "水梧桐",
+      "japaneseSha256": "e0dd224bd1f8e5278e0f75f257f4458b5178ebb63a8b7e6b4e5e8dc8c6a8c6e5",
+      "englishSha256": "977c0670e6a5b378639c5e26722d0ec3e866d4a0a726fd310072a76411a1a054",
+      "originalCandidates": [
+        "水梧桐"
+      ],
+      "candidateIds": [
+        "candidate-014875"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.30",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ウシオ",
+      "english": "MATT",
+      "chinese": "阿潮",
+      "japaneseSha256": "34e3d666af2acb52ebe15b6a7455d547681cb396a4cfedfd17dcca399a41731a",
+      "englishSha256": "6fe6187c26ad96afa0bb9420f907fcb14533bae54f6581219a1dec168b4e97a3",
+      "originalCandidates": [
+        "阿潮"
+      ],
+      "candidateIds": [
+        "candidate-004266"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.30",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ウシオ",
+      "english": "MATT",
+      "chinese": "阿潮",
+      "japaneseSha256": "34e3d666af2acb52ebe15b6a7455d547681cb396a4cfedfd17dcca399a41731a",
+      "englishSha256": "6fe6187c26ad96afa0bb9420f907fcb14533bae54f6581219a1dec168b4e97a3",
+      "originalCandidates": [
+        "阿潮"
+      ],
+      "candidateIds": [
+        "candidate-014903"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.31",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ウシオ",
+      "english": "MATT",
+      "chinese": "阿潮",
+      "japaneseSha256": "34e3d666af2acb52ebe15b6a7455d547681cb396a4cfedfd17dcca399a41731a",
+      "englishSha256": "6fe6187c26ad96afa0bb9420f907fcb14533bae54f6581219a1dec168b4e97a3",
+      "originalCandidates": [
+        "阿潮"
+      ],
+      "candidateIds": [
+        "candidate-004267"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.31",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ウシオ",
+      "english": "MATT",
+      "chinese": "阿潮",
+      "japaneseSha256": "34e3d666af2acb52ebe15b6a7455d547681cb396a4cfedfd17dcca399a41731a",
+      "englishSha256": "6fe6187c26ad96afa0bb9420f907fcb14533bae54f6581219a1dec168b4e97a3",
+      "originalCandidates": [
+        "阿潮"
+      ],
+      "candidateIds": [
+        "candidate-014904"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.32",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "イズミ",
+      "english": "SHELLY",
+      "chinese": "阿泉",
+      "japaneseSha256": "59c983e9415f3d2f6eaa0ba2d95317f4f37bb72e03f9995a546d5b7d5d328114",
+      "englishSha256": "a4ec3b1fd7105b9dee1e00327086a0a4387e7048f13e9530d812cba8482230de",
+      "originalCandidates": [
+        "阿泉"
+      ],
+      "candidateIds": [
+        "candidate-004268"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.32",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "イズミ",
+      "english": "SHELLY",
+      "chinese": "阿泉",
+      "japaneseSha256": "59c983e9415f3d2f6eaa0ba2d95317f4f37bb72e03f9995a546d5b7d5d328114",
+      "englishSha256": "a4ec3b1fd7105b9dee1e00327086a0a4387e7048f13e9530d812cba8482230de",
+      "originalCandidates": [
+        "阿泉"
+      ],
+      "candidateIds": [
+        "candidate-014905"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.33",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "イズミ",
+      "english": "SHELLY",
+      "chinese": "阿泉",
+      "japaneseSha256": "59c983e9415f3d2f6eaa0ba2d95317f4f37bb72e03f9995a546d5b7d5d328114",
+      "englishSha256": "a4ec3b1fd7105b9dee1e00327086a0a4387e7048f13e9530d812cba8482230de",
+      "originalCandidates": [
+        "阿泉"
+      ],
+      "candidateIds": [
+        "candidate-004269"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.33",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "イズミ",
+      "english": "SHELLY",
+      "chinese": "阿泉",
+      "japaneseSha256": "59c983e9415f3d2f6eaa0ba2d95317f4f37bb72e03f9995a546d5b7d5d328114",
+      "englishSha256": "a4ec3b1fd7105b9dee1e00327086a0a4387e7048f13e9530d812cba8482230de",
+      "originalCandidates": [
+        "阿泉"
+      ],
+      "candidateIds": [
+        "candidate-014906"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.34",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "アオギリ",
+      "english": "ARCHIE",
+      "chinese": "水梧桐",
+      "japaneseSha256": "e0dd224bd1f8e5278e0f75f257f4458b5178ebb63a8b7e6b4e5e8dc8c6a8c6e5",
+      "englishSha256": "977c0670e6a5b378639c5e26722d0ec3e866d4a0a726fd310072a76411a1a054",
+      "originalCandidates": [
+        "水梧桐"
+      ],
+      "candidateIds": [
+        "candidate-004270"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.34",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "アオギリ",
+      "english": "ARCHIE",
+      "chinese": "水梧桐",
+      "japaneseSha256": "e0dd224bd1f8e5278e0f75f257f4458b5178ebb63a8b7e6b4e5e8dc8c6a8c6e5",
+      "englishSha256": "977c0670e6a5b378639c5e26722d0ec3e866d4a0a726fd310072a76411a1a054",
+      "originalCandidates": [
+        "水梧桐"
+      ],
+      "candidateIds": [
+        "candidate-014907"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.35",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "アオギリ",
+      "english": "ARCHIE",
+      "chinese": "水梧桐",
+      "japaneseSha256": "e0dd224bd1f8e5278e0f75f257f4458b5178ebb63a8b7e6b4e5e8dc8c6a8c6e5",
+      "englishSha256": "977c0670e6a5b378639c5e26722d0ec3e866d4a0a726fd310072a76411a1a054",
+      "originalCandidates": [
+        "水梧桐"
+      ],
+      "candidateIds": [
+        "candidate-004271"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.35",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "アオギリ",
+      "english": "ARCHIE",
+      "chinese": "水梧桐",
+      "japaneseSha256": "e0dd224bd1f8e5278e0f75f257f4458b5178ebb63a8b7e6b4e5e8dc8c6a8c6e5",
+      "englishSha256": "977c0670e6a5b378639c5e26722d0ec3e866d4a0a726fd310072a76411a1a054",
+      "originalCandidates": [
+        "水梧桐"
+      ],
+      "candidateIds": [
+        "candidate-014908"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.261",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "カゲツ",
+      "english": "SIDNEY",
+      "chinese": "花月",
+      "japaneseSha256": "fd000b578815860a54e0642ceadf2e6c63164b214e0422a1459193e78b4569b4",
+      "englishSha256": "68e4ad38845e8b0d411e6638c5a08430d3d113e2587a5e4d067be3b93426c764",
+      "originalCandidates": [
+        "花月"
+      ],
+      "candidateIds": [
+        "candidate-004494"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.261",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "カゲツ",
+      "english": "SIDNEY",
+      "chinese": "花月",
+      "japaneseSha256": "fd000b578815860a54e0642ceadf2e6c63164b214e0422a1459193e78b4569b4",
+      "englishSha256": "68e4ad38845e8b0d411e6638c5a08430d3d113e2587a5e4d067be3b93426c764",
+      "originalCandidates": [
+        "花月"
+      ],
+      "candidateIds": [
+        "candidate-015131"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.262",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "フヨウ",
+      "english": "PHOEBE",
+      "chinese": "芙蓉",
+      "japaneseSha256": "3ce178757b0519872f59ec6c5653ff0f3ed53580f04df5a6ee86bd25d909d107",
+      "englishSha256": "9e051d8cb9fdd6d1c454fc3462cda864ec9b091897cd8bd96a0d231e54163da0",
+      "originalCandidates": [
+        "芙蓉"
+      ],
+      "candidateIds": [
+        "candidate-004495"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.262",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "フヨウ",
+      "english": "PHOEBE",
+      "chinese": "芙蓉",
+      "japaneseSha256": "3ce178757b0519872f59ec6c5653ff0f3ed53580f04df5a6ee86bd25d909d107",
+      "englishSha256": "9e051d8cb9fdd6d1c454fc3462cda864ec9b091897cd8bd96a0d231e54163da0",
+      "originalCandidates": [
+        "芙蓉"
+      ],
+      "candidateIds": [
+        "candidate-015132"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.263",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "プリム",
+      "english": "GLACIA",
+      "chinese": "波妮",
+      "japaneseSha256": "97e4974b63cdd75a87aacccd5bf967a4d0245f1210b1571460049de3eb61205b",
+      "englishSha256": "0c7fa59a16224d630368eefa69cdd43c5b59b1dfbe2997bd22cd1251c5d8c7ed",
+      "originalCandidates": [
+        "波妮"
+      ],
+      "candidateIds": [
+        "candidate-004496"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.263",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "プリム",
+      "english": "GLACIA",
+      "chinese": "波妮",
+      "japaneseSha256": "97e4974b63cdd75a87aacccd5bf967a4d0245f1210b1571460049de3eb61205b",
+      "englishSha256": "0c7fa59a16224d630368eefa69cdd43c5b59b1dfbe2997bd22cd1251c5d8c7ed",
+      "originalCandidates": [
+        "波妮"
+      ],
+      "candidateIds": [
+        "candidate-015133"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.264",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ゲンジ",
+      "english": "DRAKE",
+      "chinese": "源治",
+      "japaneseSha256": "fcb21985142a15f4efae859b196f120481979b4ad9f6addead0c5eb775378dda",
+      "englishSha256": "7fe86c53179eb46331982ef64f73023c1bf0680665ac753805b702c5429ecda1",
+      "originalCandidates": [
+        "源治"
+      ],
+      "candidateIds": [
+        "candidate-004497"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.264",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ゲンジ",
+      "english": "DRAKE",
+      "chinese": "源治",
+      "japaneseSha256": "fcb21985142a15f4efae859b196f120481979b4ad9f6addead0c5eb775378dda",
+      "englishSha256": "7fe86c53179eb46331982ef64f73023c1bf0680665ac753805b702c5429ecda1",
+      "originalCandidates": [
+        "源治"
+      ],
+      "candidateIds": [
+        "candidate-015134"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.265",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ツツジ",
+      "english": "ROXANNE",
+      "chinese": "杜娟",
+      "japaneseSha256": "ac92e8ca60a83b4b67960af74f1743b0365d1f8fd307afd2607ecccb734177b0",
+      "englishSha256": "1e177a0f4488381aefe867f0b0d48f8d76c2137c2949a54fba1ea05c7b1b3f4c",
+      "originalCandidates": [
+        "杜娟"
+      ],
+      "candidateIds": [
+        "candidate-004498"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.265",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ツツジ",
+      "english": "ROXANNE",
+      "chinese": "杜娟",
+      "japaneseSha256": "ac92e8ca60a83b4b67960af74f1743b0365d1f8fd307afd2607ecccb734177b0",
+      "englishSha256": "1e177a0f4488381aefe867f0b0d48f8d76c2137c2949a54fba1ea05c7b1b3f4c",
+      "originalCandidates": [
+        "杜娟"
+      ],
+      "candidateIds": [
+        "candidate-015135"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.266",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "トウキ",
+      "english": "BRAWLY",
+      "chinese": "藤树",
+      "japaneseSha256": "b9ff6976cb0cd0f41e9532e4614971eb970bbb59fedf701a8d38b26b429a3c71",
+      "englishSha256": "7e9732baa6c767ea4438f2d9e6aeb42b198002f1187557a30dc0e36d038cc07f",
+      "originalCandidates": [
+        "藤树"
+      ],
+      "candidateIds": [
+        "candidate-004499"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.266",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "トウキ",
+      "english": "BRAWLY",
+      "chinese": "藤树",
+      "japaneseSha256": "b9ff6976cb0cd0f41e9532e4614971eb970bbb59fedf701a8d38b26b429a3c71",
+      "englishSha256": "7e9732baa6c767ea4438f2d9e6aeb42b198002f1187557a30dc0e36d038cc07f",
+      "originalCandidates": [
+        "藤树"
+      ],
+      "candidateIds": [
+        "candidate-015136"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.267",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "テッセン",
+      "english": "WATTSON",
+      "chinese": "铁旋",
+      "japaneseSha256": "baaeb90dbdb0223172d9f381d011165cbff16f6c1954cded8648845ae1e05f61",
+      "englishSha256": "4a201a984555a74eafd51fe4765cb69d7671aeab188d7fb83aafb752ec736711",
+      "originalCandidates": [
+        "铁旋"
+      ],
+      "candidateIds": [
+        "candidate-004500"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.267",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "テッセン",
+      "english": "WATTSON",
+      "chinese": "铁旋",
+      "japaneseSha256": "baaeb90dbdb0223172d9f381d011165cbff16f6c1954cded8648845ae1e05f61",
+      "englishSha256": "4a201a984555a74eafd51fe4765cb69d7671aeab188d7fb83aafb752ec736711",
+      "originalCandidates": [
+        "铁旋"
+      ],
+      "candidateIds": [
+        "candidate-015137"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.268",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "アスナ",
+      "english": "FLANNERY",
+      "chinese": "亚莎",
+      "japaneseSha256": "45c093305f88a09d5830fa0afa0662b4610ecd92b248905c1f2896965110f124",
+      "englishSha256": "690d1a879412a0816f538fbeb5314af211721e05b044bd5d45932553a3f74e13",
+      "originalCandidates": [
+        "亚莎"
+      ],
+      "candidateIds": [
+        "candidate-004501"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.268",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "アスナ",
+      "english": "FLANNERY",
+      "chinese": "亚莎",
+      "japaneseSha256": "45c093305f88a09d5830fa0afa0662b4610ecd92b248905c1f2896965110f124",
+      "englishSha256": "690d1a879412a0816f538fbeb5314af211721e05b044bd5d45932553a3f74e13",
+      "originalCandidates": [
+        "亚莎"
+      ],
+      "candidateIds": [
+        "candidate-015138"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.269",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "センリ",
+      "english": "NORMAN",
+      "chinese": "千里",
+      "japaneseSha256": "eb84b963124cb18bd6b36596c21b1b03128e860a84b9d4932d20153ec8bfb8de",
+      "englishSha256": "642acbd578c15b13cc29dc5db18d4c46384f1c4ed0c98102c52eda3e2afb86c0",
+      "originalCandidates": [
+        "千里"
+      ],
+      "candidateIds": [
+        "candidate-004502"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.269",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "センリ",
+      "english": "NORMAN",
+      "chinese": "千里",
+      "japaneseSha256": "eb84b963124cb18bd6b36596c21b1b03128e860a84b9d4932d20153ec8bfb8de",
+      "englishSha256": "642acbd578c15b13cc29dc5db18d4c46384f1c4ed0c98102c52eda3e2afb86c0",
+      "originalCandidates": [
+        "千里"
+      ],
+      "candidateIds": [
+        "candidate-015139"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.270",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ナギ",
+      "english": "WINONA",
+      "chinese": "娜琪",
+      "japaneseSha256": "600410863763126262d7a0bc118df95940a6b24990e361ad87a53f5693496c55",
+      "englishSha256": "4bd60e330a8fbd82d3d8f805555c3e8464bdcdf0c40b20151e0acd37319fae94",
+      "originalCandidates": [
+        "娜琪"
+      ],
+      "candidateIds": [
+        "candidate-004503"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.270",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ナギ",
+      "english": "WINONA",
+      "chinese": "娜琪",
+      "japaneseSha256": "600410863763126262d7a0bc118df95940a6b24990e361ad87a53f5693496c55",
+      "englishSha256": "4bd60e330a8fbd82d3d8f805555c3e8464bdcdf0c40b20151e0acd37319fae94",
+      "originalCandidates": [
+        "娜琪"
+      ],
+      "candidateIds": [
+        "candidate-015140"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.271",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "フウとラン",
+      "english": "TATE&LIZA",
+      "chinese": "小枫与小南",
+      "japaneseSha256": "1e5fc1392de12e6d10e9ca3e17073d3d1d147c02246f46858170d2d83d2b9ccc",
+      "englishSha256": "9ee727f06e1723513148d1ecf338e290c93df05f112ab90b4ef5d4fc9751d27e",
+      "originalCandidates": [
+        "小枫与小南"
+      ],
+      "candidateIds": [
+        "candidate-004504"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.271",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "フウとラン",
+      "english": "TATE&LIZA",
+      "chinese": "小枫与小南",
+      "japaneseSha256": "1e5fc1392de12e6d10e9ca3e17073d3d1d147c02246f46858170d2d83d2b9ccc",
+      "englishSha256": "9ee727f06e1723513148d1ecf338e290c93df05f112ab90b4ef5d4fc9751d27e",
+      "originalCandidates": [
+        "小枫与小南"
+      ],
+      "candidateIds": [
+        "candidate-015141"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.272",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ミクリ",
+      "english": "WALLACE",
+      "chinese": "米可利",
+      "japaneseSha256": "71fefb12040004bca518791f9f41844bb46e5e80c234731bdbcb6cc1ce741fa0",
+      "englishSha256": "5c49c58f439c3641fa20aa580145f8c3b4bc97fa39cdbe19fc0fabc62b24a8f2",
+      "originalCandidates": [
+        "米可利"
+      ],
+      "candidateIds": [
+        "candidate-004505"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.272",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ミクリ",
+      "english": "WALLACE",
+      "chinese": "米可利",
+      "japaneseSha256": "71fefb12040004bca518791f9f41844bb46e5e80c234731bdbcb6cc1ce741fa0",
+      "englishSha256": "5c49c58f439c3641fa20aa580145f8c3b4bc97fa39cdbe19fc0fabc62b24a8f2",
+      "originalCandidates": [
+        "米可利"
+      ],
+      "candidateIds": [
+        "candidate-015142"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.335",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ダイゴ",
+      "english": "STEVEN",
+      "chinese": "大吾",
+      "japaneseSha256": "73f7cefd3b173b9481cf7e4d69cbd7d2db610688a82f9bb54cba3cc3c2f5789a",
+      "englishSha256": "1dbc266714edc2730b96af7bfa7b405b05f005114506480a8ec50b6bddd1aec5",
+      "originalCandidates": [
+        "大吾"
+      ],
+      "candidateIds": [
+        "candidate-004567"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.335",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ダイゴ",
+      "english": "STEVEN",
+      "chinese": "大吾",
+      "japaneseSha256": "73f7cefd3b173b9481cf7e4d69cbd7d2db610688a82f9bb54cba3cc3c2f5789a",
+      "englishSha256": "1dbc266714edc2730b96af7bfa7b405b05f005114506480a8ec50b6bddd1aec5",
+      "originalCandidates": [
+        "大吾"
+      ],
+      "candidateIds": [
+        "candidate-015204"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.519",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-004743"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.519",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-015380"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.520",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004744"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.520",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015381"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.521",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004745"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.521",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015382"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.522",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004746"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.522",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015383"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.523",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004747"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.523",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015384"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.524",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004748"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.524",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015385"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.525",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004749"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.525",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015386"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.526",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004750"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.526",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015387"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.527",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004751"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.527",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015388"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.528",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004752"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.528",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015389"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.529",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004753"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.529",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015390"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.530",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004754"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.530",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015391"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.531",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004755"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.531",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015392"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.532",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004756"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.532",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015393"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.533",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004757"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.533",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015394"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.534",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004758"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.534",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015395"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.535",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004759"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.535",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015396"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.536",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004760"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.536",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015397"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.537",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004761"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.537",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015398"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.566",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "マツブサ",
+      "english": "MAXIE",
+      "chinese": "赤焰松",
+      "japaneseSha256": "f35fb77efdb87708f5a6189d044d691cebba98d6d77af73c905f80f5d671e029",
+      "englishSha256": "b462a58853263196641cd4b9e4933171637b96bb40d384b1d3ac635e218e6608",
+      "originalCandidates": [
+        "赤焰松"
+      ],
+      "candidateIds": [
+        "candidate-004790"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.566",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "マツブサ",
+      "english": "MAXIE",
+      "chinese": "赤焰松",
+      "japaneseSha256": "f35fb77efdb87708f5a6189d044d691cebba98d6d77af73c905f80f5d671e029",
+      "englishSha256": "b462a58853263196641cd4b9e4933171637b96bb40d384b1d3ac635e218e6608",
+      "originalCandidates": [
+        "赤焰松"
+      ],
+      "candidateIds": [
+        "candidate-015427"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.596",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ホムラ",
+      "english": "TABITHA",
+      "chinese": "火村",
+      "japaneseSha256": "1e04712ec71ff5aac8e0bcd74658a79857dc29b5cbcc2f6abfe6c0a0eaded158",
+      "englishSha256": "805fc3ffac48c0235ab14f1a1c8d1a73f3d75e0bdecb28e1e342bb8a3db1418c",
+      "originalCandidates": [
+        "火村"
+      ],
+      "candidateIds": [
+        "candidate-004818"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.596",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ホムラ",
+      "english": "TABITHA",
+      "chinese": "火村",
+      "japaneseSha256": "1e04712ec71ff5aac8e0bcd74658a79857dc29b5cbcc2f6abfe6c0a0eaded158",
+      "englishSha256": "805fc3ffac48c0235ab14f1a1c8d1a73f3d75e0bdecb28e1e342bb8a3db1418c",
+      "originalCandidates": [
+        "火村"
+      ],
+      "candidateIds": [
+        "candidate-015455"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.597",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ホムラ",
+      "english": "TABITHA",
+      "chinese": "火村",
+      "japaneseSha256": "1e04712ec71ff5aac8e0bcd74658a79857dc29b5cbcc2f6abfe6c0a0eaded158",
+      "englishSha256": "805fc3ffac48c0235ab14f1a1c8d1a73f3d75e0bdecb28e1e342bb8a3db1418c",
+      "originalCandidates": [
+        "火村"
+      ],
+      "candidateIds": [
+        "candidate-004819"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.597",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ホムラ",
+      "english": "TABITHA",
+      "chinese": "火村",
+      "japaneseSha256": "1e04712ec71ff5aac8e0bcd74658a79857dc29b5cbcc2f6abfe6c0a0eaded158",
+      "englishSha256": "805fc3ffac48c0235ab14f1a1c8d1a73f3d75e0bdecb28e1e342bb8a3db1418c",
+      "originalCandidates": [
+        "火村"
+      ],
+      "candidateIds": [
+        "candidate-015456"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.599",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "カガリ",
+      "english": "COURTNEY",
+      "chinese": "火雁",
+      "japaneseSha256": "d10da1000a24e13bd992e747a2aca3148014d8b40d61e0f5a126ac1bcd97c980",
+      "englishSha256": "6bc1caa692e6ae28a90055d31eccbca7bb814c21544f457f3a480ccc82b321a7",
+      "originalCandidates": [
+        "火雁"
+      ],
+      "candidateIds": [
+        "candidate-004820"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.599",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "カガリ",
+      "english": "COURTNEY",
+      "chinese": "火雁",
+      "japaneseSha256": "d10da1000a24e13bd992e747a2aca3148014d8b40d61e0f5a126ac1bcd97c980",
+      "englishSha256": "6bc1caa692e6ae28a90055d31eccbca7bb814c21544f457f3a480ccc82b321a7",
+      "originalCandidates": [
+        "火雁"
+      ],
+      "candidateIds": [
+        "candidate-015457"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.600",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "カガリ",
+      "english": "COURTNEY",
+      "chinese": "火雁",
+      "japaneseSha256": "d10da1000a24e13bd992e747a2aca3148014d8b40d61e0f5a126ac1bcd97c980",
+      "englishSha256": "6bc1caa692e6ae28a90055d31eccbca7bb814c21544f457f3a480ccc82b321a7",
+      "originalCandidates": [
+        "火雁"
+      ],
+      "candidateIds": [
+        "candidate-004821"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.600",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "カガリ",
+      "english": "COURTNEY",
+      "chinese": "火雁",
+      "japaneseSha256": "d10da1000a24e13bd992e747a2aca3148014d8b40d61e0f5a126ac1bcd97c980",
+      "englishSha256": "6bc1caa692e6ae28a90055d31eccbca7bb814c21544f457f3a480ccc82b321a7",
+      "originalCandidates": [
+        "火雁"
+      ],
+      "candidateIds": [
+        "candidate-015458"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.601",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "マツブサ",
+      "english": "MAXIE",
+      "chinese": "赤焰松",
+      "japaneseSha256": "f35fb77efdb87708f5a6189d044d691cebba98d6d77af73c905f80f5d671e029",
+      "englishSha256": "b462a58853263196641cd4b9e4933171637b96bb40d384b1d3ac635e218e6608",
+      "originalCandidates": [
+        "赤焰松"
+      ],
+      "candidateIds": [
+        "candidate-004822"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.601",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "マツブサ",
+      "english": "MAXIE",
+      "chinese": "赤焰松",
+      "japaneseSha256": "f35fb77efdb87708f5a6189d044d691cebba98d6d77af73c905f80f5d671e029",
+      "englishSha256": "b462a58853263196641cd4b9e4933171637b96bb40d384b1d3ac635e218e6608",
+      "originalCandidates": [
+        "赤焰松"
+      ],
+      "candidateIds": [
+        "candidate-015459"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.602",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "マツブサ",
+      "english": "MAXIE",
+      "chinese": "赤焰松",
+      "japaneseSha256": "f35fb77efdb87708f5a6189d044d691cebba98d6d77af73c905f80f5d671e029",
+      "englishSha256": "b462a58853263196641cd4b9e4933171637b96bb40d384b1d3ac635e218e6608",
+      "originalCandidates": [
+        "赤焰松"
+      ],
+      "candidateIds": [
+        "candidate-004823"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.602",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "マツブサ",
+      "english": "MAXIE",
+      "chinese": "赤焰松",
+      "japaneseSha256": "f35fb77efdb87708f5a6189d044d691cebba98d6d77af73c905f80f5d671e029",
+      "englishSha256": "b462a58853263196641cd4b9e4933171637b96bb40d384b1d3ac635e218e6608",
+      "originalCandidates": [
+        "赤焰松"
+      ],
+      "candidateIds": [
+        "candidate-015460"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.656",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-004877"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.656",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-015514"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.657",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-004878"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.657",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-015515"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.658",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-004879"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.658",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-015516"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.659",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-004880"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.659",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-015517"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.660",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-004881"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.660",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ミツル",
+      "english": "WALLY",
+      "chinese": "满充",
+      "japaneseSha256": "93dcc424a25eff304595001e982ec42858b4642af5d1804316441da1827ed4ac",
+      "englishSha256": "83287c68ea763de1311926ff6151c9faa417df9a0f06a79dd9603bbf6f84f196",
+      "originalCandidates": [
+        "满充"
+      ],
+      "candidateIds": [
+        "candidate-015518"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.661",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004882"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.661",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015519"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.662",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004883"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.662",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015520"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.663",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-004884"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.663",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ユウキ",
+      "english": "BRENDAN",
+      "chinese": "小悠",
+      "japaneseSha256": "1ec4f9e4bf31eb609f098c276b9409632e879b8d2b791845cbffa1e5aebe6d8f",
+      "englishSha256": "8cf8ed7e342b5d517c1a59af892594e4ff48de2c226dd2f9342c06d545bf2957",
+      "originalCandidates": [
+        "小悠"
+      ],
+      "candidateIds": [
+        "candidate-015521"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.664",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004885"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.664",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015522"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.665",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004886"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.665",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015523"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.666",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-004887"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.666",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "ハルカ",
+      "english": "MAY",
+      "chinese": "小遥",
+      "japaneseSha256": "5c2c5b74f6be52429099df6fdd882ad06c70d3a711c36289833104f6fd3c5717",
+      "englishSha256": "8f0e1fea3d96d35071f6002db92c675180c6603fcf7cc157c78b147a9d839a62",
+      "originalCandidates": [
+        "小遥"
+      ],
+      "candidateIds": [
+        "candidate-015524"
+      ],
+      "action": "retain",
+      "method": "model_reviewed",
+      "reason": "核对日版主要人物完整姓名与固定汉化对应。显示译名不用于推断同文自定义玩家或昵称的真实身份。"
+    },
+    {
+      "qid": "s6.person.マユミ",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "マユミ",
+      "english": "",
+      "chinese": "真由美",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.strings.gPCText_LanettesPC",
+          "japanese": "マユミのパソコン",
+          "japaneseSha256": "13117c9869d8c2ab24eef66194005a9fa614f92b3307aa0105b31dc7d32d7a5b"
+        }
+      ],
+      "action": "supplement",
+      "method": "model_reviewed",
+      "reason": "离线核对PC属名/明确说话人标签，保存完整独立名字；不从普通对白在运行时截取名字。"
+    },
+    {
+      "qid": "s6.person.マユミ",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "マユミ",
+      "english": "",
+      "chinese": "真由美",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.strings.gPCText_LanettesPC",
+          "japanese": "マユミのパソコン",
+          "japaneseSha256": "13117c9869d8c2ab24eef66194005a9fa614f92b3307aa0105b31dc7d32d7a5b"
+        }
+      ],
+      "action": "supplement",
+      "method": "model_reviewed",
+      "reason": "离线核对PC属名/明确说话人标签，保存完整独立名字；不从普通对白在运行时截取名字。"
+    },
+    {
+      "qid": "s6.person.オダマキ",
+      "game": "ruby",
+      "kind": "person",
+      "japanese": "オダマキ",
+      "english": "",
+      "chinese": "小田卷",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.pokedex_rating.gBirchDexRatingText_ComeToShowMePokedex",
+          "japanese": "オダマキ『おお　[PLAYER][KUN]！\\cポケモンずかんの　ようすを\\nみせて　くれるのかい？",
+          "japaneseSha256": "eedc7b0e5723cd0e3d8cd7936135dec585e63af2da3789987d478757c779d7a6"
+        }
+      ],
+      "action": "supplement",
+      "method": "model_reviewed",
+      "reason": "离线核对PC属名/明确说话人标签，保存完整独立名字；不从普通对白在运行时截取名字。"
+    },
+    {
+      "qid": "s6.person.オダマキ",
+      "game": "sapphire",
+      "kind": "person",
+      "japanese": "オダマキ",
+      "english": "",
+      "chinese": "小田卷",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.pokedex_rating.gBirchDexRatingText_ComeToShowMePokedex",
+          "japanese": "オダマキ『おお　[PLAYER][KUN]！\\cポケモンずかんの　ようすを\\nみせて　くれるのかい？",
+          "japaneseSha256": "eedc7b0e5723cd0e3d8cd7936135dec585e63af2da3789987d478757c779d7a6"
+        }
+      ],
+      "action": "supplement",
+      "method": "model_reviewed",
+      "reason": "离线核对PC属名/明确说话人标签，保存完整独立名字；不从普通对白在运行时截取名字。"
+    }
+  ]
+}

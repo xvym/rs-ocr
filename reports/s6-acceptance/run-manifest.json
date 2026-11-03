@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "inputs": [
+    {
+      "local": "corpus/acceptance/reference.json",
+      "sha256": "b0560a72fb535b4d7d4e8156d27ea9b8eab0611a140b558c245e17e154319af3"
+    },
+    {
+      "local": "outputs/s6-corpus/build-manifest.json",
+      "sha256": "035723155f2ba0b6c1461b8bcd7492cd8bf92959d5b3d9885b2da52b02d04131"
+    },
+    {
+      "local": "corpus/s6/output-judgments.json",
+      "sha256": "10401bfbbdeba0dbb7b75f99accfe3ecb4ffcd647058d82a306e42f8ef5bd58c"
+    }
+  ],
+  "implementation": [
+    {
+      "local": "tools/evaluate_s6_corpus.mjs",
+      "sha256": "35dbfc35584c8c5ff98c7f13b4263a138de8f6f5b800268acb583cf5d38563df"
+    },
+    {
+      "local": "tools/s6_corpus_probe.mjs",
+      "sha256": "2f10c1bac5ed420015a0cb95399eecd6a893d5e4ce6908919ad75e78c3d166fb"
+    },
+    {
+      "local": "tools/chinese_corpus_acceptance_common.mjs",
+      "sha256": "7e5d7d1c40cea24638587790937115c65bfcb24531652ad28bce99c1a4de015a"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "summary.json",
+      "sha256": "85eb50799cc66614f0821963ce47724abc6d92d0aeef537c47739c0bc46fb73d"
+    },
+    {
+      "file": "evaluation.json",
+      "sha256": "4a192e82bbef7baf43dce702eb3493b20849f9348d0b6801211b1e877e19eb19"
+    },
+    {
+      "file": "pending-semantic-review.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "file": "gaps.csv",
+      "sha256": "9706811e1eaa2d49d3ea746fa41c3b36e4b44ec9596a96341f16f42c06c3f69f"
+    }
+  ]
+}

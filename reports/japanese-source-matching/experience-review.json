@@ -1,0 +1,351 @@
+{
+  "summary": {
+    "total": 9,
+    "passed": 9,
+    "nativeBufferCases": 64
+  },
+  "cases": [
+    {
+      "regionId": "GBA-075-R02",
+      "japanese": "ラグラージは\n15 けいけんちを もらった！",
+      "subject": "ラグラージ",
+      "amount": 15,
+      "inputSha256": "13bf66c8e1189b2e4260b6ddfefff579a2b535e32d63882f14dd557de43dc649",
+      "sourceJapanese": "[B_BUFF1][B_BUFF2]　けいけんちを　もらった！\\c",
+      "sourceSha256": "ab56af575eeeb44f42bf9e186a4344c7dd97d22244b4b62886de66057193bb13",
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_GainExpPoints"
+      ],
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "experience_gain",
+          "boostedWording": false,
+          "amountBasis": "displayed_value",
+          "experienceAmount": 15,
+          "actors": {
+            "subject": {
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5,
+              "nameRaw": "ラグラージ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_GainExpPoints"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-159-R02",
+      "japanese": "カイオーガは\n1261 けいけんちを もらった！",
+      "subject": "カイオーガ",
+      "amount": 1261,
+      "inputSha256": "e5a7b57418c254a20d5e273250487b73d3982f97b40c11cff9427cc5fadcb709",
+      "sourceJapanese": "[B_BUFF1][B_BUFF2]　けいけんちを　もらった！\\c",
+      "sourceSha256": "ab56af575eeeb44f42bf9e186a4344c7dd97d22244b4b62886de66057193bb13",
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_GainExpPoints"
+      ],
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "experience_gain",
+          "boostedWording": false,
+          "amountBasis": "displayed_value",
+          "experienceAmount": 1261,
+          "actors": {
+            "subject": {
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5,
+              "nameRaw": "カイオーガ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_GainExpPoints"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-166-R02",
+      "japanese": "カイオーガは\n1744 けいけんちを もらった！",
+      "subject": "カイオーガ",
+      "amount": 1744,
+      "inputSha256": "d75645102452e94285c840e1ab0fd434e5c956ce55b009f0807abc7cee6e5c11",
+      "sourceJapanese": "[B_BUFF1][B_BUFF2]　けいけんちを　もらった！\\c",
+      "sourceSha256": "ab56af575eeeb44f42bf9e186a4344c7dd97d22244b4b62886de66057193bb13",
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_GainExpPoints"
+      ],
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "experience_gain",
+          "boostedWording": false,
+          "amountBasis": "displayed_value",
+          "experienceAmount": 1744,
+          "actors": {
+            "subject": {
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5,
+              "nameRaw": "カイオーガ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_GainExpPoints"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-171-R02",
+      "japanese": "カイオーガは\n1800 けいけんちを もらった！",
+      "subject": "カイオーガ",
+      "amount": 1800,
+      "inputSha256": "b1c6742709f4000c174301c216d3053b0f243b6dfa7aab48a3a4e10ec737d858",
+      "sourceJapanese": "[B_BUFF1][B_BUFF2]　けいけんちを　もらった！\\c",
+      "sourceSha256": "ab56af575eeeb44f42bf9e186a4344c7dd97d22244b4b62886de66057193bb13",
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_GainExpPoints"
+      ],
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "experience_gain",
+          "boostedWording": false,
+          "amountBasis": "displayed_value",
+          "experienceAmount": 1800,
+          "actors": {
+            "subject": {
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5,
+              "nameRaw": "カイオーガ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_GainExpPoints"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-177-R02",
+      "japanese": "カイオーガは\n1827 けいけんちを もらった！",
+      "subject": "カイオーガ",
+      "amount": 1827,
+      "inputSha256": "cd228d0f816d5ae3b63f771d20752a7e8cb2856254ec7b3625e95bef39a47a15",
+      "sourceJapanese": "[B_BUFF1][B_BUFF2]　けいけんちを　もらった！\\c",
+      "sourceSha256": "ab56af575eeeb44f42bf9e186a4344c7dd97d22244b4b62886de66057193bb13",
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_GainExpPoints"
+      ],
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "experience_gain",
+          "boostedWording": false,
+          "amountBasis": "displayed_value",
+          "experienceAmount": 1827,
+          "actors": {
+            "subject": {
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5,
+              "nameRaw": "カイオーガ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_GainExpPoints"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-208-R02",
+      "japanese": "カイオーガは\n1840 けいけんちを もらった！",
+      "subject": "カイオーガ",
+      "amount": 1840,
+      "inputSha256": "c017481e69cb7662058ca321940b35260ab0626f231ad90bed8a958c88c627a7",
+      "sourceJapanese": "[B_BUFF1][B_BUFF2]　けいけんちを　もらった！\\c",
+      "sourceSha256": "ab56af575eeeb44f42bf9e186a4344c7dd97d22244b4b62886de66057193bb13",
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_GainExpPoints"
+      ],
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "experience_gain",
+          "boostedWording": false,
+          "amountBasis": "displayed_value",
+          "experienceAmount": 1840,
+          "actors": {
+            "subject": {
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5,
+              "nameRaw": "カイオーガ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_GainExpPoints"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-222-R02",
+      "japanese": "レックウザは\n1879 けいけんちを もらった！",
+      "subject": "レックウザ",
+      "amount": 1879,
+      "inputSha256": "97071df01896598f5c3c79315712bf70c15727e5831c9285a89db3f136c74304",
+      "sourceJapanese": "[B_BUFF1][B_BUFF2]　けいけんちを　もらった！\\c",
+      "sourceSha256": "ab56af575eeeb44f42bf9e186a4344c7dd97d22244b4b62886de66057193bb13",
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_GainExpPoints"
+      ],
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "experience_gain",
+          "boostedWording": false,
+          "amountBasis": "displayed_value",
+          "experienceAmount": 1879,
+          "actors": {
+            "subject": {
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5,
+              "nameRaw": "レックウザ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_GainExpPoints"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-241-R02",
+      "japanese": "レックウザは\n1956 けいけんちを もらった！",
+      "subject": "レックウザ",
+      "amount": 1956,
+      "inputSha256": "b929a49a6a4248b6b8efec1078630f5d63549f99fb33872eb079f511618bb780",
+      "sourceJapanese": "[B_BUFF1][B_BUFF2]　けいけんちを　もらった！\\c",
+      "sourceSha256": "ab56af575eeeb44f42bf9e186a4344c7dd97d22244b4b62886de66057193bb13",
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_GainExpPoints"
+      ],
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "experience_gain",
+          "boostedWording": false,
+          "amountBasis": "displayed_value",
+          "experienceAmount": 1956,
+          "actors": {
+            "subject": {
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5,
+              "nameRaw": "レックウザ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_GainExpPoints"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "NGC-120-R02",
+      "japanese": "ラグラージは\n15 けいけんちを もらった！",
+      "subject": "ラグラージ",
+      "amount": 15,
+      "inputSha256": "13bf66c8e1189b2e4260b6ddfefff579a2b535e32d63882f14dd557de43dc649",
+      "sourceJapanese": "[B_BUFF1][B_BUFF2]　けいけんちを　もらった！\\c",
+      "sourceSha256": "ab56af575eeeb44f42bf9e186a4344c7dd97d22244b4b62886de66057193bb13",
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_GainExpPoints"
+      ],
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "experience_gain",
+          "boostedWording": false,
+          "amountBasis": "displayed_value",
+          "experienceAmount": 15,
+          "actors": {
+            "subject": {
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5,
+              "nameRaw": "ラグラージ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_GainExpPoints"
+        ]
+      },
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "scope": "Current visible source windows; per-source names, values and typed terms. No identity learning, future page, Chinese or full native caller approval.",
+  "rules": [
+    {
+      "source": "rs.common.battle_strings.BattleText_WildAppeared1",
+      "event": "wild_encounter",
+      "suffix": "が　とびだしてきた！",
+      "actors": {
+        "B_COPY_VAR_2": "subject"
+      },
+      "japanese": "あ！　やせいの\\n[B_COPY_VAR_2]が　とびだしてきた！\\c"
+    },
+    {
+      "source": "rs.common.battle_strings.BattleText_WildAppeared2",
+      "event": "wild_encounter",
+      "suffix": "が　あらわれた！",
+      "actors": {
+        "B_COPY_VAR_2": "subject"
+      },
+      "japanese": "あ！　やせいの\\n[B_COPY_VAR_2]が　あらわれた！\\c"
+    },
+    {
+      "source": "rs.common.battle_strings.BattleText_WildAppeared3",
+      "event": "wild_encounter",
+      "suffix": "が　とびだしてきた！",
+      "actors": {
+        "B_COPY_VAR_2": "subject"
+      },
+      "japanese": "あ！　やせいの\\n[B_COPY_VAR_2]が　とびだしてきた！[PAUSE 127]"
+    },
+    {
+      "source": "rs.common.battle_strings.BattleText_BallCaught1",
+      "event": "caught",
+      "suffix": "を　つかまえたぞ！",
+      "actors": {
+        "B_COPY_VAR_2": "subject"
+      },
+      "japanese": "やったー！\\n[B_COPY_VAR_2]を　つかまえたぞ！[WAIT_SE][PLAY_BGM MUS_CAUGHT]\\c"
+    },
+    {
+      "source": "rs.common.battle_strings.BattleText_BallCaught2",
+      "event": "caught",
+      "suffix": "を　つかまえたぞ！",
+      "actors": {
+        "B_COPY_VAR_2": "subject"
+      },
+      "japanese": "やったー！\\n[B_COPY_VAR_2]を　つかまえたぞ！[WAIT_SE][PLAY_BGM MUS_CAUGHT][PAUSE 127]"
+    },
+    {
+      "source": "rs.common.battle_strings.BattleText_WinningPrize",
+      "event": "money_reward",
+      "suffix": "円　てにいれた！",
+      "actors": {
+        "B_PLAYER_NAME": "subject"
+      },
+      "numbers": {
+        "B_BUFF1": {
+          "field": "moneyAmount",
+          "maxDigits": 6
+        }
+      },
+      "japanese": "[B_PLAYER_NAME]は　しょうきんとして\\n[B_BUFF1]円　てにいれた！\\c"
+    },
+    {
+      "source": "rs.common.strings.gOtherText_HPRestoredBy",
+      "event": "hp_restored",
+      "suffix": "　かいふくした",
+      "actors": {
+        "STR_VAR_1": "subject"
+      },
+      "numbers": {
+        "STR_VAR_2": {
+          "field": "restoredAmount",
+          "maxDigits": 3
+        }
+      },
+      "japanese": "[STR_VAR_1]の　たいりょくが\\n[STR_VAR_2]　かいふくした[PAUSE_UNTIL_PRESS]"
+    },
+    {
+      "source": "rs.common.strings.gOtherText_UsedItem",
+      "event": "item_use",
+      "suffix": "を　つかった！",
+      "actors": {
+        "PLAYER": "subject"
+      },
+      "finite": {
+        "STR_VAR_2": "items"
+      },
+      "japanese": "[PLAYER]は\\n[STR_VAR_2]を　つかった！[PAUSE_UNTIL_PRESS]"
+    },
+    {
+      "source": "rs.common.strings.gOtherText_UsedFlute",
+      "event": "item_use",
+      "suffix": "を　つかった！",
+      "actors": {
+        "PLAYER": "subject"
+      },
+      "finite": {
+        "STR_VAR_2": "items"
+      },
+      "japanese": "[PLAYER]は\\n[STR_VAR_2]を　つかった！\\cポケモンと\\nそうぐう　しやすくなった！[PAUSE_UNTIL_PRESS]"
+    },
+    {
+      "source": "rs.common.strings.gOtherText_UsedRepel",
+      "event": "item_use",
+      "suffix": "を　つかった！",
+      "actors": {
+        "PLAYER": "subject"
+      },
+      "finite": {
+        "STR_VAR_2": "items"
+      },
+      "japanese": "[PLAYER]は\\n[STR_VAR_2]を　つかった！\\cポケモンと\\nそうぐう　しにくくなった！[PAUSE_UNTIL_PRESS]"
+    },
+    {
+      "source": "rs.script.field_move_scripts.UsedCutRockSmashText",
+      "event": "move_use",
+      "suffix": "を　つかった！",
+      "actors": {
+        "STR_VAR_1": "subject"
+      },
+      "finite": {
+        "STR_VAR_2": {
+          "kind": "moves",
+          "ids": [
+            15,
+            249,
+            290
+          ]
+        }
+      },
+      "japanese": "[STR_VAR_1]　は\\n[STR_VAR_2]を　つかった！"
+    }
+  ],
+  "evidence": "Direct Japanese clauses, fixed dictionary records and pinned item_use.c/party_menu.c/field_move_scripts.inc/secret_base.inc call sites; field moves limited to Cut, Rock Smash and Secret Power. Generic item use keeps all compatible first-page sources and never infers later flute/repel effects."
+}

@@ -31,7 +31,7 @@
     },
     {
       "local": "corpus/battle-matching/rules.json",
-      "sha256": "2bd2db68858a251a6edb8f77873442921e4fcc23463c7444156fec43b49c9752"
+      "sha256": "c444c78a4164e88cede697644778a0cc4d34777c9772c89795892ac3b4c73b3d"
     },
     {
       "local": "reports/battle-source-matching/japanese-evidence.json",
@@ -42,16 +42,32 @@
       "sha256": "524d1726bc626b7a496565587834a42772d1de97fb1536586b8947ad24a06c61"
     },
     {
+      "local": "reports/battle-source-matching/experience-evidence.json",
+      "sha256": "d392988edd7a61362293bace7f3f96f9eef6bdb2f452f8684f1a1d20ca0390c0"
+    },
+    {
+      "local": "corpus/source-matching/typed-slot-rules.json",
+      "sha256": "4fda5eb8f5dc2af834d9b1c4864748132c78808923e5ebbe46146540f6b10040"
+    },
+    {
+      "local": "corpus/battle-matching/send-out-rules.json",
+      "sha256": "6a2119d41d388f6a129379c8c8a2097b7112fae7c921b4b8f8f05c5c23636a75"
+    },
+    {
+      "local": "corpus/battle-matching/observation-rules.json",
+      "sha256": "61d5a8bef49c49f17e7c409675d7496e718c7d8f96668908c8bb879ec94f8c6a"
+    },
+    {
       "local": "src/main/resources/ocr/fonts.json",
       "sha256": "65d01cd335908c4c0fd8532a8f984b1d2dfaab933b78164fce34242ef5290f46"
     },
     {
       "local": "outputs/battle-source-matching/build-manifest.json",
-      "sha256": "233cb2d0685f19cdf29b09f556c77b3d0b332a5f7fc71aaa54d4ebb5e87d135c"
+      "sha256": "e0a0f552211b4e7311fc07c650c0de6a59491d9df09229738e9a715f780e588b"
     },
     {
       "local": "outputs/battle-source-matching/templates.json",
-      "sha256": "9638aa31b81f1313c90069712d3a3a9596027dffee8b0e7c416bfb0f7f3b088c"
+      "sha256": "5b90e1b4a8f9fe1b07e870256556ef823f99ab733a24a26e9d5e700ea36e6fc9"
     },
     {
       "local": "corpus/battle-matching/review-reference.json",
@@ -89,7 +105,7 @@
   "implementation": [
     {
       "local": "tools/japanese_source_matcher.mjs",
-      "sha256": "b614c123c639f1c65e79dfeac246af2ab288a815fe9af5dff8bff747ea04b8f5"
+      "sha256": "91f8c4a237ab7a1aef2d339c2bceffea9e307e99590e5c888dbfb8078c01fb6a"
     },
     {
       "local": "tools/japanese_source_layout.mjs",
@@ -97,11 +113,11 @@
     },
     {
       "local": "tools/battle_source_matcher.mjs",
-      "sha256": "7e41793b095550415b6f69eb0fb1fecaae6fba1bdb689b34bda0dec3193f9f6e"
+      "sha256": "1d26a7d8d363e7a86331052f9c73ed459c977a61af8f5ab0081a4f68a7041b48"
     },
     {
       "local": "tools/build_battle_source_templates.mjs",
-      "sha256": "52cd58c65bf264a991e3dc5cce85e6c45c1e4de05ae7f2a0e6389ad987060dc5"
+      "sha256": "ec38b277d5812ce5f7fa1ae04e1bcd5403d04edd549bc2ea01eee218bf3b333c"
     },
     {
       "local": "tools/verify_battle_printing.py",
@@ -113,7 +129,7 @@
     },
     {
       "local": "tools/test_battle_source_matching.mjs",
-      "sha256": "e899279c5eab152f94f2bca04af329def5037a019a6bcfd45332c0d4675fe441"
+      "sha256": "f60757989e2ca9e9fd4783647a2faa2d3536e3daede44cf684b23e677d4f03f0"
     },
     {
       "local": "tools/corpus_common.mjs",
@@ -141,17 +157,17 @@
     },
     {
       "local": "tools/test_source_matching.mjs",
-      "sha256": "0cb43fcf736d9ce565219da38c061a7d0b719015b9585856055d1c65cd614365"
+      "sha256": "d9aad320f7ff401a1ab379fd202e4a967081ce5978b99e0cc502d7705225a721"
     }
   ],
   "outputs": [
     {
       "file": "summary.json",
-      "sha256": "fd6d2c4d31aee30fae07e142c0957d17690f5142f2016ac6c47154fa64e8fa31"
+      "sha256": "e3f669053fc9d6e9347933c5c02156a4c9e482e27a87b044e3fa0de7698d7478"
     },
     {
       "file": "results.json",
-      "sha256": "9f9fef173241b18b1c1ca242c1b40e53b8b6f2b8d7ae20b225e04581f61cd116"
+      "sha256": "fef619df94deeb4406c00ba29988b57296beb676caea1e32ae210c1db71d39d5"
     },
     {
       "file": "battle-review.json",
@@ -159,15 +175,15 @@
     },
     {
       "file": "baseline-comparison.json",
-      "sha256": "e0d64a6849f1cdd5ef0a1e35eb57467ad34d60e3fcee406f54951729cffbe02f"
+      "sha256": "200580f78c0b9653198cee1a5f6abf767b21b5295eb6ea2093e916ce65e3d59d"
     },
     {
       "file": "worklist.csv",
-      "sha256": "11ed94d8b1a250c2fb169d4aade7522d9edd2d5d1f41d4aae1156264278c6b68"
+      "sha256": "5557f2cf839645de0f18757b52c895fbb179d7ef85a42f481de6dfac7e77fc61"
     },
     {
       "file": "review.html",
-      "sha256": "7a65b1850dfd3cb03fef4bd65a6d2f885d8ce5807bb0fb8b93dcf2a5eac8ba6f"
+      "sha256": "f51a3e6c2159d86442fb7a725268857a47df50cf689da841ccb625107b992a09"
     },
     {
       "file": "unsupported-sources.json",

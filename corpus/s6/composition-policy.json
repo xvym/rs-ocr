@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "priceLabel": {
+    "japanese": "円",
+    "chinese": "元"
+  },
+  "memoConnector": {
+    "japanese": "な",
+    "chinese": "的"
+  },
+  "numericFields": "Preserve raw values and leading zeroes; never reuse another observation",
+  "nameFields": [
+    "visible_original_trainer",
+    "visible_player_name"
+  ],
+  "unavailableComponent": "Fall back entire semantic unit; no partly translated result is counted as covered",
+  "saveCounters": {
+    "もっているバッジ": {
+      "japanese": "こ",
+      "chinese": "枚"
+    },
+    "ポケモンずかん": {
+      "japanese": "ひき",
+      "chinese": "只"
+    }
+  },
+  "fieldQualifiers": {
+    "わざ": "招式"
+  },
+  "conditionTerms": {
+    "かっこよさ": "帅气",
+    "たくましさ": "强壮",
+    "うつくしさ": "美丽",
+    "かしこさ": "聪明",
+    "かわいさ": "可爱"
+  }
+}

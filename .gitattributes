@@ -10,10 +10,24 @@
 /tools/*source_match*.mjs text eol=lf
 /tools/japanese_source_layout.mjs text eol=lf
 /tools/resolve_japanese.mjs text eol=lf
+/tools/audit_source_bindings.mjs text eol=lf
 /reports/japanese-source-matching/* -text
 /corpus/battle-matching/*.json -text
 /corpus/battle-matching/*.mjs text eol=lf
 /tools/*battle*.mjs text eol=lf
 /tools/verify_battle_printing.py text eol=lf
+/tools/verify_experience_printing.py text eol=lf
+/outputs/battle-source-matching/*.csv whitespace=cr-at-eol
+/reports/japanese-source-matching/*.csv whitespace=cr-at-eol
 /outputs/battle-source-matching/* -text
 /reports/battle-source-matching/* -text
+/corpus/s6/*.json -text
+/outputs/s6-corpus/* -text
+/reports/s6-corpus/* -text
+/reports/s6-acceptance/* -text
+/outputs/s6-corpus/*.csv whitespace=cr-at-eol
+/reports/s6-corpus/*.csv whitespace=cr-at-eol
+/reports/s6-acceptance/*.csv whitespace=cr-at-eol
+/tools/verify_japanese_names.py text eol=lf
+/tools/verify_easy_chat.py text eol=lf
+/tools/audit_s6_progress.mjs text eol=lf

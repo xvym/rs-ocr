@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "scope": "Model-reviewed current send-out wording and source windows; no single/double/link identity, future text, species or Chinese approval",
+  "actorBudget": {"trainerDisplay":32,"pokemonDisplay":10},
+  "rules": [
+    {"source":"BattleText_SentOutSingle1","japanese":"[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_COPY_VAR_2]を　くりだした！","event":"send_out","suffix":"を　くりだした！","actors":{"B_TRAINER1_NAME":"trainer_name","B_COPY_VAR_2":"subject"},"trainerGroup":["B_TRAINER1_CLASS","B_TRAINER1_NAME"]},
+    {"source":"BattleText_SentOutSingle2","japanese":"[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_BUFF1]を　くりだした！","event":"send_out","suffix":"を　くりだした！","actors":{"B_TRAINER1_NAME":"trainer_name","B_BUFF1":"subject"},"trainerGroup":["B_TRAINER1_CLASS","B_TRAINER1_NAME"]},
+    {"source":"BattleText_SentOutSingle3","japanese":"[B_LINK_OPPONENT1_NAME]は\\n[B_COPY_VAR_2]を　くりだした！","event":"send_out","suffix":"を　くりだした！","actors":{"B_LINK_OPPONENT1_NAME":"trainer","B_COPY_VAR_2":"subject"}},
+    {"source":"BattleText_SentOutSingle4","japanese":"[B_LINK_OPPONENT1_NAME]は\\n[B_BUFF1]を　くりだした！","event":"send_out","suffix":"を　くりだした！","actors":{"B_LINK_OPPONENT1_NAME":"trainer","B_BUFF1":"subject"}},
+    {"source":"BattleText_SentOutSingle5","japanese":"[B_LINK_SCR_TRAINER_NAME]は\\n[B_BUFF1]を　くりだした！","event":"send_out","suffix":"を　くりだした！","actors":{"B_LINK_SCR_TRAINER_NAME":"trainer","B_BUFF1":"subject"}},
+    {"source":"BattleText_SentOutSingle11","japanese":"[B_LINK_PARTNER_NAME]は　[B_LINK_PLAYER_MON2_NAME]を　くりだした！\\nゆけっ！　[B_LINK_PLAYER_MON1_NAME]！","event":"send_out","suffix":"を　くりだした！","actors":{"B_LINK_PARTNER_NAME":"trainer","B_LINK_PLAYER_MON2_NAME":"subject"}},
+    {"source":"BattleText_SentOutDouble3","japanese":"[B_LINK_OPPONENT1_NAME]は　[B_LINK_OPPONENT_MON1_NAME]を　くりだした！\\n[B_LINK_OPPONENT2_NAME]は　[B_LINK_OPPONENT_MON2_NAME]を　くりだした！","event":"send_out","suffix":"を　くりだした！","actors":{"B_LINK_OPPONENT1_NAME":"trainer","B_LINK_OPPONENT_MON1_NAME":"subject","B_LINK_OPPONENT2_NAME":"trainer","B_LINK_OPPONENT_MON2_NAME":"subject"}},
+    {"source":"BattleText_WillSwitch","japanese":"[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_BUFF2]を　くりだそうと　している\\c[B_PLAYER_NAME]も　ポケモンを\\nいれかえますか？","event":"send_out_intent","suffix":"を　くりだそうと　している","actors":{"B_TRAINER1_NAME":"trainer_name","B_BUFF2":"subject"},"trainerGroup":["B_TRAINER1_CLASS","B_TRAINER1_NAME"]}
+  ],
+  "boundary": "Only complete individual action clauses are modeled. Class/name parts form one observed trainer label. One source row may reflow over two observed lines. Unreviewed rows, combined clauses and later clear-window pages remain generic hypotheses. Budgets are conservative retrieval limits, not Japanese naming-UI claims."
+}

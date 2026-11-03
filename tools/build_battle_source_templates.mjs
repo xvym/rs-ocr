@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {parseCsv,read,sha256,csv} from './corpus_common.mjs';
-import {parseSource} from './japanese_source_matcher.mjs';
+import {parseSource,sourceKind} from './japanese_source_matcher.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.resolve(root,process.argv[2]||'outputs/battle-source-matching');fs.mkdirSync(out,{recursive:true});
@@ -57,6 +57,71 @@ for(let id=rules.moveUse.firstMoveId;id<=rules.moveUse.lastMoveId;id++){
     generation:{classificationGroup:group,particle:rules.moveUse.particles[group],suffixQid:suffix.qid,
       sourceBufferValues:{B_BUFF1:rules.moveUse.particles[group],B_BUFF2:move.japanese+suffix.japanese},japaneseSelectorsVerified:true}});
 }
+const experienceEvidence=JSON.parse(input('reports/battle-source-matching/experience-evidence.json'));
+if(rules.experience.maxDigits!==5)throw Error('Experience display budget does not match native number buffer');
+for(const f of experienceEvidence.sourceInputs)if(sha256(fs.readFileSync(path.join(root,f.local)))!==f.sha256)throw Error(`Changed experience source ${f.local}`);
+if(experienceEvidence.roms.length!==2||experienceEvidence.roms.some(r=>r.checks.length!==32||r.checks.some(c=>!c.passed)))throw Error('Incomplete Japanese experience evidence');
+const experienceSource=source(rules.experience.source);
+if(experienceSource.japanese!=='[B_BUFF1][B_BUFF2]　けいけんちを　もらった！\\c')throw Error('Changed experience template');
+for(const form of rules.experience.forms){
+  const component=source(form.component),parsedComponent=parseSource(component.japanese);
+  if(parsedComponent.unsupported.length||parsedComponent.pages.length!==1)throw Error('Unsupported experience component');
+  const expectedName=form.boostedWording?experienceEvidence.boostedComponent:experienceEvidence.normalComponent;
+  if(form.component!==expectedName||!experienceEvidence.roms.every(r=>r.sources.some(s=>s.qid===component.qid)))throw Error('Experience component lacks native evidence');
+  const tail=parseSource(experienceSource.japanese).pages[0][0].split('\uE000B_BUFF2\uE001')[1];
+  variants.push({id:`experience:${form.id}`,family:'experience_gain',strategy:'typed_native_buffer_composition',sourceQids:[experienceSource.qid],
+    parts:[{type:'actor',slot:'B_BUFF1.actor',role:'subject'},{type:'literal',text:parsedComponent.pages[0].join('\n')},
+      {type:'number',slot:'B_BUFF2',field:'experienceAmount',maxDigits:rules.experience.maxDigits},{type:'literal',text:tail}],
+    meaning:{event:'experience_gain',boostedWording:form.boostedWording,amountBasis:'displayed_value'},componentSources:[component.qid],
+    generation:{japaneseBufferBlockVerified:true,bufferComposition:{B_BUFF1:['observed_actor',component.qid],B_BUFF2:'displayed_decimal_amount'}}});
+}
+const slotRules=JSON.parse(input('corpus/source-matching/typed-slot-rules.json'));
+const slotConstraints=slotRules.rules.map(rule=>{
+  const record=source(rule.qid);
+  if(sha256(Buffer.from(record.japanese))!==rule.japaneseSha256||sha256(Buffer.from(record.english))!==rule.englishSha256)throw Error(`Stale slot rule ${rule.qid}`);
+  const prefix=rule.kind==='item'?'rs.common.items.gItems.':rule.kind==='species'?'rs.common.species_names.gSpeciesNames.':null;
+  if(!prefix)throw Error('Unsupported lexical source-slot type');
+  const terms=records.filter(r=>r.qid.startsWith(prefix)&&r.japanese&&r.japanese!=='[NULL]'&&!/[\[\\]/.test(r.japanese)).map(r=>({qid:source(r.qid).qid,text:r.japanese,game:r.game}));
+  if(!terms.length)throw Error('Empty lexical source terms');
+  return {...rule,terms,status:slotRules.status};
+});
+const sendOutRules=JSON.parse(input('corpus/battle-matching/send-out-rules.json'));
+const trainerTerms=records.filter(r=>r.qid.startsWith('rs.common.trainer_class_names.')&&r.japanese&&r.japanese!=='[NULL]'&&!/[\[\\]/.test(r.japanese))
+  .map(r=>({text:r.japanese,sourceQid:source(r.qid).qid}));
+const observationRules=JSON.parse(input('corpus/battle-matching/observation-rules.json'));
+for(const rule of [...sendOutRules.rules,...observationRules.rules]){
+  const record=source(rule.source);if(record.japanese!==rule.japanese)throw Error(`Stale send-out judgment ${record.qid}`);
+  const parsedSource=parseSource(record.japanese);if(parsedSource.unsupported.length)throw Error('Unsupported send-out control');
+  for(const [page,lines] of parsedSource.pages.entries())for(let lineStart=0;lineStart<lines.length;lineStart++)for(const lineCount of new Set([1,2])){
+    if(lineStart+lineCount>lines.length)continue;
+    const text=lines.slice(lineStart,lineStart+lineCount).join('\n');
+    // One complete current action, never the subsequent send-out or question.
+    if(!text.endsWith(rule.suffix)||text.split(rule.suffix).length!==2)continue;
+    const slotNames=[];
+    const modelParts=text.split(/(\uE000[^\uE001]+\uE001)/).filter(Boolean).map(value=>{
+      if(!value.startsWith('\uE000'))return {type:'literal',text:value};
+      const slot=value.slice(1,-1);slotNames.push(slot);
+      if(slot==='B_TRAINER1_CLASS')return {type:'choice',slot,choices:trainerTerms};
+      if(rule.numbers?.[slot])return {type:'number',slot,...rule.numbers[slot]};
+      if(rule.finite?.[slot]){
+        const definition=rule.finite[slot],kind=typeof definition==='string'?definition:definition.kind;
+        const prefix=kind==='items'?'rs.common.items.gItems.':kind==='moves'?'rs.common.move_names.gMoveNames.':null;
+        if(!prefix)throw Error('Unknown observation finite type');
+        const choices=records.filter(r=>r.qid.startsWith(prefix)&&r.japanese&&r.japanese!=='[NULL]'&&!/[\[\\]/.test(r.japanese))
+          .filter(r=>!definition.ids||definition.ids.includes(Number(r.qid.slice(prefix.length))))
+          .map(r=>({text:r.japanese,sourceQid:source(r.qid).qid,meaning:kind==='items'?{itemId:Number(r.qid.slice(prefix.length)),itemQid:r.qid}:{moveId:Number(r.qid.slice(prefix.length)),moveQid:r.qid}}));
+        return {type:'choice',slot,choices};
+      }
+      const role=rule.actors[slot];if(!role)throw Error(`Unreviewed send-out actor ${record.qid}/${slot}`);
+      return {type:'actor',slot,role,parsePrefix:false,maxCharacters:role==='trainer'?sendOutRules.actorBudget.trainerDisplay:sendOutRules.actorBudget.pokemonDisplay};
+    });
+    const actorGroups=rule.trainerGroup?.every(s=>slotNames.includes(s))?{trainer:rule.trainerGroup}:{};
+    variants.push({id:`window:${rule.source}:${page}:${lineStart}:${lineCount}`,family:observationRules.rules.includes(rule)?'observation_window':'send_out_window',strategy:'reviewed_source_window',sourceQids:[record.qid],sourceKind:sourceKind(record.qid),
+      sourceWindow:{page,lineStart,lineCount},parts:modelParts,actorGroups,
+      meaning:{event:rule.event,...(observationRules.rules.includes(rule)?{}:{meaningBasis:'current_complete_action_clause'})},componentSources:slotNames.includes('B_TRAINER1_CLASS')?trainerTerms.map(t=>t.sourceQid):[],
+      generation:{sourceWindowReviewed:true,scriptIdentityInferred:false,futureUnitIncluded:false}});
+  }
+}
 for(const rule of rules.related){
   const finite={};
   for(const [slot,definition] of Object.entries(rule.finite||{})){
@@ -77,17 +142,19 @@ const frozen=JSON.parse(read(path.join(root,'reports/s3-acceptance/freeze-manife
 if(inputs.at(-1).sha256!==frozen.files['src/main/resources/ocr/fonts.json'])throw Error('Native glyph evidence changed');
 const allowedActorCharacters=[...new Set(font.glyphs.filter(g=>g.font===3&&g.text.length===1&&!/[ \u3000\r\n�]/.test(g.text)).map(g=>g.text))].sort().join('');
 const prefixes=rules.actor.prefixSources.map(id=>{const r=source(id);return {sourceQid:r.qid,text:r.japanese};});
-const summary={ordinaryStatSurfaces:28,ordinaryStatSourceBindings:56,moveSurfaces:354,relatedTypedModels:rules.related.length,totalModels:variants.length,
+const summary={ordinaryStatSurfaces:28,ordinaryStatSourceBindings:56,moveSurfaces:354,relatedTypedModels:rules.related.length,experienceModels:rules.experience.forms.length,typedSourceSlots:slotConstraints.length,
+ sendOutSourceRecords:sendOutRules.rules.length,sendOutWindowModels:variants.filter(v=>v.family==='send_out_window').length,totalModels:variants.length,
+ observationSourceRecords:observationRules.rules.length,observationWindowModels:variants.filter(v=>v.family==='observation_window').length,
  japaneseMovesVerifiedPerRom:354,roms:evidence.roms.map(r=>r.gameCode),releaseChinese:false};
 const value={schemaVersion:1,id:rules.id,summary,actor:{...rules.actor,prefixes,allowedCharacters:allowedActorCharacters},
- sources:[...sources.values()],variants,printingEvidenceSha256:sha256(fs.readFileSync(path.join(root,'reports/battle-source-matching/japanese-evidence.json'))),
+ sources:[...sources.values()],variants,slotConstraints,printingEvidenceSha256:sha256(fs.readFileSync(path.join(root,'reports/battle-source-matching/japanese-evidence.json'))),
  releasePolicy:rules.releasePolicy};
 const content=JSON.stringify(value,null,2)+'\n';fs.writeFileSync(path.join(out,'templates.json'),content);
 const audit=csv(variants.map(v=>({id:v.id,family:v.family,strategy:v.strategy,
- japanese:v.parts.map(p=>p.type==='literal'?p.text:p.type==='actor'?`{${p.role}}`:`{${p.slot}: ${p.choices.map(c=>c.text).join(' | ')}}`).join(''),
+ japanese:v.parts.map(p=>p.type==='literal'?p.text:p.type==='actor'?`{${p.role}}`:p.type==='number'?`{${p.field}: decimal/${p.maxDigits}}`:`{${p.slot}: ${p.choices.map(c=>c.text).join(' | ')}}`).join(''),
  sourceQids:JSON.stringify(v.sourceQids),meaning:JSON.stringify(v.meaning),componentSourceQids:JSON.stringify(v.componentSources)})),['id','family','strategy','japanese','sourceQids','meaning','componentSourceQids']);
 fs.writeFileSync(path.join(out,'templates.csv'),audit);
-const implementations=['tools/build_battle_source_templates.mjs','tools/battle_source_matcher.mjs','tools/japanese_source_matcher.mjs','tools/corpus_common.mjs','tools/verify_battle_printing.py'];
+const implementations=['tools/build_battle_source_templates.mjs','tools/battle_source_matcher.mjs','tools/japanese_source_matcher.mjs','tools/corpus_common.mjs','tools/verify_battle_printing.py','tools/verify_experience_printing.py'];
 fs.writeFileSync(path.join(out,'build-manifest.json'),JSON.stringify({schemaVersion:1,inputs,sourceInputs:evidence.sourceInputs,
  implementation:implementations.map(local=>({local,sha256:sha256(fs.readFileSync(path.join(root,local)))})),
  outputs:[{file:'templates.json',sha256:sha256(Buffer.from(content))},{file:'templates.csv',sha256:sha256(Buffer.from(audit))}],summary},null,2)+'\n');

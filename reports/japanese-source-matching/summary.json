@@ -16,11 +16,11 @@
   "unitWhitespaceOnlyWholeSourceHits": 644,
   "unitWithCandidate": 1130,
   "unitStatuses": {
-    "ambiguous": 313,
+    "ambiguous": 303,
     "fragment_only": 2,
     "not_found": 1,
     "source_candidate": 731,
-    "template_candidate": 86
+    "template_candidate": 96
   },
   "unitsWithChineseCandidate": 1035,
   "unitsWithReviewedSource": 121,
@@ -29,13 +29,13 @@
     "investigate_source_or_composition": 1,
     "review_existing_chinese_candidate": 587,
     "review_partial_visible_window": 2,
-    "review_slot_callsite_and_semantic_unit": 61,
-    "review_source_ambiguity": 304,
-    "review_structured_battle_meaning_and_chinese": 34,
+    "review_slot_callsite_and_semantic_unit": 51,
+    "review_source_ambiguity": 288,
+    "review_structured_battle_meaning_and_chinese": 60,
     "review_visible_semantic_unit_before_integration": 92
   },
   "unitsWithCapturedSlots": 148,
-  "unitsWithAmbiguousBindings": 31,
+  "unitsWithAmbiguousBindings": 2,
   "bindingSearchTruncatedUnits": 0,
   "ocrAlternativeRegions": 60,
   "unmappedAmbiguousGlyphs": 0,
@@ -59,7 +59,13 @@
       "ordinaryStatSourceBindings": 56,
       "moveSurfaces": 354,
       "relatedTypedModels": 14,
-      "totalModels": 396,
+      "experienceModels": 2,
+      "typedSourceSlots": 3,
+      "sendOutSourceRecords": 8,
+      "sendOutWindowModels": 15,
+      "totalModels": 435,
+      "observationSourceRecords": 11,
+      "observationWindowModels": 22,
       "japaneseMovesVerifiedPerRom": 354,
       "roms": [
         "AXPJ",
@@ -68,9 +74,8 @@
       "releaseChinese": false
     },
     "semanticStatuses": {
-      "consistent": 34,
-      "incomplete": 2,
-      "not_applicable": 1097
+      "consistent": 60,
+      "not_applicable": 1073
     },
     "reviewedFixedCases": {
       "total": 32,

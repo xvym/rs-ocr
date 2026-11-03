@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "inputs": [
+    {
+      "local": "reports/japanese-source-matching/binding-baseline-v1.json",
+      "sha256": "590b30e41ade1bc19c09a5b326a24979fbfa6b1e07bf6bdfd7f0ec5c524a4cb6"
+    },
+    {
+      "local": "reports/japanese-source-matching/ocr-inputs.json",
+      "sha256": "962205e007fcc95a2786494c02d5e85cea89cd9a044e5698b89b8231ee15ae86"
+    },
+    {
+      "local": "reports/japanese-source-matching/results.json",
+      "sha256": "fef619df94deeb4406c00ba29988b57296beb676caea1e32ae210c1db71d39d5"
+    },
+    {
+      "local": "outputs/corpus-mapping/records.csv",
+      "sha256": "524d1726bc626b7a496565587834a42772d1de97fb1536586b8947ad24a06c61"
+    },
+    {
+      "local": "corpus/source-matching/binding-review-cases.mjs",
+      "sha256": "644e667150ebcbfa231961ba3247775c49bd8d2d65fd1a2f9f5fe6aec4f50194"
+    },
+    {
+      "local": "corpus/source-matching/experience-review-cases.mjs",
+      "sha256": "5cd850b6e3032330a7121710acbf3d869f49042cd97a884319bd3060bfd6d370"
+    },
+    {
+      "local": "corpus/source-matching/send-out-review-cases.mjs",
+      "sha256": "da30eee9f8dbcb117f4074a6c51c546e0bf23600238c2bcf5801c223ff11c836"
+    },
+    {
+      "local": "corpus/source-matching/observation-review-cases.mjs",
+      "sha256": "e1f5cf4e797b3d45e9244eff47b9810b02566320ed1149c053b532090c3afb81"
+    },
+    {
+      "local": "outputs/battle-source-matching/templates.json",
+      "sha256": "5b90e1b4a8f9fe1b07e870256556ef823f99ab733a24a26e9d5e700ea36e6fc9"
+    },
+    {
+      "local": "corpus/source-matching/typed-slot-rules.json",
+      "sha256": "4fda5eb8f5dc2af834d9b1c4864748132c78808923e5ebbe46146540f6b10040"
+    },
+    {
+      "local": "reports/battle-source-matching/experience-evidence.json",
+      "sha256": "d392988edd7a61362293bace7f3f96f9eef6bdb2f452f8684f1a1d20ca0390c0"
+    }
+  ],
+  "implementation": [
+    {
+      "local": "tools/audit_source_bindings.mjs",
+      "sha256": "08b294ccee304414189272a0e390efe96fa0d42910c6da647d23dfd2a9a4faec"
+    },
+    {
+      "local": "tools/japanese_source_matcher.mjs",
+      "sha256": "91f8c4a237ab7a1aef2d339c2bceffea9e307e99590e5c888dbfb8078c01fb6a"
+    },
+    {
+      "local": "tools/corpus_common.mjs",
+      "sha256": "58cc7e40e5c443babe2611ea7a6a24b569c3df67867a9ac1d27b6cc6e5133132"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "binding-audit.json",
+      "sha256": "f425e484c03433da5538d447a1b61a58bd1a8141194fd303899d303d4413f608"
+    },
+    {
+      "file": "binding-worklist.csv",
+      "sha256": "52e90a193e3472886eecd71beb925e2f781a1f3a1275ddf6a9920099d40bd4b8"
+    },
+    {
+      "file": "semantic-binding-worklist.csv",
+      "sha256": "5683ce851a5304f574ddb52fab6c5aabc78764f35812a75b11d1a8a357225c16"
+    },
+    {
+      "file": "experience-review.json",
+      "sha256": "5d7baecb8b1a1e270525769be5e84ce9387ca9a2379581cde2c1f0809cb12b12"
+    },
+    {
+      "file": "send-out-review.json",
+      "sha256": "489fe806d65f478def5af8a356aac98ae3e398119bb6d6711b8d2f6cdf0a26a4"
+    },
+    {
+      "file": "observation-review.json",
+      "sha256": "36340b9d8c94c9f6ac928b05536f139291f3c4e34523c6cf21fae9d9d994e570"
+    }
+  ]
+}

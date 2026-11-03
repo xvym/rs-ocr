@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "method": "Japanese template/table identity and restricted execution of the native experience buffer-write block in both fixed ROMs",
+  "sourceInputs": [
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/charmap.txt",
+      "sha256": "8c1db143d4f5f8186a6853d076b8b5dbd5d505b64e3c04ed79fe75afa54b7e9c"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_script_commands.c",
+      "sha256": "0a6f58f8e5fc19c40e3546a5bc81f3354fc669376c31435301a8884055c9d77a"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_message.c",
+      "sha256": "719a8aeb662142aab4503ee3ee0858823bebe300bbe11669cb2309a5206ffb8a"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/battle_message.h",
+      "sha256": "260592d39c97cd03e635b7e3910217d615308db3a519bdf5dd5c2733fb81c34c"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/battle_string_ids.h",
+      "sha256": "a262e78f084c0498c91fe9d82a00bc442717238eecaa13ec4ffcefa30e52537f"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/text/barboach.inc",
+      "sha256": "97b48359908b385c68dccf01620d4ef997c70dd73713f10e92f5bd0327ccee2b"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps/BattleTower_Lobby/scripts.inc",
+      "sha256": "aae9d490fe049540242a7c8a5145d146afeba1f306984cc205d085f042f6b009"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_tower.c",
+      "sha256": "bb0904eb6037f0081ee171e6b754173a01dc4ef0c47d95f00e45b4eb1e43b8c2"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+      "sha256": "b72cfec27b77a6b6a80a96655297597cd2035dd405c40553a45de9f5f4c2367b"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "sha256": "25e587fe866541219d138d8c7d793a9d7216d6435da1550e883faa6c5b401534"
+    },
+    {
+      "local": "outputs/corpus-inputs/qid_msg.txt",
+      "sha256": "bafdfb4540e8b766e7cbc947890b12164234d81f1ca039f2bdfadc8dd1d5d1b8"
+    },
+    {
+      "local": "outputs/corpus-inputs/ja-Hrkt_msg.txt",
+      "sha256": "8bc1ba84bd6fba37071f9082a63fcbabcf84f66ee5dfce8e71428cf1a032e038"
+    }
+  ],
+  "roms": [
+    {
+      "gameCode": "AXPJ",
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+      "tableOffset": 4047444,
+      "sources": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+          "stringId": 13,
+          "offset": 4039863,
+          "encodedSha256": "982a869be94638632eb12a9cbb22ba7d6429140f82a45b8406453f0923a463c4"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_Terminator",
+          "stringId": 329,
+          "offset": 4039882,
+          "encodedSha256": "584ea56bf78ccd29fd2e5db276e9096fb74476a08a6b43cd58478cb4cf6e764d"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_BoostedExp",
+          "stringId": 330,
+          "offset": 4039885,
+          "encodedSha256": "bca51c2cd3d68b87e5783013f6b64fc9b1ff5c5302a3af6cd14807d2c3a5c4a5"
+        }
+      ],
+      "nativeBlock": {
+        "start": 120688,
+        "endExclusive": 120796,
+        "sha256": "1fe4ac370ca5fd8820525d620967db742c33e333ded3b9b531a06c8f457d89ab",
+        "prepareStringTarget": 134293952
+      },
+      "bufferAddresses": {
+        "B_BUFF1": 50348336,
+        "B_BUFF2": 50348512
+      },
+      "checks": [
+        {
+          "componentStringId": 329,
+          "amount": 0,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 0,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 0,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 0,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 15,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 15,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 15,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 15,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 1956,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 1956,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 1956,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 1956,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 99999,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 99999,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 99999,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 99999,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 0,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 0,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 0,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 0,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 15,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 15,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 15,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 15,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 1956,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 1956,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 1956,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 1956,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 99999,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 99999,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 99999,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 99999,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "gameCode": "AXVJ",
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "tableOffset": 4047472,
+      "sources": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+          "stringId": 13,
+          "offset": 4039891,
+          "encodedSha256": "982a869be94638632eb12a9cbb22ba7d6429140f82a45b8406453f0923a463c4"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_Terminator",
+          "stringId": 329,
+          "offset": 4039910,
+          "encodedSha256": "584ea56bf78ccd29fd2e5db276e9096fb74476a08a6b43cd58478cb4cf6e764d"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_BoostedExp",
+          "stringId": 330,
+          "offset": 4039913,
+          "encodedSha256": "bca51c2cd3d68b87e5783013f6b64fc9b1ff5c5302a3af6cd14807d2c3a5c4a5"
+        }
+      ],
+      "nativeBlock": {
+        "start": 120688,
+        "endExclusive": 120796,
+        "sha256": "1fe4ac370ca5fd8820525d620967db742c33e333ded3b9b531a06c8f457d89ab",
+        "prepareStringTarget": 134293952
+      },
+      "bufferAddresses": {
+        "B_BUFF1": 50348336,
+        "B_BUFF2": 50348512
+      },
+      "checks": [
+        {
+          "componentStringId": 329,
+          "amount": 0,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 0,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 0,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 0,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 15,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 15,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 15,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 15,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 1956,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 1956,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 1956,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 1956,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 99999,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 99999,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 99999,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 329,
+          "amount": 99999,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 0,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 0,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 0,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 0,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 15,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 15,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 15,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 15,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 1956,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 1956,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 1956,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 1956,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 99999,
+          "partyIndex": 0,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 99999,
+          "partyIndex": 0,
+          "actorId": 2,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 99999,
+          "partyIndex": 5,
+          "actorId": 0,
+          "passed": true
+        },
+        {
+          "componentStringId": 330,
+          "amount": 99999,
+          "partyIndex": 5,
+          "actorId": 2,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "normalComponent": "BattleText_Terminator",
+  "boostedComponent": "BattleText_BoostedExp",
+  "bufferSemantics": {
+    "B_BUFF1": "nickname-with-prefix followed by selected component string",
+    "B_BUFF2": "unsigned 32-bit number, decimal mode 0, width budget 5"
+  },
+  "boundary": "Block inputs supplied explicitly. No calculation/trade-status execution, full printer, identity inference, Chinese publication or live acceptance."
+}

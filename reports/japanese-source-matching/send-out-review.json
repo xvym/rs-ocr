@@ -1,0 +1,1285 @@
+{
+  "summary": {
+    "total": 8,
+    "passed": 8,
+    "scriptIdentityAmbiguousCases": 2,
+    "sourceWindowAmbiguousCases": 2,
+    "method": "separate model review of current Japanese action clauses and complete candidate/window set; not native script execution or Chinese approval"
+  },
+  "cases": [
+    {
+      "regionId": "GBA-145-R03",
+      "japanese": "してんのうの カゲツは\nグラエナを くりだした！",
+      "trainer": "してんのうの カゲツ",
+      "subject": "グラエナ",
+      "event": "send_out",
+      "sources": [
+        "BattleText_SentOutDouble3",
+        "BattleText_SentOutSingle1",
+        "BattleText_SentOutSingle11",
+        "BattleText_SentOutSingle2",
+        "BattleText_SentOutSingle3",
+        "BattleText_SentOutSingle4",
+        "BattleText_SentOutSingle5"
+      ],
+      "inputSha256": "b4353ba0cea7a53833762b20d56e57a70fcb580e90b3dd407da9dcf986ef6961",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "japanese": "[B_LINK_OPPONENT1_NAME]は　[B_LINK_OPPONENT_MON1_NAME]を　くりだした！\\n[B_LINK_OPPONENT2_NAME]は　[B_LINK_OPPONENT_MON2_NAME]を　くりだした！",
+          "sha256": "7a646288258c879b8d10b4363826583859feaba1cd3477f95d5e90c5df0b3610"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "japanese": "[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_COPY_VAR_2]を　くりだした！",
+          "sha256": "c005f833b09b823a953361b7c1329fff1e2b060c09eaadefd033f4d689d3a2be"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "japanese": "[B_LINK_PARTNER_NAME]は　[B_LINK_PLAYER_MON2_NAME]を　くりだした！\\nゆけっ！　[B_LINK_PLAYER_MON1_NAME]！",
+          "sha256": "3167d125550033bd27f1adba68a80068d4848073ec5363539079acdf8ed81bf1"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "japanese": "[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_BUFF1]を　くりだした！",
+          "sha256": "ada43e60eba4254f18372cd817f84f3e77439a8f4553176c80589d43d95c95b8"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle3",
+          "japanese": "[B_LINK_OPPONENT1_NAME]は\\n[B_COPY_VAR_2]を　くりだした！",
+          "sha256": "98d9afa9fb4277196b9ee66bbd78bcdfdf69b2a7675c6c4f7cad074abe44a879"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle4",
+          "japanese": "[B_LINK_OPPONENT1_NAME]は\\n[B_BUFF1]を　くりだした！",
+          "sha256": "063e5bbdb3ed127093e99d43061d30bff6a36db15add7021dc066e62312eaef6"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle5",
+          "japanese": "[B_LINK_SCR_TRAINER_NAME]は\\n[B_BUFF1]を　くりだした！",
+          "sha256": "088a2999d3a0bccbedc8703b24c5e929d735c7d7fba34ddef205a3be52b05228"
+        }
+      ],
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_SentOutDouble3",
+        "rs.common.battle_strings.BattleText_SentOutSingle1",
+        "rs.common.battle_strings.BattleText_SentOutSingle11",
+        "rs.common.battle_strings.BattleText_SentOutSingle2",
+        "rs.common.battle_strings.BattleText_SentOutSingle3",
+        "rs.common.battle_strings.BattleText_SentOutSingle4",
+        "rs.common.battle_strings.BattleText_SentOutSingle5"
+      ],
+      "windows": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの カゲツ",
+              "normalized": "してんのうのカゲツ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_LINK_OPPONENT_MON1_NAME",
+              "raw": "グラエナ",
+              "normalized": "グラエナ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT2_NAME",
+              "raw": "してんのうの カゲツ",
+              "normalized": "してんのうのカゲツ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_LINK_OPPONENT_MON2_NAME",
+              "raw": "グラエナ",
+              "normalized": "グラエナ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5,
+              "semanticType": "finite_source_term",
+              "sourceQid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "normalized": "カゲツ",
+              "start": 7,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "グラエナ",
+              "normalized": "グラエナ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_PARTNER_NAME",
+              "raw": "してんのうの カゲツ",
+              "normalized": "してんのうのカゲツ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_LINK_PLAYER_MON2_NAME",
+              "raw": "グラエナ",
+              "normalized": "グラエナ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5,
+              "semanticType": "finite_source_term",
+              "sourceQid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "normalized": "カゲツ",
+              "start": 7,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "グラエナ",
+              "normalized": "グラエナ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの カゲツ",
+              "normalized": "してんのうのカゲツ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "グラエナ",
+              "normalized": "グラエナ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle4",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの カゲツ",
+              "normalized": "してんのうのカゲツ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "グラエナ",
+              "normalized": "グラエナ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle5",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_SCR_TRAINER_NAME",
+              "raw": "してんのうの カゲツ",
+              "normalized": "してんのうのカゲツ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "グラエナ",
+              "normalized": "グラエナ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        }
+      ],
+      "bindingAmbiguous": true,
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "send_out",
+          "meaningBasis": "current_complete_action_clause",
+          "actors": {
+            "trainer": {
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10,
+              "nameRaw": "してんのうの カゲツ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            },
+            "subject": {
+              "raw": "グラエナ",
+              "start": 12,
+              "end": 16,
+              "nameRaw": "グラエナ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "rs.common.battle_strings.BattleText_SentOutSingle3",
+          "rs.common.battle_strings.BattleText_SentOutSingle4",
+          "rs.common.battle_strings.BattleText_SentOutSingle5"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-160-R02",
+      "japanese": "してんのうの カゲツは\nノクタスを くりだそうと している",
+      "trainer": "してんのうの カゲツ",
+      "subject": "ノクタス",
+      "event": "send_out_intent",
+      "sources": [
+        "BattleText_WillSwitch"
+      ],
+      "inputSha256": "7fc0bec8f97b762121cc94d7e4b4417d6ec491c270d0c57c0dfab6272252de0c",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "japanese": "[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_BUFF2]を　くりだそうと　している\\c[B_PLAYER_NAME]も　ポケモンを\\nいれかえますか？",
+          "sha256": "61c7538e00d9d4363977dbaf9f5a716d7caddede94648a8ccc8d3bdf4a4903d5"
+        }
+      ],
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_WillSwitch"
+      ],
+      "windows": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5,
+              "semanticType": "finite_source_term",
+              "sourceQid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "normalized": "カゲツ",
+              "start": 7,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "ノクタス",
+              "normalized": "ノクタス",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        }
+      ],
+      "bindingAmbiguous": false,
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "send_out_intent",
+          "meaningBasis": "current_complete_action_clause",
+          "actors": {
+            "subject": {
+              "raw": "ノクタス",
+              "start": 12,
+              "end": 16,
+              "nameRaw": "ノクタス",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            },
+            "trainer": {
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10,
+              "nameRaw": "してんのうの カゲツ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_WillSwitch"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-167-R02",
+      "japanese": "してんのうの カゲツは\nサメハダーを くりだそうと している",
+      "trainer": "してんのうの カゲツ",
+      "subject": "サメハダー",
+      "event": "send_out_intent",
+      "sources": [
+        "BattleText_WillSwitch"
+      ],
+      "inputSha256": "cbecb6114db0e24cb682338ee3b0f226cebb5e975cfbe1f7f269c293c682941c",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "japanese": "[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_BUFF2]を　くりだそうと　している\\c[B_PLAYER_NAME]も　ポケモンを\\nいれかえますか？",
+          "sha256": "61c7538e00d9d4363977dbaf9f5a716d7caddede94648a8ccc8d3bdf4a4903d5"
+        }
+      ],
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_WillSwitch"
+      ],
+      "windows": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5,
+              "semanticType": "finite_source_term",
+              "sourceQid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "normalized": "カゲツ",
+              "start": 7,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "サメハダー",
+              "normalized": "サメハダー",
+              "start": 12,
+              "end": 17,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        }
+      ],
+      "bindingAmbiguous": false,
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "send_out_intent",
+          "meaningBasis": "current_complete_action_clause",
+          "actors": {
+            "subject": {
+              "raw": "サメハダー",
+              "start": 12,
+              "end": 17,
+              "nameRaw": "サメハダー",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            },
+            "trainer": {
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10,
+              "nameRaw": "してんのうの カゲツ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_WillSwitch"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-172-R02",
+      "japanese": "してんのうの カゲツは\nアブソルを くりだそうと している",
+      "trainer": "してんのうの カゲツ",
+      "subject": "アブソル",
+      "event": "send_out_intent",
+      "sources": [
+        "BattleText_WillSwitch"
+      ],
+      "inputSha256": "b13365ba9fca8bcb686fedf3ba13c5795a38d49dd4055017b764d14b3386f164",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "japanese": "[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_BUFF2]を　くりだそうと　している\\c[B_PLAYER_NAME]も　ポケモンを\\nいれかえますか？",
+          "sha256": "61c7538e00d9d4363977dbaf9f5a716d7caddede94648a8ccc8d3bdf4a4903d5"
+        }
+      ],
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_WillSwitch"
+      ],
+      "windows": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5,
+              "semanticType": "finite_source_term",
+              "sourceQid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "normalized": "カゲツ",
+              "start": 7,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "アブソル",
+              "normalized": "アブソル",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        }
+      ],
+      "bindingAmbiguous": false,
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "send_out_intent",
+          "meaningBasis": "current_complete_action_clause",
+          "actors": {
+            "subject": {
+              "raw": "アブソル",
+              "start": 12,
+              "end": 16,
+              "nameRaw": "アブソル",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            },
+            "trainer": {
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10,
+              "nameRaw": "してんのうの カゲツ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_WillSwitch"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-178-R02",
+      "japanese": "してんのうの カゲツは\nダーテングを くりだそうと している",
+      "trainer": "してんのうの カゲツ",
+      "subject": "ダーテング",
+      "event": "send_out_intent",
+      "sources": [
+        "BattleText_WillSwitch"
+      ],
+      "inputSha256": "bbb50e0ff726a54cc318e02b8758319a6f5ac1042cdee5c876c1205ea1a8f8ab",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "japanese": "[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_BUFF2]を　くりだそうと　している\\c[B_PLAYER_NAME]も　ポケモンを\\nいれかえますか？",
+          "sha256": "61c7538e00d9d4363977dbaf9f5a716d7caddede94648a8ccc8d3bdf4a4903d5"
+        }
+      ],
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_WillSwitch"
+      ],
+      "windows": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5,
+              "semanticType": "finite_source_term",
+              "sourceQid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "normalized": "カゲツ",
+              "start": 7,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "ダーテング",
+              "normalized": "ダーテング",
+              "start": 12,
+              "end": 17,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        }
+      ],
+      "bindingAmbiguous": false,
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "send_out_intent",
+          "meaningBasis": "current_complete_action_clause",
+          "actors": {
+            "subject": {
+              "raw": "ダーテング",
+              "start": 12,
+              "end": 17,
+              "nameRaw": "ダーテング",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            },
+            "trainer": {
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10,
+              "nameRaw": "してんのうの カゲツ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_WillSwitch"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-209-R02",
+      "japanese": "してんのうの フヨウは\nジュペッタを くりだそうと している",
+      "trainer": "してんのうの フヨウ",
+      "subject": "ジュペッタ",
+      "event": "send_out_intent",
+      "sources": [
+        "BattleText_WillSwitch"
+      ],
+      "inputSha256": "23ce0bfeaacab18b7cc481dc0c7c7a0bb5072db1e37a1fc1be18747e8d10e73c",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "japanese": "[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_BUFF2]を　くりだそうと　している\\c[B_PLAYER_NAME]も　ポケモンを\\nいれかえますか？",
+          "sha256": "61c7538e00d9d4363977dbaf9f5a716d7caddede94648a8ccc8d3bdf4a4903d5"
+        }
+      ],
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_WillSwitch"
+      ],
+      "windows": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5,
+              "semanticType": "finite_source_term",
+              "sourceQid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "フヨウ",
+              "normalized": "フヨウ",
+              "start": 7,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "ジュペッタ",
+              "normalized": "ジュペッタ",
+              "start": 12,
+              "end": 17,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        }
+      ],
+      "bindingAmbiguous": false,
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "send_out_intent",
+          "meaningBasis": "current_complete_action_clause",
+          "actors": {
+            "subject": {
+              "raw": "ジュペッタ",
+              "start": 12,
+              "end": 17,
+              "nameRaw": "ジュペッタ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            },
+            "trainer": {
+              "raw": "してんのうの フヨウ",
+              "start": 0,
+              "end": 10,
+              "nameRaw": "してんのうの フヨウ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_WillSwitch"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-213-R02",
+      "japanese": "してんのうの フヨウは\nヤミラミを くりだした！",
+      "trainer": "してんのうの フヨウ",
+      "subject": "ヤミラミ",
+      "event": "send_out",
+      "sources": [
+        "BattleText_SentOutDouble3",
+        "BattleText_SentOutSingle1",
+        "BattleText_SentOutSingle11",
+        "BattleText_SentOutSingle2",
+        "BattleText_SentOutSingle3",
+        "BattleText_SentOutSingle4",
+        "BattleText_SentOutSingle5"
+      ],
+      "inputSha256": "9b483f7591b0c946e408aca17315aabb5c7c39e4f71a69baffa04d592c0a985f",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "japanese": "[B_LINK_OPPONENT1_NAME]は　[B_LINK_OPPONENT_MON1_NAME]を　くりだした！\\n[B_LINK_OPPONENT2_NAME]は　[B_LINK_OPPONENT_MON2_NAME]を　くりだした！",
+          "sha256": "7a646288258c879b8d10b4363826583859feaba1cd3477f95d5e90c5df0b3610"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "japanese": "[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_COPY_VAR_2]を　くりだした！",
+          "sha256": "c005f833b09b823a953361b7c1329fff1e2b060c09eaadefd033f4d689d3a2be"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "japanese": "[B_LINK_PARTNER_NAME]は　[B_LINK_PLAYER_MON2_NAME]を　くりだした！\\nゆけっ！　[B_LINK_PLAYER_MON1_NAME]！",
+          "sha256": "3167d125550033bd27f1adba68a80068d4848073ec5363539079acdf8ed81bf1"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "japanese": "[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_BUFF1]を　くりだした！",
+          "sha256": "ada43e60eba4254f18372cd817f84f3e77439a8f4553176c80589d43d95c95b8"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle3",
+          "japanese": "[B_LINK_OPPONENT1_NAME]は\\n[B_COPY_VAR_2]を　くりだした！",
+          "sha256": "98d9afa9fb4277196b9ee66bbd78bcdfdf69b2a7675c6c4f7cad074abe44a879"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle4",
+          "japanese": "[B_LINK_OPPONENT1_NAME]は\\n[B_BUFF1]を　くりだした！",
+          "sha256": "063e5bbdb3ed127093e99d43061d30bff6a36db15add7021dc066e62312eaef6"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle5",
+          "japanese": "[B_LINK_SCR_TRAINER_NAME]は\\n[B_BUFF1]を　くりだした！",
+          "sha256": "088a2999d3a0bccbedc8703b24c5e929d735c7d7fba34ddef205a3be52b05228"
+        }
+      ],
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_SentOutDouble3",
+        "rs.common.battle_strings.BattleText_SentOutSingle1",
+        "rs.common.battle_strings.BattleText_SentOutSingle11",
+        "rs.common.battle_strings.BattleText_SentOutSingle2",
+        "rs.common.battle_strings.BattleText_SentOutSingle3",
+        "rs.common.battle_strings.BattleText_SentOutSingle4",
+        "rs.common.battle_strings.BattleText_SentOutSingle5"
+      ],
+      "windows": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの フヨウ",
+              "normalized": "してんのうのフヨウ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_LINK_OPPONENT_MON1_NAME",
+              "raw": "ヤミラミ",
+              "normalized": "ヤミラミ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT2_NAME",
+              "raw": "してんのうの フヨウ",
+              "normalized": "してんのうのフヨウ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_LINK_OPPONENT_MON2_NAME",
+              "raw": "ヤミラミ",
+              "normalized": "ヤミラミ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5,
+              "semanticType": "finite_source_term",
+              "sourceQid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "フヨウ",
+              "normalized": "フヨウ",
+              "start": 7,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "ヤミラミ",
+              "normalized": "ヤミラミ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_PARTNER_NAME",
+              "raw": "してんのうの フヨウ",
+              "normalized": "してんのうのフヨウ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_LINK_PLAYER_MON2_NAME",
+              "raw": "ヤミラミ",
+              "normalized": "ヤミラミ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5,
+              "semanticType": "finite_source_term",
+              "sourceQid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "フヨウ",
+              "normalized": "フヨウ",
+              "start": 7,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "ヤミラミ",
+              "normalized": "ヤミラミ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの フヨウ",
+              "normalized": "してんのうのフヨウ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "ヤミラミ",
+              "normalized": "ヤミラミ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle4",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの フヨウ",
+              "normalized": "してんのうのフヨウ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "ヤミラミ",
+              "normalized": "ヤミラミ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle5",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_SCR_TRAINER_NAME",
+              "raw": "してんのうの フヨウ",
+              "normalized": "してんのうのフヨウ",
+              "start": 0,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "ヤミラミ",
+              "normalized": "ヤミラミ",
+              "start": 12,
+              "end": 16,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        }
+      ],
+      "bindingAmbiguous": true,
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "send_out",
+          "meaningBasis": "current_complete_action_clause",
+          "actors": {
+            "trainer": {
+              "raw": "してんのうの フヨウ",
+              "start": 0,
+              "end": 10,
+              "nameRaw": "してんのうの フヨウ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            },
+            "subject": {
+              "raw": "ヤミラミ",
+              "start": 12,
+              "end": 16,
+              "nameRaw": "ヤミラミ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "rs.common.battle_strings.BattleText_SentOutSingle3",
+          "rs.common.battle_strings.BattleText_SentOutSingle4",
+          "rs.common.battle_strings.BattleText_SentOutSingle5"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "regionId": "GBA-223-R02",
+      "japanese": "してんのうの フヨウは\nサマヨールを くりだそうと している",
+      "trainer": "してんのうの フヨウ",
+      "subject": "サマヨール",
+      "event": "send_out_intent",
+      "sources": [
+        "BattleText_WillSwitch"
+      ],
+      "inputSha256": "eec7cd78924905d4efcfeee5f81aaad4f39a1e97eaf67c1aa902f1065a79933f",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "japanese": "[B_TRAINER1_CLASS]の　[B_TRAINER1_NAME]は\\n[B_BUFF2]を　くりだそうと　している\\c[B_PLAYER_NAME]も　ポケモンを\\nいれかえますか？",
+          "sha256": "61c7538e00d9d4363977dbaf9f5a716d7caddede94648a8ccc8d3bdf4a4903d5"
+        }
+      ],
+      "sourceQids": [
+        "rs.common.battle_strings.BattleText_WillSwitch"
+      ],
+      "windows": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5,
+              "semanticType": "finite_source_term",
+              "sourceQid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "フヨウ",
+              "normalized": "フヨウ",
+              "start": 7,
+              "end": 10,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "サマヨール",
+              "normalized": "サマヨール",
+              "start": 12,
+              "end": 17,
+              "semanticType": "observed_battle_actor",
+              "completeness": "whole_input_anchored",
+              "approvedForTranslation": false
+            }
+          ]
+        }
+      ],
+      "bindingAmbiguous": false,
+      "semanticResolution": {
+        "status": "consistent",
+        "meaning": {
+          "event": "send_out_intent",
+          "meaningBasis": "current_complete_action_clause",
+          "actors": {
+            "subject": {
+              "raw": "サマヨール",
+              "start": 12,
+              "end": 17,
+              "nameRaw": "サマヨール",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            },
+            "trainer": {
+              "raw": "してんのうの フヨウ",
+              "start": 0,
+              "end": 10,
+              "nameRaw": "してんのうの フヨウ",
+              "prefixRaw": "",
+              "prefixSourceQid": null,
+              "prefixCouldBeNickname": false,
+              "identityInferred": false,
+              "speciesInferred": false
+            }
+          }
+        },
+        "sourceQids": [
+          "rs.common.battle_strings.BattleText_WillSwitch"
+        ]
+      },
+      "passed": true
+    }
+  ]
+}

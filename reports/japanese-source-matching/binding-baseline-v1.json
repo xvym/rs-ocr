@@ -1,0 +1,7094 @@
+{
+  "schemaVersion": 1,
+  "scope": "Pre-constraint syntactic binding hypotheses; not verified source or variable answers",
+  "inputs": [
+    {
+      "local": "reports/japanese-source-matching/ocr-inputs.json",
+      "sha256": "962205e007fcc95a2786494c02d5e85cea89cd9a044e5698b89b8231ee15ae86"
+    },
+    {
+      "local": "reports/japanese-source-matching/results.json",
+      "sha256": "9f9fef173241b18b1c1ca242c1b40e53b8b6f2b8d7ae20b225e04581f61cd116"
+    },
+    {
+      "local": "tools/japanese_source_matcher.mjs",
+      "sha256": "b614c123c639f1c65e79dfeac246af2ab288a815fe9af5dff8bff747ea04b8f5"
+    }
+  ],
+  "cases": [
+    {
+      "id": "GBA-012-R01:S1",
+      "regionId": "GBA-012-R01",
+      "raw": "ハルカは\nパソコンの スイッチを いれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.event_scripts.LittlerootTown_MaysHouse_2F_Text_1A10D6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_BrendansHouse_2F.UnknownString_8172F85",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.pc.Text_BootUpPC",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.secret_base.SecretBase_Text_BootUpPC",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-013-R02:S1",
+      "regionId": "GBA-013-R02",
+      "raw": "マユミのパソコン",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gPCText_PlayersPC",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "マユミ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-013-R02:S2",
+      "regionId": "GBA-013-R02",
+      "raw": "ハルカのパソコン",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gPCText_PlayersPC",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-014-R01:S1",
+      "regionId": "GBA-014-R01",
+      "raw": "マユミの パソコンに せつぞく した！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.pc.Text_AccessedPlayersPC",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "マユミ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-027-R01:S1",
+      "regionId": "GBA-027-R01",
+      "raw": "おとうさんの ことば‥‥\nハルカ！ こういうものには",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gOtherText_DadsAdvice",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 13,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_DadsAdvice",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "おとうさんの ことば‥‥\nハルカ",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-028-R01:S1",
+      "regionId": "GBA-028-R01",
+      "raw": "ハルカ！ こういうものには\nつかいどきが あるんだ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gOtherText_DadsAdvice",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-034-R01:S1",
+      "regionId": "GBA-034-R01",
+      "raw": "おかいもの ですね！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gOtherText_ThatWillBe3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "おかいもの",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-051-R07:S1",
+      "regionId": "GBA-051-R07",
+      "raw": "レックウザを どうする？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.OtherText_DoWhat",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-061-R01:S1",
+      "regionId": "GBA-061-R01",
+      "raw": "ユウキさんは すきな おとうさんの\nおてつだいを なさって いるのですよ",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D15",
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "RIVAL",
+              "raw": "ユウキ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-062-R01:S1",
+      "regionId": "GBA-062-R01",
+      "raw": "オダマキ『おお ハルカちゃん！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.pokedex_rating.gBirchDexRatingText_ComeToShowMePokedex",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 8,
+              "end": 11
+            },
+            {
+              "slot": "KUN",
+              "raw": "ちゃん",
+              "start": 11,
+              "end": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-068-R01:S1",
+      "regionId": "GBA-068-R01",
+      "raw": "こころの なかでは きっと\nハルカちゃんの こと",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+          "page": 2,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 14,
+              "end": 17
+            },
+            {
+              "slot": "KUN",
+              "raw": "ちゃん",
+              "start": 17,
+              "end": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-069-R01:S1",
+      "regionId": "GBA-069-R01",
+      "raw": "ハルカちゃんの こと\nしんぱい してる はずだから‥‥",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+          "page": 2,
+          "lineStart": 1,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "KUN",
+              "raw": "ちゃん",
+              "start": 3,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-070-R02:S1",
+      "regionId": "GBA-070-R02",
+      "raw": "あ！ やせいの\nケムッソが とびだしてきた！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "ケムッソ",
+              "start": 8,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared1",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "あ！ やせいの\nケムッソ",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "ケムッソ",
+              "start": 8,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared3",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "あ！ やせいの\nケムッソ",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-071-R03:S1",
+      "regionId": "GBA-071-R03",
+      "raw": "ゆけっ！ ラグラージ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_PLAYER_MON1_NAME",
+              "raw": "ラグラージ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_1",
+              "raw": "ラグラージ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle7",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "ラグラージ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-072-R03:S1",
+      "regionId": "GBA-072-R03",
+      "raw": "ラグラージの\nマッドショット！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-074-R02:S1",
+      "regionId": "GBA-074-R02",
+      "raw": "やせいの ケムッソは たおれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "やせいの ケムッソ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_DefendingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "やせいの ケムッソ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-075-R02:S1",
+      "regionId": "GBA-075-R02",
+      "raw": "ラグラージは\n15 けいけんちを もらった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "15 けいけんち",
+              "start": 7,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "ラグラージは\n15 けいけんち",
+              "start": 0,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "15 けいけんち",
+              "start": 7,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "ラグラージは\n15 けいけんち",
+              "start": 0,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "15 けいけんち",
+              "start": 7,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "ラグラージは\n15 けいけんち",
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-076-R03:S1",
+      "regionId": "GBA-076-R03",
+      "raw": "やせいの ケムッソの\nいとをはく こうげき！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "やせいの ケムッソ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-077-R03:S1",
+      "regionId": "GBA-077-R03",
+      "raw": "やせいの ケムッソの\nいとをはく こうげき！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "やせいの ケムッソ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-078-R03:S1",
+      "regionId": "GBA-078-R03",
+      "raw": "へラクロスの\nすばやさが さがった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "へラクロス",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "へラクロス",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "へラクロス",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "へラクロス",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-080-R03:S1",
+      "regionId": "GBA-080-R03",
+      "raw": "へラクロスは\nかわらわりを した！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "へラクロス",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "へラクロス",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-082-R03:S1",
+      "regionId": "GBA-082-R03",
+      "raw": "カイオーガの あめふらしで\nあめが ふりはじめた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_RainMade",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_SCR_ACTIVE_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_SCR_ACTIVE_ABILITY",
+              "raw": "あめふらし",
+              "start": 7,
+              "end": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-083-R03:S1",
+      "regionId": "GBA-083-R03",
+      "raw": "カイオーガは\nめいそうを した！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-084-R03:S1",
+      "regionId": "GBA-084-R03",
+      "raw": "カイオーガは\nめいそうを した！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-085-R03:S1",
+      "regionId": "GBA-085-R03",
+      "raw": "カイオーガの\nとくこうが あがった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-086-R03:S1",
+      "regionId": "GBA-086-R03",
+      "raw": "カイオーガの\nとくぼうが あがった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-087-R03:S1",
+      "regionId": "GBA-087-R03",
+      "raw": "やせいの ケムッソの\nいとをはく こうげき！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "やせいの ケムッソ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-088-R03:S1",
+      "regionId": "GBA-088-R03",
+      "raw": "カイオーガの\nすばやさが さがった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-090-R03:S1",
+      "regionId": "GBA-090-R03",
+      "raw": "カイオーガは どうする？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OtherMenu",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ACTIVE_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_PlayerMenu",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_1681EA",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_168282",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_16835A",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-091-R07:S1",
+      "regionId": "GBA-091-R07",
+      "raw": "ボスゴドラを どうする？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.OtherText_DoWhat",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "ボスゴドラ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-092-R03:S1",
+      "regionId": "GBA-092-R03",
+      "raw": "カイオーガ もういい！\nもどれ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "カイオーガ もういい！",
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-093-R02:S1",
+      "regionId": "GBA-093-R02",
+      "raw": "ゆけっ！ ボスゴドラ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_PLAYER_MON1_NAME",
+              "raw": "ボスゴドラ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_1",
+              "raw": "ボスゴドラ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle7",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "ボスゴドラ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-144-R01:S1",
+      "regionId": "GBA-144-R01",
+      "raw": "してんのうの カゲツが\nしょうぶを しかけてきた！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの カゲツ",
+              "start": 4,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "start": 7,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-145-R03:S1",
+      "regionId": "GBA-145-R03",
+      "raw": "してんのうの カゲツは\nグラエナを くりだした！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_LINK_OPPONENT_MON1_NAME",
+              "raw": "グラエナ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT2_NAME",
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_LINK_OPPONENT_MON2_NAME",
+              "raw": "グラエナ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの カゲツ",
+              "start": 4,
+              "end": 10
+            },
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "グラエナ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "start": 7,
+              "end": 10
+            },
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "グラエナ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "してんのうの カゲツは\nグラエナ",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_PARTNER_NAME",
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_LINK_PLAYER_MON2_NAME",
+              "raw": "グラエナ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの カゲツ",
+              "start": 4,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "グラエナ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "start": 7,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "グラエナ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "してんのうの カゲツは\nグラエナ",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "グラエナ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle3",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "してんのうの カゲツは\nグラエナ",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle4",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "グラエナ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle4",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "してんのうの カゲツは\nグラエナ",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle5",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_SCR_TRAINER_NAME",
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "グラエナ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle5",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "してんのうの カゲツは\nグラエナ",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-146-R03:S1",
+      "regionId": "GBA-146-R03",
+      "raw": "ゆけっ！ カイオーガ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_PLAYER_MON1_NAME",
+              "raw": "カイオーガ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_1",
+              "raw": "カイオーガ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle7",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "カイオーガ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-147-R03:S1",
+      "regionId": "GBA-147-R03",
+      "raw": "カイオーガの あめふらしで\nあめが ふりはじめた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_RainMade",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_SCR_ACTIVE_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_SCR_ACTIVE_ABILITY",
+              "raw": "あめふらし",
+              "start": 7,
+              "end": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-148-R03:S1",
+      "regionId": "GBA-148-R03",
+      "raw": "あいての グラエナの いかくで\nカイオーガの こうげきりょくが さがった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_CutsAttack",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_SCR_ACTIVE_NAME_WITH_PREFIX",
+              "raw": "あいての グラエナ",
+              "start": 0,
+              "end": 9
+            },
+            {
+              "slot": "B_SCR_ACTIVE_ABILITY",
+              "raw": "いかく",
+              "start": 11,
+              "end": 14
+            },
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 16,
+              "end": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-149-R03:S1",
+      "regionId": "GBA-149-R03",
+      "raw": "カイオーガは\nめいそうを した！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-150-R03:S1",
+      "regionId": "GBA-150-R03",
+      "raw": "カイオーガの\nとくこうが あがった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-151-R03:S1",
+      "regionId": "GBA-151-R03",
+      "raw": "カイオーガの\nとくぼうが あがった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-152-R03:S1",
+      "regionId": "GBA-152-R03",
+      "raw": "しかし あいての グラエナの\nこうげきは はずれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての グラエナ",
+              "start": 4,
+              "end": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-154-R03:S1",
+      "regionId": "GBA-154-R03",
+      "raw": "あいての グラエナの\nすなかけ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての グラエナ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-155-R03:S1",
+      "regionId": "GBA-155-R03",
+      "raw": "カイオーガの\nめいちゅうりつが さがった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-157-R03:S1",
+      "regionId": "GBA-157-R03",
+      "raw": "カイオーガの\nなみのり！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-158-R02:S1",
+      "regionId": "GBA-158-R02",
+      "raw": "あいての グラエナは たおれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての グラエナ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_DefendingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "あいての グラエナ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-159-R02:S1",
+      "regionId": "GBA-159-R02",
+      "raw": "カイオーガは\n1261 けいけんちを もらった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "1261 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "カイオーガは\n1261 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1261 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1261 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1261 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1261 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-160-R02:S1",
+      "regionId": "GBA-160-R02",
+      "raw": "してんのうの カゲツは\nノクタスを くりだそうと している",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの カゲツ",
+              "start": 4,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "ノクタス",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "start": 7,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "ノクタス",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF2",
+              "raw": "してんのうの カゲツは\nノクタス",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-161-R02:S1",
+      "regionId": "GBA-161-R02",
+      "raw": "ハルカも ポケモンを\nいれかえますか？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-163-R03:S1",
+      "regionId": "GBA-163-R03",
+      "raw": "カイオーガの\nれいとうビーム！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-165-R02:S1",
+      "regionId": "GBA-165-R02",
+      "raw": "あいての ノクタスは たおれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての ノクタス",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_DefendingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "あいての ノクタス",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-166-R02:S1",
+      "regionId": "GBA-166-R02",
+      "raw": "カイオーガは\n1744 けいけんちを もらった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "1744 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "カイオーガは\n1744 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1744 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1744 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1744 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1744 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-167-R02:S1",
+      "regionId": "GBA-167-R02",
+      "raw": "してんのうの カゲツは\nサメハダーを くりだそうと している",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの カゲツ",
+              "start": 4,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "サメハダー",
+              "start": 12,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "start": 7,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "サメハダー",
+              "start": 12,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF2",
+              "raw": "してんのうの カゲツは\nサメハダー",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-168-R02:S1",
+      "regionId": "GBA-168-R02",
+      "raw": "ハルカも ポケモンを\nいれかえますか？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-170-R02:S1",
+      "regionId": "GBA-170-R02",
+      "raw": "あいての サメハダーは たおれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サメハダー",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_DefendingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "あいての サメハダー",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-171-R02:S1",
+      "regionId": "GBA-171-R02",
+      "raw": "カイオーガは\n1800 けいけんちを もらった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1800 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1800 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-172-R02:S1",
+      "regionId": "GBA-172-R02",
+      "raw": "してんのうの カゲツは\nアブソルを くりだそうと している",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの カゲツ",
+              "start": 4,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "アブソル",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "start": 7,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "アブソル",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF2",
+              "raw": "してんのうの カゲツは\nアブソル",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-173-R02:S1",
+      "regionId": "GBA-173-R02",
+      "raw": "ハルカも ポケモンを\nいれかえますか？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-174-R03:S1",
+      "regionId": "GBA-174-R03",
+      "raw": "あいての アブソルは\nあいての でかたを うかがっている！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AwaitMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての アブソル",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-176-R02:S1",
+      "regionId": "GBA-176-R02",
+      "raw": "あいての アブソルは たおれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての アブソル",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_DefendingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "あいての アブソル",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-177-R02:S1",
+      "regionId": "GBA-177-R02",
+      "raw": "カイオーガは\n1827 けいけんちを もらった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "1827 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "カイオーガは\n1827 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1827 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1827 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1827 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1827 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-178-R02:S1",
+      "regionId": "GBA-178-R02",
+      "raw": "してんのうの カゲツは\nダーテングを くりだそうと している",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの カゲツ",
+              "start": 4,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "ダーテング",
+              "start": 12,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "start": 7,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "ダーテング",
+              "start": 12,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF2",
+              "raw": "してんのうの カゲツは\nダーテング",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-179-R02:S1",
+      "regionId": "GBA-179-R02",
+      "raw": "ハルカも ポケモンを\nいれかえますか？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-180-R03:S1",
+      "regionId": "GBA-180-R03",
+      "raw": "あいての ダーテングの\nねこだまし！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての ダーテング",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-181-R03:S1",
+      "regionId": "GBA-181-R03",
+      "raw": "カイオーガは ひるんで\nうごけなかった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_Flinched",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-182-R03:S1",
+      "regionId": "GBA-182-R03",
+      "raw": "しかし カイオーガの\nこうげきは はずれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 4,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-183-R03:S1",
+      "regionId": "GBA-183-R03",
+      "raw": "あいての ダーテングは\nかげぶんしんを した！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての ダーテング",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-184-R03:S1",
+      "regionId": "GBA-184-R03",
+      "raw": "あいての ダーテングの\nかいひりつが あがった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "あいての ダーテング",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての ダーテング",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-185-R02:S1",
+      "regionId": "GBA-185-R02",
+      "raw": "あいての ダーテングは たおれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての ダーテング",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_DefendingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "あいての ダーテング",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-186-R02:S1",
+      "regionId": "GBA-186-R02",
+      "raw": "してんのうの カゲツ\nとの しょうぶに かった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの カゲツ",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの カゲツ",
+              "start": 4,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "カゲツ",
+              "start": 7,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-188-R02:S1",
+      "regionId": "GBA-188-R02",
+      "raw": "ハルカは しょうきんとして\n4900円 てにいれた！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "4900",
+              "start": 14,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "4900",
+              "start": 14,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "4900",
+              "start": 14,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "4900",
+              "start": 14,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "ハルカは しょうきんとして\n4900",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "ハルカは しょうきんとして\n4900",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "ハルカは しょうきんとして\n4900",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "ハルカは しょうきんとして\n4900",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-197-R01:S1",
+      "regionId": "GBA-197-R01",
+      "raw": "してんのうの フヨウが\nしょうぶを しかけてきた！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの フヨウ",
+              "start": 4,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "フヨウ",
+              "start": 7,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの フヨウ",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-198-R02:S1",
+      "regionId": "GBA-198-R02",
+      "raw": "ゆけっ！ カイオーガ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_PLAYER_MON1_NAME",
+              "raw": "カイオーガ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_1",
+              "raw": "カイオーガ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle7",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "カイオーガ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-199-R03:S1",
+      "regionId": "GBA-199-R03",
+      "raw": "あいての サマヨールの\nあやしいひかり！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-200-R03:S1",
+      "regionId": "GBA-200-R03",
+      "raw": "カイオーガは\nこんらんした！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_BecameConfused",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_EFF_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-201-R09:S1",
+      "regionId": "GBA-201-R09",
+      "raw": "カイオーガの たいりょくが\n17 かいふくした",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "17",
+              "start": 14,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "カイオーガの たいりょくが\n17",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-202-R03:S1",
+      "regionId": "GBA-202-R03",
+      "raw": "あいての サマヨールの\nシャドーパンチ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-203-R03:S1",
+      "regionId": "GBA-203-R03",
+      "raw": "あいての サマヨールの\nのろい こうげき！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-204-R03:S1",
+      "regionId": "GBA-204-R03",
+      "raw": "あいての サマヨールの\nのろい こうげき！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-205-R03:S1",
+      "regionId": "GBA-205-R03",
+      "raw": "あいての サマヨールは じぶんの たいりょくを\nけずって カイオーガに のろいを かけた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_CurseLay",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 29,
+              "end": 34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-206-R03:S1",
+      "regionId": "GBA-206-R03",
+      "raw": "カイオーガは\nのろわれている！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_CurseAfflict",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-207-R02:S1",
+      "regionId": "GBA-207-R02",
+      "raw": "あいての サマヨールは たおれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_DefendingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-208-R02:S1",
+      "regionId": "GBA-208-R02",
+      "raw": "カイオーガは\n1840 けいけんちを もらった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "1840 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "1840 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "カイオーガは\n1840 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "カイオーガは\n1840 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1840 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1840 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1840 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1840 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1840 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1840 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1840 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "カイオーガは\n1840 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-209-R02:S1",
+      "regionId": "GBA-209-R02",
+      "raw": "してんのうの フヨウは\nジュペッタを くりだそうと している",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの フヨウ",
+              "start": 4,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "ジュペッタ",
+              "start": 12,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "フヨウ",
+              "start": 7,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "ジュペッタ",
+              "start": 12,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF2",
+              "raw": "してんのうの フヨウは\nジュペッタ",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-210-R02:S1",
+      "regionId": "GBA-210-R02",
+      "raw": "ハルカも ポケモンを\nいれかえますか？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-211-R03:S1",
+      "regionId": "GBA-211-R03",
+      "raw": "カイオーガは\nのろわれている！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_CurseAfflict",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-212-R02:S1",
+      "regionId": "GBA-212-R02",
+      "raw": "あいての ジュペッタは たおれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての ジュペッタ",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_DefendingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "あいての ジュペッタ",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-213-R02:S1",
+      "regionId": "GBA-213-R02",
+      "raw": "してんのうの フヨウは\nヤミラミを くりだした！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの フヨウ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_LINK_OPPONENT_MON1_NAME",
+              "raw": "ヤミラミ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutDouble3",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT2_NAME",
+              "raw": "してんのうの フヨウ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_LINK_OPPONENT_MON2_NAME",
+              "raw": "ヤミラミ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの フヨウ",
+              "start": 4,
+              "end": 10
+            },
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "ヤミラミ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "フヨウ",
+              "start": 7,
+              "end": 10
+            },
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "ヤミラミ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "してんのうの フヨウは\nヤミラミ",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_PARTNER_NAME",
+              "raw": "してんのうの フヨウ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_LINK_PLAYER_MON2_NAME",
+              "raw": "ヤミラミ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの フヨウ",
+              "start": 4,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "ヤミラミ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "フヨウ",
+              "start": 7,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "ヤミラミ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle2",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "してんのうの フヨウは\nヤミラミ",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの フヨウ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "ヤミラミ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle3",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "してんのうの フヨウは\nヤミラミ",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle4",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの フヨウ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "ヤミラミ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle4",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "してんのうの フヨウは\nヤミラミ",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle5",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_SCR_TRAINER_NAME",
+              "raw": "してんのうの フヨウ",
+              "start": 0,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "ヤミラミ",
+              "start": 12,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle5",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "してんのうの フヨウは\nヤミラミ",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-215-R07:S1",
+      "regionId": "GBA-215-R07",
+      "raw": "レックウザを どうする？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.OtherText_DoWhat",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-216-R03:S1",
+      "regionId": "GBA-216-R03",
+      "raw": "カイオーガ よくやった！\nもどれ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "カイオーガ よくやった！",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle4",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "カイオーガ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-217-R01:S1",
+      "regionId": "GBA-217-R01",
+      "raw": "ゆけっ！ レックウザ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_PLAYER_MON1_NAME",
+              "raw": "レックウザ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_1",
+              "raw": "レックウザ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle7",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "レックウザ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-218-R03:S1",
+      "regionId": "GBA-218-R03",
+      "raw": "レックウザは\nそらたかく とびあがった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_FlewHigh",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-219-R03:S1",
+      "regionId": "GBA-219-R03",
+      "raw": "しかし あいての ジュペッタの\nこうげきは はずれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての ジュペッタ",
+              "start": 4,
+              "end": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-220-R03:S1",
+      "regionId": "GBA-220-R03",
+      "raw": "レックウザの\nそらをとぶ こうげき！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-221-R02:S1",
+      "regionId": "GBA-221-R02",
+      "raw": "あいての ジュペッタは たおれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての ジュペッタ",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_DefendingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "あいての ジュペッタ",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-222-R02:S1",
+      "regionId": "GBA-222-R02",
+      "raw": "レックウザは\n1879 けいけんちを もらった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "1879 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "レックウザは\n1879 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1879 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "レックウザは\n1879 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1879 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "レックウザは\n1879 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-223-R02:S1",
+      "regionId": "GBA-223-R02",
+      "raw": "してんのうの フヨウは\nサマヨールを くりだそうと している",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの フヨウ",
+              "start": 4,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "サマヨール",
+              "start": 12,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "フヨウ",
+              "start": 7,
+              "end": 10
+            },
+            {
+              "slot": "B_BUFF2",
+              "raw": "サマヨール",
+              "start": 12,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF2",
+              "raw": "してんのうの フヨウは\nサマヨール",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-224-R03:S1",
+      "regionId": "GBA-224-R03",
+      "raw": "あいての サマヨールの\nれいとうビーム！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-225-R03:S1",
+      "regionId": "GBA-225-R03",
+      "raw": "しかし あいての サマヨールの\nこうげきは はずれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 4,
+              "end": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-226-R03:S1",
+      "regionId": "GBA-226-R03",
+      "raw": "あいての サマヨールの\nれいとうビーム！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-228-R03:S1",
+      "regionId": "GBA-228-R03",
+      "raw": "レックウザは\nこおりづけになった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_Frozen",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_EFF_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_Frozen2",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_EFF_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_NaturePower",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_CURRENT_MOVE",
+              "raw": "レックウザは\nこおりづけ",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-229-R09:S1",
+      "regionId": "GBA-229-R09",
+      "raw": "レックウザの たいりょくが\n91 かいふくした",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "91",
+              "start": 14,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "レックウザの たいりょくが\n91",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-231-R03:S1",
+      "regionId": "GBA-231-R03",
+      "raw": "レックウザは\nこおりづけになった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_Frozen",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_EFF_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_Frozen2",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_EFF_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_NaturePower",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_CURRENT_MOVE",
+              "raw": "レックウザは\nこおりづけ",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-232-R03:S1",
+      "regionId": "GBA-232-R03",
+      "raw": "レックウザは\nこんらんした！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_BecameConfused",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_EFF_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-233-R03:S1",
+      "regionId": "GBA-233-R03",
+      "raw": "レックウザは\nこんらんしている！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_Confused",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-234-R03:S1",
+      "regionId": "GBA-234-R03",
+      "raw": "レックウザは\nねむるを つかった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedFlute",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "ねむる",
+              "start": 7,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedFlute",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "レックウザは\nねむる",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedItem",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "ねむる",
+              "start": 7,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedItem",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "レックウザは\nねむる",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedRepel",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "ねむる",
+              "start": 7,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedRepel",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "レックウザは\nねむる",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.field_move_scripts.UsedCutRockSmashText",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "ねむる",
+              "start": 7,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.field_move_scripts.UsedCutRockSmashText",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "レックウザは\nねむる",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-235-R03:S1",
+      "regionId": "GBA-235-R03",
+      "raw": "しかし レックウザの\nたいりょくは まんたんだ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_HPFull",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 4,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-236-R03:S1",
+      "regionId": "GBA-236-R03",
+      "raw": "あいての サマヨールの\nれいとうビーム！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-238-R03:S1",
+      "regionId": "GBA-238-R03",
+      "raw": "レックウザの\nこんらんが とけた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_ConfusionSnapOut",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-239-R03:S1",
+      "regionId": "GBA-239-R03",
+      "raw": "レックウザの\nげきりん！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-240-R02:S1",
+      "regionId": "GBA-240-R02",
+      "raw": "あいての サマヨールは たおれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_DefendingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "あいての サマヨール",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-241-R02:S1",
+      "regionId": "GBA-241-R02",
+      "raw": "レックウザは\n1956 けいけんちを もらった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "1956 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "レックウザは\n1956 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1956 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "レックウザは\n1956 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "1956 けいけんち",
+              "start": 7,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "レックウザは\n1956 けいけんち",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-242-R02:S1",
+      "regionId": "GBA-242-R02",
+      "raw": "してんのうの フヨウ\nとの しょうぶに かった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_LINK_OPPONENT1_NAME",
+              "raw": "してんのうの フヨウ",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してん",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "うの フヨウ",
+              "start": 4,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_TRAINER1_CLASS",
+              "raw": "してんのう",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "B_TRAINER1_NAME",
+              "raw": "フヨウ",
+              "start": 7,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-244-R02:S1",
+      "regionId": "GBA-244-R02",
+      "raw": "ハルカは しょうきんとして\n5100円 てにいれた！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "5100",
+              "start": 14,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "5100",
+              "start": 14,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "5100",
+              "start": 14,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_BUFF1",
+              "raw": "5100",
+              "start": 14,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "ハルカは しょうきんとして\n5100",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "ハルカは しょうきんとして\n5100",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "ハルカは しょうきんとして\n5100",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "ハルカは しょうきんとして\n5100",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-249-R01:S1",
+      "regionId": "GBA-249-R01",
+      "raw": "「オダマキ はかせの いえ」",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AEA1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "オダマキ はかせ",
+              "start": 1,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-250-R01:S1",
+      "regionId": "GBA-250-R01",
+      "raw": "「ハルカの いえ」",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AEA1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 1,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-251-R03:S1",
+      "regionId": "GBA-251-R03",
+      "raw": "ハルカは\nスーパーボールを つかった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_Used1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "B_LAST_ITEM",
+              "raw": "スーパーボール",
+              "start": 5,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedFlute",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "スーパーボール",
+              "start": 5,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedFlute",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "ハルカは\nスーパーボール",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedItem",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "スーパーボール",
+              "start": 5,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedItem",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "ハルカは\nスーパーボール",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedRepel",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "スーパーボール",
+              "start": 5,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings.gOtherText_UsedRepel",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "ハルカは\nスーパーボール",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.field_move_scripts.UsedCutRockSmashText",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "スーパーボール",
+              "start": 5,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.field_move_scripts.UsedCutRockSmashText",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "ハルカは\nスーパーボール",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-253-R03:S1",
+      "regionId": "GBA-253-R03",
+      "raw": "やせいの ジグザグマの\nなきごえ こうげき！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "やせいの ジグザグマ",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-254-R03:S1",
+      "regionId": "GBA-254-R03",
+      "raw": "ラグラージの\nこうげきりょくが さがった！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-255-R03:S1",
+      "regionId": "GBA-255-R03",
+      "raw": "やったー！\nジグザグマを つかまえたぞ！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_BallCaught1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "ジグザグマ",
+              "start": 6,
+              "end": 11
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_BallCaught1",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "やったー！\nジグザグマ",
+              "start": 0,
+              "end": 11
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_BallCaught2",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "ジグザグマ",
+              "start": 6,
+              "end": 11
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_BallCaught2",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "やったー！\nジグザグマ",
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-285-R05:S1",
+      "regionId": "GBA-285-R05",
+      "raw": "あかいポロックを\nすてても よろしいですか？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gContestStatsText_ThrowAwayPrompt",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "あかいポロック",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-286-R01:S1",
+      "regionId": "GBA-286-R01",
+      "raw": "ラグラージは あかいポロックを\nたべた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gContestStatsText_NormallyAte",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "あかいポロック",
+              "start": 7,
+              "end": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-293-R01:S1",
+      "regionId": "GBA-293-R01",
+      "raw": "こちらでは ポケモンコンテスト\nマスター ランクの",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A5DFC",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "マスター",
+              "start": 16,
+              "end": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-294-R01:S1",
+      "regionId": "GBA-294-R01",
+      "raw": "マスター ランクの\nうけつけを おこなって います！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A5DFC",
+          "page": 0,
+          "lineStart": 2,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "マスター",
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-304-R06:S5",
+      "regionId": "GBA-304-R06",
+      "raw": "101ばん どうろで であった",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "101ばん どうろ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "101ばん どうろ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GBA-310-R06:S5",
+      "regionId": "GBA-310-R06",
+      "raw": "104ばん どうろで であった",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "104ばん どうろ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "104ばん どうろ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-004-R01:S1",
+      "regionId": "NGC-004-R01",
+      "raw": "ハルカは\nパソコンの スイッチを いれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.event_scripts.LittlerootTown_MaysHouse_2F_Text_1A10D6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_BrendansHouse_2F.UnknownString_8172F85",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.pc.Text_BootUpPC",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.secret_base.SecretBase_Text_BootUpPC",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-005-R02:S1",
+      "regionId": "NGC-005-R02",
+      "raw": "マユミのパソコン",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gPCText_PlayersPC",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "マユミ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-005-R02:S2",
+      "regionId": "NGC-005-R02",
+      "raw": "ハルカのパソコン",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gPCText_PlayersPC",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-006-R01:S1",
+      "regionId": "NGC-006-R01",
+      "raw": "マユミの パソコンに せつぞく した！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.pc.Text_AccessedPlayersPC",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "マユミ",
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-039-R01:S1",
+      "regionId": "NGC-039-R01",
+      "raw": "おかいもの ですね！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gOtherText_ThatWillBe3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "おかいもの",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-068-R07:S1",
+      "regionId": "NGC-068-R07",
+      "raw": "レックウザを どうする？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.OtherText_DoWhat",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "レックウザ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-071-R01:S1",
+      "regionId": "NGC-071-R01",
+      "raw": "だれかが アクアだんを\nけちらしてくれた らしいんだ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_168934",
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "EVIL_TEAM",
+              "raw": "アクア",
+              "start": 5,
+              "end": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-095-R05:S1",
+      "regionId": "NGC-095-R05",
+      "raw": "ももいろポロックを\nすてても よろしいですか？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gContestStatsText_ThrowAwayPrompt",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "ももいろポロック",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-098-R01:S1",
+      "regionId": "NGC-098-R01",
+      "raw": "ラグラージは あかいポロックを\nたべた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gContestStatsText_NormallyAte",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "あかいポロック",
+              "start": 7,
+              "end": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-101-R01:S1",
+      "regionId": "NGC-101-R01",
+      "raw": "「ハルカの いえ」",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AEA1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 1,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-102-R01:S1",
+      "regionId": "NGC-102-R01",
+      "raw": "「オダマキ はかせの いえ」",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AEA1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "オダマキ はかせ",
+              "start": 1,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-111-R01:S1",
+      "regionId": "NGC-111-R01",
+      "raw": "こころの なかでは きっと\nハルカちゃんの こと",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+          "page": 2,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 14,
+              "end": 17
+            },
+            {
+              "slot": "KUN",
+              "raw": "ちゃん",
+              "start": 17,
+              "end": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-112-R01:S1",
+      "regionId": "NGC-112-R01",
+      "raw": "ハルカちゃんの こと\nしんぱい してる はずだから‥‥",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+          "page": 2,
+          "lineStart": 1,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ハルカ",
+              "start": 0,
+              "end": 3
+            },
+            {
+              "slot": "KUN",
+              "raw": "ちゃん",
+              "start": 3,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-113-R02:S1",
+      "regionId": "NGC-113-R02",
+      "raw": "あ！ やせいの\nケムッソが とびだしてきた！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared1",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "ケムッソ",
+              "start": 8,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared1",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "あ！ やせいの\nケムッソ",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared3",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "ケムッソ",
+              "start": 8,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared3",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_2",
+              "raw": "あ！ やせいの\nケムッソ",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-114-R02:S1",
+      "regionId": "NGC-114-R02",
+      "raw": "ゆけっ！ ラグラージ！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle11",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_LINK_PLAYER_MON1_NAME",
+              "raw": "ラグラージ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_COPY_VAR_1",
+              "raw": "ラグラージ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle7",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_BUFF1",
+              "raw": "ラグラージ",
+              "start": 5,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-115-R03:S1",
+      "regionId": "NGC-115-R03",
+      "raw": "ラグラージは どうする？",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OtherMenu",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ACTIVE_NAME_WITH_PREFIX",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_PlayerMenu",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_PLAYER_NAME",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_1681EA",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_168282",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_16835A",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-117-R03:S1",
+      "regionId": "NGC-117-R03",
+      "raw": "ラグラージの\nマッドショット！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-119-R02:S1",
+      "regionId": "NGC-119-R02",
+      "raw": "やせいの ケムッソは たおれた！",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_ATK_NAME_WITH_PREFIX",
+              "raw": "やせいの ケムッソ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_DefendingFainted",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "B_DEF_NAME_WITH_PREFIX",
+              "raw": "やせいの ケムッソ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-120-R02:S1",
+      "regionId": "NGC-120-R02",
+      "raw": "ラグラージは\n15 けいけんちを もらった！",
+      "bindingAmbiguous": true,
+      "candidates": [
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_2",
+              "raw": "15 けいけんち",
+              "start": 7,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.barboach.UnknownString_81C432C",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_2",
+              "raw": "ラグラージは\n15 けいけんち",
+              "start": 0,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "15 けいけんち",
+              "start": 7,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "ラグラージは\n15 けいけんち",
+              "start": 0,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 0,
+          "lineCount": 2,
+          "bindings": [
+            {
+              "slot": "PLAYER",
+              "raw": "ラグラージ",
+              "start": 0,
+              "end": 5
+            },
+            {
+              "slot": "STR_VAR_1",
+              "raw": "15 けいけんち",
+              "start": 7,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+          "page": 6,
+          "lineStart": 1,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "ラグラージは\n15 けいけんち",
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-123-R06:S5",
+      "regionId": "NGC-123-R06",
+      "raw": "101ばん どうろで であった",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "101ばん どうろ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "101ばん どうろ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-124-R04:S2",
+      "regionId": "NGC-124-R04",
+      "raw": "げんざい 1こ",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gOtherText_Ribbons00",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "VISIBLE_RIBBON_COUNT",
+              "raw": "1",
+              "start": 5,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-131-R06:S5",
+      "regionId": "NGC-131-R06",
+      "raw": "118ばん どうろで であった",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "STR_VAR_1",
+              "raw": "118ばん どうろ",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NGC-132-R04:S2",
+      "regionId": "NGC-132-R04",
+      "raw": "げんざい 1こ",
+      "bindingAmbiguous": false,
+      "candidates": [
+        {
+          "qid": "rs.common.strings.gOtherText_Ribbons00",
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1,
+          "bindings": [
+            {
+              "slot": "VISIBLE_RIBBON_COUNT",
+              "raw": "1",
+              "start": 5,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

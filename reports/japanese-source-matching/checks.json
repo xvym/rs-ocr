@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "total": 45,
+  "total": 53,
   "checks": [
     {
       "name": "Source matching covers pinned Japanese independently of reviewed Chinese availability",
@@ -76,6 +76,34 @@
     },
     {
       "name": "Trainer class/name source templates remain candidates alongside generic link templates",
+      "passed": true
+    },
+    {
+      "name": "A player or explicit battle name cannot absorb an observed prose line",
+      "passed": true
+    },
+    {
+      "name": "Trainer classes use full source terms and do not split at an internal の",
+      "passed": true
+    },
+    {
+      "name": "Finite class evidence respects target game and missing terms fail closed",
+      "passed": true
+    },
+    {
+      "name": "Unreviewed multiline buffers and genuine multiple splits remain hypotheses",
+      "passed": true
+    },
+    {
+      "name": "Experience messages no longer match the reviewed gift-item or starter-species buffers",
+      "passed": true
+    },
+    {
+      "name": "Source-scoped gift constraints retain actual item/species values and their provenance",
+      "passed": true
+    },
+    {
+      "name": "A buffer type is never inferred globally from its number or suffix wording",
       "passed": true
     },
     {
@@ -176,6 +204,10 @@
     },
     {
       "name": "Review HTML keeps all 579 regions and has a syntactically valid offline filter",
+      "passed": true
+    },
+    {
+      "name": "Binding boundary audit preserves its baseline and reproduces all named reviews",
       "passed": true
     },
     {

@@ -319,7 +319,7 @@
 しんぱい してる はずだから‥‥","template_candidate","1","[""rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9""]","true","false","review_slot_callsite_and_semantic_unit"
 "GBA-070-R02:S1","GBA-070-R02","gba","あ！ やせいの
 ケムッソが とびだしてきた！","あ！ やせいの
-ケムッソが とびだしてきた！","ambiguous","2","[""rs.common.battle_strings.BattleText_WildAppeared1"",""rs.common.battle_strings.BattleText_WildAppeared3""]","true","false","review_source_ambiguity"
+ケムッソが とびだしてきた！","ambiguous","2","[""rs.common.battle_strings.BattleText_WildAppeared1"",""rs.common.battle_strings.BattleText_WildAppeared3""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-071-R03:S1","GBA-071-R03","gba","ゆけっ！ ラグラージ！","ゆけっ！ ラグラージ！","ambiguous","3","[""rs.common.battle_strings.BattleText_SentOutSingle11"",""rs.common.battle_strings.BattleText_SentOutSingle6"",""rs.common.battle_strings.BattleText_SentOutSingle7""]","true","false","review_source_ambiguity"
 "GBA-072-R03:S1","GBA-072-R03","gba","ラグラージの
 マッドショット！","ラグラージの
@@ -328,7 +328,7 @@
 "GBA-074-R02:S1","GBA-074-R02","gba","やせいの ケムッソは たおれた！","やせいの ケムッソは たおれた！","ambiguous","2","[""rs.common.battle_strings.BattleText_AttackingFainted"",""rs.common.battle_strings.BattleText_DefendingFainted""]","true","false","review_source_ambiguity"
 "GBA-075-R02:S1","GBA-075-R02","gba","ラグラージは
 15 けいけんちを もらった！","ラグラージは
-15 けいけんちを もらった！","ambiguous","3","[""rs.script.barboach.UnknownString_81C432C"",""rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506"",""rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94""]","true","false","review_source_ambiguity"
+15 けいけんちを もらった！","template_candidate","1","[""rs.common.battle_strings.BattleText_GainExpPoints""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-076-R03:S1","GBA-076-R03","gba","やせいの ケムッソの
 いとをはく こうげき！","やせいの ケムッソの
 いとをはく こうげき！","template_candidate","1","[""rs.common.battle_strings.BattleText_OpponentUsedMove""]","true","false","review_structured_battle_meaning_and_chinese"
@@ -515,7 +515,7 @@
 しょうぶを しかけてきた！","ambiguous","2","[""rs.common.battle_strings.BattleText_SingleWantToBattle1"",""rs.common.battle_strings.BattleText_SingleWantToBattle2""]","true","false","review_source_ambiguity"
 "GBA-145-R03:S1","GBA-145-R03","gba","してんのうの カゲツは
 グラエナを くりだした！","してんのうの カゲツは
-グラエナを くりだした！","ambiguous","7","[""rs.common.battle_strings.BattleText_SentOutDouble3"",""rs.common.battle_strings.BattleText_SentOutSingle1"",""rs.common.battle_strings.BattleText_SentOutSingle11"",""rs.common.battle_strings.BattleText_SentOutSingle2"",""rs.common.battle_strings.BattleText_SentOutSingle3"",""rs.common.battle_strings.BattleText_SentOutSingle4"",""rs.common.battle_strings.BattleText_SentOutSingle5""]","true","false","review_source_ambiguity"
+グラエナを くりだした！","ambiguous","7","[""rs.common.battle_strings.BattleText_SentOutDouble3"",""rs.common.battle_strings.BattleText_SentOutSingle1"",""rs.common.battle_strings.BattleText_SentOutSingle11"",""rs.common.battle_strings.BattleText_SentOutSingle2"",""rs.common.battle_strings.BattleText_SentOutSingle3"",""rs.common.battle_strings.BattleText_SentOutSingle4"",""rs.common.battle_strings.BattleText_SentOutSingle5""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-146-R03:S1","GBA-146-R03","gba","ゆけっ！ カイオーガ！","ゆけっ！ カイオーガ！","ambiguous","3","[""rs.common.battle_strings.BattleText_SentOutSingle11"",""rs.common.battle_strings.BattleText_SentOutSingle6"",""rs.common.battle_strings.BattleText_SentOutSingle7""]","true","false","review_source_ambiguity"
 "GBA-147-R03:S1","GBA-147-R03","gba","カイオーガの あめふらしで
 あめが ふりはじめた！","カイオーガの あめふらしで
@@ -549,10 +549,10 @@
 "GBA-158-R02:S1","GBA-158-R02","gba","あいての グラエナは たおれた！","あいての グラエナは たおれた！","ambiguous","2","[""rs.common.battle_strings.BattleText_AttackingFainted"",""rs.common.battle_strings.BattleText_DefendingFainted""]","true","false","review_source_ambiguity"
 "GBA-159-R02:S1","GBA-159-R02","gba","カイオーガは
 1261 けいけんちを もらった！","カイオーガは
-1261 けいけんちを もらった！","ambiguous","3","[""rs.script.barboach.UnknownString_81C432C"",""rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506"",""rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94""]","true","false","review_source_ambiguity"
+1261 けいけんちを もらった！","template_candidate","1","[""rs.common.battle_strings.BattleText_GainExpPoints""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-160-R02:S1","GBA-160-R02","gba","してんのうの カゲツは
 ノクタスを くりだそうと している","してんのうの カゲツは
-ノクタスを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_slot_callsite_and_semantic_unit"
+ノクタスを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-161-R02:S1","GBA-161-R02","gba","ハルカも ポケモンを
 いれかえますか？","ハルカも ポケモンを
 いれかえますか？","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_slot_callsite_and_semantic_unit"
@@ -564,10 +564,10 @@
 "GBA-165-R02:S1","GBA-165-R02","gba","あいての ノクタスは たおれた！","あいての ノクタスは たおれた！","ambiguous","2","[""rs.common.battle_strings.BattleText_AttackingFainted"",""rs.common.battle_strings.BattleText_DefendingFainted""]","true","false","review_source_ambiguity"
 "GBA-166-R02:S1","GBA-166-R02","gba","カイオーガは
 1744 けいけんちを もらった！","カイオーガは
-1744 けいけんちを もらった！","ambiguous","3","[""rs.script.barboach.UnknownString_81C432C"",""rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506"",""rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94""]","true","false","review_source_ambiguity"
+1744 けいけんちを もらった！","template_candidate","1","[""rs.common.battle_strings.BattleText_GainExpPoints""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-167-R02:S1","GBA-167-R02","gba","してんのうの カゲツは
 サメハダーを くりだそうと している","してんのうの カゲツは
-サメハダーを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_slot_callsite_and_semantic_unit"
+サメハダーを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-168-R02:S1","GBA-168-R02","gba","ハルカも ポケモンを
 いれかえますか？","ハルカも ポケモンを
 いれかえますか？","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_slot_callsite_and_semantic_unit"
@@ -575,10 +575,10 @@
 "GBA-170-R02:S1","GBA-170-R02","gba","あいての サメハダーは たおれた！","あいての サメハダーは たおれた！","ambiguous","2","[""rs.common.battle_strings.BattleText_AttackingFainted"",""rs.common.battle_strings.BattleText_DefendingFainted""]","true","false","review_source_ambiguity"
 "GBA-171-R02:S1","GBA-171-R02","gba","カイオーガは
 1800 けいけんちを もらった！","カイオーガは
-1800 けいけんちを もらった！","ambiguous","3","[""rs.script.barboach.UnknownString_81C432C"",""rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506"",""rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94""]","true","false","review_source_ambiguity"
+1800 けいけんちを もらった！","template_candidate","1","[""rs.common.battle_strings.BattleText_GainExpPoints""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-172-R02:S1","GBA-172-R02","gba","してんのうの カゲツは
 アブソルを くりだそうと している","してんのうの カゲツは
-アブソルを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_slot_callsite_and_semantic_unit"
+アブソルを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-173-R02:S1","GBA-173-R02","gba","ハルカも ポケモンを
 いれかえますか？","ハルカも ポケモンを
 いれかえますか？","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_slot_callsite_and_semantic_unit"
@@ -589,10 +589,10 @@
 "GBA-176-R02:S1","GBA-176-R02","gba","あいての アブソルは たおれた！","あいての アブソルは たおれた！","ambiguous","2","[""rs.common.battle_strings.BattleText_AttackingFainted"",""rs.common.battle_strings.BattleText_DefendingFainted""]","true","false","review_source_ambiguity"
 "GBA-177-R02:S1","GBA-177-R02","gba","カイオーガは
 1827 けいけんちを もらった！","カイオーガは
-1827 けいけんちを もらった！","ambiguous","3","[""rs.script.barboach.UnknownString_81C432C"",""rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506"",""rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94""]","true","false","review_source_ambiguity"
+1827 けいけんちを もらった！","template_candidate","1","[""rs.common.battle_strings.BattleText_GainExpPoints""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-178-R02:S1","GBA-178-R02","gba","してんのうの カゲツは
 ダーテングを くりだそうと している","してんのうの カゲツは
-ダーテングを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_slot_callsite_and_semantic_unit"
+ダーテングを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-179-R02:S1","GBA-179-R02","gba","ハルカも ポケモンを
 いれかえますか？","ハルカも ポケモンを
 いれかえますか？","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_slot_callsite_and_semantic_unit"
@@ -620,7 +620,7 @@
 まっ たのしんだから いいんだけどよ","source_candidate","1","[""rs.script.EverGrandeCity_SidneysRoom.EverGrandeCity_SidneysRoom_Text_190823""]","true","false","review_existing_chinese_candidate"
 "GBA-188-R02:S1","GBA-188-R02","gba","ハルカは しょうきんとして
 4900円 てにいれた！","ハルカは しょうきんとして
-4900円 てにいれた！","template_candidate","1","[""rs.common.battle_strings.BattleText_WinningPrize""]","false","false","review_slot_callsite_and_semantic_unit"
+4900円 てにいれた！","template_candidate","1","[""rs.common.battle_strings.BattleText_WinningPrize""]","false","false","review_structured_battle_meaning_and_chinese"
 "GBA-189-R01:S1","GBA-189-R01","gba","まけた おれから ひとこと","まけた おれから ひとこと","source_candidate","1","[""rs.script.EverGrandeCity_SidneysRoom.EverGrandeCity_SidneysRoom_Text_19086D""]","true","false","review_existing_chinese_candidate"
 "GBA-190-R01:S1","GBA-190-R01","gba","おまえなら もっと さきに すすめるぜ
 さあ つぎの へやに いって","おまえなら もっと さきに すすめるぜ
@@ -655,7 +655,7 @@
 こんらんした！","template_candidate","1","[""rs.common.battle_strings.BattleText_BecameConfused""]","true","false","review_slot_callsite_and_semantic_unit"
 "GBA-201-R09:S1","GBA-201-R09","gba","カイオーガの たいりょくが
 17 かいふくした","カイオーガの たいりょくが
-17 かいふくした","template_candidate","1","[""rs.common.strings.gOtherText_HPRestoredBy""]","true","false","review_slot_callsite_and_semantic_unit"
+17 かいふくした","template_candidate","1","[""rs.common.strings.gOtherText_HPRestoredBy""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-202-R03:S1","GBA-202-R03","gba","あいての サマヨールの
 シャドーパンチ！","あいての サマヨールの
 シャドーパンチ！","template_candidate","1","[""rs.common.battle_strings.BattleText_OpponentUsedMove""]","true","false","review_structured_battle_meaning_and_chinese"
@@ -674,10 +674,10 @@
 "GBA-207-R02:S1","GBA-207-R02","gba","あいての サマヨールは たおれた！","あいての サマヨールは たおれた！","ambiguous","2","[""rs.common.battle_strings.BattleText_AttackingFainted"",""rs.common.battle_strings.BattleText_DefendingFainted""]","true","false","review_source_ambiguity"
 "GBA-208-R02:S1","GBA-208-R02","gba","カイオーガは
 1840 けいけんちを もらった！","カイオーガは
-1840 けいけんちを もらった！","ambiguous","3","[""rs.script.barboach.UnknownString_81C432C"",""rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506"",""rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94""]","true","false","review_source_ambiguity"
+1840 けいけんちを もらった！","template_candidate","1","[""rs.common.battle_strings.BattleText_GainExpPoints""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-209-R02:S1","GBA-209-R02","gba","してんのうの フヨウは
 ジュペッタを くりだそうと している","してんのうの フヨウは
-ジュペッタを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_slot_callsite_and_semantic_unit"
+ジュペッタを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-210-R02:S1","GBA-210-R02","gba","ハルカも ポケモンを
 いれかえますか？","ハルカも ポケモンを
 いれかえますか？","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_slot_callsite_and_semantic_unit"
@@ -687,7 +687,7 @@
 "GBA-212-R02:S1","GBA-212-R02","gba","あいての ジュペッタは たおれた！","あいての ジュペッタは たおれた！","ambiguous","2","[""rs.common.battle_strings.BattleText_AttackingFainted"",""rs.common.battle_strings.BattleText_DefendingFainted""]","true","false","review_source_ambiguity"
 "GBA-213-R02:S1","GBA-213-R02","gba","してんのうの フヨウは
 ヤミラミを くりだした！","してんのうの フヨウは
-ヤミラミを くりだした！","ambiguous","7","[""rs.common.battle_strings.BattleText_SentOutDouble3"",""rs.common.battle_strings.BattleText_SentOutSingle1"",""rs.common.battle_strings.BattleText_SentOutSingle11"",""rs.common.battle_strings.BattleText_SentOutSingle2"",""rs.common.battle_strings.BattleText_SentOutSingle3"",""rs.common.battle_strings.BattleText_SentOutSingle4"",""rs.common.battle_strings.BattleText_SentOutSingle5""]","true","false","review_source_ambiguity"
+ヤミラミを くりだした！","ambiguous","7","[""rs.common.battle_strings.BattleText_SentOutDouble3"",""rs.common.battle_strings.BattleText_SentOutSingle1"",""rs.common.battle_strings.BattleText_SentOutSingle11"",""rs.common.battle_strings.BattleText_SentOutSingle2"",""rs.common.battle_strings.BattleText_SentOutSingle3"",""rs.common.battle_strings.BattleText_SentOutSingle4"",""rs.common.battle_strings.BattleText_SentOutSingle5""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-214-R07:S1","GBA-214-R07","gba","ポケモンを えらんで ください","ポケモンを えらんで ください","ambiguous","3","[""rs.common.strings.OtherText_ChoosePoke"",""rs.common.strings2.TradeText_ChoosePoke"",""rs.script.cable_club.UnknownString_81A4E0A""]","true","false","review_source_ambiguity"
 "GBA-214-R08:S1","GBA-214-R08","gba","もどる","もどる","ambiguous","5","[""native.label.cancel"",""native.label.cancel_selected"",""rs.common.matsuda_debug_menu.gMatsudaDebugMenu_GoBackText"",""rs.common.strings.gOtherText_Exit"",""rs.common.strings2.^j_0""]","true","false","review_source_ambiguity"
 "GBA-215-R07:S1","GBA-215-R07","gba","レックウザを どうする？","レックウザを どうする？","template_candidate","1","[""rs.common.strings.OtherText_DoWhat""]","true","false","review_slot_callsite_and_semantic_unit"
@@ -710,10 +710,10 @@
 "GBA-221-R02:S1","GBA-221-R02","gba","あいての ジュペッタは たおれた！","あいての ジュペッタは たおれた！","ambiguous","2","[""rs.common.battle_strings.BattleText_AttackingFainted"",""rs.common.battle_strings.BattleText_DefendingFainted""]","true","false","review_source_ambiguity"
 "GBA-222-R02:S1","GBA-222-R02","gba","レックウザは
 1879 けいけんちを もらった！","レックウザは
-1879 けいけんちを もらった！","ambiguous","3","[""rs.script.barboach.UnknownString_81C432C"",""rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506"",""rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94""]","true","false","review_source_ambiguity"
+1879 けいけんちを もらった！","template_candidate","1","[""rs.common.battle_strings.BattleText_GainExpPoints""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-223-R02:S1","GBA-223-R02","gba","してんのうの フヨウは
 サマヨールを くりだそうと している","してんのうの フヨウは
-サマヨールを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_slot_callsite_and_semantic_unit"
+サマヨールを くりだそうと している","template_candidate","1","[""rs.common.battle_strings.BattleText_WillSwitch""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-224-R03:S1","GBA-224-R03","gba","あいての サマヨールの
 れいとうビーム！","あいての サマヨールの
 れいとうビーム！","template_candidate","1","[""rs.common.battle_strings.BattleText_OpponentUsedMove""]","true","false","review_structured_battle_meaning_and_chinese"
@@ -729,7 +729,7 @@
 こおりづけになった！","ambiguous","3","[""rs.common.battle_strings.BattleText_Frozen"",""rs.common.battle_strings.BattleText_Frozen2"",""rs.common.battle_strings.BattleText_NaturePower""]","true","false","review_source_ambiguity"
 "GBA-229-R09:S1","GBA-229-R09","gba","レックウザの たいりょくが
 91 かいふくした","レックウザの たいりょくが
-91 かいふくした","template_candidate","1","[""rs.common.strings.gOtherText_HPRestoredBy""]","true","false","review_slot_callsite_and_semantic_unit"
+91 かいふくした","template_candidate","1","[""rs.common.strings.gOtherText_HPRestoredBy""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-230-R03:S1","GBA-230-R03","gba","こうかは ばつぐんだ！","こうかは ばつぐんだ！","source_candidate","1","[""rs.common.battle_strings.BattleText_SuperEffective""]","true","true","review_visible_semantic_unit_before_integration"
 "GBA-231-R03:S1","GBA-231-R03","gba","レックウザは
 こおりづけになった！","レックウザは
@@ -742,7 +742,7 @@
 こんらんしている！","template_candidate","1","[""rs.common.battle_strings.BattleText_Confused""]","true","false","review_slot_callsite_and_semantic_unit"
 "GBA-234-R03:S1","GBA-234-R03","gba","レックウザは
 ねむるを つかった！","レックウザは
-ねむるを つかった！","ambiguous","5","[""rs.common.battle_strings.BattleText_OpponentUsedMove"",""rs.common.strings.gOtherText_UsedFlute"",""rs.common.strings.gOtherText_UsedItem"",""rs.common.strings.gOtherText_UsedRepel"",""rs.script.field_move_scripts.UsedCutRockSmashText""]","true","false","review_source_ambiguity"
+ねむるを つかった！","template_candidate","1","[""rs.common.battle_strings.BattleText_OpponentUsedMove""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-235-R03:S1","GBA-235-R03","gba","しかし レックウザの
 たいりょくは まんたんだ！","しかし レックウザの
 たいりょくは まんたんだ！","template_candidate","1","[""rs.common.battle_strings.BattleText_HPFull""]","true","false","review_slot_callsite_and_semantic_unit"
@@ -759,7 +759,7 @@
 "GBA-240-R02:S1","GBA-240-R02","gba","あいての サマヨールは たおれた！","あいての サマヨールは たおれた！","ambiguous","2","[""rs.common.battle_strings.BattleText_AttackingFainted"",""rs.common.battle_strings.BattleText_DefendingFainted""]","true","false","review_source_ambiguity"
 "GBA-241-R02:S1","GBA-241-R02","gba","レックウザは
 1956 けいけんちを もらった！","レックウザは
-1956 けいけんちを もらった！","ambiguous","3","[""rs.script.barboach.UnknownString_81C432C"",""rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506"",""rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94""]","true","false","review_source_ambiguity"
+1956 けいけんちを もらった！","template_candidate","1","[""rs.common.battle_strings.BattleText_GainExpPoints""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-242-R02:S1","GBA-242-R02","gba","してんのうの フヨウ
 との しょうぶに かった！","してんのうの フヨウ
 との しょうぶに かった！","ambiguous","2","[""rs.common.battle_strings.BattleText_PlayerDefeatedTrainer"",""rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2""]","true","false","review_source_ambiguity"
@@ -768,7 +768,7 @@
 まけちゃった","source_candidate","1","[""rs.script.EverGrandeCity_PhoebesRoom.EverGrandeCity_PhoebesRoom_Text_190A0C""]","true","false","review_existing_chinese_candidate"
 "GBA-244-R02:S1","GBA-244-R02","gba","ハルカは しょうきんとして
 5100円 てにいれた！","ハルカは しょうきんとして
-5100円 てにいれた！","template_candidate","1","[""rs.common.battle_strings.BattleText_WinningPrize""]","false","false","review_slot_callsite_and_semantic_unit"
+5100円 てにいれた！","template_candidate","1","[""rs.common.battle_strings.BattleText_WinningPrize""]","false","false","review_structured_battle_meaning_and_chinese"
 "GBA-245-R01:S1","GBA-245-R01","gba","あなたと ポケモンとの あいだにも
 たしかな きずなが あったのね","あなたと ポケモンとの あいだにも
 たしかな きずなが あったのね","source_candidate","1","[""rs.script.EverGrandeCity_PhoebesRoom.EverGrandeCity_PhoebesRoom_Text_190A2A""]","true","false","review_existing_chinese_candidate"
@@ -785,7 +785,7 @@
 "GBA-250-R01:S1","GBA-250-R01","gba","「ハルカの いえ」","「ハルカの いえ」","template_candidate","1","[""rs.script.LittlerootTown.LittlerootTown_Text_16AEA1""]","true","false","review_slot_callsite_and_semantic_unit"
 "GBA-251-R03:S1","GBA-251-R03","gba","ハルカは
 スーパーボールを つかった！","ハルカは
-スーパーボールを つかった！","ambiguous","5","[""rs.common.battle_strings.BattleText_Used1"",""rs.common.strings.gOtherText_UsedFlute"",""rs.common.strings.gOtherText_UsedItem"",""rs.common.strings.gOtherText_UsedRepel"",""rs.script.field_move_scripts.UsedCutRockSmashText""]","true","false","review_source_ambiguity"
+スーパーボールを つかった！","ambiguous","4","[""rs.common.battle_strings.BattleText_Used1"",""rs.common.strings.gOtherText_UsedFlute"",""rs.common.strings.gOtherText_UsedItem"",""rs.common.strings.gOtherText_UsedRepel""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-252-R03:S1","GBA-252-R03","gba","おしい！
 あと ちょっとの ところだったのに！","おしい！
 あと ちょっとの ところだったのに！","source_candidate","1","[""rs.common.battle_strings.BattleText_BallBrokeSoClose""]","true","false","review_existing_chinese_candidate"
@@ -797,7 +797,7 @@
 こうげきりょくが さがった！","ambiguous","2","[""rs.common.battle_strings.BattleText_UnknownString5"",""rs.common.battle_strings.BattleText_UnknownString6""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-255-R03:S1","GBA-255-R03","gba","やったー！
 ジグザグマを つかまえたぞ！","やったー！
-ジグザグマを つかまえたぞ！","ambiguous","2","[""rs.common.battle_strings.BattleText_BallCaught1"",""rs.common.battle_strings.BattleText_BallCaught2""]","true","false","review_source_ambiguity"
+ジグザグマを つかまえたぞ！","ambiguous","2","[""rs.common.battle_strings.BattleText_BallCaught1"",""rs.common.battle_strings.BattleText_BallCaught2""]","true","false","review_structured_battle_meaning_and_chinese"
 "GBA-256-R01:S1","GBA-256-R01","gba","ぜんこく から かちぬいてきた
 ポケモンが あつ","ぜんこく から かちぬいてきた
 ポケモンが あつ","fragment_only","0","[]","false","false","review_partial_visible_window"
@@ -1500,7 +1500,7 @@
 しんぱい してる はずだから‥‥","template_candidate","1","[""rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9""]","true","false","review_slot_callsite_and_semantic_unit"
 "NGC-113-R02:S1","NGC-113-R02","ngc","あ！ やせいの
 ケムッソが とびだしてきた！","あ！ やせいの
-ケムッソが とびだしてきた！","ambiguous","2","[""rs.common.battle_strings.BattleText_WildAppeared1"",""rs.common.battle_strings.BattleText_WildAppeared3""]","true","false","review_source_ambiguity"
+ケムッソが とびだしてきた！","ambiguous","2","[""rs.common.battle_strings.BattleText_WildAppeared1"",""rs.common.battle_strings.BattleText_WildAppeared3""]","true","false","review_structured_battle_meaning_and_chinese"
 "NGC-114-R02:S1","NGC-114-R02","ngc","ゆけっ！ ラグラージ！","ゆけっ！ ラグラージ！","ambiguous","3","[""rs.common.battle_strings.BattleText_SentOutSingle11"",""rs.common.battle_strings.BattleText_SentOutSingle6"",""rs.common.battle_strings.BattleText_SentOutSingle7""]","true","false","review_source_ambiguity"
 "NGC-115-R03:S1","NGC-115-R03","ngc","ラグラージは どうする？","ラグラージは どうする？","ambiguous","5","[""rs.common.battle_strings.BattleText_OtherMenu"",""rs.common.battle_strings.BattleText_PlayerMenu"",""rs.script.LilycoveCity.LilycoveCity_Text_1681EA"",""rs.script.LilycoveCity.LilycoveCity_Text_168282"",""rs.script.LilycoveCity.LilycoveCity_Text_16835A""]","true","false","review_source_ambiguity"
 "NGC-115-R04:S1","NGC-115-R04","ngc","たたかう","たたかう","source_candidate","1","[""rs.common.battle_strings.BattleText_MenuOptions""]","true","false","review_existing_chinese_candidate"
@@ -1521,7 +1521,7 @@
 "NGC-119-R02:S1","NGC-119-R02","ngc","やせいの ケムッソは たおれた！","やせいの ケムッソは たおれた！","ambiguous","2","[""rs.common.battle_strings.BattleText_AttackingFainted"",""rs.common.battle_strings.BattleText_DefendingFainted""]","true","false","review_source_ambiguity"
 "NGC-120-R02:S1","NGC-120-R02","ngc","ラグラージは
 15 けいけんちを もらった！","ラグラージは
-15 けいけんちを もらった！","ambiguous","3","[""rs.script.barboach.UnknownString_81C432C"",""rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506"",""rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94""]","true","false","review_source_ambiguity"
+15 けいけんちを もらった！","template_candidate","1","[""rs.common.battle_strings.BattleText_GainExpPoints""]","true","false","review_structured_battle_meaning_and_chinese"
 "NGC-121-R01:S1","NGC-121-R01","ngc","やせいの ポケモンは
 くさむらから とびだしてくる からな！","やせいの ポケモンは
 くさむらから とびだしてくる からな！","source_candidate","1","[""rs.script.Route101.Route101_Text_16D2CB""]","true","false","review_existing_chinese_candidate"

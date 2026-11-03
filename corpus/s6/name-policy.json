@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "explicitKindFirst": true,
+  "nicknamePriority": [
+    "species",
+    "person",
+    "move",
+    "item",
+    "ability",
+    "nature",
+    "type",
+    "trainer_class"
+  ],
+  "sameRankConflict": "retain_original",
+  "unmatched": "retain_complete_original",
+  "rawNeverRewritten": true,
+  "identityLearning": false,
+  "prefixDisplayConvention": {
+    "prefixes": {
+      "あいての": "对手的",
+      "やせいの": "野生的"
+    },
+    "scope": "Display spelling convention only, including an indistinguishable custom name; no actual side, ownership or species is inferred."
+  },
+  "trainerLabel": "Complete finite class + literal の + complete name; otherwise complete name lookup. Never learn identity from a translated label.",
+  "manualPlayerAndSessionIdentity": "S7 responsibility; no session cache or automatic identity learning is implemented by S6 resources."
+}

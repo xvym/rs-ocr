@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "status": "model_reviewed_lexical_retrieval_constraints_not_translation_approval",
+  "rules": [
+    {
+      "qid": "rs.script.barboach.UnknownString_81C432C",
+      "slot": "STR_VAR_2",
+      "kind": "item",
+      "evidence": "Model-reviewed gift-item context: received one item and adjacent full-bag message in pinned barboach text; no caller established. Conservative lexical constraint, not Japanese call-site approval.",
+      "japaneseSha256": "3dfc06a3c5829366dda60afe653923bd94b3750eeae324c2389c2516a554bd09",
+      "englishSha256": "503db02f09ac714adc6813465de7fa6bcf873f00ba51f7f7a21bd25448a946bc",
+      "singleLine": true
+    },
+    {
+      "qid": "rs.script.BattleTower_Lobby.BattleTower_Lobby_Text_19A506",
+      "slot": "STR_VAR_1",
+      "kind": "item",
+      "evidence": "Pinned GiveBattleTowerPrize calls CopyItemName into gStringVar1 before this prize message. Japanese corresponding caller not executed.",
+      "japaneseSha256": "831a95dd52430a44a6903e88a81fa0263236129b1edb44bddea49d98acd2b753",
+      "englishSha256": "9c34da41fd092c6be2e0b3c2689a3f0f442ae781f2530cef4d37ade727324333",
+      "singleLine": true
+    },
+    {
+      "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D94",
+      "slot": "STR_VAR_1",
+      "kind": "species",
+      "evidence": "Japanese passage explicitly gives the earlier Pokemon; pinned renamed starter script buffers lead-mon species into string var 1 before this message. Japanese corresponding caller not executed.",
+      "japaneseSha256": "72c85c8a45d543f6f0ea211de62ac719a4ebf213dcfcbd88b93d8423690ccb08",
+      "englishSha256": "adfad6fedfede95001c5db017a07b03cd12374d2ea94feb085d725525967af77",
+      "singleLine": true
+    }
+  ],
+  "limitations": [
+    "Only these qids and slots are constrained; buffer numbers do not define global types.",
+    "Unlisted custom rendered item names and automatic wrapping fall back; Japanese callers are not all verified.",
+    "Source text semantic review uses the implementing model, non-blind, not human acceptance."
+  ]
+}
