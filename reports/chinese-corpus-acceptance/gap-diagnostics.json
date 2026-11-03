@@ -1,0 +1,6263 @@
+[
+  {
+    "id": "GBA-001-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-002-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-003-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "なんといっても あの コンビネーションは\nさいこう！ さすが！ って かんじよ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-004-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おつかれさまです！\nポケモン センター です",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-005-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ここでは ポケモンの\nたいりょく かいふくを します",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-006-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "あなたの ポケモンを\nやすませて あげますか？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-007-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "それでは\nおあずかり いたします！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-008-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "またの\nごりようを おまち してます！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-009-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンざっしが ならんでる！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-010-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "‥‥「ポケモンのとも」\n‥‥「ポケモン てちょう」",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-011-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "‥‥「ポケモン てちょう」\n‥‥「かわいい ポケモン」",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-012-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ハルカは\nパソコンの スイッチを いれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-013-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "どこの パソコンに せつぞく して\nつうしん しますか？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-013-R02:U1",
+    "regionType": "pc_connect_menu",
+    "japanese": "マユミのパソコン",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gPCText_LanettesPC"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-013-R02:U2",
+    "regionType": "pc_connect_menu",
+    "japanese": "ハルカのパソコン",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-013-R02:U3",
+    "regionType": "pc_connect_menu",
+    "japanese": "でんどういり",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.easy_chat_group_events.gEasyChatGroupWords_Events.9",
+      "rs.common.strings.gPCText_HallOfFame"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-013-R02:U4",
+    "regionType": "pc_connect_menu",
+    "japanese": "スイッチをきる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gPCText_LogOff"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-014-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "マユミの パソコンに せつぞく した！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [
+      "rs.script.pc.Text_AccessedLanettesPC"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-015-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンの あずかり システムを\nよびだした！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-016-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ボックスに あずけている ポケモンを\nてもちに くわえる ことが できます",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-016-R02:U1",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "ポケモンを つれていく",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_WithdrawPoke"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-016-R02:U2",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "ポケモンを あずける",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_DepositPoke"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-016-R02:U3",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "ボックスを せいりする",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_MovePoke"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-016-R02:U4",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "さようなら",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.easy_chat_group_greetings.gEasyChatGroupWords_Greetings.16",
+      "rs.common.strings.PCText_SeeYa"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-017-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "なにを しますか？",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.script.secret_base.SecretBase_Text_WhatWouldYouLikeToDo",
+      "rs.common.strings.gOtherText_WhatWillYouDo",
+      "rs.common.strings.PCText_WhatDoYouWant"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-017-R02:U1",
+    "regionType": "pc_item_menu",
+    "japanese": "どうぐ あずかり",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.SecretBaseText_ItemStorage"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-017-R02:U2",
+    "regionType": "pc_item_menu",
+    "japanese": "メールボックス",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gPCText_Mailbox"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-017-R02:U3",
+    "regionType": "pc_item_menu",
+    "japanese": "せつぞくを きる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.SecretBaseText_TurnOff"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-018-R01:U1",
+    "regionType": "pc_item_heading",
+    "japanese": "どうぐを ひきだす",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_WithdrawItem"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-018-R02:U1",
+    "regionType": "pc_item_list",
+    "japanese": "ポイントアップ × 5",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-018-R02:U2",
+    "regionType": "pc_item_list",
+    "japanese": "ピーピーエイド × 3",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-018-R02:U3",
+    "regionType": "pc_item_list",
+    "japanese": "スペシャルアップ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-018-R02:U4",
+    "regionType": "pc_item_list",
+    "japanese": "せんせいのツメ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-018-R02:U5",
+    "regionType": "pc_item_list",
+    "japanese": "かわらずのいし × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-018-R02:U6",
+    "regionType": "pc_item_list",
+    "japanese": "やわらかいすな × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-018-R02:U7",
+    "regionType": "pc_item_list",
+    "japanese": "スピーダー × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-018-R02:U8",
+    "regionType": "pc_item_list",
+    "japanese": "マックスアップ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-018-R03:U1",
+    "regionType": "pc_item_description",
+    "japanese": "わざポイントの\nさいだいちが あがる",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-019-R02:U1",
+    "regionType": "bag_list",
+    "japanese": "どくけし × 15",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-019-R02:U2",
+    "regionType": "bag_list",
+    "japanese": "かいふくのくすり × 4",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-019-R02:U3",
+    "regionType": "bag_list",
+    "japanese": "なんでもなおし × 3",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-019-R02:U4",
+    "regionType": "bag_list",
+    "japanese": "まひなおし × 5",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-019-R02:U5",
+    "regionType": "bag_list",
+    "japanese": "すごいキズぐすり × 7",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-019-R02:U6",
+    "regionType": "bag_list",
+    "japanese": "ねむけざまし × 7",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-019-R02:U7",
+    "regionType": "bag_list",
+    "japanese": "まんたんのくすり × 13",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-019-R02:U8",
+    "regionType": "bag_list",
+    "japanese": "たいようのいし × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-019-R03:U1",
+    "regionType": "bag_description",
+    "japanese": "どく じょうたいを\nかいふくする",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-020-R01:U1",
+    "regionType": "pc_item_heading",
+    "japanese": "どうぐを すてる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_TossItem"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-020-R02:U1",
+    "regionType": "pc_item_list",
+    "japanese": "ポイントアップ × 5",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-020-R02:U2",
+    "regionType": "pc_item_list",
+    "japanese": "ピーピーエイド × 3",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-020-R02:U3",
+    "regionType": "pc_item_list",
+    "japanese": "スペシャルアップ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-020-R02:U4",
+    "regionType": "pc_item_list",
+    "japanese": "せんせいのツメ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-020-R02:U5",
+    "regionType": "pc_item_list",
+    "japanese": "かわらずのいし × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-020-R02:U6",
+    "regionType": "pc_item_list",
+    "japanese": "やわらかいすな × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-020-R02:U7",
+    "regionType": "pc_item_list",
+    "japanese": "スピーダー × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-020-R02:U8",
+    "regionType": "pc_item_list",
+    "japanese": "マックスアップ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-020-R03:U1",
+    "regionType": "pc_item_description",
+    "japanese": "わざポイントの\nさいだいちが あがる",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-021-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "まえに もどります！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gMenuText_GoBackToPrev"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-021-R02:U1",
+    "regionType": "pc_store_menu",
+    "japanese": "どうぐを ひきだす",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_WithdrawItem"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-021-R02:U2",
+    "regionType": "pc_store_menu",
+    "japanese": "どうぐを あずける",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_DepositItem"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-021-R02:U3",
+    "regionType": "pc_store_menu",
+    "japanese": "どうぐを すてる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_TossItem"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-021-R02:U4",
+    "regionType": "pc_store_menu",
+    "japanese": "もどる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.matsuda_debug_menu.gMatsudaDebugMenu_GoBackText",
+      "rs.common.strings.gOtherText_Exit",
+      "rs.common.strings2.^j_0"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-022-R02:U1",
+    "regionType": "bag_list",
+    "japanese": "どくけし × 15",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-022-R02:U2",
+    "regionType": "bag_list",
+    "japanese": "かいふくのくすり × 4",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-022-R02:U3",
+    "regionType": "bag_list",
+    "japanese": "なんでもなおし × 3",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-022-R02:U4",
+    "regionType": "bag_list",
+    "japanese": "まひなおし × 5",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-022-R02:U5",
+    "regionType": "bag_list",
+    "japanese": "すごいキズぐすり × 7",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-022-R02:U6",
+    "regionType": "bag_list",
+    "japanese": "ねむけざまし × 7",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-022-R02:U7",
+    "regionType": "bag_list",
+    "japanese": "まんたんのくすり × 13",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-022-R02:U8",
+    "regionType": "bag_list",
+    "japanese": "たいようのいし × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-022-R03:U1",
+    "regionType": "bag_description",
+    "japanese": "どく じょうたいを\nかいふくする",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-023-R01:U1",
+    "regionType": "bag_category",
+    "japanese": "モンスターボール",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.4",
+      "rs.common.strings.OtherText_PokeBall"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-023-R02:U1",
+    "regionType": "bag_list",
+    "japanese": "スーパーボール × 25",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-023-R02:U2",
+    "regionType": "bag_list",
+    "japanese": "ハイパーボール × 26",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-023-R02:U3",
+    "regionType": "bag_list",
+    "japanese": "ダイブボール × 20",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-023-R02:U4",
+    "regionType": "bag_list",
+    "japanese": "ネストボール × 2",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-023-R02:U5",
+    "regionType": "bag_list",
+    "japanese": "ネットボール × 14",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-023-R02:U6",
+    "regionType": "bag_list",
+    "japanese": "バッグをとじる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gOtherText_CloseBag"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-023-R03:U1",
+    "regionType": "bag_description",
+    "japanese": "モンスターボール より\nつかまえ やすくなった\nこうせいのうの ボール",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-024-R01:U1",
+    "regionType": "bag_category",
+    "japanese": "わざマシン",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_TMsHMs"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-024-R02:U1",
+    "regionType": "bag_list",
+    "japanese": "No03みずのはどう × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-024-R02:U2",
+    "regionType": "bag_list",
+    "japanese": "No04めいそう × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-024-R02:U3",
+    "regionType": "bag_list",
+    "japanese": "No05ほえる × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-024-R02:U4",
+    "regionType": "bag_list",
+    "japanese": "No08ビルドアップ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-024-R02:U5",
+    "regionType": "bag_list",
+    "japanese": "No09タネマシンガン × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-024-R02:U6",
+    "regionType": "bag_list",
+    "japanese": "No11にほんばれ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-024-R02:U7",
+    "regionType": "bag_list",
+    "japanese": "No26じしん × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-024-R02:U8",
+    "regionType": "bag_list",
+    "japanese": "No27おんがえし × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-024-R03:U1",
+    "regionType": "bag_description",
+    "japanese": "ちょうおんぱ こうげきで\nてきを こんらんさせる\nことがある",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-025-R01:U1",
+    "regionType": "bag_category",
+    "japanese": "きのみ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.easy_chat_group_events.gEasyChatGroupWords_Events.3",
+      "rs.common.strings.OtherText_Berries"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-025-R02:U1",
+    "regionType": "bag_list",
+    "japanese": "No01クラボのみ × 9",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-025-R02:U2",
+    "regionType": "bag_list",
+    "japanese": "No02カゴのみ × 7",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-025-R02:U3",
+    "regionType": "bag_list",
+    "japanese": "No03モモンのみ × 14",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-025-R02:U4",
+    "regionType": "bag_list",
+    "japanese": "No04チーゴのみ × 6",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-025-R02:U5",
+    "regionType": "bag_list",
+    "japanese": "No05ナナシのみ × 8",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-025-R02:U6",
+    "regionType": "bag_list",
+    "japanese": "No06ヒメリのみ × 6",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-025-R02:U7",
+    "regionType": "bag_list",
+    "japanese": "No07オレンのみ × 3",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-025-R02:U8",
+    "regionType": "bag_list",
+    "japanese": "No08キーのみ × 9",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-025-R03:U1",
+    "regionType": "bag_description",
+    "japanese": "もたせると じぶんで\nまひ じょうたいを\nかいふくする",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-026-R01:U1",
+    "regionType": "bag_category",
+    "japanese": "たいせつなもの",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_KeyItems"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-026-R02:U1",
+    "regionType": "bag_list",
+    "japanese": "ホエルコじょうろ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.268"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-026-R02:U2",
+    "regionType": "bag_list",
+    "japanese": "ボロのつりざお",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.262"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-026-R02:U3",
+    "regionType": "bag_list",
+    "japanese": "ダウジングマシン",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.261"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-026-R02:U4",
+    "regionType": "bag_list",
+    "japanese": "マッハじてんしゃ SEL",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-026-R02:U5",
+    "regionType": "bag_list",
+    "japanese": "はいぶくろ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.270"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-026-R02:U6",
+    "regionType": "bag_list",
+    "japanese": "ゴーゴーゴーグル",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.279"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-026-R02:U7",
+    "regionType": "bag_list",
+    "japanese": "ツメのカセキ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.287"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-026-R02:U8",
+    "regionType": "bag_list",
+    "japanese": "ちかのカギ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.271"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-026-R03:U1",
+    "regionType": "bag_description",
+    "japanese": "みずを かける どうぐ\nつちに うめた きのみを\nすくすく そだてる",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-027-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おとうさんの ことば‥‥\nハルカ！ こういうものには",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-027-R02:U1",
+    "regionType": "bag_category",
+    "japanese": "たいせつなもの",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_KeyItems"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-027-R03:U1",
+    "regionType": "bag_list",
+    "japanese": "はいぶくろ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.270"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-027-R03:U2",
+    "regionType": "bag_list",
+    "japanese": "ゴーゴーゴーグル",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.279"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-027-R03:U3",
+    "regionType": "bag_list",
+    "japanese": "ツメのカセキ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.287"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-027-R03:U4",
+    "regionType": "bag_list",
+    "japanese": "ちかのカギ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.271"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-027-R03:U5",
+    "regionType": "bag_list",
+    "japanese": "いいつりざお",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.263"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-027-R03:U6",
+    "regionType": "bag_list",
+    "japanese": "デボンスコープ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.288"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-028-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ハルカ！ こういうものには\nつかいどきが あるんだ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-028-R02:U1",
+    "regionType": "bag_category",
+    "japanese": "たいせつなもの",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_KeyItems"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-028-R03:U1",
+    "regionType": "bag_list",
+    "japanese": "はいぶくろ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.270"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-028-R03:U2",
+    "regionType": "bag_list",
+    "japanese": "ゴーゴーゴーグル",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.279"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-028-R03:U3",
+    "regionType": "bag_list",
+    "japanese": "ツメのカセキ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.287"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-028-R03:U4",
+    "regionType": "bag_list",
+    "japanese": "ちかのカギ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.271"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-028-R03:U5",
+    "regionType": "bag_list",
+    "japanese": "いいつりざお",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.263"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-028-R03:U6",
+    "regionType": "bag_list",
+    "japanese": "デボンスコープ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.288"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-029-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "この トクサネの しゅうへん では\nやせいの ホエルコが けんぶつ できるんだ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-030-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "そーいうのを えーと‥‥\nなんて いったっけ かな‥‥",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-031-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ホエ ホエ ホエ‥‥",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-032-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ホエルコ ウオッチング だ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-033-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ようこそ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-034-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おかいもの ですね！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-034-R02:U1",
+    "regionType": "shop_menu",
+    "japanese": "かいに きた",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.MartText_Buy"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-034-R02:U2",
+    "regionType": "shop_menu",
+    "japanese": "うりに きた",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.MartText_Sell"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-034-R02:U3",
+    "regionType": "shop_menu",
+    "japanese": "なんでもないです",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.MartText_Quit2"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-035-R02:U1",
+    "regionType": "shop_list",
+    "japanese": "ハイパーボール 1200円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-035-R02:U2",
+    "regionType": "shop_list",
+    "japanese": "ネットボール 1000円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-035-R02:U3",
+    "regionType": "shop_list",
+    "japanese": "ダイブボール 1000円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-035-R02:U4",
+    "regionType": "shop_list",
+    "japanese": "すごいキズぐすり 1200円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-035-R02:U5",
+    "regionType": "shop_list",
+    "japanese": "なんでもなおし 600円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-035-R02:U6",
+    "regionType": "shop_list",
+    "japanese": "げんきのかけら 1500円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-035-R02:U7",
+    "regionType": "shop_list",
+    "japanese": "ゴールドスプレー 700円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-035-R02:U8",
+    "regionType": "shop_list",
+    "japanese": "プラスパワー 500円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-035-R03:U1",
+    "regionType": "shop_description",
+    "japanese": "スーパーボール より\nつかまえ やすくなった\nとても すごい ボール",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-036-R02:U1",
+    "regionType": "shop_list",
+    "japanese": "ハイパーボール 1200円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-036-R02:U2",
+    "regionType": "shop_list",
+    "japanese": "ネットボール 1000円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-036-R02:U3",
+    "regionType": "shop_list",
+    "japanese": "ダイブボール 1000円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-036-R02:U4",
+    "regionType": "shop_list",
+    "japanese": "すごいキズぐすり 1200円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-036-R02:U5",
+    "regionType": "shop_list",
+    "japanese": "なんでもなおし 600円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-036-R02:U6",
+    "regionType": "shop_list",
+    "japanese": "げんきのかけら 1500円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-036-R02:U7",
+    "regionType": "shop_list",
+    "japanese": "ゴールドスプレー 700円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-036-R02:U8",
+    "regionType": "shop_list",
+    "japanese": "プラスパワー 500円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-036-R03:U1",
+    "regionType": "shop_description",
+    "japanese": "つかった せんとうちゅう\nこうげきりょくが あがる",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-037-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ネットボールと ダイブボールは\nここ トクサネでしか つくっていない",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-038-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ここ トクサネでしか つくっていない\nめずらしい モンスターボール！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-039-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ネットボールは むしタイプや\nみずタイプの ポケモンに こうかてき！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-040-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ダイブボールは かいていに いる\nポケモンを つかまえ やすいんだ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-041-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ゴールドスプレーは\nよわい ポケモンを よせつけない",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-042-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "かずある スプレーの なかで\nいちばん ながもち するんだ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-043-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ミナモの なかま から\nホエルコが いなくなった！ って",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-044-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ホエルコが いなくなった！ って\nれんらくが あったんだ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-045-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "いったいぜんたい\nミナモで なにが あったんだろうな？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-046-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "わしも わかいころは\nポケモン トレーナーとして",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-047-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモン トレーナーとして\nせかいじゅうを たび していたのじゃ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-048-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ジジイとなった いまでは\nわかい トレーナーの しょうぶを みるのが",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-049-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "わかい トレーナーの しょうぶを みるのが\nゆいいつの たのしみ じゃ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-050-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "みずは ふかい あおに そまっている‥‥\nなみのりを つかいますか？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-051-R07:U1",
+    "regionType": "party_short_prompt",
+    "japanese": "レックウザを どうする？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-051-R08:U2",
+    "regionType": "party_field_action",
+    "japanese": "つよさをみる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Summary",
+      "rs.common.strings2.TradeText_Summary1"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-051-R08:U3",
+    "regionType": "party_field_action",
+    "japanese": "ならびかえ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Switch2"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-051-R08:U5",
+    "regionType": "party_field_action",
+    "japanese": "やめる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gOtherText_CancelNoTerminator",
+      "rs.common.strings.gPCText_Cancel",
+      "rs.common.strings.PCText_Cancel2",
+      "rs.common.strings2.TradeText_Cancel",
+      "rs.common.strings2.gOtherText_CancelAndLv.0"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-052-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンを つかまえに いくの？\nがんばってね！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-053-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "パソコンを つかえば\nどうぐや ポケモンが ほぞん できるんだ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-054-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "かがくの ちからって しびれるーっ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-055-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ここは ミシロ タウン\nどんな いろにも そまらない まち",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-056-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ずーっと けんきゅうしつに こもって\nしらべものを しているかと おもえば",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-057-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "しらべものを しているかと おもえば\nとつぜん のやまに とびだしていく‥‥",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-058-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "オダマキはかせって いったい\nいつ うちに かえっているんだろう？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-059-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "オダマキはかせは\nポケモンが どこに すんでいるのか",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-060-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンが どこに すんでいるのか\nぶんぷの ちょうさを なさっています",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-061-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ユウキさんは すきな おとうさんの\nおてつだいを なさって いるのですよ",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-062-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "オダマキ『おお ハルカちゃん！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-063-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンずかんの ようすを\nみせて くれるのかい？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-064-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "うん？ みせるほど\nポケモンを つかまえて いないのか",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-065-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンに ついて かかれた\nほんが いっぱい ある！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-066-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンと いっしょに\nぼうけん するのも いいけど",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-067-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "たまには おうちに かえって おかあさんに\nげんきな かおを みせてあげてね！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-068-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "こころの なかでは きっと\nハルカちゃんの こと",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-069-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ハルカちゃんの こと\nしんぱい してる はずだから‥‥",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-070-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あ！ やせいの\nケムッソが とびだしてきた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-071-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "ゆけっ！ ラグラージ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-072-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "ラグラージの\nマッドショット！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-074-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "やせいの ケムッソは たおれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-075-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ラグラージは\n15 けいけんちを もらった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-076-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "やせいの ケムッソの\nいとをはく こうげき！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-077-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "やせいの ケムッソの\nいとをはく こうげき！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-078-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "ヘラクロスの\nすばやさが さがった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-080-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "ヘラクロスは\nかわらわりを した！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-082-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガの あめふらしで\nあめが ふりはじめた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-083-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは\nめいそうを した！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-084-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは\nめいそうを した！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-085-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガの\nとくこうが あがった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-086-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガの\nとくぼうが あがった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-087-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "やせいの ケムッソの\nいとをはく こうげき！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-088-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガの\nすばやさが さがった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-090-R03:U1",
+    "regionType": "battle_prompt",
+    "japanese": "カイオーガは どうする？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-090-R04:U1",
+    "regionType": "battle_action",
+    "japanese": "たたかう",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-090-R04:U4",
+    "regionType": "battle_action",
+    "japanese": "にげる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-091-R07:U1",
+    "regionType": "party_short_prompt",
+    "japanese": "ボスゴドラを どうする？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-091-R08:U1",
+    "regionType": "party_battle_action",
+    "japanese": "いれかえる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Shift",
+      "rs.common.strings.PCText_Switch"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-091-R08:U2",
+    "regionType": "party_battle_action",
+    "japanese": "つよさをみる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Summary",
+      "rs.common.strings2.TradeText_Summary1"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-091-R08:U3",
+    "regionType": "party_battle_action",
+    "japanese": "やめる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gOtherText_CancelNoTerminator",
+      "rs.common.strings.gPCText_Cancel",
+      "rs.common.strings.PCText_Cancel2",
+      "rs.common.strings2.TradeText_Cancel",
+      "rs.common.strings2.gOtherText_CancelAndLv.0"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-092-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガ もういい！\nもどれ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-093-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ゆけっ！ ボスゴドラ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-096-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "うまく にげきれた！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-097-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "トレーナーよ！ おのれと\nポケモンを しんじて すすみたまえ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-098-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "その ひでんマシンは いあいぎり！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-099-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ひでんは たたかっていない ときでも\nポケモンが つかえる わざ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-100-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "いあいぎりを おぼえた ポケモンは\nストーンバッジを もっていれば",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-101-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ストーンバッジを もっていれば\nほそい きを きれるように なるのだよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-102-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "しかも ひでんマシンは わざマシンと ちがい\nつかっても なくならないぞ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-103-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "この カナズミが おおきくなるとき\nおとうさん みんなの ために",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-104-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おとうさん みんなの ために\nいあいぎりを つかって",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-105-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "いあいぎりを つかって\nあたりを きりひらいたんだって！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-106-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ぽけもん とれーなーず すくーる かぁ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-107-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ここに にゅうがく すれば\nめずらしい ポケモンでも かんたんに",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-108-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "めずらしい ポケモンでも かんたんに\nつかまえられるように なるのかな？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-109-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ジムリーダーに ちょうせん したけど‥‥",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-110-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "あたしの ほのおタイプの ポケモンじゃ\nちょっと かつのは たいへんそう‥‥",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-111-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "だって ほのおタイプ って\nいわタイプに あいしょうが わるいもの‥‥",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-112-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "あなた サイクルショップ には\nもう いってみた？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-113-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "あそこの ごしゅじんの カゼノさんは\nすごく きまえが いいのよね！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-114-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "この まちは とうざい なんぼく に\nみちが つうじて いるから",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-115-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "みちが つうじて いるから\nいろんな ひとが やってきます！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-116-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "じてんしゃに のっていても\nやせいの ポケモンは とびだしてくるよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-117-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "あまいかおりを うまく つかうと\nポケモンが さそわれて やってくるわね",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-118-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ふねを もって いなくても\nなみのりを おぼえた ポケモンが いれば",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-119-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "なみのりを おぼえた ポケモンが いれば\nうみや かわを わたって いけちゃうの！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-120-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンって たのもしーい！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-121-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おや あんた\nおんせんが すき なのかい？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-122-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "まだ わかいのに めずらしいねえ‥‥",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-123-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "あたし アスナさん みたいに\nすてきで つよい ジムリーダーに なるため",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-124-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "すてきで つよい ジムリーダーに なるため\nまいにち おんせんに はいってるの！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-125-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "うーむ‥‥ キンセツに いきたいのだが‥‥\nこの だんさを おりてしまうと",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-126-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "この だんさを おりてしまうと\nフエンに もどるのは たいへん だよな‥‥",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-127-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "こんな デコボコしたところ\nじてんしゃで じょうずに のぼっていく",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-128-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "じてんしゃで じょうずに のぼっていく\nひとも いるのよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-129-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ね！ ね！ すごいでしょ！\nみずの うえに おうちが たってるの！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-130-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ぼく ここで うまれたんだよ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-131-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "キナギの にんげんは\nみんな つりをしたり もぐったりして",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-132-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "みんな つりをしたり もぐったりして\nせいかつ してるんだな",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-133-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ホウエンちほう には\nいわ‥‥ こおり‥‥ はがね‥‥",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-134-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "それぞれの ちからを つかさどる\n3びきの ポケモンが",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-135-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "3びきの ポケモンが\nそれぞれ どこかの どうくつに いる‥‥",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-136-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おれ ちいさな ころに\nそんな はなしを きいたことが あるよ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-137-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "「むっつの てんが\nみっつの とびらを あける」",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-138-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おじいちゃんが よく いっていたけど\nいまだに なんのことだか わからないわ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-139-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ようこそ チャレンジャー！\nおれは してんのうの カゲツ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-140-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "うーん いい かお してるな\nなかなか たのしませて くれそうだぞ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-141-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "なかなか たのしませて くれそうだぞ！\nいいぞ！ いい かんじだぞ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-142-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "よーし！ おれと おまえ とで\nポケモン リーグでしか できない",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-143-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモン リーグでしか できない\nたたかいを たのしむと しようぜ！！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-144-R01:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの カゲツが\nしょうぶを しかけてきた！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-145-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの カゲツは\nグラエナを くりだした！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-146-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "ゆけっ！ カイオーガ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-147-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガの あめふらしで\nあめが ふりはじめた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-148-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての グラエナの いかくで\nカイオーガの こうげきりょくが さがった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-149-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは\nめいそうを した！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-150-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガの\nとくこうが あがった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-151-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガの\nとくぼうが あがった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-152-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "しかし あいての グラエナの\nこうげきは はずれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-154-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての グラエナの\nすなかけ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-155-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガの\nめいちゅうりつが さがった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-157-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガの\nなみのり！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-158-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての グラエナは たおれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-159-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは\n1261 けいけんちを もらった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-160-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの カゲツは\nノクタスを くりだそうと している",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-161-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ハルカも ポケモンを\nいれかえますか？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-163-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガの\nれいとうビーム！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-165-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての ノクタスは たおれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-166-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは\n1744 けいけんちを もらった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-167-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの カゲツは\nサメハダーを くりだそうと している",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-168-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ハルカも ポケモンを\nいれかえますか？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-170-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての サメハダーは たおれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-171-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは\n1800 けいけんちを もらった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-172-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの カゲツは\nアブソルを くりだそうと している",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-173-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ハルカも ポケモンを\nいれかえますか？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-174-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての アブソルは\nあいての でかたを うかがっている！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-176-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての アブソルは たおれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-177-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは\n1827 けいけんちを もらった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-178-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの カゲツは\nダーテングを くりだそうと している",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-179-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ハルカも ポケモンを\nいれかえますか？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-180-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての ダーテングの\nねこだまし！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-181-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは ひるんで\nうごけなかった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-182-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "しかし カイオーガの\nこうげきは はずれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-183-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての ダーテングは\nかげぶんしんを した！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-184-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての ダーテングの\nかいひりつが あがった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-185-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての ダーテングは たおれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-186-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの カゲツ\nとの しょうぶに かった！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-187-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "おやおや まけちまったよ\nまっ たのしんだから いいんだけどよ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-188-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ハルカは しょうきんとして\n4900円 てにいれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-189-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "まけた おれから ひとこと",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-190-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おまえなら もっと さきに すすめるぜ\nさあ つぎの へやに いって",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-191-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "さあ つぎの へやに いって\nたたかいを たのしんで きなよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-192-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おくりびやまで しゅぎょう するうちに\nゴーストタイプの ポケモンと きもちを",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-193-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ゴーストタイプの ポケモンと きもちを\nかよわせる ことが できるように なったの",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-194-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "そう アタシと ポケモンの きずな\nとっても つよいんだ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-195-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "そんな アタシの ポケモンたちに\nダメージを あたえる ことが できるか",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-196-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ダメージを あたえる ことが できるか\nためして ごらんよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-197-R01:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの フヨウが\nしょうぶを しかけてきた！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-198-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ゆけっ！ カイオーガ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-199-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての サマヨールの\nあやしいひかり！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-200-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは\nこんらんした！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-201-R09:U1",
+    "regionType": "party_recovery",
+    "japanese": "カイオーガの たいりょくが\n17 かいふくした",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-202-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての サマヨールの\nシャドーパンチ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-203-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての サマヨールの\nのろい こうげき！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-204-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての サマヨールの\nのろい こうげき！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-205-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての サマヨールは じぶんの たいりょくを\nけずって カイオーガに のろいを かけた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-206-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは\nのろわれている！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-207-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての サマヨールは たおれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-208-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは\n1840 けいけんちを もらった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-209-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの フヨウは\nジュペッタを くりだそうと している",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-210-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ハルカも ポケモンを\nいれかえますか？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-211-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガは\nのろわれている！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-212-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての ジュペッタは たおれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-213-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの フヨウは\nヤミラミを くりだした！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-214-R07:U1",
+    "regionType": "party_prompt",
+    "japanese": "ポケモンを えらんで ください",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_ChoosePoke",
+      "rs.common.strings2.TradeText_ChoosePoke"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-214-R08:U1",
+    "regionType": "party_cancel",
+    "japanese": "もどる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.matsuda_debug_menu.gMatsudaDebugMenu_GoBackText",
+      "rs.common.strings.gOtherText_Exit",
+      "rs.common.strings2.^j_0"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-215-R07:U1",
+    "regionType": "party_short_prompt",
+    "japanese": "レックウザを どうする？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-215-R08:U1",
+    "regionType": "party_battle_action",
+    "japanese": "いれかえる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Shift",
+      "rs.common.strings.PCText_Switch"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-215-R08:U2",
+    "regionType": "party_battle_action",
+    "japanese": "つよさをみる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Summary",
+      "rs.common.strings2.TradeText_Summary1"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-215-R08:U3",
+    "regionType": "party_battle_action",
+    "japanese": "やめる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gOtherText_CancelNoTerminator",
+      "rs.common.strings.gPCText_Cancel",
+      "rs.common.strings.PCText_Cancel2",
+      "rs.common.strings2.TradeText_Cancel",
+      "rs.common.strings2.gOtherText_CancelAndLv.0"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-216-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "カイオーガ よくやった！\nもどれ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-217-R01:U1",
+    "regionType": "battle_message",
+    "japanese": "ゆけっ！ レックウザ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-218-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "レックウザは\nそらたかく とびあがった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-219-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "しかし あいての ジュペッタの\nこうげきは はずれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-220-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "レックウザの\nそらをとぶ こうげき！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-221-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての ジュペッタは たおれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-222-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "レックウザは\n1879 けいけんちを もらった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-223-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの フヨウは\nサマヨールを くりだそうと している",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-224-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての サマヨールの\nれいとうビーム！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-225-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "しかし あいての サマヨールの\nこうげきは はずれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-226-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての サマヨールの\nれいとうビーム！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-228-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "レックウザは\nこおりづけになった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-229-R09:U1",
+    "regionType": "party_recovery",
+    "japanese": "レックウザの たいりょくが\n91 かいふくした",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-231-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "レックウザは\nこおりづけになった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-232-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "レックウザは\nこんらんした！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-233-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "レックウザは\nこんらんしている！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-234-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "レックウザは\nねむるを つかった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-235-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "しかし レックウザの\nたいりょくは まんたんだ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-236-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての サマヨールの\nれいとうビーム！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-238-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "レックウザの\nこんらんが とけた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-239-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "レックウザの\nげきりん！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-240-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あいての サマヨールは たおれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-241-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "レックウザは\n1956 けいけんちを もらった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-242-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "してんのうの フヨウ\nとの しょうぶに かった！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-243-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あーあ\nまけちゃった",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-244-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ハルカは しょうきんとして\n5100円 てにいれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-245-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "あなたと ポケモンとの あいだにも\nたしかな きずなが あったのね",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-246-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "それが わからなかった\nアタシが まけたのは とうぜん",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-247-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ウン あなたたちの きずなが\nどこまで つうじるか みてみたいな",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-248-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "どこまで つうじるか みてみたいな\nつぎの へやに すすみなよ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-249-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "「オダマキ はかせの いえ」",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.script.LittlerootTown.LittlerootTown_Text_16AEAC"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-250-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "「ハルカの いえ」",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-251-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "ハルカは\nスーパーボールを つかった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-252-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "おしい！\nあと ちょっとの ところだったのに！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-253-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "やせいの ジグザグマの\nなきごえ こうげき！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-254-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "ラグラージの\nこうげきりょくが さがった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-255-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "やったー！\nジグザグマを つかまえたぞ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-257-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ぜんこく から かちぬいてきた\nポケモンが あつまって いるんだな！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-258-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "わしの ハートは わくわく なんだな！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-259-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "いなくなってた わたしの ポケモン\nいつのまにか かえってきたの！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-260-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "あら まだ コンテストパスを\nもらって ないのね！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-261-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "もらって ないのね！\nシダケタウンで はやく もらっておいでよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-262-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "だいじに そだてた ポケモンを\nおおぜいに みてもらうのって かいかんよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-263-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "たくましさコンテストって\nさいこう だよな！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-264-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ちからづよい アピール‥‥\nほとばしる あせ‥‥ たまらん！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-265-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ママと パパと おねえちゃんと\n4にんで ポロックを つくったら",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-266-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "4にんで ポロックを つくったら\nすごく いいやつが できたんだ！",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-267-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "きっと おおぜいで つくれば つくるほど\nなめらかで いい ポロックが できるんだよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-268-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "まいにち だいじに だいじに\nそだてあげた わしの ポケモン",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-269-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "そだてあげた わしの ポケモン\nコンディションは カンペキ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-270-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "コンディションは カンペキ！\nきょうは かつぞおおおおおうう！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-271-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "お！ おじさんと いっしょに\nポロックを つくりたいのかい？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-272-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "そうか！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.script.pokeblocks.FallarborTown_ContestLobby_Text_1B6E9D"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-273-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "じゃあ ポロックの つくりかたは\nもう しってるかい？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-274-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "じゃあ はじめるぞ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-275-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "レッツ きのみブレンダー！！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-276-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "きのみブレンダーを きどうします",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-277-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "バッグから きのみブレンダーに いれる\nきのみを えらんでください",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-278-R01:U1",
+    "regionType": "bag_list",
+    "japanese": "No01クラボのみ × 9",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-278-R01:U2",
+    "regionType": "bag_list",
+    "japanese": "No02カゴのみ × 7",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-278-R01:U3",
+    "regionType": "bag_list",
+    "japanese": "No03モモンのみ × 14",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-278-R01:U4",
+    "regionType": "bag_list",
+    "japanese": "No04チーゴのみ × 6",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-278-R01:U5",
+    "regionType": "bag_list",
+    "japanese": "No05ナナシのみ × 8",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-278-R01:U6",
+    "regionType": "bag_list",
+    "japanese": "No06ヒメリのみ × 6",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-278-R01:U7",
+    "regionType": "bag_list",
+    "japanese": "No07オレンのみ × 3",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-278-R01:U8",
+    "regionType": "bag_list",
+    "japanese": "No08キーのみ × 9",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-278-R02:U1",
+    "regionType": "bag_action",
+    "japanese": "けってい",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Confirm",
+      "rs.common.strings2.gOtherText_OK"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-278-R02:U2",
+    "regionType": "bag_action",
+    "japanese": "タグをみる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_CheckTag"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-278-R02:U3",
+    "regionType": "bag_action",
+    "japanese": "やめる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gOtherText_CancelNoTerminator",
+      "rs.common.strings.gPCText_Cancel",
+      "rs.common.strings.PCText_Cancel2",
+      "rs.common.strings2.TradeText_Cancel",
+      "rs.common.strings2.gOtherText_CancelAndLv.0"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-278-R03:U1",
+    "regionType": "bag_prompt",
+    "japanese": "どうしますか？",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gOtherText_WhatWillYouDo2"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-282-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "あかいポロック ができた！\nレベル11で なめらかさは21だ",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-283-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "もういちど きのみを まぜますか？",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-284-R01:U1",
+    "regionType": "block_title",
+    "japanese": "ポロックケース",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.273"
+    ],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-284-R02:U1",
+    "regionType": "block_list",
+    "japanese": "あかいポロック Lv11",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-284-R02:U2",
+    "regionType": "block_list",
+    "japanese": "ケースをしまう",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gContestStatsText_StowCase"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-284-R03:U1",
+    "regionType": "block_flavors",
+    "japanese": "からい にがい\nしぶい すっぱい\nあまい なめらかさ21",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-285-R01:U1",
+    "regionType": "block_title",
+    "japanese": "ポロックケース",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.273"
+    ],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-285-R02:U1",
+    "regionType": "block_list",
+    "japanese": "あかいポロック Lv11",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-285-R02:U2",
+    "regionType": "block_list",
+    "japanese": "ケースをしまう",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gContestStatsText_StowCase"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-285-R05:U1",
+    "regionType": "field_dialog",
+    "japanese": "あかいポロックを\nすてても よろしいですか？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-286-R01:U1",
+    "regionType": "blender_message",
+    "japanese": "ラグラージは あかいポロックを\nたべた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-287-R01:U1",
+    "regionType": "condition_title",
+    "japanese": "コンディション",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-287-R04:U1",
+    "regionType": "condition_hint",
+    "japanese": "せいかく/がんばりや",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-287-R05:U1",
+    "regionType": "condition_message",
+    "japanese": "かっこよさに みがきが かかった！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-288-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "コンテストパスを おもちの かたは\nどなたでも さんか できます！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-289-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "コンテストパスは シダケタウンに ある\nノーマルランクの コンテスト かいじょうで",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-290-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ノーマルランクの コンテスト かいじょうで\nどなたでも もらえますよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-291-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "パスをもって また いらして くださいね！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-292-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "こんにちは！\nこちらでは ポケモンコンテスト",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-293-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "こちらでは ポケモンコンテスト\nマスター ランクの",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-294-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "マスター ランクの\nうけつけを おこなって います！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-295-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "コンテストパスを おもちの かたは\nどなたでも さんか できます！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-296-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "コンテストパスは シダケタウンに ある\nノーマルランクの コンテスト かいじょうで",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-297-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ノーマルランクの コンテスト かいじょうで\nどなたでも もらえますよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-298-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "パスをもって また いらして くださいね！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-299-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "うつくしさ コンテストで\nゆうしょうした この ポケモンを",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-300-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ゆうしょうした この ポケモンを\nきょうは かしこさ コンテストで",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-301-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "きょうは かしこさ コンテストで\nゆうしょう させたんだぜ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-302-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ああ じぶんの さいのうが こわい‥‥",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-303-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ここまでの かつやくを\nポケモンレポートに かきこみますか？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-304-R04:U1",
+    "regionType": "summary_personal",
+    "japanese": "パーソナル\nおや/ジーク IDNo40517\nタイプ/ほのお かくとう",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-304-R05:U1",
+    "regionType": "summary_ability",
+    "japanese": "とくせい\nもうか\nピンチに ほのおが つよくなる",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-304-R06:U1",
+    "regionType": "summary_memo",
+    "japanese": "トレーナーメモ\nのうてんきなせいかく Lv5のとき\n101ばん どうろで であった",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-305-R03:U1",
+    "regionType": "summary_item",
+    "japanese": "もちもの\nなし",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-305-R04:U1",
+    "regionType": "summary_ribbon",
+    "japanese": "リボン\nなし",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-305-R05:U1",
+    "regionType": "summary_stats",
+    "japanese": "のうりょく\nHP 84/84 とくこう 62\nこうげき 65 とくぼう 39\nぼうぎょ 50 すばやさ 49",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-305-R06:U1",
+    "regionType": "summary_experience",
+    "japanese": "けいけんち\nげんざいのけいけんち 21927\nレベルアップまで あと 2367\nEXP",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-306-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nかくとう ビルドアップ PP20/20\nひこう つつく PP35/35\nかくとう にどげり PP30/30\nほのお ひのこ PP25/25\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-306-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい\n2ほんの あしをつかって てきを\n2かい れんぞくで こうげき",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-307-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nかくとう ビルドアップ PP20/20\nひこう つつく PP35/35\nかくとう にどげり PP30/30\nほのお ひのこ PP25/25\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-307-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい\n2ほんの あしをつかって てきを\n2かい れんぞくで こうげき",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-308-R04:U1",
+    "regionType": "summary_contest_moves",
+    "japanese": "おぼえているわざ\nうつくしさ ビルドアップ PP20/20\nかっこよさ つつく PP35/35\nかっこよさ にどげり PP30/30\nうつくしさ ひのこ PP25/25\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-308-R05:U1",
+    "regionType": "summary_contest_description",
+    "japanese": "せつめい\n1つまえの ポケモンの アピールと\nタイプが おなじなら きにいられる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-308-R06:U1",
+    "regionType": "summary_contest_effect",
+    "japanese": "こうか\nアピール\nぼうがい",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-309-R04:U1",
+    "regionType": "summary_contest_moves",
+    "japanese": "おぼえているわざ\nうつくしさ ビルドアップ PP20/20\nかっこよさ つつく PP35/35\nかっこよさ にどげり PP30/30\nうつくしさ ひのこ PP25/25\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-309-R05:U1",
+    "regionType": "summary_contest_description",
+    "japanese": "せつめい\n1つまえの ポケモンの アピールと\nタイプが おなじなら きにいられる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-309-R06:U1",
+    "regionType": "summary_contest_effect",
+    "japanese": "こうか\nアピール\nぼうがい",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-310-R04:U1",
+    "regionType": "summary_personal",
+    "japanese": "パーソナル\nおや/ジーク IDNo40517\nタイプ/ノーマル ひこう",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-310-R05:U1",
+    "regionType": "summary_ability",
+    "japanese": "とくせい\nこんじょう\nいじょうのとき こうげきが あがる",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-310-R06:U1",
+    "regionType": "summary_memo",
+    "japanese": "トレーナーメモ\nようきなせいかく Lv4のとき\n104ばん どうろで であった",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-311-R03:U1",
+    "regionType": "summary_item",
+    "japanese": "もちもの\nなし",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-311-R04:U1",
+    "regionType": "summary_ribbon",
+    "japanese": "リボン\nなし",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-311-R05:U1",
+    "regionType": "summary_stats",
+    "japanese": "のうりょく\nHP 45/45 とくこう 15\nこうげき 26 とくぼう 20\nぼうぎょ 18 すばやさ 40",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-311-R06:U1",
+    "regionType": "summary_experience",
+    "japanese": "けいけんち\nげんざいのけいけんち 3147\nレベルアップまで あと 651\nEXP",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-312-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nひこう つつく PP35/35\nひこう つばさでうつ PP35/35\nノーマル きあいだめ PP30/30\nノーマル でんこうせっか PP30/30",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-312-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Info2"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-313-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nひこう つつく PP35/35\nひこう つばさでうつ PP35/35\nノーマル きあいだめ PP30/30\nノーマル でんこうせっか PP30/30\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-313-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい\nつばさを おおきく ひろげて\nそのまま てきに たいあたりする",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-314-R04:U1",
+    "regionType": "summary_contest_moves",
+    "japanese": "おぼえているわざ\nかっこよさ つつく PP35/35\nかっこよさ つばさでうつ PP35/35\nかっこよさ きあいだめ PP30/30\nかっこよさ でんこうせっか PP30/30\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-314-R05:U1",
+    "regionType": "summary_contest_description",
+    "japanese": "せつめい\n1つまえの ポケモンの アピールと\nタイプが おなじなら きにいられる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-314-R06:U1",
+    "regionType": "summary_contest_effect",
+    "japanese": "こうか\nアピール\nぼうがい",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-001-R01:U1",
+    "regionType": "boot_dialog",
+    "japanese": "とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-002-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-003-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "なんといっても あの コンビネーションは\nさいこう！ さすが！ って かんじよ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-004-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ハルカは\nパソコンの スイッチを いれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-005-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "どこの パソコンに せつぞく して\nつうしん しますか？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-005-R02:U1",
+    "regionType": "pc_connect_menu",
+    "japanese": "マユミのパソコン",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gPCText_LanettesPC"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-005-R02:U2",
+    "regionType": "pc_connect_menu",
+    "japanese": "ハルカのパソコン",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-005-R02:U3",
+    "regionType": "pc_connect_menu",
+    "japanese": "でんどういり",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.easy_chat_group_events.gEasyChatGroupWords_Events.9",
+      "rs.common.strings.gPCText_HallOfFame"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-005-R02:U4",
+    "regionType": "pc_connect_menu",
+    "japanese": "スイッチをきる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gPCText_LogOff"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-006-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "マユミの パソコンに せつぞく した！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [
+      "rs.script.pc.Text_AccessedLanettesPC"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-007-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンの あずかり システムを\nよびだした！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-008-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ボックスに あずけている ポケモンを\nてもちに くわえる ことが できます",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-008-R02:U1",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "ポケモンを つれていく",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_WithdrawPoke"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-008-R02:U2",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "ポケモンを あずける",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_DepositPoke"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-008-R02:U3",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "ボックスを せいりする",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_MovePoke"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-008-R02:U4",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "さようなら",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.easy_chat_group_greetings.gEasyChatGroupWords_Greetings.16",
+      "rs.common.strings.PCText_SeeYa"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-009-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "てもちポケモンが いっぱいです！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-009-R02:U1",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "ポケモンを つれていく",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_WithdrawPoke"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-009-R02:U2",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "ポケモンを あずける",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_DepositPoke"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-009-R02:U3",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "ボックスを せいりする",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_MovePoke"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-009-R02:U4",
+    "regionType": "pc_pokemon_menu",
+    "japanese": "さようなら",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.easy_chat_group_greetings.gEasyChatGroupWords_Greetings.16",
+      "rs.common.strings.PCText_SeeYa"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-010-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "なにを しますか？",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.script.secret_base.SecretBase_Text_WhatWouldYouLikeToDo",
+      "rs.common.strings.gOtherText_WhatWillYouDo",
+      "rs.common.strings.PCText_WhatDoYouWant"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-010-R02:U1",
+    "regionType": "pc_item_menu",
+    "japanese": "どうぐ あずかり",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.SecretBaseText_ItemStorage"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-010-R02:U2",
+    "regionType": "pc_item_menu",
+    "japanese": "メールボックス",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gPCText_Mailbox"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-010-R02:U3",
+    "regionType": "pc_item_menu",
+    "japanese": "せつぞくを きる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.SecretBaseText_TurnOff"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-011-R01:U1",
+    "regionType": "pc_item_heading",
+    "japanese": "どうぐを ひきだす",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.PCText_WithdrawItem"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-011-R02:U1",
+    "regionType": "pc_item_list",
+    "japanese": "ポイントアップ × 5",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-011-R02:U2",
+    "regionType": "pc_item_list",
+    "japanese": "ピーピーエイド × 3",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-011-R02:U3",
+    "regionType": "pc_item_list",
+    "japanese": "スペシャルアップ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-011-R02:U4",
+    "regionType": "pc_item_list",
+    "japanese": "せんせいのツメ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-011-R02:U5",
+    "regionType": "pc_item_list",
+    "japanese": "かわらずのいし × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-011-R02:U6",
+    "regionType": "pc_item_list",
+    "japanese": "やわらかいすな × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-011-R02:U7",
+    "regionType": "pc_item_list",
+    "japanese": "スピーダー × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-011-R02:U8",
+    "regionType": "pc_item_list",
+    "japanese": "マックスアップ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-011-R03:U1",
+    "regionType": "pc_item_description",
+    "japanese": "わざポイントの\nさいだいちが あがる",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-012-R02:U1",
+    "regionType": "bag_list",
+    "japanese": "どくけし × 15",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-012-R02:U2",
+    "regionType": "bag_list",
+    "japanese": "かいふくのくすり × 4",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-012-R02:U3",
+    "regionType": "bag_list",
+    "japanese": "なんでもなおし × 3",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-012-R02:U4",
+    "regionType": "bag_list",
+    "japanese": "まひなおし × 5",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-012-R02:U5",
+    "regionType": "bag_list",
+    "japanese": "すごいキズぐすり × 7",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-012-R02:U6",
+    "regionType": "bag_list",
+    "japanese": "ねむけざまし × 7",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-012-R02:U7",
+    "regionType": "bag_list",
+    "japanese": "まんたんのくすり × 13",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-012-R02:U8",
+    "regionType": "bag_list",
+    "japanese": "たいようのいし × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-012-R03:U1",
+    "regionType": "bag_description",
+    "japanese": "どく じょうたいを\nかいふくする",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-013-R01:U1",
+    "regionType": "bag_category",
+    "japanese": "きのみ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.easy_chat_group_events.gEasyChatGroupWords_Events.3",
+      "rs.common.strings.OtherText_Berries"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-013-R02:U1",
+    "regionType": "bag_list",
+    "japanese": "No01クラボのみ × 9",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-013-R02:U2",
+    "regionType": "bag_list",
+    "japanese": "No02カゴのみ × 7",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-013-R02:U3",
+    "regionType": "bag_list",
+    "japanese": "No03モモンのみ × 14",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-013-R02:U4",
+    "regionType": "bag_list",
+    "japanese": "No04チーゴのみ × 6",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-013-R02:U5",
+    "regionType": "bag_list",
+    "japanese": "No05ナナシのみ × 8",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-013-R02:U6",
+    "regionType": "bag_list",
+    "japanese": "No06ヒメリのみ × 6",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-013-R02:U7",
+    "regionType": "bag_list",
+    "japanese": "No07オレンのみ × 3",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-013-R02:U8",
+    "regionType": "bag_list",
+    "japanese": "No08キーのみ × 9",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-013-R03:U1",
+    "regionType": "bag_description",
+    "japanese": "もたせると じぶんで\nまひ じょうたいを\nかいふくする",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-014-R01:U1",
+    "regionType": "bag_category",
+    "japanese": "わざマシン",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_TMsHMs"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-014-R02:U1",
+    "regionType": "bag_list",
+    "japanese": "No03みずのはどう × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-014-R02:U2",
+    "regionType": "bag_list",
+    "japanese": "No04めいそう × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-014-R02:U3",
+    "regionType": "bag_list",
+    "japanese": "No05ほえる × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-014-R02:U4",
+    "regionType": "bag_list",
+    "japanese": "No08ビルドアップ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-014-R02:U5",
+    "regionType": "bag_list",
+    "japanese": "No09タネマシンガン × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-014-R02:U6",
+    "regionType": "bag_list",
+    "japanese": "No11にほんばれ × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-014-R02:U7",
+    "regionType": "bag_list",
+    "japanese": "No26じしん × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-014-R02:U8",
+    "regionType": "bag_list",
+    "japanese": "No27おんがえし × 1",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-014-R03:U1",
+    "regionType": "bag_description",
+    "japanese": "ちょうおんぱ こうげきで\nてきを こんらんさせる\nことがある",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-015-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-016-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "わざの いりょくが かわったり\nまったく きかなかったり するよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-017-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンざっしが ならんでる！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-018-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "‥‥「ポケモンのとも」\n‥‥「ポケモン てちょう」",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-019-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "‥‥「ポケモン てちょう」\n‥‥「かわいい ポケモン」",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-020-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ここは トクサネ シティ\n「ポケモンを たいせつに！」が あいことば",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-021-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "いし あつめて たのしいのかな？\nおれには わかんないや！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-022-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "この トクサネの しゅうへん では\nやせいの ホエルコが けんぶつ できるんだ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-023-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "そーいうのを えーと‥‥\nなんて いったっけ かな‥‥",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-024-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ホエ ホエ ホエ‥‥",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-025-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ホエルコ ウオッチング だ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-026-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おとうと ったら\nともだちの ひみつきちに いって",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-027-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ともだちの ひみつきちに いって\nポケモンしょうぶを するのが",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-028-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンしょうぶを するのが\nたのしみ なんだって！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-029-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "エネコロロ『みゃあん？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [
+      "rs.script.MossdeepCity_House4.MossdeepCity_House4_Text_18E1E1"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-030-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "きみ どこかに ひみつきち つくりなよ！\nぼくが さがしだして みせるからさ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-031-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "げんきのかけら って すごい！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-032-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "これを あたえると\nひんしの ポケモンも めざめるの！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-033-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "でも パワーポイントは\nかいふく しないから きをつけて！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-034-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ネットボールと ダイブボールは\nここ トクサネでしか つくっていない",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-035-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ここ トクサネでしか つくっていない\nめずらしい モンスターボール！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-036-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ネットボールは むしタイプや\nみずタイプの ポケモンに こうかてき！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-037-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ダイブボールは かいていに いる\nポケモンを つかまえ やすいんだ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-038-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ようこそ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-039-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おかいもの ですね！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-039-R02:U1",
+    "regionType": "shop_menu",
+    "japanese": "かいに きた",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.MartText_Buy"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-039-R02:U2",
+    "regionType": "shop_menu",
+    "japanese": "うりに きた",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.MartText_Sell"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-039-R02:U3",
+    "regionType": "shop_menu",
+    "japanese": "なんでもないです",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.MartText_Quit2"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-040-R02:U1",
+    "regionType": "shop_list",
+    "japanese": "ハイパーボール 1200円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-040-R02:U2",
+    "regionType": "shop_list",
+    "japanese": "ネットボール 1000円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-040-R02:U3",
+    "regionType": "shop_list",
+    "japanese": "ダイブボール 1000円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-040-R02:U4",
+    "regionType": "shop_list",
+    "japanese": "すごいキズぐすり 1200円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-040-R02:U5",
+    "regionType": "shop_list",
+    "japanese": "なんでもなおし 600円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-040-R02:U6",
+    "regionType": "shop_list",
+    "japanese": "げんきのかけら 1500円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-040-R02:U7",
+    "regionType": "shop_list",
+    "japanese": "ゴールドスプレー 700円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-040-R02:U8",
+    "regionType": "shop_list",
+    "japanese": "プラスパワー 500円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-040-R03:U1",
+    "regionType": "shop_description",
+    "japanese": "スーパーボール より\nつかまえ やすくなった\nとても すごい ボール",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-041-R02:U1",
+    "regionType": "shop_list",
+    "japanese": "ダイブボール 1000円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-041-R02:U2",
+    "regionType": "shop_list",
+    "japanese": "すごいキズぐすり 1200円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-041-R02:U3",
+    "regionType": "shop_list",
+    "japanese": "なんでもなおし 600円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-041-R02:U4",
+    "regionType": "shop_list",
+    "japanese": "げんきのかけら 1500円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-041-R02:U5",
+    "regionType": "shop_list",
+    "japanese": "ゴールドスプレー 700円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-041-R02:U6",
+    "regionType": "shop_list",
+    "japanese": "プラスパワー 500円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-041-R02:U7",
+    "regionType": "shop_list",
+    "japanese": "ディフェンダー 550円",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-041-R02:U8",
+    "regionType": "shop_list",
+    "japanese": "やめる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gOtherText_CancelNoTerminator",
+      "rs.common.strings.gPCText_Cancel",
+      "rs.common.strings.PCText_Cancel2",
+      "rs.common.strings2.TradeText_Cancel",
+      "rs.common.strings2.gOtherText_CancelAndLv.0"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-041-R03:U1",
+    "regionType": "shop_description",
+    "japanese": "かいもの を やめます",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gOtherText_QuitShopping"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-042-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ゴールドスプレーは\nよわい ポケモンを よせつけない",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-043-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "かずある スプレーの なかで\nいちばん ながもち するんだ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-044-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ここまでの かつやくを\nポケモンレポートに かきこみますか？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-044-R03:U1",
+    "regionType": "save_summary",
+    "japanese": "トクサネシティ\nしゅじんこう ハルカ\nもっているバッジ 8こ\nポケモンずかん 63ひき\nプレイじかん 30:12",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-045-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ミナモの なかま から\nホエルコが いなくなった！ って",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-046-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ホエルコが いなくなった！ って\nれんらくが あったんだ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-047-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "いったいぜんたい\nミナモで なにが あったんだろうな？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-048-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "とびらには かぎが かかって いるようだ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.script.MossdeepCity_GameCorner_1F.MossdeepCity_GameCorner_1F_Text_18E631"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-049-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "わしも わかいころは\nポケモン トレーナーとして",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-050-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモン トレーナーとして\nせかいじゅうを たび していたのじゃ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-051-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ジジイとなった いまでは\nわかい トレーナーの しょうぶを みるのが",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-052-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "わかい トレーナーの しょうぶを みるのが\nゆいいつの たのしみ じゃ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-053-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "いのちの みなもとは うみから うまれて\nりくに あがって きた",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-054-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "やくめを おえた いのちは\nつち となって だいちに かえって いく",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-055-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "そして うみと だいちは\nいつでも つながって いる‥‥",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-056-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "そう この かいがんせんの ようにな",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-057-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ね！ ね！ すごいでしょ！\nみずの うえに おうちが たってるの！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-058-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ぼく ここで うまれたんだよ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-059-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ここは キナギ タウン\nあさひが みずべを てらす まち",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-060-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "キナギの にんげんは\nみんな つりをしたり もぐったりして",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-061-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "みんな つりをしたり もぐったりして\nせいかつ してるんだな",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-062-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ホウエンちほう には\nいわ‥‥ こおり‥‥ はがね‥‥",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-063-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "それぞれの ちからを つかさどる\n3びきの ポケモンが",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-064-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "3びきの ポケモンが\nそれぞれ どこかの どうくつに いる‥‥",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-065-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おれ ちいさな ころに\nそんな はなしを きいたことが あるよ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-066-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "「むっつの てんが\nみっつの とびらを あける」",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-067-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おじいちゃんが よく いっていたけど\nいまだに なんのことだか わからないわ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-068-R07:U1",
+    "regionType": "party_short_prompt",
+    "japanese": "レックウザを どうする？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-068-R08:U2",
+    "regionType": "party_field_action",
+    "japanese": "つよさをみる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Summary",
+      "rs.common.strings2.TradeText_Summary1"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-068-R08:U3",
+    "regionType": "party_field_action",
+    "japanese": "ならびかえ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Switch2"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-068-R08:U5",
+    "regionType": "party_field_action",
+    "japanese": "やめる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gOtherText_CancelNoTerminator",
+      "rs.common.strings.gPCText_Cancel",
+      "rs.common.strings.PCText_Cancel2",
+      "rs.common.strings2.TradeText_Cancel",
+      "rs.common.strings2.gOtherText_CancelAndLv.0"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-069-R07:U1",
+    "regionType": "party_prompt",
+    "japanese": "ポケモンを えらんで ください",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_ChoosePoke",
+      "rs.common.strings2.TradeText_ChoosePoke"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-070-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "あんた しってるかい？",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-071-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "だれかが アクアだんを\nけちらしてくれた らしいんだ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-072-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "おかげで ホエルコ いなくなって\nうみに でられるように なったよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-073-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "わしは ポロックを\nつくるのが だいすきで",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-074-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "いつも きのみを\nもって きてるんだ",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-075-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "もし よかったら\nいっしょに きのみブレンダーで",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-076-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "いっしょに きのみブレンダーで\nポロックを つくろうや",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-077-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "お！ おじさんと いっしょに\nポロックを つくりたいのかい？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-078-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "そうか！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.script.pokeblocks.FallarborTown_ContestLobby_Text_1B6E9D"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-079-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "じゃあ ポロックの つくりかたは\nもう しってるかい？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-080-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "じゃあ はじめるぞ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-081-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "レッツ きのみブレンダー！！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-082-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "きのみブレンダーを きどうします",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-083-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "バッグから きのみブレンダーに いれる\nきのみを えらんでください",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-084-R01:U1",
+    "regionType": "bag_list",
+    "japanese": "No01クラボのみ × 9",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-084-R01:U2",
+    "regionType": "bag_list",
+    "japanese": "No02カゴのみ × 7",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-084-R01:U3",
+    "regionType": "bag_list",
+    "japanese": "No03モモンのみ × 14",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-084-R01:U4",
+    "regionType": "bag_list",
+    "japanese": "No04チーゴのみ × 6",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-084-R01:U5",
+    "regionType": "bag_list",
+    "japanese": "No05ナナシのみ × 8",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-084-R01:U6",
+    "regionType": "bag_list",
+    "japanese": "No06ヒメリのみ × 6",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-084-R01:U7",
+    "regionType": "bag_list",
+    "japanese": "No07オレンのみ × 3",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-084-R01:U8",
+    "regionType": "bag_list",
+    "japanese": "No08キーのみ × 9",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-084-R02:U1",
+    "regionType": "bag_action",
+    "japanese": "けってい",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Confirm",
+      "rs.common.strings2.gOtherText_OK"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-084-R02:U2",
+    "regionType": "bag_action",
+    "japanese": "タグをみる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_CheckTag"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-084-R02:U3",
+    "regionType": "bag_action",
+    "japanese": "やめる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gOtherText_CancelNoTerminator",
+      "rs.common.strings.gPCText_Cancel",
+      "rs.common.strings.PCText_Cancel2",
+      "rs.common.strings2.TradeText_Cancel",
+      "rs.common.strings2.gOtherText_CancelAndLv.0"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-084-R03:U1",
+    "regionType": "bag_prompt",
+    "japanese": "どうしますか？",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gOtherText_WhatWillYouDo2"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-085-R01:U1",
+    "regionType": "bag_category",
+    "japanese": "きのみ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.easy_chat_group_events.gEasyChatGroupWords_Events.3",
+      "rs.common.strings.OtherText_Berries"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-085-R02:U1",
+    "regionType": "bag_list",
+    "japanese": "No01クラボのみ × 9",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-085-R02:U2",
+    "regionType": "bag_list",
+    "japanese": "No02カゴのみ × 7",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-085-R02:U3",
+    "regionType": "bag_list",
+    "japanese": "No03モモンのみ × 14",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-085-R02:U4",
+    "regionType": "bag_list",
+    "japanese": "No04チーゴのみ × 6",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-085-R02:U5",
+    "regionType": "bag_list",
+    "japanese": "No05ナナシのみ × 8",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-085-R02:U6",
+    "regionType": "bag_list",
+    "japanese": "No06ヒメリのみ × 6",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-085-R02:U7",
+    "regionType": "bag_list",
+    "japanese": "No07オレンのみ × 3",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-085-R02:U8",
+    "regionType": "bag_list",
+    "japanese": "No08キーのみ × 9",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-085-R03:U1",
+    "regionType": "bag_description",
+    "japanese": "もたせると じぶんで\nまひ じょうたいを\nかいふくする",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-086-R05:U1",
+    "regionType": "berry_tag_description",
+    "japanese": "とても かわいい はなが さく。\nまっかな みは とても からい。",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-088-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "あかいポロック ができた！\nレベル11で なめらかさは21だ",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-089-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "もういちど きのみを まぜますか？",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-090-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "きのみブレンダーを きどうします",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-091-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "バッグから きのみブレンダーに いれる\nきのみを えらんでください",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-093-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "ももいろポロック ができた！\nレベル11で なめらかさは21だ",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-094-R05:U1",
+    "regionType": "blender_message",
+    "japanese": "もういちど きのみを まぜますか？",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-095-R01:U1",
+    "regionType": "block_title",
+    "japanese": "ポロックケース",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.items.gItems.273"
+    ],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-095-R02:U1",
+    "regionType": "block_list",
+    "japanese": "あかいポロック Lv11",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-095-R02:U2",
+    "regionType": "block_list",
+    "japanese": "ももいろポロック Lv11",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-095-R02:U3",
+    "regionType": "block_list",
+    "japanese": "ケースをしまう",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.gContestStatsText_StowCase"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-095-R05:U1",
+    "regionType": "field_dialog",
+    "japanese": "ももいろポロックを\nすてても よろしいですか？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-096-R01:U1",
+    "regionType": "condition_title",
+    "japanese": "コンディション",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-096-R03:U1",
+    "regionType": "condition_graph",
+    "japanese": "かっこよさ\nたくましさ うつくしさ\nかしこさ かわいさ\nFEEL",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-096-R04:U1",
+    "regionType": "condition_hint",
+    "japanese": "せいかく/がんばりや",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-097-R01:U1",
+    "regionType": "condition_title",
+    "japanese": "コンディション",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-097-R04:U1",
+    "regionType": "condition_hint",
+    "japanese": "せいかく/がんばりや",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-097-R05:U1",
+    "regionType": "condition_message",
+    "japanese": "ラグラージに ポロックを あげますか？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-098-R01:U1",
+    "regionType": "blender_message",
+    "japanese": "ラグラージは あかいポロックを\nたべた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-099-R01:U1",
+    "regionType": "condition_title",
+    "japanese": "コンディション",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-099-R04:U1",
+    "regionType": "condition_hint",
+    "japanese": "せいかく/がんばりや",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-099-R05:U1",
+    "regionType": "condition_message",
+    "japanese": "かっこよさに みがきが かかった！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-100-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンを つかまえに いくの？\nがんばってね！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-101-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "「ハルカの いえ」",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-102-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "「オダマキ はかせの いえ」",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.script.LittlerootTown.LittlerootTown_Text_16AEAC"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-103-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "パソコンを つかえば\nどうぐや ポケモンが ほぞん できるんだ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-104-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "かがくの ちからって しびれるーっ！",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-105-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "「オダマキ ポケモン けんきゅうじょ」",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.script.LittlerootTown.LittlerootTown_Text_16AE87"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-106-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ずーっと けんきゅうしつに こもって\nしらべものを しているかと おもえば",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-107-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "しらべものを しているかと おもえば\nとつぜん のやまに とびだしていく‥‥",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-108-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "オダマキはかせって いったい\nいつ うちに かえっているんだろう？",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-109-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ポケモンと いっしょに\nぼうけん するのも いいけど",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-110-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "たまには おうちに かえって おかあさんに\nげんきな かおを みせてあげてね！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-111-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "こころの なかでは きっと\nハルカちゃんの こと",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-112-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "ハルカちゃんの こと\nしんぱい してる はずだから‥‥",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-113-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "あ！ やせいの\nケムッソが とびだしてきた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-114-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ゆけっ！ ラグラージ！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-115-R03:U1",
+    "regionType": "battle_prompt",
+    "japanese": "ラグラージは どうする？",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-115-R04:U1",
+    "regionType": "battle_action",
+    "japanese": "たたかう",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-115-R04:U4",
+    "regionType": "battle_action",
+    "japanese": "にげる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-116-R03:U1",
+    "regionType": "battle_moves",
+    "japanese": "マッドショット",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.move_names.gMoveNames.341"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-116-R03:U2",
+    "regionType": "battle_moves",
+    "japanese": "れいとうビーム",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.move_names.gMoveNames.58"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-116-R03:U4",
+    "regionType": "battle_moves",
+    "japanese": "どろかけ",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.move_names.gMoveNames.189"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-116-R04:U1",
+    "regionType": "battle_move_meta",
+    "japanese": "PP 15/15\nわざタイプ/じめん",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-117-R03:U1",
+    "regionType": "battle_message",
+    "japanese": "ラグラージの\nマッドショット！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-119-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "やせいの ケムッソは たおれた！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-120-R02:U1",
+    "regionType": "battle_message",
+    "japanese": "ラグラージは\n15 けいけんちを もらった！",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-121-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "やせいの ポケモンは\nくさむらから とびだしてくる からな！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-122-R01:U1",
+    "regionType": "field_dialog",
+    "japanese": "こうして くさむらの なかに はいって\nつかまえたい ポケモンを さがすんだよ！",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-123-R04:U1",
+    "regionType": "summary_personal",
+    "japanese": "パーソナル\nおや/ハルカ IDNo58333\nタイプ/みず じめん",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-123-R05:U1",
+    "regionType": "summary_ability",
+    "japanese": "とくせい\nげきりゅう\nピンチに みずの いりょくが あがる",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-123-R06:U1",
+    "regionType": "summary_memo",
+    "japanese": "トレーナーメモ\nがんばりやなせいかく Lv5のとき\n101ばん どうろで であった",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-124-R03:U1",
+    "regionType": "summary_item",
+    "japanese": "もちもの\nなし",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-124-R04:U1",
+    "regionType": "summary_ribbon",
+    "japanese": "リボン\nげんざい 1こ",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-124-R05:U1",
+    "regionType": "summary_stats",
+    "japanese": "のうりょく\nHP 153/153 とくこう 99\nこうげき 125 とくぼう 91\nぼうぎょ 102 すばやさ 68",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-124-R06:U1",
+    "regionType": "summary_experience",
+    "japanese": "けいけんち\nげんざいのけいけんち 90838\nレベルアップまで あと 5174\nEXP",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-125-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nじめん マッドショット PP15/15\nこおり れいとうビーム PP10/10\nみず たきのぼり PP15/15\nじめん どろかけ PP9/10",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-125-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Info2"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-126-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nじめん マッドショット PP15/15\nこおり れいとうビーム PP10/10\nみず たきのぼり PP15/15\nじめん どろかけ PP9/10\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-126-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい\nどろを なげつけて こうげき\nすばやさを さげさせる",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-127-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nじめん マッドショット PP15/15\nこおり れいとうビーム PP10/10\nみず たきのぼり PP15/15\nじめん どろかけ PP9/10\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-127-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい\nたきを さかのぼるような いきおいで\nてきに とっしんする",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-128-R04:U1",
+    "regionType": "summary_contest_moves",
+    "japanese": "おぼえているわざ\nたくましさ マッドショット PP15/15\nうつくしさ れいとうビーム PP10/10\nたくましさ たきのぼり PP15/15\nかわいさ どろかけ PP9/10",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-128-R05:U1",
+    "regionType": "summary_contest_description",
+    "japanese": "せつめい",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Info2"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-129-R04:U1",
+    "regionType": "summary_contest_moves",
+    "japanese": "おぼえているわざ\nたくましさ マッドショット PP15/15\nうつくしさ れいとうビーム PP10/10\nたくましさ たきのぼり PP15/15\nかわいさ どろかけ PP9/10\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-129-R05:U1",
+    "regionType": "summary_contest_description",
+    "japanese": "せつめい\nおなじ タイプの アピールを した\nポケモンを とくに おどろかす",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-129-R06:U1",
+    "regionType": "summary_contest_effect",
+    "japanese": "こうか\nアピール\nぼうがい",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-130-R04:U1",
+    "regionType": "summary_contest_moves",
+    "japanese": "おぼえているわざ\nたくましさ マッドショット PP15/15\nうつくしさ れいとうビーム PP10/10\nたくましさ たきのぼり PP15/15\nかわいさ どろかけ PP9/10\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-130-R05:U1",
+    "regionType": "summary_contest_description",
+    "japanese": "せつめい\nしんさいんに ちゅうもく されている\nポケモンを とくに おどろかす",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-130-R06:U1",
+    "regionType": "summary_contest_effect",
+    "japanese": "こうか\nアピール\nぼうがい",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-131-R04:U1",
+    "regionType": "summary_personal",
+    "japanese": "パーソナル\nおや/ハルカ IDNo58333\nタイプ/でんき",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-131-R05:U1",
+    "regionType": "summary_ability",
+    "japanese": "とくせい\nひらいしん\nでんきタイプの わざが じぶんにくる",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-131-R06:U1",
+    "regionType": "summary_memo",
+    "japanese": "トレーナーメモ\nさみしがりなせいかく Lv26のとき\n118ばん どうろで であった",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-132-R03:U1",
+    "regionType": "summary_item",
+    "japanese": "もちもの\nなし",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-132-R04:U1",
+    "regionType": "summary_ribbon",
+    "japanese": "リボン\nげんざい 1こ",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-132-R05:U1",
+    "regionType": "summary_stats",
+    "japanese": "のうりょく\nHP 140/140 とくこう 113\nこうげき 95 とくぼう 76\nぼうぎょ 67 すばやさ 121",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-132-R06:U1",
+    "regionType": "summary_experience",
+    "japanese": "けいけんち\nげんざいのけいけんち 130408\nレベルアップまで あと 7832\nEXP",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-133-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-133-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Info2"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "NGC-134-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-134-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい\nつよいでんげきを あびせて こうげき\nてきを まひさせることがある",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-135-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-135-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい\nつよいでんげきを あびせて こうげき\nてきを まひさせることがある",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-136-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-136-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい\nてきに むかって かみなりを おとす\nまひさせることがある",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-137-R04:U1",
+    "regionType": "summary_battle_moves",
+    "japanese": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-137-R05:U1",
+    "regionType": "summary_move_description",
+    "japanese": "せつめい\nてきに むかって かみなりを おとす\nまひさせることがある",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-138-R04:U1",
+    "regionType": "summary_contest_moves",
+    "japanese": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-138-R05:U1",
+    "regionType": "summary_contest_description",
+    "japanese": "せつめい\nアピールが おわっている ポケモン\nみんなを おどろかす",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-138-R06:U1",
+    "regionType": "summary_contest_effect",
+    "japanese": "こうか\nアピール\nぼうがい",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-139-R04:U1",
+    "regionType": "summary_contest_moves",
+    "japanese": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-139-R05:U1",
+    "regionType": "summary_contest_description",
+    "japanese": "せつめい\nじぶんの まえに アピールした\nポケモンを かなり おどろかす",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-139-R06:U1",
+    "regionType": "summary_contest_effect",
+    "japanese": "こうか\nアピール\nぼうがい",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-140-R04:U1",
+    "regionType": "summary_contest_moves",
+    "japanese": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25\nもどる",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-140-R05:U1",
+    "regionType": "summary_contest_description",
+    "japanese": "せつめい\nじぶんの まえに アピールした\nポケモンを かなり おどろかす",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-140-R06:U1",
+    "regionType": "summary_contest_effect",
+    "japanese": "こうか\nアピール\nぼうがい",
+    "reason": "visible_window_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-141-R04:U1",
+    "regionType": "summary_contest_moves",
+    "japanese": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-141-R05:U1",
+    "regionType": "summary_contest_description",
+    "japanese": "せつめい",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.strings.OtherText_Info2"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-303-S01:U1",
+    "regionType": "save_summary",
+    "japanese": "ミナモシティ\nしゅじんこう ハルカ\nもっているバッジ 8こ\nポケモンずかん 63ひき\nプレイじかん 30:14",
+    "reason": "name_or_dynamic_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "GBA-315-S01:U1",
+    "regionType": "battle_moves",
+    "japanese": "あさのひざし",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.move_names.gMoveNames.234"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-315-S01:U2",
+    "regionType": "battle_moves",
+    "japanese": "すいとる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.move_names.gMoveNames.71"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-315-S01:U3",
+    "regionType": "battle_moves",
+    "japanese": "かぜおこし",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.move_names.gMoveNames.16"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-315-S01:U4",
+    "regionType": "battle_moves",
+    "japanese": "しびれごな",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.move_names.gMoveNames.78"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  },
+  {
+    "id": "GBA-315-S02:U1",
+    "regionType": "battle_move_meta",
+    "japanese": "PP 4/ 5\nわざタイプ/ノーマル",
+    "reason": "numeric_or_composite_template_unavailable",
+    "exactSourceQids": [],
+    "hasUnpublishedChineseCandidate": false
+  },
+  {
+    "id": "NGC-069-S01:U1",
+    "regionType": "party_cancel",
+    "japanese": "もどる",
+    "reason": "static_unit_unavailable",
+    "exactSourceQids": [
+      "rs.common.matsuda_debug_menu.gMatsudaDebugMenu_GoBackText",
+      "rs.common.strings.gOtherText_Exit",
+      "rs.common.strings2.^j_0"
+    ],
+    "hasUnpublishedChineseCandidate": true
+  }
+]

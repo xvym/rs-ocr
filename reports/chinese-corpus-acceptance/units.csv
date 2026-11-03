@@ -1,0 +1,2091 @@
+﻿"id","regionId","imageId","platform","regionType","action","japanese","expectedChinese","actualChinese","actualOutput","resourceStatus","semantic","passed","missingReason"
+"GBA-001-R01:U1","GBA-001-R01","GBA-001","gba","field_dialog","translate","ポケモンの とくせいに よっては
+わざの いりょくが かわったり","根据宝可梦的特性，招式的威力可能会变化……","","ポケモンの とくせいに よっては
+わざの いりょくが かわったり","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-002-R01:U1","GBA-002-R01","GBA-002","gba","field_dialog","translate","この まちの ジムリーダー
+なんといっても あの コンビネーションは","这个城市的道馆馆主，尤其是那种配合……","","この まちの ジムリーダー
+なんといっても あの コンビネーションは","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-003-R01:U1","GBA-003-R01","GBA-003","gba","field_dialog","translate","なんといっても あの コンビネーションは
+さいこう！ さすが！ って かんじよ","尤其是那种配合，真是最棒了！不愧是他们！","","なんといっても あの コンビネーションは
+さいこう！ さすが！ って かんじよ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-004-R01:U1","GBA-004-R01","GBA-004","gba","field_dialog","translate","おつかれさまです！
+ポケモン センター です","辛苦了！这里是宝可梦中心。","","おつかれさまです！
+ポケモン センター です","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-005-R01:U1","GBA-005-R01","GBA-005","gba","field_dialog","translate","ここでは ポケモンの
+たいりょく かいふくを します","这里可以恢复宝可梦的体力。","","ここでは ポケモンの
+たいりょく かいふくを します","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-006-R01:U1","GBA-006-R01","GBA-006","gba","field_dialog","translate","あなたの ポケモンを
+やすませて あげますか？","要让你的宝可梦休息一下吗？","","あなたの ポケモンを
+やすませて あげますか？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-007-R01:U1","GBA-007-R01","GBA-007","gba","field_dialog","translate","それでは
+おあずかり いたします！","那么，请交给我们吧！","","それでは
+おあずかり いたします！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-008-R01:U1","GBA-008-R01","GBA-008","gba","field_dialog","translate","またの
+ごりようを おまち してます！","期待你的再次光临！","","またの
+ごりようを おまち してます！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-009-R01:U1","GBA-009-R01","GBA-009","gba","field_dialog","translate","ポケモンざっしが ならんでる！","摆着宝可梦杂志！","","ポケモンざっしが ならんでる！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-010-R01:U1","GBA-010-R01","GBA-010","gba","field_dialog","translate","‥‥「ポケモンのとも」
+‥‥「ポケモン てちょう」","……《宝可梦之友》……《宝可梦手册》","","‥‥「ポケモンのとも」
+‥‥「ポケモン てちょう」","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-011-R01:U1","GBA-011-R01","GBA-011","gba","field_dialog","translate","‥‥「ポケモン てちょう」
+‥‥「かわいい ポケモン」","……《宝可梦手册》……《可爱的宝可梦》","","‥‥「ポケモン てちょう」
+‥‥「かわいい ポケモン」","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-012-R01:U1","GBA-012-R01","GBA-012","gba","field_dialog","translate","ハルカは
+パソコンの スイッチを いれた！","ハルカ打开了电脑！","","ハルカは
+パソコンの スイッチを いれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-013-R01:U1","GBA-013-R01","GBA-013","gba","field_dialog","translate","どこの パソコンに せつぞく して
+つうしん しますか？","要连接哪台电脑进行通信？","","どこの パソコンに せつぞく して
+つうしん しますか？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-013-R02:U1","GBA-013-R02","GBA-013","gba","pc_connect_menu","translate","マユミのパソコン","マユミ的电脑","","マユミのパソコン","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-013-R02:U2","GBA-013-R02","GBA-013","gba","pc_connect_menu","translate","ハルカのパソコン","ハルカ的电脑","","ハルカのパソコン","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-013-R02:U3","GBA-013-R02","GBA-013","gba","pc_connect_menu","translate","でんどういり","名人堂","","でんどういり","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-013-R02:U4","GBA-013-R02","GBA-013","gba","pc_connect_menu","translate","スイッチをきる","关闭电源","","スイッチをきる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-014-R01:U1","GBA-014-R01","GBA-014","gba","field_dialog","translate","マユミの パソコンに せつぞく した！","连接了マユミ的电脑！","","マユミの パソコンに せつぞく した！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-015-R01:U1","GBA-015-R01","GBA-015","gba","field_dialog","translate","ポケモンの あずかり システムを
+よびだした！","启动了宝可梦寄存系统！","","ポケモンの あずかり システムを
+よびだした！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-016-R01:U1","GBA-016-R01","GBA-016","gba","field_dialog","translate","ボックスに あずけている ポケモンを
+てもちに くわえる ことが できます","可以把寄存在盒子里的宝可梦加入同行队伍。","","ボックスに あずけている ポケモンを
+てもちに くわえる ことが できます","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-016-R02:U1","GBA-016-R02","GBA-016","gba","pc_pokemon_menu","translate","ポケモンを つれていく","取出宝可梦","","ポケモンを つれていく","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-016-R02:U2","GBA-016-R02","GBA-016","gba","pc_pokemon_menu","translate","ポケモンを あずける","寄存宝可梦","","ポケモンを あずける","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-016-R02:U3","GBA-016-R02","GBA-016","gba","pc_pokemon_menu","translate","ボックスを せいりする","整理盒子","","ボックスを せいりする","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-016-R02:U4","GBA-016-R02","GBA-016","gba","pc_pokemon_menu","translate","さようなら","再见","","さようなら","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-017-R01:U1","GBA-017-R01","GBA-017","gba","field_dialog","translate","なにを しますか？","要做什么？","","なにを しますか？","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-017-R02:U1","GBA-017-R02","GBA-017","gba","pc_item_menu","translate","どうぐ あずかり","道具寄存","","どうぐ あずかり","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-017-R02:U2","GBA-017-R02","GBA-017","gba","pc_item_menu","translate","メールボックス","邮箱","","メールボックス","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-017-R02:U3","GBA-017-R02","GBA-017","gba","pc_item_menu","translate","せつぞくを きる","断开连接","","せつぞくを きる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-018-R01:U1","GBA-018-R01","GBA-018","gba","pc_item_heading","translate","どうぐを ひきだす","取出道具","","どうぐを ひきだす","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-018-R02:U1","GBA-018-R02","GBA-018","gba","pc_item_list","translate","ポイントアップ × 5","ＰＰ提升剂 × 5","","ポイントアップ × 5","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-018-R02:U2","GBA-018-R02","GBA-018","gba","pc_item_list","translate","ピーピーエイド × 3","ＰＰ单项小补剂 × 3","","ピーピーエイド × 3","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-018-R02:U3","GBA-018-R02","GBA-018","gba","pc_item_list","translate","スペシャルアップ × 1","特攻强化 × 1","","スペシャルアップ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-018-R02:U4","GBA-018-R02","GBA-018","gba","pc_item_list","translate","せんせいのツメ × 1","先制之爪 × 1","","せんせいのツメ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-018-R02:U5","GBA-018-R02","GBA-018","gba","pc_item_list","translate","かわらずのいし × 1","不变之石 × 1","","かわらずのいし × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-018-R02:U6","GBA-018-R02","GBA-018","gba","pc_item_list","translate","やわらかいすな × 1","柔软沙子 × 1","","やわらかいすな × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-018-R02:U7","GBA-018-R02","GBA-018","gba","pc_item_list","translate","スピーダー × 1","速度强化 × 1","","スピーダー × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-018-R02:U8","GBA-018-R02","GBA-018","gba","pc_item_list","translate","マックスアップ × 1","ＨＰ增强剂 × 1","","マックスアップ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-018-R03:U1","GBA-018-R03","GBA-018","gba","pc_item_description","translate","わざポイントの
+さいだいちが あがる","提高招式点数的最大值。","","わざポイントの
+さいだいちが あがる","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-019-R01:U1","GBA-019-R01","GBA-019","gba","bag_category","translate","どうぐ","道具","道具","道具","static_record_available","strict_equal","true",""
+"GBA-019-R02:U1","GBA-019-R02","GBA-019","gba","bag_list","translate","どくけし × 15","解毒药 × 15","","どくけし × 15","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-019-R02:U2","GBA-019-R02","GBA-019","gba","bag_list","translate","かいふくのくすり × 4","全复药 × 4","","かいふくのくすり × 4","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-019-R02:U3","GBA-019-R02","GBA-019","gba","bag_list","translate","なんでもなおし × 3","万灵药 × 3","","なんでもなおし × 3","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-019-R02:U4","GBA-019-R02","GBA-019","gba","bag_list","translate","まひなおし × 5","解麻药 × 5","","まひなおし × 5","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-019-R02:U5","GBA-019-R02","GBA-019","gba","bag_list","translate","すごいキズぐすり × 7","厉害伤药 × 7","","すごいキズぐすり × 7","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-019-R02:U6","GBA-019-R02","GBA-019","gba","bag_list","translate","ねむけざまし × 7","解眠药 × 7","","ねむけざまし × 7","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-019-R02:U7","GBA-019-R02","GBA-019","gba","bag_list","translate","まんたんのくすり × 13","全满药 × 13","","まんたんのくすり × 13","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-019-R02:U8","GBA-019-R02","GBA-019","gba","bag_list","translate","たいようのいし × 1","日之石 × 1","","たいようのいし × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-019-R03:U1","GBA-019-R03","GBA-019","gba","bag_description","translate","どく じょうたいを
+かいふくする","解除中毒状态。","","どく じょうたいを
+かいふくする","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-020-R01:U1","GBA-020-R01","GBA-020","gba","pc_item_heading","translate","どうぐを すてる","丢弃道具","","どうぐを すてる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-020-R02:U1","GBA-020-R02","GBA-020","gba","pc_item_list","translate","ポイントアップ × 5","ＰＰ提升剂 × 5","","ポイントアップ × 5","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-020-R02:U2","GBA-020-R02","GBA-020","gba","pc_item_list","translate","ピーピーエイド × 3","ＰＰ单项小补剂 × 3","","ピーピーエイド × 3","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-020-R02:U3","GBA-020-R02","GBA-020","gba","pc_item_list","translate","スペシャルアップ × 1","特攻强化 × 1","","スペシャルアップ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-020-R02:U4","GBA-020-R02","GBA-020","gba","pc_item_list","translate","せんせいのツメ × 1","先制之爪 × 1","","せんせいのツメ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-020-R02:U5","GBA-020-R02","GBA-020","gba","pc_item_list","translate","かわらずのいし × 1","不变之石 × 1","","かわらずのいし × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-020-R02:U6","GBA-020-R02","GBA-020","gba","pc_item_list","translate","やわらかいすな × 1","柔软沙子 × 1","","やわらかいすな × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-020-R02:U7","GBA-020-R02","GBA-020","gba","pc_item_list","translate","スピーダー × 1","速度强化 × 1","","スピーダー × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-020-R02:U8","GBA-020-R02","GBA-020","gba","pc_item_list","translate","マックスアップ × 1","ＨＰ增强剂 × 1","","マックスアップ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-020-R03:U1","GBA-020-R03","GBA-020","gba","pc_item_description","translate","わざポイントの
+さいだいちが あがる","提高招式点数的最大值。","","わざポイントの
+さいだいちが あがる","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-021-R01:U1","GBA-021-R01","GBA-021","gba","field_dialog","translate","まえに もどります！","返回上一项！","","まえに もどります！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-021-R02:U1","GBA-021-R02","GBA-021","gba","pc_store_menu","translate","どうぐを ひきだす","取出道具","","どうぐを ひきだす","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-021-R02:U2","GBA-021-R02","GBA-021","gba","pc_store_menu","translate","どうぐを あずける","寄存道具","","どうぐを あずける","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-021-R02:U3","GBA-021-R02","GBA-021","gba","pc_store_menu","translate","どうぐを すてる","丢弃道具","","どうぐを すてる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-021-R02:U4","GBA-021-R02","GBA-021","gba","pc_store_menu","translate","もどる","返回","","もどる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-022-R01:U1","GBA-022-R01","GBA-022","gba","bag_category","translate","どうぐ","道具","道具","道具","static_record_available","strict_equal","true",""
+"GBA-022-R02:U1","GBA-022-R02","GBA-022","gba","bag_list","translate","どくけし × 15","解毒药 × 15","","どくけし × 15","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-022-R02:U2","GBA-022-R02","GBA-022","gba","bag_list","translate","かいふくのくすり × 4","全复药 × 4","","かいふくのくすり × 4","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-022-R02:U3","GBA-022-R02","GBA-022","gba","bag_list","translate","なんでもなおし × 3","万灵药 × 3","","なんでもなおし × 3","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-022-R02:U4","GBA-022-R02","GBA-022","gba","bag_list","translate","まひなおし × 5","解麻药 × 5","","まひなおし × 5","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-022-R02:U5","GBA-022-R02","GBA-022","gba","bag_list","translate","すごいキズぐすり × 7","厉害伤药 × 7","","すごいキズぐすり × 7","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-022-R02:U6","GBA-022-R02","GBA-022","gba","bag_list","translate","ねむけざまし × 7","解眠药 × 7","","ねむけざまし × 7","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-022-R02:U7","GBA-022-R02","GBA-022","gba","bag_list","translate","まんたんのくすり × 13","全满药 × 13","","まんたんのくすり × 13","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-022-R02:U8","GBA-022-R02","GBA-022","gba","bag_list","translate","たいようのいし × 1","日之石 × 1","","たいようのいし × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-022-R03:U1","GBA-022-R03","GBA-022","gba","bag_description","translate","どく じょうたいを
+かいふくする","解除中毒状态。","","どく じょうたいを
+かいふくする","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-023-R01:U1","GBA-023-R01","GBA-023","gba","bag_category","translate","モンスターボール","精灵球","","モンスターボール","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-023-R02:U1","GBA-023-R02","GBA-023","gba","bag_list","translate","スーパーボール × 25","超级球 × 25","","スーパーボール × 25","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-023-R02:U2","GBA-023-R02","GBA-023","gba","bag_list","translate","ハイパーボール × 26","高级球 × 26","","ハイパーボール × 26","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-023-R02:U3","GBA-023-R02","GBA-023","gba","bag_list","translate","ダイブボール × 20","潜水球 × 20","","ダイブボール × 20","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-023-R02:U4","GBA-023-R02","GBA-023","gba","bag_list","translate","ネストボール × 2","巢穴球 × 2","","ネストボール × 2","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-023-R02:U5","GBA-023-R02","GBA-023","gba","bag_list","translate","ネットボール × 14","捕网球 × 14","","ネットボール × 14","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-023-R02:U6","GBA-023-R02","GBA-023","gba","bag_list","translate","バッグをとじる","关闭背包","","バッグをとじる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-023-R03:U1","GBA-023-R03","GBA-023","gba","bag_description","translate","モンスターボール より
+つかまえ やすくなった
+こうせいのうの ボール","比精灵球更容易捕捉宝可梦的高性能球。","","モンスターボール より
+つかまえ やすくなった
+こうせいのうの ボール","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-024-R01:U1","GBA-024-R01","GBA-024","gba","bag_category","translate","わざマシン","招式学习器","","わざマシン","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-024-R02:U1","GBA-024-R02","GBA-024","gba","bag_list","translate","No03みずのはどう × 1","No03水之波动 × 1","","No03みずのはどう × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-024-R02:U2","GBA-024-R02","GBA-024","gba","bag_list","translate","No04めいそう × 1","No04冥想 × 1","","No04めいそう × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-024-R02:U3","GBA-024-R02","GBA-024","gba","bag_list","translate","No05ほえる × 1","No05吼叫 × 1","","No05ほえる × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-024-R02:U4","GBA-024-R02","GBA-024","gba","bag_list","translate","No08ビルドアップ × 1","No08健美 × 1","","No08ビルドアップ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-024-R02:U5","GBA-024-R02","GBA-024","gba","bag_list","translate","No09タネマシンガン × 1","No09种子机关枪 × 1","","No09タネマシンガン × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-024-R02:U6","GBA-024-R02","GBA-024","gba","bag_list","translate","No11にほんばれ × 1","No11大晴天 × 1","","No11にほんばれ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-024-R02:U7","GBA-024-R02","GBA-024","gba","bag_list","translate","No26じしん × 1","No26地震 × 1","","No26じしん × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-024-R02:U8","GBA-024-R02","GBA-024","gba","bag_list","translate","No27おんがえし × 1","No27报恩 × 1","","No27おんがえし × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-024-R03:U1","GBA-024-R03","GBA-024","gba","bag_description","translate","ちょうおんぱ こうげきで
+てきを こんらんさせる
+ことがある","用超声波攻击，有时会使对手混乱。","","ちょうおんぱ こうげきで
+てきを こんらんさせる
+ことがある","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-025-R01:U1","GBA-025-R01","GBA-025","gba","bag_category","translate","きのみ","树果","","きのみ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-025-R02:U1","GBA-025-R02","GBA-025","gba","bag_list","translate","No01クラボのみ × 9","No01樱子果 × 9","","No01クラボのみ × 9","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-025-R02:U2","GBA-025-R02","GBA-025","gba","bag_list","translate","No02カゴのみ × 7","No02零余果 × 7","","No02カゴのみ × 7","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-025-R02:U3","GBA-025-R02","GBA-025","gba","bag_list","translate","No03モモンのみ × 14","No03桃桃果 × 14","","No03モモンのみ × 14","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-025-R02:U4","GBA-025-R02","GBA-025","gba","bag_list","translate","No04チーゴのみ × 6","No04莓莓果 × 6","","No04チーゴのみ × 6","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-025-R02:U5","GBA-025-R02","GBA-025","gba","bag_list","translate","No05ナナシのみ × 8","No05利木果 × 8","","No05ナナシのみ × 8","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-025-R02:U6","GBA-025-R02","GBA-025","gba","bag_list","translate","No06ヒメリのみ × 6","No06苹野果 × 6","","No06ヒメリのみ × 6","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-025-R02:U7","GBA-025-R02","GBA-025","gba","bag_list","translate","No07オレンのみ × 3","No07橙橙果 × 3","","No07オレンのみ × 3","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-025-R02:U8","GBA-025-R02","GBA-025","gba","bag_list","translate","No08キーのみ × 9","No08柿仔果 × 9","","No08キーのみ × 9","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-025-R03:U1","GBA-025-R03","GBA-025","gba","bag_description","translate","もたせると じぶんで
+まひ じょうたいを
+かいふくする","携带后可以自行解除麻痹状态。","","もたせると じぶんで
+まひ じょうたいを
+かいふくする","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-026-R01:U1","GBA-026-R01","GBA-026","gba","bag_category","translate","たいせつなもの","重要物品","","たいせつなもの","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-026-R02:U1","GBA-026-R02","GBA-026","gba","bag_list","translate","ホエルコじょうろ","吼吼鲸喷壶","","ホエルコじょうろ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-026-R02:U2","GBA-026-R02","GBA-026","gba","bag_list","translate","ボロのつりざお","破旧钓竿","","ボロのつりざお","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-026-R02:U3","GBA-026-R02","GBA-026","gba","bag_list","translate","ダウジングマシン","探宝器","","ダウジングマシン","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-026-R02:U4","GBA-026-R02","GBA-026","gba","bag_list","translate","マッハじてんしゃ SEL","音速自行车 SEL","","マッハじてんしゃ SEL","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-026-R02:U5","GBA-026-R02","GBA-026","gba","bag_list","translate","はいぶくろ","集灰袋","","はいぶくろ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-026-R02:U6","GBA-026-R02","GBA-026","gba","bag_list","translate","ゴーゴーゴーグル","ＧＯＧＯ护目镜","","ゴーゴーゴーグル","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-026-R02:U7","GBA-026-R02","GBA-026","gba","bag_list","translate","ツメのカセキ","爪子化石","","ツメのカセキ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-026-R02:U8","GBA-026-R02","GBA-026","gba","bag_list","translate","ちかのカギ","地下钥匙","","ちかのカギ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-026-R03:U1","GBA-026-R03","GBA-026","gba","bag_description","translate","みずを かける どうぐ
+つちに うめた きのみを
+すくすく そだてる","浇水用的道具，可以让埋在土里的树果茁壮成长。","","みずを かける どうぐ
+つちに うめた きのみを
+すくすく そだてる","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-027-R01:U1","GBA-027-R01","GBA-027","gba","field_dialog","translate","おとうさんの ことば‥‥
+ハルカ！ こういうものには","爸爸的话……ハルカ！这种东西……","","おとうさんの ことば‥‥
+ハルカ！ こういうものには","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-027-R02:U1","GBA-027-R02","GBA-027","gba","bag_category","translate","たいせつなもの","重要物品","","たいせつなもの","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-027-R03:U1","GBA-027-R03","GBA-027","gba","bag_list","translate","はいぶくろ","集灰袋","","はいぶくろ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-027-R03:U2","GBA-027-R03","GBA-027","gba","bag_list","translate","ゴーゴーゴーグル","ＧＯＧＯ护目镜","","ゴーゴーゴーグル","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-027-R03:U3","GBA-027-R03","GBA-027","gba","bag_list","translate","ツメのカセキ","爪子化石","","ツメのカセキ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-027-R03:U4","GBA-027-R03","GBA-027","gba","bag_list","translate","ちかのカギ","地下钥匙","","ちかのカギ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-027-R03:U5","GBA-027-R03","GBA-027","gba","bag_list","translate","いいつりざお","好钓竿","","いいつりざお","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-027-R03:U6","GBA-027-R03","GBA-027","gba","bag_list","translate","デボンスコープ","得文侦测镜","","デボンスコープ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-028-R01:U1","GBA-028-R01","GBA-028","gba","field_dialog","translate","ハルカ！ こういうものには
+つかいどきが あるんだ！","ハルカ！这种东西要在合适的时候使用！","","ハルカ！ こういうものには
+つかいどきが あるんだ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-028-R02:U1","GBA-028-R02","GBA-028","gba","bag_category","translate","たいせつなもの","重要物品","","たいせつなもの","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-028-R03:U1","GBA-028-R03","GBA-028","gba","bag_list","translate","はいぶくろ","集灰袋","","はいぶくろ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-028-R03:U2","GBA-028-R03","GBA-028","gba","bag_list","translate","ゴーゴーゴーグル","ＧＯＧＯ护目镜","","ゴーゴーゴーグル","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-028-R03:U3","GBA-028-R03","GBA-028","gba","bag_list","translate","ツメのカセキ","爪子化石","","ツメのカセキ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-028-R03:U4","GBA-028-R03","GBA-028","gba","bag_list","translate","ちかのカギ","地下钥匙","","ちかのカギ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-028-R03:U5","GBA-028-R03","GBA-028","gba","bag_list","translate","いいつりざお","好钓竿","","いいつりざお","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-028-R03:U6","GBA-028-R03","GBA-028","gba","bag_list","translate","デボンスコープ","得文侦测镜","","デボンスコープ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-029-R01:U1","GBA-029-R01","GBA-029","gba","field_dialog","translate","この トクサネの しゅうへん では
+やせいの ホエルコが けんぶつ できるんだ","在绿岭市附近，可以观察到野生的吼吼鲸。","","この トクサネの しゅうへん では
+やせいの ホエルコが けんぶつ できるんだ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-030-R01:U1","GBA-030-R01","GBA-030","gba","field_dialog","translate","そーいうのを えーと‥‥
+なんて いったっけ かな‥‥","那个，嗯……那叫什么来着……","","そーいうのを えーと‥‥
+なんて いったっけ かな‥‥","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-031-R01:U1","GBA-031-R01","GBA-031","gba","field_dialog","translate","ホエ ホエ ホエ‥‥","吼、吼、吼……","","ホエ ホエ ホエ‥‥","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-032-R01:U1","GBA-032-R01","GBA-032","gba","field_dialog","translate","ホエルコ ウオッチング だ！","是观察吼吼鲸！","","ホエルコ ウオッチング だ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-033-R01:U1","GBA-033-R01","GBA-033","gba","field_dialog","translate","ようこそ！","欢迎光临！","","ようこそ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-034-R01:U1","GBA-034-R01","GBA-034","gba","field_dialog","translate","おかいもの ですね！","是来买东西的吧！","","おかいもの ですね！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-034-R02:U1","GBA-034-R02","GBA-034","gba","shop_menu","translate","かいに きた","来买东西","","かいに きた","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-034-R02:U2","GBA-034-R02","GBA-034","gba","shop_menu","translate","うりに きた","来卖东西","","うりに きた","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-034-R02:U3","GBA-034-R02","GBA-034","gba","shop_menu","translate","なんでもないです","没什么事","","なんでもないです","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-035-R02:U1","GBA-035-R02","GBA-035","gba","shop_list","translate","ハイパーボール 1200円","高级球 1200元","","ハイパーボール 1200円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-035-R02:U2","GBA-035-R02","GBA-035","gba","shop_list","translate","ネットボール 1000円","捕网球 1000元","","ネットボール 1000円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-035-R02:U3","GBA-035-R02","GBA-035","gba","shop_list","translate","ダイブボール 1000円","潜水球 1000元","","ダイブボール 1000円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-035-R02:U4","GBA-035-R02","GBA-035","gba","shop_list","translate","すごいキズぐすり 1200円","厉害伤药 1200元","","すごいキズぐすり 1200円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-035-R02:U5","GBA-035-R02","GBA-035","gba","shop_list","translate","なんでもなおし 600円","万灵药 600元","","なんでもなおし 600円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-035-R02:U6","GBA-035-R02","GBA-035","gba","shop_list","translate","げんきのかけら 1500円","活力碎片 1500元","","げんきのかけら 1500円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-035-R02:U7","GBA-035-R02","GBA-035","gba","shop_list","translate","ゴールドスプレー 700円","黄金喷雾 700元","","ゴールドスプレー 700円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-035-R02:U8","GBA-035-R02","GBA-035","gba","shop_list","translate","プラスパワー 500円","力量强化 500元","","プラスパワー 500円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-035-R03:U1","GBA-035-R03","GBA-035","gba","shop_description","translate","スーパーボール より
+つかまえ やすくなった
+とても すごい ボール","比超级球更容易捕捉宝可梦的非常出色的球。","","スーパーボール より
+つかまえ やすくなった
+とても すごい ボール","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-036-R02:U1","GBA-036-R02","GBA-036","gba","shop_list","translate","ハイパーボール 1200円","高级球 1200元","","ハイパーボール 1200円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-036-R02:U2","GBA-036-R02","GBA-036","gba","shop_list","translate","ネットボール 1000円","捕网球 1000元","","ネットボール 1000円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-036-R02:U3","GBA-036-R02","GBA-036","gba","shop_list","translate","ダイブボール 1000円","潜水球 1000元","","ダイブボール 1000円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-036-R02:U4","GBA-036-R02","GBA-036","gba","shop_list","translate","すごいキズぐすり 1200円","厉害伤药 1200元","","すごいキズぐすり 1200円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-036-R02:U5","GBA-036-R02","GBA-036","gba","shop_list","translate","なんでもなおし 600円","万灵药 600元","","なんでもなおし 600円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-036-R02:U6","GBA-036-R02","GBA-036","gba","shop_list","translate","げんきのかけら 1500円","活力碎片 1500元","","げんきのかけら 1500円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-036-R02:U7","GBA-036-R02","GBA-036","gba","shop_list","translate","ゴールドスプレー 700円","黄金喷雾 700元","","ゴールドスプレー 700円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-036-R02:U8","GBA-036-R02","GBA-036","gba","shop_list","translate","プラスパワー 500円","力量强化 500元","","プラスパワー 500円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-036-R03:U1","GBA-036-R03","GBA-036","gba","shop_description","translate","つかった せんとうちゅう
+こうげきりょくが あがる","在使用后的这场战斗中提高攻击力。","","つかった せんとうちゅう
+こうげきりょくが あがる","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-037-R01:U1","GBA-037-R01","GBA-037","gba","field_dialog","translate","ネットボールと ダイブボールは
+ここ トクサネでしか つくっていない","捕网球和潜水球，只在这里绿岭市制造。","","ネットボールと ダイブボールは
+ここ トクサネでしか つくっていない","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-038-R01:U1","GBA-038-R01","GBA-038","gba","field_dialog","translate","ここ トクサネでしか つくっていない
+めずらしい モンスターボール！","只在这里绿岭市制造的稀有精灵球！","","ここ トクサネでしか つくっていない
+めずらしい モンスターボール！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-039-R01:U1","GBA-039-R01","GBA-039","gba","field_dialog","translate","ネットボールは むしタイプや
+みずタイプの ポケモンに こうかてき！","捕网球对虫属性和水属性的宝可梦很有效！","","ネットボールは むしタイプや
+みずタイプの ポケモンに こうかてき！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-040-R01:U1","GBA-040-R01","GBA-040","gba","field_dialog","translate","ダイブボールは かいていに いる
+ポケモンを つかまえ やすいんだ！","潜水球很容易捕捉海底的宝可梦！","","ダイブボールは かいていに いる
+ポケモンを つかまえ やすいんだ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-041-R01:U1","GBA-041-R01","GBA-041","gba","field_dialog","translate","ゴールドスプレーは
+よわい ポケモンを よせつけない","黄金喷雾能让弱小的宝可梦不靠近。","","ゴールドスプレーは
+よわい ポケモンを よせつけない","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-042-R01:U1","GBA-042-R01","GBA-042","gba","field_dialog","translate","かずある スプレーの なかで
+いちばん ながもち するんだ！","在各种喷雾中，它持续的时间最长！","","かずある スプレーの なかで
+いちばん ながもち するんだ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-043-R01:U1","GBA-043-R01","GBA-043","gba","field_dialog","translate","ミナモの なかま から
+ホエルコが いなくなった！ って","水静市的伙伴说，吼吼鲸不见了……","","ミナモの なかま から
+ホエルコが いなくなった！ って","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-044-R01:U1","GBA-044-R01","GBA-044","gba","field_dialog","translate","ホエルコが いなくなった！ って
+れんらくが あったんだ","有人联络我，说吼吼鲸不见了。","","ホエルコが いなくなった！ って
+れんらくが あったんだ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-045-R01:U1","GBA-045-R01","GBA-045","gba","field_dialog","translate","いったいぜんたい
+ミナモで なにが あったんだろうな？","水静市到底发生了什么事呢？","","いったいぜんたい
+ミナモで なにが あったんだろうな？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-046-R01:U1","GBA-046-R01","GBA-046","gba","field_dialog","translate","わしも わかいころは
+ポケモン トレーナーとして","我年轻时，也曾作为宝可梦训练家……","","わしも わかいころは
+ポケモン トレーナーとして","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-047-R01:U1","GBA-047-R01","GBA-047","gba","field_dialog","translate","ポケモン トレーナーとして
+せかいじゅうを たび していたのじゃ","曾作为宝可梦训练家周游世界。","","ポケモン トレーナーとして
+せかいじゅうを たび していたのじゃ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-048-R01:U1","GBA-048-R01","GBA-048","gba","field_dialog","translate","ジジイとなった いまでは
+わかい トレーナーの しょうぶを みるのが","如今成了老头，看年轻训练家对战……","","ジジイとなった いまでは
+わかい トレーナーの しょうぶを みるのが","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-049-R01:U1","GBA-049-R01","GBA-049","gba","field_dialog","translate","わかい トレーナーの しょうぶを みるのが
+ゆいいつの たのしみ じゃ","看年轻训练家对战，是我唯一的乐趣。","","わかい トレーナーの しょうぶを みるのが
+ゆいいつの たのしみ じゃ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-050-R01:U1","GBA-050-R01","GBA-050","gba","field_dialog","translate","みずは ふかい あおに そまっている‥‥
+なみのりを つかいますか？","海水呈现深蓝色……要使用冲浪吗？","","みずは ふかい あおに そまっている‥‥
+なみのりを つかいますか？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-051-R07:U1","GBA-051-R07","GBA-051","gba","party_short_prompt","translate","レックウザを どうする？","要对レックウザ做什么？","","レックウザを どうする？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-051-R08:U1","GBA-051-R08","GBA-051","gba","party_field_action","translate","そらをとぶ","飞翔","飞翔","飞翔","static_record_available","strict_equal","true",""
+"GBA-051-R08:U2","GBA-051-R08","GBA-051","gba","party_field_action","translate","つよさをみる","查看能力","","つよさをみる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-051-R08:U3","GBA-051-R08","GBA-051","gba","party_field_action","translate","ならびかえ","交换位置","","ならびかえ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-051-R08:U4","GBA-051-R08","GBA-051","gba","party_field_action","translate","もちもの","携带物品","道具","道具","static_record_available","equivalent","true",""
+"GBA-051-R08:U5","GBA-051-R08","GBA-051","gba","party_field_action","translate","やめる","取消","","やめる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-052-R01:U1","GBA-052-R01","GBA-052","gba","field_dialog","translate","ポケモンを つかまえに いくの？
+がんばってね！","要去捕捉宝可梦吗？加油哦！","","ポケモンを つかまえに いくの？
+がんばってね！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-053-R01:U1","GBA-053-R01","GBA-053","gba","field_dialog","translate","パソコンを つかえば
+どうぐや ポケモンが ほぞん できるんだ！","使用电脑，就可以寄存道具和宝可梦！","","パソコンを つかえば
+どうぐや ポケモンが ほぞん できるんだ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-054-R01:U1","GBA-054-R01","GBA-054","gba","field_dialog","translate","かがくの ちからって しびれるーっ！","科学的力量真让人震撼！","","かがくの ちからって しびれるーっ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-055-R01:U1","GBA-055-R01","GBA-055","gba","field_dialog","translate","ここは ミシロ タウン
+どんな いろにも そまらない まち","这里是未白镇，不染上任何颜色的城镇。","","ここは ミシロ タウン
+どんな いろにも そまらない まち","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-056-R01:U1","GBA-056-R01","GBA-056","gba","field_dialog","translate","ずーっと けんきゅうしつに こもって
+しらべものを しているかと おもえば","本以为他一直待在研究所里做研究……","","ずーっと けんきゅうしつに こもって
+しらべものを しているかと おもえば","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-057-R01:U1","GBA-057-R01","GBA-057","gba","field_dialog","translate","しらべものを しているかと おもえば
+とつぜん のやまに とびだしていく‥‥","本以为他在做研究，却突然跑到野外去了……","","しらべものを しているかと おもえば
+とつぜん のやまに とびだしていく‥‥","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-058-R01:U1","GBA-058-R01","GBA-058","gba","field_dialog","translate","オダマキはかせって いったい
+いつ うちに かえっているんだろう？","小田卷博士到底什么时候回家呢？","","オダマキはかせって いったい
+いつ うちに かえっているんだろう？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-059-R01:U1","GBA-059-R01","GBA-059","gba","field_dialog","translate","オダマキはかせは
+ポケモンが どこに すんでいるのか","小田卷博士正在调查宝可梦居住在哪里……","","オダマキはかせは
+ポケモンが どこに すんでいるのか","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-060-R01:U1","GBA-060-R01","GBA-060","gba","field_dialog","translate","ポケモンが どこに すんでいるのか
+ぶんぷの ちょうさを なさっています","正在调查宝可梦的栖息分布。","","ポケモンが どこに すんでいるのか
+ぶんぷの ちょうさを なさっています","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-061-R01:U1","GBA-061-R01","GBA-061","gba","field_dialog","translate","ユウキさんは すきな おとうさんの
+おてつだいを なさって いるのですよ","ユウキ正在帮助他喜爱的父亲。","","ユウキさんは すきな おとうさんの
+おてつだいを なさって いるのですよ","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-062-R01:U1","GBA-062-R01","GBA-062","gba","field_dialog","translate","オダマキ『おお ハルカちゃん！","小田卷：“哦，ハルカ！”","","オダマキ『おお ハルカちゃん！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-063-R01:U1","GBA-063-R01","GBA-063","gba","field_dialog","translate","ポケモンずかんの ようすを
+みせて くれるのかい？","要让我看看宝可梦图鉴的情况吗？","","ポケモンずかんの ようすを
+みせて くれるのかい？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-064-R01:U1","GBA-064-R01","GBA-064","gba","field_dialog","translate","うん？ みせるほど
+ポケモンを つかまえて いないのか","嗯？还没捉到足够多的宝可梦来展示吗？","","うん？ みせるほど
+ポケモンを つかまえて いないのか","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-065-R01:U1","GBA-065-R01","GBA-065","gba","field_dialog","translate","ポケモンに ついて かかれた
+ほんが いっぱい ある！","有好多关于宝可梦的书！","","ポケモンに ついて かかれた
+ほんが いっぱい ある！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-066-R01:U1","GBA-066-R01","GBA-066","gba","field_dialog","translate","ポケモンと いっしょに
+ぼうけん するのも いいけど","和宝可梦一起冒险当然很好，不过……","","ポケモンと いっしょに
+ぼうけん するのも いいけど","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-067-R01:U1","GBA-067-R01","GBA-067","gba","field_dialog","translate","たまには おうちに かえって おかあさんに
+げんきな かおを みせてあげてね！","偶尔也回家，让妈妈看看你精神的样子吧！","","たまには おうちに かえって おかあさんに
+げんきな かおを みせてあげてね！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-068-R01:U1","GBA-068-R01","GBA-068","gba","field_dialog","translate","こころの なかでは きっと
+ハルカちゃんの こと","她心里一定在想着ハルカ……","","こころの なかでは きっと
+ハルカちゃんの こと","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-069-R01:U1","GBA-069-R01","GBA-069","gba","field_dialog","translate","ハルカちゃんの こと
+しんぱい してる はずだから‥‥","她一定在担心ハルカ……","","ハルカちゃんの こと
+しんぱい してる はずだから‥‥","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-070-R02:U1","GBA-070-R02","GBA-070","gba","battle_message","translate","あ！ やせいの
+ケムッソが とびだしてきた！","啊！野生的ケムッソ跳出来了！","","あ！ やせいの
+ケムッソが とびだしてきた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-071-R03:U1","GBA-071-R03","GBA-071","gba","battle_message","translate","ゆけっ！ ラグラージ！","去吧！ラグラージ！","","ゆけっ！ ラグラージ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-072-R03:U1","GBA-072-R03","GBA-072","gba","battle_message","translate","ラグラージの
+マッドショット！","ラグラージ使出了泥巴射击！","","ラグラージの
+マッドショット！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-073-R03:U1","GBA-073-R03","GBA-073","gba","battle_message","translate","こうかは いまひとつの ようだ","好像效果不太好。","好像效果不好...","好像效果不好...","static_record_available","equivalent","true",""
+"GBA-074-R02:U1","GBA-074-R02","GBA-074","gba","battle_message","translate","やせいの ケムッソは たおれた！","野生的ケムッソ倒下了！","","やせいの ケムッソは たおれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-075-R02:U1","GBA-075-R02","GBA-075","gba","battle_message","translate","ラグラージは
+15 けいけんちを もらった！","ラグラージ获得了15点经验值！","","ラグラージは
+15 けいけんちを もらった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-076-R03:U1","GBA-076-R03","GBA-076","gba","battle_message","translate","やせいの ケムッソの
+いとをはく こうげき！","野生的ケムッソ使出了吐丝！","","やせいの ケムッソの
+いとをはく こうげき！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-077-R03:U1","GBA-077-R03","GBA-077","gba","battle_message","translate","やせいの ケムッソの
+いとをはく こうげき！","野生的ケムッソ使出了吐丝！","","やせいの ケムッソの
+いとをはく こうげき！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-078-R03:U1","GBA-078-R03","GBA-078","gba","battle_message","translate","ヘラクロスの
+すばやさが さがった！","ヘラクロス的速度降低了！","","ヘラクロスの
+すばやさが さがった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-079-R03:U1","GBA-079-R03","GBA-079","gba","battle_message","retain_incomplete","しかし うまく きまら","しかし うまく きまら","","しかし うまく きまら","not_in_static_pack","legal_raw_retention","true","static_unit_unavailable"
+"GBA-080-R03:U1","GBA-080-R03","GBA-080","gba","battle_message","translate","ヘラクロスは
+かわらわりを した！","ヘラクロス使出了劈瓦！","","ヘラクロスは
+かわらわりを した！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-081-R03:U1","GBA-081-R03","GBA-081","gba","battle_message","translate","こうかは いまひとつの ようだ","好像效果不太好。","好像效果不好...","好像效果不好...","static_record_available","equivalent","true",""
+"GBA-082-R03:U1","GBA-082-R03","GBA-082","gba","battle_message","translate","カイオーガの あめふらしで
+あめが ふりはじめた！","カイオーガ的降雨特性使天空开始下雨了！","","カイオーガの あめふらしで
+あめが ふりはじめた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-083-R03:U1","GBA-083-R03","GBA-083","gba","battle_message","translate","カイオーガは
+めいそうを した！","カイオーガ使出了冥想！","","カイオーガは
+めいそうを した！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-084-R03:U1","GBA-084-R03","GBA-084","gba","battle_message","translate","カイオーガは
+めいそうを した！","カイオーガ使出了冥想！","","カイオーガは
+めいそうを した！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-085-R03:U1","GBA-085-R03","GBA-085","gba","battle_message","translate","カイオーガの
+とくこうが あがった！","カイオーガ的特攻提高了！","","カイオーガの
+とくこうが あがった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-086-R03:U1","GBA-086-R03","GBA-086","gba","battle_message","translate","カイオーガの
+とくぼうが あがった！","カイオーガ的特防提高了！","","カイオーガの
+とくぼうが あがった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-087-R03:U1","GBA-087-R03","GBA-087","gba","battle_message","translate","やせいの ケムッソの
+いとをはく こうげき！","野生的ケムッソ使出了吐丝！","","やせいの ケムッソの
+いとをはく こうげき！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-088-R03:U1","GBA-088-R03","GBA-088","gba","battle_message","translate","カイオーガの
+すばやさが さがった！","カイオーガ的速度降低了！","","カイオーガの
+すばやさが さがった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-089-R03:U1","GBA-089-R03","GBA-089","gba","battle_message","translate","あめが ふりつづいている","雨还在继续下。","雨还在持续下着。","雨还在持续下着。","static_record_available","equivalent","true",""
+"GBA-090-R03:U1","GBA-090-R03","GBA-090","gba","battle_prompt","translate","カイオーガは どうする？","カイオーガ要做什么？","","カイオーガは どうする？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-090-R04:U1","GBA-090-R04","GBA-090","gba","battle_action","translate","たたかう","战斗","","たたかう","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-090-R04:U2","GBA-090-R04","GBA-090","gba","battle_action","translate","バッグ","背包","包包","包包","static_record_available","equivalent","true",""
+"GBA-090-R04:U3","GBA-090-R04","GBA-090","gba","battle_action","translate","ポケモン","宝可梦","宝可梦","宝可梦","static_record_available","strict_equal","true",""
+"GBA-090-R04:U4","GBA-090-R04","GBA-090","gba","battle_action","translate","にげる","逃跑","","にげる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-091-R07:U1","GBA-091-R07","GBA-091","gba","party_short_prompt","translate","ボスゴドラを どうする？","要对ボスゴドラ做什么？","","ボスゴドラを どうする？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-091-R08:U1","GBA-091-R08","GBA-091","gba","party_battle_action","translate","いれかえる","替换","","いれかえる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-091-R08:U2","GBA-091-R08","GBA-091","gba","party_battle_action","translate","つよさをみる","查看能力","","つよさをみる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-091-R08:U3","GBA-091-R08","GBA-091","gba","party_battle_action","translate","やめる","取消","","やめる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-092-R03:U1","GBA-092-R03","GBA-092","gba","battle_message","translate","カイオーガ もういい！
+もどれ！","カイオーガ，够了！回来吧！","","カイオーガ もういい！
+もどれ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-093-R02:U1","GBA-093-R02","GBA-093","gba","battle_message","translate","ゆけっ！ ボスゴドラ！","去吧！ボスゴドラ！","","ゆけっ！ ボスゴドラ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-094-R03:U1","GBA-094-R03","GBA-094","gba","battle_message","translate","こうかは いまひとつの ようだ","好像效果不太好。","好像效果不好...","好像效果不好...","static_record_available","equivalent","true",""
+"GBA-095-R03:U1","GBA-095-R03","GBA-095","gba","battle_message","translate","あめが ふりつづいている","雨还在继续下。","雨还在持续下着。","雨还在持续下着。","static_record_available","equivalent","true",""
+"GBA-096-R03:U1","GBA-096-R03","GBA-096","gba","battle_message","translate","うまく にげきれた！","顺利逃走了！","","うまく にげきれた！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-097-R01:U1","GBA-097-R01","GBA-097","gba","field_dialog","translate","トレーナーよ！ おのれと
+ポケモンを しんじて すすみたまえ！","训练家啊！相信自己和宝可梦，前进吧！","","トレーナーよ！ おのれと
+ポケモンを しんじて すすみたまえ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-098-R01:U1","GBA-098-R01","GBA-098","gba","field_dialog","translate","その ひでんマシンは いあいぎり！","那个秘传学习器是居合劈！","","その ひでんマシンは いあいぎり！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-099-R01:U1","GBA-099-R01","GBA-099","gba","field_dialog","translate","ひでんは たたかっていない ときでも
+ポケモンが つかえる わざ！","秘传招式即使不在战斗时，宝可梦也可以使用！","","ひでんは たたかっていない ときでも
+ポケモンが つかえる わざ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-100-R01:U1","GBA-100-R01","GBA-100","gba","field_dialog","translate","いあいぎりを おぼえた ポケモンは
+ストーンバッジを もっていれば","学会居合劈的宝可梦，如果拥有岩石徽章……","","いあいぎりを おぼえた ポケモンは
+ストーンバッジを もっていれば","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-101-R01:U1","GBA-101-R01","GBA-101","gba","field_dialog","translate","ストーンバッジを もっていれば
+ほそい きを きれるように なるのだよ！","只要拥有岩石徽章，就可以砍断细树！","","ストーンバッジを もっていれば
+ほそい きを きれるように なるのだよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-102-R01:U1","GBA-102-R01","GBA-102","gba","field_dialog","translate","しかも ひでんマシンは わざマシンと ちがい
+つかっても なくならないぞ！","而且秘传学习器和招式学习器不同，用过后不会消失！","","しかも ひでんマシンは わざマシンと ちがい
+つかっても なくならないぞ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-103-R01:U1","GBA-103-R01","GBA-103","gba","field_dialog","translate","この カナズミが おおきくなるとき
+おとうさん みんなの ために","卡那兹市发展的时候，爸爸为了大家……","","この カナズミが おおきくなるとき
+おとうさん みんなの ために","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-104-R01:U1","GBA-104-R01","GBA-104","gba","field_dialog","translate","おとうさん みんなの ために
+いあいぎりを つかって","爸爸为了大家，使用了居合劈……","","おとうさん みんなの ために
+いあいぎりを つかって","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-105-R01:U1","GBA-105-R01","GBA-105","gba","field_dialog","translate","いあいぎりを つかって
+あたりを きりひらいたんだって！","听说他用居合劈开拓了这一带！","","いあいぎりを つかって
+あたりを きりひらいたんだって！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-106-R01:U1","GBA-106-R01","GBA-106","gba","field_dialog","translate","ぽけもん とれーなーず すくーる かぁ！","宝可梦训练家学校啊！","","ぽけもん とれーなーず すくーる かぁ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-107-R01:U1","GBA-107-R01","GBA-107","gba","field_dialog","translate","ここに にゅうがく すれば
+めずらしい ポケモンでも かんたんに","如果进入这所学校，就连稀有的宝可梦也能轻松……","","ここに にゅうがく すれば
+めずらしい ポケモンでも かんたんに","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-108-R01:U1","GBA-108-R01","GBA-108","gba","field_dialog","translate","めずらしい ポケモンでも かんたんに
+つかまえられるように なるのかな？","连稀有的宝可梦，也能轻松捕捉了吗？","","めずらしい ポケモンでも かんたんに
+つかまえられるように なるのかな？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-109-R01:U1","GBA-109-R01","GBA-109","gba","field_dialog","translate","ジムリーダーに ちょうせん したけど‥‥","我向道馆馆主挑战过，不过……","","ジムリーダーに ちょうせん したけど‥‥","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-110-R01:U1","GBA-110-R01","GBA-110","gba","field_dialog","translate","あたしの ほのおタイプの ポケモンじゃ
+ちょっと かつのは たいへんそう‥‥","凭我的火属性宝可梦，看来有点难赢……","","あたしの ほのおタイプの ポケモンじゃ
+ちょっと かつのは たいへんそう‥‥","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-111-R01:U1","GBA-111-R01","GBA-111","gba","field_dialog","translate","だって ほのおタイプ って
+いわタイプに あいしょうが わるいもの‥‥","因为火属性对上岩石属性不利……","","だって ほのおタイプ って
+いわタイプに あいしょうが わるいもの‥‥","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-112-R01:U1","GBA-112-R01","GBA-112","gba","field_dialog","translate","あなた サイクルショップ には
+もう いってみた？","你已经去过自行车店了吗？","","あなた サイクルショップ には
+もう いってみた？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-113-R01:U1","GBA-113-R01","GBA-113","gba","field_dialog","translate","あそこの ごしゅじんの カゼノさんは
+すごく きまえが いいのよね！","那家店的カゼノ老板非常大方呢！","","あそこの ごしゅじんの カゼノさんは
+すごく きまえが いいのよね！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-114-R01:U1","GBA-114-R01","GBA-114","gba","field_dialog","translate","この まちは とうざい なんぼく に
+みちが つうじて いるから","这个城市的道路通向东西南北，所以……","","この まちは とうざい なんぼく に
+みちが つうじて いるから","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-115-R01:U1","GBA-115-R01","GBA-115","gba","field_dialog","translate","みちが つうじて いるから
+いろんな ひとが やってきます！","因为道路相通，所以各式各样的人都会来！","","みちが つうじて いるから
+いろんな ひとが やってきます！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-116-R01:U1","GBA-116-R01","GBA-116","gba","field_dialog","translate","じてんしゃに のっていても
+やせいの ポケモンは とびだしてくるよ！","就算骑着自行车，野生宝可梦也会跳出来哦！","","じてんしゃに のっていても
+やせいの ポケモンは とびだしてくるよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-117-R01:U1","GBA-117-R01","GBA-117","gba","field_dialog","translate","あまいかおりを うまく つかうと
+ポケモンが さそわれて やってくるわね","善用甜甜香气，就会吸引宝可梦过来。","","あまいかおりを うまく つかうと
+ポケモンが さそわれて やってくるわね","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-118-R01:U1","GBA-118-R01","GBA-118","gba","field_dialog","translate","ふねを もって いなくても
+なみのりを おぼえた ポケモンが いれば","即使没有船，只要有学会冲浪的宝可梦……","","ふねを もって いなくても
+なみのりを おぼえた ポケモンが いれば","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-119-R01:U1","GBA-119-R01","GBA-119","gba","field_dialog","translate","なみのりを おぼえた ポケモンが いれば
+うみや かわを わたって いけちゃうの！","只要有学会冲浪的宝可梦，就能渡过海洋和河流！","","なみのりを おぼえた ポケモンが いれば
+うみや かわを わたって いけちゃうの！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-120-R01:U1","GBA-120-R01","GBA-120","gba","field_dialog","translate","ポケモンって たのもしーい！","宝可梦真可靠！","","ポケモンって たのもしーい！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-121-R01:U1","GBA-121-R01","GBA-121","gba","field_dialog","translate","おや あんた
+おんせんが すき なのかい？","哎呀，你喜欢温泉吗？","","おや あんた
+おんせんが すき なのかい？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-122-R01:U1","GBA-122-R01","GBA-122","gba","field_dialog","translate","まだ わかいのに めずらしいねえ‥‥","还这么年轻，真少见啊……","","まだ わかいのに めずらしいねえ‥‥","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-123-R01:U1","GBA-123-R01","GBA-123","gba","field_dialog","translate","あたし アスナさん みたいに
+すてきで つよい ジムリーダーに なるため","为了成为像亚莎那样出色又强大的道馆馆主……","","あたし アスナさん みたいに
+すてきで つよい ジムリーダーに なるため","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-124-R01:U1","GBA-124-R01","GBA-124","gba","field_dialog","translate","すてきで つよい ジムリーダーに なるため
+まいにち おんせんに はいってるの！","为了成为出色又强大的道馆馆主，我每天都泡温泉！","","すてきで つよい ジムリーダーに なるため
+まいにち おんせんに はいってるの！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-125-R01:U1","GBA-125-R01","GBA-125","gba","field_dialog","translate","うーむ‥‥ キンセツに いきたいのだが‥‥
+この だんさを おりてしまうと","嗯……想去紫堇市……可要是跳下这个台阶……","","うーむ‥‥ キンセツに いきたいのだが‥‥
+この だんさを おりてしまうと","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-126-R01:U1","GBA-126-R01","GBA-126","gba","field_dialog","translate","この だんさを おりてしまうと
+フエンに もどるのは たいへん だよな‥‥","要是跳下这个台阶，回来釜炎镇就麻烦了……","","この だんさを おりてしまうと
+フエンに もどるのは たいへん だよな‥‥","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-127-R01:U1","GBA-127-R01","GBA-127","gba","field_dialog","translate","こんな デコボコしたところ
+じてんしゃで じょうずに のぼっていく","这么凹凸不平的地方，有人能骑自行车熟练地爬上去……","","こんな デコボコしたところ
+じてんしゃで じょうずに のぼっていく","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-128-R01:U1","GBA-128-R01","GBA-128","gba","field_dialog","translate","じてんしゃで じょうずに のぼっていく
+ひとも いるのよ！","也有人能骑自行车熟练地爬上去呢！","","じてんしゃで じょうずに のぼっていく
+ひとも いるのよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-129-R01:U1","GBA-129-R01","GBA-129","gba","field_dialog","translate","ね！ ね！ すごいでしょ！
+みずの うえに おうちが たってるの！","喂！喂！很厉害吧！房子建在水面上！","","ね！ ね！ すごいでしょ！
+みずの うえに おうちが たってるの！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-130-R01:U1","GBA-130-R01","GBA-130","gba","field_dialog","translate","ぼく ここで うまれたんだよ！","我就是在这里出生的！","","ぼく ここで うまれたんだよ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-131-R01:U1","GBA-131-R01","GBA-131","gba","field_dialog","translate","キナギの にんげんは
+みんな つりをしたり もぐったりして","暮水镇的人，大家都靠钓鱼和潜水……","","キナギの にんげんは
+みんな つりをしたり もぐったりして","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-132-R01:U1","GBA-132-R01","GBA-132","gba","field_dialog","translate","みんな つりをしたり もぐったりして
+せいかつ してるんだな","大家都是靠钓鱼和潜水生活的。","","みんな つりをしたり もぐったりして
+せいかつ してるんだな","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-133-R01:U1","GBA-133-R01","GBA-133","gba","field_dialog","translate","ホウエンちほう には
+いわ‥‥ こおり‥‥ はがね‥‥","在丰缘地区，岩石……冰……钢……","","ホウエンちほう には
+いわ‥‥ こおり‥‥ はがね‥‥","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-134-R01:U1","GBA-134-R01","GBA-134","gba","field_dialog","translate","それぞれの ちからを つかさどる
+3びきの ポケモンが","掌管各种力量的3只宝可梦……","","それぞれの ちからを つかさどる
+3びきの ポケモンが","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-135-R01:U1","GBA-135-R01","GBA-135","gba","field_dialog","translate","3びきの ポケモンが
+それぞれ どこかの どうくつに いる‥‥","3只宝可梦，分别住在某处洞窟里……","","3びきの ポケモンが
+それぞれ どこかの どうくつに いる‥‥","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-136-R01:U1","GBA-136-R01","GBA-136","gba","field_dialog","translate","おれ ちいさな ころに
+そんな はなしを きいたことが あるよ","我小时候听过这样的传说。","","おれ ちいさな ころに
+そんな はなしを きいたことが あるよ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-137-R01:U1","GBA-137-R01","GBA-137","gba","field_dialog","translate","「むっつの てんが
+みっつの とびらを あける」","“六个点，打开三扇门。”","","「むっつの てんが
+みっつの とびらを あける」","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-138-R01:U1","GBA-138-R01","GBA-138","gba","field_dialog","translate","おじいちゃんが よく いっていたけど
+いまだに なんのことだか わからないわ","爷爷以前常这么说，但我到现在还是不懂是什么意思。","","おじいちゃんが よく いっていたけど
+いまだに なんのことだか わからないわ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-139-R01:U1","GBA-139-R01","GBA-139","gba","field_dialog","translate","ようこそ チャレンジャー！
+おれは してんのうの カゲツ","欢迎，挑战者！我是四天王花月。","","ようこそ チャレンジャー！
+おれは してんのうの カゲツ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-140-R01:U1","GBA-140-R01","GBA-140","gba","field_dialog","translate","うーん いい かお してるな
+なかなか たのしませて くれそうだぞ！","嗯，神情不错！看来能让我好好享受一番！","","うーん いい かお してるな
+なかなか たのしませて くれそうだぞ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-141-R01:U1","GBA-141-R01","GBA-141","gba","field_dialog","translate","なかなか たのしませて くれそうだぞ！
+いいぞ！ いい かんじだぞ！","看来能让我好好享受一番！不错！很有感觉！","","なかなか たのしませて くれそうだぞ！
+いいぞ！ いい かんじだぞ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-142-R01:U1","GBA-142-R01","GBA-142","gba","field_dialog","translate","よーし！ おれと おまえ とで
+ポケモン リーグでしか できない","好！你和我一起，只有在宝可梦联盟才能做到的……","","よーし！ おれと おまえ とで
+ポケモン リーグでしか できない","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-143-R01:U1","GBA-143-R01","GBA-143","gba","field_dialog","translate","ポケモン リーグでしか できない
+たたかいを たのしむと しようぜ！！","来享受只有宝可梦联盟才有的对战吧！","","ポケモン リーグでしか できない
+たたかいを たのしむと しようぜ！！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-144-R01:U1","GBA-144-R01","GBA-144","gba","battle_message","translate","してんのうの カゲツが
+しょうぶを しかけてきた！","四天王花月发起了挑战！","","してんのうの カゲツが
+しょうぶを しかけてきた！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-145-R03:U1","GBA-145-R03","GBA-145","gba","battle_message","translate","してんのうの カゲツは
+グラエナを くりだした！","四天王花月派出了グラエナ！","","してんのうの カゲツは
+グラエナを くりだした！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-146-R03:U1","GBA-146-R03","GBA-146","gba","battle_message","translate","ゆけっ！ カイオーガ！","去吧！カイオーガ！","","ゆけっ！ カイオーガ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-147-R03:U1","GBA-147-R03","GBA-147","gba","battle_message","translate","カイオーガの あめふらしで
+あめが ふりはじめた！","カイオーガ的降雨特性使天空开始下雨了！","","カイオーガの あめふらしで
+あめが ふりはじめた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-148-R03:U1","GBA-148-R03","GBA-148","gba","battle_message","translate","あいての グラエナの いかくで
+カイオーガの こうげきりょくが さがった！","对方グラエナ的威吓使カイオーガ的攻击力降低了！","","あいての グラエナの いかくで
+カイオーガの こうげきりょくが さがった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-149-R03:U1","GBA-149-R03","GBA-149","gba","battle_message","translate","カイオーガは
+めいそうを した！","カイオーガ使出了冥想！","","カイオーガは
+めいそうを した！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-150-R03:U1","GBA-150-R03","GBA-150","gba","battle_message","translate","カイオーガの
+とくこうが あがった！","カイオーガ的特攻提高了！","","カイオーガの
+とくこうが あがった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-151-R03:U1","GBA-151-R03","GBA-151","gba","battle_message","translate","カイオーガの
+とくぼうが あがった！","カイオーガ的特防提高了！","","カイオーガの
+とくぼうが あがった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-152-R03:U1","GBA-152-R03","GBA-152","gba","battle_message","translate","しかし あいての グラエナの
+こうげきは はずれた！","但是对方グラエナ的攻击没有命中！","","しかし あいての グラエナの
+こうげきは はずれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-153-R03:U1","GBA-153-R03","GBA-153","gba","battle_message","retain_incomplete","しかし あいての グラ","しかし あいての グラ","","しかし あいての グラ","not_in_static_pack","legal_raw_retention","true","static_unit_unavailable"
+"GBA-154-R03:U1","GBA-154-R03","GBA-154","gba","battle_message","translate","あいての グラエナの
+すなかけ！","对方グラエナ使出了泼沙！","","あいての グラエナの
+すなかけ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-155-R03:U1","GBA-155-R03","GBA-155","gba","battle_message","translate","カイオーガの
+めいちゅうりつが さがった！","カイオーガ的命中率降低了！","","カイオーガの
+めいちゅうりつが さがった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-156-R03:U1","GBA-156-R03","GBA-156","gba","battle_message","translate","あめが ふりつづいている","雨还在继续下。","雨还在持续下着。","雨还在持续下着。","static_record_available","equivalent","true",""
+"GBA-157-R03:U1","GBA-157-R03","GBA-157","gba","battle_message","translate","カイオーガの
+なみのり！","カイオーガ使出了冲浪！","","カイオーガの
+なみのり！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-158-R02:U1","GBA-158-R02","GBA-158","gba","battle_message","translate","あいての グラエナは たおれた！","对方グラエナ倒下了！","","あいての グラエナは たおれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-159-R02:U1","GBA-159-R02","GBA-159","gba","battle_message","translate","カイオーガは
+1261 けいけんちを もらった！","カイオーガ获得了1261点经验值！","","カイオーガは
+1261 けいけんちを もらった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-160-R02:U1","GBA-160-R02","GBA-160","gba","battle_message","translate","してんのうの カゲツは
+ノクタスを くりだそうと している","四天王花月即将派出ノクタス。","","してんのうの カゲツは
+ノクタスを くりだそうと している","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-161-R02:U1","GBA-161-R02","GBA-161","gba","battle_message","translate","ハルカも ポケモンを
+いれかえますか？","ハルカ也要替换宝可梦吗？","","ハルカも ポケモンを
+いれかえますか？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-162-R03:U1","GBA-162-R03","GBA-162","gba","battle_message","translate","あめが ふりつづいている","雨还在继续下。","雨还在持续下着。","雨还在持续下着。","static_record_available","equivalent","true",""
+"GBA-163-R03:U1","GBA-163-R03","GBA-163","gba","battle_message","translate","カイオーガの
+れいとうビーム！","カイオーガ使出了冰冻光束！","","カイオーガの
+れいとうビーム！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-164-R03:U1","GBA-164-R03","GBA-164","gba","battle_message","translate","こうかは ばつぐんだ！","效果绝佳！","效果绝佳！","效果绝佳！","static_record_available","strict_equal","true",""
+"GBA-165-R02:U1","GBA-165-R02","GBA-165","gba","battle_message","translate","あいての ノクタスは たおれた！","对方ノクタス倒下了！","","あいての ノクタスは たおれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-166-R02:U1","GBA-166-R02","GBA-166","gba","battle_message","translate","カイオーガは
+1744 けいけんちを もらった！","カイオーガ获得了1744点经验值！","","カイオーガは
+1744 けいけんちを もらった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-167-R02:U1","GBA-167-R02","GBA-167","gba","battle_message","translate","してんのうの カゲツは
+サメハダーを くりだそうと している","四天王花月即将派出サメハダー。","","してんのうの カゲツは
+サメハダーを くりだそうと している","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-168-R02:U1","GBA-168-R02","GBA-168","gba","battle_message","translate","ハルカも ポケモンを
+いれかえますか？","ハルカ也要替换宝可梦吗？","","ハルカも ポケモンを
+いれかえますか？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-169-R03:U1","GBA-169-R03","GBA-169","gba","battle_message","translate","こうかは いまひとつの ようだ","好像效果不太好。","好像效果不好...","好像效果不好...","static_record_available","equivalent","true",""
+"GBA-170-R02:U1","GBA-170-R02","GBA-170","gba","battle_message","translate","あいての サメハダーは たおれた！","对方サメハダー倒下了！","","あいての サメハダーは たおれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-171-R02:U1","GBA-171-R02","GBA-171","gba","battle_message","translate","カイオーガは
+1800 けいけんちを もらった！","カイオーガ获得了1800点经验值！","","カイオーガは
+1800 けいけんちを もらった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-172-R02:U1","GBA-172-R02","GBA-172","gba","battle_message","translate","してんのうの カゲツは
+アブソルを くりだそうと している","四天王花月即将派出アブソル。","","してんのうの カゲツは
+アブソルを くりだそうと している","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-173-R02:U1","GBA-173-R02","GBA-173","gba","battle_message","translate","ハルカも ポケモンを
+いれかえますか？","ハルカ也要替换宝可梦吗？","","ハルカも ポケモンを
+いれかえますか？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-174-R03:U1","GBA-174-R03","GBA-174","gba","battle_message","translate","あいての アブソルは
+あいての でかたを うかがっている！","对方アブソル正在观察对手的动向！","","あいての アブソルは
+あいての でかたを うかがっている！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-175-R03:U1","GBA-175-R03","GBA-175","gba","battle_message","retain_incomplete","あいて","あいて","","あいて","not_in_static_pack","legal_raw_retention","true","static_unit_unavailable"
+"GBA-176-R02:U1","GBA-176-R02","GBA-176","gba","battle_message","translate","あいての アブソルは たおれた！","对方アブソル倒下了！","","あいての アブソルは たおれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-177-R02:U1","GBA-177-R02","GBA-177","gba","battle_message","translate","カイオーガは
+1827 けいけんちを もらった！","カイオーガ获得了1827点经验值！","","カイオーガは
+1827 けいけんちを もらった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-178-R02:U1","GBA-178-R02","GBA-178","gba","battle_message","translate","してんのうの カゲツは
+ダーテングを くりだそうと している","四天王花月即将派出ダーテング。","","してんのうの カゲツは
+ダーテングを くりだそうと している","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-179-R02:U1","GBA-179-R02","GBA-179","gba","battle_message","translate","ハルカも ポケモンを
+いれかえますか？","ハルカ也要替换宝可梦吗？","","ハルカも ポケモンを
+いれかえますか？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-180-R03:U1","GBA-180-R03","GBA-180","gba","battle_message","translate","あいての ダーテングの
+ねこだまし！","对方ダーテング使出了击掌奇袭！","","あいての ダーテングの
+ねこだまし！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-181-R03:U1","GBA-181-R03","GBA-181","gba","battle_message","translate","カイオーガは ひるんで
+うごけなかった！","カイオーガ畏缩了，无法行动！","","カイオーガは ひるんで
+うごけなかった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-182-R03:U1","GBA-182-R03","GBA-182","gba","battle_message","translate","しかし カイオーガの
+こうげきは はずれた！","但是カイオーガ的攻击没有命中！","","しかし カイオーガの
+こうげきは はずれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-183-R03:U1","GBA-183-R03","GBA-183","gba","battle_message","translate","あいての ダーテングは
+かげぶんしんを した！","对方ダーテング使出了影子分身！","","あいての ダーテングは
+かげぶんしんを した！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-184-R03:U1","GBA-184-R03","GBA-184","gba","battle_message","translate","あいての ダーテングの
+かいひりつが あがった！","对方ダーテング的闪避率提高了！","","あいての ダーテングの
+かいひりつが あがった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-185-R02:U1","GBA-185-R02","GBA-185","gba","battle_message","translate","あいての ダーテングは たおれた！","对方ダーテング倒下了！","","あいての ダーテングは たおれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-186-R02:U1","GBA-186-R02","GBA-186","gba","battle_message","translate","してんのうの カゲツ
+との しょうぶに かった！","战胜了四天王花月！","","してんのうの カゲツ
+との しょうぶに かった！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-187-R02:U1","GBA-187-R02","GBA-187","gba","battle_message","translate","おやおや まけちまったよ
+まっ たのしんだから いいんだけどよ","哎呀，我输了。不过玩得很开心，倒也不错。","","おやおや まけちまったよ
+まっ たのしんだから いいんだけどよ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-188-R02:U1","GBA-188-R02","GBA-188","gba","battle_message","translate","ハルカは しょうきんとして
+4900円 てにいれた！","ハルカ得到了4900元奖金！","","ハルカは しょうきんとして
+4900円 てにいれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-189-R01:U1","GBA-189-R01","GBA-189","gba","field_dialog","translate","まけた おれから ひとこと","让我这个输家说一句。","","まけた おれから ひとこと","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-190-R01:U1","GBA-190-R01","GBA-190","gba","field_dialog","translate","おまえなら もっと さきに すすめるぜ
+さあ つぎの へやに いって","你的话一定能继续前进。来，去下一个房间……","","おまえなら もっと さきに すすめるぜ
+さあ つぎの へやに いって","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-191-R01:U1","GBA-191-R01","GBA-191","gba","field_dialog","translate","さあ つぎの へやに いって
+たたかいを たのしんで きなよ！","来，去下一个房间享受对战吧！","","さあ つぎの へやに いって
+たたかいを たのしんで きなよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-192-R01:U1","GBA-192-R01","GBA-192","gba","field_dialog","translate","おくりびやまで しゅぎょう するうちに
+ゴーストタイプの ポケモンと きもちを","在送神山修行的过程中，我和幽灵属性宝可梦的心意……","","おくりびやまで しゅぎょう するうちに
+ゴーストタイプの ポケモンと きもちを","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-193-R01:U1","GBA-193-R01","GBA-193","gba","field_dialog","translate","ゴーストタイプの ポケモンと きもちを
+かよわせる ことが できるように なったの","我能够和幽灵属性的宝可梦心意相通了。","","ゴーストタイプの ポケモンと きもちを
+かよわせる ことが できるように なったの","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-194-R01:U1","GBA-194-R01","GBA-194","gba","field_dialog","translate","そう アタシと ポケモンの きずな
+とっても つよいんだ！","没错，我和宝可梦之间的羁绊非常深！","","そう アタシと ポケモンの きずな
+とっても つよいんだ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-195-R01:U1","GBA-195-R01","GBA-195","gba","field_dialog","translate","そんな アタシの ポケモンたちに
+ダメージを あたえる ことが できるか","能不能对我的这些宝可梦造成伤害呢……","","そんな アタシの ポケモンたちに
+ダメージを あたえる ことが できるか","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-196-R01:U1","GBA-196-R01","GBA-196","gba","field_dialog","translate","ダメージを あたえる ことが できるか
+ためして ごらんよ！","试试看能不能造成伤害吧！","","ダメージを あたえる ことが できるか
+ためして ごらんよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-197-R01:U1","GBA-197-R01","GBA-197","gba","battle_message","translate","してんのうの フヨウが
+しょうぶを しかけてきた！","四天王芙蓉发起了挑战！","","してんのうの フヨウが
+しょうぶを しかけてきた！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-198-R02:U1","GBA-198-R02","GBA-198","gba","battle_message","translate","ゆけっ！ カイオーガ！","去吧！カイオーガ！","","ゆけっ！ カイオーガ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-199-R03:U1","GBA-199-R03","GBA-199","gba","battle_message","translate","あいての サマヨールの
+あやしいひかり！","对方サマヨール使出了奇异之光！","","あいての サマヨールの
+あやしいひかり！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-200-R03:U1","GBA-200-R03","GBA-200","gba","battle_message","translate","カイオーガは
+こんらんした！","カイオーガ混乱了！","","カイオーガは
+こんらんした！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-201-R09:U1","GBA-201-R09","GBA-201","gba","party_recovery","translate","カイオーガの たいりょくが
+17 かいふくした","カイオーガ恢复了17点体力。","","カイオーガの たいりょくが
+17 かいふくした","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-202-R03:U1","GBA-202-R03","GBA-202","gba","battle_message","translate","あいての サマヨールの
+シャドーパンチ！","对方サマヨール使出了暗影拳！","","あいての サマヨールの
+シャドーパンチ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-203-R03:U1","GBA-203-R03","GBA-203","gba","battle_message","translate","あいての サマヨールの
+のろい こうげき！","对方サマヨール使出了诅咒！","","あいての サマヨールの
+のろい こうげき！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-204-R03:U1","GBA-204-R03","GBA-204","gba","battle_message","translate","あいての サマヨールの
+のろい こうげき！","对方サマヨール使出了诅咒！","","あいての サマヨールの
+のろい こうげき！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-205-R03:U1","GBA-205-R03","GBA-205","gba","battle_message","translate","あいての サマヨールは じぶんの たいりょくを
+けずって カイオーガに のろいを かけた！","对方サマヨール削减自己的体力，向カイオーガ施加了诅咒！","","あいての サマヨールは じぶんの たいりょくを
+けずって カイオーガに のろいを かけた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-206-R03:U1","GBA-206-R03","GBA-206","gba","battle_message","translate","カイオーガは
+のろわれている！","カイオーガ受到了诅咒！","","カイオーガは
+のろわれている！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-207-R02:U1","GBA-207-R02","GBA-207","gba","battle_message","translate","あいての サマヨールは たおれた！","对方サマヨール倒下了！","","あいての サマヨールは たおれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-208-R02:U1","GBA-208-R02","GBA-208","gba","battle_message","translate","カイオーガは
+1840 けいけんちを もらった！","カイオーガ获得了1840点经验值！","","カイオーガは
+1840 けいけんちを もらった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-209-R02:U1","GBA-209-R02","GBA-209","gba","battle_message","translate","してんのうの フヨウは
+ジュペッタを くりだそうと している","四天王芙蓉即将派出ジュペッタ。","","してんのうの フヨウは
+ジュペッタを くりだそうと している","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-210-R02:U1","GBA-210-R02","GBA-210","gba","battle_message","translate","ハルカも ポケモンを
+いれかえますか？","ハルカ也要替换宝可梦吗？","","ハルカも ポケモンを
+いれかえますか？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-211-R03:U1","GBA-211-R03","GBA-211","gba","battle_message","translate","カイオーガは
+のろわれている！","カイオーガ受到了诅咒！","","カイオーガは
+のろわれている！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-212-R02:U1","GBA-212-R02","GBA-212","gba","battle_message","translate","あいての ジュペッタは たおれた！","对方ジュペッタ倒下了！","","あいての ジュペッタは たおれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-213-R02:U1","GBA-213-R02","GBA-213","gba","battle_message","translate","してんのうの フヨウは
+ヤミラミを くりだした！","四天王芙蓉派出了ヤミラミ！","","してんのうの フヨウは
+ヤミラミを くりだした！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-214-R07:U1","GBA-214-R07","GBA-214","gba","party_prompt","translate","ポケモンを えらんで ください","请选择宝可梦。","","ポケモンを えらんで ください","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-214-R08:U1","GBA-214-R08","GBA-214","gba","party_cancel","translate","もどる","返回","","もどる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-215-R07:U1","GBA-215-R07","GBA-215","gba","party_short_prompt","translate","レックウザを どうする？","要对レックウザ做什么？","","レックウザを どうする？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-215-R08:U1","GBA-215-R08","GBA-215","gba","party_battle_action","translate","いれかえる","替换","","いれかえる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-215-R08:U2","GBA-215-R08","GBA-215","gba","party_battle_action","translate","つよさをみる","查看能力","","つよさをみる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-215-R08:U3","GBA-215-R08","GBA-215","gba","party_battle_action","translate","やめる","取消","","やめる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-216-R03:U1","GBA-216-R03","GBA-216","gba","battle_message","translate","カイオーガ よくやった！
+もどれ！","カイオーガ，干得好！回来吧！","","カイオーガ よくやった！
+もどれ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-217-R01:U1","GBA-217-R01","GBA-217","gba","battle_message","translate","ゆけっ！ レックウザ！","去吧！レックウザ！","","ゆけっ！ レックウザ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-218-R03:U1","GBA-218-R03","GBA-218","gba","battle_message","translate","レックウザは
+そらたかく とびあがった！","レックウザ飞上了高空！","","レックウザは
+そらたかく とびあがった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-219-R03:U1","GBA-219-R03","GBA-219","gba","battle_message","translate","しかし あいての ジュペッタの
+こうげきは はずれた！","但是对方ジュペッタ的攻击没有命中！","","しかし あいての ジュペッタの
+こうげきは はずれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-220-R03:U1","GBA-220-R03","GBA-220","gba","battle_message","translate","レックウザの
+そらをとぶ こうげき！","レックウザ使出了飞翔！","","レックウザの
+そらをとぶ こうげき！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-221-R02:U1","GBA-221-R02","GBA-221","gba","battle_message","translate","あいての ジュペッタは たおれた！","对方ジュペッタ倒下了！","","あいての ジュペッタは たおれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-222-R02:U1","GBA-222-R02","GBA-222","gba","battle_message","translate","レックウザは
+1879 けいけんちを もらった！","レックウザ获得了1879点经验值！","","レックウザは
+1879 けいけんちを もらった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-223-R02:U1","GBA-223-R02","GBA-223","gba","battle_message","translate","してんのうの フヨウは
+サマヨールを くりだそうと している","四天王芙蓉即将派出サマヨール。","","してんのうの フヨウは
+サマヨールを くりだそうと している","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-224-R03:U1","GBA-224-R03","GBA-224","gba","battle_message","translate","あいての サマヨールの
+れいとうビーム！","对方サマヨール使出了冰冻光束！","","あいての サマヨールの
+れいとうビーム！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-225-R03:U1","GBA-225-R03","GBA-225","gba","battle_message","translate","しかし あいての サマヨールの
+こうげきは はずれた！","但是对方サマヨール的攻击没有命中！","","しかし あいての サマヨールの
+こうげきは はずれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-226-R03:U1","GBA-226-R03","GBA-226","gba","battle_message","translate","あいての サマヨールの
+れいとうビーム！","对方サマヨール使出了冰冻光束！","","あいての サマヨールの
+れいとうビーム！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-227-R03:U1","GBA-227-R03","GBA-227","gba","battle_message","translate","こうかは ばつぐんだ！","效果绝佳！","效果绝佳！","效果绝佳！","static_record_available","strict_equal","true",""
+"GBA-228-R03:U1","GBA-228-R03","GBA-228","gba","battle_message","translate","レックウザは
+こおりづけになった！","レックウザ被冰冻了！","","レックウザは
+こおりづけになった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-229-R09:U1","GBA-229-R09","GBA-229","gba","party_recovery","translate","レックウザの たいりょくが
+91 かいふくした","レックウザ恢复了91点体力。","","レックウザの たいりょくが
+91 かいふくした","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-230-R03:U1","GBA-230-R03","GBA-230","gba","battle_message","translate","こうかは ばつぐんだ！","效果绝佳！","效果绝佳！","效果绝佳！","static_record_available","strict_equal","true",""
+"GBA-231-R03:U1","GBA-231-R03","GBA-231","gba","battle_message","translate","レックウザは
+こおりづけになった！","レックウザ被冰冻了！","","レックウザは
+こおりづけになった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-232-R03:U1","GBA-232-R03","GBA-232","gba","battle_message","translate","レックウザは
+こんらんした！","レックウザ混乱了！","","レックウザは
+こんらんした！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-233-R03:U1","GBA-233-R03","GBA-233","gba","battle_message","translate","レックウザは
+こんらんしている！","レックウザ正在混乱中！","","レックウザは
+こんらんしている！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-234-R03:U1","GBA-234-R03","GBA-234","gba","battle_message","translate","レックウザは
+ねむるを つかった！","レックウザ使用了睡觉！","","レックウザは
+ねむるを つかった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-235-R03:U1","GBA-235-R03","GBA-235","gba","battle_message","translate","しかし レックウザの
+たいりょくは まんたんだ！","但是レックウザ的体力是满的！","","しかし レックウザの
+たいりょくは まんたんだ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-236-R03:U1","GBA-236-R03","GBA-236","gba","battle_message","translate","あいての サマヨールの
+れいとうビーム！","对方サマヨール使出了冰冻光束！","","あいての サマヨールの
+れいとうビーム！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-237-R03:U1","GBA-237-R03","GBA-237","gba","battle_message","translate","こうかは ばつぐんだ！","效果绝佳！","效果绝佳！","效果绝佳！","static_record_available","strict_equal","true",""
+"GBA-238-R03:U1","GBA-238-R03","GBA-238","gba","battle_message","translate","レックウザの
+こんらんが とけた！","レックウザ解除了混乱！","","レックウザの
+こんらんが とけた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-239-R03:U1","GBA-239-R03","GBA-239","gba","battle_message","translate","レックウザの
+げきりん！","レックウザ使出了逆鳞！","","レックウザの
+げきりん！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-240-R02:U1","GBA-240-R02","GBA-240","gba","battle_message","translate","あいての サマヨールは たおれた！","对方サマヨール倒下了！","","あいての サマヨールは たおれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-241-R02:U1","GBA-241-R02","GBA-241","gba","battle_message","translate","レックウザは
+1956 けいけんちを もらった！","レックウザ获得了1956点经验值！","","レックウザは
+1956 けいけんちを もらった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-242-R02:U1","GBA-242-R02","GBA-242","gba","battle_message","translate","してんのうの フヨウ
+との しょうぶに かった！","战胜了四天王芙蓉！","","してんのうの フヨウ
+との しょうぶに かった！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-243-R02:U1","GBA-243-R02","GBA-243","gba","battle_message","translate","あーあ
+まけちゃった","啊……输了。","","あーあ
+まけちゃった","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-244-R02:U1","GBA-244-R02","GBA-244","gba","battle_message","translate","ハルカは しょうきんとして
+5100円 てにいれた！","ハルカ得到了5100元奖金！","","ハルカは しょうきんとして
+5100円 てにいれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-245-R01:U1","GBA-245-R01","GBA-245","gba","field_dialog","translate","あなたと ポケモンとの あいだにも
+たしかな きずなが あったのね","你和宝可梦之间，也有着确实的羁绊呢。","","あなたと ポケモンとの あいだにも
+たしかな きずなが あったのね","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-246-R01:U1","GBA-246-R01","GBA-246","gba","field_dialog","translate","それが わからなかった
+アタシが まけたのは とうぜん","没有看出这一点的我，输了也是理所当然的。","","それが わからなかった
+アタシが まけたのは とうぜん","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-247-R01:U1","GBA-247-R01","GBA-247","gba","field_dialog","translate","ウン あなたたちの きずなが
+どこまで つうじるか みてみたいな","嗯，真想看看你们的羁绊能走到什么地步。","","ウン あなたたちの きずなが
+どこまで つうじるか みてみたいな","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-248-R01:U1","GBA-248-R01","GBA-248","gba","field_dialog","translate","どこまで つうじるか みてみたいな
+つぎの へやに すすみなよ","真想看看能走到什么地步。去下一个房间吧。","","どこまで つうじるか みてみたいな
+つぎの へやに すすみなよ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-249-R01:U1","GBA-249-R01","GBA-249","gba","field_dialog","translate","「オダマキ はかせの いえ」","“小田卷博士的家”","","「オダマキ はかせの いえ」","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-250-R01:U1","GBA-250-R01","GBA-250","gba","field_dialog","translate","「ハルカの いえ」","“ハルカ的家”","","「ハルカの いえ」","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-251-R03:U1","GBA-251-R03","GBA-251","gba","battle_message","translate","ハルカは
+スーパーボールを つかった！","ハルカ使用了超级球！","","ハルカは
+スーパーボールを つかった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-252-R03:U1","GBA-252-R03","GBA-252","gba","battle_message","translate","おしい！
+あと ちょっとの ところだったのに！","真可惜！就差那么一点！","","おしい！
+あと ちょっとの ところだったのに！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-253-R03:U1","GBA-253-R03","GBA-253","gba","battle_message","translate","やせいの ジグザグマの
+なきごえ こうげき！","野生的ジグザグマ使出了叫声！","","やせいの ジグザグマの
+なきごえ こうげき！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-254-R03:U1","GBA-254-R03","GBA-254","gba","battle_message","translate","ラグラージの
+こうげきりょくが さがった！","ラグラージ的攻击力降低了！","","ラグラージの
+こうげきりょくが さがった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-255-R03:U1","GBA-255-R03","GBA-255","gba","battle_message","translate","やったー！
+ジグザグマを つかまえたぞ！","太好了！捉到ジグザグマ了！","","やったー！
+ジグザグマを つかまえたぞ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-256-R01:U1","GBA-256-R01","GBA-256","gba","field_dialog","retain_incomplete","ぜんこく から かちぬいてきた
+ポケモンが あつ","ぜんこく から かちぬいてきた
+ポケモンが あつ","","ぜんこく から かちぬいてきた
+ポケモンが あつ","not_in_static_pack","legal_raw_retention","true","visible_window_unavailable"
+"GBA-257-R01:U1","GBA-257-R01","GBA-257","gba","field_dialog","translate","ぜんこく から かちぬいてきた
+ポケモンが あつまって いるんだな！","从全国各地脱颖而出的宝可梦都聚集在这里！","","ぜんこく から かちぬいてきた
+ポケモンが あつまって いるんだな！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-258-R01:U1","GBA-258-R01","GBA-258","gba","field_dialog","translate","わしの ハートは わくわく なんだな！","我的心都激动起来了！","","わしの ハートは わくわく なんだな！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-259-R01:U1","GBA-259-R01","GBA-259","gba","field_dialog","translate","いなくなってた わたしの ポケモン
+いつのまにか かえってきたの！","我失踪的宝可梦，不知什么时候回来了！","","いなくなってた わたしの ポケモン
+いつのまにか かえってきたの！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-260-R01:U1","GBA-260-R01","GBA-260","gba","field_dialog","translate","あら まだ コンテストパスを
+もらって ないのね！","哎呀，你还没拿到华丽大赛参加证呢！","","あら まだ コンテストパスを
+もらって ないのね！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-261-R01:U1","GBA-261-R01","GBA-261","gba","field_dialog","translate","もらって ないのね！
+シダケタウンで はやく もらっておいでよ！","还没拿到呢！快去绿荫镇领取吧！","","もらって ないのね！
+シダケタウンで はやく もらっておいでよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-262-R01:U1","GBA-262-R01","GBA-262","gba","field_dialog","translate","だいじに そだてた ポケモンを
+おおぜいに みてもらうのって かいかんよ！","让很多人看到自己用心培养的宝可梦，真让人愉快！","","だいじに そだてた ポケモンを
+おおぜいに みてもらうのって かいかんよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-263-R01:U1","GBA-263-R01","GBA-263","gba","field_dialog","translate","たくましさコンテストって
+さいこう だよな！","强壮竞赛最棒了！","","たくましさコンテストって
+さいこう だよな！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-264-R01:U1","GBA-264-R01","GBA-264","gba","field_dialog","translate","ちからづよい アピール‥‥
+ほとばしる あせ‥‥ たまらん！","强而有力的表演……挥洒的汗水……太棒了！","","ちからづよい アピール‥‥
+ほとばしる あせ‥‥ たまらん！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-265-R01:U1","GBA-265-R01","GBA-265","gba","field_dialog","translate","ママと パパと おねえちゃんと
+4にんで ポロックを つくったら","和妈妈、爸爸、姐姐，我们4个人一起制作宝可方块的话……","","ママと パパと おねえちゃんと
+4にんで ポロックを つくったら","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-266-R01:U1","GBA-266-R01","GBA-266","gba","field_dialog","translate","4にんで ポロックを つくったら
+すごく いいやつが できたんだ！","4个人一起制作宝可方块，做出了特别好的成品！","","4にんで ポロックを つくったら
+すごく いいやつが できたんだ！","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-267-R01:U1","GBA-267-R01","GBA-267","gba","field_dialog","translate","きっと おおぜいで つくれば つくるほど
+なめらかで いい ポロックが できるんだよ！","一定是参与制作的人越多，就越能做出细腻又好的宝可方块！","","きっと おおぜいで つくれば つくるほど
+なめらかで いい ポロックが できるんだよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-268-R01:U1","GBA-268-R01","GBA-268","gba","field_dialog","translate","まいにち だいじに だいじに
+そだてあげた わしの ポケモン","我每天都用心培养的宝可梦……","","まいにち だいじに だいじに
+そだてあげた わしの ポケモン","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-269-R01:U1","GBA-269-R01","GBA-269","gba","field_dialog","translate","そだてあげた わしの ポケモン
+コンディションは カンペキ！","我培养的宝可梦，状态完美！","","そだてあげた わしの ポケモン
+コンディションは カンペキ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-270-R01:U1","GBA-270-R01","GBA-270","gba","field_dialog","translate","コンディションは カンペキ！
+きょうは かつぞおおおおおうう！","状态完美！今天一定要赢！","","コンディションは カンペキ！
+きょうは かつぞおおおおおうう！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-271-R01:U1","GBA-271-R01","GBA-271","gba","field_dialog","translate","お！ おじさんと いっしょに
+ポロックを つくりたいのかい？","哦！想和大叔一起制作宝可方块吗？","","お！ おじさんと いっしょに
+ポロックを つくりたいのかい？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-272-R01:U1","GBA-272-R01","GBA-272","gba","field_dialog","translate","そうか！","这样啊！","","そうか！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-273-R01:U1","GBA-273-R01","GBA-273","gba","field_dialog","translate","じゃあ ポロックの つくりかたは
+もう しってるかい？","那么，你已经知道宝可方块的制作方法了吗？","","じゃあ ポロックの つくりかたは
+もう しってるかい？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-274-R01:U1","GBA-274-R01","GBA-274","gba","field_dialog","translate","じゃあ はじめるぞ！","那么开始吧！","","じゃあ はじめるぞ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-275-R01:U1","GBA-275-R01","GBA-275","gba","field_dialog","translate","レッツ きのみブレンダー！！","来吧，树果混合器！","","レッツ きのみブレンダー！！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-276-R05:U1","GBA-276-R05","GBA-276","gba","blender_message","translate","きのみブレンダーを きどうします","启动树果混合器。","","きのみブレンダーを きどうします","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-277-R05:U1","GBA-277-R05","GBA-277","gba","blender_message","translate","バッグから きのみブレンダーに いれる
+きのみを えらんでください","请从背包里选择放入树果混合器的树果。","","バッグから きのみブレンダーに いれる
+きのみを えらんでください","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-278-R01:U1","GBA-278-R01","GBA-278","gba","bag_list","translate","No01クラボのみ × 9","No01樱子果 × 9","","No01クラボのみ × 9","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-278-R01:U2","GBA-278-R01","GBA-278","gba","bag_list","translate","No02カゴのみ × 7","No02零余果 × 7","","No02カゴのみ × 7","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-278-R01:U3","GBA-278-R01","GBA-278","gba","bag_list","translate","No03モモンのみ × 14","No03桃桃果 × 14","","No03モモンのみ × 14","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-278-R01:U4","GBA-278-R01","GBA-278","gba","bag_list","translate","No04チーゴのみ × 6","No04莓莓果 × 6","","No04チーゴのみ × 6","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-278-R01:U5","GBA-278-R01","GBA-278","gba","bag_list","translate","No05ナナシのみ × 8","No05利木果 × 8","","No05ナナシのみ × 8","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-278-R01:U6","GBA-278-R01","GBA-278","gba","bag_list","translate","No06ヒメリのみ × 6","No06苹野果 × 6","","No06ヒメリのみ × 6","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-278-R01:U7","GBA-278-R01","GBA-278","gba","bag_list","translate","No07オレンのみ × 3","No07橙橙果 × 3","","No07オレンのみ × 3","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-278-R01:U8","GBA-278-R01","GBA-278","gba","bag_list","translate","No08キーのみ × 9","No08柿仔果 × 9","","No08キーのみ × 9","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-278-R02:U1","GBA-278-R02","GBA-278","gba","bag_action","translate","けってい","确定","","けってい","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-278-R02:U2","GBA-278-R02","GBA-278","gba","bag_action","translate","タグをみる","查看标签","","タグをみる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-278-R02:U3","GBA-278-R02","GBA-278","gba","bag_action","translate","やめる","取消","","やめる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-278-R03:U1","GBA-278-R03","GBA-278","gba","bag_prompt","translate","どうしますか？","要怎么做？","","どうしますか？","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-282-R05:U1","GBA-282-R05","GBA-282","gba","blender_message","translate","あかいポロック ができた！
+レベル11で なめらかさは21だ","做出了红色宝可方块！等级为11，细腻度为21。","","あかいポロック ができた！
+レベル11で なめらかさは21だ","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-283-R05:U1","GBA-283-R05","GBA-283","gba","blender_message","translate","もういちど きのみを まぜますか？","还要再混合一次树果吗？","","もういちど きのみを まぜますか？","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-284-R01:U1","GBA-284-R01","GBA-284","gba","block_title","translate","ポロックケース","宝可方块盒","","ポロックケース","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-284-R02:U1","GBA-284-R02","GBA-284","gba","block_list","translate","あかいポロック Lv11","红色宝可方块 Lv11","","あかいポロック Lv11","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-284-R02:U2","GBA-284-R02","GBA-284","gba","block_list","translate","ケースをしまう","收起方块盒","","ケースをしまう","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-284-R03:U1","GBA-284-R03","GBA-284","gba","block_flavors","translate","からい にがい
+しぶい すっぱい
+あまい なめらかさ21","辣 苦
+涩 酸
+甜 细腻度21","","からい にがい
+しぶい すっぱい
+あまい なめらかさ21","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-285-R01:U1","GBA-285-R01","GBA-285","gba","block_title","translate","ポロックケース","宝可方块盒","","ポロックケース","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-285-R02:U1","GBA-285-R02","GBA-285","gba","block_list","translate","あかいポロック Lv11","红色宝可方块 Lv11","","あかいポロック Lv11","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-285-R02:U2","GBA-285-R02","GBA-285","gba","block_list","translate","ケースをしまう","收起方块盒","","ケースをしまう","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-285-R05:U1","GBA-285-R05","GBA-285","gba","field_dialog","translate","あかいポロックを
+すてても よろしいですか？","确定要丢弃红色宝可方块吗？","","あかいポロックを
+すてても よろしいですか？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-286-R01:U1","GBA-286-R01","GBA-286","gba","blender_message","translate","ラグラージは あかいポロックを
+たべた！","ラグラージ吃下了红色宝可方块！","","ラグラージは あかいポロックを
+たべた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-287-R01:U1","GBA-287-R01","GBA-287","gba","condition_title","translate","コンディション","状态","","コンディション","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-287-R04:U1","GBA-287-R04","GBA-287","gba","condition_hint","translate","せいかく/がんばりや","性格/勤奋","","せいかく/がんばりや","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-287-R05:U1","GBA-287-R05","GBA-287","gba","condition_message","translate","かっこよさに みがきが かかった！","帅气度得到了提升！","","かっこよさに みがきが かかった！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-288-R01:U1","GBA-288-R01","GBA-288","gba","field_dialog","translate","コンテストパスを おもちの かたは
+どなたでも さんか できます！","只要持有华丽大赛参加证，任何人都能参加！","","コンテストパスを おもちの かたは
+どなたでも さんか できます！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-289-R01:U1","GBA-289-R01","GBA-289","gba","field_dialog","translate","コンテストパスは シダケタウンに ある
+ノーマルランクの コンテスト かいじょうで","华丽大赛参加证，在绿荫镇的普通级华丽大赛会场……","","コンテストパスは シダケタウンに ある
+ノーマルランクの コンテスト かいじょうで","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-290-R01:U1","GBA-290-R01","GBA-290","gba","field_dialog","translate","ノーマルランクの コンテスト かいじょうで
+どなたでも もらえますよ！","在普通级华丽大赛会场，任何人都能领取！","","ノーマルランクの コンテスト かいじょうで
+どなたでも もらえますよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-291-R01:U1","GBA-291-R01","GBA-291","gba","field_dialog","translate","パスをもって また いらして くださいね！","拿到参加证后，请再来吧！","","パスをもって また いらして くださいね！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-292-R01:U1","GBA-292-R01","GBA-292","gba","field_dialog","translate","こんにちは！
+こちらでは ポケモンコンテスト","你好！这里是宝可梦华丽大赛……","","こんにちは！
+こちらでは ポケモンコンテスト","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-293-R01:U1","GBA-293-R01","GBA-293","gba","field_dialog","translate","こちらでは ポケモンコンテスト
+マスター ランクの","这里是宝可梦华丽大赛大师级的……","","こちらでは ポケモンコンテスト
+マスター ランクの","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-294-R01:U1","GBA-294-R01","GBA-294","gba","field_dialog","translate","マスター ランクの
+うけつけを おこなって います！","正在办理大师级的报名手续！","","マスター ランクの
+うけつけを おこなって います！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-295-R01:U1","GBA-295-R01","GBA-295","gba","field_dialog","translate","コンテストパスを おもちの かたは
+どなたでも さんか できます！","只要持有华丽大赛参加证，任何人都能参加！","","コンテストパスを おもちの かたは
+どなたでも さんか できます！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-296-R01:U1","GBA-296-R01","GBA-296","gba","field_dialog","translate","コンテストパスは シダケタウンに ある
+ノーマルランクの コンテスト かいじょうで","华丽大赛参加证，在绿荫镇的普通级华丽大赛会场……","","コンテストパスは シダケタウンに ある
+ノーマルランクの コンテスト かいじょうで","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-297-R01:U1","GBA-297-R01","GBA-297","gba","field_dialog","translate","ノーマルランクの コンテスト かいじょうで
+どなたでも もらえますよ！","在普通级华丽大赛会场，任何人都能领取！","","ノーマルランクの コンテスト かいじょうで
+どなたでも もらえますよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-298-R01:U1","GBA-298-R01","GBA-298","gba","field_dialog","translate","パスをもって また いらして くださいね！","拿到参加证后，请再来吧！","","パスをもって また いらして くださいね！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-299-R01:U1","GBA-299-R01","GBA-299","gba","field_dialog","translate","うつくしさ コンテストで
+ゆうしょうした この ポケモンを","把在美丽竞赛中夺冠的这只宝可梦……","","うつくしさ コンテストで
+ゆうしょうした この ポケモンを","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-300-R01:U1","GBA-300-R01","GBA-300","gba","field_dialog","translate","ゆうしょうした この ポケモンを
+きょうは かしこさ コンテストで","把这只夺冠的宝可梦，今天又放到聪明竞赛里……","","ゆうしょうした この ポケモンを
+きょうは かしこさ コンテストで","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-301-R01:U1","GBA-301-R01","GBA-301","gba","field_dialog","translate","きょうは かしこさ コンテストで
+ゆうしょう させたんだぜ！","今天又让它在聪明竞赛里夺冠了！","","きょうは かしこさ コンテストで
+ゆうしょう させたんだぜ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-302-R01:U1","GBA-302-R01","GBA-302","gba","field_dialog","translate","ああ じぶんの さいのうが こわい‥‥","啊，连我都害怕自己的才华……","","ああ じぶんの さいのうが こわい‥‥","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-303-R01:U1","GBA-303-R01","GBA-303","gba","field_dialog","translate","ここまでの かつやくを
+ポケモンレポートに かきこみますか？","要把目前的冒险经历写入宝可梦记录吗？","","ここまでの かつやくを
+ポケモンレポートに かきこみますか？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-304-R04:U1","GBA-304-R04","GBA-304","gba","summary_personal","translate","パーソナル
+おや/ジーク IDNo40517
+タイプ/ほのお かくとう","个人资料
+初训家/ジーク IDNo40517
+属性/火 格斗","","パーソナル
+おや/ジーク IDNo40517
+タイプ/ほのお かくとう","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-304-R05:U1","GBA-304-R05","GBA-304","gba","summary_ability","translate","とくせい
+もうか
+ピンチに ほのおが つよくなる","特性
+猛火
+危急时火属性招式的威力提高。","","とくせい
+もうか
+ピンチに ほのおが つよくなる","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-304-R06:U1","GBA-304-R06","GBA-304","gba","summary_memo","translate","トレーナーメモ
+のうてんきなせいかく Lv5のとき
+101ばん どうろで であった","训练家笔记
+乐天的性格。Lv5时，
+在101号道路相遇。","","トレーナーメモ
+のうてんきなせいかく Lv5のとき
+101ばん どうろで であった","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-305-R03:U1","GBA-305-R03","GBA-305","gba","summary_item","translate","もちもの
+なし","携带物品
+无","","もちもの
+なし","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-305-R04:U1","GBA-305-R04","GBA-305","gba","summary_ribbon","translate","リボン
+なし","奖章
+无","","リボン
+なし","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-305-R05:U1","GBA-305-R05","GBA-305","gba","summary_stats","translate","のうりょく
+HP 84/84 とくこう 62
+こうげき 65 とくぼう 39
+ぼうぎょ 50 すばやさ 49","能力
+HP 84/84 特攻 62
+攻击 65 特防 39
+防御 50 速度 49","","のうりょく
+HP 84/84 とくこう 62
+こうげき 65 とくぼう 39
+ぼうぎょ 50 すばやさ 49","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-305-R06:U1","GBA-305-R06","GBA-305","gba","summary_experience","translate","けいけんち
+げんざいのけいけんち 21927
+レベルアップまで あと 2367
+EXP","经验值
+当前经验值 21927
+距离升级还需 2367
+EXP","","けいけんち
+げんざいのけいけんち 21927
+レベルアップまで あと 2367
+EXP","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-306-R04:U1","GBA-306-R04","GBA-306","gba","summary_battle_moves","translate","おぼえているわざ
+かくとう ビルドアップ PP20/20
+ひこう つつく PP35/35
+かくとう にどげり PP30/30
+ほのお ひのこ PP25/25
+もどる","已学会的招式
+格斗 健美 PP20/20
+飞行 啄 PP35/35
+格斗 二连踢 PP30/30
+火 火花 PP25/25
+返回","","おぼえているわざ
+かくとう ビルドアップ PP20/20
+ひこう つつく PP35/35
+かくとう にどげり PP30/30
+ほのお ひのこ PP25/25
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-306-R05:U1","GBA-306-R05","GBA-306","gba","summary_move_description","translate","せつめい
+2ほんの あしをつかって てきを
+2かい れんぞくで こうげき","说明
+用2条腿连续攻击对手2次。","","せつめい
+2ほんの あしをつかって てきを
+2かい れんぞくで こうげき","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-307-R04:U1","GBA-307-R04","GBA-307","gba","summary_battle_moves","translate","おぼえているわざ
+かくとう ビルドアップ PP20/20
+ひこう つつく PP35/35
+かくとう にどげり PP30/30
+ほのお ひのこ PP25/25
+もどる","已学会的招式
+格斗 健美 PP20/20
+飞行 啄 PP35/35
+格斗 二连踢 PP30/30
+火 火花 PP25/25
+返回","","おぼえているわざ
+かくとう ビルドアップ PP20/20
+ひこう つつく PP35/35
+かくとう にどげり PP30/30
+ほのお ひのこ PP25/25
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-307-R05:U1","GBA-307-R05","GBA-307","gba","summary_move_description","translate","せつめい
+2ほんの あしをつかって てきを
+2かい れんぞくで こうげき","说明
+用2条腿连续攻击对手2次。","","せつめい
+2ほんの あしをつかって てきを
+2かい れんぞくで こうげき","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-308-R04:U1","GBA-308-R04","GBA-308","gba","summary_contest_moves","translate","おぼえているわざ
+うつくしさ ビルドアップ PP20/20
+かっこよさ つつく PP35/35
+かっこよさ にどげり PP30/30
+うつくしさ ひのこ PP25/25
+もどる","已学会的招式
+美丽 健美 PP20/20
+帅气 啄 PP35/35
+帅气 二连踢 PP30/30
+美丽 火花 PP25/25
+返回","","おぼえているわざ
+うつくしさ ビルドアップ PP20/20
+かっこよさ つつく PP35/35
+かっこよさ にどげり PP30/30
+うつくしさ ひのこ PP25/25
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-308-R05:U1","GBA-308-R05","GBA-308","gba","summary_contest_description","translate","せつめい
+1つまえの ポケモンの アピールと
+タイプが おなじなら きにいられる","说明
+如果和前1只宝可梦的表演类型相同，就会受到喜爱。","","せつめい
+1つまえの ポケモンの アピールと
+タイプが おなじなら きにいられる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-308-R06:U1","GBA-308-R06","GBA-308","gba","summary_contest_effect","translate","こうか
+アピール
+ぼうがい","效果
+表演
+妨碍","","こうか
+アピール
+ぼうがい","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-309-R04:U1","GBA-309-R04","GBA-309","gba","summary_contest_moves","translate","おぼえているわざ
+うつくしさ ビルドアップ PP20/20
+かっこよさ つつく PP35/35
+かっこよさ にどげり PP30/30
+うつくしさ ひのこ PP25/25
+もどる","已学会的招式
+美丽 健美 PP20/20
+帅气 啄 PP35/35
+帅气 二连踢 PP30/30
+美丽 火花 PP25/25
+返回","","おぼえているわざ
+うつくしさ ビルドアップ PP20/20
+かっこよさ つつく PP35/35
+かっこよさ にどげり PP30/30
+うつくしさ ひのこ PP25/25
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-309-R05:U1","GBA-309-R05","GBA-309","gba","summary_contest_description","translate","せつめい
+1つまえの ポケモンの アピールと
+タイプが おなじなら きにいられる","说明
+如果和前1只宝可梦的表演类型相同，就会受到喜爱。","","せつめい
+1つまえの ポケモンの アピールと
+タイプが おなじなら きにいられる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-309-R06:U1","GBA-309-R06","GBA-309","gba","summary_contest_effect","translate","こうか
+アピール
+ぼうがい","效果
+表演
+妨碍","","こうか
+アピール
+ぼうがい","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-310-R04:U1","GBA-310-R04","GBA-310","gba","summary_personal","translate","パーソナル
+おや/ジーク IDNo40517
+タイプ/ノーマル ひこう","个人资料
+初训家/ジーク IDNo40517
+属性/一般 飞行","","パーソナル
+おや/ジーク IDNo40517
+タイプ/ノーマル ひこう","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-310-R05:U1","GBA-310-R05","GBA-310","gba","summary_ability","translate","とくせい
+こんじょう
+いじょうのとき こうげきが あがる","特性
+毅力
+异常状态时攻击提高。","","とくせい
+こんじょう
+いじょうのとき こうげきが あがる","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-310-R06:U1","GBA-310-R06","GBA-310","gba","summary_memo","translate","トレーナーメモ
+ようきなせいかく Lv4のとき
+104ばん どうろで であった","训练家笔记
+爽朗的性格。Lv4时，
+在104号道路相遇。","","トレーナーメモ
+ようきなせいかく Lv4のとき
+104ばん どうろで であった","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-311-R03:U1","GBA-311-R03","GBA-311","gba","summary_item","translate","もちもの
+なし","携带物品
+无","","もちもの
+なし","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-311-R04:U1","GBA-311-R04","GBA-311","gba","summary_ribbon","translate","リボン
+なし","奖章
+无","","リボン
+なし","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-311-R05:U1","GBA-311-R05","GBA-311","gba","summary_stats","translate","のうりょく
+HP 45/45 とくこう 15
+こうげき 26 とくぼう 20
+ぼうぎょ 18 すばやさ 40","能力
+HP 45/45 特攻 15
+攻击 26 特防 20
+防御 18 速度 40","","のうりょく
+HP 45/45 とくこう 15
+こうげき 26 とくぼう 20
+ぼうぎょ 18 すばやさ 40","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-311-R06:U1","GBA-311-R06","GBA-311","gba","summary_experience","translate","けいけんち
+げんざいのけいけんち 3147
+レベルアップまで あと 651
+EXP","经验值
+当前经验值 3147
+距离升级还需 651
+EXP","","けいけんち
+げんざいのけいけんち 3147
+レベルアップまで あと 651
+EXP","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-312-R04:U1","GBA-312-R04","GBA-312","gba","summary_battle_moves","translate","おぼえているわざ
+ひこう つつく PP35/35
+ひこう つばさでうつ PP35/35
+ノーマル きあいだめ PP30/30
+ノーマル でんこうせっか PP30/30","已学会的招式
+飞行 啄 PP35/35
+飞行 翅膀攻击 PP35/35
+一般 聚气 PP30/30
+一般 电光一闪 PP30/30","","おぼえているわざ
+ひこう つつく PP35/35
+ひこう つばさでうつ PP35/35
+ノーマル きあいだめ PP30/30
+ノーマル でんこうせっか PP30/30","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-312-R05:U1","GBA-312-R05","GBA-312","gba","summary_move_description","translate","せつめい","说明","","せつめい","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-313-R04:U1","GBA-313-R04","GBA-313","gba","summary_battle_moves","translate","おぼえているわざ
+ひこう つつく PP35/35
+ひこう つばさでうつ PP35/35
+ノーマル きあいだめ PP30/30
+ノーマル でんこうせっか PP30/30
+もどる","已学会的招式
+飞行 啄 PP35/35
+飞行 翅膀攻击 PP35/35
+一般 聚气 PP30/30
+一般 电光一闪 PP30/30
+返回","","おぼえているわざ
+ひこう つつく PP35/35
+ひこう つばさでうつ PP35/35
+ノーマル きあいだめ PP30/30
+ノーマル でんこうせっか PP30/30
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-313-R05:U1","GBA-313-R05","GBA-313","gba","summary_move_description","translate","せつめい
+つばさを おおきく ひろげて
+そのまま てきに たいあたりする","说明
+大大展开翅膀，就这样撞向对手。","","せつめい
+つばさを おおきく ひろげて
+そのまま てきに たいあたりする","not_in_static_pack","not_published","false","visible_window_unavailable"
+"GBA-314-R04:U1","GBA-314-R04","GBA-314","gba","summary_contest_moves","translate","おぼえているわざ
+かっこよさ つつく PP35/35
+かっこよさ つばさでうつ PP35/35
+かっこよさ きあいだめ PP30/30
+かっこよさ でんこうせっか PP30/30
+もどる","已学会的招式
+帅气 啄 PP35/35
+帅气 翅膀攻击 PP35/35
+帅气 聚气 PP30/30
+帅气 电光一闪 PP30/30
+返回","","おぼえているわざ
+かっこよさ つつく PP35/35
+かっこよさ つばさでうつ PP35/35
+かっこよさ きあいだめ PP30/30
+かっこよさ でんこうせっか PP30/30
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-314-R05:U1","GBA-314-R05","GBA-314","gba","summary_contest_description","translate","せつめい
+1つまえの ポケモンの アピールと
+タイプが おなじなら きにいられる","说明
+如果和前1只宝可梦的表演类型相同，就会受到喜爱。","","せつめい
+1つまえの ポケモンの アピールと
+タイプが おなじなら きにいられる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"GBA-314-R06:U1","GBA-314-R06","GBA-314","gba","summary_contest_effect","translate","こうか
+アピール
+ぼうがい","效果
+表演
+妨碍","","こうか
+アピール
+ぼうがい","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-001-R01:U1","NGC-001-R01","NGC-001","ngc","boot_dialog","translate","とけいに かんけいする できごとは おきませんが
+ゲームを つづけて あそぶことは できます","与时钟有关的事件不会发生，但仍然可以继续游戏。","","とけいに かんけいする できごとは おきませんが
+ゲームを つづけて あそぶことは できます","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-002-R01:U1","NGC-002-R01","NGC-002","ngc","field_dialog","translate","この まちの ジムリーダー
+なんといっても あの コンビネーションは","这个城市的道馆馆主，尤其是那种配合……","","この まちの ジムリーダー
+なんといっても あの コンビネーションは","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-003-R01:U1","NGC-003-R01","NGC-003","ngc","field_dialog","translate","なんといっても あの コンビネーションは
+さいこう！ さすが！ って かんじよ","尤其是那种配合，真是最棒了！不愧是他们！","","なんといっても あの コンビネーションは
+さいこう！ さすが！ って かんじよ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-004-R01:U1","NGC-004-R01","NGC-004","ngc","field_dialog","translate","ハルカは
+パソコンの スイッチを いれた！","ハルカ打开了电脑！","","ハルカは
+パソコンの スイッチを いれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-005-R01:U1","NGC-005-R01","NGC-005","ngc","field_dialog","translate","どこの パソコンに せつぞく して
+つうしん しますか？","要连接哪台电脑进行通信？","","どこの パソコンに せつぞく して
+つうしん しますか？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-005-R02:U1","NGC-005-R02","NGC-005","ngc","pc_connect_menu","translate","マユミのパソコン","マユミ的电脑","","マユミのパソコン","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-005-R02:U2","NGC-005-R02","NGC-005","ngc","pc_connect_menu","translate","ハルカのパソコン","ハルカ的电脑","","ハルカのパソコン","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-005-R02:U3","NGC-005-R02","NGC-005","ngc","pc_connect_menu","translate","でんどういり","名人堂","","でんどういり","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-005-R02:U4","NGC-005-R02","NGC-005","ngc","pc_connect_menu","translate","スイッチをきる","关闭电源","","スイッチをきる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-006-R01:U1","NGC-006-R01","NGC-006","ngc","field_dialog","translate","マユミの パソコンに せつぞく した！","连接了マユミ的电脑！","","マユミの パソコンに せつぞく した！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-007-R01:U1","NGC-007-R01","NGC-007","ngc","field_dialog","translate","ポケモンの あずかり システムを
+よびだした！","启动了宝可梦寄存系统！","","ポケモンの あずかり システムを
+よびだした！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-008-R01:U1","NGC-008-R01","NGC-008","ngc","field_dialog","translate","ボックスに あずけている ポケモンを
+てもちに くわえる ことが できます","可以把寄存在盒子里的宝可梦加入同行队伍。","","ボックスに あずけている ポケモンを
+てもちに くわえる ことが できます","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-008-R02:U1","NGC-008-R02","NGC-008","ngc","pc_pokemon_menu","translate","ポケモンを つれていく","取出宝可梦","","ポケモンを つれていく","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-008-R02:U2","NGC-008-R02","NGC-008","ngc","pc_pokemon_menu","translate","ポケモンを あずける","寄存宝可梦","","ポケモンを あずける","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-008-R02:U3","NGC-008-R02","NGC-008","ngc","pc_pokemon_menu","translate","ボックスを せいりする","整理盒子","","ボックスを せいりする","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-008-R02:U4","NGC-008-R02","NGC-008","ngc","pc_pokemon_menu","translate","さようなら","再见","","さようなら","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-009-R01:U1","NGC-009-R01","NGC-009","ngc","field_dialog","translate","てもちポケモンが いっぱいです！","同行宝可梦已经满了！","","てもちポケモンが いっぱいです！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-009-R02:U1","NGC-009-R02","NGC-009","ngc","pc_pokemon_menu","translate","ポケモンを つれていく","取出宝可梦","","ポケモンを つれていく","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-009-R02:U2","NGC-009-R02","NGC-009","ngc","pc_pokemon_menu","translate","ポケモンを あずける","寄存宝可梦","","ポケモンを あずける","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-009-R02:U3","NGC-009-R02","NGC-009","ngc","pc_pokemon_menu","translate","ボックスを せいりする","整理盒子","","ボックスを せいりする","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-009-R02:U4","NGC-009-R02","NGC-009","ngc","pc_pokemon_menu","translate","さようなら","再见","","さようなら","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-010-R01:U1","NGC-010-R01","NGC-010","ngc","field_dialog","translate","なにを しますか？","要做什么？","","なにを しますか？","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-010-R02:U1","NGC-010-R02","NGC-010","ngc","pc_item_menu","translate","どうぐ あずかり","道具寄存","","どうぐ あずかり","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-010-R02:U2","NGC-010-R02","NGC-010","ngc","pc_item_menu","translate","メールボックス","邮箱","","メールボックス","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-010-R02:U3","NGC-010-R02","NGC-010","ngc","pc_item_menu","translate","せつぞくを きる","断开连接","","せつぞくを きる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-011-R01:U1","NGC-011-R01","NGC-011","ngc","pc_item_heading","translate","どうぐを ひきだす","取出道具","","どうぐを ひきだす","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-011-R02:U1","NGC-011-R02","NGC-011","ngc","pc_item_list","translate","ポイントアップ × 5","ＰＰ提升剂 × 5","","ポイントアップ × 5","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-011-R02:U2","NGC-011-R02","NGC-011","ngc","pc_item_list","translate","ピーピーエイド × 3","ＰＰ单项小补剂 × 3","","ピーピーエイド × 3","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-011-R02:U3","NGC-011-R02","NGC-011","ngc","pc_item_list","translate","スペシャルアップ × 1","特攻强化 × 1","","スペシャルアップ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-011-R02:U4","NGC-011-R02","NGC-011","ngc","pc_item_list","translate","せんせいのツメ × 1","先制之爪 × 1","","せんせいのツメ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-011-R02:U5","NGC-011-R02","NGC-011","ngc","pc_item_list","translate","かわらずのいし × 1","不变之石 × 1","","かわらずのいし × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-011-R02:U6","NGC-011-R02","NGC-011","ngc","pc_item_list","translate","やわらかいすな × 1","柔软沙子 × 1","","やわらかいすな × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-011-R02:U7","NGC-011-R02","NGC-011","ngc","pc_item_list","translate","スピーダー × 1","速度强化 × 1","","スピーダー × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-011-R02:U8","NGC-011-R02","NGC-011","ngc","pc_item_list","translate","マックスアップ × 1","ＨＰ增强剂 × 1","","マックスアップ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-011-R03:U1","NGC-011-R03","NGC-011","ngc","pc_item_description","translate","わざポイントの
+さいだいちが あがる","提高招式点数的最大值。","","わざポイントの
+さいだいちが あがる","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-012-R01:U1","NGC-012-R01","NGC-012","ngc","bag_category","translate","どうぐ","道具","道具","道具","static_record_available","strict_equal","true",""
+"NGC-012-R02:U1","NGC-012-R02","NGC-012","ngc","bag_list","translate","どくけし × 15","解毒药 × 15","","どくけし × 15","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-012-R02:U2","NGC-012-R02","NGC-012","ngc","bag_list","translate","かいふくのくすり × 4","全复药 × 4","","かいふくのくすり × 4","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-012-R02:U3","NGC-012-R02","NGC-012","ngc","bag_list","translate","なんでもなおし × 3","万灵药 × 3","","なんでもなおし × 3","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-012-R02:U4","NGC-012-R02","NGC-012","ngc","bag_list","translate","まひなおし × 5","解麻药 × 5","","まひなおし × 5","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-012-R02:U5","NGC-012-R02","NGC-012","ngc","bag_list","translate","すごいキズぐすり × 7","厉害伤药 × 7","","すごいキズぐすり × 7","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-012-R02:U6","NGC-012-R02","NGC-012","ngc","bag_list","translate","ねむけざまし × 7","解眠药 × 7","","ねむけざまし × 7","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-012-R02:U7","NGC-012-R02","NGC-012","ngc","bag_list","translate","まんたんのくすり × 13","全满药 × 13","","まんたんのくすり × 13","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-012-R02:U8","NGC-012-R02","NGC-012","ngc","bag_list","translate","たいようのいし × 1","日之石 × 1","","たいようのいし × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-012-R03:U1","NGC-012-R03","NGC-012","ngc","bag_description","translate","どく じょうたいを
+かいふくする","解除中毒状态。","","どく じょうたいを
+かいふくする","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-013-R01:U1","NGC-013-R01","NGC-013","ngc","bag_category","translate","きのみ","树果","","きのみ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-013-R02:U1","NGC-013-R02","NGC-013","ngc","bag_list","translate","No01クラボのみ × 9","No01樱子果 × 9","","No01クラボのみ × 9","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-013-R02:U2","NGC-013-R02","NGC-013","ngc","bag_list","translate","No02カゴのみ × 7","No02零余果 × 7","","No02カゴのみ × 7","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-013-R02:U3","NGC-013-R02","NGC-013","ngc","bag_list","translate","No03モモンのみ × 14","No03桃桃果 × 14","","No03モモンのみ × 14","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-013-R02:U4","NGC-013-R02","NGC-013","ngc","bag_list","translate","No04チーゴのみ × 6","No04莓莓果 × 6","","No04チーゴのみ × 6","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-013-R02:U5","NGC-013-R02","NGC-013","ngc","bag_list","translate","No05ナナシのみ × 8","No05利木果 × 8","","No05ナナシのみ × 8","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-013-R02:U6","NGC-013-R02","NGC-013","ngc","bag_list","translate","No06ヒメリのみ × 6","No06苹野果 × 6","","No06ヒメリのみ × 6","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-013-R02:U7","NGC-013-R02","NGC-013","ngc","bag_list","translate","No07オレンのみ × 3","No07橙橙果 × 3","","No07オレンのみ × 3","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-013-R02:U8","NGC-013-R02","NGC-013","ngc","bag_list","translate","No08キーのみ × 9","No08柿仔果 × 9","","No08キーのみ × 9","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-013-R03:U1","NGC-013-R03","NGC-013","ngc","bag_description","translate","もたせると じぶんで
+まひ じょうたいを
+かいふくする","携带后可以自行解除麻痹状态。","","もたせると じぶんで
+まひ じょうたいを
+かいふくする","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-014-R01:U1","NGC-014-R01","NGC-014","ngc","bag_category","translate","わざマシン","招式学习器","","わざマシン","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-014-R02:U1","NGC-014-R02","NGC-014","ngc","bag_list","translate","No03みずのはどう × 1","No03水之波动 × 1","","No03みずのはどう × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-014-R02:U2","NGC-014-R02","NGC-014","ngc","bag_list","translate","No04めいそう × 1","No04冥想 × 1","","No04めいそう × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-014-R02:U3","NGC-014-R02","NGC-014","ngc","bag_list","translate","No05ほえる × 1","No05吼叫 × 1","","No05ほえる × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-014-R02:U4","NGC-014-R02","NGC-014","ngc","bag_list","translate","No08ビルドアップ × 1","No08健美 × 1","","No08ビルドアップ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-014-R02:U5","NGC-014-R02","NGC-014","ngc","bag_list","translate","No09タネマシンガン × 1","No09种子机关枪 × 1","","No09タネマシンガン × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-014-R02:U6","NGC-014-R02","NGC-014","ngc","bag_list","translate","No11にほんばれ × 1","No11大晴天 × 1","","No11にほんばれ × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-014-R02:U7","NGC-014-R02","NGC-014","ngc","bag_list","translate","No26じしん × 1","No26地震 × 1","","No26じしん × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-014-R02:U8","NGC-014-R02","NGC-014","ngc","bag_list","translate","No27おんがえし × 1","No27报恩 × 1","","No27おんがえし × 1","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-014-R03:U1","NGC-014-R03","NGC-014","ngc","bag_description","translate","ちょうおんぱ こうげきで
+てきを こんらんさせる
+ことがある","用超声波攻击，有时会使对手混乱。","","ちょうおんぱ こうげきで
+てきを こんらんさせる
+ことがある","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-015-R01:U1","NGC-015-R01","NGC-015","ngc","field_dialog","translate","ポケモンの とくせいに よっては
+わざの いりょくが かわったり","根据宝可梦的特性，招式的威力可能会变化……","","ポケモンの とくせいに よっては
+わざの いりょくが かわったり","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-016-R01:U1","NGC-016-R01","NGC-016","ngc","field_dialog","translate","わざの いりょくが かわったり
+まったく きかなかったり するよ！","招式的威力会改变，或者完全不起作用！","","わざの いりょくが かわったり
+まったく きかなかったり するよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-017-R01:U1","NGC-017-R01","NGC-017","ngc","field_dialog","translate","ポケモンざっしが ならんでる！","摆着宝可梦杂志！","","ポケモンざっしが ならんでる！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-018-R01:U1","NGC-018-R01","NGC-018","ngc","field_dialog","translate","‥‥「ポケモンのとも」
+‥‥「ポケモン てちょう」","……《宝可梦之友》……《宝可梦手册》","","‥‥「ポケモンのとも」
+‥‥「ポケモン てちょう」","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-019-R01:U1","NGC-019-R01","NGC-019","ngc","field_dialog","translate","‥‥「ポケモン てちょう」
+‥‥「かわいい ポケモン」","……《宝可梦手册》……《可爱的宝可梦》","","‥‥「ポケモン てちょう」
+‥‥「かわいい ポケモン」","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-020-R01:U1","NGC-020-R01","NGC-020","ngc","field_dialog","translate","ここは トクサネ シティ
+「ポケモンを たいせつに！」が あいことば","这里是绿岭市，口号是“珍惜宝可梦！”","","ここは トクサネ シティ
+「ポケモンを たいせつに！」が あいことば","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-021-R01:U1","NGC-021-R01","NGC-021","ngc","field_dialog","translate","いし あつめて たのしいのかな？
+おれには わかんないや！","收集石头很有趣吗？我可不明白！","","いし あつめて たのしいのかな？
+おれには わかんないや！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-022-R01:U1","NGC-022-R01","NGC-022","ngc","field_dialog","translate","この トクサネの しゅうへん では
+やせいの ホエルコが けんぶつ できるんだ","在绿岭市附近，可以观察到野生的吼吼鲸。","","この トクサネの しゅうへん では
+やせいの ホエルコが けんぶつ できるんだ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-023-R01:U1","NGC-023-R01","NGC-023","ngc","field_dialog","translate","そーいうのを えーと‥‥
+なんて いったっけ かな‥‥","那个，嗯……那叫什么来着……","","そーいうのを えーと‥‥
+なんて いったっけ かな‥‥","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-024-R01:U1","NGC-024-R01","NGC-024","ngc","field_dialog","translate","ホエ ホエ ホエ‥‥","吼、吼、吼……","","ホエ ホエ ホエ‥‥","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-025-R01:U1","NGC-025-R01","NGC-025","ngc","field_dialog","translate","ホエルコ ウオッチング だ！","是观察吼吼鲸！","","ホエルコ ウオッチング だ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-026-R01:U1","NGC-026-R01","NGC-026","ngc","field_dialog","translate","おとうと ったら
+ともだちの ひみつきちに いって","我弟弟啊，总去朋友的秘密基地……","","おとうと ったら
+ともだちの ひみつきちに いって","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-027-R01:U1","NGC-027-R01","NGC-027","ngc","field_dialog","translate","ともだちの ひみつきちに いって
+ポケモンしょうぶを するのが","去朋友的秘密基地进行宝可梦对战……","","ともだちの ひみつきちに いって
+ポケモンしょうぶを するのが","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-028-R01:U1","NGC-028-R01","NGC-028","ngc","field_dialog","translate","ポケモンしょうぶを するのが
+たのしみ なんだって！","他说进行宝可梦对战就是他的乐趣！","","ポケモンしょうぶを するのが
+たのしみ なんだって！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-029-R01:U1","NGC-029-R01","NGC-029","ngc","field_dialog","translate","エネコロロ『みゃあん？","エネコロロ：“喵？”","","エネコロロ『みゃあん？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-030-R01:U1","NGC-030-R01","NGC-030","ngc","field_dialog","translate","きみ どこかに ひみつきち つくりなよ！
+ぼくが さがしだして みせるからさ","你也找个地方建秘密基地吧！我一定会找到它的。","","きみ どこかに ひみつきち つくりなよ！
+ぼくが さがしだして みせるからさ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-031-R01:U1","NGC-031-R01","NGC-031","ngc","field_dialog","translate","げんきのかけら って すごい！","活力碎片真厉害！","","げんきのかけら って すごい！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-032-R01:U1","NGC-032-R01","NGC-032","ngc","field_dialog","translate","これを あたえると
+ひんしの ポケモンも めざめるの！","给宝可梦使用后，就连濒死的宝可梦也会醒来！","","これを あたえると
+ひんしの ポケモンも めざめるの！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-033-R01:U1","NGC-033-R01","NGC-033","ngc","field_dialog","translate","でも パワーポイントは
+かいふく しないから きをつけて！","不过不会恢复招式点数，要注意哦！","","でも パワーポイントは
+かいふく しないから きをつけて！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-034-R01:U1","NGC-034-R01","NGC-034","ngc","field_dialog","translate","ネットボールと ダイブボールは
+ここ トクサネでしか つくっていない","捕网球和潜水球，只在这里绿岭市制造。","","ネットボールと ダイブボールは
+ここ トクサネでしか つくっていない","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-035-R01:U1","NGC-035-R01","NGC-035","ngc","field_dialog","translate","ここ トクサネでしか つくっていない
+めずらしい モンスターボール！","只在这里绿岭市制造的稀有精灵球！","","ここ トクサネでしか つくっていない
+めずらしい モンスターボール！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-036-R01:U1","NGC-036-R01","NGC-036","ngc","field_dialog","translate","ネットボールは むしタイプや
+みずタイプの ポケモンに こうかてき！","捕网球对虫属性和水属性的宝可梦很有效！","","ネットボールは むしタイプや
+みずタイプの ポケモンに こうかてき！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-037-R01:U1","NGC-037-R01","NGC-037","ngc","field_dialog","translate","ダイブボールは かいていに いる
+ポケモンを つかまえ やすいんだ！","潜水球很容易捕捉海底的宝可梦！","","ダイブボールは かいていに いる
+ポケモンを つかまえ やすいんだ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-038-R01:U1","NGC-038-R01","NGC-038","ngc","field_dialog","translate","ようこそ！","欢迎光临！","","ようこそ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-039-R01:U1","NGC-039-R01","NGC-039","ngc","field_dialog","translate","おかいもの ですね！","是来买东西的吧！","","おかいもの ですね！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-039-R02:U1","NGC-039-R02","NGC-039","ngc","shop_menu","translate","かいに きた","来买东西","","かいに きた","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-039-R02:U2","NGC-039-R02","NGC-039","ngc","shop_menu","translate","うりに きた","来卖东西","","うりに きた","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-039-R02:U3","NGC-039-R02","NGC-039","ngc","shop_menu","translate","なんでもないです","没什么事","","なんでもないです","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-040-R02:U1","NGC-040-R02","NGC-040","ngc","shop_list","translate","ハイパーボール 1200円","高级球 1200元","","ハイパーボール 1200円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-040-R02:U2","NGC-040-R02","NGC-040","ngc","shop_list","translate","ネットボール 1000円","捕网球 1000元","","ネットボール 1000円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-040-R02:U3","NGC-040-R02","NGC-040","ngc","shop_list","translate","ダイブボール 1000円","潜水球 1000元","","ダイブボール 1000円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-040-R02:U4","NGC-040-R02","NGC-040","ngc","shop_list","translate","すごいキズぐすり 1200円","厉害伤药 1200元","","すごいキズぐすり 1200円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-040-R02:U5","NGC-040-R02","NGC-040","ngc","shop_list","translate","なんでもなおし 600円","万灵药 600元","","なんでもなおし 600円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-040-R02:U6","NGC-040-R02","NGC-040","ngc","shop_list","translate","げんきのかけら 1500円","活力碎片 1500元","","げんきのかけら 1500円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-040-R02:U7","NGC-040-R02","NGC-040","ngc","shop_list","translate","ゴールドスプレー 700円","黄金喷雾 700元","","ゴールドスプレー 700円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-040-R02:U8","NGC-040-R02","NGC-040","ngc","shop_list","translate","プラスパワー 500円","力量强化 500元","","プラスパワー 500円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-040-R03:U1","NGC-040-R03","NGC-040","ngc","shop_description","translate","スーパーボール より
+つかまえ やすくなった
+とても すごい ボール","比超级球更容易捕捉宝可梦的非常出色的球。","","スーパーボール より
+つかまえ やすくなった
+とても すごい ボール","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-041-R02:U1","NGC-041-R02","NGC-041","ngc","shop_list","translate","ダイブボール 1000円","潜水球 1000元","","ダイブボール 1000円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-041-R02:U2","NGC-041-R02","NGC-041","ngc","shop_list","translate","すごいキズぐすり 1200円","厉害伤药 1200元","","すごいキズぐすり 1200円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-041-R02:U3","NGC-041-R02","NGC-041","ngc","shop_list","translate","なんでもなおし 600円","万灵药 600元","","なんでもなおし 600円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-041-R02:U4","NGC-041-R02","NGC-041","ngc","shop_list","translate","げんきのかけら 1500円","活力碎片 1500元","","げんきのかけら 1500円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-041-R02:U5","NGC-041-R02","NGC-041","ngc","shop_list","translate","ゴールドスプレー 700円","黄金喷雾 700元","","ゴールドスプレー 700円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-041-R02:U6","NGC-041-R02","NGC-041","ngc","shop_list","translate","プラスパワー 500円","力量强化 500元","","プラスパワー 500円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-041-R02:U7","NGC-041-R02","NGC-041","ngc","shop_list","translate","ディフェンダー 550円","防御强化 550元","","ディフェンダー 550円","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-041-R02:U8","NGC-041-R02","NGC-041","ngc","shop_list","translate","やめる","取消","","やめる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-041-R03:U1","NGC-041-R03","NGC-041","ngc","shop_description","translate","かいもの を やめます","结束购物。","","かいもの を やめます","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-042-R01:U1","NGC-042-R01","NGC-042","ngc","field_dialog","translate","ゴールドスプレーは
+よわい ポケモンを よせつけない","黄金喷雾能让弱小的宝可梦不靠近。","","ゴールドスプレーは
+よわい ポケモンを よせつけない","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-043-R01:U1","NGC-043-R01","NGC-043","ngc","field_dialog","translate","かずある スプレーの なかで
+いちばん ながもち するんだ！","在各种喷雾中，它持续的时间最长！","","かずある スプレーの なかで
+いちばん ながもち するんだ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-044-R01:U1","NGC-044-R01","NGC-044","ngc","field_dialog","translate","ここまでの かつやくを
+ポケモンレポートに かきこみますか？","要把目前的冒险经历写入宝可梦记录吗？","","ここまでの かつやくを
+ポケモンレポートに かきこみますか？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-044-R03:U1","NGC-044-R03","NGC-044","ngc","save_summary","translate","トクサネシティ
+しゅじんこう ハルカ
+もっているバッジ 8こ
+ポケモンずかん 63ひき
+プレイじかん 30:12","绿岭市
+主角 ハルカ
+持有徽章 8枚
+宝可梦图鉴 63只
+游戏时间 30:12","","トクサネシティ
+しゅじんこう ハルカ
+もっているバッジ 8こ
+ポケモンずかん 63ひき
+プレイじかん 30:12","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-045-R01:U1","NGC-045-R01","NGC-045","ngc","field_dialog","translate","ミナモの なかま から
+ホエルコが いなくなった！ って","水静市的伙伴说，吼吼鲸不见了……","","ミナモの なかま から
+ホエルコが いなくなった！ って","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-046-R01:U1","NGC-046-R01","NGC-046","ngc","field_dialog","translate","ホエルコが いなくなった！ って
+れんらくが あったんだ","有人联络我，说吼吼鲸不见了。","","ホエルコが いなくなった！ って
+れんらくが あったんだ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-047-R01:U1","NGC-047-R01","NGC-047","ngc","field_dialog","translate","いったいぜんたい
+ミナモで なにが あったんだろうな？","水静市到底发生了什么事呢？","","いったいぜんたい
+ミナモで なにが あったんだろうな？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-048-R01:U1","NGC-048-R01","NGC-048","ngc","field_dialog","translate","とびらには かぎが かかって いるようだ！","门好像锁住了！","","とびらには かぎが かかって いるようだ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-049-R01:U1","NGC-049-R01","NGC-049","ngc","field_dialog","translate","わしも わかいころは
+ポケモン トレーナーとして","我年轻时，也曾作为宝可梦训练家……","","わしも わかいころは
+ポケモン トレーナーとして","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-050-R01:U1","NGC-050-R01","NGC-050","ngc","field_dialog","translate","ポケモン トレーナーとして
+せかいじゅうを たび していたのじゃ","曾作为宝可梦训练家周游世界。","","ポケモン トレーナーとして
+せかいじゅうを たび していたのじゃ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-051-R01:U1","NGC-051-R01","NGC-051","ngc","field_dialog","translate","ジジイとなった いまでは
+わかい トレーナーの しょうぶを みるのが","如今成了老头，看年轻训练家对战……","","ジジイとなった いまでは
+わかい トレーナーの しょうぶを みるのが","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-052-R01:U1","NGC-052-R01","NGC-052","ngc","field_dialog","translate","わかい トレーナーの しょうぶを みるのが
+ゆいいつの たのしみ じゃ","看年轻训练家对战，是我唯一的乐趣。","","わかい トレーナーの しょうぶを みるのが
+ゆいいつの たのしみ じゃ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-053-R01:U1","NGC-053-R01","NGC-053","ngc","field_dialog","translate","いのちの みなもとは うみから うまれて
+りくに あがって きた","生命的起源诞生于海洋，后来登上了陆地。","","いのちの みなもとは うみから うまれて
+りくに あがって きた","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-054-R01:U1","NGC-054-R01","NGC-054","ngc","field_dialog","translate","やくめを おえた いのちは
+つち となって だいちに かえって いく","完成使命的生命化为泥土，回归大地。","","やくめを おえた いのちは
+つち となって だいちに かえって いく","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-055-R01:U1","NGC-055-R01","NGC-055","ngc","field_dialog","translate","そして うみと だいちは
+いつでも つながって いる‥‥","而海洋和大地，始终相连……","","そして うみと だいちは
+いつでも つながって いる‥‥","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-056-R01:U1","NGC-056-R01","NGC-056","ngc","field_dialog","translate","そう この かいがんせんの ようにな","没错，就像这条海岸线一样。","","そう この かいがんせんの ようにな","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-057-R01:U1","NGC-057-R01","NGC-057","ngc","field_dialog","translate","ね！ ね！ すごいでしょ！
+みずの うえに おうちが たってるの！","喂！喂！很厉害吧！房子建在水面上！","","ね！ ね！ すごいでしょ！
+みずの うえに おうちが たってるの！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-058-R01:U1","NGC-058-R01","NGC-058","ngc","field_dialog","translate","ぼく ここで うまれたんだよ！","我就是在这里出生的！","","ぼく ここで うまれたんだよ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-059-R01:U1","NGC-059-R01","NGC-059","ngc","field_dialog","translate","ここは キナギ タウン
+あさひが みずべを てらす まち","这里是暮水镇，朝阳照耀水边的城镇。","","ここは キナギ タウン
+あさひが みずべを てらす まち","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-060-R01:U1","NGC-060-R01","NGC-060","ngc","field_dialog","translate","キナギの にんげんは
+みんな つりをしたり もぐったりして","暮水镇的人，大家都靠钓鱼和潜水……","","キナギの にんげんは
+みんな つりをしたり もぐったりして","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-061-R01:U1","NGC-061-R01","NGC-061","ngc","field_dialog","translate","みんな つりをしたり もぐったりして
+せいかつ してるんだな","大家都是靠钓鱼和潜水生活的。","","みんな つりをしたり もぐったりして
+せいかつ してるんだな","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-062-R01:U1","NGC-062-R01","NGC-062","ngc","field_dialog","translate","ホウエンちほう には
+いわ‥‥ こおり‥‥ はがね‥‥","在丰缘地区，岩石……冰……钢……","","ホウエンちほう には
+いわ‥‥ こおり‥‥ はがね‥‥","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-063-R01:U1","NGC-063-R01","NGC-063","ngc","field_dialog","translate","それぞれの ちからを つかさどる
+3びきの ポケモンが","掌管各种力量的3只宝可梦……","","それぞれの ちからを つかさどる
+3びきの ポケモンが","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-064-R01:U1","NGC-064-R01","NGC-064","ngc","field_dialog","translate","3びきの ポケモンが
+それぞれ どこかの どうくつに いる‥‥","3只宝可梦，分别住在某处洞窟里……","","3びきの ポケモンが
+それぞれ どこかの どうくつに いる‥‥","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-065-R01:U1","NGC-065-R01","NGC-065","ngc","field_dialog","translate","おれ ちいさな ころに
+そんな はなしを きいたことが あるよ","我小时候听过这样的传说。","","おれ ちいさな ころに
+そんな はなしを きいたことが あるよ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-066-R01:U1","NGC-066-R01","NGC-066","ngc","field_dialog","translate","「むっつの てんが
+みっつの とびらを あける」","“六个点，打开三扇门。”","","「むっつの てんが
+みっつの とびらを あける」","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-067-R01:U1","NGC-067-R01","NGC-067","ngc","field_dialog","translate","おじいちゃんが よく いっていたけど
+いまだに なんのことだか わからないわ","爷爷以前常这么说，但我到现在还是不懂是什么意思。","","おじいちゃんが よく いっていたけど
+いまだに なんのことだか わからないわ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-068-R07:U1","NGC-068-R07","NGC-068","ngc","party_short_prompt","translate","レックウザを どうする？","要对レックウザ做什么？","","レックウザを どうする？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-068-R08:U1","NGC-068-R08","NGC-068","ngc","party_field_action","translate","そらをとぶ","飞翔","飞翔","飞翔","static_record_available","strict_equal","true",""
+"NGC-068-R08:U2","NGC-068-R08","NGC-068","ngc","party_field_action","translate","つよさをみる","查看能力","","つよさをみる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-068-R08:U3","NGC-068-R08","NGC-068","ngc","party_field_action","translate","ならびかえ","交换位置","","ならびかえ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-068-R08:U4","NGC-068-R08","NGC-068","ngc","party_field_action","translate","もちもの","携带物品","道具","道具","static_record_available","equivalent","true",""
+"NGC-068-R08:U5","NGC-068-R08","NGC-068","ngc","party_field_action","translate","やめる","取消","","やめる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-069-R07:U1","NGC-069-R07","NGC-069","ngc","party_prompt","translate","ポケモンを えらんで ください","请选择宝可梦。","","ポケモンを えらんで ください","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-070-R01:U1","NGC-070-R01","NGC-070","ngc","field_dialog","translate","あんた しってるかい？","你知道吗？","","あんた しってるかい？","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-071-R01:U1","NGC-071-R01","NGC-071","ngc","field_dialog","translate","だれかが アクアだんを
+けちらしてくれた らしいんだ！","听说有人把海洋队打跑了！","","だれかが アクアだんを
+けちらしてくれた らしいんだ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-072-R01:U1","NGC-072-R01","NGC-072","ngc","field_dialog","translate","おかげで ホエルコ いなくなって
+うみに でられるように なったよ！","多亏如此，吼吼鲸不见了，可以出海了！","","おかげで ホエルコ いなくなって
+うみに でられるように なったよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-073-R01:U1","NGC-073-R01","NGC-073","ngc","field_dialog","translate","わしは ポロックを
+つくるのが だいすきで","我最喜欢制作宝可方块……","","わしは ポロックを
+つくるのが だいすきで","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-074-R01:U1","NGC-074-R01","NGC-074","ngc","field_dialog","translate","いつも きのみを
+もって きてるんだ","所以总是带着树果。","","いつも きのみを
+もって きてるんだ","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-075-R01:U1","NGC-075-R01","NGC-075","ngc","field_dialog","translate","もし よかったら
+いっしょに きのみブレンダーで","如果愿意的话，一起使用树果混合器……","","もし よかったら
+いっしょに きのみブレンダーで","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-076-R01:U1","NGC-076-R01","NGC-076","ngc","field_dialog","translate","いっしょに きのみブレンダーで
+ポロックを つくろうや","一起用树果混合器制作宝可方块吧。","","いっしょに きのみブレンダーで
+ポロックを つくろうや","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-077-R01:U1","NGC-077-R01","NGC-077","ngc","field_dialog","translate","お！ おじさんと いっしょに
+ポロックを つくりたいのかい？","哦！想和大叔一起制作宝可方块吗？","","お！ おじさんと いっしょに
+ポロックを つくりたいのかい？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-078-R01:U1","NGC-078-R01","NGC-078","ngc","field_dialog","translate","そうか！","这样啊！","","そうか！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-079-R01:U1","NGC-079-R01","NGC-079","ngc","field_dialog","translate","じゃあ ポロックの つくりかたは
+もう しってるかい？","那么，你已经知道宝可方块的制作方法了吗？","","じゃあ ポロックの つくりかたは
+もう しってるかい？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-080-R01:U1","NGC-080-R01","NGC-080","ngc","field_dialog","translate","じゃあ はじめるぞ！","那么开始吧！","","じゃあ はじめるぞ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-081-R01:U1","NGC-081-R01","NGC-081","ngc","field_dialog","translate","レッツ きのみブレンダー！！","来吧，树果混合器！","","レッツ きのみブレンダー！！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-082-R05:U1","NGC-082-R05","NGC-082","ngc","blender_message","translate","きのみブレンダーを きどうします","启动树果混合器。","","きのみブレンダーを きどうします","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-083-R05:U1","NGC-083-R05","NGC-083","ngc","blender_message","translate","バッグから きのみブレンダーに いれる
+きのみを えらんでください","请从背包里选择放入树果混合器的树果。","","バッグから きのみブレンダーに いれる
+きのみを えらんでください","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-084-R01:U1","NGC-084-R01","NGC-084","ngc","bag_list","translate","No01クラボのみ × 9","No01樱子果 × 9","","No01クラボのみ × 9","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-084-R01:U2","NGC-084-R01","NGC-084","ngc","bag_list","translate","No02カゴのみ × 7","No02零余果 × 7","","No02カゴのみ × 7","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-084-R01:U3","NGC-084-R01","NGC-084","ngc","bag_list","translate","No03モモンのみ × 14","No03桃桃果 × 14","","No03モモンのみ × 14","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-084-R01:U4","NGC-084-R01","NGC-084","ngc","bag_list","translate","No04チーゴのみ × 6","No04莓莓果 × 6","","No04チーゴのみ × 6","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-084-R01:U5","NGC-084-R01","NGC-084","ngc","bag_list","translate","No05ナナシのみ × 8","No05利木果 × 8","","No05ナナシのみ × 8","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-084-R01:U6","NGC-084-R01","NGC-084","ngc","bag_list","translate","No06ヒメリのみ × 6","No06苹野果 × 6","","No06ヒメリのみ × 6","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-084-R01:U7","NGC-084-R01","NGC-084","ngc","bag_list","translate","No07オレンのみ × 3","No07橙橙果 × 3","","No07オレンのみ × 3","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-084-R01:U8","NGC-084-R01","NGC-084","ngc","bag_list","translate","No08キーのみ × 9","No08柿仔果 × 9","","No08キーのみ × 9","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-084-R02:U1","NGC-084-R02","NGC-084","ngc","bag_action","translate","けってい","确定","","けってい","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-084-R02:U2","NGC-084-R02","NGC-084","ngc","bag_action","translate","タグをみる","查看标签","","タグをみる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-084-R02:U3","NGC-084-R02","NGC-084","ngc","bag_action","translate","やめる","取消","","やめる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-084-R03:U1","NGC-084-R03","NGC-084","ngc","bag_prompt","translate","どうしますか？","要怎么做？","","どうしますか？","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-085-R01:U1","NGC-085-R01","NGC-085","ngc","bag_category","translate","きのみ","树果","","きのみ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-085-R02:U1","NGC-085-R02","NGC-085","ngc","bag_list","translate","No01クラボのみ × 9","No01樱子果 × 9","","No01クラボのみ × 9","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-085-R02:U2","NGC-085-R02","NGC-085","ngc","bag_list","translate","No02カゴのみ × 7","No02零余果 × 7","","No02カゴのみ × 7","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-085-R02:U3","NGC-085-R02","NGC-085","ngc","bag_list","translate","No03モモンのみ × 14","No03桃桃果 × 14","","No03モモンのみ × 14","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-085-R02:U4","NGC-085-R02","NGC-085","ngc","bag_list","translate","No04チーゴのみ × 6","No04莓莓果 × 6","","No04チーゴのみ × 6","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-085-R02:U5","NGC-085-R02","NGC-085","ngc","bag_list","translate","No05ナナシのみ × 8","No05利木果 × 8","","No05ナナシのみ × 8","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-085-R02:U6","NGC-085-R02","NGC-085","ngc","bag_list","translate","No06ヒメリのみ × 6","No06苹野果 × 6","","No06ヒメリのみ × 6","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-085-R02:U7","NGC-085-R02","NGC-085","ngc","bag_list","translate","No07オレンのみ × 3","No07橙橙果 × 3","","No07オレンのみ × 3","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-085-R02:U8","NGC-085-R02","NGC-085","ngc","bag_list","translate","No08キーのみ × 9","No08柿仔果 × 9","","No08キーのみ × 9","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-085-R03:U1","NGC-085-R03","NGC-085","ngc","bag_description","translate","もたせると じぶんで
+まひ じょうたいを
+かいふくする","携带后可以自行解除麻痹状态。","","もたせると じぶんで
+まひ じょうたいを
+かいふくする","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-086-R05:U1","NGC-086-R05","NGC-086","ngc","berry_tag_description","translate","とても かわいい はなが さく。
+まっかな みは とても からい。","会开出非常可爱的花。鲜红的果实非常辣。","","とても かわいい はなが さく。
+まっかな みは とても からい。","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-088-R05:U1","NGC-088-R05","NGC-088","ngc","blender_message","translate","あかいポロック ができた！
+レベル11で なめらかさは21だ","做出了红色宝可方块！等级为11，细腻度为21。","","あかいポロック ができた！
+レベル11で なめらかさは21だ","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-089-R05:U1","NGC-089-R05","NGC-089","ngc","blender_message","translate","もういちど きのみを まぜますか？","还要再混合一次树果吗？","","もういちど きのみを まぜますか？","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-090-R05:U1","NGC-090-R05","NGC-090","ngc","blender_message","translate","きのみブレンダーを きどうします","启动树果混合器。","","きのみブレンダーを きどうします","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-091-R05:U1","NGC-091-R05","NGC-091","ngc","blender_message","translate","バッグから きのみブレンダーに いれる
+きのみを えらんでください","请从背包里选择放入树果混合器的树果。","","バッグから きのみブレンダーに いれる
+きのみを えらんでください","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-093-R05:U1","NGC-093-R05","NGC-093","ngc","blender_message","translate","ももいろポロック ができた！
+レベル11で なめらかさは21だ","做出了粉红色宝可方块！等级为11，细腻度为21。","","ももいろポロック ができた！
+レベル11で なめらかさは21だ","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-094-R05:U1","NGC-094-R05","NGC-094","ngc","blender_message","translate","もういちど きのみを まぜますか？","还要再混合一次树果吗？","","もういちど きのみを まぜますか？","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-095-R01:U1","NGC-095-R01","NGC-095","ngc","block_title","translate","ポロックケース","宝可方块盒","","ポロックケース","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-095-R02:U1","NGC-095-R02","NGC-095","ngc","block_list","translate","あかいポロック Lv11","红色宝可方块 Lv11","","あかいポロック Lv11","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-095-R02:U2","NGC-095-R02","NGC-095","ngc","block_list","translate","ももいろポロック Lv11","粉红色宝可方块 Lv11","","ももいろポロック Lv11","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-095-R02:U3","NGC-095-R02","NGC-095","ngc","block_list","translate","ケースをしまう","收起方块盒","","ケースをしまう","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-095-R05:U1","NGC-095-R05","NGC-095","ngc","field_dialog","translate","ももいろポロックを
+すてても よろしいですか？","确定要丢弃粉红色宝可方块吗？","","ももいろポロックを
+すてても よろしいですか？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-096-R01:U1","NGC-096-R01","NGC-096","ngc","condition_title","translate","コンディション","状态","","コンディション","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-096-R02:U1","NGC-096-R02","NGC-096","ngc","condition_identity","retain_name_or_translate","ラグラージ ♂/Lv46","ラグラージ ♂/Lv46","","ラグラージ ♂/Lv46","not_in_static_pack","legal_name_retention","true","name_or_dynamic_template_unavailable"
+"NGC-096-R03:U1","NGC-096-R03","NGC-096","ngc","condition_graph","translate","かっこよさ
+たくましさ うつくしさ
+かしこさ かわいさ
+FEEL","帅气
+强壮 美丽
+聪明 可爱
+FEEL","","かっこよさ
+たくましさ うつくしさ
+かしこさ かわいさ
+FEEL","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-096-R04:U1","NGC-096-R04","NGC-096","ngc","condition_hint","translate","せいかく/がんばりや","性格/勤奋","","せいかく/がんばりや","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-097-R01:U1","NGC-097-R01","NGC-097","ngc","condition_title","translate","コンディション","状态","","コンディション","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-097-R02:U1","NGC-097-R02","NGC-097","ngc","condition_identity","retain_name_or_translate","ラグラージ ♂/Lv46","ラグラージ ♂/Lv46","","ラグラージ ♂/Lv46","not_in_static_pack","legal_name_retention","true","name_or_dynamic_template_unavailable"
+"NGC-097-R04:U1","NGC-097-R04","NGC-097","ngc","condition_hint","translate","せいかく/がんばりや","性格/勤奋","","せいかく/がんばりや","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-097-R05:U1","NGC-097-R05","NGC-097","ngc","condition_message","translate","ラグラージに ポロックを あげますか？","要给ラグラージ吃宝可方块吗？","","ラグラージに ポロックを あげますか？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-098-R01:U1","NGC-098-R01","NGC-098","ngc","blender_message","translate","ラグラージは あかいポロックを
+たべた！","ラグラージ吃下了红色宝可方块！","","ラグラージは あかいポロックを
+たべた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-099-R01:U1","NGC-099-R01","NGC-099","ngc","condition_title","translate","コンディション","状态","","コンディション","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-099-R02:U1","NGC-099-R02","NGC-099","ngc","condition_identity","retain_name_or_translate","ラグラージ ♂/Lv46","ラグラージ ♂/Lv46","","ラグラージ ♂/Lv46","not_in_static_pack","legal_name_retention","true","name_or_dynamic_template_unavailable"
+"NGC-099-R04:U1","NGC-099-R04","NGC-099","ngc","condition_hint","translate","せいかく/がんばりや","性格/勤奋","","せいかく/がんばりや","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-099-R05:U1","NGC-099-R05","NGC-099","ngc","condition_message","translate","かっこよさに みがきが かかった！","帅气度得到了提升！","","かっこよさに みがきが かかった！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-100-R01:U1","NGC-100-R01","NGC-100","ngc","field_dialog","translate","ポケモンを つかまえに いくの？
+がんばってね！","要去捕捉宝可梦吗？加油哦！","","ポケモンを つかまえに いくの？
+がんばってね！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-101-R01:U1","NGC-101-R01","NGC-101","ngc","field_dialog","translate","「ハルカの いえ」","“ハルカ的家”","","「ハルカの いえ」","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-102-R01:U1","NGC-102-R01","NGC-102","ngc","field_dialog","translate","「オダマキ はかせの いえ」","“小田卷博士的家”","","「オダマキ はかせの いえ」","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-103-R01:U1","NGC-103-R01","NGC-103","ngc","field_dialog","translate","パソコンを つかえば
+どうぐや ポケモンが ほぞん できるんだ！","使用电脑，就可以寄存道具和宝可梦！","","パソコンを つかえば
+どうぐや ポケモンが ほぞん できるんだ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-104-R01:U1","NGC-104-R01","NGC-104","ngc","field_dialog","translate","かがくの ちからって しびれるーっ！","科学的力量真让人震撼！","","かがくの ちからって しびれるーっ！","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-105-R01:U1","NGC-105-R01","NGC-105","ngc","field_dialog","translate","「オダマキ ポケモン けんきゅうじょ」","“小田卷宝可梦研究所”","","「オダマキ ポケモン けんきゅうじょ」","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-106-R01:U1","NGC-106-R01","NGC-106","ngc","field_dialog","translate","ずーっと けんきゅうしつに こもって
+しらべものを しているかと おもえば","本以为他一直待在研究所里做研究……","","ずーっと けんきゅうしつに こもって
+しらべものを しているかと おもえば","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-107-R01:U1","NGC-107-R01","NGC-107","ngc","field_dialog","translate","しらべものを しているかと おもえば
+とつぜん のやまに とびだしていく‥‥","本以为他在做研究，却突然跑到野外去了……","","しらべものを しているかと おもえば
+とつぜん のやまに とびだしていく‥‥","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-108-R01:U1","NGC-108-R01","NGC-108","ngc","field_dialog","translate","オダマキはかせって いったい
+いつ うちに かえっているんだろう？","小田卷博士到底什么时候回家呢？","","オダマキはかせって いったい
+いつ うちに かえっているんだろう？","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-109-R01:U1","NGC-109-R01","NGC-109","ngc","field_dialog","translate","ポケモンと いっしょに
+ぼうけん するのも いいけど","和宝可梦一起冒险当然很好，不过……","","ポケモンと いっしょに
+ぼうけん するのも いいけど","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-110-R01:U1","NGC-110-R01","NGC-110","ngc","field_dialog","translate","たまには おうちに かえって おかあさんに
+げんきな かおを みせてあげてね！","偶尔也回家，让妈妈看看你精神的样子吧！","","たまには おうちに かえって おかあさんに
+げんきな かおを みせてあげてね！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-111-R01:U1","NGC-111-R01","NGC-111","ngc","field_dialog","translate","こころの なかでは きっと
+ハルカちゃんの こと","她心里一定在想着ハルカ……","","こころの なかでは きっと
+ハルカちゃんの こと","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-112-R01:U1","NGC-112-R01","NGC-112","ngc","field_dialog","translate","ハルカちゃんの こと
+しんぱい してる はずだから‥‥","她一定在担心ハルカ……","","ハルカちゃんの こと
+しんぱい してる はずだから‥‥","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-113-R02:U1","NGC-113-R02","NGC-113","ngc","battle_message","translate","あ！ やせいの
+ケムッソが とびだしてきた！","啊！野生的ケムッソ跳出来了！","","あ！ やせいの
+ケムッソが とびだしてきた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-114-R02:U1","NGC-114-R02","NGC-114","ngc","battle_message","translate","ゆけっ！ ラグラージ！","去吧！ラグラージ！","","ゆけっ！ ラグラージ！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-115-R03:U1","NGC-115-R03","NGC-115","ngc","battle_prompt","translate","ラグラージは どうする？","ラグラージ要做什么？","","ラグラージは どうする？","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-115-R04:U1","NGC-115-R04","NGC-115","ngc","battle_action","translate","たたかう","战斗","","たたかう","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-115-R04:U2","NGC-115-R04","NGC-115","ngc","battle_action","translate","バッグ","背包","包包","包包","static_record_available","equivalent","true",""
+"NGC-115-R04:U3","NGC-115-R04","NGC-115","ngc","battle_action","translate","ポケモン","宝可梦","宝可梦","宝可梦","static_record_available","strict_equal","true",""
+"NGC-115-R04:U4","NGC-115-R04","NGC-115","ngc","battle_action","translate","にげる","逃跑","","にげる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-116-R03:U1","NGC-116-R03","NGC-116","ngc","battle_moves","translate","マッドショット","泥巴射击","","マッドショット","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-116-R03:U2","NGC-116-R03","NGC-116","ngc","battle_moves","translate","れいとうビーム","冰冻光束","","れいとうビーム","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-116-R03:U3","NGC-116-R03","NGC-116","ngc","battle_moves","translate","たきのぼり","攀瀑","攀瀑","攀瀑","static_record_available","strict_equal","true",""
+"NGC-116-R03:U4","NGC-116-R03","NGC-116","ngc","battle_moves","translate","どろかけ","掷泥","","どろかけ","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-116-R04:U1","NGC-116-R04","NGC-116","ngc","battle_move_meta","translate","PP 15/15
+わざタイプ/じめん","PP 15/15
+招式属性/地面","","PP 15/15
+わざタイプ/じめん","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-117-R03:U1","NGC-117-R03","NGC-117","ngc","battle_message","translate","ラグラージの
+マッドショット！","ラグラージ使出了泥巴射击！","","ラグラージの
+マッドショット！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-118-R03:U1","NGC-118-R03","NGC-118","ngc","battle_message","translate","こうかは いまひとつの ようだ","好像效果不太好。","好像效果不好...","好像效果不好...","static_record_available","equivalent","true",""
+"NGC-119-R02:U1","NGC-119-R02","NGC-119","ngc","battle_message","translate","やせいの ケムッソは たおれた！","野生的ケムッソ倒下了！","","やせいの ケムッソは たおれた！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-120-R02:U1","NGC-120-R02","NGC-120","ngc","battle_message","translate","ラグラージは
+15 けいけんちを もらった！","ラグラージ获得了15点经验值！","","ラグラージは
+15 けいけんちを もらった！","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-121-R01:U1","NGC-121-R01","NGC-121","ngc","field_dialog","translate","やせいの ポケモンは
+くさむらから とびだしてくる からな！","野生宝可梦会从草丛里跳出来！","","やせいの ポケモンは
+くさむらから とびだしてくる からな！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-122-R01:U1","NGC-122-R01","NGC-122","ngc","field_dialog","translate","こうして くさむらの なかに はいって
+つかまえたい ポケモンを さがすんだよ！","像这样走进草丛，寻找想捉的宝可梦！","","こうして くさむらの なかに はいって
+つかまえたい ポケモンを さがすんだよ！","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-123-R04:U1","NGC-123-R04","NGC-123","ngc","summary_personal","translate","パーソナル
+おや/ハルカ IDNo58333
+タイプ/みず じめん","个人资料
+初训家/ハルカ IDNo58333
+属性/水 地面","","パーソナル
+おや/ハルカ IDNo58333
+タイプ/みず じめん","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-123-R05:U1","NGC-123-R05","NGC-123","ngc","summary_ability","translate","とくせい
+げきりゅう
+ピンチに みずの いりょくが あがる","特性
+激流
+危急时水属性招式的威力提高。","","とくせい
+げきりゅう
+ピンチに みずの いりょくが あがる","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-123-R06:U1","NGC-123-R06","NGC-123","ngc","summary_memo","translate","トレーナーメモ
+がんばりやなせいかく Lv5のとき
+101ばん どうろで であった","训练家笔记
+勤奋的性格。Lv5时，
+在101号道路相遇。","","トレーナーメモ
+がんばりやなせいかく Lv5のとき
+101ばん どうろで であった","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-124-R03:U1","NGC-124-R03","NGC-124","ngc","summary_item","translate","もちもの
+なし","携带物品
+无","","もちもの
+なし","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-124-R04:U1","NGC-124-R04","NGC-124","ngc","summary_ribbon","translate","リボン
+げんざい 1こ","奖章
+当前 1枚","","リボン
+げんざい 1こ","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-124-R05:U1","NGC-124-R05","NGC-124","ngc","summary_stats","translate","のうりょく
+HP 153/153 とくこう 99
+こうげき 125 とくぼう 91
+ぼうぎょ 102 すばやさ 68","能力
+HP 153/153 特攻 99
+攻击 125 特防 91
+防御 102 速度 68","","のうりょく
+HP 153/153 とくこう 99
+こうげき 125 とくぼう 91
+ぼうぎょ 102 すばやさ 68","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-124-R06:U1","NGC-124-R06","NGC-124","ngc","summary_experience","translate","けいけんち
+げんざいのけいけんち 90838
+レベルアップまで あと 5174
+EXP","经验值
+当前经验值 90838
+距离升级还需 5174
+EXP","","けいけんち
+げんざいのけいけんち 90838
+レベルアップまで あと 5174
+EXP","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-125-R04:U1","NGC-125-R04","NGC-125","ngc","summary_battle_moves","translate","おぼえているわざ
+じめん マッドショット PP15/15
+こおり れいとうビーム PP10/10
+みず たきのぼり PP15/15
+じめん どろかけ PP9/10","已学会的招式
+地面 泥巴射击 PP15/15
+冰 冰冻光束 PP10/10
+水 攀瀑 PP15/15
+地面 掷泥 PP9/10","","おぼえているわざ
+じめん マッドショット PP15/15
+こおり れいとうビーム PP10/10
+みず たきのぼり PP15/15
+じめん どろかけ PP9/10","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-125-R05:U1","NGC-125-R05","NGC-125","ngc","summary_move_description","translate","せつめい","说明","","せつめい","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-126-R04:U1","NGC-126-R04","NGC-126","ngc","summary_battle_moves","translate","おぼえているわざ
+じめん マッドショット PP15/15
+こおり れいとうビーム PP10/10
+みず たきのぼり PP15/15
+じめん どろかけ PP9/10
+もどる","已学会的招式
+地面 泥巴射击 PP15/15
+冰 冰冻光束 PP10/10
+水 攀瀑 PP15/15
+地面 掷泥 PP9/10
+返回","","おぼえているわざ
+じめん マッドショット PP15/15
+こおり れいとうビーム PP10/10
+みず たきのぼり PP15/15
+じめん どろかけ PP9/10
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-126-R05:U1","NGC-126-R05","NGC-126","ngc","summary_move_description","translate","せつめい
+どろを なげつけて こうげき
+すばやさを さげさせる","说明
+投掷泥巴攻击，使速度降低。","","せつめい
+どろを なげつけて こうげき
+すばやさを さげさせる","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-127-R04:U1","NGC-127-R04","NGC-127","ngc","summary_battle_moves","translate","おぼえているわざ
+じめん マッドショット PP15/15
+こおり れいとうビーム PP10/10
+みず たきのぼり PP15/15
+じめん どろかけ PP9/10
+もどる","已学会的招式
+地面 泥巴射击 PP15/15
+冰 冰冻光束 PP10/10
+水 攀瀑 PP15/15
+地面 掷泥 PP9/10
+返回","","おぼえているわざ
+じめん マッドショット PP15/15
+こおり れいとうビーム PP10/10
+みず たきのぼり PP15/15
+じめん どろかけ PP9/10
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-127-R05:U1","NGC-127-R05","NGC-127","ngc","summary_move_description","translate","せつめい
+たきを さかのぼるような いきおいで
+てきに とっしんする","说明
+以攀登瀑布般的气势冲向对手。","","せつめい
+たきを さかのぼるような いきおいで
+てきに とっしんする","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-128-R04:U1","NGC-128-R04","NGC-128","ngc","summary_contest_moves","translate","おぼえているわざ
+たくましさ マッドショット PP15/15
+うつくしさ れいとうビーム PP10/10
+たくましさ たきのぼり PP15/15
+かわいさ どろかけ PP9/10","已学会的招式
+强壮 泥巴射击 PP15/15
+美丽 冰冻光束 PP10/10
+强壮 攀瀑 PP15/15
+可爱 掷泥 PP9/10","","おぼえているわざ
+たくましさ マッドショット PP15/15
+うつくしさ れいとうビーム PP10/10
+たくましさ たきのぼり PP15/15
+かわいさ どろかけ PP9/10","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-128-R05:U1","NGC-128-R05","NGC-128","ngc","summary_contest_description","translate","せつめい","说明","","せつめい","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-129-R04:U1","NGC-129-R04","NGC-129","ngc","summary_contest_moves","translate","おぼえているわざ
+たくましさ マッドショット PP15/15
+うつくしさ れいとうビーム PP10/10
+たくましさ たきのぼり PP15/15
+かわいさ どろかけ PP9/10
+もどる","已学会的招式
+强壮 泥巴射击 PP15/15
+美丽 冰冻光束 PP10/10
+强壮 攀瀑 PP15/15
+可爱 掷泥 PP9/10
+返回","","おぼえているわざ
+たくましさ マッドショット PP15/15
+うつくしさ れいとうビーム PP10/10
+たくましさ たきのぼり PP15/15
+かわいさ どろかけ PP9/10
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-129-R05:U1","NGC-129-R05","NGC-129","ngc","summary_contest_description","translate","せつめい
+おなじ タイプの アピールを した
+ポケモンを とくに おどろかす","说明
+特别惊吓做了相同类型表演的宝可梦。","","せつめい
+おなじ タイプの アピールを した
+ポケモンを とくに おどろかす","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-129-R06:U1","NGC-129-R06","NGC-129","ngc","summary_contest_effect","translate","こうか
+アピール
+ぼうがい","效果
+表演
+妨碍","","こうか
+アピール
+ぼうがい","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-130-R04:U1","NGC-130-R04","NGC-130","ngc","summary_contest_moves","translate","おぼえているわざ
+たくましさ マッドショット PP15/15
+うつくしさ れいとうビーム PP10/10
+たくましさ たきのぼり PP15/15
+かわいさ どろかけ PP9/10
+もどる","已学会的招式
+强壮 泥巴射击 PP15/15
+美丽 冰冻光束 PP10/10
+强壮 攀瀑 PP15/15
+可爱 掷泥 PP9/10
+返回","","おぼえているわざ
+たくましさ マッドショット PP15/15
+うつくしさ れいとうビーム PP10/10
+たくましさ たきのぼり PP15/15
+かわいさ どろかけ PP9/10
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-130-R05:U1","NGC-130-R05","NGC-130","ngc","summary_contest_description","translate","せつめい
+しんさいんに ちゅうもく されている
+ポケモンを とくに おどろかす","说明
+特别惊吓受到评审关注的宝可梦。","","せつめい
+しんさいんに ちゅうもく されている
+ポケモンを とくに おどろかす","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-130-R06:U1","NGC-130-R06","NGC-130","ngc","summary_contest_effect","translate","こうか
+アピール
+ぼうがい","效果
+表演
+妨碍","","こうか
+アピール
+ぼうがい","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-131-R04:U1","NGC-131-R04","NGC-131","ngc","summary_personal","translate","パーソナル
+おや/ハルカ IDNo58333
+タイプ/でんき","个人资料
+初训家/ハルカ IDNo58333
+属性/电","","パーソナル
+おや/ハルカ IDNo58333
+タイプ/でんき","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"NGC-131-R05:U1","NGC-131-R05","NGC-131","ngc","summary_ability","translate","とくせい
+ひらいしん
+でんきタイプの わざが じぶんにくる","特性
+避雷针
+电属性招式会朝自己而来。","","とくせい
+ひらいしん
+でんきタイプの わざが じぶんにくる","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-131-R06:U1","NGC-131-R06","NGC-131","ngc","summary_memo","translate","トレーナーメモ
+さみしがりなせいかく Lv26のとき
+118ばん どうろで であった","训练家笔记
+怕寂寞的性格。Lv26时，
+在118号道路相遇。","","トレーナーメモ
+さみしがりなせいかく Lv26のとき
+118ばん どうろで であった","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-132-R03:U1","NGC-132-R03","NGC-132","ngc","summary_item","translate","もちもの
+なし","携带物品
+无","","もちもの
+なし","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-132-R04:U1","NGC-132-R04","NGC-132","ngc","summary_ribbon","translate","リボン
+げんざい 1こ","奖章
+当前 1枚","","リボン
+げんざい 1こ","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-132-R05:U1","NGC-132-R05","NGC-132","ngc","summary_stats","translate","のうりょく
+HP 140/140 とくこう 113
+こうげき 95 とくぼう 76
+ぼうぎょ 67 すばやさ 121","能力
+HP 140/140 特攻 113
+攻击 95 特防 76
+防御 67 速度 121","","のうりょく
+HP 140/140 とくこう 113
+こうげき 95 とくぼう 76
+ぼうぎょ 67 すばやさ 121","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-132-R06:U1","NGC-132-R06","NGC-132","ngc","summary_experience","translate","けいけんち
+げんざいのけいけんち 130408
+レベルアップまで あと 7832
+EXP","经验值
+当前经验值 130408
+距离升级还需 7832
+EXP","","けいけんち
+げんざいのけいけんち 130408
+レベルアップまで あと 7832
+EXP","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-133-R04:U1","NGC-133-R04","NGC-133","ngc","summary_battle_moves","translate","おぼえているわざ
+でんき 10まんボルト PP15/15
+でんき スパーク PP20/20
+でんき かみなり PP10/10
+あく かみつく PP25/25","已学会的招式
+电 十万伏特 PP15/15
+电 电光 PP20/20
+电 打雷 PP10/10
+恶 咬住 PP25/25","","おぼえているわざ
+でんき 10まんボルト PP15/15
+でんき スパーク PP20/20
+でんき かみなり PP10/10
+あく かみつく PP25/25","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-133-R05:U1","NGC-133-R05","NGC-133","ngc","summary_move_description","translate","せつめい","说明","","せつめい","not_in_static_pack","not_published","false","static_unit_unavailable"
+"NGC-134-R04:U1","NGC-134-R04","NGC-134","ngc","summary_battle_moves","translate","おぼえているわざ
+でんき 10まんボルト PP15/15
+でんき スパーク PP20/20
+でんき かみなり PP10/10
+あく かみつく PP25/25
+もどる","已学会的招式
+电 十万伏特 PP15/15
+电 电光 PP20/20
+电 打雷 PP10/10
+恶 咬住 PP25/25
+返回","","おぼえているわざ
+でんき 10まんボルト PP15/15
+でんき スパーク PP20/20
+でんき かみなり PP10/10
+あく かみつく PP25/25
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-134-R05:U1","NGC-134-R05","NGC-134","ngc","summary_move_description","translate","せつめい
+つよいでんげきを あびせて こうげき
+てきを まひさせることがある","说明
+用强烈的电击攻击，有时会使对手麻痹。","","せつめい
+つよいでんげきを あびせて こうげき
+てきを まひさせることがある","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-135-R04:U1","NGC-135-R04","NGC-135","ngc","summary_battle_moves","translate","おぼえているわざ
+でんき 10まんボルト PP15/15
+でんき スパーク PP20/20
+でんき かみなり PP10/10
+あく かみつく PP25/25
+もどる","已学会的招式
+电 十万伏特 PP15/15
+电 电光 PP20/20
+电 打雷 PP10/10
+恶 咬住 PP25/25
+返回","","おぼえているわざ
+でんき 10まんボルト PP15/15
+でんき スパーク PP20/20
+でんき かみなり PP10/10
+あく かみつく PP25/25
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-135-R05:U1","NGC-135-R05","NGC-135","ngc","summary_move_description","translate","せつめい
+つよいでんげきを あびせて こうげき
+てきを まひさせることがある","说明
+用强烈的电击攻击，有时会使对手麻痹。","","せつめい
+つよいでんげきを あびせて こうげき
+てきを まひさせることがある","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-136-R04:U1","NGC-136-R04","NGC-136","ngc","summary_battle_moves","translate","おぼえているわざ
+でんき 10まんボルト PP15/15
+でんき スパーク PP20/20
+でんき かみなり PP10/10
+あく かみつく PP25/25
+もどる","已学会的招式
+电 十万伏特 PP15/15
+电 电光 PP20/20
+电 打雷 PP10/10
+恶 咬住 PP25/25
+返回","","おぼえているわざ
+でんき 10まんボルト PP15/15
+でんき スパーク PP20/20
+でんき かみなり PP10/10
+あく かみつく PP25/25
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-136-R05:U1","NGC-136-R05","NGC-136","ngc","summary_move_description","translate","せつめい
+てきに むかって かみなりを おとす
+まひさせることがある","说明
+朝对手落下雷电，有时会使其麻痹。","","せつめい
+てきに むかって かみなりを おとす
+まひさせることがある","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-137-R04:U1","NGC-137-R04","NGC-137","ngc","summary_battle_moves","translate","おぼえているわざ
+でんき 10まんボルト PP15/15
+でんき スパーク PP20/20
+でんき かみなり PP10/10
+あく かみつく PP25/25
+もどる","已学会的招式
+电 十万伏特 PP15/15
+电 电光 PP20/20
+电 打雷 PP10/10
+恶 咬住 PP25/25
+返回","","おぼえているわざ
+でんき 10まんボルト PP15/15
+でんき スパーク PP20/20
+でんき かみなり PP10/10
+あく かみつく PP25/25
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-137-R05:U1","NGC-137-R05","NGC-137","ngc","summary_move_description","translate","せつめい
+てきに むかって かみなりを おとす
+まひさせることがある","说明
+朝对手落下雷电，有时会使其麻痹。","","せつめい
+てきに むかって かみなりを おとす
+まひさせることがある","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-138-R04:U1","NGC-138-R04","NGC-138","ngc","summary_contest_moves","translate","おぼえているわざ
+かっこよさ 10まんボルト PP15/15
+かっこよさ スパーク PP20/20
+かっこよさ かみなり PP10/10
+たくましさ かみつく PP25/25
+もどる","已学会的招式
+帅气 十万伏特 PP15/15
+帅气 电光 PP20/20
+帅气 打雷 PP10/10
+强壮 咬住 PP25/25
+返回","","おぼえているわざ
+かっこよさ 10まんボルト PP15/15
+かっこよさ スパーク PP20/20
+かっこよさ かみなり PP10/10
+たくましさ かみつく PP25/25
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-138-R05:U1","NGC-138-R05","NGC-138","ngc","summary_contest_description","translate","せつめい
+アピールが おわっている ポケモン
+みんなを おどろかす","说明
+惊吓所有已经结束表演的宝可梦。","","せつめい
+アピールが おわっている ポケモン
+みんなを おどろかす","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-138-R06:U1","NGC-138-R06","NGC-138","ngc","summary_contest_effect","translate","こうか
+アピール
+ぼうがい","效果
+表演
+妨碍","","こうか
+アピール
+ぼうがい","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-139-R04:U1","NGC-139-R04","NGC-139","ngc","summary_contest_moves","translate","おぼえているわざ
+かっこよさ 10まんボルト PP15/15
+かっこよさ スパーク PP20/20
+かっこよさ かみなり PP10/10
+たくましさ かみつく PP25/25
+もどる","已学会的招式
+帅气 十万伏特 PP15/15
+帅气 电光 PP20/20
+帅气 打雷 PP10/10
+强壮 咬住 PP25/25
+返回","","おぼえているわざ
+かっこよさ 10まんボルト PP15/15
+かっこよさ スパーク PP20/20
+かっこよさ かみなり PP10/10
+たくましさ かみつく PP25/25
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-139-R05:U1","NGC-139-R05","NGC-139","ngc","summary_contest_description","translate","せつめい
+じぶんの まえに アピールした
+ポケモンを かなり おどろかす","说明
+大幅惊吓在自己之前表演的宝可梦。","","せつめい
+じぶんの まえに アピールした
+ポケモンを かなり おどろかす","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-139-R06:U1","NGC-139-R06","NGC-139","ngc","summary_contest_effect","translate","こうか
+アピール
+ぼうがい","效果
+表演
+妨碍","","こうか
+アピール
+ぼうがい","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-140-R04:U1","NGC-140-R04","NGC-140","ngc","summary_contest_moves","translate","おぼえているわざ
+かっこよさ 10まんボルト PP15/15
+かっこよさ スパーク PP20/20
+かっこよさ かみなり PP10/10
+たくましさ かみつく PP25/25
+もどる","已学会的招式
+帅气 十万伏特 PP15/15
+帅气 电光 PP20/20
+帅气 打雷 PP10/10
+强壮 咬住 PP25/25
+返回","","おぼえているわざ
+かっこよさ 10まんボルト PP15/15
+かっこよさ スパーク PP20/20
+かっこよさ かみなり PP10/10
+たくましさ かみつく PP25/25
+もどる","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-140-R05:U1","NGC-140-R05","NGC-140","ngc","summary_contest_description","translate","せつめい
+じぶんの まえに アピールした
+ポケモンを かなり おどろかす","说明
+大幅惊吓在自己之前表演的宝可梦。","","せつめい
+じぶんの まえに アピールした
+ポケモンを かなり おどろかす","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-140-R06:U1","NGC-140-R06","NGC-140","ngc","summary_contest_effect","translate","こうか
+アピール
+ぼうがい","效果
+表演
+妨碍","","こうか
+アピール
+ぼうがい","not_in_static_pack","not_published","false","visible_window_unavailable"
+"NGC-141-R04:U1","NGC-141-R04","NGC-141","ngc","summary_contest_moves","translate","おぼえているわざ
+かっこよさ 10まんボルト PP15/15
+かっこよさ スパーク PP20/20
+かっこよさ かみなり PP10/10
+たくましさ かみつく PP25/25","已学会的招式
+帅气 十万伏特 PP15/15
+帅气 电光 PP20/20
+帅气 打雷 PP10/10
+强壮 咬住 PP25/25","","おぼえているわざ
+かっこよさ 10まんボルト PP15/15
+かっこよさ スパーク PP20/20
+かっこよさ かみなり PP10/10
+たくましさ かみつく PP25/25","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-141-R05:U1","NGC-141-R05","NGC-141","ngc","summary_contest_description","translate","せつめい","说明","","せつめい","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-287-S01:U1","GBA-287-S01","GBA-287","gba","condition_identity","retain_name_or_translate","ラグラージ ♂/Lv46","ラグラージ ♂/Lv46","","ラグラージ ♂/Lv46","not_in_static_pack","legal_name_retention","true","name_or_dynamic_template_unavailable"
+"GBA-303-S01:U1","GBA-303-S01","GBA-303","gba","save_summary","translate","ミナモシティ
+しゅじんこう ハルカ
+もっているバッジ 8こ
+ポケモンずかん 63ひき
+プレイじかん 30:14","水静市
+主角 ハルカ
+持有徽章 8枚
+宝可梦图鉴 63只
+游戏时间 30:14","","ミナモシティ
+しゅじんこう ハルカ
+もっているバッジ 8こ
+ポケモンずかん 63ひき
+プレイじかん 30:14","not_in_static_pack","not_published","false","name_or_dynamic_template_unavailable"
+"GBA-315-S01:U1","GBA-315-S01","GBA-315","gba","battle_moves","translate","あさのひざし","晨光","","あさのひざし","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-315-S01:U2","GBA-315-S01","GBA-315","gba","battle_moves","translate","すいとる","吸取","","すいとる","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-315-S01:U3","GBA-315-S01","GBA-315","gba","battle_moves","translate","かぜおこし","起风","","かぜおこし","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-315-S01:U4","GBA-315-S01","GBA-315","gba","battle_moves","translate","しびれごな","麻痹粉","","しびれごな","not_in_static_pack","not_published","false","static_unit_unavailable"
+"GBA-315-S02:U1","GBA-315-S02","GBA-315","gba","battle_move_meta","translate","PP 4/ 5
+わざタイプ/ノーマル","PP 4/ 5
+招式属性/一般","","PP 4/ 5
+わざタイプ/ノーマル","not_in_static_pack","not_published","false","numeric_or_composite_template_unavailable"
+"NGC-069-S01:U1","NGC-069-S01","NGC-069","ngc","party_cancel","translate","もどる","返回","","もどる","not_in_static_pack","not_published","false","static_unit_unavailable"

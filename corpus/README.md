@@ -4,6 +4,8 @@
 
 入口：[建设报告](../reports/corpus-mapping/README.md)、[覆盖统计](../outputs/corpus-mapping/summary.json)、[检查结果](../reports/corpus-mapping/checks.json)。
 
+[中文库固定集验收](../reports/chinese-corpus-acceptance/README.md)已从冻结日文另编预期并执行：25／770 个应翻译单元可用，覆盖 3.25%，未通过。标注方法、非盲限制、原文保留、数值及未执行的中文管线检查均单列。`acceptance/` 保存冻结答案和输出绑定的语义复核，不参与语料构建或运行资源生成。
+
 ## 重建与查询
 
 需要 Node.js 22 或更新版本。下列命令在仓库根目录运行，无第三方 npm 依赖。首次恢复公开上游资料需要网络；资料齐备后的建库、检查和查询均离线。
@@ -17,11 +19,17 @@ node tools/test_corpus.mjs
 node tools/query_corpus.mjs --japanese ピカチュウ --game ruby
 node tools/query_corpus.mjs --japanese ゴースト --game both
 node tools/query_corpus.mjs --qid rs.script.PetalburgCity.PetalburgCity_Text_16433E --game ruby
+
+# 当前返回退出码2表示库级门槛未通过；测试工具检查与库级通过分开。
+node tools/accept_chinese_corpus.mjs --gate
+node tools/test_chinese_corpus_acceptance.mjs
 ```
 
 `sources.json` 固定 16 份上游输入的仓库、提交、原路径、下载 URL、缓存位置和原始 SHA-256。下载器只接受哈希匹配的字节。源码压缩包经校验后由 `prepare_corpus.mjs` 解压到忽略的 `.tools/corpus-source/`，保存逐文件哈希；不使用既有地址调查目录中可能被修改的源码树。构建器再次检查输入和源码树，逐作重建英文。只读开发资料，不读取或修改日版 ROM、截图答案或 OCR 引擎。
 
 查询按完整日文值或完整 qid 精确检索，返回原文、全部中文候选、来源、核对与暂缓信息。没有选择游戏时保留两作；不做前缀、昵称片段或模糊猜测。`translation` 只返回已进入静态资源包的唯一中文；`null` 表示待核对、需上下文或未收录。该入口用于审查数据库，并非已经集成的 S7 翻译器。
+
+已新增 [日文来源匹配器](../reports/japanese-source-matching/README.md)，先查询完整源记录及已冻结的原生标签，分别处理排版、数字显示形式、清屏／滚动窗口、短模板、姓名＋有限称呼、受锚点约束的变量及有实际字形证据的候选。摘要页等组合字段保留原文跨度和当前数值，分组成文字查询。`node tools/resolve_japanese.mjs --japanese ゴースト --kind type` 可按明确词条类型检索；批量输入支持实际 OCR 布局和字形诊断。原精确查询入口保持独立；新入口不发布中文，也不将来源候选当作已审核译文。实际 579 区域的诊断、同一旧分母的修复比较、单独来源复核和复现方式见报告。
 
 ## 数据结构
 
@@ -42,6 +50,10 @@ node tools/query_corpus.mjs --qid rs.script.PetalburgCity.PetalburgCity_Text_164
 | `build-manifest.json` | 固定输入、实现／核对文件及生成物 SHA-256，支持逐字节重建比对。 |
 
 `reviews.json` 是可维护的离线核对／补译／订正决定。每条绑定 qid、游戏、原始日英文本和全部原中文候选；输入或候选变化时构建失败，须重新核对。所有本次核对标为 `model_reviewed`，未冒充人工。补译必须原本没有候选；订正保留原译文和原因。`variable-rules.json` 只记录开发期约束，未将缓冲编号当作语义类型，也未批准动态运行绑定。
+
+`source-matching/` 保存来源检索的单独复核、固定源文本证据及基线哈希。与 `acceptance/` 一样只供验证，不参与建库或查询。来源匹配器即使捕获到槽位，也仍标为未核对调用点的语法假设，不批准身份缓存、实际变量语义或中文绑定。
+
+`battle-matching/rules.json` 是单独的战斗来源／显示含义模型：普通升降预展开，其他句式按有限词表约束，招式使用形式由日版原生选择函数核验。`node tools/build_battle_source_templates.mjs` 生成资源与审阅 CSV，`node tools/test_battle_source_matching.mjs` 检查边界及固定案例。生成器不读取答案，`battle-matching/review-*` 仅用于另行复核，不参与运行资源。它不修改原中文库或 `variable-rules.json` 的全局待审状态，详见 [战斗来源报告](../reports/battle-source-matching/README.md)。
 
 ## 对应规则与边界
 

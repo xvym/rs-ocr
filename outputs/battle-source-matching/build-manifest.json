@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "inputs": [
+    {
+      "local": "corpus/battle-matching/rules.json",
+      "sha256": "2bd2db68858a251a6edb8f77873442921e4fcc23463c7444156fec43b49c9752"
+    },
+    {
+      "local": "reports/battle-source-matching/japanese-evidence.json",
+      "sha256": "e024a5e40df6350b60ebbcf98c2a9e03c12a5b72f1ca631cbeeee452fdeef098"
+    },
+    {
+      "local": "outputs/corpus-mapping/records.csv",
+      "sha256": "524d1726bc626b7a496565587834a42772d1de97fb1536586b8947ad24a06c61"
+    },
+    {
+      "local": "src/main/resources/ocr/fonts.json",
+      "sha256": "65d01cd335908c4c0fd8532a8f984b1d2dfaab933b78164fce34242ef5290f46"
+    }
+  ],
+  "sourceInputs": [
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_message.c",
+      "sha256": "719a8aeb662142aab4503ee3ee0858823bebe300bbe11669cb2309a5206ffb8a"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/battle_strings_en.h",
+      "sha256": "0edfd7d655f4e90965b3c303cc2d80b143480093438dda7cf4d9fafae504091d"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_script_commands.c",
+      "sha256": "0a6f58f8e5fc19c40e3546a5bc81f3354fc669376c31435301a8884055c9d77a"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/constants/moves.h",
+      "sha256": "7ce488287ae01da9168fc7d3f99c80309954fbc1269b951827a1fe201891156f"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/battle_message.h",
+      "sha256": "260592d39c97cd03e635b7e3910217d615308db3a519bdf5dd5c2733fb81c34c"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/charmap.txt",
+      "sha256": "8c1db143d4f5f8186a6853d076b8b5dbd5d505b64e3c04ed79fe75afa54b7e9c"
+    },
+    {
+      "local": "outputs/corpus-inputs/qid_msg.txt",
+      "sha256": "bafdfb4540e8b766e7cbc947890b12164234d81f1ca039f2bdfadc8dd1d5d1b8"
+    },
+    {
+      "local": "outputs/corpus-inputs/ja-Hrkt_msg.txt",
+      "sha256": "8bc1ba84bd6fba37071f9082a63fcbabcf84f66ee5dfce8e71428cf1a032e038"
+    }
+  ],
+  "implementation": [
+    {
+      "local": "tools/build_battle_source_templates.mjs",
+      "sha256": "52cd58c65bf264a991e3dc5cce85e6c45c1e4de05ae7f2a0e6389ad987060dc5"
+    },
+    {
+      "local": "tools/battle_source_matcher.mjs",
+      "sha256": "7e41793b095550415b6f69eb0fb1fecaae6fba1bdb689b34bda0dec3193f9f6e"
+    },
+    {
+      "local": "tools/japanese_source_matcher.mjs",
+      "sha256": "b614c123c639f1c65e79dfeac246af2ab288a815fe9af5dff8bff747ea04b8f5"
+    },
+    {
+      "local": "tools/corpus_common.mjs",
+      "sha256": "58cc7e40e5c443babe2611ea7a6a24b569c3df67867a9ac1d27b6cc6e5133132"
+    },
+    {
+      "local": "tools/verify_battle_printing.py",
+      "sha256": "bc106e573d94066286d958f8dbd231ac57cb19b4c875ac9488862cc33b8616ea"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "templates.json",
+      "sha256": "9638aa31b81f1313c90069712d3a3a9596027dffee8b0e7c416bfb0f7f3b088c"
+    },
+    {
+      "file": "templates.csv",
+      "sha256": "b8462169dc89576bc6d9c57cfcf7edc9120d773dfaf4feee4fb1d2baa99ee9c7"
+    }
+  ],
+  "summary": {
+    "ordinaryStatSurfaces": 28,
+    "ordinaryStatSourceBindings": 56,
+    "moveSurfaces": 354,
+    "relatedTypedModels": 14,
+    "totalModels": 396,
+    "japaneseMovesVerifiedPerRom": 354,
+    "roms": [
+      "AXPJ",
+      "AXVJ"
+    ],
+    "releaseChinese": false
+  }
+}

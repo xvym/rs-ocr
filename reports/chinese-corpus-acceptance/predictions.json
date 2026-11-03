@@ -1,0 +1,6525 @@
+{
+  "schemaVersion": 1,
+  "referenceSha256": "b0560a72fb535b4d7d4e8156d27ea9b8eab0611a140b558c245e17e154319af3",
+  "runtimeSha256": "095b74d7020c7cb1741fb897f27d849b929ed16248343a7028e8b26d96247c5c",
+  "units": [
+    {
+      "id": "GBA-001-R01:U1",
+      "japanese": "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+      "actualChinese": null,
+      "actualOutput": "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-002-R01:U1",
+      "japanese": "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+      "actualChinese": null,
+      "actualOutput": "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-003-R01:U1",
+      "japanese": "なんといっても あの コンビネーションは\nさいこう！ さすが！ って かんじよ",
+      "actualChinese": null,
+      "actualOutput": "なんといっても あの コンビネーションは\nさいこう！ さすが！ って かんじよ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-004-R01:U1",
+      "japanese": "おつかれさまです！\nポケモン センター です",
+      "actualChinese": null,
+      "actualOutput": "おつかれさまです！\nポケモン センター です",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-005-R01:U1",
+      "japanese": "ここでは ポケモンの\nたいりょく かいふくを します",
+      "actualChinese": null,
+      "actualOutput": "ここでは ポケモンの\nたいりょく かいふくを します",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-006-R01:U1",
+      "japanese": "あなたの ポケモンを\nやすませて あげますか？",
+      "actualChinese": null,
+      "actualOutput": "あなたの ポケモンを\nやすませて あげますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-007-R01:U1",
+      "japanese": "それでは\nおあずかり いたします！",
+      "actualChinese": null,
+      "actualOutput": "それでは\nおあずかり いたします！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-008-R01:U1",
+      "japanese": "またの\nごりようを おまち してます！",
+      "actualChinese": null,
+      "actualOutput": "またの\nごりようを おまち してます！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-009-R01:U1",
+      "japanese": "ポケモンざっしが ならんでる！",
+      "actualChinese": null,
+      "actualOutput": "ポケモンざっしが ならんでる！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-010-R01:U1",
+      "japanese": "‥‥「ポケモンのとも」\n‥‥「ポケモン てちょう」",
+      "actualChinese": null,
+      "actualOutput": "‥‥「ポケモンのとも」\n‥‥「ポケモン てちょう」",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-011-R01:U1",
+      "japanese": "‥‥「ポケモン てちょう」\n‥‥「かわいい ポケモン」",
+      "actualChinese": null,
+      "actualOutput": "‥‥「ポケモン てちょう」\n‥‥「かわいい ポケモン」",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-012-R01:U1",
+      "japanese": "ハルカは\nパソコンの スイッチを いれた！",
+      "actualChinese": null,
+      "actualOutput": "ハルカは\nパソコンの スイッチを いれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-013-R01:U1",
+      "japanese": "どこの パソコンに せつぞく して\nつうしん しますか？",
+      "actualChinese": null,
+      "actualOutput": "どこの パソコンに せつぞく して\nつうしん しますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-013-R02:U1",
+      "japanese": "マユミのパソコン",
+      "actualChinese": null,
+      "actualOutput": "マユミのパソコン",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-013-R02:U2",
+      "japanese": "ハルカのパソコン",
+      "actualChinese": null,
+      "actualOutput": "ハルカのパソコン",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-013-R02:U3",
+      "japanese": "でんどういり",
+      "actualChinese": null,
+      "actualOutput": "でんどういり",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-013-R02:U4",
+      "japanese": "スイッチをきる",
+      "actualChinese": null,
+      "actualOutput": "スイッチをきる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-014-R01:U1",
+      "japanese": "マユミの パソコンに せつぞく した！",
+      "actualChinese": null,
+      "actualOutput": "マユミの パソコンに せつぞく した！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-015-R01:U1",
+      "japanese": "ポケモンの あずかり システムを\nよびだした！",
+      "actualChinese": null,
+      "actualOutput": "ポケモンの あずかり システムを\nよびだした！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-016-R01:U1",
+      "japanese": "ボックスに あずけている ポケモンを\nてもちに くわえる ことが できます",
+      "actualChinese": null,
+      "actualOutput": "ボックスに あずけている ポケモンを\nてもちに くわえる ことが できます",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-016-R02:U1",
+      "japanese": "ポケモンを つれていく",
+      "actualChinese": null,
+      "actualOutput": "ポケモンを つれていく",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-016-R02:U2",
+      "japanese": "ポケモンを あずける",
+      "actualChinese": null,
+      "actualOutput": "ポケモンを あずける",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-016-R02:U3",
+      "japanese": "ボックスを せいりする",
+      "actualChinese": null,
+      "actualOutput": "ボックスを せいりする",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-016-R02:U4",
+      "japanese": "さようなら",
+      "actualChinese": null,
+      "actualOutput": "さようなら",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-017-R01:U1",
+      "japanese": "なにを しますか？",
+      "actualChinese": null,
+      "actualOutput": "なにを しますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-017-R02:U1",
+      "japanese": "どうぐ あずかり",
+      "actualChinese": null,
+      "actualOutput": "どうぐ あずかり",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-017-R02:U2",
+      "japanese": "メールボックス",
+      "actualChinese": null,
+      "actualOutput": "メールボックス",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-017-R02:U3",
+      "japanese": "せつぞくを きる",
+      "actualChinese": null,
+      "actualOutput": "せつぞくを きる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-018-R01:U1",
+      "japanese": "どうぐを ひきだす",
+      "actualChinese": null,
+      "actualOutput": "どうぐを ひきだす",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-018-R02:U1",
+      "japanese": "ポイントアップ × 5",
+      "actualChinese": null,
+      "actualOutput": "ポイントアップ × 5",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-018-R02:U2",
+      "japanese": "ピーピーエイド × 3",
+      "actualChinese": null,
+      "actualOutput": "ピーピーエイド × 3",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-018-R02:U3",
+      "japanese": "スペシャルアップ × 1",
+      "actualChinese": null,
+      "actualOutput": "スペシャルアップ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-018-R02:U4",
+      "japanese": "せんせいのツメ × 1",
+      "actualChinese": null,
+      "actualOutput": "せんせいのツメ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-018-R02:U5",
+      "japanese": "かわらずのいし × 1",
+      "actualChinese": null,
+      "actualOutput": "かわらずのいし × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-018-R02:U6",
+      "japanese": "やわらかいすな × 1",
+      "actualChinese": null,
+      "actualOutput": "やわらかいすな × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-018-R02:U7",
+      "japanese": "スピーダー × 1",
+      "actualChinese": null,
+      "actualOutput": "スピーダー × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-018-R02:U8",
+      "japanese": "マックスアップ × 1",
+      "actualChinese": null,
+      "actualOutput": "マックスアップ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-018-R03:U1",
+      "japanese": "わざポイントの\nさいだいちが あがる",
+      "actualChinese": null,
+      "actualOutput": "わざポイントの\nさいだいちが あがる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-019-R01:U1",
+      "japanese": "どうぐ",
+      "actualChinese": "道具",
+      "actualOutput": "道具",
+      "sourceIds": [
+        "rs.common.easy_chat_group_lifestyle.gEasyChatGroupWords_Lifestyle.29:ruby",
+        "rs.common.strings.OtherText_Items:ruby",
+        "rs.common.easy_chat_group_lifestyle.gEasyChatGroupWords_Lifestyle.29:sapphire",
+        "rs.common.strings.OtherText_Items:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-019-R02:U1",
+      "japanese": "どくけし × 15",
+      "actualChinese": null,
+      "actualOutput": "どくけし × 15",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-019-R02:U2",
+      "japanese": "かいふくのくすり × 4",
+      "actualChinese": null,
+      "actualOutput": "かいふくのくすり × 4",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-019-R02:U3",
+      "japanese": "なんでもなおし × 3",
+      "actualChinese": null,
+      "actualOutput": "なんでもなおし × 3",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-019-R02:U4",
+      "japanese": "まひなおし × 5",
+      "actualChinese": null,
+      "actualOutput": "まひなおし × 5",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-019-R02:U5",
+      "japanese": "すごいキズぐすり × 7",
+      "actualChinese": null,
+      "actualOutput": "すごいキズぐすり × 7",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-019-R02:U6",
+      "japanese": "ねむけざまし × 7",
+      "actualChinese": null,
+      "actualOutput": "ねむけざまし × 7",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-019-R02:U7",
+      "japanese": "まんたんのくすり × 13",
+      "actualChinese": null,
+      "actualOutput": "まんたんのくすり × 13",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-019-R02:U8",
+      "japanese": "たいようのいし × 1",
+      "actualChinese": null,
+      "actualOutput": "たいようのいし × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-019-R03:U1",
+      "japanese": "どく じょうたいを\nかいふくする",
+      "actualChinese": null,
+      "actualOutput": "どく じょうたいを\nかいふくする",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-020-R01:U1",
+      "japanese": "どうぐを すてる",
+      "actualChinese": null,
+      "actualOutput": "どうぐを すてる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-020-R02:U1",
+      "japanese": "ポイントアップ × 5",
+      "actualChinese": null,
+      "actualOutput": "ポイントアップ × 5",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-020-R02:U2",
+      "japanese": "ピーピーエイド × 3",
+      "actualChinese": null,
+      "actualOutput": "ピーピーエイド × 3",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-020-R02:U3",
+      "japanese": "スペシャルアップ × 1",
+      "actualChinese": null,
+      "actualOutput": "スペシャルアップ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-020-R02:U4",
+      "japanese": "せんせいのツメ × 1",
+      "actualChinese": null,
+      "actualOutput": "せんせいのツメ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-020-R02:U5",
+      "japanese": "かわらずのいし × 1",
+      "actualChinese": null,
+      "actualOutput": "かわらずのいし × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-020-R02:U6",
+      "japanese": "やわらかいすな × 1",
+      "actualChinese": null,
+      "actualOutput": "やわらかいすな × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-020-R02:U7",
+      "japanese": "スピーダー × 1",
+      "actualChinese": null,
+      "actualOutput": "スピーダー × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-020-R02:U8",
+      "japanese": "マックスアップ × 1",
+      "actualChinese": null,
+      "actualOutput": "マックスアップ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-020-R03:U1",
+      "japanese": "わざポイントの\nさいだいちが あがる",
+      "actualChinese": null,
+      "actualOutput": "わざポイントの\nさいだいちが あがる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-021-R01:U1",
+      "japanese": "まえに もどります！",
+      "actualChinese": null,
+      "actualOutput": "まえに もどります！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-021-R02:U1",
+      "japanese": "どうぐを ひきだす",
+      "actualChinese": null,
+      "actualOutput": "どうぐを ひきだす",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-021-R02:U2",
+      "japanese": "どうぐを あずける",
+      "actualChinese": null,
+      "actualOutput": "どうぐを あずける",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-021-R02:U3",
+      "japanese": "どうぐを すてる",
+      "actualChinese": null,
+      "actualOutput": "どうぐを すてる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-021-R02:U4",
+      "japanese": "もどる",
+      "actualChinese": null,
+      "actualOutput": "もどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-022-R01:U1",
+      "japanese": "どうぐ",
+      "actualChinese": "道具",
+      "actualOutput": "道具",
+      "sourceIds": [
+        "rs.common.easy_chat_group_lifestyle.gEasyChatGroupWords_Lifestyle.29:ruby",
+        "rs.common.strings.OtherText_Items:ruby",
+        "rs.common.easy_chat_group_lifestyle.gEasyChatGroupWords_Lifestyle.29:sapphire",
+        "rs.common.strings.OtherText_Items:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-022-R02:U1",
+      "japanese": "どくけし × 15",
+      "actualChinese": null,
+      "actualOutput": "どくけし × 15",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-022-R02:U2",
+      "japanese": "かいふくのくすり × 4",
+      "actualChinese": null,
+      "actualOutput": "かいふくのくすり × 4",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-022-R02:U3",
+      "japanese": "なんでもなおし × 3",
+      "actualChinese": null,
+      "actualOutput": "なんでもなおし × 3",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-022-R02:U4",
+      "japanese": "まひなおし × 5",
+      "actualChinese": null,
+      "actualOutput": "まひなおし × 5",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-022-R02:U5",
+      "japanese": "すごいキズぐすり × 7",
+      "actualChinese": null,
+      "actualOutput": "すごいキズぐすり × 7",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-022-R02:U6",
+      "japanese": "ねむけざまし × 7",
+      "actualChinese": null,
+      "actualOutput": "ねむけざまし × 7",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-022-R02:U7",
+      "japanese": "まんたんのくすり × 13",
+      "actualChinese": null,
+      "actualOutput": "まんたんのくすり × 13",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-022-R02:U8",
+      "japanese": "たいようのいし × 1",
+      "actualChinese": null,
+      "actualOutput": "たいようのいし × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-022-R03:U1",
+      "japanese": "どく じょうたいを\nかいふくする",
+      "actualChinese": null,
+      "actualOutput": "どく じょうたいを\nかいふくする",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-023-R01:U1",
+      "japanese": "モンスターボール",
+      "actualChinese": null,
+      "actualOutput": "モンスターボール",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-023-R02:U1",
+      "japanese": "スーパーボール × 25",
+      "actualChinese": null,
+      "actualOutput": "スーパーボール × 25",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-023-R02:U2",
+      "japanese": "ハイパーボール × 26",
+      "actualChinese": null,
+      "actualOutput": "ハイパーボール × 26",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-023-R02:U3",
+      "japanese": "ダイブボール × 20",
+      "actualChinese": null,
+      "actualOutput": "ダイブボール × 20",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-023-R02:U4",
+      "japanese": "ネストボール × 2",
+      "actualChinese": null,
+      "actualOutput": "ネストボール × 2",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-023-R02:U5",
+      "japanese": "ネットボール × 14",
+      "actualChinese": null,
+      "actualOutput": "ネットボール × 14",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-023-R02:U6",
+      "japanese": "バッグをとじる",
+      "actualChinese": null,
+      "actualOutput": "バッグをとじる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-023-R03:U1",
+      "japanese": "モンスターボール より\nつかまえ やすくなった\nこうせいのうの ボール",
+      "actualChinese": null,
+      "actualOutput": "モンスターボール より\nつかまえ やすくなった\nこうせいのうの ボール",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-024-R01:U1",
+      "japanese": "わざマシン",
+      "actualChinese": null,
+      "actualOutput": "わざマシン",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-024-R02:U1",
+      "japanese": "No03みずのはどう × 1",
+      "actualChinese": null,
+      "actualOutput": "No03みずのはどう × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-024-R02:U2",
+      "japanese": "No04めいそう × 1",
+      "actualChinese": null,
+      "actualOutput": "No04めいそう × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-024-R02:U3",
+      "japanese": "No05ほえる × 1",
+      "actualChinese": null,
+      "actualOutput": "No05ほえる × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-024-R02:U4",
+      "japanese": "No08ビルドアップ × 1",
+      "actualChinese": null,
+      "actualOutput": "No08ビルドアップ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-024-R02:U5",
+      "japanese": "No09タネマシンガン × 1",
+      "actualChinese": null,
+      "actualOutput": "No09タネマシンガン × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-024-R02:U6",
+      "japanese": "No11にほんばれ × 1",
+      "actualChinese": null,
+      "actualOutput": "No11にほんばれ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-024-R02:U7",
+      "japanese": "No26じしん × 1",
+      "actualChinese": null,
+      "actualOutput": "No26じしん × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-024-R02:U8",
+      "japanese": "No27おんがえし × 1",
+      "actualChinese": null,
+      "actualOutput": "No27おんがえし × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-024-R03:U1",
+      "japanese": "ちょうおんぱ こうげきで\nてきを こんらんさせる\nことがある",
+      "actualChinese": null,
+      "actualOutput": "ちょうおんぱ こうげきで\nてきを こんらんさせる\nことがある",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-025-R01:U1",
+      "japanese": "きのみ",
+      "actualChinese": null,
+      "actualOutput": "きのみ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-025-R02:U1",
+      "japanese": "No01クラボのみ × 9",
+      "actualChinese": null,
+      "actualOutput": "No01クラボのみ × 9",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-025-R02:U2",
+      "japanese": "No02カゴのみ × 7",
+      "actualChinese": null,
+      "actualOutput": "No02カゴのみ × 7",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-025-R02:U3",
+      "japanese": "No03モモンのみ × 14",
+      "actualChinese": null,
+      "actualOutput": "No03モモンのみ × 14",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-025-R02:U4",
+      "japanese": "No04チーゴのみ × 6",
+      "actualChinese": null,
+      "actualOutput": "No04チーゴのみ × 6",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-025-R02:U5",
+      "japanese": "No05ナナシのみ × 8",
+      "actualChinese": null,
+      "actualOutput": "No05ナナシのみ × 8",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-025-R02:U6",
+      "japanese": "No06ヒメリのみ × 6",
+      "actualChinese": null,
+      "actualOutput": "No06ヒメリのみ × 6",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-025-R02:U7",
+      "japanese": "No07オレンのみ × 3",
+      "actualChinese": null,
+      "actualOutput": "No07オレンのみ × 3",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-025-R02:U8",
+      "japanese": "No08キーのみ × 9",
+      "actualChinese": null,
+      "actualOutput": "No08キーのみ × 9",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-025-R03:U1",
+      "japanese": "もたせると じぶんで\nまひ じょうたいを\nかいふくする",
+      "actualChinese": null,
+      "actualOutput": "もたせると じぶんで\nまひ じょうたいを\nかいふくする",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-026-R01:U1",
+      "japanese": "たいせつなもの",
+      "actualChinese": null,
+      "actualOutput": "たいせつなもの",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-026-R02:U1",
+      "japanese": "ホエルコじょうろ",
+      "actualChinese": null,
+      "actualOutput": "ホエルコじょうろ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-026-R02:U2",
+      "japanese": "ボロのつりざお",
+      "actualChinese": null,
+      "actualOutput": "ボロのつりざお",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-026-R02:U3",
+      "japanese": "ダウジングマシン",
+      "actualChinese": null,
+      "actualOutput": "ダウジングマシン",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-026-R02:U4",
+      "japanese": "マッハじてんしゃ SEL",
+      "actualChinese": null,
+      "actualOutput": "マッハじてんしゃ SEL",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-026-R02:U5",
+      "japanese": "はいぶくろ",
+      "actualChinese": null,
+      "actualOutput": "はいぶくろ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-026-R02:U6",
+      "japanese": "ゴーゴーゴーグル",
+      "actualChinese": null,
+      "actualOutput": "ゴーゴーゴーグル",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-026-R02:U7",
+      "japanese": "ツメのカセキ",
+      "actualChinese": null,
+      "actualOutput": "ツメのカセキ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-026-R02:U8",
+      "japanese": "ちかのカギ",
+      "actualChinese": null,
+      "actualOutput": "ちかのカギ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-026-R03:U1",
+      "japanese": "みずを かける どうぐ\nつちに うめた きのみを\nすくすく そだてる",
+      "actualChinese": null,
+      "actualOutput": "みずを かける どうぐ\nつちに うめた きのみを\nすくすく そだてる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-027-R01:U1",
+      "japanese": "おとうさんの ことば‥‥\nハルカ！ こういうものには",
+      "actualChinese": null,
+      "actualOutput": "おとうさんの ことば‥‥\nハルカ！ こういうものには",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-027-R02:U1",
+      "japanese": "たいせつなもの",
+      "actualChinese": null,
+      "actualOutput": "たいせつなもの",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-027-R03:U1",
+      "japanese": "はいぶくろ",
+      "actualChinese": null,
+      "actualOutput": "はいぶくろ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-027-R03:U2",
+      "japanese": "ゴーゴーゴーグル",
+      "actualChinese": null,
+      "actualOutput": "ゴーゴーゴーグル",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-027-R03:U3",
+      "japanese": "ツメのカセキ",
+      "actualChinese": null,
+      "actualOutput": "ツメのカセキ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-027-R03:U4",
+      "japanese": "ちかのカギ",
+      "actualChinese": null,
+      "actualOutput": "ちかのカギ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-027-R03:U5",
+      "japanese": "いいつりざお",
+      "actualChinese": null,
+      "actualOutput": "いいつりざお",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-027-R03:U6",
+      "japanese": "デボンスコープ",
+      "actualChinese": null,
+      "actualOutput": "デボンスコープ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-028-R01:U1",
+      "japanese": "ハルカ！ こういうものには\nつかいどきが あるんだ！",
+      "actualChinese": null,
+      "actualOutput": "ハルカ！ こういうものには\nつかいどきが あるんだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-028-R02:U1",
+      "japanese": "たいせつなもの",
+      "actualChinese": null,
+      "actualOutput": "たいせつなもの",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-028-R03:U1",
+      "japanese": "はいぶくろ",
+      "actualChinese": null,
+      "actualOutput": "はいぶくろ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-028-R03:U2",
+      "japanese": "ゴーゴーゴーグル",
+      "actualChinese": null,
+      "actualOutput": "ゴーゴーゴーグル",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-028-R03:U3",
+      "japanese": "ツメのカセキ",
+      "actualChinese": null,
+      "actualOutput": "ツメのカセキ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-028-R03:U4",
+      "japanese": "ちかのカギ",
+      "actualChinese": null,
+      "actualOutput": "ちかのカギ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-028-R03:U5",
+      "japanese": "いいつりざお",
+      "actualChinese": null,
+      "actualOutput": "いいつりざお",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-028-R03:U6",
+      "japanese": "デボンスコープ",
+      "actualChinese": null,
+      "actualOutput": "デボンスコープ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-029-R01:U1",
+      "japanese": "この トクサネの しゅうへん では\nやせいの ホエルコが けんぶつ できるんだ",
+      "actualChinese": null,
+      "actualOutput": "この トクサネの しゅうへん では\nやせいの ホエルコが けんぶつ できるんだ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-030-R01:U1",
+      "japanese": "そーいうのを えーと‥‥\nなんて いったっけ かな‥‥",
+      "actualChinese": null,
+      "actualOutput": "そーいうのを えーと‥‥\nなんて いったっけ かな‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-031-R01:U1",
+      "japanese": "ホエ ホエ ホエ‥‥",
+      "actualChinese": null,
+      "actualOutput": "ホエ ホエ ホエ‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-032-R01:U1",
+      "japanese": "ホエルコ ウオッチング だ！",
+      "actualChinese": null,
+      "actualOutput": "ホエルコ ウオッチング だ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-033-R01:U1",
+      "japanese": "ようこそ！",
+      "actualChinese": null,
+      "actualOutput": "ようこそ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-034-R01:U1",
+      "japanese": "おかいもの ですね！",
+      "actualChinese": null,
+      "actualOutput": "おかいもの ですね！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-034-R02:U1",
+      "japanese": "かいに きた",
+      "actualChinese": null,
+      "actualOutput": "かいに きた",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-034-R02:U2",
+      "japanese": "うりに きた",
+      "actualChinese": null,
+      "actualOutput": "うりに きた",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-034-R02:U3",
+      "japanese": "なんでもないです",
+      "actualChinese": null,
+      "actualOutput": "なんでもないです",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-035-R02:U1",
+      "japanese": "ハイパーボール 1200円",
+      "actualChinese": null,
+      "actualOutput": "ハイパーボール 1200円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-035-R02:U2",
+      "japanese": "ネットボール 1000円",
+      "actualChinese": null,
+      "actualOutput": "ネットボール 1000円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-035-R02:U3",
+      "japanese": "ダイブボール 1000円",
+      "actualChinese": null,
+      "actualOutput": "ダイブボール 1000円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-035-R02:U4",
+      "japanese": "すごいキズぐすり 1200円",
+      "actualChinese": null,
+      "actualOutput": "すごいキズぐすり 1200円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-035-R02:U5",
+      "japanese": "なんでもなおし 600円",
+      "actualChinese": null,
+      "actualOutput": "なんでもなおし 600円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-035-R02:U6",
+      "japanese": "げんきのかけら 1500円",
+      "actualChinese": null,
+      "actualOutput": "げんきのかけら 1500円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-035-R02:U7",
+      "japanese": "ゴールドスプレー 700円",
+      "actualChinese": null,
+      "actualOutput": "ゴールドスプレー 700円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-035-R02:U8",
+      "japanese": "プラスパワー 500円",
+      "actualChinese": null,
+      "actualOutput": "プラスパワー 500円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-035-R03:U1",
+      "japanese": "スーパーボール より\nつかまえ やすくなった\nとても すごい ボール",
+      "actualChinese": null,
+      "actualOutput": "スーパーボール より\nつかまえ やすくなった\nとても すごい ボール",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-036-R02:U1",
+      "japanese": "ハイパーボール 1200円",
+      "actualChinese": null,
+      "actualOutput": "ハイパーボール 1200円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-036-R02:U2",
+      "japanese": "ネットボール 1000円",
+      "actualChinese": null,
+      "actualOutput": "ネットボール 1000円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-036-R02:U3",
+      "japanese": "ダイブボール 1000円",
+      "actualChinese": null,
+      "actualOutput": "ダイブボール 1000円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-036-R02:U4",
+      "japanese": "すごいキズぐすり 1200円",
+      "actualChinese": null,
+      "actualOutput": "すごいキズぐすり 1200円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-036-R02:U5",
+      "japanese": "なんでもなおし 600円",
+      "actualChinese": null,
+      "actualOutput": "なんでもなおし 600円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-036-R02:U6",
+      "japanese": "げんきのかけら 1500円",
+      "actualChinese": null,
+      "actualOutput": "げんきのかけら 1500円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-036-R02:U7",
+      "japanese": "ゴールドスプレー 700円",
+      "actualChinese": null,
+      "actualOutput": "ゴールドスプレー 700円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-036-R02:U8",
+      "japanese": "プラスパワー 500円",
+      "actualChinese": null,
+      "actualOutput": "プラスパワー 500円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-036-R03:U1",
+      "japanese": "つかった せんとうちゅう\nこうげきりょくが あがる",
+      "actualChinese": null,
+      "actualOutput": "つかった せんとうちゅう\nこうげきりょくが あがる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-037-R01:U1",
+      "japanese": "ネットボールと ダイブボールは\nここ トクサネでしか つくっていない",
+      "actualChinese": null,
+      "actualOutput": "ネットボールと ダイブボールは\nここ トクサネでしか つくっていない",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-038-R01:U1",
+      "japanese": "ここ トクサネでしか つくっていない\nめずらしい モンスターボール！",
+      "actualChinese": null,
+      "actualOutput": "ここ トクサネでしか つくっていない\nめずらしい モンスターボール！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-039-R01:U1",
+      "japanese": "ネットボールは むしタイプや\nみずタイプの ポケモンに こうかてき！",
+      "actualChinese": null,
+      "actualOutput": "ネットボールは むしタイプや\nみずタイプの ポケモンに こうかてき！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-040-R01:U1",
+      "japanese": "ダイブボールは かいていに いる\nポケモンを つかまえ やすいんだ！",
+      "actualChinese": null,
+      "actualOutput": "ダイブボールは かいていに いる\nポケモンを つかまえ やすいんだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-041-R01:U1",
+      "japanese": "ゴールドスプレーは\nよわい ポケモンを よせつけない",
+      "actualChinese": null,
+      "actualOutput": "ゴールドスプレーは\nよわい ポケモンを よせつけない",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-042-R01:U1",
+      "japanese": "かずある スプレーの なかで\nいちばん ながもち するんだ！",
+      "actualChinese": null,
+      "actualOutput": "かずある スプレーの なかで\nいちばん ながもち するんだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-043-R01:U1",
+      "japanese": "ミナモの なかま から\nホエルコが いなくなった！ って",
+      "actualChinese": null,
+      "actualOutput": "ミナモの なかま から\nホエルコが いなくなった！ って",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-044-R01:U1",
+      "japanese": "ホエルコが いなくなった！ って\nれんらくが あったんだ",
+      "actualChinese": null,
+      "actualOutput": "ホエルコが いなくなった！ って\nれんらくが あったんだ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-045-R01:U1",
+      "japanese": "いったいぜんたい\nミナモで なにが あったんだろうな？",
+      "actualChinese": null,
+      "actualOutput": "いったいぜんたい\nミナモで なにが あったんだろうな？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-046-R01:U1",
+      "japanese": "わしも わかいころは\nポケモン トレーナーとして",
+      "actualChinese": null,
+      "actualOutput": "わしも わかいころは\nポケモン トレーナーとして",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-047-R01:U1",
+      "japanese": "ポケモン トレーナーとして\nせかいじゅうを たび していたのじゃ",
+      "actualChinese": null,
+      "actualOutput": "ポケモン トレーナーとして\nせかいじゅうを たび していたのじゃ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-048-R01:U1",
+      "japanese": "ジジイとなった いまでは\nわかい トレーナーの しょうぶを みるのが",
+      "actualChinese": null,
+      "actualOutput": "ジジイとなった いまでは\nわかい トレーナーの しょうぶを みるのが",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-049-R01:U1",
+      "japanese": "わかい トレーナーの しょうぶを みるのが\nゆいいつの たのしみ じゃ",
+      "actualChinese": null,
+      "actualOutput": "わかい トレーナーの しょうぶを みるのが\nゆいいつの たのしみ じゃ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-050-R01:U1",
+      "japanese": "みずは ふかい あおに そまっている‥‥\nなみのりを つかいますか？",
+      "actualChinese": null,
+      "actualOutput": "みずは ふかい あおに そまっている‥‥\nなみのりを つかいますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-051-R07:U1",
+      "japanese": "レックウザを どうする？",
+      "actualChinese": null,
+      "actualOutput": "レックウザを どうする？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-051-R08:U1",
+      "japanese": "そらをとぶ",
+      "actualChinese": "飞翔",
+      "actualOutput": "飞翔",
+      "sourceIds": [
+        "rs.common.move_names.gMoveNames.19:ruby",
+        "rs.common.move_names.gMoveNames.19:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-051-R08:U2",
+      "japanese": "つよさをみる",
+      "actualChinese": null,
+      "actualOutput": "つよさをみる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-051-R08:U3",
+      "japanese": "ならびかえ",
+      "actualChinese": null,
+      "actualOutput": "ならびかえ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-051-R08:U4",
+      "japanese": "もちもの",
+      "actualChinese": "道具",
+      "actualOutput": "道具",
+      "sourceIds": [
+        "rs.common.strings.OtherText_Item:ruby",
+        "rs.common.strings.OtherText_Item:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-051-R08:U5",
+      "japanese": "やめる",
+      "actualChinese": null,
+      "actualOutput": "やめる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-052-R01:U1",
+      "japanese": "ポケモンを つかまえに いくの？\nがんばってね！",
+      "actualChinese": null,
+      "actualOutput": "ポケモンを つかまえに いくの？\nがんばってね！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-053-R01:U1",
+      "japanese": "パソコンを つかえば\nどうぐや ポケモンが ほぞん できるんだ！",
+      "actualChinese": null,
+      "actualOutput": "パソコンを つかえば\nどうぐや ポケモンが ほぞん できるんだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-054-R01:U1",
+      "japanese": "かがくの ちからって しびれるーっ！",
+      "actualChinese": null,
+      "actualOutput": "かがくの ちからって しびれるーっ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-055-R01:U1",
+      "japanese": "ここは ミシロ タウン\nどんな いろにも そまらない まち",
+      "actualChinese": null,
+      "actualOutput": "ここは ミシロ タウン\nどんな いろにも そまらない まち",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-056-R01:U1",
+      "japanese": "ずーっと けんきゅうしつに こもって\nしらべものを しているかと おもえば",
+      "actualChinese": null,
+      "actualOutput": "ずーっと けんきゅうしつに こもって\nしらべものを しているかと おもえば",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-057-R01:U1",
+      "japanese": "しらべものを しているかと おもえば\nとつぜん のやまに とびだしていく‥‥",
+      "actualChinese": null,
+      "actualOutput": "しらべものを しているかと おもえば\nとつぜん のやまに とびだしていく‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-058-R01:U1",
+      "japanese": "オダマキはかせって いったい\nいつ うちに かえっているんだろう？",
+      "actualChinese": null,
+      "actualOutput": "オダマキはかせって いったい\nいつ うちに かえっているんだろう？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-059-R01:U1",
+      "japanese": "オダマキはかせは\nポケモンが どこに すんでいるのか",
+      "actualChinese": null,
+      "actualOutput": "オダマキはかせは\nポケモンが どこに すんでいるのか",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-060-R01:U1",
+      "japanese": "ポケモンが どこに すんでいるのか\nぶんぷの ちょうさを なさっています",
+      "actualChinese": null,
+      "actualOutput": "ポケモンが どこに すんでいるのか\nぶんぷの ちょうさを なさっています",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-061-R01:U1",
+      "japanese": "ユウキさんは すきな おとうさんの\nおてつだいを なさって いるのですよ",
+      "actualChinese": null,
+      "actualOutput": "ユウキさんは すきな おとうさんの\nおてつだいを なさって いるのですよ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-062-R01:U1",
+      "japanese": "オダマキ『おお ハルカちゃん！",
+      "actualChinese": null,
+      "actualOutput": "オダマキ『おお ハルカちゃん！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-063-R01:U1",
+      "japanese": "ポケモンずかんの ようすを\nみせて くれるのかい？",
+      "actualChinese": null,
+      "actualOutput": "ポケモンずかんの ようすを\nみせて くれるのかい？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-064-R01:U1",
+      "japanese": "うん？ みせるほど\nポケモンを つかまえて いないのか",
+      "actualChinese": null,
+      "actualOutput": "うん？ みせるほど\nポケモンを つかまえて いないのか",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-065-R01:U1",
+      "japanese": "ポケモンに ついて かかれた\nほんが いっぱい ある！",
+      "actualChinese": null,
+      "actualOutput": "ポケモンに ついて かかれた\nほんが いっぱい ある！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-066-R01:U1",
+      "japanese": "ポケモンと いっしょに\nぼうけん するのも いいけど",
+      "actualChinese": null,
+      "actualOutput": "ポケモンと いっしょに\nぼうけん するのも いいけど",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-067-R01:U1",
+      "japanese": "たまには おうちに かえって おかあさんに\nげんきな かおを みせてあげてね！",
+      "actualChinese": null,
+      "actualOutput": "たまには おうちに かえって おかあさんに\nげんきな かおを みせてあげてね！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-068-R01:U1",
+      "japanese": "こころの なかでは きっと\nハルカちゃんの こと",
+      "actualChinese": null,
+      "actualOutput": "こころの なかでは きっと\nハルカちゃんの こと",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-069-R01:U1",
+      "japanese": "ハルカちゃんの こと\nしんぱい してる はずだから‥‥",
+      "actualChinese": null,
+      "actualOutput": "ハルカちゃんの こと\nしんぱい してる はずだから‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-070-R02:U1",
+      "japanese": "あ！ やせいの\nケムッソが とびだしてきた！",
+      "actualChinese": null,
+      "actualOutput": "あ！ やせいの\nケムッソが とびだしてきた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-071-R03:U1",
+      "japanese": "ゆけっ！ ラグラージ！",
+      "actualChinese": null,
+      "actualOutput": "ゆけっ！ ラグラージ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-072-R03:U1",
+      "japanese": "ラグラージの\nマッドショット！",
+      "actualChinese": null,
+      "actualOutput": "ラグラージの\nマッドショット！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-073-R03:U1",
+      "japanese": "こうかは いまひとつの ようだ",
+      "actualChinese": "好像效果不好...",
+      "actualOutput": "好像效果不好...",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_NotEffective:ruby",
+        "rs.common.battle_strings.BattleText_NotEffective:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-074-R02:U1",
+      "japanese": "やせいの ケムッソは たおれた！",
+      "actualChinese": null,
+      "actualOutput": "やせいの ケムッソは たおれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-075-R02:U1",
+      "japanese": "ラグラージは\n15 けいけんちを もらった！",
+      "actualChinese": null,
+      "actualOutput": "ラグラージは\n15 けいけんちを もらった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-076-R03:U1",
+      "japanese": "やせいの ケムッソの\nいとをはく こうげき！",
+      "actualChinese": null,
+      "actualOutput": "やせいの ケムッソの\nいとをはく こうげき！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-077-R03:U1",
+      "japanese": "やせいの ケムッソの\nいとをはく こうげき！",
+      "actualChinese": null,
+      "actualOutput": "やせいの ケムッソの\nいとをはく こうげき！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-078-R03:U1",
+      "japanese": "ヘラクロスの\nすばやさが さがった！",
+      "actualChinese": null,
+      "actualOutput": "ヘラクロスの\nすばやさが さがった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-079-R03:U1",
+      "japanese": "しかし うまく きまら",
+      "actualChinese": null,
+      "actualOutput": "しかし うまく きまら",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-080-R03:U1",
+      "japanese": "ヘラクロスは\nかわらわりを した！",
+      "actualChinese": null,
+      "actualOutput": "ヘラクロスは\nかわらわりを した！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-081-R03:U1",
+      "japanese": "こうかは いまひとつの ようだ",
+      "actualChinese": "好像效果不好...",
+      "actualOutput": "好像效果不好...",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_NotEffective:ruby",
+        "rs.common.battle_strings.BattleText_NotEffective:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-082-R03:U1",
+      "japanese": "カイオーガの あめふらしで\nあめが ふりはじめた！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガの あめふらしで\nあめが ふりはじめた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-083-R03:U1",
+      "japanese": "カイオーガは\nめいそうを した！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは\nめいそうを した！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-084-R03:U1",
+      "japanese": "カイオーガは\nめいそうを した！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは\nめいそうを した！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-085-R03:U1",
+      "japanese": "カイオーガの\nとくこうが あがった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガの\nとくこうが あがった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-086-R03:U1",
+      "japanese": "カイオーガの\nとくぼうが あがった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガの\nとくぼうが あがった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-087-R03:U1",
+      "japanese": "やせいの ケムッソの\nいとをはく こうげき！",
+      "actualChinese": null,
+      "actualOutput": "やせいの ケムッソの\nいとをはく こうげき！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-088-R03:U1",
+      "japanese": "カイオーガの\nすばやさが さがった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガの\nすばやさが さがった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-089-R03:U1",
+      "japanese": "あめが ふりつづいている",
+      "actualChinese": "雨还在持续下着。",
+      "actualOutput": "雨还在持续下着。",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_RainCont1:ruby",
+        "rs.common.battle_strings.BattleText_RainCont1:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-090-R03:U1",
+      "japanese": "カイオーガは どうする？",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは どうする？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-090-R04:U1",
+      "japanese": "たたかう",
+      "actualChinese": null,
+      "actualOutput": "たたかう",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-090-R04:U2",
+      "japanese": "バッグ",
+      "actualChinese": "包包",
+      "actualOutput": "包包",
+      "sourceIds": [
+        "rs.common.strings2.SystemText_BAG:ruby",
+        "rs.common.strings2.SystemText_BAG:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-090-R04:U3",
+      "japanese": "ポケモン",
+      "actualChinese": "宝可梦",
+      "actualOutput": "宝可梦",
+      "sourceIds": [
+        "rs.common.easy_chat_group_trainer.gEasyChatGroupWords_Trainer.14:ruby",
+        "rs.common.strings.gSystemText_Pokemon2:ruby",
+        "rs.common.strings.gOtherText_Poke:ruby",
+        "rs.common.strings2.SystemText_Pokemon:ruby",
+        "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Pokemon:ruby",
+        "rs.common.easy_chat_group_trainer.gEasyChatGroupWords_Trainer.14:sapphire",
+        "rs.common.strings.gSystemText_Pokemon2:sapphire",
+        "rs.common.strings.gOtherText_Poke:sapphire",
+        "rs.common.strings2.SystemText_Pokemon:sapphire",
+        "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Pokemon:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-090-R04:U4",
+      "japanese": "にげる",
+      "actualChinese": null,
+      "actualOutput": "にげる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-091-R07:U1",
+      "japanese": "ボスゴドラを どうする？",
+      "actualChinese": null,
+      "actualOutput": "ボスゴドラを どうする？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-091-R08:U1",
+      "japanese": "いれかえる",
+      "actualChinese": null,
+      "actualOutput": "いれかえる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-091-R08:U2",
+      "japanese": "つよさをみる",
+      "actualChinese": null,
+      "actualOutput": "つよさをみる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-091-R08:U3",
+      "japanese": "やめる",
+      "actualChinese": null,
+      "actualOutput": "やめる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-092-R03:U1",
+      "japanese": "カイオーガ もういい！\nもどれ！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガ もういい！\nもどれ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-093-R02:U1",
+      "japanese": "ゆけっ！ ボスゴドラ！",
+      "actualChinese": null,
+      "actualOutput": "ゆけっ！ ボスゴドラ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-094-R03:U1",
+      "japanese": "こうかは いまひとつの ようだ",
+      "actualChinese": "好像效果不好...",
+      "actualOutput": "好像效果不好...",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_NotEffective:ruby",
+        "rs.common.battle_strings.BattleText_NotEffective:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-095-R03:U1",
+      "japanese": "あめが ふりつづいている",
+      "actualChinese": "雨还在持续下着。",
+      "actualOutput": "雨还在持续下着。",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_RainCont1:ruby",
+        "rs.common.battle_strings.BattleText_RainCont1:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-096-R03:U1",
+      "japanese": "うまく にげきれた！",
+      "actualChinese": null,
+      "actualOutput": "うまく にげきれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-097-R01:U1",
+      "japanese": "トレーナーよ！ おのれと\nポケモンを しんじて すすみたまえ！",
+      "actualChinese": null,
+      "actualOutput": "トレーナーよ！ おのれと\nポケモンを しんじて すすみたまえ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-098-R01:U1",
+      "japanese": "その ひでんマシンは いあいぎり！",
+      "actualChinese": null,
+      "actualOutput": "その ひでんマシンは いあいぎり！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-099-R01:U1",
+      "japanese": "ひでんは たたかっていない ときでも\nポケモンが つかえる わざ！",
+      "actualChinese": null,
+      "actualOutput": "ひでんは たたかっていない ときでも\nポケモンが つかえる わざ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-100-R01:U1",
+      "japanese": "いあいぎりを おぼえた ポケモンは\nストーンバッジを もっていれば",
+      "actualChinese": null,
+      "actualOutput": "いあいぎりを おぼえた ポケモンは\nストーンバッジを もっていれば",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-101-R01:U1",
+      "japanese": "ストーンバッジを もっていれば\nほそい きを きれるように なるのだよ！",
+      "actualChinese": null,
+      "actualOutput": "ストーンバッジを もっていれば\nほそい きを きれるように なるのだよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-102-R01:U1",
+      "japanese": "しかも ひでんマシンは わざマシンと ちがい\nつかっても なくならないぞ！",
+      "actualChinese": null,
+      "actualOutput": "しかも ひでんマシンは わざマシンと ちがい\nつかっても なくならないぞ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-103-R01:U1",
+      "japanese": "この カナズミが おおきくなるとき\nおとうさん みんなの ために",
+      "actualChinese": null,
+      "actualOutput": "この カナズミが おおきくなるとき\nおとうさん みんなの ために",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-104-R01:U1",
+      "japanese": "おとうさん みんなの ために\nいあいぎりを つかって",
+      "actualChinese": null,
+      "actualOutput": "おとうさん みんなの ために\nいあいぎりを つかって",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-105-R01:U1",
+      "japanese": "いあいぎりを つかって\nあたりを きりひらいたんだって！",
+      "actualChinese": null,
+      "actualOutput": "いあいぎりを つかって\nあたりを きりひらいたんだって！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-106-R01:U1",
+      "japanese": "ぽけもん とれーなーず すくーる かぁ！",
+      "actualChinese": null,
+      "actualOutput": "ぽけもん とれーなーず すくーる かぁ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-107-R01:U1",
+      "japanese": "ここに にゅうがく すれば\nめずらしい ポケモンでも かんたんに",
+      "actualChinese": null,
+      "actualOutput": "ここに にゅうがく すれば\nめずらしい ポケモンでも かんたんに",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-108-R01:U1",
+      "japanese": "めずらしい ポケモンでも かんたんに\nつかまえられるように なるのかな？",
+      "actualChinese": null,
+      "actualOutput": "めずらしい ポケモンでも かんたんに\nつかまえられるように なるのかな？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-109-R01:U1",
+      "japanese": "ジムリーダーに ちょうせん したけど‥‥",
+      "actualChinese": null,
+      "actualOutput": "ジムリーダーに ちょうせん したけど‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-110-R01:U1",
+      "japanese": "あたしの ほのおタイプの ポケモンじゃ\nちょっと かつのは たいへんそう‥‥",
+      "actualChinese": null,
+      "actualOutput": "あたしの ほのおタイプの ポケモンじゃ\nちょっと かつのは たいへんそう‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-111-R01:U1",
+      "japanese": "だって ほのおタイプ って\nいわタイプに あいしょうが わるいもの‥‥",
+      "actualChinese": null,
+      "actualOutput": "だって ほのおタイプ って\nいわタイプに あいしょうが わるいもの‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-112-R01:U1",
+      "japanese": "あなた サイクルショップ には\nもう いってみた？",
+      "actualChinese": null,
+      "actualOutput": "あなた サイクルショップ には\nもう いってみた？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-113-R01:U1",
+      "japanese": "あそこの ごしゅじんの カゼノさんは\nすごく きまえが いいのよね！",
+      "actualChinese": null,
+      "actualOutput": "あそこの ごしゅじんの カゼノさんは\nすごく きまえが いいのよね！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-114-R01:U1",
+      "japanese": "この まちは とうざい なんぼく に\nみちが つうじて いるから",
+      "actualChinese": null,
+      "actualOutput": "この まちは とうざい なんぼく に\nみちが つうじて いるから",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-115-R01:U1",
+      "japanese": "みちが つうじて いるから\nいろんな ひとが やってきます！",
+      "actualChinese": null,
+      "actualOutput": "みちが つうじて いるから\nいろんな ひとが やってきます！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-116-R01:U1",
+      "japanese": "じてんしゃに のっていても\nやせいの ポケモンは とびだしてくるよ！",
+      "actualChinese": null,
+      "actualOutput": "じてんしゃに のっていても\nやせいの ポケモンは とびだしてくるよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-117-R01:U1",
+      "japanese": "あまいかおりを うまく つかうと\nポケモンが さそわれて やってくるわね",
+      "actualChinese": null,
+      "actualOutput": "あまいかおりを うまく つかうと\nポケモンが さそわれて やってくるわね",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-118-R01:U1",
+      "japanese": "ふねを もって いなくても\nなみのりを おぼえた ポケモンが いれば",
+      "actualChinese": null,
+      "actualOutput": "ふねを もって いなくても\nなみのりを おぼえた ポケモンが いれば",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-119-R01:U1",
+      "japanese": "なみのりを おぼえた ポケモンが いれば\nうみや かわを わたって いけちゃうの！",
+      "actualChinese": null,
+      "actualOutput": "なみのりを おぼえた ポケモンが いれば\nうみや かわを わたって いけちゃうの！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-120-R01:U1",
+      "japanese": "ポケモンって たのもしーい！",
+      "actualChinese": null,
+      "actualOutput": "ポケモンって たのもしーい！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-121-R01:U1",
+      "japanese": "おや あんた\nおんせんが すき なのかい？",
+      "actualChinese": null,
+      "actualOutput": "おや あんた\nおんせんが すき なのかい？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-122-R01:U1",
+      "japanese": "まだ わかいのに めずらしいねえ‥‥",
+      "actualChinese": null,
+      "actualOutput": "まだ わかいのに めずらしいねえ‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-123-R01:U1",
+      "japanese": "あたし アスナさん みたいに\nすてきで つよい ジムリーダーに なるため",
+      "actualChinese": null,
+      "actualOutput": "あたし アスナさん みたいに\nすてきで つよい ジムリーダーに なるため",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-124-R01:U1",
+      "japanese": "すてきで つよい ジムリーダーに なるため\nまいにち おんせんに はいってるの！",
+      "actualChinese": null,
+      "actualOutput": "すてきで つよい ジムリーダーに なるため\nまいにち おんせんに はいってるの！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-125-R01:U1",
+      "japanese": "うーむ‥‥ キンセツに いきたいのだが‥‥\nこの だんさを おりてしまうと",
+      "actualChinese": null,
+      "actualOutput": "うーむ‥‥ キンセツに いきたいのだが‥‥\nこの だんさを おりてしまうと",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-126-R01:U1",
+      "japanese": "この だんさを おりてしまうと\nフエンに もどるのは たいへん だよな‥‥",
+      "actualChinese": null,
+      "actualOutput": "この だんさを おりてしまうと\nフエンに もどるのは たいへん だよな‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-127-R01:U1",
+      "japanese": "こんな デコボコしたところ\nじてんしゃで じょうずに のぼっていく",
+      "actualChinese": null,
+      "actualOutput": "こんな デコボコしたところ\nじてんしゃで じょうずに のぼっていく",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-128-R01:U1",
+      "japanese": "じてんしゃで じょうずに のぼっていく\nひとも いるのよ！",
+      "actualChinese": null,
+      "actualOutput": "じてんしゃで じょうずに のぼっていく\nひとも いるのよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-129-R01:U1",
+      "japanese": "ね！ ね！ すごいでしょ！\nみずの うえに おうちが たってるの！",
+      "actualChinese": null,
+      "actualOutput": "ね！ ね！ すごいでしょ！\nみずの うえに おうちが たってるの！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-130-R01:U1",
+      "japanese": "ぼく ここで うまれたんだよ！",
+      "actualChinese": null,
+      "actualOutput": "ぼく ここで うまれたんだよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-131-R01:U1",
+      "japanese": "キナギの にんげんは\nみんな つりをしたり もぐったりして",
+      "actualChinese": null,
+      "actualOutput": "キナギの にんげんは\nみんな つりをしたり もぐったりして",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-132-R01:U1",
+      "japanese": "みんな つりをしたり もぐったりして\nせいかつ してるんだな",
+      "actualChinese": null,
+      "actualOutput": "みんな つりをしたり もぐったりして\nせいかつ してるんだな",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-133-R01:U1",
+      "japanese": "ホウエンちほう には\nいわ‥‥ こおり‥‥ はがね‥‥",
+      "actualChinese": null,
+      "actualOutput": "ホウエンちほう には\nいわ‥‥ こおり‥‥ はがね‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-134-R01:U1",
+      "japanese": "それぞれの ちからを つかさどる\n3びきの ポケモンが",
+      "actualChinese": null,
+      "actualOutput": "それぞれの ちからを つかさどる\n3びきの ポケモンが",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-135-R01:U1",
+      "japanese": "3びきの ポケモンが\nそれぞれ どこかの どうくつに いる‥‥",
+      "actualChinese": null,
+      "actualOutput": "3びきの ポケモンが\nそれぞれ どこかの どうくつに いる‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-136-R01:U1",
+      "japanese": "おれ ちいさな ころに\nそんな はなしを きいたことが あるよ",
+      "actualChinese": null,
+      "actualOutput": "おれ ちいさな ころに\nそんな はなしを きいたことが あるよ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-137-R01:U1",
+      "japanese": "「むっつの てんが\nみっつの とびらを あける」",
+      "actualChinese": null,
+      "actualOutput": "「むっつの てんが\nみっつの とびらを あける」",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-138-R01:U1",
+      "japanese": "おじいちゃんが よく いっていたけど\nいまだに なんのことだか わからないわ",
+      "actualChinese": null,
+      "actualOutput": "おじいちゃんが よく いっていたけど\nいまだに なんのことだか わからないわ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-139-R01:U1",
+      "japanese": "ようこそ チャレンジャー！\nおれは してんのうの カゲツ",
+      "actualChinese": null,
+      "actualOutput": "ようこそ チャレンジャー！\nおれは してんのうの カゲツ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-140-R01:U1",
+      "japanese": "うーん いい かお してるな\nなかなか たのしませて くれそうだぞ！",
+      "actualChinese": null,
+      "actualOutput": "うーん いい かお してるな\nなかなか たのしませて くれそうだぞ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-141-R01:U1",
+      "japanese": "なかなか たのしませて くれそうだぞ！\nいいぞ！ いい かんじだぞ！",
+      "actualChinese": null,
+      "actualOutput": "なかなか たのしませて くれそうだぞ！\nいいぞ！ いい かんじだぞ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-142-R01:U1",
+      "japanese": "よーし！ おれと おまえ とで\nポケモン リーグでしか できない",
+      "actualChinese": null,
+      "actualOutput": "よーし！ おれと おまえ とで\nポケモン リーグでしか できない",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-143-R01:U1",
+      "japanese": "ポケモン リーグでしか できない\nたたかいを たのしむと しようぜ！！",
+      "actualChinese": null,
+      "actualOutput": "ポケモン リーグでしか できない\nたたかいを たのしむと しようぜ！！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-144-R01:U1",
+      "japanese": "してんのうの カゲツが\nしょうぶを しかけてきた！",
+      "actualChinese": null,
+      "actualOutput": "してんのうの カゲツが\nしょうぶを しかけてきた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-145-R03:U1",
+      "japanese": "してんのうの カゲツは\nグラエナを くりだした！",
+      "actualChinese": null,
+      "actualOutput": "してんのうの カゲツは\nグラエナを くりだした！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-146-R03:U1",
+      "japanese": "ゆけっ！ カイオーガ！",
+      "actualChinese": null,
+      "actualOutput": "ゆけっ！ カイオーガ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-147-R03:U1",
+      "japanese": "カイオーガの あめふらしで\nあめが ふりはじめた！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガの あめふらしで\nあめが ふりはじめた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-148-R03:U1",
+      "japanese": "あいての グラエナの いかくで\nカイオーガの こうげきりょくが さがった！",
+      "actualChinese": null,
+      "actualOutput": "あいての グラエナの いかくで\nカイオーガの こうげきりょくが さがった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-149-R03:U1",
+      "japanese": "カイオーガは\nめいそうを した！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは\nめいそうを した！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-150-R03:U1",
+      "japanese": "カイオーガの\nとくこうが あがった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガの\nとくこうが あがった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-151-R03:U1",
+      "japanese": "カイオーガの\nとくぼうが あがった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガの\nとくぼうが あがった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-152-R03:U1",
+      "japanese": "しかし あいての グラエナの\nこうげきは はずれた！",
+      "actualChinese": null,
+      "actualOutput": "しかし あいての グラエナの\nこうげきは はずれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-153-R03:U1",
+      "japanese": "しかし あいての グラ",
+      "actualChinese": null,
+      "actualOutput": "しかし あいての グラ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-154-R03:U1",
+      "japanese": "あいての グラエナの\nすなかけ！",
+      "actualChinese": null,
+      "actualOutput": "あいての グラエナの\nすなかけ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-155-R03:U1",
+      "japanese": "カイオーガの\nめいちゅうりつが さがった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガの\nめいちゅうりつが さがった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-156-R03:U1",
+      "japanese": "あめが ふりつづいている",
+      "actualChinese": "雨还在持续下着。",
+      "actualOutput": "雨还在持续下着。",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_RainCont1:ruby",
+        "rs.common.battle_strings.BattleText_RainCont1:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-157-R03:U1",
+      "japanese": "カイオーガの\nなみのり！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガの\nなみのり！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-158-R02:U1",
+      "japanese": "あいての グラエナは たおれた！",
+      "actualChinese": null,
+      "actualOutput": "あいての グラエナは たおれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-159-R02:U1",
+      "japanese": "カイオーガは\n1261 けいけんちを もらった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは\n1261 けいけんちを もらった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-160-R02:U1",
+      "japanese": "してんのうの カゲツは\nノクタスを くりだそうと している",
+      "actualChinese": null,
+      "actualOutput": "してんのうの カゲツは\nノクタスを くりだそうと している",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-161-R02:U1",
+      "japanese": "ハルカも ポケモンを\nいれかえますか？",
+      "actualChinese": null,
+      "actualOutput": "ハルカも ポケモンを\nいれかえますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-162-R03:U1",
+      "japanese": "あめが ふりつづいている",
+      "actualChinese": "雨还在持续下着。",
+      "actualOutput": "雨还在持续下着。",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_RainCont1:ruby",
+        "rs.common.battle_strings.BattleText_RainCont1:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-163-R03:U1",
+      "japanese": "カイオーガの\nれいとうビーム！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガの\nれいとうビーム！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-164-R03:U1",
+      "japanese": "こうかは ばつぐんだ！",
+      "actualChinese": "效果绝佳！",
+      "actualOutput": "效果绝佳！",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_SuperEffective:ruby",
+        "rs.common.battle_strings.BattleText_SuperEffective:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-165-R02:U1",
+      "japanese": "あいての ノクタスは たおれた！",
+      "actualChinese": null,
+      "actualOutput": "あいての ノクタスは たおれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-166-R02:U1",
+      "japanese": "カイオーガは\n1744 けいけんちを もらった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは\n1744 けいけんちを もらった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-167-R02:U1",
+      "japanese": "してんのうの カゲツは\nサメハダーを くりだそうと している",
+      "actualChinese": null,
+      "actualOutput": "してんのうの カゲツは\nサメハダーを くりだそうと している",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-168-R02:U1",
+      "japanese": "ハルカも ポケモンを\nいれかえますか？",
+      "actualChinese": null,
+      "actualOutput": "ハルカも ポケモンを\nいれかえますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-169-R03:U1",
+      "japanese": "こうかは いまひとつの ようだ",
+      "actualChinese": "好像效果不好...",
+      "actualOutput": "好像效果不好...",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_NotEffective:ruby",
+        "rs.common.battle_strings.BattleText_NotEffective:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-170-R02:U1",
+      "japanese": "あいての サメハダーは たおれた！",
+      "actualChinese": null,
+      "actualOutput": "あいての サメハダーは たおれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-171-R02:U1",
+      "japanese": "カイオーガは\n1800 けいけんちを もらった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは\n1800 けいけんちを もらった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-172-R02:U1",
+      "japanese": "してんのうの カゲツは\nアブソルを くりだそうと している",
+      "actualChinese": null,
+      "actualOutput": "してんのうの カゲツは\nアブソルを くりだそうと している",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-173-R02:U1",
+      "japanese": "ハルカも ポケモンを\nいれかえますか？",
+      "actualChinese": null,
+      "actualOutput": "ハルカも ポケモンを\nいれかえますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-174-R03:U1",
+      "japanese": "あいての アブソルは\nあいての でかたを うかがっている！",
+      "actualChinese": null,
+      "actualOutput": "あいての アブソルは\nあいての でかたを うかがっている！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-175-R03:U1",
+      "japanese": "あいて",
+      "actualChinese": null,
+      "actualOutput": "あいて",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-176-R02:U1",
+      "japanese": "あいての アブソルは たおれた！",
+      "actualChinese": null,
+      "actualOutput": "あいての アブソルは たおれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-177-R02:U1",
+      "japanese": "カイオーガは\n1827 けいけんちを もらった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは\n1827 けいけんちを もらった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-178-R02:U1",
+      "japanese": "してんのうの カゲツは\nダーテングを くりだそうと している",
+      "actualChinese": null,
+      "actualOutput": "してんのうの カゲツは\nダーテングを くりだそうと している",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-179-R02:U1",
+      "japanese": "ハルカも ポケモンを\nいれかえますか？",
+      "actualChinese": null,
+      "actualOutput": "ハルカも ポケモンを\nいれかえますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-180-R03:U1",
+      "japanese": "あいての ダーテングの\nねこだまし！",
+      "actualChinese": null,
+      "actualOutput": "あいての ダーテングの\nねこだまし！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-181-R03:U1",
+      "japanese": "カイオーガは ひるんで\nうごけなかった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは ひるんで\nうごけなかった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-182-R03:U1",
+      "japanese": "しかし カイオーガの\nこうげきは はずれた！",
+      "actualChinese": null,
+      "actualOutput": "しかし カイオーガの\nこうげきは はずれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-183-R03:U1",
+      "japanese": "あいての ダーテングは\nかげぶんしんを した！",
+      "actualChinese": null,
+      "actualOutput": "あいての ダーテングは\nかげぶんしんを した！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-184-R03:U1",
+      "japanese": "あいての ダーテングの\nかいひりつが あがった！",
+      "actualChinese": null,
+      "actualOutput": "あいての ダーテングの\nかいひりつが あがった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-185-R02:U1",
+      "japanese": "あいての ダーテングは たおれた！",
+      "actualChinese": null,
+      "actualOutput": "あいての ダーテングは たおれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-186-R02:U1",
+      "japanese": "してんのうの カゲツ\nとの しょうぶに かった！",
+      "actualChinese": null,
+      "actualOutput": "してんのうの カゲツ\nとの しょうぶに かった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-187-R02:U1",
+      "japanese": "おやおや まけちまったよ\nまっ たのしんだから いいんだけどよ",
+      "actualChinese": null,
+      "actualOutput": "おやおや まけちまったよ\nまっ たのしんだから いいんだけどよ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-188-R02:U1",
+      "japanese": "ハルカは しょうきんとして\n4900円 てにいれた！",
+      "actualChinese": null,
+      "actualOutput": "ハルカは しょうきんとして\n4900円 てにいれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-189-R01:U1",
+      "japanese": "まけた おれから ひとこと",
+      "actualChinese": null,
+      "actualOutput": "まけた おれから ひとこと",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-190-R01:U1",
+      "japanese": "おまえなら もっと さきに すすめるぜ\nさあ つぎの へやに いって",
+      "actualChinese": null,
+      "actualOutput": "おまえなら もっと さきに すすめるぜ\nさあ つぎの へやに いって",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-191-R01:U1",
+      "japanese": "さあ つぎの へやに いって\nたたかいを たのしんで きなよ！",
+      "actualChinese": null,
+      "actualOutput": "さあ つぎの へやに いって\nたたかいを たのしんで きなよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-192-R01:U1",
+      "japanese": "おくりびやまで しゅぎょう するうちに\nゴーストタイプの ポケモンと きもちを",
+      "actualChinese": null,
+      "actualOutput": "おくりびやまで しゅぎょう するうちに\nゴーストタイプの ポケモンと きもちを",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-193-R01:U1",
+      "japanese": "ゴーストタイプの ポケモンと きもちを\nかよわせる ことが できるように なったの",
+      "actualChinese": null,
+      "actualOutput": "ゴーストタイプの ポケモンと きもちを\nかよわせる ことが できるように なったの",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-194-R01:U1",
+      "japanese": "そう アタシと ポケモンの きずな\nとっても つよいんだ！",
+      "actualChinese": null,
+      "actualOutput": "そう アタシと ポケモンの きずな\nとっても つよいんだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-195-R01:U1",
+      "japanese": "そんな アタシの ポケモンたちに\nダメージを あたえる ことが できるか",
+      "actualChinese": null,
+      "actualOutput": "そんな アタシの ポケモンたちに\nダメージを あたえる ことが できるか",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-196-R01:U1",
+      "japanese": "ダメージを あたえる ことが できるか\nためして ごらんよ！",
+      "actualChinese": null,
+      "actualOutput": "ダメージを あたえる ことが できるか\nためして ごらんよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-197-R01:U1",
+      "japanese": "してんのうの フヨウが\nしょうぶを しかけてきた！",
+      "actualChinese": null,
+      "actualOutput": "してんのうの フヨウが\nしょうぶを しかけてきた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-198-R02:U1",
+      "japanese": "ゆけっ！ カイオーガ！",
+      "actualChinese": null,
+      "actualOutput": "ゆけっ！ カイオーガ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-199-R03:U1",
+      "japanese": "あいての サマヨールの\nあやしいひかり！",
+      "actualChinese": null,
+      "actualOutput": "あいての サマヨールの\nあやしいひかり！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-200-R03:U1",
+      "japanese": "カイオーガは\nこんらんした！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは\nこんらんした！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-201-R09:U1",
+      "japanese": "カイオーガの たいりょくが\n17 かいふくした",
+      "actualChinese": null,
+      "actualOutput": "カイオーガの たいりょくが\n17 かいふくした",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-202-R03:U1",
+      "japanese": "あいての サマヨールの\nシャドーパンチ！",
+      "actualChinese": null,
+      "actualOutput": "あいての サマヨールの\nシャドーパンチ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-203-R03:U1",
+      "japanese": "あいての サマヨールの\nのろい こうげき！",
+      "actualChinese": null,
+      "actualOutput": "あいての サマヨールの\nのろい こうげき！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-204-R03:U1",
+      "japanese": "あいての サマヨールの\nのろい こうげき！",
+      "actualChinese": null,
+      "actualOutput": "あいての サマヨールの\nのろい こうげき！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-205-R03:U1",
+      "japanese": "あいての サマヨールは じぶんの たいりょくを\nけずって カイオーガに のろいを かけた！",
+      "actualChinese": null,
+      "actualOutput": "あいての サマヨールは じぶんの たいりょくを\nけずって カイオーガに のろいを かけた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-206-R03:U1",
+      "japanese": "カイオーガは\nのろわれている！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは\nのろわれている！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-207-R02:U1",
+      "japanese": "あいての サマヨールは たおれた！",
+      "actualChinese": null,
+      "actualOutput": "あいての サマヨールは たおれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-208-R02:U1",
+      "japanese": "カイオーガは\n1840 けいけんちを もらった！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは\n1840 けいけんちを もらった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-209-R02:U1",
+      "japanese": "してんのうの フヨウは\nジュペッタを くりだそうと している",
+      "actualChinese": null,
+      "actualOutput": "してんのうの フヨウは\nジュペッタを くりだそうと している",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-210-R02:U1",
+      "japanese": "ハルカも ポケモンを\nいれかえますか？",
+      "actualChinese": null,
+      "actualOutput": "ハルカも ポケモンを\nいれかえますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-211-R03:U1",
+      "japanese": "カイオーガは\nのろわれている！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガは\nのろわれている！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-212-R02:U1",
+      "japanese": "あいての ジュペッタは たおれた！",
+      "actualChinese": null,
+      "actualOutput": "あいての ジュペッタは たおれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-213-R02:U1",
+      "japanese": "してんのうの フヨウは\nヤミラミを くりだした！",
+      "actualChinese": null,
+      "actualOutput": "してんのうの フヨウは\nヤミラミを くりだした！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-214-R07:U1",
+      "japanese": "ポケモンを えらんで ください",
+      "actualChinese": null,
+      "actualOutput": "ポケモンを えらんで ください",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-214-R08:U1",
+      "japanese": "もどる",
+      "actualChinese": null,
+      "actualOutput": "もどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-215-R07:U1",
+      "japanese": "レックウザを どうする？",
+      "actualChinese": null,
+      "actualOutput": "レックウザを どうする？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-215-R08:U1",
+      "japanese": "いれかえる",
+      "actualChinese": null,
+      "actualOutput": "いれかえる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-215-R08:U2",
+      "japanese": "つよさをみる",
+      "actualChinese": null,
+      "actualOutput": "つよさをみる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-215-R08:U3",
+      "japanese": "やめる",
+      "actualChinese": null,
+      "actualOutput": "やめる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-216-R03:U1",
+      "japanese": "カイオーガ よくやった！\nもどれ！",
+      "actualChinese": null,
+      "actualOutput": "カイオーガ よくやった！\nもどれ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-217-R01:U1",
+      "japanese": "ゆけっ！ レックウザ！",
+      "actualChinese": null,
+      "actualOutput": "ゆけっ！ レックウザ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-218-R03:U1",
+      "japanese": "レックウザは\nそらたかく とびあがった！",
+      "actualChinese": null,
+      "actualOutput": "レックウザは\nそらたかく とびあがった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-219-R03:U1",
+      "japanese": "しかし あいての ジュペッタの\nこうげきは はずれた！",
+      "actualChinese": null,
+      "actualOutput": "しかし あいての ジュペッタの\nこうげきは はずれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-220-R03:U1",
+      "japanese": "レックウザの\nそらをとぶ こうげき！",
+      "actualChinese": null,
+      "actualOutput": "レックウザの\nそらをとぶ こうげき！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-221-R02:U1",
+      "japanese": "あいての ジュペッタは たおれた！",
+      "actualChinese": null,
+      "actualOutput": "あいての ジュペッタは たおれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-222-R02:U1",
+      "japanese": "レックウザは\n1879 けいけんちを もらった！",
+      "actualChinese": null,
+      "actualOutput": "レックウザは\n1879 けいけんちを もらった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-223-R02:U1",
+      "japanese": "してんのうの フヨウは\nサマヨールを くりだそうと している",
+      "actualChinese": null,
+      "actualOutput": "してんのうの フヨウは\nサマヨールを くりだそうと している",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-224-R03:U1",
+      "japanese": "あいての サマヨールの\nれいとうビーム！",
+      "actualChinese": null,
+      "actualOutput": "あいての サマヨールの\nれいとうビーム！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-225-R03:U1",
+      "japanese": "しかし あいての サマヨールの\nこうげきは はずれた！",
+      "actualChinese": null,
+      "actualOutput": "しかし あいての サマヨールの\nこうげきは はずれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-226-R03:U1",
+      "japanese": "あいての サマヨールの\nれいとうビーム！",
+      "actualChinese": null,
+      "actualOutput": "あいての サマヨールの\nれいとうビーム！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-227-R03:U1",
+      "japanese": "こうかは ばつぐんだ！",
+      "actualChinese": "效果绝佳！",
+      "actualOutput": "效果绝佳！",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_SuperEffective:ruby",
+        "rs.common.battle_strings.BattleText_SuperEffective:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-228-R03:U1",
+      "japanese": "レックウザは\nこおりづけになった！",
+      "actualChinese": null,
+      "actualOutput": "レックウザは\nこおりづけになった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-229-R09:U1",
+      "japanese": "レックウザの たいりょくが\n91 かいふくした",
+      "actualChinese": null,
+      "actualOutput": "レックウザの たいりょくが\n91 かいふくした",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-230-R03:U1",
+      "japanese": "こうかは ばつぐんだ！",
+      "actualChinese": "效果绝佳！",
+      "actualOutput": "效果绝佳！",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_SuperEffective:ruby",
+        "rs.common.battle_strings.BattleText_SuperEffective:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-231-R03:U1",
+      "japanese": "レックウザは\nこおりづけになった！",
+      "actualChinese": null,
+      "actualOutput": "レックウザは\nこおりづけになった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-232-R03:U1",
+      "japanese": "レックウザは\nこんらんした！",
+      "actualChinese": null,
+      "actualOutput": "レックウザは\nこんらんした！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-233-R03:U1",
+      "japanese": "レックウザは\nこんらんしている！",
+      "actualChinese": null,
+      "actualOutput": "レックウザは\nこんらんしている！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-234-R03:U1",
+      "japanese": "レックウザは\nねむるを つかった！",
+      "actualChinese": null,
+      "actualOutput": "レックウザは\nねむるを つかった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-235-R03:U1",
+      "japanese": "しかし レックウザの\nたいりょくは まんたんだ！",
+      "actualChinese": null,
+      "actualOutput": "しかし レックウザの\nたいりょくは まんたんだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-236-R03:U1",
+      "japanese": "あいての サマヨールの\nれいとうビーム！",
+      "actualChinese": null,
+      "actualOutput": "あいての サマヨールの\nれいとうビーム！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-237-R03:U1",
+      "japanese": "こうかは ばつぐんだ！",
+      "actualChinese": "效果绝佳！",
+      "actualOutput": "效果绝佳！",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_SuperEffective:ruby",
+        "rs.common.battle_strings.BattleText_SuperEffective:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "GBA-238-R03:U1",
+      "japanese": "レックウザの\nこんらんが とけた！",
+      "actualChinese": null,
+      "actualOutput": "レックウザの\nこんらんが とけた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-239-R03:U1",
+      "japanese": "レックウザの\nげきりん！",
+      "actualChinese": null,
+      "actualOutput": "レックウザの\nげきりん！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-240-R02:U1",
+      "japanese": "あいての サマヨールは たおれた！",
+      "actualChinese": null,
+      "actualOutput": "あいての サマヨールは たおれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-241-R02:U1",
+      "japanese": "レックウザは\n1956 けいけんちを もらった！",
+      "actualChinese": null,
+      "actualOutput": "レックウザは\n1956 けいけんちを もらった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-242-R02:U1",
+      "japanese": "してんのうの フヨウ\nとの しょうぶに かった！",
+      "actualChinese": null,
+      "actualOutput": "してんのうの フヨウ\nとの しょうぶに かった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-243-R02:U1",
+      "japanese": "あーあ\nまけちゃった",
+      "actualChinese": null,
+      "actualOutput": "あーあ\nまけちゃった",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-244-R02:U1",
+      "japanese": "ハルカは しょうきんとして\n5100円 てにいれた！",
+      "actualChinese": null,
+      "actualOutput": "ハルカは しょうきんとして\n5100円 てにいれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-245-R01:U1",
+      "japanese": "あなたと ポケモンとの あいだにも\nたしかな きずなが あったのね",
+      "actualChinese": null,
+      "actualOutput": "あなたと ポケモンとの あいだにも\nたしかな きずなが あったのね",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-246-R01:U1",
+      "japanese": "それが わからなかった\nアタシが まけたのは とうぜん",
+      "actualChinese": null,
+      "actualOutput": "それが わからなかった\nアタシが まけたのは とうぜん",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-247-R01:U1",
+      "japanese": "ウン あなたたちの きずなが\nどこまで つうじるか みてみたいな",
+      "actualChinese": null,
+      "actualOutput": "ウン あなたたちの きずなが\nどこまで つうじるか みてみたいな",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-248-R01:U1",
+      "japanese": "どこまで つうじるか みてみたいな\nつぎの へやに すすみなよ",
+      "actualChinese": null,
+      "actualOutput": "どこまで つうじるか みてみたいな\nつぎの へやに すすみなよ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-249-R01:U1",
+      "japanese": "「オダマキ はかせの いえ」",
+      "actualChinese": null,
+      "actualOutput": "「オダマキ はかせの いえ」",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-250-R01:U1",
+      "japanese": "「ハルカの いえ」",
+      "actualChinese": null,
+      "actualOutput": "「ハルカの いえ」",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-251-R03:U1",
+      "japanese": "ハルカは\nスーパーボールを つかった！",
+      "actualChinese": null,
+      "actualOutput": "ハルカは\nスーパーボールを つかった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-252-R03:U1",
+      "japanese": "おしい！\nあと ちょっとの ところだったのに！",
+      "actualChinese": null,
+      "actualOutput": "おしい！\nあと ちょっとの ところだったのに！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-253-R03:U1",
+      "japanese": "やせいの ジグザグマの\nなきごえ こうげき！",
+      "actualChinese": null,
+      "actualOutput": "やせいの ジグザグマの\nなきごえ こうげき！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-254-R03:U1",
+      "japanese": "ラグラージの\nこうげきりょくが さがった！",
+      "actualChinese": null,
+      "actualOutput": "ラグラージの\nこうげきりょくが さがった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-255-R03:U1",
+      "japanese": "やったー！\nジグザグマを つかまえたぞ！",
+      "actualChinese": null,
+      "actualOutput": "やったー！\nジグザグマを つかまえたぞ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-256-R01:U1",
+      "japanese": "ぜんこく から かちぬいてきた\nポケモンが あつ",
+      "actualChinese": null,
+      "actualOutput": "ぜんこく から かちぬいてきた\nポケモンが あつ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-257-R01:U1",
+      "japanese": "ぜんこく から かちぬいてきた\nポケモンが あつまって いるんだな！",
+      "actualChinese": null,
+      "actualOutput": "ぜんこく から かちぬいてきた\nポケモンが あつまって いるんだな！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-258-R01:U1",
+      "japanese": "わしの ハートは わくわく なんだな！",
+      "actualChinese": null,
+      "actualOutput": "わしの ハートは わくわく なんだな！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-259-R01:U1",
+      "japanese": "いなくなってた わたしの ポケモン\nいつのまにか かえってきたの！",
+      "actualChinese": null,
+      "actualOutput": "いなくなってた わたしの ポケモン\nいつのまにか かえってきたの！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-260-R01:U1",
+      "japanese": "あら まだ コンテストパスを\nもらって ないのね！",
+      "actualChinese": null,
+      "actualOutput": "あら まだ コンテストパスを\nもらって ないのね！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-261-R01:U1",
+      "japanese": "もらって ないのね！\nシダケタウンで はやく もらっておいでよ！",
+      "actualChinese": null,
+      "actualOutput": "もらって ないのね！\nシダケタウンで はやく もらっておいでよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-262-R01:U1",
+      "japanese": "だいじに そだてた ポケモンを\nおおぜいに みてもらうのって かいかんよ！",
+      "actualChinese": null,
+      "actualOutput": "だいじに そだてた ポケモンを\nおおぜいに みてもらうのって かいかんよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-263-R01:U1",
+      "japanese": "たくましさコンテストって\nさいこう だよな！",
+      "actualChinese": null,
+      "actualOutput": "たくましさコンテストって\nさいこう だよな！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-264-R01:U1",
+      "japanese": "ちからづよい アピール‥‥\nほとばしる あせ‥‥ たまらん！",
+      "actualChinese": null,
+      "actualOutput": "ちからづよい アピール‥‥\nほとばしる あせ‥‥ たまらん！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-265-R01:U1",
+      "japanese": "ママと パパと おねえちゃんと\n4にんで ポロックを つくったら",
+      "actualChinese": null,
+      "actualOutput": "ママと パパと おねえちゃんと\n4にんで ポロックを つくったら",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-266-R01:U1",
+      "japanese": "4にんで ポロックを つくったら\nすごく いいやつが できたんだ！",
+      "actualChinese": null,
+      "actualOutput": "4にんで ポロックを つくったら\nすごく いいやつが できたんだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-267-R01:U1",
+      "japanese": "きっと おおぜいで つくれば つくるほど\nなめらかで いい ポロックが できるんだよ！",
+      "actualChinese": null,
+      "actualOutput": "きっと おおぜいで つくれば つくるほど\nなめらかで いい ポロックが できるんだよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-268-R01:U1",
+      "japanese": "まいにち だいじに だいじに\nそだてあげた わしの ポケモン",
+      "actualChinese": null,
+      "actualOutput": "まいにち だいじに だいじに\nそだてあげた わしの ポケモン",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-269-R01:U1",
+      "japanese": "そだてあげた わしの ポケモン\nコンディションは カンペキ！",
+      "actualChinese": null,
+      "actualOutput": "そだてあげた わしの ポケモン\nコンディションは カンペキ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-270-R01:U1",
+      "japanese": "コンディションは カンペキ！\nきょうは かつぞおおおおおうう！",
+      "actualChinese": null,
+      "actualOutput": "コンディションは カンペキ！\nきょうは かつぞおおおおおうう！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-271-R01:U1",
+      "japanese": "お！ おじさんと いっしょに\nポロックを つくりたいのかい？",
+      "actualChinese": null,
+      "actualOutput": "お！ おじさんと いっしょに\nポロックを つくりたいのかい？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-272-R01:U1",
+      "japanese": "そうか！",
+      "actualChinese": null,
+      "actualOutput": "そうか！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-273-R01:U1",
+      "japanese": "じゃあ ポロックの つくりかたは\nもう しってるかい？",
+      "actualChinese": null,
+      "actualOutput": "じゃあ ポロックの つくりかたは\nもう しってるかい？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-274-R01:U1",
+      "japanese": "じゃあ はじめるぞ！",
+      "actualChinese": null,
+      "actualOutput": "じゃあ はじめるぞ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-275-R01:U1",
+      "japanese": "レッツ きのみブレンダー！！",
+      "actualChinese": null,
+      "actualOutput": "レッツ きのみブレンダー！！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-276-R05:U1",
+      "japanese": "きのみブレンダーを きどうします",
+      "actualChinese": null,
+      "actualOutput": "きのみブレンダーを きどうします",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-277-R05:U1",
+      "japanese": "バッグから きのみブレンダーに いれる\nきのみを えらんでください",
+      "actualChinese": null,
+      "actualOutput": "バッグから きのみブレンダーに いれる\nきのみを えらんでください",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R01:U1",
+      "japanese": "No01クラボのみ × 9",
+      "actualChinese": null,
+      "actualOutput": "No01クラボのみ × 9",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R01:U2",
+      "japanese": "No02カゴのみ × 7",
+      "actualChinese": null,
+      "actualOutput": "No02カゴのみ × 7",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R01:U3",
+      "japanese": "No03モモンのみ × 14",
+      "actualChinese": null,
+      "actualOutput": "No03モモンのみ × 14",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R01:U4",
+      "japanese": "No04チーゴのみ × 6",
+      "actualChinese": null,
+      "actualOutput": "No04チーゴのみ × 6",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R01:U5",
+      "japanese": "No05ナナシのみ × 8",
+      "actualChinese": null,
+      "actualOutput": "No05ナナシのみ × 8",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R01:U6",
+      "japanese": "No06ヒメリのみ × 6",
+      "actualChinese": null,
+      "actualOutput": "No06ヒメリのみ × 6",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R01:U7",
+      "japanese": "No07オレンのみ × 3",
+      "actualChinese": null,
+      "actualOutput": "No07オレンのみ × 3",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R01:U8",
+      "japanese": "No08キーのみ × 9",
+      "actualChinese": null,
+      "actualOutput": "No08キーのみ × 9",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R02:U1",
+      "japanese": "けってい",
+      "actualChinese": null,
+      "actualOutput": "けってい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R02:U2",
+      "japanese": "タグをみる",
+      "actualChinese": null,
+      "actualOutput": "タグをみる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R02:U3",
+      "japanese": "やめる",
+      "actualChinese": null,
+      "actualOutput": "やめる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-278-R03:U1",
+      "japanese": "どうしますか？",
+      "actualChinese": null,
+      "actualOutput": "どうしますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-282-R05:U1",
+      "japanese": "あかいポロック ができた！\nレベル11で なめらかさは21だ",
+      "actualChinese": null,
+      "actualOutput": "あかいポロック ができた！\nレベル11で なめらかさは21だ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-283-R05:U1",
+      "japanese": "もういちど きのみを まぜますか？",
+      "actualChinese": null,
+      "actualOutput": "もういちど きのみを まぜますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-284-R01:U1",
+      "japanese": "ポロックケース",
+      "actualChinese": null,
+      "actualOutput": "ポロックケース",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-284-R02:U1",
+      "japanese": "あかいポロック Lv11",
+      "actualChinese": null,
+      "actualOutput": "あかいポロック Lv11",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-284-R02:U2",
+      "japanese": "ケースをしまう",
+      "actualChinese": null,
+      "actualOutput": "ケースをしまう",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-284-R03:U1",
+      "japanese": "からい にがい\nしぶい すっぱい\nあまい なめらかさ21",
+      "actualChinese": null,
+      "actualOutput": "からい にがい\nしぶい すっぱい\nあまい なめらかさ21",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-285-R01:U1",
+      "japanese": "ポロックケース",
+      "actualChinese": null,
+      "actualOutput": "ポロックケース",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-285-R02:U1",
+      "japanese": "あかいポロック Lv11",
+      "actualChinese": null,
+      "actualOutput": "あかいポロック Lv11",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-285-R02:U2",
+      "japanese": "ケースをしまう",
+      "actualChinese": null,
+      "actualOutput": "ケースをしまう",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-285-R05:U1",
+      "japanese": "あかいポロックを\nすてても よろしいですか？",
+      "actualChinese": null,
+      "actualOutput": "あかいポロックを\nすてても よろしいですか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-286-R01:U1",
+      "japanese": "ラグラージは あかいポロックを\nたべた！",
+      "actualChinese": null,
+      "actualOutput": "ラグラージは あかいポロックを\nたべた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-287-R01:U1",
+      "japanese": "コンディション",
+      "actualChinese": null,
+      "actualOutput": "コンディション",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-287-R04:U1",
+      "japanese": "せいかく/がんばりや",
+      "actualChinese": null,
+      "actualOutput": "せいかく/がんばりや",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-287-R05:U1",
+      "japanese": "かっこよさに みがきが かかった！",
+      "actualChinese": null,
+      "actualOutput": "かっこよさに みがきが かかった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-288-R01:U1",
+      "japanese": "コンテストパスを おもちの かたは\nどなたでも さんか できます！",
+      "actualChinese": null,
+      "actualOutput": "コンテストパスを おもちの かたは\nどなたでも さんか できます！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-289-R01:U1",
+      "japanese": "コンテストパスは シダケタウンに ある\nノーマルランクの コンテスト かいじょうで",
+      "actualChinese": null,
+      "actualOutput": "コンテストパスは シダケタウンに ある\nノーマルランクの コンテスト かいじょうで",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-290-R01:U1",
+      "japanese": "ノーマルランクの コンテスト かいじょうで\nどなたでも もらえますよ！",
+      "actualChinese": null,
+      "actualOutput": "ノーマルランクの コンテスト かいじょうで\nどなたでも もらえますよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-291-R01:U1",
+      "japanese": "パスをもって また いらして くださいね！",
+      "actualChinese": null,
+      "actualOutput": "パスをもって また いらして くださいね！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-292-R01:U1",
+      "japanese": "こんにちは！\nこちらでは ポケモンコンテスト",
+      "actualChinese": null,
+      "actualOutput": "こんにちは！\nこちらでは ポケモンコンテスト",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-293-R01:U1",
+      "japanese": "こちらでは ポケモンコンテスト\nマスター ランクの",
+      "actualChinese": null,
+      "actualOutput": "こちらでは ポケモンコンテスト\nマスター ランクの",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-294-R01:U1",
+      "japanese": "マスター ランクの\nうけつけを おこなって います！",
+      "actualChinese": null,
+      "actualOutput": "マスター ランクの\nうけつけを おこなって います！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-295-R01:U1",
+      "japanese": "コンテストパスを おもちの かたは\nどなたでも さんか できます！",
+      "actualChinese": null,
+      "actualOutput": "コンテストパスを おもちの かたは\nどなたでも さんか できます！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-296-R01:U1",
+      "japanese": "コンテストパスは シダケタウンに ある\nノーマルランクの コンテスト かいじょうで",
+      "actualChinese": null,
+      "actualOutput": "コンテストパスは シダケタウンに ある\nノーマルランクの コンテスト かいじょうで",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-297-R01:U1",
+      "japanese": "ノーマルランクの コンテスト かいじょうで\nどなたでも もらえますよ！",
+      "actualChinese": null,
+      "actualOutput": "ノーマルランクの コンテスト かいじょうで\nどなたでも もらえますよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-298-R01:U1",
+      "japanese": "パスをもって また いらして くださいね！",
+      "actualChinese": null,
+      "actualOutput": "パスをもって また いらして くださいね！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-299-R01:U1",
+      "japanese": "うつくしさ コンテストで\nゆうしょうした この ポケモンを",
+      "actualChinese": null,
+      "actualOutput": "うつくしさ コンテストで\nゆうしょうした この ポケモンを",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-300-R01:U1",
+      "japanese": "ゆうしょうした この ポケモンを\nきょうは かしこさ コンテストで",
+      "actualChinese": null,
+      "actualOutput": "ゆうしょうした この ポケモンを\nきょうは かしこさ コンテストで",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-301-R01:U1",
+      "japanese": "きょうは かしこさ コンテストで\nゆうしょう させたんだぜ！",
+      "actualChinese": null,
+      "actualOutput": "きょうは かしこさ コンテストで\nゆうしょう させたんだぜ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-302-R01:U1",
+      "japanese": "ああ じぶんの さいのうが こわい‥‥",
+      "actualChinese": null,
+      "actualOutput": "ああ じぶんの さいのうが こわい‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-303-R01:U1",
+      "japanese": "ここまでの かつやくを\nポケモンレポートに かきこみますか？",
+      "actualChinese": null,
+      "actualOutput": "ここまでの かつやくを\nポケモンレポートに かきこみますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-304-R04:U1",
+      "japanese": "パーソナル\nおや/ジーク IDNo40517\nタイプ/ほのお かくとう",
+      "actualChinese": null,
+      "actualOutput": "パーソナル\nおや/ジーク IDNo40517\nタイプ/ほのお かくとう",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-304-R05:U1",
+      "japanese": "とくせい\nもうか\nピンチに ほのおが つよくなる",
+      "actualChinese": null,
+      "actualOutput": "とくせい\nもうか\nピンチに ほのおが つよくなる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-304-R06:U1",
+      "japanese": "トレーナーメモ\nのうてんきなせいかく Lv5のとき\n101ばん どうろで であった",
+      "actualChinese": null,
+      "actualOutput": "トレーナーメモ\nのうてんきなせいかく Lv5のとき\n101ばん どうろで であった",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-305-R03:U1",
+      "japanese": "もちもの\nなし",
+      "actualChinese": null,
+      "actualOutput": "もちもの\nなし",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-305-R04:U1",
+      "japanese": "リボン\nなし",
+      "actualChinese": null,
+      "actualOutput": "リボン\nなし",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-305-R05:U1",
+      "japanese": "のうりょく\nHP 84/84 とくこう 62\nこうげき 65 とくぼう 39\nぼうぎょ 50 すばやさ 49",
+      "actualChinese": null,
+      "actualOutput": "のうりょく\nHP 84/84 とくこう 62\nこうげき 65 とくぼう 39\nぼうぎょ 50 すばやさ 49",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-305-R06:U1",
+      "japanese": "けいけんち\nげんざいのけいけんち 21927\nレベルアップまで あと 2367\nEXP",
+      "actualChinese": null,
+      "actualOutput": "けいけんち\nげんざいのけいけんち 21927\nレベルアップまで あと 2367\nEXP",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-306-R04:U1",
+      "japanese": "おぼえているわざ\nかくとう ビルドアップ PP20/20\nひこう つつく PP35/35\nかくとう にどげり PP30/30\nほのお ひのこ PP25/25\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nかくとう ビルドアップ PP20/20\nひこう つつく PP35/35\nかくとう にどげり PP30/30\nほのお ひのこ PP25/25\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-306-R05:U1",
+      "japanese": "せつめい\n2ほんの あしをつかって てきを\n2かい れんぞくで こうげき",
+      "actualChinese": null,
+      "actualOutput": "せつめい\n2ほんの あしをつかって てきを\n2かい れんぞくで こうげき",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-307-R04:U1",
+      "japanese": "おぼえているわざ\nかくとう ビルドアップ PP20/20\nひこう つつく PP35/35\nかくとう にどげり PP30/30\nほのお ひのこ PP25/25\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nかくとう ビルドアップ PP20/20\nひこう つつく PP35/35\nかくとう にどげり PP30/30\nほのお ひのこ PP25/25\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-307-R05:U1",
+      "japanese": "せつめい\n2ほんの あしをつかって てきを\n2かい れんぞくで こうげき",
+      "actualChinese": null,
+      "actualOutput": "せつめい\n2ほんの あしをつかって てきを\n2かい れんぞくで こうげき",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-308-R04:U1",
+      "japanese": "おぼえているわざ\nうつくしさ ビルドアップ PP20/20\nかっこよさ つつく PP35/35\nかっこよさ にどげり PP30/30\nうつくしさ ひのこ PP25/25\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nうつくしさ ビルドアップ PP20/20\nかっこよさ つつく PP35/35\nかっこよさ にどげり PP30/30\nうつくしさ ひのこ PP25/25\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-308-R05:U1",
+      "japanese": "せつめい\n1つまえの ポケモンの アピールと\nタイプが おなじなら きにいられる",
+      "actualChinese": null,
+      "actualOutput": "せつめい\n1つまえの ポケモンの アピールと\nタイプが おなじなら きにいられる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-308-R06:U1",
+      "japanese": "こうか\nアピール\nぼうがい",
+      "actualChinese": null,
+      "actualOutput": "こうか\nアピール\nぼうがい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-309-R04:U1",
+      "japanese": "おぼえているわざ\nうつくしさ ビルドアップ PP20/20\nかっこよさ つつく PP35/35\nかっこよさ にどげり PP30/30\nうつくしさ ひのこ PP25/25\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nうつくしさ ビルドアップ PP20/20\nかっこよさ つつく PP35/35\nかっこよさ にどげり PP30/30\nうつくしさ ひのこ PP25/25\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-309-R05:U1",
+      "japanese": "せつめい\n1つまえの ポケモンの アピールと\nタイプが おなじなら きにいられる",
+      "actualChinese": null,
+      "actualOutput": "せつめい\n1つまえの ポケモンの アピールと\nタイプが おなじなら きにいられる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-309-R06:U1",
+      "japanese": "こうか\nアピール\nぼうがい",
+      "actualChinese": null,
+      "actualOutput": "こうか\nアピール\nぼうがい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-310-R04:U1",
+      "japanese": "パーソナル\nおや/ジーク IDNo40517\nタイプ/ノーマル ひこう",
+      "actualChinese": null,
+      "actualOutput": "パーソナル\nおや/ジーク IDNo40517\nタイプ/ノーマル ひこう",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-310-R05:U1",
+      "japanese": "とくせい\nこんじょう\nいじょうのとき こうげきが あがる",
+      "actualChinese": null,
+      "actualOutput": "とくせい\nこんじょう\nいじょうのとき こうげきが あがる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-310-R06:U1",
+      "japanese": "トレーナーメモ\nようきなせいかく Lv4のとき\n104ばん どうろで であった",
+      "actualChinese": null,
+      "actualOutput": "トレーナーメモ\nようきなせいかく Lv4のとき\n104ばん どうろで であった",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-311-R03:U1",
+      "japanese": "もちもの\nなし",
+      "actualChinese": null,
+      "actualOutput": "もちもの\nなし",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-311-R04:U1",
+      "japanese": "リボン\nなし",
+      "actualChinese": null,
+      "actualOutput": "リボン\nなし",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-311-R05:U1",
+      "japanese": "のうりょく\nHP 45/45 とくこう 15\nこうげき 26 とくぼう 20\nぼうぎょ 18 すばやさ 40",
+      "actualChinese": null,
+      "actualOutput": "のうりょく\nHP 45/45 とくこう 15\nこうげき 26 とくぼう 20\nぼうぎょ 18 すばやさ 40",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-311-R06:U1",
+      "japanese": "けいけんち\nげんざいのけいけんち 3147\nレベルアップまで あと 651\nEXP",
+      "actualChinese": null,
+      "actualOutput": "けいけんち\nげんざいのけいけんち 3147\nレベルアップまで あと 651\nEXP",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-312-R04:U1",
+      "japanese": "おぼえているわざ\nひこう つつく PP35/35\nひこう つばさでうつ PP35/35\nノーマル きあいだめ PP30/30\nノーマル でんこうせっか PP30/30",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nひこう つつく PP35/35\nひこう つばさでうつ PP35/35\nノーマル きあいだめ PP30/30\nノーマル でんこうせっか PP30/30",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-312-R05:U1",
+      "japanese": "せつめい",
+      "actualChinese": null,
+      "actualOutput": "せつめい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-313-R04:U1",
+      "japanese": "おぼえているわざ\nひこう つつく PP35/35\nひこう つばさでうつ PP35/35\nノーマル きあいだめ PP30/30\nノーマル でんこうせっか PP30/30\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nひこう つつく PP35/35\nひこう つばさでうつ PP35/35\nノーマル きあいだめ PP30/30\nノーマル でんこうせっか PP30/30\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-313-R05:U1",
+      "japanese": "せつめい\nつばさを おおきく ひろげて\nそのまま てきに たいあたりする",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nつばさを おおきく ひろげて\nそのまま てきに たいあたりする",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-314-R04:U1",
+      "japanese": "おぼえているわざ\nかっこよさ つつく PP35/35\nかっこよさ つばさでうつ PP35/35\nかっこよさ きあいだめ PP30/30\nかっこよさ でんこうせっか PP30/30\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nかっこよさ つつく PP35/35\nかっこよさ つばさでうつ PP35/35\nかっこよさ きあいだめ PP30/30\nかっこよさ でんこうせっか PP30/30\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-314-R05:U1",
+      "japanese": "せつめい\n1つまえの ポケモンの アピールと\nタイプが おなじなら きにいられる",
+      "actualChinese": null,
+      "actualOutput": "せつめい\n1つまえの ポケモンの アピールと\nタイプが おなじなら きにいられる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-314-R06:U1",
+      "japanese": "こうか\nアピール\nぼうがい",
+      "actualChinese": null,
+      "actualOutput": "こうか\nアピール\nぼうがい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-001-R01:U1",
+      "japanese": "とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます",
+      "actualChinese": null,
+      "actualOutput": "とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-002-R01:U1",
+      "japanese": "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+      "actualChinese": null,
+      "actualOutput": "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-003-R01:U1",
+      "japanese": "なんといっても あの コンビネーションは\nさいこう！ さすが！ って かんじよ",
+      "actualChinese": null,
+      "actualOutput": "なんといっても あの コンビネーションは\nさいこう！ さすが！ って かんじよ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-004-R01:U1",
+      "japanese": "ハルカは\nパソコンの スイッチを いれた！",
+      "actualChinese": null,
+      "actualOutput": "ハルカは\nパソコンの スイッチを いれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-005-R01:U1",
+      "japanese": "どこの パソコンに せつぞく して\nつうしん しますか？",
+      "actualChinese": null,
+      "actualOutput": "どこの パソコンに せつぞく して\nつうしん しますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-005-R02:U1",
+      "japanese": "マユミのパソコン",
+      "actualChinese": null,
+      "actualOutput": "マユミのパソコン",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-005-R02:U2",
+      "japanese": "ハルカのパソコン",
+      "actualChinese": null,
+      "actualOutput": "ハルカのパソコン",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-005-R02:U3",
+      "japanese": "でんどういり",
+      "actualChinese": null,
+      "actualOutput": "でんどういり",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-005-R02:U4",
+      "japanese": "スイッチをきる",
+      "actualChinese": null,
+      "actualOutput": "スイッチをきる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-006-R01:U1",
+      "japanese": "マユミの パソコンに せつぞく した！",
+      "actualChinese": null,
+      "actualOutput": "マユミの パソコンに せつぞく した！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-007-R01:U1",
+      "japanese": "ポケモンの あずかり システムを\nよびだした！",
+      "actualChinese": null,
+      "actualOutput": "ポケモンの あずかり システムを\nよびだした！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-008-R01:U1",
+      "japanese": "ボックスに あずけている ポケモンを\nてもちに くわえる ことが できます",
+      "actualChinese": null,
+      "actualOutput": "ボックスに あずけている ポケモンを\nてもちに くわえる ことが できます",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-008-R02:U1",
+      "japanese": "ポケモンを つれていく",
+      "actualChinese": null,
+      "actualOutput": "ポケモンを つれていく",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-008-R02:U2",
+      "japanese": "ポケモンを あずける",
+      "actualChinese": null,
+      "actualOutput": "ポケモンを あずける",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-008-R02:U3",
+      "japanese": "ボックスを せいりする",
+      "actualChinese": null,
+      "actualOutput": "ボックスを せいりする",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-008-R02:U4",
+      "japanese": "さようなら",
+      "actualChinese": null,
+      "actualOutput": "さようなら",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-009-R01:U1",
+      "japanese": "てもちポケモンが いっぱいです！",
+      "actualChinese": null,
+      "actualOutput": "てもちポケモンが いっぱいです！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-009-R02:U1",
+      "japanese": "ポケモンを つれていく",
+      "actualChinese": null,
+      "actualOutput": "ポケモンを つれていく",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-009-R02:U2",
+      "japanese": "ポケモンを あずける",
+      "actualChinese": null,
+      "actualOutput": "ポケモンを あずける",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-009-R02:U3",
+      "japanese": "ボックスを せいりする",
+      "actualChinese": null,
+      "actualOutput": "ボックスを せいりする",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-009-R02:U4",
+      "japanese": "さようなら",
+      "actualChinese": null,
+      "actualOutput": "さようなら",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-010-R01:U1",
+      "japanese": "なにを しますか？",
+      "actualChinese": null,
+      "actualOutput": "なにを しますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-010-R02:U1",
+      "japanese": "どうぐ あずかり",
+      "actualChinese": null,
+      "actualOutput": "どうぐ あずかり",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-010-R02:U2",
+      "japanese": "メールボックス",
+      "actualChinese": null,
+      "actualOutput": "メールボックス",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-010-R02:U3",
+      "japanese": "せつぞくを きる",
+      "actualChinese": null,
+      "actualOutput": "せつぞくを きる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-011-R01:U1",
+      "japanese": "どうぐを ひきだす",
+      "actualChinese": null,
+      "actualOutput": "どうぐを ひきだす",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-011-R02:U1",
+      "japanese": "ポイントアップ × 5",
+      "actualChinese": null,
+      "actualOutput": "ポイントアップ × 5",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-011-R02:U2",
+      "japanese": "ピーピーエイド × 3",
+      "actualChinese": null,
+      "actualOutput": "ピーピーエイド × 3",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-011-R02:U3",
+      "japanese": "スペシャルアップ × 1",
+      "actualChinese": null,
+      "actualOutput": "スペシャルアップ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-011-R02:U4",
+      "japanese": "せんせいのツメ × 1",
+      "actualChinese": null,
+      "actualOutput": "せんせいのツメ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-011-R02:U5",
+      "japanese": "かわらずのいし × 1",
+      "actualChinese": null,
+      "actualOutput": "かわらずのいし × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-011-R02:U6",
+      "japanese": "やわらかいすな × 1",
+      "actualChinese": null,
+      "actualOutput": "やわらかいすな × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-011-R02:U7",
+      "japanese": "スピーダー × 1",
+      "actualChinese": null,
+      "actualOutput": "スピーダー × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-011-R02:U8",
+      "japanese": "マックスアップ × 1",
+      "actualChinese": null,
+      "actualOutput": "マックスアップ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-011-R03:U1",
+      "japanese": "わざポイントの\nさいだいちが あがる",
+      "actualChinese": null,
+      "actualOutput": "わざポイントの\nさいだいちが あがる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-012-R01:U1",
+      "japanese": "どうぐ",
+      "actualChinese": "道具",
+      "actualOutput": "道具",
+      "sourceIds": [
+        "rs.common.easy_chat_group_lifestyle.gEasyChatGroupWords_Lifestyle.29:ruby",
+        "rs.common.strings.OtherText_Items:ruby",
+        "rs.common.easy_chat_group_lifestyle.gEasyChatGroupWords_Lifestyle.29:sapphire",
+        "rs.common.strings.OtherText_Items:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "NGC-012-R02:U1",
+      "japanese": "どくけし × 15",
+      "actualChinese": null,
+      "actualOutput": "どくけし × 15",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-012-R02:U2",
+      "japanese": "かいふくのくすり × 4",
+      "actualChinese": null,
+      "actualOutput": "かいふくのくすり × 4",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-012-R02:U3",
+      "japanese": "なんでもなおし × 3",
+      "actualChinese": null,
+      "actualOutput": "なんでもなおし × 3",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-012-R02:U4",
+      "japanese": "まひなおし × 5",
+      "actualChinese": null,
+      "actualOutput": "まひなおし × 5",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-012-R02:U5",
+      "japanese": "すごいキズぐすり × 7",
+      "actualChinese": null,
+      "actualOutput": "すごいキズぐすり × 7",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-012-R02:U6",
+      "japanese": "ねむけざまし × 7",
+      "actualChinese": null,
+      "actualOutput": "ねむけざまし × 7",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-012-R02:U7",
+      "japanese": "まんたんのくすり × 13",
+      "actualChinese": null,
+      "actualOutput": "まんたんのくすり × 13",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-012-R02:U8",
+      "japanese": "たいようのいし × 1",
+      "actualChinese": null,
+      "actualOutput": "たいようのいし × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-012-R03:U1",
+      "japanese": "どく じょうたいを\nかいふくする",
+      "actualChinese": null,
+      "actualOutput": "どく じょうたいを\nかいふくする",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-013-R01:U1",
+      "japanese": "きのみ",
+      "actualChinese": null,
+      "actualOutput": "きのみ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-013-R02:U1",
+      "japanese": "No01クラボのみ × 9",
+      "actualChinese": null,
+      "actualOutput": "No01クラボのみ × 9",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-013-R02:U2",
+      "japanese": "No02カゴのみ × 7",
+      "actualChinese": null,
+      "actualOutput": "No02カゴのみ × 7",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-013-R02:U3",
+      "japanese": "No03モモンのみ × 14",
+      "actualChinese": null,
+      "actualOutput": "No03モモンのみ × 14",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-013-R02:U4",
+      "japanese": "No04チーゴのみ × 6",
+      "actualChinese": null,
+      "actualOutput": "No04チーゴのみ × 6",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-013-R02:U5",
+      "japanese": "No05ナナシのみ × 8",
+      "actualChinese": null,
+      "actualOutput": "No05ナナシのみ × 8",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-013-R02:U6",
+      "japanese": "No06ヒメリのみ × 6",
+      "actualChinese": null,
+      "actualOutput": "No06ヒメリのみ × 6",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-013-R02:U7",
+      "japanese": "No07オレンのみ × 3",
+      "actualChinese": null,
+      "actualOutput": "No07オレンのみ × 3",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-013-R02:U8",
+      "japanese": "No08キーのみ × 9",
+      "actualChinese": null,
+      "actualOutput": "No08キーのみ × 9",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-013-R03:U1",
+      "japanese": "もたせると じぶんで\nまひ じょうたいを\nかいふくする",
+      "actualChinese": null,
+      "actualOutput": "もたせると じぶんで\nまひ じょうたいを\nかいふくする",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-014-R01:U1",
+      "japanese": "わざマシン",
+      "actualChinese": null,
+      "actualOutput": "わざマシン",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-014-R02:U1",
+      "japanese": "No03みずのはどう × 1",
+      "actualChinese": null,
+      "actualOutput": "No03みずのはどう × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-014-R02:U2",
+      "japanese": "No04めいそう × 1",
+      "actualChinese": null,
+      "actualOutput": "No04めいそう × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-014-R02:U3",
+      "japanese": "No05ほえる × 1",
+      "actualChinese": null,
+      "actualOutput": "No05ほえる × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-014-R02:U4",
+      "japanese": "No08ビルドアップ × 1",
+      "actualChinese": null,
+      "actualOutput": "No08ビルドアップ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-014-R02:U5",
+      "japanese": "No09タネマシンガン × 1",
+      "actualChinese": null,
+      "actualOutput": "No09タネマシンガン × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-014-R02:U6",
+      "japanese": "No11にほんばれ × 1",
+      "actualChinese": null,
+      "actualOutput": "No11にほんばれ × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-014-R02:U7",
+      "japanese": "No26じしん × 1",
+      "actualChinese": null,
+      "actualOutput": "No26じしん × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-014-R02:U8",
+      "japanese": "No27おんがえし × 1",
+      "actualChinese": null,
+      "actualOutput": "No27おんがえし × 1",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-014-R03:U1",
+      "japanese": "ちょうおんぱ こうげきで\nてきを こんらんさせる\nことがある",
+      "actualChinese": null,
+      "actualOutput": "ちょうおんぱ こうげきで\nてきを こんらんさせる\nことがある",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-015-R01:U1",
+      "japanese": "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+      "actualChinese": null,
+      "actualOutput": "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-016-R01:U1",
+      "japanese": "わざの いりょくが かわったり\nまったく きかなかったり するよ！",
+      "actualChinese": null,
+      "actualOutput": "わざの いりょくが かわったり\nまったく きかなかったり するよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-017-R01:U1",
+      "japanese": "ポケモンざっしが ならんでる！",
+      "actualChinese": null,
+      "actualOutput": "ポケモンざっしが ならんでる！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-018-R01:U1",
+      "japanese": "‥‥「ポケモンのとも」\n‥‥「ポケモン てちょう」",
+      "actualChinese": null,
+      "actualOutput": "‥‥「ポケモンのとも」\n‥‥「ポケモン てちょう」",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-019-R01:U1",
+      "japanese": "‥‥「ポケモン てちょう」\n‥‥「かわいい ポケモン」",
+      "actualChinese": null,
+      "actualOutput": "‥‥「ポケモン てちょう」\n‥‥「かわいい ポケモン」",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-020-R01:U1",
+      "japanese": "ここは トクサネ シティ\n「ポケモンを たいせつに！」が あいことば",
+      "actualChinese": null,
+      "actualOutput": "ここは トクサネ シティ\n「ポケモンを たいせつに！」が あいことば",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-021-R01:U1",
+      "japanese": "いし あつめて たのしいのかな？\nおれには わかんないや！",
+      "actualChinese": null,
+      "actualOutput": "いし あつめて たのしいのかな？\nおれには わかんないや！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-022-R01:U1",
+      "japanese": "この トクサネの しゅうへん では\nやせいの ホエルコが けんぶつ できるんだ",
+      "actualChinese": null,
+      "actualOutput": "この トクサネの しゅうへん では\nやせいの ホエルコが けんぶつ できるんだ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-023-R01:U1",
+      "japanese": "そーいうのを えーと‥‥\nなんて いったっけ かな‥‥",
+      "actualChinese": null,
+      "actualOutput": "そーいうのを えーと‥‥\nなんて いったっけ かな‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-024-R01:U1",
+      "japanese": "ホエ ホエ ホエ‥‥",
+      "actualChinese": null,
+      "actualOutput": "ホエ ホエ ホエ‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-025-R01:U1",
+      "japanese": "ホエルコ ウオッチング だ！",
+      "actualChinese": null,
+      "actualOutput": "ホエルコ ウオッチング だ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-026-R01:U1",
+      "japanese": "おとうと ったら\nともだちの ひみつきちに いって",
+      "actualChinese": null,
+      "actualOutput": "おとうと ったら\nともだちの ひみつきちに いって",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-027-R01:U1",
+      "japanese": "ともだちの ひみつきちに いって\nポケモンしょうぶを するのが",
+      "actualChinese": null,
+      "actualOutput": "ともだちの ひみつきちに いって\nポケモンしょうぶを するのが",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-028-R01:U1",
+      "japanese": "ポケモンしょうぶを するのが\nたのしみ なんだって！",
+      "actualChinese": null,
+      "actualOutput": "ポケモンしょうぶを するのが\nたのしみ なんだって！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-029-R01:U1",
+      "japanese": "エネコロロ『みゃあん？",
+      "actualChinese": null,
+      "actualOutput": "エネコロロ『みゃあん？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-030-R01:U1",
+      "japanese": "きみ どこかに ひみつきち つくりなよ！\nぼくが さがしだして みせるからさ",
+      "actualChinese": null,
+      "actualOutput": "きみ どこかに ひみつきち つくりなよ！\nぼくが さがしだして みせるからさ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-031-R01:U1",
+      "japanese": "げんきのかけら って すごい！",
+      "actualChinese": null,
+      "actualOutput": "げんきのかけら って すごい！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-032-R01:U1",
+      "japanese": "これを あたえると\nひんしの ポケモンも めざめるの！",
+      "actualChinese": null,
+      "actualOutput": "これを あたえると\nひんしの ポケモンも めざめるの！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-033-R01:U1",
+      "japanese": "でも パワーポイントは\nかいふく しないから きをつけて！",
+      "actualChinese": null,
+      "actualOutput": "でも パワーポイントは\nかいふく しないから きをつけて！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-034-R01:U1",
+      "japanese": "ネットボールと ダイブボールは\nここ トクサネでしか つくっていない",
+      "actualChinese": null,
+      "actualOutput": "ネットボールと ダイブボールは\nここ トクサネでしか つくっていない",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-035-R01:U1",
+      "japanese": "ここ トクサネでしか つくっていない\nめずらしい モンスターボール！",
+      "actualChinese": null,
+      "actualOutput": "ここ トクサネでしか つくっていない\nめずらしい モンスターボール！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-036-R01:U1",
+      "japanese": "ネットボールは むしタイプや\nみずタイプの ポケモンに こうかてき！",
+      "actualChinese": null,
+      "actualOutput": "ネットボールは むしタイプや\nみずタイプの ポケモンに こうかてき！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-037-R01:U1",
+      "japanese": "ダイブボールは かいていに いる\nポケモンを つかまえ やすいんだ！",
+      "actualChinese": null,
+      "actualOutput": "ダイブボールは かいていに いる\nポケモンを つかまえ やすいんだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-038-R01:U1",
+      "japanese": "ようこそ！",
+      "actualChinese": null,
+      "actualOutput": "ようこそ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-039-R01:U1",
+      "japanese": "おかいもの ですね！",
+      "actualChinese": null,
+      "actualOutput": "おかいもの ですね！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-039-R02:U1",
+      "japanese": "かいに きた",
+      "actualChinese": null,
+      "actualOutput": "かいに きた",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-039-R02:U2",
+      "japanese": "うりに きた",
+      "actualChinese": null,
+      "actualOutput": "うりに きた",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-039-R02:U3",
+      "japanese": "なんでもないです",
+      "actualChinese": null,
+      "actualOutput": "なんでもないです",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-040-R02:U1",
+      "japanese": "ハイパーボール 1200円",
+      "actualChinese": null,
+      "actualOutput": "ハイパーボール 1200円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-040-R02:U2",
+      "japanese": "ネットボール 1000円",
+      "actualChinese": null,
+      "actualOutput": "ネットボール 1000円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-040-R02:U3",
+      "japanese": "ダイブボール 1000円",
+      "actualChinese": null,
+      "actualOutput": "ダイブボール 1000円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-040-R02:U4",
+      "japanese": "すごいキズぐすり 1200円",
+      "actualChinese": null,
+      "actualOutput": "すごいキズぐすり 1200円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-040-R02:U5",
+      "japanese": "なんでもなおし 600円",
+      "actualChinese": null,
+      "actualOutput": "なんでもなおし 600円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-040-R02:U6",
+      "japanese": "げんきのかけら 1500円",
+      "actualChinese": null,
+      "actualOutput": "げんきのかけら 1500円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-040-R02:U7",
+      "japanese": "ゴールドスプレー 700円",
+      "actualChinese": null,
+      "actualOutput": "ゴールドスプレー 700円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-040-R02:U8",
+      "japanese": "プラスパワー 500円",
+      "actualChinese": null,
+      "actualOutput": "プラスパワー 500円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-040-R03:U1",
+      "japanese": "スーパーボール より\nつかまえ やすくなった\nとても すごい ボール",
+      "actualChinese": null,
+      "actualOutput": "スーパーボール より\nつかまえ やすくなった\nとても すごい ボール",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-041-R02:U1",
+      "japanese": "ダイブボール 1000円",
+      "actualChinese": null,
+      "actualOutput": "ダイブボール 1000円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-041-R02:U2",
+      "japanese": "すごいキズぐすり 1200円",
+      "actualChinese": null,
+      "actualOutput": "すごいキズぐすり 1200円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-041-R02:U3",
+      "japanese": "なんでもなおし 600円",
+      "actualChinese": null,
+      "actualOutput": "なんでもなおし 600円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-041-R02:U4",
+      "japanese": "げんきのかけら 1500円",
+      "actualChinese": null,
+      "actualOutput": "げんきのかけら 1500円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-041-R02:U5",
+      "japanese": "ゴールドスプレー 700円",
+      "actualChinese": null,
+      "actualOutput": "ゴールドスプレー 700円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-041-R02:U6",
+      "japanese": "プラスパワー 500円",
+      "actualChinese": null,
+      "actualOutput": "プラスパワー 500円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-041-R02:U7",
+      "japanese": "ディフェンダー 550円",
+      "actualChinese": null,
+      "actualOutput": "ディフェンダー 550円",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-041-R02:U8",
+      "japanese": "やめる",
+      "actualChinese": null,
+      "actualOutput": "やめる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-041-R03:U1",
+      "japanese": "かいもの を やめます",
+      "actualChinese": null,
+      "actualOutput": "かいもの を やめます",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-042-R01:U1",
+      "japanese": "ゴールドスプレーは\nよわい ポケモンを よせつけない",
+      "actualChinese": null,
+      "actualOutput": "ゴールドスプレーは\nよわい ポケモンを よせつけない",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-043-R01:U1",
+      "japanese": "かずある スプレーの なかで\nいちばん ながもち するんだ！",
+      "actualChinese": null,
+      "actualOutput": "かずある スプレーの なかで\nいちばん ながもち するんだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-044-R01:U1",
+      "japanese": "ここまでの かつやくを\nポケモンレポートに かきこみますか？",
+      "actualChinese": null,
+      "actualOutput": "ここまでの かつやくを\nポケモンレポートに かきこみますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-044-R03:U1",
+      "japanese": "トクサネシティ\nしゅじんこう ハルカ\nもっているバッジ 8こ\nポケモンずかん 63ひき\nプレイじかん 30:12",
+      "actualChinese": null,
+      "actualOutput": "トクサネシティ\nしゅじんこう ハルカ\nもっているバッジ 8こ\nポケモンずかん 63ひき\nプレイじかん 30:12",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-045-R01:U1",
+      "japanese": "ミナモの なかま から\nホエルコが いなくなった！ って",
+      "actualChinese": null,
+      "actualOutput": "ミナモの なかま から\nホエルコが いなくなった！ って",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-046-R01:U1",
+      "japanese": "ホエルコが いなくなった！ って\nれんらくが あったんだ",
+      "actualChinese": null,
+      "actualOutput": "ホエルコが いなくなった！ って\nれんらくが あったんだ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-047-R01:U1",
+      "japanese": "いったいぜんたい\nミナモで なにが あったんだろうな？",
+      "actualChinese": null,
+      "actualOutput": "いったいぜんたい\nミナモで なにが あったんだろうな？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-048-R01:U1",
+      "japanese": "とびらには かぎが かかって いるようだ！",
+      "actualChinese": null,
+      "actualOutput": "とびらには かぎが かかって いるようだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-049-R01:U1",
+      "japanese": "わしも わかいころは\nポケモン トレーナーとして",
+      "actualChinese": null,
+      "actualOutput": "わしも わかいころは\nポケモン トレーナーとして",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-050-R01:U1",
+      "japanese": "ポケモン トレーナーとして\nせかいじゅうを たび していたのじゃ",
+      "actualChinese": null,
+      "actualOutput": "ポケモン トレーナーとして\nせかいじゅうを たび していたのじゃ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-051-R01:U1",
+      "japanese": "ジジイとなった いまでは\nわかい トレーナーの しょうぶを みるのが",
+      "actualChinese": null,
+      "actualOutput": "ジジイとなった いまでは\nわかい トレーナーの しょうぶを みるのが",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-052-R01:U1",
+      "japanese": "わかい トレーナーの しょうぶを みるのが\nゆいいつの たのしみ じゃ",
+      "actualChinese": null,
+      "actualOutput": "わかい トレーナーの しょうぶを みるのが\nゆいいつの たのしみ じゃ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-053-R01:U1",
+      "japanese": "いのちの みなもとは うみから うまれて\nりくに あがって きた",
+      "actualChinese": null,
+      "actualOutput": "いのちの みなもとは うみから うまれて\nりくに あがって きた",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-054-R01:U1",
+      "japanese": "やくめを おえた いのちは\nつち となって だいちに かえって いく",
+      "actualChinese": null,
+      "actualOutput": "やくめを おえた いのちは\nつち となって だいちに かえって いく",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-055-R01:U1",
+      "japanese": "そして うみと だいちは\nいつでも つながって いる‥‥",
+      "actualChinese": null,
+      "actualOutput": "そして うみと だいちは\nいつでも つながって いる‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-056-R01:U1",
+      "japanese": "そう この かいがんせんの ようにな",
+      "actualChinese": null,
+      "actualOutput": "そう この かいがんせんの ようにな",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-057-R01:U1",
+      "japanese": "ね！ ね！ すごいでしょ！\nみずの うえに おうちが たってるの！",
+      "actualChinese": null,
+      "actualOutput": "ね！ ね！ すごいでしょ！\nみずの うえに おうちが たってるの！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-058-R01:U1",
+      "japanese": "ぼく ここで うまれたんだよ！",
+      "actualChinese": null,
+      "actualOutput": "ぼく ここで うまれたんだよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-059-R01:U1",
+      "japanese": "ここは キナギ タウン\nあさひが みずべを てらす まち",
+      "actualChinese": null,
+      "actualOutput": "ここは キナギ タウン\nあさひが みずべを てらす まち",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-060-R01:U1",
+      "japanese": "キナギの にんげんは\nみんな つりをしたり もぐったりして",
+      "actualChinese": null,
+      "actualOutput": "キナギの にんげんは\nみんな つりをしたり もぐったりして",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-061-R01:U1",
+      "japanese": "みんな つりをしたり もぐったりして\nせいかつ してるんだな",
+      "actualChinese": null,
+      "actualOutput": "みんな つりをしたり もぐったりして\nせいかつ してるんだな",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-062-R01:U1",
+      "japanese": "ホウエンちほう には\nいわ‥‥ こおり‥‥ はがね‥‥",
+      "actualChinese": null,
+      "actualOutput": "ホウエンちほう には\nいわ‥‥ こおり‥‥ はがね‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-063-R01:U1",
+      "japanese": "それぞれの ちからを つかさどる\n3びきの ポケモンが",
+      "actualChinese": null,
+      "actualOutput": "それぞれの ちからを つかさどる\n3びきの ポケモンが",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-064-R01:U1",
+      "japanese": "3びきの ポケモンが\nそれぞれ どこかの どうくつに いる‥‥",
+      "actualChinese": null,
+      "actualOutput": "3びきの ポケモンが\nそれぞれ どこかの どうくつに いる‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-065-R01:U1",
+      "japanese": "おれ ちいさな ころに\nそんな はなしを きいたことが あるよ",
+      "actualChinese": null,
+      "actualOutput": "おれ ちいさな ころに\nそんな はなしを きいたことが あるよ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-066-R01:U1",
+      "japanese": "「むっつの てんが\nみっつの とびらを あける」",
+      "actualChinese": null,
+      "actualOutput": "「むっつの てんが\nみっつの とびらを あける」",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-067-R01:U1",
+      "japanese": "おじいちゃんが よく いっていたけど\nいまだに なんのことだか わからないわ",
+      "actualChinese": null,
+      "actualOutput": "おじいちゃんが よく いっていたけど\nいまだに なんのことだか わからないわ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-068-R07:U1",
+      "japanese": "レックウザを どうする？",
+      "actualChinese": null,
+      "actualOutput": "レックウザを どうする？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-068-R08:U1",
+      "japanese": "そらをとぶ",
+      "actualChinese": "飞翔",
+      "actualOutput": "飞翔",
+      "sourceIds": [
+        "rs.common.move_names.gMoveNames.19:ruby",
+        "rs.common.move_names.gMoveNames.19:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "NGC-068-R08:U2",
+      "japanese": "つよさをみる",
+      "actualChinese": null,
+      "actualOutput": "つよさをみる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-068-R08:U3",
+      "japanese": "ならびかえ",
+      "actualChinese": null,
+      "actualOutput": "ならびかえ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-068-R08:U4",
+      "japanese": "もちもの",
+      "actualChinese": "道具",
+      "actualOutput": "道具",
+      "sourceIds": [
+        "rs.common.strings.OtherText_Item:ruby",
+        "rs.common.strings.OtherText_Item:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "NGC-068-R08:U5",
+      "japanese": "やめる",
+      "actualChinese": null,
+      "actualOutput": "やめる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-069-R07:U1",
+      "japanese": "ポケモンを えらんで ください",
+      "actualChinese": null,
+      "actualOutput": "ポケモンを えらんで ください",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-070-R01:U1",
+      "japanese": "あんた しってるかい？",
+      "actualChinese": null,
+      "actualOutput": "あんた しってるかい？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-071-R01:U1",
+      "japanese": "だれかが アクアだんを\nけちらしてくれた らしいんだ！",
+      "actualChinese": null,
+      "actualOutput": "だれかが アクアだんを\nけちらしてくれた らしいんだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-072-R01:U1",
+      "japanese": "おかげで ホエルコ いなくなって\nうみに でられるように なったよ！",
+      "actualChinese": null,
+      "actualOutput": "おかげで ホエルコ いなくなって\nうみに でられるように なったよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-073-R01:U1",
+      "japanese": "わしは ポロックを\nつくるのが だいすきで",
+      "actualChinese": null,
+      "actualOutput": "わしは ポロックを\nつくるのが だいすきで",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-074-R01:U1",
+      "japanese": "いつも きのみを\nもって きてるんだ",
+      "actualChinese": null,
+      "actualOutput": "いつも きのみを\nもって きてるんだ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-075-R01:U1",
+      "japanese": "もし よかったら\nいっしょに きのみブレンダーで",
+      "actualChinese": null,
+      "actualOutput": "もし よかったら\nいっしょに きのみブレンダーで",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-076-R01:U1",
+      "japanese": "いっしょに きのみブレンダーで\nポロックを つくろうや",
+      "actualChinese": null,
+      "actualOutput": "いっしょに きのみブレンダーで\nポロックを つくろうや",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-077-R01:U1",
+      "japanese": "お！ おじさんと いっしょに\nポロックを つくりたいのかい？",
+      "actualChinese": null,
+      "actualOutput": "お！ おじさんと いっしょに\nポロックを つくりたいのかい？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-078-R01:U1",
+      "japanese": "そうか！",
+      "actualChinese": null,
+      "actualOutput": "そうか！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-079-R01:U1",
+      "japanese": "じゃあ ポロックの つくりかたは\nもう しってるかい？",
+      "actualChinese": null,
+      "actualOutput": "じゃあ ポロックの つくりかたは\nもう しってるかい？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-080-R01:U1",
+      "japanese": "じゃあ はじめるぞ！",
+      "actualChinese": null,
+      "actualOutput": "じゃあ はじめるぞ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-081-R01:U1",
+      "japanese": "レッツ きのみブレンダー！！",
+      "actualChinese": null,
+      "actualOutput": "レッツ きのみブレンダー！！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-082-R05:U1",
+      "japanese": "きのみブレンダーを きどうします",
+      "actualChinese": null,
+      "actualOutput": "きのみブレンダーを きどうします",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-083-R05:U1",
+      "japanese": "バッグから きのみブレンダーに いれる\nきのみを えらんでください",
+      "actualChinese": null,
+      "actualOutput": "バッグから きのみブレンダーに いれる\nきのみを えらんでください",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R01:U1",
+      "japanese": "No01クラボのみ × 9",
+      "actualChinese": null,
+      "actualOutput": "No01クラボのみ × 9",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R01:U2",
+      "japanese": "No02カゴのみ × 7",
+      "actualChinese": null,
+      "actualOutput": "No02カゴのみ × 7",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R01:U3",
+      "japanese": "No03モモンのみ × 14",
+      "actualChinese": null,
+      "actualOutput": "No03モモンのみ × 14",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R01:U4",
+      "japanese": "No04チーゴのみ × 6",
+      "actualChinese": null,
+      "actualOutput": "No04チーゴのみ × 6",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R01:U5",
+      "japanese": "No05ナナシのみ × 8",
+      "actualChinese": null,
+      "actualOutput": "No05ナナシのみ × 8",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R01:U6",
+      "japanese": "No06ヒメリのみ × 6",
+      "actualChinese": null,
+      "actualOutput": "No06ヒメリのみ × 6",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R01:U7",
+      "japanese": "No07オレンのみ × 3",
+      "actualChinese": null,
+      "actualOutput": "No07オレンのみ × 3",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R01:U8",
+      "japanese": "No08キーのみ × 9",
+      "actualChinese": null,
+      "actualOutput": "No08キーのみ × 9",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R02:U1",
+      "japanese": "けってい",
+      "actualChinese": null,
+      "actualOutput": "けってい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R02:U2",
+      "japanese": "タグをみる",
+      "actualChinese": null,
+      "actualOutput": "タグをみる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R02:U3",
+      "japanese": "やめる",
+      "actualChinese": null,
+      "actualOutput": "やめる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-084-R03:U1",
+      "japanese": "どうしますか？",
+      "actualChinese": null,
+      "actualOutput": "どうしますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-085-R01:U1",
+      "japanese": "きのみ",
+      "actualChinese": null,
+      "actualOutput": "きのみ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-085-R02:U1",
+      "japanese": "No01クラボのみ × 9",
+      "actualChinese": null,
+      "actualOutput": "No01クラボのみ × 9",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-085-R02:U2",
+      "japanese": "No02カゴのみ × 7",
+      "actualChinese": null,
+      "actualOutput": "No02カゴのみ × 7",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-085-R02:U3",
+      "japanese": "No03モモンのみ × 14",
+      "actualChinese": null,
+      "actualOutput": "No03モモンのみ × 14",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-085-R02:U4",
+      "japanese": "No04チーゴのみ × 6",
+      "actualChinese": null,
+      "actualOutput": "No04チーゴのみ × 6",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-085-R02:U5",
+      "japanese": "No05ナナシのみ × 8",
+      "actualChinese": null,
+      "actualOutput": "No05ナナシのみ × 8",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-085-R02:U6",
+      "japanese": "No06ヒメリのみ × 6",
+      "actualChinese": null,
+      "actualOutput": "No06ヒメリのみ × 6",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-085-R02:U7",
+      "japanese": "No07オレンのみ × 3",
+      "actualChinese": null,
+      "actualOutput": "No07オレンのみ × 3",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-085-R02:U8",
+      "japanese": "No08キーのみ × 9",
+      "actualChinese": null,
+      "actualOutput": "No08キーのみ × 9",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-085-R03:U1",
+      "japanese": "もたせると じぶんで\nまひ じょうたいを\nかいふくする",
+      "actualChinese": null,
+      "actualOutput": "もたせると じぶんで\nまひ じょうたいを\nかいふくする",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-086-R05:U1",
+      "japanese": "とても かわいい はなが さく。\nまっかな みは とても からい。",
+      "actualChinese": null,
+      "actualOutput": "とても かわいい はなが さく。\nまっかな みは とても からい。",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-088-R05:U1",
+      "japanese": "あかいポロック ができた！\nレベル11で なめらかさは21だ",
+      "actualChinese": null,
+      "actualOutput": "あかいポロック ができた！\nレベル11で なめらかさは21だ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-089-R05:U1",
+      "japanese": "もういちど きのみを まぜますか？",
+      "actualChinese": null,
+      "actualOutput": "もういちど きのみを まぜますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-090-R05:U1",
+      "japanese": "きのみブレンダーを きどうします",
+      "actualChinese": null,
+      "actualOutput": "きのみブレンダーを きどうします",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-091-R05:U1",
+      "japanese": "バッグから きのみブレンダーに いれる\nきのみを えらんでください",
+      "actualChinese": null,
+      "actualOutput": "バッグから きのみブレンダーに いれる\nきのみを えらんでください",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-093-R05:U1",
+      "japanese": "ももいろポロック ができた！\nレベル11で なめらかさは21だ",
+      "actualChinese": null,
+      "actualOutput": "ももいろポロック ができた！\nレベル11で なめらかさは21だ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-094-R05:U1",
+      "japanese": "もういちど きのみを まぜますか？",
+      "actualChinese": null,
+      "actualOutput": "もういちど きのみを まぜますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-095-R01:U1",
+      "japanese": "ポロックケース",
+      "actualChinese": null,
+      "actualOutput": "ポロックケース",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-095-R02:U1",
+      "japanese": "あかいポロック Lv11",
+      "actualChinese": null,
+      "actualOutput": "あかいポロック Lv11",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-095-R02:U2",
+      "japanese": "ももいろポロック Lv11",
+      "actualChinese": null,
+      "actualOutput": "ももいろポロック Lv11",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-095-R02:U3",
+      "japanese": "ケースをしまう",
+      "actualChinese": null,
+      "actualOutput": "ケースをしまう",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-095-R05:U1",
+      "japanese": "ももいろポロックを\nすてても よろしいですか？",
+      "actualChinese": null,
+      "actualOutput": "ももいろポロックを\nすてても よろしいですか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-096-R01:U1",
+      "japanese": "コンディション",
+      "actualChinese": null,
+      "actualOutput": "コンディション",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-096-R02:U1",
+      "japanese": "ラグラージ ♂/Lv46",
+      "actualChinese": null,
+      "actualOutput": "ラグラージ ♂/Lv46",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-096-R03:U1",
+      "japanese": "かっこよさ\nたくましさ うつくしさ\nかしこさ かわいさ\nFEEL",
+      "actualChinese": null,
+      "actualOutput": "かっこよさ\nたくましさ うつくしさ\nかしこさ かわいさ\nFEEL",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-096-R04:U1",
+      "japanese": "せいかく/がんばりや",
+      "actualChinese": null,
+      "actualOutput": "せいかく/がんばりや",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-097-R01:U1",
+      "japanese": "コンディション",
+      "actualChinese": null,
+      "actualOutput": "コンディション",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-097-R02:U1",
+      "japanese": "ラグラージ ♂/Lv46",
+      "actualChinese": null,
+      "actualOutput": "ラグラージ ♂/Lv46",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-097-R04:U1",
+      "japanese": "せいかく/がんばりや",
+      "actualChinese": null,
+      "actualOutput": "せいかく/がんばりや",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-097-R05:U1",
+      "japanese": "ラグラージに ポロックを あげますか？",
+      "actualChinese": null,
+      "actualOutput": "ラグラージに ポロックを あげますか？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-098-R01:U1",
+      "japanese": "ラグラージは あかいポロックを\nたべた！",
+      "actualChinese": null,
+      "actualOutput": "ラグラージは あかいポロックを\nたべた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-099-R01:U1",
+      "japanese": "コンディション",
+      "actualChinese": null,
+      "actualOutput": "コンディション",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-099-R02:U1",
+      "japanese": "ラグラージ ♂/Lv46",
+      "actualChinese": null,
+      "actualOutput": "ラグラージ ♂/Lv46",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-099-R04:U1",
+      "japanese": "せいかく/がんばりや",
+      "actualChinese": null,
+      "actualOutput": "せいかく/がんばりや",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-099-R05:U1",
+      "japanese": "かっこよさに みがきが かかった！",
+      "actualChinese": null,
+      "actualOutput": "かっこよさに みがきが かかった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-100-R01:U1",
+      "japanese": "ポケモンを つかまえに いくの？\nがんばってね！",
+      "actualChinese": null,
+      "actualOutput": "ポケモンを つかまえに いくの？\nがんばってね！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-101-R01:U1",
+      "japanese": "「ハルカの いえ」",
+      "actualChinese": null,
+      "actualOutput": "「ハルカの いえ」",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-102-R01:U1",
+      "japanese": "「オダマキ はかせの いえ」",
+      "actualChinese": null,
+      "actualOutput": "「オダマキ はかせの いえ」",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-103-R01:U1",
+      "japanese": "パソコンを つかえば\nどうぐや ポケモンが ほぞん できるんだ！",
+      "actualChinese": null,
+      "actualOutput": "パソコンを つかえば\nどうぐや ポケモンが ほぞん できるんだ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-104-R01:U1",
+      "japanese": "かがくの ちからって しびれるーっ！",
+      "actualChinese": null,
+      "actualOutput": "かがくの ちからって しびれるーっ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-105-R01:U1",
+      "japanese": "「オダマキ ポケモン けんきゅうじょ」",
+      "actualChinese": null,
+      "actualOutput": "「オダマキ ポケモン けんきゅうじょ」",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-106-R01:U1",
+      "japanese": "ずーっと けんきゅうしつに こもって\nしらべものを しているかと おもえば",
+      "actualChinese": null,
+      "actualOutput": "ずーっと けんきゅうしつに こもって\nしらべものを しているかと おもえば",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-107-R01:U1",
+      "japanese": "しらべものを しているかと おもえば\nとつぜん のやまに とびだしていく‥‥",
+      "actualChinese": null,
+      "actualOutput": "しらべものを しているかと おもえば\nとつぜん のやまに とびだしていく‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-108-R01:U1",
+      "japanese": "オダマキはかせって いったい\nいつ うちに かえっているんだろう？",
+      "actualChinese": null,
+      "actualOutput": "オダマキはかせって いったい\nいつ うちに かえっているんだろう？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-109-R01:U1",
+      "japanese": "ポケモンと いっしょに\nぼうけん するのも いいけど",
+      "actualChinese": null,
+      "actualOutput": "ポケモンと いっしょに\nぼうけん するのも いいけど",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-110-R01:U1",
+      "japanese": "たまには おうちに かえって おかあさんに\nげんきな かおを みせてあげてね！",
+      "actualChinese": null,
+      "actualOutput": "たまには おうちに かえって おかあさんに\nげんきな かおを みせてあげてね！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-111-R01:U1",
+      "japanese": "こころの なかでは きっと\nハルカちゃんの こと",
+      "actualChinese": null,
+      "actualOutput": "こころの なかでは きっと\nハルカちゃんの こと",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-112-R01:U1",
+      "japanese": "ハルカちゃんの こと\nしんぱい してる はずだから‥‥",
+      "actualChinese": null,
+      "actualOutput": "ハルカちゃんの こと\nしんぱい してる はずだから‥‥",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-113-R02:U1",
+      "japanese": "あ！ やせいの\nケムッソが とびだしてきた！",
+      "actualChinese": null,
+      "actualOutput": "あ！ やせいの\nケムッソが とびだしてきた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-114-R02:U1",
+      "japanese": "ゆけっ！ ラグラージ！",
+      "actualChinese": null,
+      "actualOutput": "ゆけっ！ ラグラージ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-115-R03:U1",
+      "japanese": "ラグラージは どうする？",
+      "actualChinese": null,
+      "actualOutput": "ラグラージは どうする？",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-115-R04:U1",
+      "japanese": "たたかう",
+      "actualChinese": null,
+      "actualOutput": "たたかう",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-115-R04:U2",
+      "japanese": "バッグ",
+      "actualChinese": "包包",
+      "actualOutput": "包包",
+      "sourceIds": [
+        "rs.common.strings2.SystemText_BAG:ruby",
+        "rs.common.strings2.SystemText_BAG:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "NGC-115-R04:U3",
+      "japanese": "ポケモン",
+      "actualChinese": "宝可梦",
+      "actualOutput": "宝可梦",
+      "sourceIds": [
+        "rs.common.easy_chat_group_trainer.gEasyChatGroupWords_Trainer.14:ruby",
+        "rs.common.strings.gSystemText_Pokemon2:ruby",
+        "rs.common.strings.gOtherText_Poke:ruby",
+        "rs.common.strings2.SystemText_Pokemon:ruby",
+        "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Pokemon:ruby",
+        "rs.common.easy_chat_group_trainer.gEasyChatGroupWords_Trainer.14:sapphire",
+        "rs.common.strings.gSystemText_Pokemon2:sapphire",
+        "rs.common.strings.gOtherText_Poke:sapphire",
+        "rs.common.strings2.SystemText_Pokemon:sapphire",
+        "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Pokemon:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "NGC-115-R04:U4",
+      "japanese": "にげる",
+      "actualChinese": null,
+      "actualOutput": "にげる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-116-R03:U1",
+      "japanese": "マッドショット",
+      "actualChinese": null,
+      "actualOutput": "マッドショット",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-116-R03:U2",
+      "japanese": "れいとうビーム",
+      "actualChinese": null,
+      "actualOutput": "れいとうビーム",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-116-R03:U3",
+      "japanese": "たきのぼり",
+      "actualChinese": "攀瀑",
+      "actualOutput": "攀瀑",
+      "sourceIds": [
+        "rs.common.move_names.gMoveNames.127:ruby",
+        "rs.common.move_names.gMoveNames.127:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "NGC-116-R03:U4",
+      "japanese": "どろかけ",
+      "actualChinese": null,
+      "actualOutput": "どろかけ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-116-R04:U1",
+      "japanese": "PP 15/15\nわざタイプ/じめん",
+      "actualChinese": null,
+      "actualOutput": "PP 15/15\nわざタイプ/じめん",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-117-R03:U1",
+      "japanese": "ラグラージの\nマッドショット！",
+      "actualChinese": null,
+      "actualOutput": "ラグラージの\nマッドショット！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-118-R03:U1",
+      "japanese": "こうかは いまひとつの ようだ",
+      "actualChinese": "好像效果不好...",
+      "actualOutput": "好像效果不好...",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_NotEffective:ruby",
+        "rs.common.battle_strings.BattleText_NotEffective:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "NGC-119-R02:U1",
+      "japanese": "やせいの ケムッソは たおれた！",
+      "actualChinese": null,
+      "actualOutput": "やせいの ケムッソは たおれた！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-120-R02:U1",
+      "japanese": "ラグラージは\n15 けいけんちを もらった！",
+      "actualChinese": null,
+      "actualOutput": "ラグラージは\n15 けいけんちを もらった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-121-R01:U1",
+      "japanese": "やせいの ポケモンは\nくさむらから とびだしてくる からな！",
+      "actualChinese": null,
+      "actualOutput": "やせいの ポケモンは\nくさむらから とびだしてくる からな！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-122-R01:U1",
+      "japanese": "こうして くさむらの なかに はいって\nつかまえたい ポケモンを さがすんだよ！",
+      "actualChinese": null,
+      "actualOutput": "こうして くさむらの なかに はいって\nつかまえたい ポケモンを さがすんだよ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-123-R04:U1",
+      "japanese": "パーソナル\nおや/ハルカ IDNo58333\nタイプ/みず じめん",
+      "actualChinese": null,
+      "actualOutput": "パーソナル\nおや/ハルカ IDNo58333\nタイプ/みず じめん",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-123-R05:U1",
+      "japanese": "とくせい\nげきりゅう\nピンチに みずの いりょくが あがる",
+      "actualChinese": null,
+      "actualOutput": "とくせい\nげきりゅう\nピンチに みずの いりょくが あがる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-123-R06:U1",
+      "japanese": "トレーナーメモ\nがんばりやなせいかく Lv5のとき\n101ばん どうろで であった",
+      "actualChinese": null,
+      "actualOutput": "トレーナーメモ\nがんばりやなせいかく Lv5のとき\n101ばん どうろで であった",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-124-R03:U1",
+      "japanese": "もちもの\nなし",
+      "actualChinese": null,
+      "actualOutput": "もちもの\nなし",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-124-R04:U1",
+      "japanese": "リボン\nげんざい 1こ",
+      "actualChinese": null,
+      "actualOutput": "リボン\nげんざい 1こ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-124-R05:U1",
+      "japanese": "のうりょく\nHP 153/153 とくこう 99\nこうげき 125 とくぼう 91\nぼうぎょ 102 すばやさ 68",
+      "actualChinese": null,
+      "actualOutput": "のうりょく\nHP 153/153 とくこう 99\nこうげき 125 とくぼう 91\nぼうぎょ 102 すばやさ 68",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-124-R06:U1",
+      "japanese": "けいけんち\nげんざいのけいけんち 90838\nレベルアップまで あと 5174\nEXP",
+      "actualChinese": null,
+      "actualOutput": "けいけんち\nげんざいのけいけんち 90838\nレベルアップまで あと 5174\nEXP",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-125-R04:U1",
+      "japanese": "おぼえているわざ\nじめん マッドショット PP15/15\nこおり れいとうビーム PP10/10\nみず たきのぼり PP15/15\nじめん どろかけ PP9/10",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nじめん マッドショット PP15/15\nこおり れいとうビーム PP10/10\nみず たきのぼり PP15/15\nじめん どろかけ PP9/10",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-125-R05:U1",
+      "japanese": "せつめい",
+      "actualChinese": null,
+      "actualOutput": "せつめい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-126-R04:U1",
+      "japanese": "おぼえているわざ\nじめん マッドショット PP15/15\nこおり れいとうビーム PP10/10\nみず たきのぼり PP15/15\nじめん どろかけ PP9/10\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nじめん マッドショット PP15/15\nこおり れいとうビーム PP10/10\nみず たきのぼり PP15/15\nじめん どろかけ PP9/10\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-126-R05:U1",
+      "japanese": "せつめい\nどろを なげつけて こうげき\nすばやさを さげさせる",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nどろを なげつけて こうげき\nすばやさを さげさせる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-127-R04:U1",
+      "japanese": "おぼえているわざ\nじめん マッドショット PP15/15\nこおり れいとうビーム PP10/10\nみず たきのぼり PP15/15\nじめん どろかけ PP9/10\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nじめん マッドショット PP15/15\nこおり れいとうビーム PP10/10\nみず たきのぼり PP15/15\nじめん どろかけ PP9/10\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-127-R05:U1",
+      "japanese": "せつめい\nたきを さかのぼるような いきおいで\nてきに とっしんする",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nたきを さかのぼるような いきおいで\nてきに とっしんする",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-128-R04:U1",
+      "japanese": "おぼえているわざ\nたくましさ マッドショット PP15/15\nうつくしさ れいとうビーム PP10/10\nたくましさ たきのぼり PP15/15\nかわいさ どろかけ PP9/10",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nたくましさ マッドショット PP15/15\nうつくしさ れいとうビーム PP10/10\nたくましさ たきのぼり PP15/15\nかわいさ どろかけ PP9/10",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-128-R05:U1",
+      "japanese": "せつめい",
+      "actualChinese": null,
+      "actualOutput": "せつめい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-129-R04:U1",
+      "japanese": "おぼえているわざ\nたくましさ マッドショット PP15/15\nうつくしさ れいとうビーム PP10/10\nたくましさ たきのぼり PP15/15\nかわいさ どろかけ PP9/10\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nたくましさ マッドショット PP15/15\nうつくしさ れいとうビーム PP10/10\nたくましさ たきのぼり PP15/15\nかわいさ どろかけ PP9/10\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-129-R05:U1",
+      "japanese": "せつめい\nおなじ タイプの アピールを した\nポケモンを とくに おどろかす",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nおなじ タイプの アピールを した\nポケモンを とくに おどろかす",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-129-R06:U1",
+      "japanese": "こうか\nアピール\nぼうがい",
+      "actualChinese": null,
+      "actualOutput": "こうか\nアピール\nぼうがい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-130-R04:U1",
+      "japanese": "おぼえているわざ\nたくましさ マッドショット PP15/15\nうつくしさ れいとうビーム PP10/10\nたくましさ たきのぼり PP15/15\nかわいさ どろかけ PP9/10\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nたくましさ マッドショット PP15/15\nうつくしさ れいとうビーム PP10/10\nたくましさ たきのぼり PP15/15\nかわいさ どろかけ PP9/10\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-130-R05:U1",
+      "japanese": "せつめい\nしんさいんに ちゅうもく されている\nポケモンを とくに おどろかす",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nしんさいんに ちゅうもく されている\nポケモンを とくに おどろかす",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-130-R06:U1",
+      "japanese": "こうか\nアピール\nぼうがい",
+      "actualChinese": null,
+      "actualOutput": "こうか\nアピール\nぼうがい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-131-R04:U1",
+      "japanese": "パーソナル\nおや/ハルカ IDNo58333\nタイプ/でんき",
+      "actualChinese": null,
+      "actualOutput": "パーソナル\nおや/ハルカ IDNo58333\nタイプ/でんき",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-131-R05:U1",
+      "japanese": "とくせい\nひらいしん\nでんきタイプの わざが じぶんにくる",
+      "actualChinese": null,
+      "actualOutput": "とくせい\nひらいしん\nでんきタイプの わざが じぶんにくる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-131-R06:U1",
+      "japanese": "トレーナーメモ\nさみしがりなせいかく Lv26のとき\n118ばん どうろで であった",
+      "actualChinese": null,
+      "actualOutput": "トレーナーメモ\nさみしがりなせいかく Lv26のとき\n118ばん どうろで であった",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-132-R03:U1",
+      "japanese": "もちもの\nなし",
+      "actualChinese": null,
+      "actualOutput": "もちもの\nなし",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-132-R04:U1",
+      "japanese": "リボン\nげんざい 1こ",
+      "actualChinese": null,
+      "actualOutput": "リボン\nげんざい 1こ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-132-R05:U1",
+      "japanese": "のうりょく\nHP 140/140 とくこう 113\nこうげき 95 とくぼう 76\nぼうぎょ 67 すばやさ 121",
+      "actualChinese": null,
+      "actualOutput": "のうりょく\nHP 140/140 とくこう 113\nこうげき 95 とくぼう 76\nぼうぎょ 67 すばやさ 121",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-132-R06:U1",
+      "japanese": "けいけんち\nげんざいのけいけんち 130408\nレベルアップまで あと 7832\nEXP",
+      "actualChinese": null,
+      "actualOutput": "けいけんち\nげんざいのけいけんち 130408\nレベルアップまで あと 7832\nEXP",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-133-R04:U1",
+      "japanese": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-133-R05:U1",
+      "japanese": "せつめい",
+      "actualChinese": null,
+      "actualOutput": "せつめい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-134-R04:U1",
+      "japanese": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-134-R05:U1",
+      "japanese": "せつめい\nつよいでんげきを あびせて こうげき\nてきを まひさせることがある",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nつよいでんげきを あびせて こうげき\nてきを まひさせることがある",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-135-R04:U1",
+      "japanese": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-135-R05:U1",
+      "japanese": "せつめい\nつよいでんげきを あびせて こうげき\nてきを まひさせることがある",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nつよいでんげきを あびせて こうげき\nてきを まひさせることがある",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-136-R04:U1",
+      "japanese": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-136-R05:U1",
+      "japanese": "せつめい\nてきに むかって かみなりを おとす\nまひさせることがある",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nてきに むかって かみなりを おとす\nまひさせることがある",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-137-R04:U1",
+      "japanese": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nでんき 10まんボルト PP15/15\nでんき スパーク PP20/20\nでんき かみなり PP10/10\nあく かみつく PP25/25\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-137-R05:U1",
+      "japanese": "せつめい\nてきに むかって かみなりを おとす\nまひさせることがある",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nてきに むかって かみなりを おとす\nまひさせることがある",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-138-R04:U1",
+      "japanese": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-138-R05:U1",
+      "japanese": "せつめい\nアピールが おわっている ポケモン\nみんなを おどろかす",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nアピールが おわっている ポケモン\nみんなを おどろかす",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-138-R06:U1",
+      "japanese": "こうか\nアピール\nぼうがい",
+      "actualChinese": null,
+      "actualOutput": "こうか\nアピール\nぼうがい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-139-R04:U1",
+      "japanese": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-139-R05:U1",
+      "japanese": "せつめい\nじぶんの まえに アピールした\nポケモンを かなり おどろかす",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nじぶんの まえに アピールした\nポケモンを かなり おどろかす",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-139-R06:U1",
+      "japanese": "こうか\nアピール\nぼうがい",
+      "actualChinese": null,
+      "actualOutput": "こうか\nアピール\nぼうがい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-140-R04:U1",
+      "japanese": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25\nもどる",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25\nもどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-140-R05:U1",
+      "japanese": "せつめい\nじぶんの まえに アピールした\nポケモンを かなり おどろかす",
+      "actualChinese": null,
+      "actualOutput": "せつめい\nじぶんの まえに アピールした\nポケモンを かなり おどろかす",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-140-R06:U1",
+      "japanese": "こうか\nアピール\nぼうがい",
+      "actualChinese": null,
+      "actualOutput": "こうか\nアピール\nぼうがい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-141-R04:U1",
+      "japanese": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25",
+      "actualChinese": null,
+      "actualOutput": "おぼえているわざ\nかっこよさ 10まんボルト PP15/15\nかっこよさ スパーク PP20/20\nかっこよさ かみなり PP10/10\nたくましさ かみつく PP25/25",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-141-R05:U1",
+      "japanese": "せつめい",
+      "actualChinese": null,
+      "actualOutput": "せつめい",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-287-S01:U1",
+      "japanese": "ラグラージ ♂/Lv46",
+      "actualChinese": null,
+      "actualOutput": "ラグラージ ♂/Lv46",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-303-S01:U1",
+      "japanese": "ミナモシティ\nしゅじんこう ハルカ\nもっているバッジ 8こ\nポケモンずかん 63ひき\nプレイじかん 30:14",
+      "actualChinese": null,
+      "actualOutput": "ミナモシティ\nしゅじんこう ハルカ\nもっているバッジ 8こ\nポケモンずかん 63ひき\nプレイじかん 30:14",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-315-S01:U1",
+      "japanese": "あさのひざし",
+      "actualChinese": null,
+      "actualOutput": "あさのひざし",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-315-S01:U2",
+      "japanese": "すいとる",
+      "actualChinese": null,
+      "actualOutput": "すいとる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-315-S01:U3",
+      "japanese": "かぜおこし",
+      "actualChinese": null,
+      "actualOutput": "かぜおこし",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-315-S01:U4",
+      "japanese": "しびれごな",
+      "actualChinese": null,
+      "actualOutput": "しびれごな",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "GBA-315-S02:U1",
+      "japanese": "PP 4/ 5\nわざタイプ/ノーマル",
+      "actualChinese": null,
+      "actualOutput": "PP 4/ 5\nわざタイプ/ノーマル",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "NGC-069-S01:U1",
+      "japanese": "もどる",
+      "actualChinese": null,
+      "actualOutput": "もどる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "name-species-whole",
+      "japanese": "ピカチュウ",
+      "actualChinese": "皮卡丘",
+      "actualOutput": "皮卡丘",
+      "sourceIds": [
+        "rs.common.species_names.gSpeciesNames.25:ruby",
+        "rs.common.species_names.gSpeciesNames.25:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "name-species-prefix",
+      "japanese": "ピカチュ",
+      "actualChinese": null,
+      "actualOutput": "ピカチュ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "name-short-custom",
+      "japanese": "ア",
+      "actualChinese": null,
+      "actualOutput": "ア",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "name-five-character-custom",
+      "japanese": "アイウエオ",
+      "actualChinese": null,
+      "actualOutput": "アイウエオ",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "same-slot-repeated-short",
+      "japanese": "アは アに かいふくのくすりを つかった！",
+      "actualChinese": null,
+      "actualOutput": "アは アに かいふくのくすりを つかった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "same-slot-repeated-long",
+      "japanese": "アイウエオは アイウエオに かいふくのくすりを つかった！",
+      "actualChinese": null,
+      "actualOutput": "アイウエオは アイウエオに かいふくのくすりを つかった！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "battle-dynamic-nickname",
+      "japanese": "ピカチュウの １０まんボルト！",
+      "actualChinese": null,
+      "actualOutput": "ピカチュウの １０まんボルト！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "battle-opponent-prefix",
+      "japanese": "あいての ピカチュウの １０まんボルト！",
+      "actualChinese": null,
+      "actualOutput": "あいての ピカチュウの １０まんボルト！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "current-value-17",
+      "japanese": "ラグラージの たいりょくが\n17 かいふくした",
+      "actualChinese": null,
+      "actualOutput": "ラグラージの たいりょくが\n17 かいふくした",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "current-value-18",
+      "japanese": "ラグラージの たいりょくが\n18 かいふくした",
+      "actualChinese": null,
+      "actualOutput": "ラグラージの たいりょくが\n18 かいふくした",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "ghost-unknown-context",
+      "japanese": "ゴースト",
+      "actualChinese": null,
+      "actualOutput": "ゴースト",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "ghost-species-context",
+      "japanese": "ゴースト",
+      "actualChinese": null,
+      "actualOutput": "ゴースト",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "ghost-type-context",
+      "japanese": "ゴースト",
+      "actualChinese": null,
+      "actualOutput": "ゴースト",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "poison-type-context",
+      "japanese": "どく",
+      "actualChinese": null,
+      "actualOutput": "どく",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "poison-status-context",
+      "japanese": "どく",
+      "actualChinese": null,
+      "actualOutput": "どく",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "ruby-team-term",
+      "japanese": "マグマだん",
+      "actualChinese": null,
+      "actualOutput": "マグマだん",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "sapphire-team-term",
+      "japanese": "アクアだん",
+      "actualChinese": null,
+      "actualOutput": "アクアだん",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "missing-glyph",
+      "japanese": "ピカ�",
+      "actualChinese": null,
+      "actualOutput": "ピカ�",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "unfinished-message",
+      "japanese": "しかし うまく きまら",
+      "actualChinese": null,
+      "actualOutput": "しかし うまく きまら",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "visible-only-first-unit",
+      "japanese": "ようこそ！",
+      "actualChinese": null,
+      "actualOutput": "ようこそ！",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    },
+    {
+      "id": "visible-only-rain-unit",
+      "japanese": "あめが ふりはじめた！",
+      "actualChinese": "开始下雨了！",
+      "actualOutput": "开始下雨了！",
+      "sourceIds": [
+        "rs.common.battle_strings.BattleText_RainStart:ruby",
+        "rs.common.battle_strings.BattleText_RainStart:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "localization-move",
+      "japanese": "わざ",
+      "actualChinese": "招式",
+      "actualOutput": "招式",
+      "sourceIds": [
+        "rs.common.easy_chat_group_battle.gEasyChatGroupWords_Battle.62:ruby",
+        "rs.common.strings2.gOtherText_Terminator2:ruby",
+        "rs.common.easy_chat_group_battle.gEasyChatGroupWords_Battle.62:sapphire",
+        "rs.common.strings2.gOtherText_Terminator2:sapphire"
+      ],
+      "resourceStatus": "static_record_available"
+    },
+    {
+      "id": "rs-lightningrod-description",
+      "japanese": "でんきタイプの わざが じぶんにくる",
+      "actualChinese": null,
+      "actualOutput": "でんきタイプの わざが じぶんにくる",
+      "sourceIds": [],
+      "resourceStatus": "not_in_static_pack"
+    }
+  ]
+}

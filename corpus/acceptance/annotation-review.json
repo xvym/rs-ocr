@@ -1,0 +1,3144 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-03",
+  "method": "same_model_second_pass",
+  "groupsReviewed": 389,
+  "issuesUnresolved": 0,
+  "blindIndependentAnnotator": false,
+  "annotationsSha256": "0b56076f03947cfbe93d96fc5d1a2b2e4087bfcdc7fb6c9a91053a9abd449db6",
+  "basis": "逐组对照冻结日文与另编中文预期，再核对否定、动作、对象、版本语义、可见范围和动态数值；复核时尚未生成本轮系统输出。",
+  "preFreezeCorrections": [
+    {
+      "id": "GBA-142-R01",
+      "reason": "去掉尚未出现在当前窗口中的享受措辞，保留当前可见从句。"
+    },
+    {
+      "id": "NGC-096-R02",
+      "reason": "纯昵称、性别与等级按词典命中或原文保留处理，仍纳入579区域；不得把该规则用于整句缺译。"
+    }
+  ],
+  "checks": [
+    "4组明显前缀/词中截断不补出未见内容",
+    "所有日文数据数字串、前导零、PP与可见符号和中文预期一致",
+    "10まんボルト中的10单列为词名数字，不冒充当前数值",
+    "避雷针只按RS日文描述为电属性招式朝自己而来，不加入后世特攻提升或免疫效果",
+    "同一名字重复出现保留槽位边界，不因字面相同推定同一身份",
+    "菜单/列表按独立项目分段；正文两行不机械拆开",
+    "动态名字的中文预期保留日文，完整可靠词条译名可经输出绑定复核接受",
+    "未把候选数、源码分组或固定集通过外推为产品全范围"
+  ],
+  "decisions": [
+    {
+      "group": "GBA-001-R01",
+      "japaneseSha256": "c71deb5d85b7a097645624e6fd6014c72bf6a3cf85d7f263a343d93e2bfab66b",
+      "expectedChineseSha256": "43d480871449ced43a85a3f4d9120e8653cd08b977e6642940d4ea2de1e2a74a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-002-R01",
+      "japaneseSha256": "274130418b96eecb78d1f865c0c5dac6123acd65bfdc0a525ad1ae173b7aa2ed",
+      "expectedChineseSha256": "1464f52d08257e8436fc1312c4a606ac8eb0e0f258f0e7bf8408e1493afdb314",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-003-R01",
+      "japaneseSha256": "ad12a2224ad30fd08e8b77945c843ae6e9628c28599942645475e65d41f4a3b9",
+      "expectedChineseSha256": "c6938c93ad41891743796caefece60304d1d7208e93213b54f24c90e4975f0bb",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-004-R01",
+      "japaneseSha256": "8edcab6d76551e8b82a87579a566931c6d35c1ce2a75dbea3a06b5727c5bf170",
+      "expectedChineseSha256": "5fce33fc9ae57b601cb04c9b49cd845fee2cf66beaf72e3597f5c1735b905a3d",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-005-R01",
+      "japaneseSha256": "1bee1bf872983e107e9b15d69ae9940d517500fcf4405f26ab291b13be506456",
+      "expectedChineseSha256": "826dbd2eaaf35a0892bdf8a76c4f123e82e966afc4e3460a94d5b13fdf29bea8",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-006-R01",
+      "japaneseSha256": "0b330c97b7b7bbc8bc6565b9ffa113ab938dcc4bcfde8867233532b56b235f21",
+      "expectedChineseSha256": "1696f62f6611f282ffee58ccb0ab5f1e438bfbf380f683c2ff9aa4d889ef09c4",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-007-R01",
+      "japaneseSha256": "fe58028084b25ade2524a56f4712b30d1876269303b8a52e687bbdc0db0db026",
+      "expectedChineseSha256": "da077ad55c1599db5f73eecb5a8b004abb8a60c4260a025c111f962ff3bce8af",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-008-R01",
+      "japaneseSha256": "be59ff4c695479c506756f6f4a52c1ff12eb44321488534bf208641fce220ba3",
+      "expectedChineseSha256": "61577e95f1bb616f9d9ef2f47f6c75238ba112cbfe48f7ca46230c177ec78de5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-009-R01",
+      "japaneseSha256": "8ef5a467f3e8b766e9df69ff8d76fca3db27657b47984b2ade537241b215236f",
+      "expectedChineseSha256": "fa40a43ff70cb919369f700b4870776026b9af7f318b2c5ca9476e27d3e7dde8",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-010-R01",
+      "japaneseSha256": "6eb4e0a4f39dd77bc1f2976b33ad2355e9be39abf81029f88e99e819637b1f41",
+      "expectedChineseSha256": "94b0996164c66edf6928092daca6b6efa3f1903cea7c33842b156c434b868aee",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-011-R01",
+      "japaneseSha256": "e43a8b25b06783f675157abb24a79e39c82ad75231ff4774c613536249075dde",
+      "expectedChineseSha256": "90e5003a11a39bd18388fefcd62d557e55089ede3e1978a97fa318d490e0521e",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-012-R01",
+      "japaneseSha256": "538383f608907bd429197f746125b7c81918c951bc877a5de79fe88dd112a671",
+      "expectedChineseSha256": "3ebebcc845fb4a1ef636950a84b8c570a5ca66bf7acd1db448fbcaf4d7fa1258",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-013-R01",
+      "japaneseSha256": "3a01c4792655cda4825de24900f2a068fd674d7e45562312bcd4c039c4fe91d8",
+      "expectedChineseSha256": "b5528944f3c7f2cb334e126080d396d7c871df7d633c7e5eb3bc8b184514248e",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-013-R02",
+      "japaneseSha256": "31534ed603649c425702f82c345a3b1ce7cb44f67ee6b81328604618d89d69ce",
+      "expectedChineseSha256": "4ec9140c98d8038c847585b0f179dc8eeab8dc3bff9cb248ede29baca4f5e304",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-014-R01",
+      "japaneseSha256": "a59ccedefb88487082f99371f83a4da10ac8e69fec2ecf1f2ff06322806b2eeb",
+      "expectedChineseSha256": "c94d64451614579a4fac8d4e9eb080fb41d0e8c95811fbccf72706aaa8a35189",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-015-R01",
+      "japaneseSha256": "332beab313fcb6dc880f3d0d5056bac4a8c03a1735e19ddbbd50f197fd7031bc",
+      "expectedChineseSha256": "3894f888d1487214d9807269d630aec80a58c8841fbd49ece262ac5d6a9d93b0",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-016-R01",
+      "japaneseSha256": "6b0bab6e35bd772b211c6a85c50b27cbf577d3fa644431a84dae57ad68dc271e",
+      "expectedChineseSha256": "90b7e0a889afb96cc4d354cf6cab58e39726d60c49c505a58a8144979fd8eb8e",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-016-R02",
+      "japaneseSha256": "7af58cff4ffba3d6c1cfacf0c01c865a7773bc2416fc42329d5ca47bbd354174",
+      "expectedChineseSha256": "bf8062e4231582ced2128db6282a9c517ab1a250dec67e71496761d600b8022c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-017-R01",
+      "japaneseSha256": "0901293eae3f178c70fe86d5c48e143205612086240698844fd89e685e7b704e",
+      "expectedChineseSha256": "435a0c73c565e80327720374aa29e4e8671149013a0b0a7c79eb3b1126a0b899",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-017-R02",
+      "japaneseSha256": "de6d70722bd4e5092e8b61a55aeceec8d5547b218d7b30e6ff45df125ce22049",
+      "expectedChineseSha256": "0a40ba49e65c3d9917543fe55e06f525bc92c97fcf8ba16b393f5ce12d5585eb",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-018-R01",
+      "japaneseSha256": "981ceeef8934bb506e95db481766eaee5e686d40969493bf964d9b2cad320762",
+      "expectedChineseSha256": "408bb526782e6dd6db4bfb7c496fc4e583de5b4fb9ecf0874a9a8286289dd95a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-018-R02",
+      "japaneseSha256": "817586fb6414a6a3caebabd09984a74dfd4e8c9a3ca874f7af870bfdceaa257b",
+      "expectedChineseSha256": "c2caf878ac3439cdd920d2c74980a3dbc9359cbf140bbefd43b881519db306aa",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-018-R03",
+      "japaneseSha256": "0a536ce2ee1b6ab11a85d10951f8dfcec432bea926398af93e66931710f0307c",
+      "expectedChineseSha256": "c83d71e7d2f0a5934db44025cdd10e353284a7fe9878df3f232c495d18e8f8a5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-019-R01",
+      "japaneseSha256": "66e6333f300402852a008c9ed38e7c8bfaf4f27ae80b32fa1a3c817c0d1349bc",
+      "expectedChineseSha256": "7483f8ec95d8906cd501ce8d2941a101663b04747f6f906b6782ed5152045b60",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-019-R02",
+      "japaneseSha256": "ad3c3adf61ccdca65db73aad66b4352557e90ae58843a8fc94b07803c1d0f56e",
+      "expectedChineseSha256": "a5bd7bade452791abbac1a0e6bd36442023ed22ccdafd343238bef2b7fdd8e21",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-019-R03",
+      "japaneseSha256": "84a6268cb1e226ac7cd0928456365f116295c5b7d88571f4b7d5172311f4cd16",
+      "expectedChineseSha256": "03f4526bfdea8d93b8d6bf7e4be621dd1ffbd02020abffaff462bd827faba0ec",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-020-R01",
+      "japaneseSha256": "c50c5bfe02b8b32e01f2bc05b495219bd0ea153549e4788204e1b12542d3b0f6",
+      "expectedChineseSha256": "5dd7d604e4e8757558e11fbb627804a4a499f266199a935a6e7eb1b4b9cb5d9d",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-021-R01",
+      "japaneseSha256": "f1c3efb0f475d3b4b4737e21dc2f9240c995c3f267b824909320c30c5e0089ed",
+      "expectedChineseSha256": "d7c6ef03551156a485fde34bed4112a7947e60ac33f8ed801af46dd050d2ad96",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-021-R02",
+      "japaneseSha256": "9ad980d9157d2a2b9f864eae931e09f18787a6230f9ffca3820791d99ca0e7fe",
+      "expectedChineseSha256": "3fbac76fd876c133a9c17f4f44b540112fa8a9162ec522c443ce5729c8d80f21",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-023-R01",
+      "japaneseSha256": "17981b51d17e17dcdf00165263590a279e1ac9102280ad78d7920282b5fb2f4c",
+      "expectedChineseSha256": "03b4b86a015a02f70805e4b46cecadffa5a1b1b2c73a8c67184778ab040d19d7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-023-R02",
+      "japaneseSha256": "3f5edf03f1c14b71a09b065744befab14fd6ac722381770585c271f0066bd597",
+      "expectedChineseSha256": "cccdbba43957e74a06c7e226089e63ad9e57559522a16d94d3fb9c9286b63446",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-023-R03",
+      "japaneseSha256": "8125d3efa10e2a586681b930e44eba52d084e374bbbc78472d2984ebb546ad48",
+      "expectedChineseSha256": "54604ced6eef470f1036626de18522486d38ab9938d45e671788eb13bdb7c517",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-024-R01",
+      "japaneseSha256": "b89a8424dd6a120c414236569779b5115457fa325cc59e856df6bf4de01b794f",
+      "expectedChineseSha256": "5bfe1f8c2fac9718a6743c480e09192d671abd14aab01df8ca856eccce4f3662",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-024-R02",
+      "japaneseSha256": "f0f630da76506b1ea0dc7677a77d1dccff19c4ff4e03dccb873c9c1a2c996d57",
+      "expectedChineseSha256": "fab2035db981b8893a96cd0730e6f2abdb4a7226c115782706e0018ea66b6147",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-024-R03",
+      "japaneseSha256": "6fe062b0ae70495e565201b80d2305727ecd9b2c4e06343a28cb25345477de65",
+      "expectedChineseSha256": "6a852498c014e417303709f09497c05cfaf56e92d857b85733f0bbcd9ff7f356",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-025-R01",
+      "japaneseSha256": "07dcafd2230b0f6f38945d73fdd6f02b293a9a5fad66e3faf73f08deb51446a8",
+      "expectedChineseSha256": "8f7e429603e2250c8d593211220382b8d9617eed55aee050c266f0955b022a14",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-025-R02",
+      "japaneseSha256": "51cb4e6b693e492ba61910a55d391d59399f35fe88d9ef3b41da8d257bdc3ce0",
+      "expectedChineseSha256": "ee4f1ee785eb14d1b0b3fed204a7faa645c4c83ed7c769f7dfba14490cb07f7f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-025-R03",
+      "japaneseSha256": "49b573e5477a030aeac723dd752cd0b1f41b2d2de838e604c346a8371a795221",
+      "expectedChineseSha256": "25dbbb6a6108e25ceb5c65803750d1ecd03e5502dab40ca6a4c33e050bebf389",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-026-R01",
+      "japaneseSha256": "7a00fd71f898bd8f7dcb3514d82c3157ed24e6c097712d950f4a4e2930838d52",
+      "expectedChineseSha256": "cf83d9a1a73f35e21c545f2ddf0bcb2bb0067dee9d6959c0a6cda65ad207a14a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-026-R02",
+      "japaneseSha256": "5c6ccbf3b6d55539870c1abf02facbfff52825a74cdb087f0fe4c5e8ffd1b604",
+      "expectedChineseSha256": "5eeee9b55706318c3d2c2a57a65be31c7a93d3cec3e1fd02a3d500db5d20bedb",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-026-R03",
+      "japaneseSha256": "0990c47ea4ddf928a2e1e88933042220716a50a6afa5db4a33fe33b0ba8b2a9e",
+      "expectedChineseSha256": "b430e316e624bd98e83964e7b97a05de19ecf52e88d33187076eab865f71bbc9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-027-R01",
+      "japaneseSha256": "d71b074b06ecd3ac14cfe540c8c6d623da945be3b8357afb212f87e81ca1cabe",
+      "expectedChineseSha256": "b6df370781284ad9d679af0f3eba6400bf09406ac018238a1523e15745a7b973",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-027-R03",
+      "japaneseSha256": "8b24cc7c4cda2930f5fa37d97261d2e339f838acb138671d74cf880002cbb0de",
+      "expectedChineseSha256": "c05d047c56493c54a914c48d7a053e9b4d0c95a015ed5a4f20d2c0465d1e8f9c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-028-R01",
+      "japaneseSha256": "7eee58cbfe323fd7d224304cd250696b6a405686aaba4b7bd667387eee2c5cdb",
+      "expectedChineseSha256": "c3e97910a3a1e3600055c89dd372396f565145fa1dcd930bb3add3bbd8c8f6c6",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-029-R01",
+      "japaneseSha256": "bee715476bfad99afe00c453687174fa97b8a56bf97d851093b32f9277999d76",
+      "expectedChineseSha256": "9124361d55215d92ce80c2a0cf3ffc21ff04b1db771d6c213ad8828225b6bd64",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-030-R01",
+      "japaneseSha256": "7108c75c39e03bbe029801f8864bfb8c7a15988888ca60df430194a76f4e0d26",
+      "expectedChineseSha256": "94a92efc572aa540a4b737b2ce5e20fff5fe8f56495c63e256658241c7a58b8e",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-031-R01",
+      "japaneseSha256": "90880e538d9962450a848039052364018f1558b13fa111815ae3b08d9d7b3db9",
+      "expectedChineseSha256": "31c78bd3432d50bd9a485f1d6d3e151f243313b562f54c9103cb824037ef35a5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-032-R01",
+      "japaneseSha256": "8b7b7de7e802d8a63fef7afcebeae5477ab0506477a031e3abe9f49c9d5e4901",
+      "expectedChineseSha256": "2bea9d732be7ded1ada1655142857011dfb3e210adacd7b8b83b145314b483d3",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-033-R01",
+      "japaneseSha256": "031ff301884982a5cc0fc10afe864159e0886920c02682e69c4a8213d97bb16c",
+      "expectedChineseSha256": "7e566a7c2f161d28f2931e2151b3a232c66393109712236c55be6d200dd6146d",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-034-R01",
+      "japaneseSha256": "fb793e215d76cc9a1aeede6356d36febea9cbc37158b7e17529543bb6d282700",
+      "expectedChineseSha256": "b7d798ec6e948ad3b8c1ff1e7a0e2b3c0b10759a4aca077f6e53838d3794ca34",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-034-R02",
+      "japaneseSha256": "423d4324e8dfed5ac78877d75e51d5c2d0c11732ffd9e5aa402be57095895318",
+      "expectedChineseSha256": "cebad2847f027dee02d9724fffe2e893aac596ad34fa50c726c4eb836e72ef76",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-035-R02",
+      "japaneseSha256": "5cd3ff236eaf23932b163cc85673b4bee46772238965fa02fe0c4f29dffaa225",
+      "expectedChineseSha256": "9b4e10b162bcf94f6f8a159b7c356961393aede33266f4c3be19905f20ae02ef",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-035-R03",
+      "japaneseSha256": "157f4ff0f335f3319e872901790091cd20ced1a11753c548b56d7ab9c4a4efe5",
+      "expectedChineseSha256": "4a432d91da3032991091bbc42fd1b3d96fabe37298f5b8fbb14a56d34d5f7e38",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-036-R03",
+      "japaneseSha256": "0fa4a8901f8671a3e9530e12d0ab1276df03acf78da43c0eff03e7d48fcd5da8",
+      "expectedChineseSha256": "587d751b98613f550c2329ffbab32c99a4aeb9c9e4684897a447b8fa3ecef493",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-037-R01",
+      "japaneseSha256": "87855683fb611b1440799b414b8957cb2d14fbcc55405dcab97e85af4fcf0dad",
+      "expectedChineseSha256": "744175aead6a92201aeabfa4b462c0596e45c73cdb87aa8e718da8f31b5c2c28",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-038-R01",
+      "japaneseSha256": "009d43b53bf5acb5166c87b09548ea61fef9a9af0e7c5777a604c6a948ed9dcf",
+      "expectedChineseSha256": "527e930d798354f748185e7d24bf9635f273eb54420062ef4f0c48f18e099f8b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-039-R01",
+      "japaneseSha256": "23b0a608ec2bafc3a205780d115562a1a7d29328295210810e69d6571eda55f4",
+      "expectedChineseSha256": "edd049fbcba0f531061b8307936fe5f0e39e86141a6c9de4883eb52680ee3a0e",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-040-R01",
+      "japaneseSha256": "04b31097ad66852868f34eb27c0869b1ec34b7baff5dc90ac1bfe574c92e5c59",
+      "expectedChineseSha256": "5a22133a14b622a72b2fc7650e8e12c4618a4f6df2378ab6882c9be68e3abd09",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-041-R01",
+      "japaneseSha256": "0435684da6661f933dd6b237da525deb3009b1f55046bf623e1b256d1d0f22e9",
+      "expectedChineseSha256": "93aee780577ebe601d664b8bb54ebd2cccf68b567491622d79697e5fb7a04a81",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-042-R01",
+      "japaneseSha256": "d0ca280d1d8ec981a12619f5e0198e3dcb387074c286c219a19ad19643b043e0",
+      "expectedChineseSha256": "337b115a3254da419bfe8fba20f3697d1b1f3e44cd0104cd62a3b88210b2acdb",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-043-R01",
+      "japaneseSha256": "3e2a5bde785dcae0b430037ceb9f1e5ba728dda3507574e851385254c0ab568b",
+      "expectedChineseSha256": "711c6b995ccd313e00913367e668d45ab446589f8e8278747fb4d8fab248591e",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-044-R01",
+      "japaneseSha256": "c9823b863caccbca71d49daee3eec20b4039cf5785f91d50982aa1d5bfc5b287",
+      "expectedChineseSha256": "406a513c1a924f154ac5dac8d258bb23f2c466d2003e90dde8706d4eb4dd2a5c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-045-R01",
+      "japaneseSha256": "0d04b0405efe08e6d2c6ec5ce9fc5c8305c1d66b0001a25e54d5bb05a9b13573",
+      "expectedChineseSha256": "d7fa6a72b40e79b47b65af6e4e96e2cdc6851e3c6b4a47eddc232ec4d89e9176",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-046-R01",
+      "japaneseSha256": "0b0ac31f0e81550a393baf450083a5b0b286912ade1f0b319899bac5b683aefc",
+      "expectedChineseSha256": "6cf66ede11802dad568cd4b0a6fe14503ac551f72e634c4b854d4cb8f3b0a74a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-047-R01",
+      "japaneseSha256": "f4e48c08e90322e6d79d18a9a78c1b9bf9e92c949c074b555a71c2b52614d086",
+      "expectedChineseSha256": "582d98a24de9da5d851032943b5397e1d8b45525ddf1bbc0ff628e244393a9bf",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-048-R01",
+      "japaneseSha256": "249ec922fad0910ef2b2f807224d8d07df971a36f7640a2b2979e93996186b01",
+      "expectedChineseSha256": "5af565c709a0d60f2447417bd2d5899edc3ffa8564b4b776a4c1ce5b607d4f25",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-049-R01",
+      "japaneseSha256": "78016497c21fac6e6481a33f7d253f0f0fabfb3aed6f9e346dad00c49ccf9ec3",
+      "expectedChineseSha256": "dc5580efd0a9b2a3d8f539d9835cc3d05bcf43ceaccc8dbdddd9f50e384dc201",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-050-R01",
+      "japaneseSha256": "9460dd5a3f649306be27cbb071a3273e2bc72ebfdcf704de6fd4bce6d82676bf",
+      "expectedChineseSha256": "2d2eec82b95246662818176bcff462e7bccf56d0a0a24b71a2b90e64780ee20c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-051-R07",
+      "japaneseSha256": "bbf506978223ea59d1048f8c87b72ba635f9fd0f699f0c249461a1b106b5b4f9",
+      "expectedChineseSha256": "63b84a3ef426a2e5ca362ae9456c8367972696965f9ec9f36c2877a7c9d16929",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-051-R08",
+      "japaneseSha256": "7e340b50c5478fc80f50666f692b1077da6fe771faade4048d2e018797b50530",
+      "expectedChineseSha256": "a174fa38d721b34db0c1111de132914fde658a01bf68778f8f12ee985919ce65",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-052-R01",
+      "japaneseSha256": "1b31b9870f67e237ffc51e043329301ffd17e475d9917fd5d1ed0b772ca87aaf",
+      "expectedChineseSha256": "15fd61583b32d90ae6fecda76b3edcff5ed8d6759d8704c917a31162d5313163",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-053-R01",
+      "japaneseSha256": "e87fc2c77c119b2dce1508f55a662043df148781ec48e44d798808339f750374",
+      "expectedChineseSha256": "ea1fd7fdcdcbf6de0b800e535dd136d4aa1367d833fc4c8a8056e5f093d25c07",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-054-R01",
+      "japaneseSha256": "4648bca1e0cf3c0ea09347251397e25e3a937404e77826fd03be08d75f790a75",
+      "expectedChineseSha256": "2e25df63cb2740281a82a3643e3c1ae01a69a419fbc44db2745fdd725791c05c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-055-R01",
+      "japaneseSha256": "1cb8f17e2a21464cb4091095dc93a500cb1214eb8bbe781fce7fa1c8ad56f5b2",
+      "expectedChineseSha256": "74268435198eba7b20edbc8161c763259178fd517cce28e172f99062a8a04064",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-056-R01",
+      "japaneseSha256": "88c45b57740010d73c51494af546ab68eea71a323ee043b0c534029da4d9eb36",
+      "expectedChineseSha256": "14932180c5487b170b5587fa1507b39ae9c798f031f75838fe7c857cf1ea409b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-057-R01",
+      "japaneseSha256": "72e916befacf938d84ed556d0df82cb79c9a2ee26765542837ed789050c5cffb",
+      "expectedChineseSha256": "a2f54591a2bf5f074b85940a3790151af16325f9ec3eaf236b2ccc53c137a3d2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-058-R01",
+      "japaneseSha256": "844e83be6b923d935a165174d8c9ef4740d1b2a06b8f5c51fc6bf6cd9578bf70",
+      "expectedChineseSha256": "1cc189c51d5cc948c6c3770199730ceb614777e77fe76b0c0d1d831d3a442bf2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-059-R01",
+      "japaneseSha256": "e70369ef1ead02e8c1f84c7ea5ea146c7e83e6db39da11d241263e04efaa843b",
+      "expectedChineseSha256": "41f4be75efc29356761cc93d5dc6533b96b7ce7132e3ac93ebf47fe2c5e96af4",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-060-R01",
+      "japaneseSha256": "1473804b313b2bfdd3c281c6c4b8b7e123683e22261733eedfa4317409966534",
+      "expectedChineseSha256": "61da6ef807ae6c730d62ab0d349ddd59f94ac7e4a12c974d20349f25fd848479",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-061-R01",
+      "japaneseSha256": "f3b94a96796e37c9a06254f94174ab6805a2cd4738529a70292f9cb340106acb",
+      "expectedChineseSha256": "3ee6e75489920da0a6a8e4af87723a3c1433a94436271385233891359bc4e386",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-062-R01",
+      "japaneseSha256": "aa66a17acd7bb98d774d403ffc4e26d2a1100da2e7b0ea51b5485bcdfcbb85b5",
+      "expectedChineseSha256": "d193553b3b652b2fb12e57f1a6dc182c3c8dd506d9002b0d04847e96788b723d",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-063-R01",
+      "japaneseSha256": "3a441e6e810966d1e5db13af78a9b8269817da1650680e217e591803b7e2d197",
+      "expectedChineseSha256": "758cfcb92ba154e597551a3ec6a8f017281684c2b84f55f9dfd88cd1090a6e36",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-064-R01",
+      "japaneseSha256": "4f5e3decd4eb6771329827ff5954a1380846fe6bad4f124d0d1e9ac2cb13004d",
+      "expectedChineseSha256": "e723c1a48e30354a9af469f05cb452ae403492567fdbd592da47fc451c072813",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-065-R01",
+      "japaneseSha256": "6622c417f4902b96828f5b62ec58d08bc8b2c99e720f92b1d700d2d58b9eb616",
+      "expectedChineseSha256": "240c702436d1b113222476fb1a81d2e4759859df5bc055baf9743d6b82867458",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-066-R01",
+      "japaneseSha256": "a03101902802dd32e49ea36c703c73d20631a2ef080bbaf7e8514fd70de2416c",
+      "expectedChineseSha256": "ca8a84becd07d754c9af9d6eb08391a6a81d8a1ceb3391ccb8e7ba460d1af101",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-067-R01",
+      "japaneseSha256": "9fa62287d77258857ddcb32f3bd5782dbdffc57aab40727783a9b58e98a08a5f",
+      "expectedChineseSha256": "89a1ed3a2a95ba848dfdf7da108e78ceb5ea1f8fb639c41a76b30e17f4008846",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-068-R01",
+      "japaneseSha256": "398940a8b8243f40182f5bd6b54b5062aa2214f1a5cf0bfe38fa5267f4c9bb7d",
+      "expectedChineseSha256": "fee7efa2b5fd9fb956e58f27b86bd1412a6c708650bfc34277725110f2e63c05",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-069-R01",
+      "japaneseSha256": "1590eddb67a149a13916777ff2d88d865f68ba869e073281dba2422d324520d4",
+      "expectedChineseSha256": "78035e5b433f9316a43c6235a5e27e02637ea35be3a166565a9b7816908000d7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-070-R02",
+      "japaneseSha256": "0edb6948fb99485a46f7f7a0ee2640c1de5d5ca8d83aea31af91389d82f56b8a",
+      "expectedChineseSha256": "88672d6c163c97fd2250849445bc0b15fd125ff5c1874df32a75f3eff980afb3",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-071-R03",
+      "japaneseSha256": "ed74192d156f0f21cb27fad64a62844729e8fb68a455f0610454c3f204c3a5f9",
+      "expectedChineseSha256": "fdc18000b8501ed9c1b9ef445a1e6421cd8b7bf14b91045fa876d9d6c3157e91",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-072-R03",
+      "japaneseSha256": "251b46cb16419c19f7c419e0afe724d539218867e3b2e2b9a020cf0d8498130e",
+      "expectedChineseSha256": "8e923f2d5e40db35e28b88e5909b341db17fb8fec7f7752b01db8ad754163e1e",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-073-R03",
+      "japaneseSha256": "df86da9d24fc760b7e7d875c1e508128f88c0e6c2d95b9c75bbb61cf4127539f",
+      "expectedChineseSha256": "df85edea840c086e9b636d062e75c354001036ebde07a42cf9db54451e6e9073",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-074-R02",
+      "japaneseSha256": "ef1af5f659311c4c1e8153b39060a5379c9eb748ff5f58bbdac274f2a5b771a9",
+      "expectedChineseSha256": "b2e2f9355575993a2b8592fb8047b52c6dff71119b6a622b8a2e7878c9d64522",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-075-R02",
+      "japaneseSha256": "13bf66c8e1189b2e4260b6ddfefff579a2b535e32d63882f14dd557de43dc649",
+      "expectedChineseSha256": "49924359475cdea884bd53c718e6cca84ea5820aef707676813f3eac5218c2e5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-076-R03",
+      "japaneseSha256": "cbb79b32167a65dce14c0cc1975ceea54d9b735a52c0dfa47fd9d880069144fd",
+      "expectedChineseSha256": "99f470b20f4aae9728f18360bfb92d9f6e2e004bb0523a3084747b07385b8c5e",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-078-R03",
+      "japaneseSha256": "15bc1eb8d4093278c3a3105918ca748ca5cbd5801eb1ce9c56986195e87ed9df",
+      "expectedChineseSha256": "448839496d3ed99cd7e27be0de417e1f0b9cf12f1e8219b1a677b35aa486577e",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-079-R03",
+      "japaneseSha256": "0e2725654b0051c75d192faccc957716a96d19872866602d6a972dd79abba06b",
+      "expectedChineseSha256": "0e2725654b0051c75d192faccc957716a96d19872866602d6a972dd79abba06b",
+      "action": "retain_incomplete",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-080-R03",
+      "japaneseSha256": "995e94ac3848c294cbe663c7d66783af2e9aa0feee54a94085fa5f30da6ffa50",
+      "expectedChineseSha256": "293e71376b2f48b3b69ee786ba09f4ea069747d59b45bac2e742242dc0d1219d",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-082-R03",
+      "japaneseSha256": "050d78a418a4465f9f7f549fc478810679010ddb2300937345c137f4f4253345",
+      "expectedChineseSha256": "bc27ef34ba502adac0b60c6cece8640b8e195ac0ec68e64a0f69c22fe668b923",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-083-R03",
+      "japaneseSha256": "360a4e6f990c222b57ef0dcdd23254345ebcdef5b0535c243681a3ac534b3b71",
+      "expectedChineseSha256": "08cbfe59c2f5148766d073478a6e14b8ffeed084b97e32d8cd4c41a4c769af5f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-085-R03",
+      "japaneseSha256": "944854e7511e5df42520ec83b826db67329eb66d6dc23737f47685640fba095c",
+      "expectedChineseSha256": "69792e609ba8c4baac7898b240843bb4f6199feb603bd134abf60d6440d6a185",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-086-R03",
+      "japaneseSha256": "e628b11f0741323b07f97243789d651ef2fc4e7e4328cf004c0d512b8335897f",
+      "expectedChineseSha256": "39c5996a3a50cca228ae169212327c4684b6b08b7be5dcecdf623f2a4023805b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-088-R03",
+      "japaneseSha256": "aa12ed6c249820474dba0dfdae2a3603e928e23d923839f9bfb1278cfc8ac10f",
+      "expectedChineseSha256": "4ee380b2a5eb969c4e3eaed6870505cff13a02eccba9c3280f7bc54f64e8f2e7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-089-R03",
+      "japaneseSha256": "6c0c814a106601226e18112a7c1f976c296eafc1e9d15d2ecb75d6d68fe532d5",
+      "expectedChineseSha256": "ca7f76c84a4d3fd069c75359854c1ae22305c1e87d96980a5f8005655f1415dc",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-090-R03",
+      "japaneseSha256": "de905b45e3586634e10f43a96a1017ee2715a0cbf0d7d9da5382ed9b35aa95dc",
+      "expectedChineseSha256": "b7804523cd239a100abb61bd103cb4e7a637db67a392abd8a1e334f8fc19f460",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-090-R04",
+      "japaneseSha256": "534aa1837223155abce2d77d6c21fec6e0b2f137c4ae706a44db6a85966c6b11",
+      "expectedChineseSha256": "b7022b9564b512dc080cfbdeed2e51ff6d62007d3c75f60b68f99ebdd4c02f68",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-091-R07",
+      "japaneseSha256": "33b01deb1d388d9b6fa43ae173c6f81faa42ebb3849c60e5ec420bd1142e6b09",
+      "expectedChineseSha256": "0177dea068ed24be446a3a0cfe9f2828654c933f5230f7902e8971cd347d9e03",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-091-R08",
+      "japaneseSha256": "6e22a90c570a97a3554065dc00713c2fc5e183342efe9a1aecd1bc9e8ff36721",
+      "expectedChineseSha256": "ae129525e13991fcfc6948ade6f0cc367a478433ee2b548b0aee7d8fe0a6f2a1",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-092-R03",
+      "japaneseSha256": "99d0851d93801baaf036341b7838f7539fc5c1f9c32a6d83dbb9f8913de49233",
+      "expectedChineseSha256": "ebab5ae1005805f15993d765b0d1eb5ac12aa4caf8e2bb4886b07132dcc25d53",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-093-R02",
+      "japaneseSha256": "5f3097fd43a82b8c3fa368c5ffa66a7a0ba1755442a4e2bd8346d109611c0de2",
+      "expectedChineseSha256": "e15fbb8a259bb8c399f8f485a67a7ab2d8babf7154374e399f22a71291b8a4e1",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-096-R03",
+      "japaneseSha256": "8d5a903e034e1e0862144ffe1cb86ff02959d477df4559c2fb226ad3c7ad5837",
+      "expectedChineseSha256": "81c243ac3fe5031a65704c01d5117de7b1ee0c97a9bfecb9b855f96aa28064ae",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-097-R01",
+      "japaneseSha256": "c9d281b1734739ed929cc25d81fe092a3aed31d6575867bdf9377c5712bb152b",
+      "expectedChineseSha256": "bda829182b87bd66c4c2f872904b76f64dfc019812f057523c0f8ede23cd1504",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-098-R01",
+      "japaneseSha256": "3814678614e26c141283bfdc2ff9df4140f40ec016df49a4c7c9dbfa5db74d9e",
+      "expectedChineseSha256": "b331ff78e2836fa6b7d799bcfa7af47227e1af4bec658fe2fe2979ccacc21e01",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-099-R01",
+      "japaneseSha256": "0bb9d077af5e3a250dc6d8b99e55e84a4f36276f30a29c41ac6049471389ad91",
+      "expectedChineseSha256": "f7b315a99f0c964c03da2d82095fd38a6025dffc0c320dd10db87d17125fb99c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-100-R01",
+      "japaneseSha256": "b0d359b783bb28b2c1e5936fd430291e51c6fef17a304ad172361da4213d6586",
+      "expectedChineseSha256": "632f685ad73b5e1e09f8481de735931963ab5f474c39269e466bfa6391911278",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-101-R01",
+      "japaneseSha256": "bd244a2bc5e0df1bfe4aa913e0d0e918016e9a5612af0ae5abc1e014a0ddde96",
+      "expectedChineseSha256": "e011d6be2b541041fd5e1b1bf0ca577048f90457b4f15d74100a307ba64bdd83",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-102-R01",
+      "japaneseSha256": "8506018bd5e3de8223ecde82c1ee295e8471df5af2b5e317ee258146616b7dd5",
+      "expectedChineseSha256": "8dd1c2336ee5b36e97be4e784c6345e2e4e916368b8fa0eea9517ba658e3a0a7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-103-R01",
+      "japaneseSha256": "a0ed35d297d02584fb253be38682bbe7a92fe1cdd60f9c7edc8d7742c264acb3",
+      "expectedChineseSha256": "8a2078a036437be885a7332fa8c0139cca255c034dc8242b8efad56e25ce52b5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-104-R01",
+      "japaneseSha256": "03f282f84299096f37a8840f78afcce519e79dec368062306a74e1068d82e8de",
+      "expectedChineseSha256": "8972ed6cfa9616febb4e39f28c10ad9338120cf7f70a517089e44d48d2ffa56f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-105-R01",
+      "japaneseSha256": "fdd7d4a063b1f004079e8cceb1794a3d9e2724ffb818d48e54fbd2efe42a1233",
+      "expectedChineseSha256": "76cd08d15cbfa53926b092bf5da5c4ae868fae5aff7030cc87c73e1cbe152e99",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-106-R01",
+      "japaneseSha256": "8c03b9e7396c8dae38fed0f9d89f50e08e6e0fe1233ded5a34f3fc5493a3e3f2",
+      "expectedChineseSha256": "7c18ed1834cbc6dfc50e3e7a9afefe719dcd9458eac9b46ba16526c32eb7363c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-107-R01",
+      "japaneseSha256": "0f94254d7d4925b337d08a48c15036bd9d0e9958d06f4ece6fa02d348ed1baec",
+      "expectedChineseSha256": "a31fbec5afe05c3c5f419bb76939dd8509c0b6a3a3be7295adc6dfafb40f5ea8",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-108-R01",
+      "japaneseSha256": "0393388d4e4acc5d8ee400e2c52f448ddd91a69e4012b5168a1b589af7d6b8cc",
+      "expectedChineseSha256": "f59f9f404ca11b666579077a08dfbb7fa44d6f099442d0bc41cdee631458c40e",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-109-R01",
+      "japaneseSha256": "273ca33ed79f24f61855cde92f0fe38a579217d65066c14bcae379197fff9f5a",
+      "expectedChineseSha256": "439aa8fa67ee4b660c65f7ed14aa93536f874ec0db1ce4f54becd23f6ee4361a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-110-R01",
+      "japaneseSha256": "c76d1c59d70eed3baaa1561a81b8d7f6d147335d2d1dd087d00807834f34f713",
+      "expectedChineseSha256": "c02a0cf72530b579365869a41b3da79dd05b041c7cbbed0bb3b2c17d0dbd96e9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-111-R01",
+      "japaneseSha256": "74b06f16f4cd2266721e377523bb6fa14adb2f557b75d63cc369bda3afd5f6a1",
+      "expectedChineseSha256": "5abdd617204aa6114b409041f8d4f5848d4ce25b6f422fcf9612d702e5e10712",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-112-R01",
+      "japaneseSha256": "6c20ddb972b0250f36e883cf6d67f6e3a26e3de832d8f5d02daa43e076ab6f9d",
+      "expectedChineseSha256": "19fab93830aeb64cdfa90274846365131b8f6bfb99f110805e0639005f1bb3e2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-113-R01",
+      "japaneseSha256": "23197184f04a6997cb7f79a8bc0fdabce79c99ad8b369d41f89b6a1fc5f21a7c",
+      "expectedChineseSha256": "9c0298dc02ce8d6b7d1101878dc6b6565ff960c97f2743e23e09e8165098d3ec",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-114-R01",
+      "japaneseSha256": "15d8d2832dc52c9bba4e42a525bc1928247f21f2db3333eb8dc9dc35b617380f",
+      "expectedChineseSha256": "8bca6b1ddf0eac0701622072c55e03a282f77c92cffe8a366a309cb75db3f2fe",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-115-R01",
+      "japaneseSha256": "be5af04166d52fb9cd30935bfce20c4a3da772bbaf376f879c20c3252a8a1efc",
+      "expectedChineseSha256": "34f1d95fbead6ca130e0c1daf0e945088f6c4f754c815bd6927c53b344f2e705",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-116-R01",
+      "japaneseSha256": "e54b1e906effb5d6e21c46775be4e87c83d229a7c3857ead4e800791ebbc8d11",
+      "expectedChineseSha256": "c5344135423d747876586127522ef9416028ad49eab34814d6f1369052e7127b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-117-R01",
+      "japaneseSha256": "b8bd038d75ee65d7015c35c43cab886a5b4ca8545f287cefcead6b061ae32b2a",
+      "expectedChineseSha256": "37d2dff88fd17f56237eea6e10e64b57c708f8a37ab5becf77b02084c3db4a16",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-118-R01",
+      "japaneseSha256": "d4dd36c5442cbc3ce762940f1f04ae825170f5e3ecaf6c4753163647c566f6f7",
+      "expectedChineseSha256": "d4cef2aaa2ac0c5377665892a8181365c50e6b9b4f19c6dd8d3537626555b9d9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-119-R01",
+      "japaneseSha256": "9ed90d2b771246d18c4674c7809811e7bd53353e0fe94551b99e08c07d4c9730",
+      "expectedChineseSha256": "7e3425aba0f78a0097e687d209af6c5b59666df676c528b6244247a8032061ca",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-120-R01",
+      "japaneseSha256": "bf3db7baeff82817e6075aeb43746b768afbfac2d97b340f99b40d984e3bc223",
+      "expectedChineseSha256": "86702c5a65abafe549af1b6df5f56d0f99f0a8944563518cd627cf3a57e5df26",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-121-R01",
+      "japaneseSha256": "3348e265a6861d1c412108f90ecf5552b7391af36d97df1e35afd878d9c79a54",
+      "expectedChineseSha256": "3fe2fa022fe07bdd8833d4a8040e33f616607df2bdf7f6c7c4d8c3eb8bb1e476",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-122-R01",
+      "japaneseSha256": "71c948413c5036c058640e2eb35adab7514d213d948ea04b5ea7dc8a28e74dd4",
+      "expectedChineseSha256": "ca9c639b6326d772f74268b3609f4cea305fa14bdb09972f1dd38e2911d844c7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-123-R01",
+      "japaneseSha256": "e8317d97345101c54a16a64a8751423fa390d88c60db103d55e122719a286b26",
+      "expectedChineseSha256": "8a03104912643c745d233a6214aaa4c27a5e33d8664d1ef5d6316bb7bea9d116",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-124-R01",
+      "japaneseSha256": "c9c898767904df25844bcb2f60ae666731ed5e05394d7bcdfd07a50bdc9bc010",
+      "expectedChineseSha256": "f00c6b977a1d844e243022510a4e08189e73ae86b93dfc46cf579024f20e1cf7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-125-R01",
+      "japaneseSha256": "a32134ec4ad995ad8e49a6efb754d5cb053f9233202b2c03e20daeed83844a28",
+      "expectedChineseSha256": "e16eafb32f5ad8df203acf9810ae03071705fd5d2f52d9bf8fe8f1103170a57c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-126-R01",
+      "japaneseSha256": "56bd3a91516987eec4b861c44d8a8c0be823c688aaab5459f8c6b210633cb940",
+      "expectedChineseSha256": "72ca5341c6327eedffe1310be6b68bc94aebdb062d12cf1324b7151ffcc29777",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-127-R01",
+      "japaneseSha256": "5d20396c024a0d109ad876b7044091f517dacab88e94804b5f470422fb6331f6",
+      "expectedChineseSha256": "d37b7d5aead8c1c882ae671f433daf561f383ef01e77fb4a412a31e732ea8a85",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-128-R01",
+      "japaneseSha256": "70c7dc5b2ea64999a7b65a66e56aaca8508470ffce021655027f609130e264b9",
+      "expectedChineseSha256": "6c78485b2df28860a1af3f581f03c6693b8463301647dbe3a7434ead004b398a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-129-R01",
+      "japaneseSha256": "3b42f963fed07e589f7c444e5fa4e4cb3d4eeb2513907adc214c8e0ecca51a35",
+      "expectedChineseSha256": "e32788ffa80b9319eca22861e2be5490b45595bbf9523d9a8f6f672c977f82a8",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-130-R01",
+      "japaneseSha256": "01cf4e2c87931602436446375b546c51b3454aca3d9899f530a9d83872ed7ad5",
+      "expectedChineseSha256": "1008b4188376b477c5a93f52f340ea9efdce4112eacb1acfd7ee555dcd67ff37",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-131-R01",
+      "japaneseSha256": "6aad4335a06db509b04df9e46a7cd98de2733467f0422eeb1baa71f7cb17a1e6",
+      "expectedChineseSha256": "ec833b6285c30e3194f038787136008f7f9669cdf9ed180611da0944d5648a98",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-132-R01",
+      "japaneseSha256": "dcb1b3c3701d89a6c59121e1881f6c9179099407319f0450c90520866ec4d4bd",
+      "expectedChineseSha256": "ef4ee0a1e326e8c638b7419dfaf0a858ea481d7ec58a4c44a34a06e3d1b6fb80",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-133-R01",
+      "japaneseSha256": "16c5aea4292f915778adaebd3678ba98595bfdc35279ed40f1ecca302fd1620b",
+      "expectedChineseSha256": "02d82b1d6acecd067740af1fa44b3a1d5a8f32ec0b5c61aee66c3b6357ff7dcb",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-134-R01",
+      "japaneseSha256": "c4795007c1ebcdb051feff534aef00d0f81160f0b8c044f28cdfd531bd310efe",
+      "expectedChineseSha256": "4a29c0d4d6b1240f1fc5a12bc02b78fae4c15a3970584f38e4c090ab084cc91d",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-135-R01",
+      "japaneseSha256": "e5a94ba3c68bf0e660125efb2b15d28035325e31a5204b6df720f9a8486c6fc5",
+      "expectedChineseSha256": "de4f4e12583bf89f1dbb355ac6e17b7f46cb56bf334472235d955f3461346629",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-136-R01",
+      "japaneseSha256": "a41faea74b1b1fc07df06b3e70cbbeab4ed981c48d1842d6fa98d6a302dcb5aa",
+      "expectedChineseSha256": "e6bca7249b952e4a32bdee69d2131ac043104ce65b1ad6877cee5c5b499c9ce6",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-137-R01",
+      "japaneseSha256": "270f7816cd8cfc194c458c2ee735837cc5aa99a7c721f39ca7113d6238646deb",
+      "expectedChineseSha256": "6ae5cdbeb5269671b28be0e90f653803adc2f4a247e86dc0849cedeebb3eaf86",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-138-R01",
+      "japaneseSha256": "df28edbf139d9308a4455f51197378ceb5e40acc936ae249773da47d368ded95",
+      "expectedChineseSha256": "3e3eff3022c74e7e82bc5bbbd1732c44a03272a1e380e9735ca2fa73e722475f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-139-R01",
+      "japaneseSha256": "6cf341345a1a001f597c8b1093f24706d5a646b337fb7e170c7129a0930c689b",
+      "expectedChineseSha256": "472baf31e0bf5813265763611f8aa8895462ddf584af12dbc3e0fabde442d6be",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-140-R01",
+      "japaneseSha256": "c7251d59cee7b5fc51734807ee001c94cb9fc550cfb30add1d502274955847cd",
+      "expectedChineseSha256": "2b21044b2ee84342695ec6112dadd7897634a94616de6ef3586fffd2e5b25737",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-141-R01",
+      "japaneseSha256": "f2bbcb50d240c156efe9a281c3d4fc41b135ff1e003108faecfdfe43c8b7ec6d",
+      "expectedChineseSha256": "07d3d381673c8250cfba3a7a6ac914bdfe6048c539e7175d7ac2f2651cd5eb45",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-142-R01",
+      "japaneseSha256": "7c68b9ac90b1f007cc46ca8712e98b8d3d39eb107f36947796687a709ed01d19",
+      "expectedChineseSha256": "45952fea30995afd7a4350fb6dff85f71210fd3ac437a9e9181bc77d3d08f751",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-143-R01",
+      "japaneseSha256": "1ef4833d166e2a683ef861c48d27dc3b4e364ce7a804db2dc9dbad05341f7bb2",
+      "expectedChineseSha256": "3222f20dd13bd38205e14cb440c099daaa2b6567ba812d78befa178199afb4e9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-144-R01",
+      "japaneseSha256": "d9c5b1fcdc63731c34c9c9271021a1e8bf459bb972f903f1f7b8e943205a9268",
+      "expectedChineseSha256": "70fa6f4d8069b9b1866e97810ae245092e3907ac1b204284c8251420340b9bf2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-145-R03",
+      "japaneseSha256": "b4353ba0cea7a53833762b20d56e57a70fcb580e90b3dd407da9dcf986ef6961",
+      "expectedChineseSha256": "04b2566433c85bf093a856481f66382538562ab4a3b6272767f6c005e27fe6c2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-146-R03",
+      "japaneseSha256": "ea19722d6098d4ece9eb352eb5baf8dfcd86756d1e91e19cda7d595c46258a77",
+      "expectedChineseSha256": "33ed01c7f4a6597558161e3e026a9ee073a8c5f36b13d5faaf0ec0f31d0df38f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-148-R03",
+      "japaneseSha256": "fefa2f137ae6d68112a5ceb4952ec7b6e32cd2584523163f4e2a23d6b2625a23",
+      "expectedChineseSha256": "733d881e90b82d8ecf83358063b5c67c1f98997b631f1c149f80908955f8a22c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-152-R03",
+      "japaneseSha256": "12bd9d0112f4092a0857c77c63477949a5e98c95c3e1f4e5f4c3423c549a9a89",
+      "expectedChineseSha256": "92d073e5e55dfa82e6594ef2f8aca612f486e4ac05175444a99b6f451b040235",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-153-R03",
+      "japaneseSha256": "be5893793d92beb9d38c7f6945287e918c5c15aef2b3159df4cd5c38dfbd5741",
+      "expectedChineseSha256": "be5893793d92beb9d38c7f6945287e918c5c15aef2b3159df4cd5c38dfbd5741",
+      "action": "retain_incomplete",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-154-R03",
+      "japaneseSha256": "5f54547e774dffe26a7f93cbf32180722da5082a31375099919a770d9694984a",
+      "expectedChineseSha256": "5761f6f165e232e9b7267b85f84d70a48a55666432d27daf6f60660bbbfffa5d",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-155-R03",
+      "japaneseSha256": "bb298bc4c591156231914018380bef4ab04598b6786be232a2541b3a33a854c3",
+      "expectedChineseSha256": "24f6bd106f7ebadb9f02dd0d6496e2004224fb3aab4c8357e673954c160609de",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-157-R03",
+      "japaneseSha256": "21abdf76b054de79806336339a1581fa57b523d8fe8a4f03568483fadd358275",
+      "expectedChineseSha256": "935bd44c6315e7c6a6f2160b7ff04f8894d52d56484b9d6cfca270c2e1c60d8f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-158-R02",
+      "japaneseSha256": "970b488659ccc275ababd859d417f73d2a4f4285ae0ae11d5a740074d5d3fe31",
+      "expectedChineseSha256": "a55ffe96e5d4b78e93464aa965ce9dc7d14571413436c98aa87b4a6eb955398f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-159-R02",
+      "japaneseSha256": "e5a7b57418c254a20d5e273250487b73d3982f97b40c11cff9427cc5fadcb709",
+      "expectedChineseSha256": "ac817440f3d2b1fbe30fe6491e764eea4d328a580b6fd5087274c4273ccc3505",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-160-R02",
+      "japaneseSha256": "7fc0bec8f97b762121cc94d7e4b4417d6ec491c270d0c57c0dfab6272252de0c",
+      "expectedChineseSha256": "36104ff2dd3d5a07bcd893d2743ea5395a902487d4f788cf43b0f4d7e200705f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-161-R02",
+      "japaneseSha256": "70c5a7fcc9cab983cd0d45a9c3d02d36ee67621916fc7f97d8df24ca426c4ea1",
+      "expectedChineseSha256": "44854ed58758913b9b3a37f2b4ff72992303d6bd8897503f3b000c457512ee57",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-163-R03",
+      "japaneseSha256": "26e8ddaae73ea952f1ab32e75e343342dc93ccb87d0ca7c4277df459eb8fa44f",
+      "expectedChineseSha256": "8f9959592e5dda6b5c992fb35fd4821b94c4c2dffcc71cca286cfa7adb3b7116",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-164-R03",
+      "japaneseSha256": "f4da3afe1a9ef733f1861a3f70a4edd753154852d8edc906eb20e25dbfb788bd",
+      "expectedChineseSha256": "59150da19be9fd453222f80a5e459990da5b52bc651df1c95037f7038546acbc",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-165-R02",
+      "japaneseSha256": "0558db316ae1f1526d8a84ae61fe083a6cd267f7de4236e2d4a421e3cd0dbe44",
+      "expectedChineseSha256": "1fd10e6c65395d175d9953c8aafcc0d2c53a8fbdcb6a854a345352d253be2e7b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-166-R02",
+      "japaneseSha256": "d75645102452e94285c840e1ab0fd434e5c956ce55b009f0807abc7cee6e5c11",
+      "expectedChineseSha256": "7df0feb6bf928f1cb46d45df85fca2dec0bb5ce451ecdebdc629b450296134b2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-167-R02",
+      "japaneseSha256": "cbecb6114db0e24cb682338ee3b0f226cebb5e975cfbe1f7f269c293c682941c",
+      "expectedChineseSha256": "12e0afc1f53805860602bf1fa866e721caf735331cc28a40619da22123666579",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-170-R02",
+      "japaneseSha256": "36b9e417045f299f4db2fda347b1dddb244109e0b8123e84493abc7be69c1c9b",
+      "expectedChineseSha256": "000e4ffa84d75fb8e30933512c7dd9d1309fb6d69e6631db97ffc8227161f7ba",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-171-R02",
+      "japaneseSha256": "b1c6742709f4000c174301c216d3053b0f243b6dfa7aab48a3a4e10ec737d858",
+      "expectedChineseSha256": "96ead10cbebd0523fa55a8fa03e2e6c3b06343bcab1ce4fd5eb457627e4c9324",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-172-R02",
+      "japaneseSha256": "b13365ba9fca8bcb686fedf3ba13c5795a38d49dd4055017b764d14b3386f164",
+      "expectedChineseSha256": "69a4c6048d0a093162896a55573ed7afdf95fc1ba001a1d41459b5722e3df542",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-174-R03",
+      "japaneseSha256": "e1d92fdbc9864573fdf25be149b74364cd98cb6a5878b034e68c68ab2ce10ccb",
+      "expectedChineseSha256": "45f989a8dae0015746bbdf614acda6e36b54ee13b8d0d2fdf7e714838958d8e5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-175-R03",
+      "japaneseSha256": "9533b31c70ddd677c916b8362ad464a0171ddf8918e6fc74a84faa7472f6f961",
+      "expectedChineseSha256": "9533b31c70ddd677c916b8362ad464a0171ddf8918e6fc74a84faa7472f6f961",
+      "action": "retain_incomplete",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-176-R02",
+      "japaneseSha256": "965dbb149654c0bdf721abd5498228b5e99f366fe84365efa2aab2149fadea29",
+      "expectedChineseSha256": "610c3d305e1961d651dec905e3a90ca4848d457334ad0fef213f15f4b1f8dfd9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-177-R02",
+      "japaneseSha256": "cd228d0f816d5ae3b63f771d20752a7e8cb2856254ec7b3625e95bef39a47a15",
+      "expectedChineseSha256": "b6b5008e8213719bb7869efee3466e2276332dc8322c3b5eaa62ff76490e7bc8",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-178-R02",
+      "japaneseSha256": "bbb50e0ff726a54cc318e02b8758319a6f5ac1042cdee5c876c1205ea1a8f8ab",
+      "expectedChineseSha256": "74f973707653eb3b0fd35bab6a497b0ffcc804582a2820b136e373a929d77a42",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-180-R03",
+      "japaneseSha256": "c51bdc4a6a863d0ac6aee9721144bb2c363bfdc67f8593767c2eef227d78d3c1",
+      "expectedChineseSha256": "72eea140c4b40a9ab25a5ba368b9aae4464981d835c9956fc86f2388fafe30cc",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-181-R03",
+      "japaneseSha256": "a5cb04e57d1b020743c66db5f49a0c438ab23b2baee20f8a3c8b4ed63047abf1",
+      "expectedChineseSha256": "ba19c562e7cceaf2beb42e9a596352d9b6d7252658dbba37d43543e2e48de819",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-182-R03",
+      "japaneseSha256": "f833dad2e5f65d7fb1677bf6b7f2db259baf7825e234c9aaa2c73a214e3129e2",
+      "expectedChineseSha256": "66ff92ffa7595874ff23b1c74fa956c8e9acef1d1ff1fc4ac06e7ddba939f7fc",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-183-R03",
+      "japaneseSha256": "06e7832d453e34b9cfba8daa493a3b612d11de7eb5c1bc62840c7ffaa502a33d",
+      "expectedChineseSha256": "5c4f228f4016ccbf5cb16ff75b31e72cceaeb6e5f7914047f87425b7bdd52c27",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-184-R03",
+      "japaneseSha256": "713406b619472f04971fb45f1428a931366aecedbb32c4ad5d17f92918c967b2",
+      "expectedChineseSha256": "472cf3e4b47b91142059812752ec65cd96e418b1641d4cc14a50aab6c8dd2e32",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-185-R02",
+      "japaneseSha256": "4edd15f11df6213e00ceaf55c72ef051c5c219b80e44497f28d6b3432b83d296",
+      "expectedChineseSha256": "7e3e5b197cdad582bc70c27d9b109e2ae53103bb20db039ce5a244f672b1333a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-186-R02",
+      "japaneseSha256": "017c9bc081871c8738423c23b6faaa13766fe511ec304e1790da887ecb349103",
+      "expectedChineseSha256": "f114ad08fe9a43b2b5444a860b53c9722502d414e26311d25fb1a7dd540215e3",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-187-R02",
+      "japaneseSha256": "67bfc5fcd13cde52e547ac9a77c526aa2a1ba46ff595b2eccbf6bf37bd734c3f",
+      "expectedChineseSha256": "76e5982f2c15fb4429c1e4d0381611ee5c1dcad09dba418691b4d40fe3a3ab2f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-188-R02",
+      "japaneseSha256": "bce3942dc06f96bd40b38e4be8923be4cd08be5c182041fe76b76bfddada0ac6",
+      "expectedChineseSha256": "2b885a44675f13214a023ee1305e7d787b965202c84d03ec9121b70efb988704",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-189-R01",
+      "japaneseSha256": "fb7a8bdf5196de11e886312a8ee33d56e4546f4415c0f8a64788c51e21d0edf6",
+      "expectedChineseSha256": "e5ce263acba328db7a60091b11b78d117f8ffd5938a6e8f4ffb2ee32a5571a58",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-190-R01",
+      "japaneseSha256": "831a91f83f69f293f08c95988a4e6df8395d928eb94c689fc689d5c0ef1fe71c",
+      "expectedChineseSha256": "c9b79ef120e90445a6c914e383e93cfa9eec45db77ed8bd18a292850a7df93c0",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-191-R01",
+      "japaneseSha256": "5b2f33bccaaee628064c4b1750d60ea20ae6df25d5189c730c9b54752ae4cd72",
+      "expectedChineseSha256": "32a1bd52042ec3bbfc39ffa1af722ce70a3291e9ea845f3a91b06cea231ced9c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-192-R01",
+      "japaneseSha256": "49dee0a05562bc18ad264ef522573debfa7437f6ea8839d750f1688932bce98c",
+      "expectedChineseSha256": "6b773ef3c9b4495af227aafeec83f15ce2b49af81975120430fb45ecb4a829c3",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-193-R01",
+      "japaneseSha256": "7ceebe933dec659b8281b663ab30f7d8594e80a297808bcaaa15b9e642f5b3af",
+      "expectedChineseSha256": "f830a80d1e6d44b839e3405a27e91754ee3b82268970daaa8c96cfa29d74f8f5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-194-R01",
+      "japaneseSha256": "f392a4f68993ab342bf65851f8a22f9ab8791f3126ee94d1e3761dbc72dae961",
+      "expectedChineseSha256": "422d90b901f5a36be533123d6a42b543db45abd469264b70ad7f83f2d3591d3f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-195-R01",
+      "japaneseSha256": "bbf5ab606e3f27a09f4ea67d81098c67a5a3f34349f6f194455ae235ed5c66cd",
+      "expectedChineseSha256": "774a51374e682c268054f4bc2220f297a27a6b3abc775217fe3b40545c2ec0c3",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-196-R01",
+      "japaneseSha256": "ea6e0f6e06d2d7130c99decc2e4b74b45aee5b3f87525b368097e563eed9c4e2",
+      "expectedChineseSha256": "77fd6dac476f342256225ab58d38445be632cdd01d7ab5a001b6599f9f8ac2b0",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-197-R01",
+      "japaneseSha256": "136895e7242d321703fcd3ec185997ca75f4ec2bd50f34045ff463f79a6081d0",
+      "expectedChineseSha256": "66ab6e61f90bc6938b1075a69a69c1c72216a0cf389403432b10b925e7a70ae2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-199-R03",
+      "japaneseSha256": "493511270dfe3cc3048e46bb489dae662d4b43ffc22fdb60545c3d73b3829173",
+      "expectedChineseSha256": "615aa1e1df7ebc570e4ca84c256ffa435511282878e565d42e8cadab0354c217",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-200-R03",
+      "japaneseSha256": "9ca89e34333d9cfeca9d904f652b24078c9dab6d66111039dbc597c14b7a21f5",
+      "expectedChineseSha256": "7cfeaae67596507e5b04122b368dd3fb7107ecad13af9172fe98e34d3d814675",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-201-R09",
+      "japaneseSha256": "3607dfd33402dae9e071e4e3b1673207a9be170192ee44ab6e16154ec9064c7e",
+      "expectedChineseSha256": "027044da22e5b3fcc97d9c543698867c6c71f024a7f17ec714b2908f6810b9b9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-202-R03",
+      "japaneseSha256": "32c992ed6b9f2319de213f9452aab3910eeb7dd8dc17c17c42e084aca9898a0b",
+      "expectedChineseSha256": "17781c4531bc99005a68dda81eaa4e60c02447a6691d04f482de8580d7db62d9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-203-R03",
+      "japaneseSha256": "ab2ff20a86a64f43edb3f4b357ff4d01cae21c82a8bacc7b28cca6c639613e49",
+      "expectedChineseSha256": "0c9b3b9a1f007a974b857f7bbc4edb8ad2cd4027cc7cc76f48d282c8f6a26c25",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-205-R03",
+      "japaneseSha256": "b2b57b7a9444b997bb055abb9c3f6246424e2dcb8ef4f1c955f722a7984c9ad2",
+      "expectedChineseSha256": "ca76d5eb9fd598919318fe7e9030428aa212bf97c2efc814ef9851b12164f1cf",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-206-R03",
+      "japaneseSha256": "1431877b681b415be10c6b4fe6d2501a2d692df8c7cc8164a4b2699556960ee9",
+      "expectedChineseSha256": "ae9fb8df5aa8fda5d75d4172ae24c3bddc07fa5b4d4f6e97d34c7bc73952525c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-207-R02",
+      "japaneseSha256": "789966ffd178bd227edd9f50b98adbc2c7b008a22fd3230fa6ce395e12aeb482",
+      "expectedChineseSha256": "ef93aef7fea07fac4ad0129dde57a9b59563b9fb4e6e5af4bd0620d0370c3c3a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-208-R02",
+      "japaneseSha256": "c017481e69cb7662058ca321940b35260ab0626f231ad90bed8a958c88c627a7",
+      "expectedChineseSha256": "0d4eb5a0ba7d891939475f9e912f7bddf59962fba6299c1e7d4d5bd48a199e84",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-209-R02",
+      "japaneseSha256": "23ce0bfeaacab18b7cc481dc0c7c7a0bb5072db1e37a1fc1be18747e8d10e73c",
+      "expectedChineseSha256": "930e55de272e0208c8d9fc0d6a193705a0182fbfeb862a58a750ba69efcdb77b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-212-R02",
+      "japaneseSha256": "03c32cde3b4b5357d43f01f8a3ccd143100bca1731a7d37c80d6f8a8dfd552f9",
+      "expectedChineseSha256": "6239d3ecac24d1d2fc05522ab1184755128c024336dfdcb148a354c416cf2b23",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-213-R02",
+      "japaneseSha256": "9b483f7591b0c946e408aca17315aabb5c7c39e4f71a69baffa04d592c0a985f",
+      "expectedChineseSha256": "70ebd52f784befa0f317a54bff668edac2a42d5e6fd8b6f789279e929e9bcb90",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-214-R07",
+      "japaneseSha256": "993b541fba34ca1bfd49b70bbf2b3f649d51dd1b1f1326e99bf7ffbbd239252b",
+      "expectedChineseSha256": "4e74198736c516ab21da10b71f0b52f1400294cfbb0963868ce8368198f6593d",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-214-R08",
+      "japaneseSha256": "0f3741363e0801597edd836276c26262e84902cc2fbd8269c6fe77f92841be1c",
+      "expectedChineseSha256": "572cf45ba43634b3448aadbc48d5398a1b32ad8a97bf42b689c394de222c30a1",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-216-R03",
+      "japaneseSha256": "ee31be1211bbeee3eed1491826cdb3b00f83e86de2550bf620e208d234b2dd8d",
+      "expectedChineseSha256": "b8bc2c22f32b2ee97dc7569ab2db48c0c399da9e803a428b08e75e4c399d4806",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-217-R01",
+      "japaneseSha256": "2f8060362b3554b662af8936c872a3d4c16acaab07b12ea787cca306ea7543e5",
+      "expectedChineseSha256": "2e7d5bfb8db755c4995eb9b17fac8d58e74058a21e2897ff0df0d2d320825512",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-218-R03",
+      "japaneseSha256": "ac1dad87b661d63b18e2d08ba32e5d2d2c368434e8c65f61685ba82e5a7b4339",
+      "expectedChineseSha256": "a2952a3ff13a97abb84858d399f65721ed656cee5db72b5f65c3bee580026d21",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-219-R03",
+      "japaneseSha256": "1df5e0e7f24cdb24474a191cc8e91ebeb6b49f555956205c2bf0935c8c5e0abe",
+      "expectedChineseSha256": "701f3d6de081943f8905903dd56712081aecb102a6b0da5fff609df01de02226",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-220-R03",
+      "japaneseSha256": "5a3fad811ac949be931f3b22f0f56299e33ed171223ac3211a9b0477fdea07d1",
+      "expectedChineseSha256": "573a2689c73d33363552892be3d9c4d12e04b7d132fe989a2eb50df8c64f419a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-222-R02",
+      "japaneseSha256": "97071df01896598f5c3c79315712bf70c15727e5831c9285a89db3f136c74304",
+      "expectedChineseSha256": "80d0244d602e276d0665d996dedb77f6e0a3fdea295b55def1640be8d025d9a7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-223-R02",
+      "japaneseSha256": "eec7cd78924905d4efcfeee5f81aaad4f39a1e97eaf67c1aa902f1065a79933f",
+      "expectedChineseSha256": "b162f3531fd1e9048d1463c3961986d0d34227527913d1c145a7f5cd490c98f8",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-224-R03",
+      "japaneseSha256": "778e29c1e604b50e7900b889149e9760de80e23d7f258dfa4c7b546c349ab126",
+      "expectedChineseSha256": "1d051238e1d72b245e48c8d7109ebae2a7303cf6c8078f883deeee4a505c5a0a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-225-R03",
+      "japaneseSha256": "57c7e389326c307fea44ad58534a285c6e591e6747ad801042a18151d97346eb",
+      "expectedChineseSha256": "14bd28a85dd0c1fde819078c691de0107cbc972018bf0fe5d9421e1a2b2ae1f9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-228-R03",
+      "japaneseSha256": "bbf6a5844329f8d8caeace7d5f65b2e3324b89b9be2ae5f1fea8a3941923fb68",
+      "expectedChineseSha256": "583a7564c57f0cb2bec84307bd6915a6ff88c123c4e9357a871e401823dd796a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-229-R09",
+      "japaneseSha256": "0eb912a88d7d597f0b2f47a1a9db62a4f8500ca6ec11a19b7e420af020ea90d6",
+      "expectedChineseSha256": "8efcd64ef6d35f3510e3378e0c5cbcb1c1a0ed314f5f595877b1870cd243e532",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-232-R03",
+      "japaneseSha256": "e5ac4feaf622ceec66dc7c8bbee341d01e081ae92ed79f70f4a4b547c9ab58ed",
+      "expectedChineseSha256": "597cb59257793dbfce87577578302cede43c4acf397911d3214211e5ec351813",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-233-R03",
+      "japaneseSha256": "54056815ee8a0e527e1a94a71781381a93858a1917f85bb434c2161b28d4daea",
+      "expectedChineseSha256": "d589c17e75e53e14269e514e802ff9418489c541eb3ac3da817e7f997125db76",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-234-R03",
+      "japaneseSha256": "1378a81f06f24cd7441a4543eca74305db7edb4adb922a661ae479b3ffb98893",
+      "expectedChineseSha256": "756f4651bc958b0f52a41a38d8a235fdb5fd81ae4542d6f4a14212fa1a5f4bed",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-235-R03",
+      "japaneseSha256": "a0c02af1ea0f30cebe6cfb4c633b058fc72a10fd999c179021454114790f86df",
+      "expectedChineseSha256": "62db7fa0c1a03ea035a5a92174957f602681fbfdee7a0c737fea38b7c17257b2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-238-R03",
+      "japaneseSha256": "efc3d751ad7139c705b8ea40730e36c9ed4f629a23c817776512ea97090eb714",
+      "expectedChineseSha256": "5bb81b6f81d92c34560d7afeb7a527e1d345cc72cad1dbe6d22c06d57b1fd317",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-239-R03",
+      "japaneseSha256": "8084413fc2d9e2ef59321d6fcb00296d61fd5d832b58a47b2416a9d935d1cb7a",
+      "expectedChineseSha256": "eab626615d448121a2e02e73d1d1fe352ca2f9a64d0082df8ca8753a164c24dc",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-241-R02",
+      "japaneseSha256": "b929a49a6a4248b6b8efec1078630f5d63549f99fb33872eb079f511618bb780",
+      "expectedChineseSha256": "c83ca39a77311b8cca3f1b73f3b16407ee505170b8e984fa5546d841dc512432",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-242-R02",
+      "japaneseSha256": "880a2f0e52fbc02df2674352931669d883329755f56eb34e0585b58f573d019d",
+      "expectedChineseSha256": "54845c2a02ec0a1dbd58c1e24f6f8422b406f2cc755c6ef60a944045b856ebdd",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-243-R02",
+      "japaneseSha256": "e777d4b62e2118fc070172723dc2cabaa939d5811b721da2ba05ee188daf94ce",
+      "expectedChineseSha256": "f0030415e9cd90b710d78ad9ba4b1a0f403d7f03f6caac16f0c1060e236c30d0",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-244-R02",
+      "japaneseSha256": "97dac462a91363dee63d5658749ea7309dbc6828fbec5902506a0ac52f57251a",
+      "expectedChineseSha256": "aa4bb4ee66a7fc40977276110b6be1f4a51c6bd763f65ad8b4a852cbcde93d7b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-245-R01",
+      "japaneseSha256": "e594f91b451c5812efe38cea245a7269150b77d2753eba9db496c0f00dc83870",
+      "expectedChineseSha256": "81aa669909fe66d847706bf5b514c9e0a5195e82f8f2f00b77a2fbf4dee5602a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-246-R01",
+      "japaneseSha256": "e178396b3f43e4d1a6675bfc47985bf19af5a175e7f7e9a960aaa67f24f9ad03",
+      "expectedChineseSha256": "ea4745fe0f2491545ec47cbceea5b742692fe484e8828f43045753d9bba41ca8",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-247-R01",
+      "japaneseSha256": "a9b9327674264e5ff072badcf16faef7efdc7b65b4be7a1fb3486368bcaf04a6",
+      "expectedChineseSha256": "27312fbbc0acc0ec2070e9f3dcf5b5b9dbb7d8e8d01cbe96094a10955c0dcacb",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-248-R01",
+      "japaneseSha256": "26dc621319c22e581f81d5c2b1bdd1ff0c1d41ce488114581af125b7577bf333",
+      "expectedChineseSha256": "ff55d69ae997f107fcced5996a3c0697717977f47453efe4556a410baf04c96b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-249-R01",
+      "japaneseSha256": "ef447c3a75dc428ad92d47440d75aea55a6b1f5bde2f82f7cbfe030b7846528e",
+      "expectedChineseSha256": "0be4043b2cdbd571c90a7ba03b546b23e1dcf4df9dda9a89939f25bc90545ac5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-250-R01",
+      "japaneseSha256": "aae1ff0bb82ab02df27170e44d8bd12e749b9b6b451d97392acbf3eafe0e41d5",
+      "expectedChineseSha256": "39fb7c36fe9844a28809f9cf04c3310cf91760f0969dc3bcf81b02a30c0200c2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-251-R03",
+      "japaneseSha256": "b41eace07544d39f30913fac1bd9bb5e404f91d4fe36b4563bf7f70c44c2a082",
+      "expectedChineseSha256": "6766c3deff897781ab46f3dc9141318a0753c5441747f0f5f3ae6d07ddbf50e4",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-252-R03",
+      "japaneseSha256": "16dff40f90494d83f40656a9dbb64e420bc7461dd2825183d2f4cf45312df0f3",
+      "expectedChineseSha256": "985b98fc78b3704d9cd6832a5c64ca1c171f338bff01f7f35c524d42c616db72",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-253-R03",
+      "japaneseSha256": "da19fdeea8d654c47581d1d90a95b65adad836a46b08bff6e0755a3e908ab298",
+      "expectedChineseSha256": "8b7f812e512aeb88f73d44958ec04b99062bb9228f37904ddb41006138fcbfda",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-254-R03",
+      "japaneseSha256": "5372eeee11671b799a7baa999d062c42398c8615c9504f801639ca9701757484",
+      "expectedChineseSha256": "34cc6710f8b2932476af6345439cdd51dc4338dc3405a4c35330974194f3d9fb",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-255-R03",
+      "japaneseSha256": "a88f8938975289bcb43ea5939f595deb7e8fcd76e9088dc75afecd27cd64f359",
+      "expectedChineseSha256": "189c775d13ecf59804c153553ed1f5249f5fd3a5b2d9343e0df5e23f327880e0",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-256-R01",
+      "japaneseSha256": "15581a452cbf20800a8985d5d6cfdfa6ae26b96ead5584adf101185dab771c1c",
+      "expectedChineseSha256": "15581a452cbf20800a8985d5d6cfdfa6ae26b96ead5584adf101185dab771c1c",
+      "action": "retain_incomplete",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-257-R01",
+      "japaneseSha256": "fa1f73ee7adc146068ed8f47c27ab9a16c7f9dd9d1c2797b472ab761947cf860",
+      "expectedChineseSha256": "4eafff417be1c2457d94558fa98db3deb47323eac960f9b5a2f141903d16a6f0",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-258-R01",
+      "japaneseSha256": "3dff2736de778912066c626e2669bece96b6b2209ac6d1c8915bda5a0ae30d15",
+      "expectedChineseSha256": "580f8fabeae5f138f7245fe1deeeade9f2f0c6eaae663e56908f04b3d46ee9fa",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-259-R01",
+      "japaneseSha256": "a11f5127c3423c12a36fe67f05b4c5786c0cf962f8f00cd18c5e9ab6c869e08f",
+      "expectedChineseSha256": "be44f5eb7e6e7b3177c9cd93899f09b17f59c89b817f57437496bdb05f0d8860",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-260-R01",
+      "japaneseSha256": "d92703f9ad6b77199adb7ec3df4b611085e5c9d9462349cac41b58409a9725d8",
+      "expectedChineseSha256": "939fba3559a7235096d6cb61d9fe4270a2f60b041f3fe2fef2c05426684517b4",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-261-R01",
+      "japaneseSha256": "d57a20e2951a83f20c3c65ce21cd0a6288f0a5a66c6009c3e5ddcf0e16c21706",
+      "expectedChineseSha256": "5885ee792a5d68ce1174b1dbbf41da00ace14556d402fc4240cdad5dff26e3e4",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-262-R01",
+      "japaneseSha256": "b04f2088cd5ecf63a7a79a6054bfed05e217ea51d2c68c424c4f3cbeb1ec1757",
+      "expectedChineseSha256": "be44584d73fc6a71122ae975b6ede8d6672744ef1dd8dd14a8a4a1ae12f95e1e",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-263-R01",
+      "japaneseSha256": "26d7fc4069e6816fe05236d38b2085d8e6b030fcacf745e39814646197029c9e",
+      "expectedChineseSha256": "b8f2d848eb05e6fce87c8b3414303747bea08f55a37accd03fca181d2c6ed4d3",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-264-R01",
+      "japaneseSha256": "8e88fa793b21559b2867b8adb87c8628f55be004a72feafb47efbb057535ba10",
+      "expectedChineseSha256": "5616d624113b125ec32f9def087cafa0023cd1fc9a55b23479d77423c3ddb3f6",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-265-R01",
+      "japaneseSha256": "7c01ea2b24d089f2d5a22052791a9b7ce1a469cffd9f95ab84f4cd76cb016dd9",
+      "expectedChineseSha256": "315742202a81bb044f0c8a7ac2119bc265eac60804c6264dea84528c8829f6e5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-266-R01",
+      "japaneseSha256": "1404fe320332cfda69442ab027af22bf8ddd531f67bf403519bfb68b01acd39f",
+      "expectedChineseSha256": "9867001ba24a43ae979185f40b86be3167f0da1233b846f599ab7ee3fd1e15a5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-267-R01",
+      "japaneseSha256": "8273b88fa6c1a69ecfb76f528ec61e2b9b456a79b700ebdbdce886241f08d8da",
+      "expectedChineseSha256": "0f218b54dd8a0b67bb8c544648193c58bad6394b2808f4af79a924f83a12b2a9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-268-R01",
+      "japaneseSha256": "198eb8ccaeba46c642a5a7a93549a85b3320127e2bab210d198b5d10efada434",
+      "expectedChineseSha256": "a4709db61e1279bfd63939294bcda5a98a114c6e80a24d82ca9ccd7c15883dc8",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-269-R01",
+      "japaneseSha256": "90b52e58e48a7c9b1716b15426ae3cd010d2a3cdcfba3232e8a2f8b1b66d7294",
+      "expectedChineseSha256": "369331b2de2e530cfeacfecb9ce08cf95615ad84bb1dde1f6cc462e476c619e1",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-270-R01",
+      "japaneseSha256": "319406393e9d1cdbb74720a7771f5fe0b3b69432bb13e5949a90e2d4b7a6b288",
+      "expectedChineseSha256": "219e61c4778fe31483b5d1fc1818d1afe6c0d77ab65f1017d11ed5a7049a5649",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-271-R01",
+      "japaneseSha256": "767988ee34df9feb64d6a9eb9782d2f966e1f7c02767d4570565d339d24e17cb",
+      "expectedChineseSha256": "818e22c70d364f7683334ef4d6d320ad9558b3ff6d7d0f8470e355c5a868df79",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-272-R01",
+      "japaneseSha256": "ed8db0cebce01796c70ba730d5a933e4fc19ceeecbf1ce11bc6b28e9bbaf093c",
+      "expectedChineseSha256": "201e4b0c44761a048e3610a58fa0df6815723aba335f9be16e7739a5c6958118",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-273-R01",
+      "japaneseSha256": "9b30426fcc0b188bfcd2d85e0f04383f6dedda33fb06faba53e7ed697f452f24",
+      "expectedChineseSha256": "ba8f904a1a8948f1286918642cc97134cdeec4dc5e2e681aac982f1c7e92730b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-274-R01",
+      "japaneseSha256": "52ea572baf952b5ea32353c9af61c8665a9f43b2268d59718458620bfa03a764",
+      "expectedChineseSha256": "b9a81a2df53e4e0f9763495b85dd7adad08dfea5e8ac35910cb78423830812b7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-275-R01",
+      "japaneseSha256": "d5fb59cc0b7dc68487b7f7bb49c453b574b7112712d72891a3b98a15b55db15a",
+      "expectedChineseSha256": "56fdb6dff468f2375150490d36fe165bf519799938cde00b9bf799723c7bb153",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-276-R05",
+      "japaneseSha256": "2d22956336202b44b958c996c0e1939adec1b198c5e83a0e8f0d6a7dafff0aa3",
+      "expectedChineseSha256": "474be245e6028aeb569a6909d93866ae994435710345b469f551e15a6eef98e5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-277-R05",
+      "japaneseSha256": "a60a94b52fef83d47f8e9bcbf41410f9e902096487c34aab4666406f1f16709b",
+      "expectedChineseSha256": "ff6a0a2175780814696665d31af82360a685c51ae15a1971ea3fa5aecc507ab5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-278-R02",
+      "japaneseSha256": "6fb8a9aee1a8ae444147da35c3320270055ae51790818b527066d1f43aaf45f7",
+      "expectedChineseSha256": "96f4202b605bba0f3e73d2b702378bc7536b9ab55ac712c6f57231a52fd02051",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-278-R03",
+      "japaneseSha256": "d150dfd790c08f88cb733fedecbfe0a8c58d75b60ecaff19c4cc479272338293",
+      "expectedChineseSha256": "0834a3aa3ef094492a2e0c96ec3db6b3bd686e33e72e729d8daad6a2e4305a77",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-282-R05",
+      "japaneseSha256": "7baccd0a824659277b155911938dc1bf6fb5456543f84c8cdd6f72806422fa59",
+      "expectedChineseSha256": "2589b48538635d282a4909a3a85d8da19f649b0e971eba8633ae283d001c05bf",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-283-R05",
+      "japaneseSha256": "e75a3a5dffbd46ce71c20740930a3ccb7146ae6e00603658bd1a162d929f887f",
+      "expectedChineseSha256": "563d7c68c91d55d3e478b5fb57bd053d56299b60ff7975cd75a62330b3cf662a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-284-R01",
+      "japaneseSha256": "6e35742d18efb8d60e0a9cb3d51675515de9c4e36e6892796045b7748f6b95e5",
+      "expectedChineseSha256": "dcf2192729c27f68d2ffe6fa32d70840003e7b3cbc383e6c393a9c408765f1a9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-284-R02",
+      "japaneseSha256": "e86a4cc2279ac756094ee261e45308e083708659db46310142a54af9b29558b3",
+      "expectedChineseSha256": "4fdfc67a678072f2056dc90bf45defcafcf5c11fc5dac9b3bcff47d527abff76",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-284-R03",
+      "japaneseSha256": "49f93ee2ab9699664538a78391d0308d13186159dadf71bdce1417ac7e5b75aa",
+      "expectedChineseSha256": "7b6e50c5b4da01cab0667317472cc370f4244797c3f0e04de5372e9ac8f36ace",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-285-R05",
+      "japaneseSha256": "c269ad3be1844d6bf875c5493fb7f5d25382223e7f48d68094beae4781b39636",
+      "expectedChineseSha256": "8905a0a20097a921e5992bdf201880366d90cdda20eb6c21ef948c4325127526",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-286-R01",
+      "japaneseSha256": "6627b9cc3c9d31805198821a16abcda90b97c93f72574c23a9d325e7757e0933",
+      "expectedChineseSha256": "85d41bb9509ae3945ff0cd5061d2ebba14128f010e5554140a47de716335d799",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-287-R01",
+      "japaneseSha256": "7a38bcac1a1872ee81cbc39f460ebd80aa29c5b7dc85c48f42ffb84b68bd0346",
+      "expectedChineseSha256": "6320b4a8722a851fb99566e4eac1cfd4b93bc684b3a33d9f5cae37a116b8c734",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-287-R04",
+      "japaneseSha256": "ac0a51bccc1c75caef1d3668c48a6a8ca43fe12fde0365bc286aa3342c423ffa",
+      "expectedChineseSha256": "8aee089638cd3635eaed5eacb25842c5b60f2959d9c011b9a41275d16b6acd11",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-287-R05",
+      "japaneseSha256": "35c7182250443a05f9fbf9ac9318d58ccbfaeb9f17a3ad6f55ef9476de65e1c5",
+      "expectedChineseSha256": "e034009e2dd8b2a1473882024e565827222a8cbe69a018f21e3f06b31296ac11",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-288-R01",
+      "japaneseSha256": "5cb5266df2d164dc9e7476ac1f58c1531e1d30bc8e0d351c6089c527cbec98a4",
+      "expectedChineseSha256": "19d6d8661b24fdef7e321060750f4403c98469abcd955ab0b76ab68e86942a9b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-289-R01",
+      "japaneseSha256": "4249a105d6f79b27d9e89ba4ac3b07bfa6e3280ca5a74ca775d7084643e8a0af",
+      "expectedChineseSha256": "313956df81aab8bd00bdd9c5981df7da2d9de4092805d079be2b1cfbef163775",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-290-R01",
+      "japaneseSha256": "69b9c305cae19d2311a640addf9b0349946b73051871926348ec0871b835be7b",
+      "expectedChineseSha256": "3fba96a4f6914c0f3241b77962dc6da9e9a94c051daa1ce1404bdc2766420736",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-291-R01",
+      "japaneseSha256": "f6f87e5bbb322996d99a699969600067c6c4c6d664a0fba4fe848b65f1085439",
+      "expectedChineseSha256": "d3c1fa1df69f1762bbc8fdedd0555b5fcb7ed4a1c65170810db02bb85b54f6de",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-292-R01",
+      "japaneseSha256": "93bb18792d020e1934d006c9725aeba03d221702eb2cb6bdd2d5d4bfa681988d",
+      "expectedChineseSha256": "7ff975117afa0bcfabd319bc2b1bd4ed7a2245f7bdba2de49a067d79bd6f1825",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-293-R01",
+      "japaneseSha256": "c373f74d55f04a980447c1099813473353f5946a5b082e0cc3f210a3cd5d4f82",
+      "expectedChineseSha256": "c3efc980f2da141c25df63caccf467c19a8cfaae84328feb0f02907bdc82de36",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-294-R01",
+      "japaneseSha256": "ea55c02d14ac01f5476b91126d70f80b8d49bc7f340b72c8eb4aecf9717e1461",
+      "expectedChineseSha256": "50d792ecbf82ebcef00a4d0be9a7b6afd8a8f0a355751f2ab6920455d8af140d",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-299-R01",
+      "japaneseSha256": "b51a6d6497c97b8f74c054fff9e616d2c51fc89c68000b2eea6496d1bf2e502b",
+      "expectedChineseSha256": "b2a777fb40604fc8dd39a9f3dd0bb7cae63b46840054447606c5a65a0eca0e93",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-300-R01",
+      "japaneseSha256": "c01f68c341d544aff2f3bf9d7358f86269a5b4c286ad5d7f6878241e899f77eb",
+      "expectedChineseSha256": "95e08bebff135d53805f9cdd84682394593a38394ddbb6a0689a9a88b07c8674",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-301-R01",
+      "japaneseSha256": "215b44cc3b9fe65bd1102d5c9ff92127700d2d92816ca9a4b9d2a9b47c276a46",
+      "expectedChineseSha256": "853ad6683a0702513f2cd6b8d2a3ecb275d7e13f4743a8c181ddfcefe935e98a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-302-R01",
+      "japaneseSha256": "28a87977328b6d1b4a74dcfb91631068d832840189c20bdd668a35b2125054fe",
+      "expectedChineseSha256": "c1bd47f1273e4d7efd5dc9d579faacb33c07d4fefd7a196e85a3b7b4bc1c2804",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-303-R01",
+      "japaneseSha256": "e3a351768769cd2eb790186436472050e1f364ef55d2c9a3f09cf45b67830237",
+      "expectedChineseSha256": "ccfdfbb017353e856640d7b7394fc3de31fdcbbc4fc6b6bfe5fce3610d81ab7a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-304-R04",
+      "japaneseSha256": "6a56811cc2b932de5e983471b9fa74a5e3a91e3215e93996779d88f3756b968d",
+      "expectedChineseSha256": "574a6c0aad07565c7baabafaf8ad70c49a0f4a4f667386eb2486e709e140b8b9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-304-R05",
+      "japaneseSha256": "b85666541b2ef1f552c6c28702cfb6a62ab8b53d85f9e2bbe607f424c356ca07",
+      "expectedChineseSha256": "1e68dd3d7abaff42963c1261259fd15f010fb46798c70d86998f913c13e16dc2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-304-R06",
+      "japaneseSha256": "c6c7d743cbd7a482165ec2a2740ee1f50e35d173e40436457eda1d48e9e547e6",
+      "expectedChineseSha256": "4d1a130323222de18ec9c6cea778d28f76b2a600ad742e8665f0e02a1d4a1e41",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-305-R03",
+      "japaneseSha256": "cd7518aea6fb70f4950475ea9363e03989ac19f33fe92c5aca26f000c9d12778",
+      "expectedChineseSha256": "f01a0d78721ce7d66f29e643d73abd69378986637f9f12d101abb7f8e9912abf",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-305-R04",
+      "japaneseSha256": "f4ca328f2ba925f088b20a812acd21c488fb7f3505bc6b3627c120d8c9859da8",
+      "expectedChineseSha256": "bd9793b8d5ae07d7d26fa6ab72d13866e7ee815907b7b40e7dc9c10481fbb2fc",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-305-R05",
+      "japaneseSha256": "495bed55dc6e85b6adaa9876f08fcd6cd3c4ac387f6fef3f724e5cd232ee8bb0",
+      "expectedChineseSha256": "a529fba56aebce292e831dc68d7629299f661a5a952b52aab9ff050f1fbac177",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-305-R06",
+      "japaneseSha256": "c1d1a34b34701f97f23f66acdfbc157d3e445e7938ce7ff3c6381be0e79490d7",
+      "expectedChineseSha256": "12b232b27462bc97e6673208df7e546150c649080df024b0b8fb39a982b9676b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-306-R04",
+      "japaneseSha256": "1d86c53e43f2d70317f3c0d498c480541fdb6ba5f4b0d5c039fa36421c9631de",
+      "expectedChineseSha256": "ffa2384edeaecd7b071953d95df63d14dd03077148fea71e76431dacc05bce9a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-306-R05",
+      "japaneseSha256": "db211e810f21350bca3645ef981aa13f6b3f0a5bf6e23c1b8c12c774a1d0acbf",
+      "expectedChineseSha256": "6a328843e1238a79324fd311fde30994de4b6e804c73a84d2a06776dab26e4f1",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-308-R04",
+      "japaneseSha256": "1dcc69f814711e1c538a9335912a4005b971171b4b1902b3acf77a31572c9675",
+      "expectedChineseSha256": "944373b1f2695a87861ad4c19a2d98e6e36c0173e95807e9e5bc8a0d6d9dac1a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-308-R05",
+      "japaneseSha256": "9495303c42f67f61dd5f7ac7a7fa25efa66c23ec71343a2fb691035f45da404d",
+      "expectedChineseSha256": "59496ff68443bf28735975b85e47c3d3f32753cac43abe2fc7aee53014d6794c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-308-R06",
+      "japaneseSha256": "28281bb6a10198e86ed5eebee74c9e15484d9fe520dd218f9a99033f2157fe49",
+      "expectedChineseSha256": "3a002a56fd6106e6b4b6420b98a525e7d24c4ecdd068515fff37716049b7713c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-310-R04",
+      "japaneseSha256": "edcb3e3f64a5f1f0a006e00776beb6c7ec6e092134a72afc0a6b3d2bd5f913b6",
+      "expectedChineseSha256": "62fd7b2c881673b9ba68eb2d3e7a89818235fd93189624805de6b8790434e9e4",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-310-R05",
+      "japaneseSha256": "0bc520dc38530cd87cebb391238480c613d0c8a63d79fbe2cc392ccf04bdaf77",
+      "expectedChineseSha256": "ae7757b0922cda0f6def668f68544e16af428a9cf92ffdc4e0d3475b9bea7c7f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-310-R06",
+      "japaneseSha256": "14552537184c16304bdac2f60af67f872163152551870d9f460b1ac1f0682353",
+      "expectedChineseSha256": "49e2cfdeb3996ece4e2bbc8d2ebeddebab0466ceb1c2a1f122a76b00f01d34c0",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-311-R05",
+      "japaneseSha256": "067e706d799929ae2a5b1e5ffc49084c348bc693e551ab6c88f69e1653d7037a",
+      "expectedChineseSha256": "5f96f18e93b0249a50dd1707035d0beb491e2212854e54e5c450f22723a36648",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-311-R06",
+      "japaneseSha256": "8680f40076274299def9b44f635408f9cb34477b4629ce04709902429b36ddc0",
+      "expectedChineseSha256": "514a9a4bc1ed2f899df42e394719c0df27e036a0b16c536943d28fcb9fed7d1f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-312-R04",
+      "japaneseSha256": "f6328cd6c61afa4c04dda6b6b56afdf96e5240fe03371c9ea19fda70a2ab3f1d",
+      "expectedChineseSha256": "562026de60eb0be5b4f874eb4222e2c98d08b6ac52d0d43bd2423e8b207665b2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-312-R05",
+      "japaneseSha256": "e34995ca14a64fcc525b3bd74d2ef45e730aea7cf68f783812121da1b507838a",
+      "expectedChineseSha256": "4262c45dc797bb0cd5008331ef25b684413859f55b73c71fb4e2c01b645dbbb7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-313-R04",
+      "japaneseSha256": "c882a6a90b967a77c5aea8527b6e549ff85c27442dd5cd9a6f43e56de1ef865e",
+      "expectedChineseSha256": "0fef5a5f3a32ba2d5c732e979017d546d56540c34630b8a10a6de7cd1de1a8d4",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-313-R05",
+      "japaneseSha256": "06bc0c19e2d31f939460464b21d4ce940d3c1198d53af0283e653b2351f56c72",
+      "expectedChineseSha256": "7ead4f007527d231ad90c2cb2085e232584e4175786384e4b199b4564adfa8e4",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-314-R04",
+      "japaneseSha256": "891297b4bbd465f880784c287d6ca574e90f239b78d209ff7a22523fb1e71ed0",
+      "expectedChineseSha256": "9c8f2d8d98a55353ded27fdf50b9695eb5d5b02591368d4032931e66bd134577",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-001-R01",
+      "japaneseSha256": "22343a9df30206dfd6a41b514325577d8ea7b67c041cb5a08c4dc8fbd25b9378",
+      "expectedChineseSha256": "fa0ac4a3aec807ab468b10c674f0408d7f7840205bddc001cb071280a85f34f1",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-009-R01",
+      "japaneseSha256": "f9ea6ac20222de1d5fd2e8a7028b1500d2f366059d5da582d2b178bdc6e79742",
+      "expectedChineseSha256": "1774c408d99900ced37f7d2a2b5855f1e26ee2a6c8d9fd6aea0c9c0b9237d24f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-016-R01",
+      "japaneseSha256": "62e84f62c417f849e3e14c4f14f6e0984c3d1999d7090d39d1bff44e67478f87",
+      "expectedChineseSha256": "be1e47488c5c1850e738f80f33e04b8404b4f166f8adced0a68a8d7b41129c88",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-020-R01",
+      "japaneseSha256": "b6627efe46822450c3896d269406bd696437a952e826fc5066ae735791951c79",
+      "expectedChineseSha256": "4c3ec746bd20d123e54504ef4eb376e4621ed099c3fd55eec49b4ac8ecda570a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-021-R01",
+      "japaneseSha256": "f331bb033a25fc2cb7a1fc01ce3e2e460829724a86e867e81d1504fcd56a55b7",
+      "expectedChineseSha256": "6831809bc3b2ab179096ac21995012d56fcac0e2adf59455946627a69d3dc8a3",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-026-R01",
+      "japaneseSha256": "7bc55d7ff4cdb8ddda18b1e891e634a0d9a545fcfde619af75b020771b9fef76",
+      "expectedChineseSha256": "5516a0142864f3abbf252be65edb5cc0004ed55e59c1a42405cec3b7f5f6a2b8",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-027-R01",
+      "japaneseSha256": "dfffd3259196f38e4c7bf974dcbceead38cb9f60d48809a486f6056e61bad3e1",
+      "expectedChineseSha256": "155a8857cc2197fe285c71cca523eb39a0c14fccd23df9f814ecd20db9e0a1e3",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-028-R01",
+      "japaneseSha256": "595fe7026c51517a5f577f48256dabaffd90247ef247c573c238575ce53d8b23",
+      "expectedChineseSha256": "fafbd6d58aefcbec638f3de92148c498349a96eb0eb20f8f2f67f52cbf4878ae",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-029-R01",
+      "japaneseSha256": "2affd298638605e8a2dbe86bbcd09d24e200af664310c9845c788e5e4ceaf5d0",
+      "expectedChineseSha256": "e093a56227ed025b4183686c5aeec9be1ea3f61c881fa453dfed1ba3a964d8af",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-030-R01",
+      "japaneseSha256": "2c3977e6e0fee27fea18e4573876360ace449fe98415b969a6dbbf5c698909c2",
+      "expectedChineseSha256": "1c91a7d627f590c6128ea17b727f7d08d3cfec99abc35c11eca06338db9360ba",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-031-R01",
+      "japaneseSha256": "cbed2a2b7f5c8f483bba2bcb49d8ab4ccf5f77a40045a6c99deeae1a61211328",
+      "expectedChineseSha256": "1d30a88619f83974279c7c70203fe8d458dafc7d47faeb434f41e3efc75eb860",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-032-R01",
+      "japaneseSha256": "f95d975faa71349f5d7d1d7966fab04aba93e702963f38a3d9686a725405e30f",
+      "expectedChineseSha256": "f1c5751bf2b38f36e175fe00b7a8a6ec14a5ca1931c0d9fa86e956c1fd25391f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-033-R01",
+      "japaneseSha256": "575ce6ce8c7d2fc37fe05a03cde663c0871bbc4bf5994c7f0e11bb843dbc71d9",
+      "expectedChineseSha256": "bafe54b867ba0bb9e6beb89eabe2d3cb5e0da47d42ae148a063cd34dddd7fc61",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-041-R02",
+      "japaneseSha256": "561d325a032660e8f3459aefdc7f01b335eae33676a3ab80916c5efb0a5a7287",
+      "expectedChineseSha256": "b4a26c83d58d1ef1a6892fc3f6afd81b312221103c4c8c92e057449bab4cacc6",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-041-R03",
+      "japaneseSha256": "b3e4b75e8f4cfe8ba4d6f8a78a8a7e35df636db42205581d728ca9c5b7d803b6",
+      "expectedChineseSha256": "7f76a3c2415ade47efbe171b67c2688f43f01957321862d4b2178ce3c057b460",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-044-R03",
+      "japaneseSha256": "3ef0e00d7d461556da3cdeb3e0a362ae3ba12ae72451aae5dc1d59226080fee0",
+      "expectedChineseSha256": "cda5585bfd2ec3d72a407a708a6606a6439cb943b7b15e016c3fac1fb6d9f786",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-048-R01",
+      "japaneseSha256": "c9cb3b23876bcf8250049c04cef94d271c9a647416be1606eb00c80dfe51af82",
+      "expectedChineseSha256": "f3303cc10996067f8816c7fc331c1bf126f1b9d27730f7962b6ede2dea70a498",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-053-R01",
+      "japaneseSha256": "c6bb6f0e6bf88327b4692b94f52faf633b88fa3a16e0d2e9eeb1e5e4029c66f0",
+      "expectedChineseSha256": "759af766b7bb54d0920a6612a558b299b8f868ac297cc245a429a48e740cdecd",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-054-R01",
+      "japaneseSha256": "b78ed298b2208d714d6c723629b010f8d4ecea37b37c94ae056501f0d979b8a9",
+      "expectedChineseSha256": "de912e44d9ded1f529bb79fe0e9517675b3ae7aa02bbd7b08248dd19efedc327",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-055-R01",
+      "japaneseSha256": "508c0063fc389c7cfab9c8226f088de123e35e3873701ec358a3217a215dc91d",
+      "expectedChineseSha256": "ee7b83cc232974507803f5b1044fe9934f31502d176ba957eceb8aef8001abce",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-056-R01",
+      "japaneseSha256": "b1697d726c02a9c2ae8ff005c8f2123ef1493442f9c3716547a75938db718f86",
+      "expectedChineseSha256": "5ae0f72dc2ba66d9729aa95f8109c277bb7a194406706bd4d9ae279ed28a85e5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-059-R01",
+      "japaneseSha256": "8252e87196864adb38aaf880b3346c19220b6848692f31068616b29d81e90d8c",
+      "expectedChineseSha256": "10837b74da3d472d89e34c1b3ac78981063193739c1b363ecef441f60d3d3e84",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-070-R01",
+      "japaneseSha256": "cb4e1eb8688187d56f5853975359b765d68b901e0bf0c5999c1a28d67a7c27eb",
+      "expectedChineseSha256": "6874e7f26b359019f0dc1153db7da72fba0d15e5163e624126a471a23a302a3c",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-071-R01",
+      "japaneseSha256": "6dd5bee41bf41448ad1d75f3143db9482f9ce524905c69733d5ccd959d348316",
+      "expectedChineseSha256": "bdc0fb3dc38f8e4e33aa6291976cb92d4ef1ac81a5abe4bb3ea4cbba8de03ae6",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-072-R01",
+      "japaneseSha256": "c65bc2f1f9bebb4c2350a7311f39cbe5be5571c5cdc8c455255f9665b070a205",
+      "expectedChineseSha256": "de2db328ee7adbd924c29fa5b9eb05e17c1b91f696fbef8e8be9c5aa1a9bdaf4",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-073-R01",
+      "japaneseSha256": "517ee155bdbcb897e96fcc42f02f36ebec8e64bf8de81736458fbf33476e9ab6",
+      "expectedChineseSha256": "142ee43c640b85dd4b17102034aacc5ea57a31a852e15290ccf4b7c2fb2cfd7b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-074-R01",
+      "japaneseSha256": "e35d0a65fd0b67f6fbb3b6694281627f6b75b05adcc51d3bcc978a813bf0c34b",
+      "expectedChineseSha256": "793427b74c23b1ffa88ea6f91e707cb644c5e3991fa3a9bea1829caea67225b1",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-075-R01",
+      "japaneseSha256": "9ffca459ff2c85111fedd12faa114b0f110b4ae0ab6cbd653f25a7b0d4bb2941",
+      "expectedChineseSha256": "d675d36382f137c5d283bbb538428e0ea936727608ab489553756707ae38e02b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-076-R01",
+      "japaneseSha256": "66ba7781a18d30a4987821656836828d8ce322801741f9ba6b2df79076ad93b9",
+      "expectedChineseSha256": "91c2395db28de35941b1096662608fe40d17426ec781c092a7bdb4d50ff57eac",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-086-R05",
+      "japaneseSha256": "da45fda4b653070b95bbae9522e554475e85c644b09b8a8e8c58b4521868215b",
+      "expectedChineseSha256": "90e5576fdb5ff2e5ebf990d6fcf101095dcff70249d0f74d6616ff0e214b5fb7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-093-R05",
+      "japaneseSha256": "508c0f82c2a584203540e43d7d8c6fc1e29e214c41e4ee54204a3a301d3da99b",
+      "expectedChineseSha256": "cb9875e3db6f20d8bb03221a580f943e389c5836d2cbb9d6f5087ccfe8cc6d5d",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-095-R02",
+      "japaneseSha256": "c77fe1340ebfb8ad5594c7f3c6b62dee2bf572294b7a421c476648df351de3e2",
+      "expectedChineseSha256": "b7449851ba46dd0d2460ebd3db1e836154b12e566e2c4b7f39c979200687a022",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-095-R05",
+      "japaneseSha256": "e54e772ec0ac03cd44554c8e57d3c06f5bd4b3cccd2cf107a5f869e322fcd652",
+      "expectedChineseSha256": "489bad16bf103130e906cd3ba212ed83a45e89b9cd134d4296b234bddfd10228",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-096-R02",
+      "japaneseSha256": "5b60062000fb8308bfb176ebac3bde1bcd4d63da534dec334e10ea390752592c",
+      "expectedChineseSha256": "5b60062000fb8308bfb176ebac3bde1bcd4d63da534dec334e10ea390752592c",
+      "action": "retain_name_or_translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-096-R03",
+      "japaneseSha256": "a8766519337821f0887ee4d4474ad8c1e4a686ed6b755e7a8440bf628874ee7b",
+      "expectedChineseSha256": "72cb6bb1a5b9acc48c0b235c8b5036f214a6bf8f039adf748007dbc33ccf3276",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-097-R05",
+      "japaneseSha256": "3485955f448a51ce9b433280d9bfcab6c8b010ffb45c8e70037f499ac217f362",
+      "expectedChineseSha256": "8a750fc6278e40f61a1a1a22243083f20b7309cb8484cdf462caeea52c259bb9",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-105-R01",
+      "japaneseSha256": "53e11e488be478a417f0aee14fda6cf6b3bd72713aa67c9f846a8faa5cb3941a",
+      "expectedChineseSha256": "4dac5f61e4c14dedb22f487298dfcc49f3f60b5b5fd5af536cd1e483bc7f82c8",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-115-R03",
+      "japaneseSha256": "60f7823c1c8bbfd58be993cd78d54854cefb6f1ab487d390d51e8473c84e7a77",
+      "expectedChineseSha256": "c860eeadf7945ca82d2a47cf3bbe5ec082b91b01d9b5d63ab06ef7803d8775c6",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-116-R03",
+      "japaneseSha256": "c9b0fa747fddf95f952a7d9e8eb33cecf0dce40ba9f4d970c4dab5ea33bd15bc",
+      "expectedChineseSha256": "005ede3d53ea3af7ef4e6fec3c2e50bcc60798f2f116899f22d542d1df0839cc",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-116-R04",
+      "japaneseSha256": "8688f24931426fa33ad26316183f3013cf830830cd8cbe0a8fd4f834954d59ab",
+      "expectedChineseSha256": "1c11ee3438c7b6508ac5b3948f91e3c853d7e59f6e56dbb6404f548961bfae5b",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-121-R01",
+      "japaneseSha256": "9f5b9403a782580d59fa9d545324334a4c4560d52c48ffe441ec024ae94f083e",
+      "expectedChineseSha256": "f1b039d1b9ed3556d6c2ae00188b075357f366d82a36ddf2126105ad62e6adf5",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-122-R01",
+      "japaneseSha256": "23559904b138d53b844a34bb444d2762a5476daccbc24d3699044c7937834218",
+      "expectedChineseSha256": "3f4b357e4a3c55397fe596e35a9d591d1d5e7944c958e1253d061a368369da07",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-123-R04",
+      "japaneseSha256": "bc5f66fe68d764fe6d5bb46228b2ae2200b97d789a611b2a84fda074afc65dd8",
+      "expectedChineseSha256": "9d16d9bb69cb386524e293786eeb9ca5340bc8edf8c53121c30360b33fdc1052",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-123-R05",
+      "japaneseSha256": "5ab449a85a60ec9cc532527c541011af206433f152296afbaebb97d40b270519",
+      "expectedChineseSha256": "47a2d31f302f42c66f6880d9bf6b0e8a8f8b136baa20a63baa654708726a8fb3",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-123-R06",
+      "japaneseSha256": "7473cb5e08fc156f34299636098188d72619e09fb858c9eaf234dc35098bacd7",
+      "expectedChineseSha256": "2b2700b3cb0f596e6b551780086a74b61edab9151aff0f4f4ae9641c80477d43",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-124-R04",
+      "japaneseSha256": "9f9597ea304cfcc8d1c2c98b5316972abf09e57fcb231274509972c66f10e865",
+      "expectedChineseSha256": "c8ab2500020a69699c1c00783b4ba155321ba7022eff43c84e00e90dc6836e00",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-124-R05",
+      "japaneseSha256": "d4383919cf40e2270ccfbe442aa62aabcdfac114bf912e0bc3d0e3a74f554d6b",
+      "expectedChineseSha256": "a7b5cbfd2df0571eadeaadb556b2102270586cdb239343936ed4b2f0955d9c06",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-124-R06",
+      "japaneseSha256": "5d546bdfb91a33a43199d411383e34f1c4452a69f80632be99479981eba88d96",
+      "expectedChineseSha256": "17ed503cffb5f8f1a1d39703e5ce7148e1c3baf22651ff0184c90b825821c74f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-125-R04",
+      "japaneseSha256": "72f774e29678daa3a11005a9ce24bfd768c235cb2d0e1f83b4961445302533c7",
+      "expectedChineseSha256": "d812e59947faf39e86de7915cdd9ddb08732196b31c56bd76cbf75c25be6d0ee",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-126-R04",
+      "japaneseSha256": "fee6aaadd67097197ec8b322b1e37c1f4f911cfe5dc2df8eafddc0cbe61b1930",
+      "expectedChineseSha256": "94214c36bc5c590396817232fa517f6377e63a2a37acab866bd7f479a73e2158",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-126-R05",
+      "japaneseSha256": "775cdefac1418ba9b76c193376fec48af3fb95b04ea9a9592849496c615fbb13",
+      "expectedChineseSha256": "54a13fde5bdfc8a597e860d798b92629d6482ed8c5b12bfbbe8e588176b9a92f",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-127-R05",
+      "japaneseSha256": "cfcae57c77198d27afa5c3706c3be812ac2fdbb8ffbd056be77b810a6748ef63",
+      "expectedChineseSha256": "4651191b50b00bb5eef735a4a2dcd02ed05474e5f4cdb58b5c1cfc0b37765c76",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-128-R04",
+      "japaneseSha256": "c1d544f256787fba14f2078b84168fcdf2047fa7f8aa91b6d5ae35acf2f07734",
+      "expectedChineseSha256": "87f2ce5a35d581c88d3d54097f666a8a6f88cb3e37a0a75e7b1c0e9568e9f2e7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-128-R05",
+      "japaneseSha256": "e34995ca14a64fcc525b3bd74d2ef45e730aea7cf68f783812121da1b507838a",
+      "expectedChineseSha256": "4262c45dc797bb0cd5008331ef25b684413859f55b73c71fb4e2c01b645dbbb7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-129-R04",
+      "japaneseSha256": "5331841a515680285bdc18d93b1246e3a264221f69d56f89be0c6b79c1ad1413",
+      "expectedChineseSha256": "06a47c3f55fc6836732eb42045a440499183713285892d34f8eba97d56d1c3b7",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-129-R05",
+      "japaneseSha256": "ddbf5e24a83338cee6d4fecd15edfe2c628eaa4a48c73400d5abf20354def1f8",
+      "expectedChineseSha256": "bec2d25f0e5285e4816f1ada312b43ab557a93c9d06065920fe92c019a11d490",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-130-R05",
+      "japaneseSha256": "c3c76756178681f262788b454221e6907dc3b0bfe605907119be2f756be22e77",
+      "expectedChineseSha256": "36c6565b67dcb7cad62c03cb566c7d6083f1cb13c8bbfc4f6d1457fefd2c093d",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-131-R04",
+      "japaneseSha256": "67fa1c2c990ce65ad0924285b62ff79f7361e5ff7219a19ef129f2f102847285",
+      "expectedChineseSha256": "4b9b48c42d689f81af80aee82801d37ada96eff7da604c87cdd4138f2b865095",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-131-R05",
+      "japaneseSha256": "b63e567b4d82478b970b6ae77a11f280b20624dabe82812c1453731acef1d8ec",
+      "expectedChineseSha256": "e7704d01fd6a84518f0dfa4e5dd3de30d64eb062dc5ee4dac9133ac9f07b4f01",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-131-R06",
+      "japaneseSha256": "bd33f5f8317f8167e766e4fcf2374f62095c649297080756b938bb2b0e5a2220",
+      "expectedChineseSha256": "4954a0f7ad871554740dc25279bad1018440dffb79d691bb1d2d8636b5ed6252",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-132-R05",
+      "japaneseSha256": "e698ffe148e1664622fc45c881fc56fe350e3929f7a7b5cbb38c3e6e795a91d9",
+      "expectedChineseSha256": "ff4b19b72eef1a693f9f906efc1cd56730a978e1600e337ee4621d6e8afeaf11",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-132-R06",
+      "japaneseSha256": "d6881ba75eb8d892a885c2fd490f561587063db0241311c75866c0bb922f8a51",
+      "expectedChineseSha256": "12c84b21b1510e13dab1e22451dfba0f71466dd3af45fe4c76b53e5c85689029",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-133-R04",
+      "japaneseSha256": "2b3d68a2ad357e7e82bcdb7880e10c0520c4c646e197007c8b394c85cac8c22b",
+      "expectedChineseSha256": "63385c968042157246c793b064470eb2d7ee996a90f9c1ec41e2e4cff5225c42",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-134-R04",
+      "japaneseSha256": "157d3d7ccc6830a27a83d9e21e0893bef783d15ba03284ccdb3acb64daaa403d",
+      "expectedChineseSha256": "a784d4154dc7b1fb25336b027194230d76ce637985393377fcbb6cd7ae76c4c8",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-134-R05",
+      "japaneseSha256": "33fe911733a5e7cba35b5c9a1e2155313dd3f1abc6092f1564a3e31127f213a2",
+      "expectedChineseSha256": "a5c632b619d3da58568952db84ae73ff9a90d2bbe8ee54073fa9ef2fca6ee278",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-136-R05",
+      "japaneseSha256": "e15cfb92971fd2c583ae6a4a08d0e3c0b786a08f24e2d47546740b261bb9c081",
+      "expectedChineseSha256": "82817e9d5fc9896ad3604478fd0c7a7245cc3577bd19c329c5b8fdf40a72a934",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-138-R04",
+      "japaneseSha256": "55b34c778ac38fce16fb539e2977c750e571d560e051cb7d518d2a1f84df97b6",
+      "expectedChineseSha256": "301fef9fd9fcc359502961f881dc28d1cc1da826fdc7cf3bedb843eaa8e5a01a",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-138-R05",
+      "japaneseSha256": "c5a76373fb3be4561295f8480df46e3a7b9a7d9b5a11887aaca71a88effc1123",
+      "expectedChineseSha256": "892be0e9d737e5ebf2707068a6cf310e3e934f893517b0ecbdd81fc2600b44e4",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-139-R05",
+      "japaneseSha256": "ec3b77b12dac40563eb3fb50804216514b9d6fcf666aff8114b93b761bdc81fe",
+      "expectedChineseSha256": "84035c70968fc46c00f08e91f27ad7b60106dc70683190de0993e355fee268fb",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "NGC-141-R04",
+      "japaneseSha256": "b3c4ddc6e844529216f3c83f433797031d91176ded5ee84cf9f9ac6615a94a44",
+      "expectedChineseSha256": "9d9b84d69ebf00208451fe1620e8a03cd473dc1d1689a9b63fe6a8c6cb62aa49",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-303-S01",
+      "japaneseSha256": "12dfeb10b03adffab6fbfd590ebfc2cf235ce2dd953826194975236cb839bf69",
+      "expectedChineseSha256": "39716f73a9805d66b6910d1d9267862aafcdd87fc4d3c0c060818f7fe76d6194",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-315-S01",
+      "japaneseSha256": "5d58dd44873764f7c789efd93cee10d17946c57e5891719d5472edd28533ee7b",
+      "expectedChineseSha256": "de23daeabf5a0831e614f9e166e71896d4df4811b068773146869a7b253d58f2",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    },
+    {
+      "group": "GBA-315-S02",
+      "japaneseSha256": "8ca4efed2c076b137b7b04eab5654f41b489e6ca9de93c4ad60fbf2c9f71a576",
+      "expectedChineseSha256": "fe19719bfd20e7d88cdb28ab87abed64cdc50f5c032f830776229c20e7027487",
+      "action": "translate",
+      "decision": "accepted_visible_meaning",
+      "method": "model_second_pass"
+    }
+  ]
+}

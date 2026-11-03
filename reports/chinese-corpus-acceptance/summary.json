@@ -1,0 +1,1739 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-03",
+  "policyId": "chinese-library-fixed-579-v1",
+  "scope": "current formal static resource pack; offline full-unit availability probe; not S7 application output",
+  "gatePassed": false,
+  "finalA6Passed": false,
+  "finalA6Status": "not_executed_S7_S8_evidence_missing",
+  "referenceSha256": "b0560a72fb535b4d7d4e8156d27ea9b8eab0611a140b558c245e17e154319af3",
+  "freezeManifestSha256": "002e2e2b4f91e4c62ad4d8cf2d90ae56da26fe18da3323fd1da58ed3e2f1a37c",
+  "corpusBuildManifestSha256": "cdc4cb345604295ab5cbfd407fb02d149b4eb7b9b2ed08c1e04fb2395eb5851a",
+  "runtimeSha256": "095b74d7020c7cb1741fb897f27d849b929ed16248343a7028e8b26d96247c5c",
+  "runtimeRecords": 410,
+  "reference": {
+    "images": 456,
+    "targetRegions": 579,
+    "excludedRegions": 11,
+    "annotationGroups": 389,
+    "units": 778,
+    "translationUnits": 770,
+    "legalRawUnits": 8,
+    "scenarios": 23
+  },
+  "fixedSet": {
+    "units": 778,
+    "translationCoverage": {
+      "correct": 25,
+      "total": 770,
+      "rate": 0.032467532467532464
+    },
+    "correctTranslationCoverage": {
+      "correct": 25,
+      "total": 770,
+      "rate": 0.032467532467532464
+    },
+    "publishedSemanticAccuracy": {
+      "correct": 25,
+      "total": 25,
+      "rate": 1
+    },
+    "pendingSemanticReviews": 0,
+    "legalRawRetention": {
+      "correct": 8,
+      "total": 8,
+      "rate": 1
+    },
+    "strictSourceMatches": 12,
+    "strictChineseMatches": 12,
+    "outputBoundEquivalentMatches": 13,
+    "incorrectPublishedTranslations": 0,
+    "completeRegions": {
+      "correct": 24,
+      "total": 579,
+      "rate": 0.04145077720207254
+    },
+    "completeImages": {
+      "correct": 17,
+      "total": 451,
+      "rate": 0.037694013303769404
+    }
+  },
+  "valueRetention": {
+    "allValues": {
+      "correct": 220,
+      "total": 220,
+      "rate": 1
+    },
+    "valueOccurrences": 475,
+    "translatedUnits": {
+      "correct": 0,
+      "total": 0,
+      "rate": null
+    },
+    "rawFallbackUnits": {
+      "correct": 220,
+      "total": 220,
+      "rate": 1
+    },
+    "symbols": {
+      "correct": 146,
+      "total": 146,
+      "rate": 1
+    },
+    "limitation": "Raw fallback preserves source numbers by construction; this does not validate dynamic value binding or Chinese rendering."
+  },
+  "byPlatform": {
+    "gba": {
+      "units": 491,
+      "translationCoverage": {
+        "correct": 18,
+        "total": 486,
+        "rate": 0.037037037037037035
+      },
+      "correctTranslationCoverage": {
+        "correct": 18,
+        "total": 486,
+        "rate": 0.037037037037037035
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 18,
+        "total": 18,
+        "rate": 1
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 5,
+        "total": 5,
+        "rate": 1
+      }
+    },
+    "ngc": {
+      "units": 287,
+      "translationCoverage": {
+        "correct": 7,
+        "total": 284,
+        "rate": 0.02464788732394366
+      },
+      "correctTranslationCoverage": {
+        "correct": 7,
+        "total": 284,
+        "rate": 0.02464788732394366
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 7,
+        "total": 7,
+        "rate": 1
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 3,
+        "total": 3,
+        "rate": 1
+      }
+    }
+  },
+  "byRegionType": {
+    "bag_action": {
+      "units": 6,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 6,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 6,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "bag_category": {
+      "units": 12,
+      "translationCoverage": {
+        "correct": 3,
+        "total": 12,
+        "rate": 0.25
+      },
+      "correctTranslationCoverage": {
+        "correct": 3,
+        "total": 12,
+        "rate": 0.25
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 3,
+        "total": 3,
+        "rate": 1
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "bag_description": {
+      "units": 10,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 10,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 10,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "bag_list": {
+      "units": 106,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 106,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 106,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "bag_prompt": {
+      "units": 2,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "battle_action": {
+      "units": 8,
+      "translationCoverage": {
+        "correct": 4,
+        "total": 8,
+        "rate": 0.5
+      },
+      "correctTranslationCoverage": {
+        "correct": 4,
+        "total": 8,
+        "rate": 0.5
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 4,
+        "total": 4,
+        "rate": 1
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "battle_message": {
+      "units": 125,
+      "translationCoverage": {
+        "correct": 13,
+        "total": 122,
+        "rate": 0.10655737704918032
+      },
+      "correctTranslationCoverage": {
+        "correct": 13,
+        "total": 122,
+        "rate": 0.10655737704918032
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 13,
+        "total": 13,
+        "rate": 1
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 3,
+        "total": 3,
+        "rate": 1
+      }
+    },
+    "battle_move_meta": {
+      "units": 2,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "battle_moves": {
+      "units": 8,
+      "translationCoverage": {
+        "correct": 1,
+        "total": 8,
+        "rate": 0.125
+      },
+      "correctTranslationCoverage": {
+        "correct": 1,
+        "total": 8,
+        "rate": 0.125
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 1,
+        "total": 1,
+        "rate": 1
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "battle_prompt": {
+      "units": 2,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "berry_tag_description": {
+      "units": 1,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 1,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 1,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "blender_message": {
+      "units": 14,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 14,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 14,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "block_flavors": {
+      "units": 1,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 1,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 1,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "block_list": {
+      "units": 7,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 7,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 7,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "block_title": {
+      "units": 3,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 3,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 3,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "boot_dialog": {
+      "units": 1,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 1,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 1,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "condition_graph": {
+      "units": 1,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 1,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 1,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "condition_hint": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "condition_identity": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 4,
+        "total": 4,
+        "rate": 1
+      }
+    },
+    "condition_message": {
+      "units": 3,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 3,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 3,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "condition_title": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "field_dialog": {
+      "units": 244,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 243,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 243,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 1,
+        "total": 1,
+        "rate": 1
+      }
+    },
+    "party_battle_action": {
+      "units": 6,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 6,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 6,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "party_cancel": {
+      "units": 2,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "party_field_action": {
+      "units": 10,
+      "translationCoverage": {
+        "correct": 4,
+        "total": 10,
+        "rate": 0.4
+      },
+      "correctTranslationCoverage": {
+        "correct": 4,
+        "total": 10,
+        "rate": 0.4
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 4,
+        "total": 4,
+        "rate": 1
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "party_prompt": {
+      "units": 2,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "party_recovery": {
+      "units": 2,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "party_short_prompt": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "pc_connect_menu": {
+      "units": 8,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 8,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 8,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "pc_item_description": {
+      "units": 3,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 3,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 3,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "pc_item_heading": {
+      "units": 3,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 3,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 3,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "pc_item_list": {
+      "units": 24,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 24,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 24,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "pc_item_menu": {
+      "units": 6,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 6,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 6,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "pc_pokemon_menu": {
+      "units": 12,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 12,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 12,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "pc_store_menu": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "save_summary": {
+      "units": 2,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 2,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "shop_description": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "shop_list": {
+      "units": 32,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 32,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 32,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "shop_menu": {
+      "units": 6,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 6,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 6,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_ability": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_battle_moves": {
+      "units": 12,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 12,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 12,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_contest_description": {
+      "units": 10,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 10,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 10,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_contest_effect": {
+      "units": 8,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 8,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 8,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_contest_moves": {
+      "units": 10,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 10,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 10,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_experience": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_item": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_memo": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_move_description": {
+      "units": 12,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 12,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 12,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_personal": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_ribbon": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "summary_stats": {
+      "units": 4,
+      "translationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "correctTranslationCoverage": {
+        "correct": 0,
+        "total": 4,
+        "rate": 0
+      },
+      "publishedSemanticAccuracy": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      },
+      "pendingSemanticReviews": 0,
+      "legalRawRetention": {
+        "correct": 0,
+        "total": 0,
+        "rate": null
+      }
+    }
+  },
+  "supplementalScenarios": {
+    "units": 23,
+    "translationCoverage": {
+      "correct": 3,
+      "total": 17,
+      "rate": 0.17647058823529413
+    },
+    "correctTranslationCoverage": {
+      "correct": 3,
+      "total": 17,
+      "rate": 0.17647058823529413
+    },
+    "publishedSemanticAccuracy": {
+      "correct": 3,
+      "total": 3,
+      "rate": 1
+    },
+    "pendingSemanticReviews": 0,
+    "legalRawRetention": {
+      "correct": 6,
+      "total": 6,
+      "rate": 1
+    },
+    "passed": 9,
+    "total": 23,
+    "byCategory": {
+      "battle_template": {
+        "units": 2,
+        "translationCoverage": {
+          "correct": 0,
+          "total": 2,
+          "rate": 0
+        },
+        "correctTranslationCoverage": {
+          "correct": 0,
+          "total": 2,
+          "rate": 0
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "custom_name": {
+        "units": 2,
+        "translationCoverage": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "correctTranslationCoverage": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 2,
+          "total": 2,
+          "rate": 1
+        }
+      },
+      "homograph": {
+        "units": 1,
+        "translationCoverage": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "correctTranslationCoverage": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 1,
+          "total": 1,
+          "rate": 1
+        }
+      },
+      "incomplete": {
+        "units": 1,
+        "translationCoverage": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "correctTranslationCoverage": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 1,
+          "total": 1,
+          "rate": 1
+        }
+      },
+      "localization": {
+        "units": 1,
+        "translationCoverage": {
+          "correct": 1,
+          "total": 1,
+          "rate": 1
+        },
+        "correctTranslationCoverage": {
+          "correct": 1,
+          "total": 1,
+          "rate": 1
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 1,
+          "total": 1,
+          "rate": 1
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "numeric_binding": {
+        "units": 2,
+        "translationCoverage": {
+          "correct": 0,
+          "total": 2,
+          "rate": 0
+        },
+        "correctTranslationCoverage": {
+          "correct": 0,
+          "total": 2,
+          "rate": 0
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "repeated_slot": {
+        "units": 2,
+        "translationCoverage": {
+          "correct": 0,
+          "total": 2,
+          "rate": 0
+        },
+        "correctTranslationCoverage": {
+          "correct": 0,
+          "total": 2,
+          "rate": 0
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "rs_semantics": {
+        "units": 1,
+        "translationCoverage": {
+          "correct": 0,
+          "total": 1,
+          "rate": 0
+        },
+        "correctTranslationCoverage": {
+          "correct": 0,
+          "total": 1,
+          "rate": 0
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "semantic_window": {
+        "units": 2,
+        "translationCoverage": {
+          "correct": 1,
+          "total": 2,
+          "rate": 0.5
+        },
+        "correctTranslationCoverage": {
+          "correct": 1,
+          "total": 2,
+          "rate": 0.5
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 1,
+          "total": 1,
+          "rate": 1
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "typed_homograph": {
+        "units": 4,
+        "translationCoverage": {
+          "correct": 0,
+          "total": 4,
+          "rate": 0
+        },
+        "correctTranslationCoverage": {
+          "correct": 0,
+          "total": 4,
+          "rate": 0
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "unknown_glyph": {
+        "units": 1,
+        "translationCoverage": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "correctTranslationCoverage": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 1,
+          "total": 1,
+          "rate": 1
+        }
+      },
+      "version": {
+        "units": 2,
+        "translationCoverage": {
+          "correct": 0,
+          "total": 2,
+          "rate": 0
+        },
+        "correctTranslationCoverage": {
+          "correct": 0,
+          "total": 2,
+          "rate": 0
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "whole_name": {
+        "units": 2,
+        "translationCoverage": {
+          "correct": 1,
+          "total": 1,
+          "rate": 1
+        },
+        "correctTranslationCoverage": {
+          "correct": 1,
+          "total": 1,
+          "rate": 1
+        },
+        "publishedSemanticAccuracy": {
+          "correct": 1,
+          "total": 1,
+          "rate": 1
+        },
+        "pendingSemanticReviews": 0,
+        "legalRawRetention": {
+          "correct": 1,
+          "total": 1,
+          "rate": 1
+        }
+      }
+    },
+    "participatesInFixedSetGate": false,
+    "scope": "constructed resource probes; not verified Japanese script coverage or the fixed-set denominator"
+  },
+  "excludedChineseOutputChecks": {
+    "required": 11,
+    "executed": 0,
+    "status": "not_executed_no_chinese_pipeline"
+  },
+  "negativeChineseOutputChecks": {
+    "required": 5,
+    "executed": 0,
+    "status": "not_executed_no_chinese_pipeline"
+  },
+  "imageGameAttribution": "unknown; no fabricated per-game screenshot acceptance rates",
+  "unexecutedRequirements": [
+    "窗口显示及框归属",
+    "遮挡时序",
+    "清屏与会话失效",
+    "乱序完成与过期结果",
+    "实机逐字/滚动/自动推进",
+    "完整中文延迟",
+    "真实游戏版本逐图归属"
+  ],
+  "annotationIndependence": {
+    "expectedTranslationsDerivedFromCandidateOrRuntime": false,
+    "usesSystemOutputAsAnswer": false,
+    "blindIndependentAnnotator": false,
+    "limitation": "同一会话模型曾参与建库，属于从原始日文另编预期并再次核对，不能称为盲测、独立人员标注或人工复核。"
+  },
+  "thresholds": {
+    "translationCoverage": 1,
+    "publishedSemanticAccuracy": 1,
+    "valueAndSymbolRetention": 1,
+    "legalRawRetention": 1,
+    "excludedChineseOutputs": 0,
+    "prematureIndependentUnits": 0,
+    "substantiveConflictSelections": 0
+  }
+}

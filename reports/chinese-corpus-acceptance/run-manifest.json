@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "referenceSha256": "b0560a72fb535b4d7d4e8156d27ea9b8eab0611a140b558c245e17e154319af3",
+  "runtimeSha256": "095b74d7020c7cb1741fb897f27d849b929ed16248343a7028e8b26d96247c5c",
+  "implementation": [
+    {
+      "local": "tools/accept_chinese_corpus.mjs",
+      "sha256": "5d7d34dc2ab67790bca1b4be616a915177525c14cabcb995b481fdee2a9b5ee4"
+    },
+    {
+      "local": "tools/chinese_corpus_acceptance_common.mjs",
+      "sha256": "7e5d7d1c40cea24638587790937115c65bfcb24531652ad28bce99c1a4de015a"
+    },
+    {
+      "local": "tools/corpus_common.mjs",
+      "sha256": "58cc7e40e5c443babe2611ea7a6a24b569c3df67867a9ac1d27b6cc6e5133132"
+    }
+  ],
+  "semanticJudgmentsSha256": "d2a4246a8377456d0eca63bd261782170308366dc74ed18a90652cc7f6ccc168",
+  "outputs": [
+    {
+      "file": "predictions.json",
+      "sha256": "67928cb928c68a79939cf32a581cd8b4f9b94d7b618adfdb94390fe1a0d08fc6"
+    },
+    {
+      "file": "evaluation.json",
+      "sha256": "6a4ba18003421f2663aeb4280a12d08e45274030a4d1573a77c753be80391567"
+    },
+    {
+      "file": "summary.json",
+      "sha256": "768c4d7bab897b8f57a5bfec4d186dc80ea7c8c5be3742c650356ea7d3853186"
+    },
+    {
+      "file": "units.csv",
+      "sha256": "4c4c1c9a98a5a192d916567885d2402335704bd6126f56ed94855e8602ea619f"
+    },
+    {
+      "file": "coverage-gaps.csv",
+      "sha256": "456e1a21dfa392a63ad8402ff15286c83f5ce9fa5c9323fb3a52ee1fa6b0c3cf"
+    },
+    {
+      "file": "scenarios.csv",
+      "sha256": "25155973b5c511700d480cb322725819446f5fc0ec44b637f34ca7f3b41cc29a"
+    },
+    {
+      "file": "pending-semantic-review.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "file": "gap-diagnostics.json",
+      "sha256": "7413de5fdf26ea16fc5cc32713a21e32b4dfac537c74e9ab81c0deb31edf055d"
+    },
+    {
+      "file": "review.html",
+      "sha256": "46ac24ad9982e75af84ace11784031e44778125a99934eecb6faa8789ffd288c"
+    }
+  ]
+}

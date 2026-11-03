@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "total": 18,
+  "checks": [
+    {
+      "name": "Frozen answer files and original S3 Japanese reference retain their hashes",
+      "passed": true
+    },
+    {
+      "name": "All 579 targets, 11 exclusions and 5 scope-negative images remain represented",
+      "passed": true
+    },
+    {
+      "name": "Source-based semantic segmentation preserves dialogue windows and separates menu/grid items",
+      "passed": true
+    },
+    {
+      "name": "Only explicit truncations and pure name/value identities use legal raw retention",
+      "passed": true
+    },
+    {
+      "name": "Independent Chinese expectations preserve numeric strings, leading zeros and displayed symbols",
+      "passed": true
+    },
+    {
+      "name": "Move-name digits are not confused with current PP or HP values",
+      "passed": true
+    },
+    {
+      "name": "Layout projection never merges distinct numeric chunks or normalizes unknown glyphs",
+      "passed": true
+    },
+    {
+      "name": "Static probe requires complete Japanese values and does not predict a future prefix",
+      "passed": true
+    },
+    {
+      "name": "Conflicting normalized sources and unknown game keep all candidates without selecting the first",
+      "passed": true
+    },
+    {
+      "name": "Equal outputs retain duplicate provenance rather than discarding sources",
+      "passed": true
+    },
+    {
+      "name": "A static numeric example cannot leak a previous value into a new input",
+      "passed": true
+    },
+    {
+      "name": "Every available translation is supported by the formal pack, not a candidate or expected answer",
+      "passed": true
+    },
+    {
+      "name": "Output-bound semantic review accepts synonyms without changing the frozen answer",
+      "passed": true
+    },
+    {
+      "name": "Missing Chinese remains in the denominator and 100 percent on published items cannot pass coverage",
+      "passed": true
+    },
+    {
+      "name": "Unexecuted pipeline, numeric binding and real-time behavior are not mislabeled as passed",
+      "passed": true
+    },
+    {
+      "name": "Supplemental contexts, slots, versions and observed-only semantic windows are retained",
+      "passed": true
+    },
+    {
+      "name": "Acceptance artifacts match their recorded resource and implementation hashes",
+      "passed": true
+    },
+    {
+      "name": "Re-running the gate is deterministic and exits with failure for the incomplete library",
+      "passed": true
+    }
+  ],
+  "acceptanceGatePassed": false,
+  "distinction": "Harness and evidence checks pass; the Chinese library coverage acceptance fails."
+}

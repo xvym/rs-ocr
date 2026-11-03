@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "japanese-source-matching-existing-ocr-v1",
+  "description": "Freeze actual OCR input and separate direct-source judgments. Does not certify exhaustive source accuracy.",
+  "files": [
+    {
+      "local": "corpus/source-matching/reference.json",
+      "sha256": "b4396df849ffbd82b75fe7da03107479fd28cd76effc24d170ae3118049053aa"
+    },
+    {
+      "local": "corpus/source-matching/review-cases.mjs",
+      "sha256": "ea707353a7c69e3754ce24b22a269620224e50b3bbe621228bd5154bd89a0d76"
+    },
+    {
+      "local": "reports/japanese-source-matching/ocr-inputs.json",
+      "sha256": "962205e007fcc95a2786494c02d5e85cea89cd9a044e5698b89b8231ee15ae86"
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+[
+  {
+    "qid": "rs.script.Route101.Route101_Text_16D349",
+    "tokens": [
+      "UP_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route102.Route102_Text_16D547",
+    "tokens": [
+      "RIGHT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route102.Route102_Text_16D55F",
+    "tokens": [
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route103.Route103_Text_16D9FB",
+    "tokens": [
+      "DOWN_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route104.Route104_Text_16DEC8",
+    "tokens": [
+      "RIGHT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route104.Route104_Text_16DEE3",
+    "tokens": [
+      "UP_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route110.Route110_Text_16F381",
+    "tokens": [
+      "DOWN_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route110.Route110_Text_16F3E9",
+    "tokens": [
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route110.Route110_Text_16F40F",
+    "tokens": [
+      "UP_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route110.Route110_Text_16F4F7",
+    "tokens": [
+      "RIGHT_ARROW",
+      "UP_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route111.Route111_Text_16FC9C",
+    "tokens": [
+      "DOWN_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route111.Route111_Text_16FCEF",
+    "tokens": [
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route111.Route111_Text_16FD05",
+    "tokens": [
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route112.Route112_Text_16FEED",
+    "tokens": [
+      "UP_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route112.Route112_Text_16FF64",
+    "tokens": [
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route113.Route113_Text_170065",
+    "tokens": [
+      "RIGHT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route113.Route113_Text_17007B",
+    "tokens": [
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route115.Route115_Text_1702E7",
+    "tokens": [
+      "DOWN_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route116.Route116_Text_170A46",
+    "tokens": [
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route117.Route117_Text_170D02",
+    "tokens": [
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route117.Route117_Text_170D1E",
+    "tokens": [
+      "RIGHT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route118.Route118_Text_17108B",
+    "tokens": [
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route118.Route118_Text_1710A5",
+    "tokens": [
+      "UP_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route119.Route119_Text_171749",
+    "tokens": [
+      "RIGHT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route120.Route120_Text_171C5E",
+    "tokens": [
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route120.Route120_Text_171C77",
+    "tokens": [
+      "RIGHT_ARROW",
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route123.Route123_Text_171E76",
+    "tokens": [
+      "RIGHT_ARROW",
+      "LEFT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route123.Route123_Text_171E8E",
+    "tokens": [
+      "UP_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.MtChimney.MtChimney_Text_19595C",
+    "tokens": [
+      "DOWN_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.Route124_DivingTreasureHuntersHouse.Route124_DivingTreasureHuntersHouse_Text_19F6C5",
+    "tokens": [
+      "LEFT_ARROW",
+      "RIGHT_ARROW",
+      "LEFT_ARROW",
+      "RIGHT_ARROW",
+      "LEFT_ARROW",
+      "RIGHT_ARROW",
+      "LEFT_ARROW",
+      "RIGHT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.Underwater_SealedChamber_Braille_1C533D",
+    "tokens": [
+      "BRAILLE_FORMAT 4 6 26 13 7 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_OuterRoom_Braille_1C534F",
+    "tokens": [
+      "BRAILLE_FORMAT 7 6 21 13 10 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_OuterRoom_Braille_1C5359",
+    "tokens": [
+      "BRAILLE_FORMAT 7 6 21 13 10 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_OuterRoom_Braille_1C5363",
+    "tokens": [
+      "BRAILLE_FORMAT 7 6 21 13 10 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_OuterRoom_Braille_1C536D",
+    "tokens": [
+      "BRAILLE_FORMAT 7 6 21 13 10 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_OuterRoom_Braille_1C5377",
+    "tokens": [
+      "BRAILLE_FORMAT 7 6 21 13 10 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_OuterRoom_Braille_1C5381",
+    "tokens": [
+      "BRAILLE_FORMAT 7 6 21 13 10 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_OuterRoom_Braille_1C538B",
+    "tokens": [
+      "BRAILLE_FORMAT 7 6 21 13 10 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_OuterRoom_Braille_1C5396",
+    "tokens": [
+      "BRAILLE_FORMAT 9 6 19 13 12 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_OuterRoom_Braille_1C539E",
+    "tokens": [
+      "BRAILLE_FORMAT 7 6 21 13 10 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_OuterRoom_Braille_1C53A9",
+    "tokens": [
+      "BRAILLE_FORMAT 9 6 19 13 12 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_OuterRoom_Braille_1C53B1",
+    "tokens": [
+      "BRAILLE_FORMAT 7 4 23 15 10 7"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_InnerRoom_Braille_1C53C1",
+    "tokens": [
+      "BRAILLE_FORMAT 0 0 29 19 3 3"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_InnerRoom_Braille_1C53F2",
+    "tokens": [
+      "BRAILLE_FORMAT 2 0 26 19 5 3"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_InnerRoom_Braille_1C5414",
+    "tokens": [
+      "BRAILLE_FORMAT 7 2 23 17 10 5"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_InnerRoom_Braille_1C5435",
+    "tokens": [
+      "BRAILLE_FORMAT 3 0 25 19 6 3"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_InnerRoom_Braille_1C545C",
+    "tokens": [
+      "BRAILLE_FORMAT 5 6 25 13 8 9"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_InnerRoom_Braille_1C5470",
+    "tokens": [
+      "BRAILLE_FORMAT 6 0 24 19 9 3"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.SealedChamber_InnerRoom_Braille_1C549B",
+    "tokens": [
+      "BRAILLE_FORMAT 3 2 27 17 6 5"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.DesertRuins_Braille_1C54C8",
+    "tokens": [
+      "BRAILLE_FORMAT 3 0 25 19 6 3"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.IslandCave_Braille_1C54FC",
+    "tokens": [
+      "BRAILLE_FORMAT 7 0 23 19 10 3"
+    ]
+  },
+  {
+    "qid": "rs.script.braille.AncientTomb_Braille_1C552E",
+    "tokens": [
+      "BRAILLE_FORMAT 0 0 29 19 3 3"
+    ]
+  },
+  {
+    "qid": "rs.common.naming_screen.sKeyboardCharacters.1",
+    "tokens": [
+      "escape:e"
+    ]
+  },
+  {
+    "qid": "rs.common.naming_screen.sKeyboardCharacters.5",
+    "tokens": [
+      "escape:e"
+    ]
+  },
+  {
+    "qid": "rs.common.contest_link_util.gUnknown_083D17E2",
+    "tokens": [
+      "FONT_NORMAL"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_UnknownString",
+    "tokens": [
+      "B_TRAINER1_LOSE_TEXT"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_RaisedSpDef",
+    "tokens": [
+      "B_26"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_RaisedSpDefLittle",
+    "tokens": [
+      "B_26"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_RaisedDefense",
+    "tokens": [
+      "B_26"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_RaisedDefenseLittle",
+    "tokens": [
+      "B_26"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_CoveredVeil",
+    "tokens": [
+      "B_26"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_MistShroud",
+    "tokens": [
+      "B_26"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_SpikesScattered",
+    "tokens": [
+      "B_TRAINER1_WIN_TEXT"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_PreventedBurn",
+    "tokens": [
+      "B_EFF_ABILITY"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_PreventedFlinching",
+    "tokens": [
+      "B_EFF_ABILITY"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_RightArrow",
+    "tokens": [
+      "RIGHT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.common.battle_strings.BattleText_Plus",
+    "tokens": [
+      "PLUS"
+    ]
+  },
+  {
+    "qid": "rs.common.credits.Category_POKeMONGraphicDesigners",
+    "tokens": [
+      "AMPERSAND"
+    ]
+  },
+  {
+    "qid": "rs.common.credits.Category_SoundEffectsPOKeMONVoices",
+    "tokens": [
+      "AMPERSAND"
+    ]
+  },
+  {
+    "qid": "rs.common.credits.Category_EnvironmentToolProgrammers",
+    "tokens": [
+      "AMPERSAND"
+    ]
+  },
+  {
+    "qid": "rs.common.strings.gOtherText_TallPlusAndRightArrow.0",
+    "tokens": [
+      "PLUS"
+    ]
+  },
+  {
+    "qid": "rs.common.strings.gOtherText_TallPlusAndRightArrow.1",
+    "tokens": [
+      "RIGHT_ARROW"
+    ]
+  },
+  {
+    "qid": "rs.common.strings.PCText_ByeBye",
+    "tokens": [
+      "escape:e"
+    ]
+  },
+  {
+    "qid": "rs.common.strings2.gSystemText_LA",
+    "tokens": [
+      "EQUALS"
+    ]
+  },
+  {
+    "qid": "rs.common.strings2.gOtherText_ForgotOrDidNotLearnMove",
+    "tokens": [
+      "escape:e"
+    ]
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "scope": "Offline source candidate retrieval on actual archived OCR; no Chinese publication or real-time integration",
+  "sourceRecords": 13479,
+  "nativeLabelRecords": 27,
+  "unsupportedSourceRecords": 75,
+  "images": 456,
+  "targetRegions": 579,
+  "excludedRegionsNotFed": 11,
+  "scopeNegativeImagesNotFed": 5,
+  "strictFullRegionExactSourceHits": 28,
+  "regionWithAnyCandidate": 576,
+  "regionWithCandidatesForAllUnits": 576,
+  "units": 1133,
+  "unitStrictWholeSourceHits": 581,
+  "unitWhitespaceOnlyWholeSourceHits": 644,
+  "unitWithCandidate": 1130,
+  "unitStatuses": {
+    "ambiguous": 313,
+    "fragment_only": 2,
+    "not_found": 1,
+    "source_candidate": 731,
+    "template_candidate": 86
+  },
+  "unitsWithChineseCandidate": 1035,
+  "unitsWithReviewedSource": 121,
+  "nextActions": {
+    "build_chinese_correspondence": 52,
+    "investigate_source_or_composition": 1,
+    "review_existing_chinese_candidate": 587,
+    "review_partial_visible_window": 2,
+    "review_slot_callsite_and_semantic_unit": 61,
+    "review_source_ambiguity": 304,
+    "review_structured_battle_meaning_and_chinese": 34,
+    "review_visible_semantic_unit_before_integration": 92
+  },
+  "unitsWithCapturedSlots": 148,
+  "unitsWithAmbiguousBindings": 31,
+  "bindingSearchTruncatedUnits": 0,
+  "ocrAlternativeRegions": 60,
+  "unmappedAmbiguousGlyphs": 0,
+  "reviewedProbes": {
+    "total": 27,
+    "passed": 27,
+    "expectedSourceOccurrences": 29,
+    "retrievedExpectedSources": 29,
+    "exhaustiveCandidateSetCases": 7,
+    "allPassed": true,
+    "independence": {
+      "blind": false,
+      "human": false,
+      "method": "separate source-text judgments and source-hash binding; same model authored implementation",
+      "limitation": "Additional candidates are not scored as correct unless the candidate set was exhaustively reviewed."
+    }
+  },
+  "battleMatching": {
+    "templates": {
+      "ordinaryStatSurfaces": 28,
+      "ordinaryStatSourceBindings": 56,
+      "moveSurfaces": 354,
+      "relatedTypedModels": 14,
+      "totalModels": 396,
+      "japaneseMovesVerifiedPerRom": 354,
+      "roms": [
+        "AXPJ",
+        "AXVJ"
+      ],
+      "releaseChinese": false
+    },
+    "semanticStatuses": {
+      "consistent": 34,
+      "incomplete": 2,
+      "not_applicable": 1097
+    },
+    "reviewedFixedCases": {
+      "total": 32,
+      "passed": 32,
+      "statChanges": {
+        "total": 8,
+        "passed": 8
+      },
+      "moveUses": {
+        "total": 24,
+        "passed": 24
+      },
+      "method": "model_direct_japanese_and_source_review",
+      "blind": false,
+      "limitation": "A fixed-set source/observed-meaning check by the implementing model; not independent personnel, whole-game, Chinese or live acceptance."
+    }
+  },
+  "fullSetSourceAccuracy": null,
+  "fullSetAccuracyStatus": "not_claimed_without_exhaustive_source_judgments",
+  "original769Comparison": {
+    "total": 769,
+    "previousWithCandidate": 600,
+    "currentWithAnyCandidateEvidence": 766,
+    "currentAllPartsHaveCandidates": 766,
+    "recoveredAllParts": 166,
+    "remainingWithoutCompleteCandidateEvidence": 3,
+    "previousHitsNowIncomplete": [],
+    "note": "Original OCR spans retained. A decomposed span counts complete only when every emitted text component has source candidates; captured fields remain unapproved."
+  },
+  "chineseCoverageBaselineUnchanged": "25/770; source candidates do not approve translations",
+  "limitations": [
+    "Candidate presence is not source correctness or Chinese coverage.",
+    "Template capture is syntactic evidence, not verified buffer meaning or identity.",
+    "Source-record and visible-window identity do not define publishable Chinese semantic units.",
+    "No fuzzy edit-distance correction or unseen future content is used.",
+    "Version attribution remains unknown for each screenshot.",
+    "Full-set exhaustive source judgments, Japanese automatic wrapping/call-sites, and live continuity remain incomplete."
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "key": "0fbedce71beecc91fb381365474d5f3f5c9efa195d09100a03135cd3cac88ca8",
+    "japanese": "もちもの",
+    "expectedChinese": "携带物品",
+    "actualChinese": "道具",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "reason": "当前为队伍操作菜单中的携带物品项，道具为来源的简短菜单措辞；没有改变物品操作的对象或含义。"
+  },
+  {
+    "key": "94e9bc56ce2224d3d82679bb81b920286a646ce7ccae2faaf2370cb7964e0e1f",
+    "japanese": "こうかは いまひとつの ようだ",
+    "expectedChinese": "好像效果不太好。",
+    "actualChinese": "好像效果不好...",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "reason": "两种措辞均表达招式效果不佳，未改成无效、失败或效果绝佳；程度在该战斗提示的语境中一致。"
+  },
+  {
+    "key": "a8ac8b76bf11c119b2061b7e716474ae1aa2243b9efad4e55ec101bf0ab88bdb",
+    "japanese": "あめが ふりつづいている",
+    "expectedChinese": "雨还在继续下。",
+    "actualChinese": "雨还在持续下着。",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "reason": "均表示当前降雨持续，没有添加开始或结束等新的状态变化。"
+  },
+  {
+    "key": "44bc2c363f95f6dd00eadefe2365df44e896f1f1763efb5ff63211d75302ad14",
+    "japanese": "バッグ",
+    "expectedChinese": "背包",
+    "actualChinese": "包包",
+    "verdict": "equivalent",
+    "method": "model_output_review",
+    "reason": "都是战斗菜单的背包入口，包包保留汉化来源措辞，没有改变菜单功能。"
+  }
+]

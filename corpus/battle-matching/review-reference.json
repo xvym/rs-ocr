@@ -1,0 +1,762 @@
+{
+  "schemaVersion": 1,
+  "method": "model_direct_japanese_and_source_review",
+  "blind": false,
+  "limitation": "A fixed-set source/observed-meaning check by the implementing model; not independent personnel, whole-game, Chinese or live acceptance.",
+  "cases": [
+    {
+      "regionId": "GBA-072-R03",
+      "event": "move_use",
+      "moveId": 341,
+      "subject": "ラグラージ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "ラグラージの\nマッドショット！",
+      "japaneseSha256": "251b46cb16419c19f7c419e0afe724d539218867e3b2e2b9a020cf0d8498130e",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.341",
+          "japanese": "マッドショット",
+          "sha256": "b5079869a59ca02425062500be9d88f7f6c92ab0361e91df4730382f3c8a35c3"
+        }
+      ]
+    },
+    {
+      "regionId": "NGC-117-R03",
+      "event": "move_use",
+      "moveId": 341,
+      "subject": "ラグラージ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "ラグラージの\nマッドショット！",
+      "japaneseSha256": "251b46cb16419c19f7c419e0afe724d539218867e3b2e2b9a020cf0d8498130e",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.341",
+          "japanese": "マッドショット",
+          "sha256": "b5079869a59ca02425062500be9d88f7f6c92ab0361e91df4730382f3c8a35c3"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-076-R03",
+      "event": "move_use",
+      "moveId": 81,
+      "subject": "やせいの ケムッソ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "やせいの ケムッソの\nいとをはく こうげき！",
+      "japaneseSha256": "cbb79b32167a65dce14c0cc1975ceea54d9b735a52c0dfa47fd9d880069144fd",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.81",
+          "japanese": "いとをはく",
+          "sha256": "72c40a691ea3b1e8f895b60cc3603c144dbef77a75c4900852258fb077da8f4d"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-077-R03",
+      "event": "move_use",
+      "moveId": 81,
+      "subject": "やせいの ケムッソ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "やせいの ケムッソの\nいとをはく こうげき！",
+      "japaneseSha256": "cbb79b32167a65dce14c0cc1975ceea54d9b735a52c0dfa47fd9d880069144fd",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.81",
+          "japanese": "いとをはく",
+          "sha256": "72c40a691ea3b1e8f895b60cc3603c144dbef77a75c4900852258fb077da8f4d"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-087-R03",
+      "event": "move_use",
+      "moveId": 81,
+      "subject": "やせいの ケムッソ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "やせいの ケムッソの\nいとをはく こうげき！",
+      "japaneseSha256": "cbb79b32167a65dce14c0cc1975ceea54d9b735a52c0dfa47fd9d880069144fd",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.81",
+          "japanese": "いとをはく",
+          "sha256": "72c40a691ea3b1e8f895b60cc3603c144dbef77a75c4900852258fb077da8f4d"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-080-R03",
+      "event": "move_use",
+      "moveId": 280,
+      "subject": "へラクロス",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "へラクロスは\nかわらわりを した！",
+      "japaneseSha256": "3746d7d50a6b00c8847272b1af4cae008f326835e37126a5d37a4be883e73d39",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.280",
+          "japanese": "かわらわり",
+          "sha256": "b96f7a5912f09fbdaa0d24a8d08b21bee5f22a8daecbe4d02006f14107440a8a"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-083-R03",
+      "event": "move_use",
+      "moveId": 347,
+      "subject": "カイオーガ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "カイオーガは\nめいそうを した！",
+      "japaneseSha256": "360a4e6f990c222b57ef0dcdd23254345ebcdef5b0535c243681a3ac534b3b71",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.347",
+          "japanese": "めいそう",
+          "sha256": "6ca789f43eebb93f652ac907a3504f1145f88f4450ce93ae11b60cce3cdca489"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-084-R03",
+      "event": "move_use",
+      "moveId": 347,
+      "subject": "カイオーガ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "カイオーガは\nめいそうを した！",
+      "japaneseSha256": "360a4e6f990c222b57ef0dcdd23254345ebcdef5b0535c243681a3ac534b3b71",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.347",
+          "japanese": "めいそう",
+          "sha256": "6ca789f43eebb93f652ac907a3504f1145f88f4450ce93ae11b60cce3cdca489"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-149-R03",
+      "event": "move_use",
+      "moveId": 347,
+      "subject": "カイオーガ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "カイオーガは\nめいそうを した！",
+      "japaneseSha256": "360a4e6f990c222b57ef0dcdd23254345ebcdef5b0535c243681a3ac534b3b71",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.347",
+          "japanese": "めいそう",
+          "sha256": "6ca789f43eebb93f652ac907a3504f1145f88f4450ce93ae11b60cce3cdca489"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-154-R03",
+      "event": "move_use",
+      "moveId": 28,
+      "subject": "あいての グラエナ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "あいての グラエナの\nすなかけ！",
+      "japaneseSha256": "5f54547e774dffe26a7f93cbf32180722da5082a31375099919a770d9694984a",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.28",
+          "japanese": "すなかけ",
+          "sha256": "f2676cd8016a94843acbccf87ba637b7c335f8f46bc2a1a02a8543baaeecfb20"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-157-R03",
+      "event": "move_use",
+      "moveId": 57,
+      "subject": "カイオーガ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "カイオーガの\nなみのり！",
+      "japaneseSha256": "21abdf76b054de79806336339a1581fa57b523d8fe8a4f03568483fadd358275",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.57",
+          "japanese": "なみのり",
+          "sha256": "be8d9af79e43221eafc7b310047ad50d0ca5a43fba7d9a1692da4d172f957403"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-163-R03",
+      "event": "move_use",
+      "moveId": 58,
+      "subject": "カイオーガ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "カイオーガの\nれいとうビーム！",
+      "japaneseSha256": "26e8ddaae73ea952f1ab32e75e343342dc93ccb87d0ca7c4277df459eb8fa44f",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.58",
+          "japanese": "れいとうビーム",
+          "sha256": "0f1f1390d79aba6a09bee7b8d0728dffd70afebb8873be3c9fdf84425f39e41d"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-180-R03",
+      "event": "move_use",
+      "moveId": 252,
+      "subject": "あいての ダーテング",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "あいての ダーテングの\nねこだまし！",
+      "japaneseSha256": "c51bdc4a6a863d0ac6aee9721144bb2c363bfdc67f8593767c2eef227d78d3c1",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.252",
+          "japanese": "ねこだまし",
+          "sha256": "a9381a6b6aa2b5f7329a0782b6e8a33bd8517947725dde5f7ba2de3c677b3f36"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-183-R03",
+      "event": "move_use",
+      "moveId": 104,
+      "subject": "あいての ダーテング",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "あいての ダーテングは\nかげぶんしんを した！",
+      "japaneseSha256": "06e7832d453e34b9cfba8daa493a3b612d11de7eb5c1bc62840c7ffaa502a33d",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.104",
+          "japanese": "かげぶんしん",
+          "sha256": "c63e0317dd07b4e3b1a767785ff60398453e376ebe7df507ae5ad3acd5489d07"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-199-R03",
+      "event": "move_use",
+      "moveId": 109,
+      "subject": "あいての サマヨール",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "あいての サマヨールの\nあやしいひかり！",
+      "japaneseSha256": "493511270dfe3cc3048e46bb489dae662d4b43ffc22fdb60545c3d73b3829173",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.109",
+          "japanese": "あやしいひかり",
+          "sha256": "b4de56648bb25e62009dc74358604c7de0b39330b032d2614d798b448794744d"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-202-R03",
+      "event": "move_use",
+      "moveId": 325,
+      "subject": "あいての サマヨール",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "あいての サマヨールの\nシャドーパンチ！",
+      "japaneseSha256": "32c992ed6b9f2319de213f9452aab3910eeb7dd8dc17c17c42e084aca9898a0b",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.325",
+          "japanese": "シャドーパンチ",
+          "sha256": "4fe1195c10de2f3d7123b34e944678e05fbeba9e644829afb07421048f37cd58"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-203-R03",
+      "event": "move_use",
+      "moveId": 174,
+      "subject": "あいての サマヨール",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "あいての サマヨールの\nのろい こうげき！",
+      "japaneseSha256": "ab2ff20a86a64f43edb3f4b357ff4d01cae21c82a8bacc7b28cca6c639613e49",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.174",
+          "japanese": "のろい",
+          "sha256": "4f8d8809af0ded020c6dffda307ccf388b3f52ca9511d3d5e5ba55e08ce9014c"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-204-R03",
+      "event": "move_use",
+      "moveId": 174,
+      "subject": "あいての サマヨール",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "あいての サマヨールの\nのろい こうげき！",
+      "japaneseSha256": "ab2ff20a86a64f43edb3f4b357ff4d01cae21c82a8bacc7b28cca6c639613e49",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.174",
+          "japanese": "のろい",
+          "sha256": "4f8d8809af0ded020c6dffda307ccf388b3f52ca9511d3d5e5ba55e08ce9014c"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-220-R03",
+      "event": "move_use",
+      "moveId": 19,
+      "subject": "レックウザ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "レックウザの\nそらをとぶ こうげき！",
+      "japaneseSha256": "5a3fad811ac949be931f3b22f0f56299e33ed171223ac3211a9b0477fdea07d1",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.19",
+          "japanese": "そらをとぶ",
+          "sha256": "5e22241720d867b1a186ac14d5bd942d8013d3134c42e39ceb2361c9adec423f"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-224-R03",
+      "event": "move_use",
+      "moveId": 58,
+      "subject": "あいての サマヨール",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "あいての サマヨールの\nれいとうビーム！",
+      "japaneseSha256": "778e29c1e604b50e7900b889149e9760de80e23d7f258dfa4c7b546c349ab126",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.58",
+          "japanese": "れいとうビーム",
+          "sha256": "0f1f1390d79aba6a09bee7b8d0728dffd70afebb8873be3c9fdf84425f39e41d"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-226-R03",
+      "event": "move_use",
+      "moveId": 58,
+      "subject": "あいての サマヨール",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "あいての サマヨールの\nれいとうビーム！",
+      "japaneseSha256": "778e29c1e604b50e7900b889149e9760de80e23d7f258dfa4c7b546c349ab126",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.58",
+          "japanese": "れいとうビーム",
+          "sha256": "0f1f1390d79aba6a09bee7b8d0728dffd70afebb8873be3c9fdf84425f39e41d"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-236-R03",
+      "event": "move_use",
+      "moveId": 58,
+      "subject": "あいての サマヨール",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "あいての サマヨールの\nれいとうビーム！",
+      "japaneseSha256": "778e29c1e604b50e7900b889149e9760de80e23d7f258dfa4c7b546c349ab126",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.58",
+          "japanese": "れいとうビーム",
+          "sha256": "0f1f1390d79aba6a09bee7b8d0728dffd70afebb8873be3c9fdf84425f39e41d"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-239-R03",
+      "event": "move_use",
+      "moveId": 200,
+      "subject": "レックウザ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "レックウザの\nげきりん！",
+      "japaneseSha256": "8084413fc2d9e2ef59321d6fcb00296d61fd5d832b58a47b2416a9d935d1cb7a",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.200",
+          "japanese": "げきりん",
+          "sha256": "6482e24aeefe92ae90b1627db9191c5fb0de461dab90df8020c9945cd31a2f88"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-253-R03",
+      "event": "move_use",
+      "moveId": 45,
+      "subject": "やせいの ジグザグマ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_OpponentUsedMove"
+      ],
+      "japanese": "やせいの ジグザグマの\nなきごえ こうげき！",
+      "japaneseSha256": "da19fdeea8d654c47581d1d90a95b65adad836a46b08bff6e0755a3e908ab298",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX][B_BUFF1]\\n[B_BUFF2]",
+          "sha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880"
+        },
+        {
+          "qid": "rs.common.move_names.gMoveNames.45",
+          "japanese": "なきごえ",
+          "sha256": "3002cfd3572fa2529ac00c587e56c7ea68254ee0a717c7e7e2cad695235d53f4"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-078-R03",
+      "event": "stat_change",
+      "stat": "speed",
+      "delta": -1,
+      "subject": "へラクロス",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_UnknownString5",
+        "rs.common.battle_strings.BattleText_UnknownString6"
+      ],
+      "japanese": "へラクロスの\nすばやさが さがった！",
+      "japaneseSha256": "8cecb35ce593af30833dcb4d82baa36d882f88a9e2f9c3cce64061ad7e0d4a96",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "a74946d7c59b30f80d84a078a451f6a6b1aa7d06e4f24348028dc8dd9f14f15f"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString6",
+          "japanese": "[B_DEF_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "ec691e0007f5fe2763d6e090b5761a6f7a55e1ab7b6f78f942ff0fa41528a231"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-085-R03",
+      "event": "stat_change",
+      "stat": "special_attack",
+      "delta": 1,
+      "subject": "カイオーガ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_UnknownString7",
+        "rs.common.battle_strings.BattleText_UnknownString3"
+      ],
+      "japanese": "カイオーガの\nとくこうが あがった！",
+      "japaneseSha256": "944854e7511e5df42520ec83b826db67329eb66d6dc23737f47685640fba095c",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "a74946d7c59b30f80d84a078a451f6a6b1aa7d06e4f24348028dc8dd9f14f15f"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString3",
+          "japanese": "[B_DEF_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "ec691e0007f5fe2763d6e090b5761a6f7a55e1ab7b6f78f942ff0fa41528a231"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-150-R03",
+      "event": "stat_change",
+      "stat": "special_attack",
+      "delta": 1,
+      "subject": "カイオーガ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_UnknownString7",
+        "rs.common.battle_strings.BattleText_UnknownString3"
+      ],
+      "japanese": "カイオーガの\nとくこうが あがった！",
+      "japaneseSha256": "944854e7511e5df42520ec83b826db67329eb66d6dc23737f47685640fba095c",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "a74946d7c59b30f80d84a078a451f6a6b1aa7d06e4f24348028dc8dd9f14f15f"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString3",
+          "japanese": "[B_DEF_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "ec691e0007f5fe2763d6e090b5761a6f7a55e1ab7b6f78f942ff0fa41528a231"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-086-R03",
+      "event": "stat_change",
+      "stat": "special_defense",
+      "delta": 1,
+      "subject": "カイオーガ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_UnknownString7",
+        "rs.common.battle_strings.BattleText_UnknownString3"
+      ],
+      "japanese": "カイオーガの\nとくぼうが あがった！",
+      "japaneseSha256": "e628b11f0741323b07f97243789d651ef2fc4e7e4328cf004c0d512b8335897f",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "a74946d7c59b30f80d84a078a451f6a6b1aa7d06e4f24348028dc8dd9f14f15f"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString3",
+          "japanese": "[B_DEF_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "ec691e0007f5fe2763d6e090b5761a6f7a55e1ab7b6f78f942ff0fa41528a231"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-151-R03",
+      "event": "stat_change",
+      "stat": "special_defense",
+      "delta": 1,
+      "subject": "カイオーガ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_UnknownString7",
+        "rs.common.battle_strings.BattleText_UnknownString3"
+      ],
+      "japanese": "カイオーガの\nとくぼうが あがった！",
+      "japaneseSha256": "e628b11f0741323b07f97243789d651ef2fc4e7e4328cf004c0d512b8335897f",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "a74946d7c59b30f80d84a078a451f6a6b1aa7d06e4f24348028dc8dd9f14f15f"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString3",
+          "japanese": "[B_DEF_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "ec691e0007f5fe2763d6e090b5761a6f7a55e1ab7b6f78f942ff0fa41528a231"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-088-R03",
+      "event": "stat_change",
+      "stat": "speed",
+      "delta": -1,
+      "subject": "カイオーガ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_UnknownString5",
+        "rs.common.battle_strings.BattleText_UnknownString6"
+      ],
+      "japanese": "カイオーガの\nすばやさが さがった！",
+      "japaneseSha256": "aa12ed6c249820474dba0dfdae2a3603e928e23d923839f9bfb1278cfc8ac10f",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "a74946d7c59b30f80d84a078a451f6a6b1aa7d06e4f24348028dc8dd9f14f15f"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString6",
+          "japanese": "[B_DEF_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "ec691e0007f5fe2763d6e090b5761a6f7a55e1ab7b6f78f942ff0fa41528a231"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-155-R03",
+      "event": "stat_change",
+      "stat": "accuracy",
+      "delta": -1,
+      "subject": "カイオーガ",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_UnknownString5",
+        "rs.common.battle_strings.BattleText_UnknownString6"
+      ],
+      "japanese": "カイオーガの\nめいちゅうりつが さがった！",
+      "japaneseSha256": "bb298bc4c591156231914018380bef4ab04598b6786be232a2541b3a33a854c3",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "a74946d7c59b30f80d84a078a451f6a6b1aa7d06e4f24348028dc8dd9f14f15f"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString6",
+          "japanese": "[B_DEF_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "ec691e0007f5fe2763d6e090b5761a6f7a55e1ab7b6f78f942ff0fa41528a231"
+        }
+      ]
+    },
+    {
+      "regionId": "GBA-184-R03",
+      "event": "stat_change",
+      "stat": "evasion",
+      "delta": 1,
+      "subject": "あいての ダーテング",
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_UnknownString7",
+        "rs.common.battle_strings.BattleText_UnknownString3"
+      ],
+      "japanese": "あいての ダーテングの\nかいひりつが あがった！",
+      "japaneseSha256": "713406b619472f04971fb45f1428a931366aecedbb32c4ad5d17f92918c967b2",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "japanese": "[B_ATK_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "a74946d7c59b30f80d84a078a451f6a6b1aa7d06e4f24348028dc8dd9f14f15f"
+        },
+        {
+          "qid": "rs.common.battle_strings.BattleText_UnknownString3",
+          "japanese": "[B_DEF_NAME_WITH_PREFIX]の\\n[B_BUFF1]が　[B_BUFF2]",
+          "sha256": "ec691e0007f5fe2763d6e090b5761a6f7a55e1ab7b6f78f942ff0fa41528a231"
+        }
+      ]
+    }
+  ],
+  "judgmentsSha256": "753bf7bb07d4b31cdd344085300022ae6ece96d353d463a156902d28f5bcd5eb",
+  "ocrInputsSha256": "962205e007fcc95a2786494c02d5e85cea89cd9a044e5698b89b8231ee15ae86"
+}

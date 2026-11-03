@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "chinese-library-fixed-579-v1",
+  "date": "2026-11-03",
+  "authorization": "用户要求：按照建设报告的建议先进行中文库验收。采用该报告的固定集100%门槛，限于库级，不代表S7/S8应用验收。",
+  "japaneseReference": "reports/s3-acceptance/reference.json",
+  "japaneseReferenceSha256": "a0dad9cf66144bafee1ca465ebcfc5755fe2fade36f18acfa549e76459999658",
+  "annotationMethod": "offline_model_from_frozen_japanese",
+  "reviewMethod": "second_model_pass_before_evaluation",
+  "independence": {
+    "expectedTranslationsDerivedFromCandidateOrRuntime": false,
+    "usesSystemOutputAsAnswer": false,
+    "blindIndependentAnnotator": false,
+    "limitation": "同一会话模型曾参与建库，属于从原始日文另编预期并再次核对，不能称为盲测、独立人员标注或人工复核。"
+  },
+  "dataset": {
+    "images": 456,
+    "targetRegions": 579,
+    "excludedRegions": 11,
+    "scopeNegativeImages": 5,
+    "regionTypeJapaneseGroups": 389,
+    "gameAttribution": "unknown_per_image; never infer game from filename or folder",
+    "scope": "沿用建设报告的全部579目标；其中调查性摘要招式、状态图等作为补充类别单列，不据此扩张产品首版范围。"
+  },
+  "segmentation": {
+    "rule": "明确的独立菜单项及列表项逐行作为单元；其余完整可见区域作为一个待翻译窗口。战斗行动和招式网格每行含两项，另按完整可见项拆分。",
+    "rowwiseTypes": ["pc_connect_menu", "pc_pokemon_menu", "pc_item_menu", "pc_store_menu", "pc_item_list", "bag_list", "shop_menu", "shop_list", "party_field_action", "party_battle_action", "block_list"],
+    "gridTypes": ["battle_action", "battle_moves", "bag_action"],
+    "futureUnitPolicy": "预期只译当前可见含义；未为任何源全文批准跨清屏或跨独立单元扩展。",
+    "incomplete": "4组明显词中截断或只有战斗句首前缀单列为合法原文保留，仍保留在579区域中。缺译、整句未命中或只有语义从句不构成排除理由。",
+    "pureIdentity": "condition_identity仅含完整昵称、性别和等级，查无可用完整名称词条时合法保留；不把含有未翻译普通文字的完整句归为此类。"
+  },
+  "comparison": {
+    "japaneseExact": "严格原字符串相同，单列统计",
+    "layoutKey": "仅删除日文排版中的ASCII空格、全角空格及换行；字母大小写、数字、标点和字符不改写；若空白两侧均为数字则保留边界。",
+    "purpose": "库级完整静态单元可用性；排版等价查询是验收适配器，不声称应用已实现此匹配。",
+    "noFuzzyOrSubstringPublication": true,
+    "semanticCorrectness": "先用冻结中文预期严格比对；同义措辞必须另存输出绑定的模型语义判断，不能改写冻结答案来迎合输出。"
+  },
+  "names": {
+    "rule": "完整可见值按语义类型优先查已核对词库；无可用词条则原文保留；不得根据部分姓名、玩家名恰同NPC名或宝可梦昵称恰同物种名推定身份。",
+    "canonicalReference": "动态姓名在中文预期中保留其日文值；经可靠完整词条查到的等价译名允许由输出绑定语义复核判定。"
+  },
+  "values": {
+    "rule": "当前数字串、前导零、ID、等级、数量、价格、时间和PP逐项保留；不能从语料或其他截图补值。",
+    "lexicalException": "招式名10まんボルト中的10属于词名，不是动态数值；预期译成十万伏特并单列，不把词名数字当成当前数据丢失。",
+    "symbols": ["HP", "PP", "EXP", "SEL", "♂", "♀", "×"]
+  },
+  "thresholds": {
+    "translationCoverage": 1,
+    "publishedSemanticAccuracy": 1,
+    "valueAndSymbolRetention": 1,
+    "legalRawRetention": 1,
+    "excludedChineseOutputs": 0,
+    "prematureIndependentUnits": 0,
+    "substantiveConflictSelections": 0
+  },
+  "notExecutedByLibraryHarness": ["窗口显示及框归属", "遮挡时序", "清屏与会话失效", "乱序完成与过期结果", "实机逐字/滚动/自动推进", "完整中文延迟", "真实游戏版本逐图归属"],
+  "finalA6Policy": "本轮可给出库级未通过/通过，但最终A6须另有完整S7行为、两作及实机证据，不以库级结果替代。"
+}

@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "total": 18,
+  "checks": [
+    {
+      "name": "All 28 ordinary forms retain the seven actual stat names and four exact changes",
+      "passed": true
+    },
+    {
+      "name": "Ordinary changes reject unknown stats, HP, wrong direction modifiers and missing punctuation",
+      "passed": true
+    },
+    {
+      "name": "Source-mandated line boundaries stop names swallowing a different battle clause",
+      "passed": true
+    },
+    {
+      "name": "Full-input anchors reject appended independent text and incomplete prefixes",
+      "passed": true
+    },
+    {
+      "name": "Nicknames need not be species names, and actor display never infers species or identity",
+      "passed": true
+    },
+    {
+      "name": "Same observed stat meaning preserves attacking and defending source records",
+      "passed": true
+    },
+    {
+      "name": "All 354 move forms agree with the independently executed Japanese selector evidence",
+      "passed": true
+    },
+    {
+      "name": "Move grammar rejects legal move names paired with another move category’s suffix",
+      "passed": true
+    },
+    {
+      "name": "A legitimate extra source such as Wish keeps observed meaning unresolved rather than forcing the move template",
+      "passed": true
+    },
+    {
+      "name": "An item-use slot cannot accept an arbitrary known move name",
+      "passed": true
+    },
+    {
+      "name": "Capabilities and actual source context constrain related stat messages",
+      "passed": true
+    },
+    {
+      "name": "Related ability names are finite and remain consistent with their call-site family",
+      "passed": true
+    },
+    {
+      "name": "Copy/reset messages preserve two, repeated or zero actors without inventing game state",
+      "passed": true
+    },
+    {
+      "name": "Meaning conflicts and unknown candidate meanings never choose the first result",
+      "passed": true
+    },
+    {
+      "name": "Japanese width projection and proven glyph alternatives preserve the original actor value",
+      "passed": true
+    },
+    {
+      "name": "The 32 original battle gaps have separately bound source and observed-meaning judgments",
+      "passed": true
+    },
+    {
+      "name": "Only Japanese evidence, source records and rules enter template generation",
+      "passed": true
+    },
+    {
+      "name": "Offline rebuilding is byte-for-byte identical and generated templates never contain ROM bytes",
+      "passed": true
+    }
+  ],
+  "scope": "bounded battle matching, separately authored fixed-case judgments, negative cases and deterministic generation; not Chinese/live acceptance"
+}

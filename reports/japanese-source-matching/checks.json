@@ -1,0 +1,187 @@
+{
+  "passed": true,
+  "total": 45,
+  "checks": [
+    {
+      "name": "Source matching covers pinned Japanese independently of reviewed Chinese availability",
+      "passed": true
+    },
+    {
+      "name": "Whitespace projection preserves digit boundaries, width, case, punctuation and original offsets",
+      "passed": true
+    },
+    {
+      "name": "Literal escaped brackets and backslashes are not dynamic slots",
+      "passed": true
+    },
+    {
+      "name": "Clear-window boundaries never create adjacent-line matches",
+      "passed": true
+    },
+    {
+      "name": "Scrolling can retrieve both neighboring windows while preserving source offsets",
+      "passed": true
+    },
+    {
+      "name": "Partial-word prefixes are diagnostic hints and never resolve complete sources",
+      "passed": true
+    },
+    {
+      "name": "Unknown glyphs block lookup instead of using source text to fill characters",
+      "passed": true
+    },
+    {
+      "name": "Arbitrary OCR substitutions are rejected and do not invoke fuzzy correction",
+      "passed": true
+    },
+    {
+      "name": "Actual zero-distance font-3 alternatives find Heracross without rewriting raw OCR",
+      "passed": true
+    },
+    {
+      "name": "All competing source records remain even when one matches exactly",
+      "passed": true
+    },
+    {
+      "name": "Game filters retain both candidates when the actual game is unknown",
+      "passed": true
+    },
+    {
+      "name": "Explicit typed context distinguishes Ghost species and type without guessing from text",
+      "passed": true
+    },
+    {
+      "name": "Opaque buffers preserve actual captured values and never claim semantic approval",
+      "passed": true
+    },
+    {
+      "name": "Repeated slots must contain the same current value",
+      "passed": true
+    },
+    {
+      "name": "Internal name spaces remain significant for repeated-slot identity",
+      "passed": true
+    },
+    {
+      "name": "Ambiguous variable boundaries retain every viable capture interpretation",
+      "passed": true
+    },
+    {
+      "name": "Current numeric values are captured afresh and never reused between calls",
+      "passed": true
+    },
+    {
+      "name": "Bare slots, adjacent opaque buffers and unsupported functions cannot consume arbitrary input",
+      "passed": true
+    },
+    {
+      "name": "Trainer class/name source templates remain candidates alongside generic link templates",
+      "passed": true
+    },
+    {
+      "name": "Typed Intimidate grammar resolves the ability/name boundary without choosing a generic buffer split",
+      "passed": true
+    },
+    {
+      "name": "Rendering functions are explicit retrieval hypotheses, never wildcard variables",
+      "passed": true
+    },
+    {
+      "name": "Observed overlapping windows narrow source identities within the same session only",
+      "passed": true
+    },
+    {
+      "name": "Forged previous candidate IDs cannot invent observed continuity",
+      "passed": true
+    },
+    {
+      "name": "Menu segmentation follows detected layout, while dialogue remains an intact window",
+      "passed": true
+    },
+    {
+      "name": "Inventory quantity, display number and selection marker are preserved as separate visible fields",
+      "passed": true
+    },
+    {
+      "name": "Price parsing is confined to shop rows and does not discard digits from ordinary text",
+      "passed": true
+    },
+    {
+      "name": "Removed inventory fields cannot introduce character alternatives into the item name",
+      "passed": true
+    },
+    {
+      "name": "Inventory and shop interface actions are not excluded by the item-name filter",
+      "passed": true
+    },
+    {
+      "name": "Battle menu options retain their combined source record and explicit grid coordinates",
+      "passed": true
+    },
+    {
+      "name": "Run retains normal and Safari menu candidates without complete-menu context, and prose is not indexed as cells",
+      "passed": true
+    },
+    {
+      "name": "Short anchored PC-name and send-out templates are retrieved without admitting bare buffers",
+      "passed": true
+    },
+    {
+      "name": "Digit notation projection finds the actual source while keeping leading zeroes and raw OCR",
+      "passed": true
+    },
+    {
+      "name": "Adjacent player-name and finite honorific slots retain separate complete captures",
+      "passed": true
+    },
+    {
+      "name": "Native summary titles are separately identified from hash-verified original assets",
+      "passed": true
+    },
+    {
+      "name": "Ability panels separate the original title, complete name and multiline description",
+      "passed": true
+    },
+    {
+      "name": "Move-panel PP values stay current and do not become part of move-name lookup",
+      "passed": true
+    },
+    {
+      "name": "Summary stat, owner and experience fields preserve every current value",
+      "passed": true
+    },
+    {
+      "name": "Ambiguous PC layout is split only with the full ordered source-backed menu sequence",
+      "passed": true
+    },
+    {
+      "name": "Ribbon count overwrite is confined to its source and never turns every literal number into a slot",
+      "passed": true
+    },
+    {
+      "name": "Block level, identity and blender composition retain visible values without inventing names",
+      "passed": true
+    },
+    {
+      "name": "All decomposed fixed-set text has raw spans and no visible characters disappear",
+      "passed": true
+    },
+    {
+      "name": "Matcher does not read answer files, review cases or screenshot identifiers",
+      "passed": true
+    },
+    {
+      "name": "All actual OCR inputs and source-review judgments retain their bound evidence hashes",
+      "passed": true
+    },
+    {
+      "name": "Review HTML keeps all 579 regions and has a syntactically valid offline filter",
+      "passed": true
+    },
+    {
+      "name": "Repeated full evaluation is byte-for-byte reproducible",
+      "passed": true
+    }
+  ],
+  "scope": "source matcher behavior and reproducible diagnostics; not exhaustive source correctness or Chinese acceptance"
+}

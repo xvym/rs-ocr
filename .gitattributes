@@ -2,3 +2,18 @@
 /corpus/*.json text eol=lf
 /tools/*corpus*.mjs text eol=lf
 /outputs/corpus-mapping/* -text
+/corpus/acceptance/*.json -text
+/corpus/acceptance/*.mjs text eol=lf
+/reports/chinese-corpus-acceptance/* -text
+/corpus/source-matching/*.json -text
+/corpus/source-matching/*.mjs text eol=lf
+/tools/*source_match*.mjs text eol=lf
+/tools/japanese_source_layout.mjs text eol=lf
+/tools/resolve_japanese.mjs text eol=lf
+/reports/japanese-source-matching/* -text
+/corpus/battle-matching/*.json -text
+/corpus/battle-matching/*.mjs text eol=lf
+/tools/*battle*.mjs text eol=lf
+/tools/verify_battle_printing.py text eol=lf
+/outputs/battle-source-matching/* -text
+/reports/battle-source-matching/* -text

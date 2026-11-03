@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "chinese-library-fixed-579-v1",
+  "japaneseReferenceSha256": "a0dad9cf66144bafee1ca465ebcfc5755fe2fade36f18acfa549e76459999658",
+  "files": [
+    {
+      "local": "policy.json",
+      "sha256": "3f0bdb1147e43b4f9421c7c9bfc9b708b4fdf8c345b873819b00596bd9a0b65a"
+    },
+    {
+      "local": "annotations.mjs",
+      "sha256": "0b56076f03947cfbe93d96fc5d1a2b2e4087bfcdc7fb6c9a91053a9abd449db6"
+    },
+    {
+      "local": "annotation-review.json",
+      "sha256": "69590a03dfbfb433cc5cf56a7587277ea0204b84c849a22aead6fc788728625e"
+    },
+    {
+      "local": "scenarios.json",
+      "sha256": "bacd18d8177550ffbb2f570b6993b2a591377cc0dc259257bbd9023bdfdf1634"
+    },
+    {
+      "local": "reference.json",
+      "sha256": "b0560a72fb535b4d7d4e8156d27ea9b8eab0611a140b558c245e17e154319af3"
+    }
+  ]
+}

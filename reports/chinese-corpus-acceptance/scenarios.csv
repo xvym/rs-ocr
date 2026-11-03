@@ -1,0 +1,28 @@
+﻿"id","category","game","action","japanese","expectedChinese","actualChinese","actualOutput","semantic","passed","missingReason"
+"name-species-whole","whole_name","both","translate","ピカチュウ","皮卡丘","皮卡丘","皮卡丘","strict_equal","true",""
+"name-species-prefix","whole_name","both","retain","ピカチュ","ピカチュ","","ピカチュ","legal_raw_retention","true","static_unit_unavailable"
+"name-short-custom","custom_name","both","retain","ア","ア","","ア","legal_raw_retention","true","static_unit_unavailable"
+"name-five-character-custom","custom_name","both","retain","アイウエオ","アイウエオ","","アイウエオ","legal_raw_retention","true","static_unit_unavailable"
+"same-slot-repeated-short","repeated_slot","both","translate","アは アに かいふくのくすりを つかった！","ア对ア使用了全复药！","","アは アに かいふくのくすりを つかった！","not_published","false","name_or_dynamic_template_unavailable"
+"same-slot-repeated-long","repeated_slot","both","translate","アイウエオは アイウエオに かいふくのくすりを つかった！","アイウエオ对アイウエオ使用了全复药！","","アイウエオは アイウエオに かいふくのくすりを つかった！","not_published","false","name_or_dynamic_template_unavailable"
+"battle-dynamic-nickname","battle_template","both","translate","ピカチュウの １０まんボルト！","皮卡丘使出了十万伏特！","","ピカチュウの １０まんボルト！","not_published","false","static_unit_unavailable"
+"battle-opponent-prefix","battle_template","both","translate","あいての ピカチュウの １０まんボルト！","对方皮卡丘使出了十万伏特！","","あいての ピカチュウの １０まんボルト！","not_published","false","static_unit_unavailable"
+"current-value-17","numeric_binding","both","translate","ラグラージの たいりょくが
+17 かいふくした","ラグラージ恢复了17点体力。","","ラグラージの たいりょくが
+17 かいふくした","not_published","false","numeric_or_composite_template_unavailable"
+"current-value-18","numeric_binding","both","translate","ラグラージの たいりょくが
+18 かいふくした","ラグラージ恢复了18点体力。","","ラグラージの たいりょくが
+18 かいふくした","not_published","false","numeric_or_composite_template_unavailable"
+"ghost-unknown-context","homograph","both","retain","ゴースト","ゴースト","","ゴースト","legal_raw_retention","true","static_unit_unavailable"
+"ghost-species-context","typed_homograph","both","translate","ゴースト","鬼斯通","","ゴースト","not_published","false","typed_context_not_exported"
+"ghost-type-context","typed_homograph","both","translate","ゴースト","幽灵","","ゴースト","not_published","false","typed_context_not_exported"
+"poison-type-context","typed_homograph","both","translate","どく","毒","","どく","not_published","false","typed_context_not_exported"
+"poison-status-context","typed_homograph","both","translate","どく","中毒","","どく","not_published","false","typed_context_not_exported"
+"ruby-team-term","version","ruby","translate","マグマだん","熔岩队","","マグマだん","not_published","false","static_unit_unavailable"
+"sapphire-team-term","version","sapphire","translate","アクアだん","海洋队","","アクアだん","not_published","false","static_unit_unavailable"
+"missing-glyph","unknown_glyph","both","retain","ピカ�","ピカ�","","ピカ�","legal_raw_retention","true","static_unit_unavailable"
+"unfinished-message","incomplete","both","retain","しかし うまく きまら","しかし うまく きまら","","しかし うまく きまら","legal_raw_retention","true","static_unit_unavailable"
+"visible-only-first-unit","semantic_window","both","translate","ようこそ！","欢迎光临！","","ようこそ！","not_published","false","static_unit_unavailable"
+"visible-only-rain-unit","semantic_window","both","translate","あめが ふりはじめた！","开始下雨了！","开始下雨了！","开始下雨了！","strict_equal","true",""
+"localization-move","localization","both","translate","わざ","招式","招式","招式","strict_equal","true",""
+"rs-lightningrod-description","rs_semantics","both","translate","でんきタイプの わざが じぶんにくる","电属性招式会朝自己而来。","","でんきタイプの わざが じぶんにくる","not_published","false","static_unit_unavailable"

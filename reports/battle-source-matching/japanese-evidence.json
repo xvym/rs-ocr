@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "method": "Pinned source classification table byte equality plus restricted execution of both native Japanese Thumb selectors for all 354 move IDs in both ROMs; literal stat/descriptor/prefix evidence",
+  "capstoneVersion": "5.0.7",
+  "sourceInputs": [
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_message.c",
+      "sha256": "719a8aeb662142aab4503ee3ee0858823bebe300bbe11669cb2309a5206ffb8a"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/battle_strings_en.h",
+      "sha256": "0edfd7d655f4e90965b3c303cc2d80b143480093438dda7cf4d9fafae504091d"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_script_commands.c",
+      "sha256": "0a6f58f8e5fc19c40e3546a5bc81f3354fc669376c31435301a8884055c9d77a"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/constants/moves.h",
+      "sha256": "7ce488287ae01da9168fc7d3f99c80309954fbc1269b951827a1fe201891156f"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/battle_message.h",
+      "sha256": "260592d39c97cd03e635b7e3910217d615308db3a519bdf5dd5c2733fb81c34c"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/charmap.txt",
+      "sha256": "8c1db143d4f5f8186a6853d076b8b5dbd5d505b64e3c04ed79fe75afa54b7e9c"
+    },
+    {
+      "local": "outputs/corpus-inputs/qid_msg.txt",
+      "sha256": "bafdfb4540e8b766e7cbc947890b12164234d81f1ca039f2bdfadc8dd1d5d1b8"
+    },
+    {
+      "local": "outputs/corpus-inputs/ja-Hrkt_msg.txt",
+      "sha256": "8bc1ba84bd6fba37071f9082a63fcbabcf84f66ee5dfce8e71428cf1a032e038"
+    }
+  ],
+  "tableSha256": "55f8b8c505c1d4a54193e0b59ff841d423256815bf8df3d539e03023d7fc4de5",
+  "groups": [
+    [
+      14,
+      70,
+      74,
+      106,
+      107,
+      108,
+      110,
+      111,
+      121,
+      123,
+      125,
+      148,
+      150,
+      151,
+      155,
+      156,
+      159,
+      164,
+      170,
+      173,
+      182,
+      191,
+      203,
+      205,
+      207,
+      214,
+      237,
+      244,
+      245,
+      266,
+      271,
+      274,
+      275,
+      282,
+      293,
+      310,
+      316,
+      320,
+      329,
+      330,
+      334,
+      340
+    ],
+    [
+      100,
+      105,
+      117,
+      133,
+      175,
+      269,
+      339
+    ],
+    [
+      96,
+      97,
+      102,
+      104,
+      140,
+      144,
+      165,
+      184,
+      268,
+      273,
+      280,
+      281,
+      297,
+      298,
+      300,
+      313,
+      346,
+      347
+    ],
+    [
+      1,
+      10,
+      11,
+      17,
+      19,
+      20,
+      21,
+      30,
+      35,
+      37,
+      39,
+      43,
+      44,
+      45,
+      46,
+      47,
+      64,
+      71,
+      81,
+      89,
+      90,
+      91,
+      92,
+      103,
+      118,
+      122,
+      128,
+      132,
+      139,
+      145,
+      163,
+      169,
+      171,
+      174,
+      193,
+      204,
+      213,
+      249,
+      253,
+      255,
+      256,
+      259,
+      260,
+      272,
+      283,
+      321,
+      343
+    ],
+    []
+  ],
+  "particleTextsByGroup": [
+    "は",
+    "は",
+    "は",
+    "の",
+    "の"
+  ],
+  "suffixSourcesByGroup": [
+    "BattleText_Exclamation2",
+    "BattleText_Exclamation3",
+    "BattleText_Exclamation4",
+    "BattleText_Exclamation5",
+    "BattleText_Exclamation"
+  ],
+  "roms": [
+    {
+      "gameCode": "AXPJ",
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+      "revision": 0,
+      "moveTableOffset": 4049744,
+      "moveTablePointerReferences": [
+        1166260,
+        1166356
+      ],
+      "selectorFunctions": {
+        "particle": 1166204,
+        "suffix": 1166292
+      },
+      "selectorCodeSha256": "8a9c0e23be241f36855251fa7ece825c7cbfc682d81fe3e9008e9e69c51ce031",
+      "movesChecked": 354,
+      "maxInterpretedInstructions": 1206,
+      "particleOffsetsByGroup": {
+        "3": 4049616,
+        "4": 4049616,
+        "0": 4049614,
+        "2": 4049614,
+        "1": 4049614
+      },
+      "suffixOffsets": {
+        "BattleText_Exclamation5": 4046536,
+        "BattleText_Exclamation": 4046543,
+        "BattleText_Exclamation2": 4046518,
+        "BattleText_Exclamation4": 4046530,
+        "BattleText_Exclamation3": 4046526
+      },
+      "literals": {
+        "BattleStatText_Attack": {
+          "offsets": [
+            4046551
+          ],
+          "bytesSha256": "807b1a02e3230e819323abbe8ddac21235dcbd36d21a85f71b9b0542e6ee0c04"
+        },
+        "BattleStatText_Defense": {
+          "offsets": [
+            4046559
+          ],
+          "bytesSha256": "8d2d7eb7aff6af10cda104035d03c200a017b188ca6ee71af8e33edea6d036af"
+        },
+        "BattleStatText_Speed": {
+          "offsets": [
+            4046567,
+            4106009
+          ],
+          "bytesSha256": "47ba347ecff15d68d5ebd5b90db417159bd5d5f6ff6fe823b3fc8bb8a94d455d"
+        },
+        "BattleStatText_SpAtk": {
+          "offsets": [
+            4046572,
+            4049484,
+            4104468,
+            4105999
+          ],
+          "bytesSha256": "16f398c8fdad11c08adcc1af7197491ba9a8eac561a757f3a9416aabcf55d693"
+        },
+        "BattleStatText_SpDef": {
+          "offsets": [
+            4046577,
+            4049489,
+            4104473,
+            4106004
+          ],
+          "bytesSha256": "50362ac0660a445c987d608f5b2158658d419d55a8fd901c3ce996714a3f6065"
+        },
+        "BattleStatText_Accuracy": {
+          "offsets": [
+            4046582
+          ],
+          "bytesSha256": "65afd28174ed802617b6791a0ba5ba30e68d5478d77bb4c0dffea11e93faa638"
+        },
+        "BattleStatText_Evasion": {
+          "offsets": [
+            4046590
+          ],
+          "bytesSha256": "e69c72ab46e10da4cda2209614dcab7773f904c6b078743ab856da13f23234a7"
+        },
+        "BattleText_Sharply": {
+          "offsets": [
+            4044541
+          ],
+          "bytesSha256": "1cec16f69829afac8491c972bb47c1e2b8b0a49c4bab1969a5a9e620e8fdaa41"
+        },
+        "BattleText_Rose": {
+          "offsets": [
+            4041419,
+            4043850,
+            4044042,
+            4044547
+          ],
+          "bytesSha256": "881ba672d52f3076aadd88b758d26f6dba586d4b5ebf2d11528c3821f6d57db8"
+        },
+        "BattleText_Harshly": {
+          "offsets": [
+            4044553
+          ],
+          "bytesSha256": "c8e271bdf1983650d255a16b57e464657b0670f333e0f944103ea98841bd557f"
+        },
+        "BattleText_Fell": {
+          "offsets": [
+            3800094,
+            4044086,
+            4044559
+          ],
+          "bytesSha256": "dc9c7144eccebeae21aeb69dd7209982e8a86c0765b9db746833868408777f9a"
+        },
+        "BattleText_Wild": {
+          "offsets": [
+            4046468
+          ],
+          "bytesSha256": "6387c49642ab61faf0708ca92e6c6769c5846089f93d338eeab444d6266338ce"
+        },
+        "BattleText_Foe": {
+          "offsets": [
+            4046474
+          ],
+          "bytesSha256": "d879b5feaa04a78dcff8113233d3c462880f49a6bf3dce5e0c9e638db3ce6c4a"
+        }
+      }
+    },
+    {
+      "gameCode": "AXVJ",
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "revision": 0,
+      "moveTableOffset": 4049772,
+      "moveTablePointerReferences": [
+        1166260,
+        1166356
+      ],
+      "selectorFunctions": {
+        "particle": 1166204,
+        "suffix": 1166292
+      },
+      "selectorCodeSha256": "5885128d5ce716e440e5a017fb293d2b123b3aeaf5711e3cf8e375b3b5265142",
+      "movesChecked": 354,
+      "maxInterpretedInstructions": 1206,
+      "particleOffsetsByGroup": {
+        "3": 4049644,
+        "4": 4049644,
+        "0": 4049642,
+        "2": 4049642,
+        "1": 4049642
+      },
+      "suffixOffsets": {
+        "BattleText_Exclamation5": 4046564,
+        "BattleText_Exclamation": 4046571,
+        "BattleText_Exclamation2": 4046546,
+        "BattleText_Exclamation4": 4046558,
+        "BattleText_Exclamation3": 4046554
+      },
+      "literals": {
+        "BattleStatText_Attack": {
+          "offsets": [
+            4046579
+          ],
+          "bytesSha256": "807b1a02e3230e819323abbe8ddac21235dcbd36d21a85f71b9b0542e6ee0c04"
+        },
+        "BattleStatText_Defense": {
+          "offsets": [
+            4046587
+          ],
+          "bytesSha256": "8d2d7eb7aff6af10cda104035d03c200a017b188ca6ee71af8e33edea6d036af"
+        },
+        "BattleStatText_Speed": {
+          "offsets": [
+            4046595,
+            4106033
+          ],
+          "bytesSha256": "47ba347ecff15d68d5ebd5b90db417159bd5d5f6ff6fe823b3fc8bb8a94d455d"
+        },
+        "BattleStatText_SpAtk": {
+          "offsets": [
+            4046600,
+            4049512,
+            4104492,
+            4106023
+          ],
+          "bytesSha256": "16f398c8fdad11c08adcc1af7197491ba9a8eac561a757f3a9416aabcf55d693"
+        },
+        "BattleStatText_SpDef": {
+          "offsets": [
+            4046605,
+            4049517,
+            4104497,
+            4106028
+          ],
+          "bytesSha256": "50362ac0660a445c987d608f5b2158658d419d55a8fd901c3ce996714a3f6065"
+        },
+        "BattleStatText_Accuracy": {
+          "offsets": [
+            4046610
+          ],
+          "bytesSha256": "65afd28174ed802617b6791a0ba5ba30e68d5478d77bb4c0dffea11e93faa638"
+        },
+        "BattleStatText_Evasion": {
+          "offsets": [
+            4046618
+          ],
+          "bytesSha256": "e69c72ab46e10da4cda2209614dcab7773f904c6b078743ab856da13f23234a7"
+        },
+        "BattleText_Sharply": {
+          "offsets": [
+            4044569
+          ],
+          "bytesSha256": "1cec16f69829afac8491c972bb47c1e2b8b0a49c4bab1969a5a9e620e8fdaa41"
+        },
+        "BattleText_Rose": {
+          "offsets": [
+            4041447,
+            4043878,
+            4044070,
+            4044575
+          ],
+          "bytesSha256": "881ba672d52f3076aadd88b758d26f6dba586d4b5ebf2d11528c3821f6d57db8"
+        },
+        "BattleText_Harshly": {
+          "offsets": [
+            4044581
+          ],
+          "bytesSha256": "c8e271bdf1983650d255a16b57e464657b0670f333e0f944103ea98841bd557f"
+        },
+        "BattleText_Fell": {
+          "offsets": [
+            3800122,
+            4044114,
+            4044587
+          ],
+          "bytesSha256": "dc9c7144eccebeae21aeb69dd7209982e8a86c0765b9db746833868408777f9a"
+        },
+        "BattleText_Wild": {
+          "offsets": [
+            4046496
+          ],
+          "bytesSha256": "6387c49642ab61faf0708ca92e6c6769c5846089f93d338eeab444d6266338ce"
+        },
+        "BattleText_Foe": {
+          "offsets": [
+            4046502
+          ],
+          "bytesSha256": "d879b5feaa04a78dcff8113233d3c462880f49a6bf3dce5e0c9e638db3ce6c4a"
+        }
+      }
+    }
+  ],
+  "boundary": "No whole-battle-script or live execution. Stat source semantics also use pinned source call-site review; generated rules do not approve Chinese."
+}

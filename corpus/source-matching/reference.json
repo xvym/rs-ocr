@@ -1,0 +1,659 @@
+{
+  "schemaVersion": 1,
+  "scope": "27 direct-source reviewed probes, including fixed-set Japanese and explicit typed contexts; not exhaustive 579-region source accuracy",
+  "independence": {
+    "blind": false,
+    "human": false,
+    "method": "separate source-text judgments and source-hash binding; same model authored implementation",
+    "limitation": "Additional candidates are not scored as correct unless the candidate set was exhaustively reviewed."
+  },
+  "cases": [
+    {
+      "id": "ability-dialogue",
+      "input": {
+        "japanese": "ポケモンの とくせいに よっては\nわざの いりょくが かわったり"
+      },
+      "expectedSourceQids": [
+        "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D69A"
+      ],
+      "completeCandidateSet": false,
+      "reason": "原记录前两行；下一行由滚动控制引入，当前窗口不包含该行。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D69A",
+          "japanese": "ポケモンの　とくせいに　よっては\\nわざの　いりょくが　かわったり\\rまったく　きかなかったり　するよ！",
+          "english": "Depending on the special abilities of\\nPOKéMON, some moves might change\\ror not work at all.",
+          "game": "both",
+          "line": 1591,
+          "japaneseSha256": "6fc68efa2f11516d157c64a70ab25bbbdf8b1fb3fc442e4e0de3cececaf0c84c"
+        }
+      ]
+    },
+    {
+      "id": "gym-before-scroll",
+      "input": {
+        "japanese": "この まちの ジムリーダー\nなんといっても あの コンビネーションは"
+      },
+      "expectedSourceQids": [
+        "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F"
+      ],
+      "completeCandidateSet": false,
+      "reason": "原记录第1、2行。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F",
+          "japanese": "この　まちの　ジムリーダー\\nなんといっても　あの　コンビネーションは\\rさいこう！　さすが！　って　かんじよ",
+          "english": "The GYM LEADERS in this town are a\\nformidable duo.\\cTheir combination attacks are, like,\\nexcellent and wow!",
+          "game": "both",
+          "line": 1590,
+          "japaneseSha256": "d6947a51c4c8f11a6525dfdafa3f91344acfb4e8ea49c2225ac0d988c50420dc"
+        }
+      ]
+    },
+    {
+      "id": "gym-after-scroll",
+      "input": {
+        "japanese": "なんといっても あの コンビネーションは\nさいこう！ さすが！ って かんじよ"
+      },
+      "expectedSourceQids": [
+        "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F"
+      ],
+      "completeCandidateSet": false,
+      "reason": "原记录第2、3行；上滚后保留相邻两行。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F",
+          "japanese": "この　まちの　ジムリーダー\\nなんといっても　あの　コンビネーションは\\rさいこう！　さすが！　って　かんじよ",
+          "english": "The GYM LEADERS in this town are a\\nformidable duo.\\cTheir combination attacks are, like,\\nexcellent and wow!",
+          "game": "both",
+          "line": 1590,
+          "japaneseSha256": "d6947a51c4c8f11a6525dfdafa3f91344acfb4e8ea49c2225ac0d988c50420dc"
+        }
+      ]
+    },
+    {
+      "id": "nurse-welcome",
+      "input": {
+        "japanese": "おつかれさまです！\nポケモン センター です"
+      },
+      "expectedSourceQids": [
+        "rs.script.pkmn_center_nurse.gText_NurseJoy_Welcome"
+      ],
+      "completeCandidateSet": false,
+      "reason": "同一源记录的三个清屏分段，分别定位；不据此发布其他分段。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.pkmn_center_nurse.gText_NurseJoy_Welcome",
+          "japanese": "おつかれさまです！\\nポケモン　センター　です\\cここでは　ポケモンの\\nたいりょく　かいふくを　します\\cあなたの　ポケモンを\\nやすませて　あげますか？",
+          "english": "Hello, and welcome to the POKéMON\\nCENTER.\\cWe restore your tired POKéMON to\\nfull health.\\cWould you like to rest your POKéMON?",
+          "game": "both",
+          "line": 2436,
+          "japaneseSha256": "d16fa187d15f7f203f9d77559f4952d65160cd99aa9590325ccf292e8795f104"
+        }
+      ]
+    },
+    {
+      "id": "nurse-recover",
+      "input": {
+        "japanese": "ここでは ポケモンの\nたいりょく かいふくを します"
+      },
+      "expectedSourceQids": [
+        "rs.script.pkmn_center_nurse.gText_NurseJoy_Welcome"
+      ],
+      "completeCandidateSet": false,
+      "reason": "同一源记录的三个清屏分段，分别定位；不据此发布其他分段。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.pkmn_center_nurse.gText_NurseJoy_Welcome",
+          "japanese": "おつかれさまです！\\nポケモン　センター　です\\cここでは　ポケモンの\\nたいりょく　かいふくを　します\\cあなたの　ポケモンを\\nやすませて　あげますか？",
+          "english": "Hello, and welcome to the POKéMON\\nCENTER.\\cWe restore your tired POKéMON to\\nfull health.\\cWould you like to rest your POKéMON?",
+          "game": "both",
+          "line": 2436,
+          "japaneseSha256": "d16fa187d15f7f203f9d77559f4952d65160cd99aa9590325ccf292e8795f104"
+        }
+      ]
+    },
+    {
+      "id": "nurse-question",
+      "input": {
+        "japanese": "あなたの ポケモンを\nやすませて あげますか？"
+      },
+      "expectedSourceQids": [
+        "rs.script.pkmn_center_nurse.gText_NurseJoy_Welcome"
+      ],
+      "completeCandidateSet": false,
+      "reason": "同一源记录的三个清屏分段，分别定位；不据此发布其他分段。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.pkmn_center_nurse.gText_NurseJoy_Welcome",
+          "japanese": "おつかれさまです！\\nポケモン　センター　です\\cここでは　ポケモンの\\nたいりょく　かいふくを　します\\cあなたの　ポケモンを\\nやすませて　あげますか？",
+          "english": "Hello, and welcome to the POKéMON\\nCENTER.\\cWe restore your tired POKéMON to\\nfull health.\\cWould you like to rest your POKéMON?",
+          "game": "both",
+          "line": 2436,
+          "japaneseSha256": "d16fa187d15f7f203f9d77559f4952d65160cd99aa9590325ccf292e8795f104"
+        }
+      ]
+    },
+    {
+      "id": "nurse-take",
+      "input": {
+        "japanese": "それでは\nおあずかり いたします！"
+      },
+      "expectedSourceQids": [
+        "rs.script.event_scripts.gText_NurseJoy_OkayIllTakeYourPokemon"
+      ],
+      "completeCandidateSet": false,
+      "reason": "静态完整两行，只差排版空白。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.event_scripts.gText_NurseJoy_OkayIllTakeYourPokemon",
+          "japanese": "それでは\\nおあずかり　いたします！",
+          "english": "Okay, I'll take your POKéMON for a\\nfew seconds.",
+          "game": "both",
+          "line": 2481,
+          "japaneseSha256": "69a30efa8ea6268d23e1a977725c892a0365dccffccb8e2312feb87aa3541891"
+        }
+      ]
+    },
+    {
+      "id": "nurse-return",
+      "input": {
+        "japanese": "またの\nごりようを おまち してます！"
+      },
+      "expectedSourceQids": [
+        "rs.script.record_mix.UnusedMixRecordsSeeYouAgainText",
+        "rs.script.pkmn_center_nurse.gText_NurseJoy_WeHopeToSeeYouAgain"
+      ],
+      "completeCandidateSet": false,
+      "reason": "原语料中有相同全文的未使用与实际脚本记录，两个来源均须保留。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.record_mix.UnusedMixRecordsSeeYouAgainText",
+          "japanese": "またの\\nごりようを　おまち　してます！",
+          "english": "We hope to see you again!",
+          "game": "both",
+          "line": 2429,
+          "japaneseSha256": "3269ddc2d611d7d51034a26e3ece364ee1b36c51c8b573863b1a1b1fc8ffb7bb"
+        },
+        {
+          "qid": "rs.script.pkmn_center_nurse.gText_NurseJoy_WeHopeToSeeYouAgain",
+          "japanese": "またの\\nごりようを　おまち　してます！",
+          "english": "We hope to see you again!",
+          "game": "both",
+          "line": 2437,
+          "japaneseSha256": "3269ddc2d611d7d51034a26e3ece364ee1b36c51c8b573863b1a1b1fc8ffb7bb"
+        }
+      ]
+    },
+    {
+      "id": "bookshelf-title",
+      "input": {
+        "japanese": "ポケモンざっしが ならんでる！"
+      },
+      "expectedSourceQids": [
+        "rs.script.check_furniture.Text_PokemonCenterBookshelf"
+      ],
+      "completeCandidateSet": false,
+      "reason": "书架记录首段或清屏后的两行／滚动窗口；日英分页不同。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.check_furniture.Text_PokemonCenterBookshelf",
+          "japanese": "ポケモンざっしが　ならんでる！\\c‥‥「ポケモンのとも」\\n‥‥「ポケモン　てちょう」\\r‥‥「かわいい　ポケモン」",
+          "english": "POKéMON magazines!\\nPOKéMON PAL...\\cPOKéMON HANDBOOK...\\nADORABLE POKéMON...",
+          "game": "both",
+          "line": 4210,
+          "japaneseSha256": "87cf46ff9bf2622ac17a9362c7a266c572da62607c5da53445580ea640e7de09"
+        }
+      ]
+    },
+    {
+      "id": "bookshelf-before-scroll",
+      "input": {
+        "japanese": "‥‥「ポケモンのとも」\n‥‥「ポケモン てちょう」"
+      },
+      "expectedSourceQids": [
+        "rs.script.check_furniture.Text_PokemonCenterBookshelf"
+      ],
+      "completeCandidateSet": false,
+      "reason": "书架记录首段或清屏后的两行／滚动窗口；日英分页不同。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.check_furniture.Text_PokemonCenterBookshelf",
+          "japanese": "ポケモンざっしが　ならんでる！\\c‥‥「ポケモンのとも」\\n‥‥「ポケモン　てちょう」\\r‥‥「かわいい　ポケモン」",
+          "english": "POKéMON magazines!\\nPOKéMON PAL...\\cPOKéMON HANDBOOK...\\nADORABLE POKéMON...",
+          "game": "both",
+          "line": 4210,
+          "japaneseSha256": "87cf46ff9bf2622ac17a9362c7a266c572da62607c5da53445580ea640e7de09"
+        }
+      ]
+    },
+    {
+      "id": "bookshelf-after-scroll",
+      "input": {
+        "japanese": "‥‥「ポケモン てちょう」\n‥‥「かわいい ポケモン」"
+      },
+      "expectedSourceQids": [
+        "rs.script.check_furniture.Text_PokemonCenterBookshelf"
+      ],
+      "completeCandidateSet": false,
+      "reason": "书架记录首段或清屏后的两行／滚动窗口；日英分页不同。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.check_furniture.Text_PokemonCenterBookshelf",
+          "japanese": "ポケモンざっしが　ならんでる！\\c‥‥「ポケモンのとも」\\n‥‥「ポケモン　てちょう」\\r‥‥「かわいい　ポケモン」",
+          "english": "POKéMON magazines!\\nPOKéMON PAL...\\cPOKéMON HANDBOOK...\\nADORABLE POKéMON...",
+          "game": "both",
+          "line": 4210,
+          "japaneseSha256": "87cf46ff9bf2622ac17a9362c7a266c572da62607c5da53445580ea640e7de09"
+        }
+      ]
+    },
+    {
+      "id": "boot-pc",
+      "input": {
+        "japanese": "ハルカは\nパソコンの スイッチを いれた！"
+      },
+      "expectedSourceQids": [
+        "rs.script.pc.Text_BootUpPC",
+        "rs.script.secret_base.SecretBase_Text_BootUpPC"
+      ],
+      "completeCandidateSet": false,
+      "reason": "两份原记录均为[PLAYER]模板；ハルカ为当前可见捕获，不能借此推断唯一脚本来源或自动确认玩家身份。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.pc.Text_BootUpPC",
+          "japanese": "[PLAYER]は\\nパソコンの　スイッチを　いれた！",
+          "english": "[PLAYER] booted up the PC.",
+          "game": "both",
+          "line": 2430,
+          "japaneseSha256": "b4ee60e9c242dd2366862fcc2cb38236946528f666dc9838d4d55a9ae34c2d22"
+        },
+        {
+          "qid": "rs.script.secret_base.SecretBase_Text_BootUpPC",
+          "japanese": "[PLAYER]は\\nパソコンの　スイッチを　いれた！",
+          "english": "[PLAYER] booted up the PC.",
+          "game": "both",
+          "line": 2589,
+          "japaneseSha256": "b4ee60e9c242dd2366862fcc2cb38236946528f666dc9838d4d55a9ae34c2d22"
+        }
+      ]
+    },
+    {
+      "id": "pc-question",
+      "input": {
+        "japanese": "どこの パソコンに せつぞく して\nつうしん しますか？"
+      },
+      "expectedSourceQids": [
+        "rs.script.pc.Text_WhichPCShouldBeAccessed"
+      ],
+      "completeCandidateSet": false,
+      "reason": "完整两行。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.pc.Text_WhichPCShouldBeAccessed",
+          "japanese": "どこの　パソコンに　せつぞく　して\\nつうしん　しますか？",
+          "english": "Which PC should be accessed?",
+          "game": "both",
+          "line": 2431,
+          "japaneseSha256": "ad812af69e5dce688c61656f8d51ab2feebc8a9d54d048893b39c471f2a5810c"
+        }
+      ]
+    },
+    {
+      "id": "pc-lanette",
+      "input": {
+        "japanese": "マユミの パソコンに せつぞく した！"
+      },
+      "expectedSourceQids": [
+        "rs.script.pc.Text_AccessedLanettesPC"
+      ],
+      "completeCandidateSet": false,
+      "reason": "完整静态句。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.pc.Text_AccessedLanettesPC",
+          "japanese": "マユミの　パソコンに　せつぞく　した！",
+          "english": "Accessed LANETTE's PC.",
+          "game": "both",
+          "line": 2435,
+          "japaneseSha256": "adbe3a560d7239db692e582c9bf041be0ac699c23a2652930e64bf7a211b1ce2"
+        }
+      ]
+    },
+    {
+      "id": "pc-open",
+      "input": {
+        "japanese": "ポケモンの あずかり システムを\nよびだした！"
+      },
+      "expectedSourceQids": [
+        "rs.script.pc.Text_StorageSystemOpened"
+      ],
+      "completeCandidateSet": false,
+      "reason": "完整两行。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.script.pc.Text_StorageSystemOpened",
+          "japanese": "ポケモンの　あずかり　システムを\\nよびだした！",
+          "english": "POKéMON Storage System opened.",
+          "game": "both",
+          "line": 2433,
+          "japaneseSha256": "bd2032fce40c22123267964d7ee700928fcac3e6e5c7da5823a6cd8eb3665c62"
+        }
+      ]
+    },
+    {
+      "id": "pc-help",
+      "input": {
+        "japanese": "ボックスに あずけている ポケモンを\nてもちに くわえる ことが できます"
+      },
+      "expectedSourceQids": [
+        "rs.common.strings.PCText_MovePokeToParty"
+      ],
+      "completeCandidateSet": false,
+      "reason": "两行源文的尾随空格不影响来源。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.strings.PCText_MovePokeToParty",
+          "japanese": "ボックスに　あずけている　ポケモンを　\\nてもちに　くわえる　ことが　できます　",
+          "english": "Move POKéMON stored in BOXES to\\nyour party.",
+          "game": "both",
+          "line": 13061,
+          "japaneseSha256": "b6758f4fd39bb5c3d8461083e2ba55a90709be4879b53c73840e3bb95515e613"
+        }
+      ]
+    },
+    {
+      "id": "pc-withdraw-item",
+      "input": {
+        "japanese": "どうぐを ひきだす"
+      },
+      "expectedSourceQids": [
+        "rs.common.strings.PCText_WithdrawItem"
+      ],
+      "completeCandidateSet": false,
+      "reason": "完整菜单项。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.strings.PCText_WithdrawItem",
+          "japanese": "どうぐを　ひきだす",
+          "english": "WITHDRAW ITEM",
+          "game": "both",
+          "line": 12750,
+          "japaneseSha256": "47cc56ff656dab97bee8625a4f38227659d514e21f1259e5b5905b3dbf4ff582"
+        }
+      ]
+    },
+    {
+      "id": "antidote-description",
+      "input": {
+        "japanese": "どく じょうたいを\nかいふくする"
+      },
+      "expectedSourceQids": [
+        "rs.common.item_descriptions.gItemDescription_Antidote"
+      ],
+      "completeCandidateSet": false,
+      "reason": "完整道具说明。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.item_descriptions.gItemDescription_Antidote",
+          "japanese": "どく　じょうたいを\\nかいふくする",
+          "english": "Heals a poisoned\\nPOKéMON.",
+          "game": "both",
+          "line": 8376,
+          "japaneseSha256": "d8502f0800d0837d00a88773a0e33064e09a105eeab81f04d758e8c508efcde4"
+        }
+      ]
+    },
+    {
+      "id": "hyper-potion",
+      "input": {
+        "japanese": "すごいキズぐすり",
+        "kind": "item"
+      },
+      "expectedSourceQids": [
+        "rs.common.items.gItems.21"
+      ],
+      "completeCandidateSet": true,
+      "reason": "完整道具名，物品类型约束。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.items.gItems.21",
+          "japanese": "すごいキズぐすり",
+          "english": "HYPER POTION",
+          "game": "both",
+          "line": 8666,
+          "japaneseSha256": "aa0514078995ff5e71628fe81dd841bfcc807ce8cd3b6799583a1d1d368bfdeb"
+        }
+      ]
+    },
+    {
+      "id": "mud-shot",
+      "input": {
+        "japanese": "マッドショット",
+        "kind": "move"
+      },
+      "expectedSourceQids": [
+        "rs.common.move_names.gMoveNames.341"
+      ],
+      "completeCandidateSet": true,
+      "reason": "完整招式名，招式类型约束。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.move_names.gMoveNames.341",
+          "japanese": "マッドショット",
+          "english": "MUD SHOT",
+          "game": "both",
+          "line": 5753,
+          "japaneseSha256": "b5079869a59ca02425062500be9d88f7f6c92ab0361e91df4730382f3c8a35c3"
+        }
+      ]
+    },
+    {
+      "id": "hardy",
+      "input": {
+        "japanese": "がんばりや",
+        "kind": "nature"
+      },
+      "expectedSourceQids": [
+        "rs.common.nature_names.NatureName_Hardy"
+      ],
+      "completeCandidateSet": true,
+      "reason": "完整性格名。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.nature_names.NatureName_Hardy",
+          "japanese": "がんばりや",
+          "english": "HARDY",
+          "game": "both",
+          "line": 8336,
+          "japaneseSha256": "d9dd801d5b96932c288fe081523347bb8ce095403908a201f0a30b774501a03e"
+        }
+      ]
+    },
+    {
+      "id": "rain-start",
+      "input": {
+        "japanese": "あめが ふりはじめた！"
+      },
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_RainStart"
+      ],
+      "completeCandidateSet": false,
+      "reason": "完整战斗消息；其他含相同句尾的模板也可能构成候选。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_RainStart",
+          "japanese": "あめが　ふりはじめた！",
+          "english": "It started to rain!",
+          "game": "both",
+          "line": 11889,
+          "japaneseSha256": "842d345b7e97c949e99b5fa5864fcfd2290e3a4c367a2027b759a51d81638261"
+        }
+      ]
+    },
+    {
+      "id": "super-effective",
+      "input": {
+        "japanese": "こうかは ばつぐんだ！",
+        "kind": "battle"
+      },
+      "expectedSourceQids": [
+        "rs.common.battle_strings.BattleText_SuperEffective"
+      ],
+      "completeCandidateSet": false,
+      "reason": "完整战斗提示。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.battle_strings.BattleText_SuperEffective",
+          "japanese": "こうかは　ばつぐんだ！",
+          "english": "It's super effective!",
+          "game": "both",
+          "line": 11869,
+          "japaneseSha256": "e97685b2817f423218344a5b0df39d29215c9cd8e6e0ff7209e4db0a6e5c0662"
+        }
+      ]
+    },
+    {
+      "id": "ghost-species",
+      "input": {
+        "japanese": "ゴースト",
+        "kind": "species"
+      },
+      "expectedSourceQids": [
+        "rs.common.species_names.gSpeciesNames.93"
+      ],
+      "completeCandidateSet": true,
+      "reason": "物种上下文为鬼斯通，不可选属性记录。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.species_names.gSpeciesNames.93",
+          "japanese": "ゴースト",
+          "english": "HAUNTER",
+          "game": "both",
+          "line": 5093,
+          "japaneseSha256": "d678372d713747469b10f4792cf13db56b08c0d18951f29918223489534c676a"
+        }
+      ]
+    },
+    {
+      "id": "ghost-type",
+      "input": {
+        "japanese": "ゴースト",
+        "kind": "type"
+      },
+      "expectedSourceQids": [
+        "rs.common.type_names.gTypeNames.7"
+      ],
+      "completeCandidateSet": true,
+      "reason": "属性上下文为幽灵，不可选物种记录。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.type_names.gTypeNames.7",
+          "japanese": "ゴースト",
+          "english": "GHOST",
+          "game": "both",
+          "line": 5775,
+          "japaneseSha256": "d678372d713747469b10f4792cf13db56b08c0d18951f29918223489534c676a"
+        }
+      ]
+    },
+    {
+      "id": "heracross-raw",
+      "input": {
+        "japanese": "へラクロス",
+        "kind": "species",
+        "alternatives": [
+          {
+            "index": 0,
+            "raw": "へ",
+            "candidates": [
+              "へ",
+              "ヘ"
+            ],
+            "font": 3,
+            "distance": 0
+          }
+        ]
+      },
+      "expectedSourceQids": [
+        "rs.common.species_names.gSpeciesNames.214"
+      ],
+      "completeCandidateSet": true,
+      "reason": "固定集OCR输出平假名へ，字体3距离0同时保留ヘ；只能利用显式字形候选找原记录。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.species_names.gSpeciesNames.214",
+          "japanese": "ヘラクロス",
+          "english": "HERACROSS",
+          "game": "both",
+          "line": 5214,
+          "japaneseSha256": "fb20cd65619e1f7cc513171a3794c257aa8e55ec0777138fd356e6b02eedd212"
+        }
+      ]
+    },
+    {
+      "id": "pikachu",
+      "input": {
+        "japanese": "ピカチュウ",
+        "kind": "species"
+      },
+      "expectedSourceQids": [
+        "rs.common.species_names.gSpeciesNames.25"
+      ],
+      "completeCandidateSet": true,
+      "reason": "完整物种名。",
+      "method": "model_direct_source_text_review",
+      "sourceEvidence": [
+        {
+          "qid": "rs.common.species_names.gSpeciesNames.25",
+          "japanese": "ピカチュウ",
+          "english": "PIKACHU",
+          "game": "both",
+          "line": 5025,
+          "japaneseSha256": "7b16d49457004fdad094207a4338434689efcbea538aa71043d941eed6dfdb9a"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "local": "outputs/corpus-inputs/qid_msg.txt",
+      "sha256": "bafdfb4540e8b766e7cbc947890b12164234d81f1ca039f2bdfadc8dd1d5d1b8"
+    },
+    {
+      "local": "outputs/corpus-inputs/ja-Hrkt_msg.txt",
+      "sha256": "8bc1ba84bd6fba37071f9082a63fcbabcf84f66ee5dfce8e71428cf1a032e038"
+    },
+    {
+      "local": "outputs/corpus-inputs/en_msg.txt",
+      "sha256": "c3deee1a461c71d19b9dbeb5e119d477ee9b10cbbcf59c1b045ebd2b2407ab55"
+    }
+  ],
+  "judgmentsSha256": "ea707353a7c69e3754ce24b22a269620224e50b3bbe621228bd5154bd89a0d76"
+}

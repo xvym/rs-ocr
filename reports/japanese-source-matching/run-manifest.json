@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "inputs": [
+    {
+      "local": "outputs/corpus-inputs/qid_msg.txt",
+      "sha256": "bafdfb4540e8b766e7cbc947890b12164234d81f1ca039f2bdfadc8dd1d5d1b8"
+    },
+    {
+      "local": "outputs/corpus-inputs/ja-Hrkt_msg.txt",
+      "sha256": "8bc1ba84bd6fba37071f9082a63fcbabcf84f66ee5dfce8e71428cf1a032e038"
+    },
+    {
+      "local": "outputs/corpus-inputs/en_msg.txt",
+      "sha256": "c3deee1a461c71d19b9dbeb5e119d477ee9b10cbbcf59c1b045ebd2b2407ab55"
+    },
+    {
+      "local": "outputs/corpus-mapping/candidates.csv",
+      "sha256": "ed3e27b1831e6a52a39b81ef672aa27eebb3e414e0d5d25a0849b0ea2daf21ff"
+    },
+    {
+      "local": "outputs/corpus-mapping/runtime.json",
+      "sha256": "095b74d7020c7cb1741fb897f27d849b929ed16248343a7028e8b26d96247c5c"
+    },
+    {
+      "local": "src/main/resources/ocr/labels.json",
+      "sha256": "dd7a9f7e67ecd7b94304ecdd1fda7859f30b37245cdb89acbb8186b593c454e0"
+    },
+    {
+      "local": "src/main/resources/ocr/fonts.json",
+      "sha256": "65d01cd335908c4c0fd8532a8f984b1d2dfaab933b78164fce34242ef5290f46"
+    },
+    {
+      "local": "corpus/battle-matching/rules.json",
+      "sha256": "2bd2db68858a251a6edb8f77873442921e4fcc23463c7444156fec43b49c9752"
+    },
+    {
+      "local": "reports/battle-source-matching/japanese-evidence.json",
+      "sha256": "e024a5e40df6350b60ebbcf98c2a9e03c12a5b72f1ca631cbeeee452fdeef098"
+    },
+    {
+      "local": "outputs/corpus-mapping/records.csv",
+      "sha256": "524d1726bc626b7a496565587834a42772d1de97fb1536586b8947ad24a06c61"
+    },
+    {
+      "local": "src/main/resources/ocr/fonts.json",
+      "sha256": "65d01cd335908c4c0fd8532a8f984b1d2dfaab933b78164fce34242ef5290f46"
+    },
+    {
+      "local": "outputs/battle-source-matching/build-manifest.json",
+      "sha256": "233cb2d0685f19cdf29b09f556c77b3d0b332a5f7fc71aaa54d4ebb5e87d135c"
+    },
+    {
+      "local": "outputs/battle-source-matching/templates.json",
+      "sha256": "9638aa31b81f1313c90069712d3a3a9596027dffee8b0e7c416bfb0f7f3b088c"
+    },
+    {
+      "local": "corpus/battle-matching/review-reference.json",
+      "sha256": "c5e8de04fe6173873ec6e786ac122c2b9335f4c425722000634315b0a5d8c57c"
+    },
+    {
+      "local": "corpus/battle-matching/review-cases.mjs",
+      "sha256": "753bf7bb07d4b31cdd344085300022ae6ece96d353d463a156902d28f5bcd5eb"
+    },
+    {
+      "local": "corpus/source-matching/freeze-manifest.json",
+      "sha256": "aa7f6c3a77cbc9597402bfa191daaaea80c8a68d410a19d36b3e65236ad2c25a"
+    },
+    {
+      "local": "reports/japanese-source-matching/baseline-v1.json",
+      "sha256": "7bf01341b180da0b7ddeb6719afaf43ea1282f2ca3c5fd1830658e988ace8ebe"
+    },
+    {
+      "local": "reports/japanese-source-matching/ocr-inputs.json",
+      "sha256": "962205e007fcc95a2786494c02d5e85cea89cd9a044e5698b89b8231ee15ae86"
+    },
+    {
+      "local": "corpus/source-matching/reference.json",
+      "sha256": "b4396df849ffbd82b75fe7da03107479fd28cd76effc24d170ae3118049053aa"
+    },
+    {
+      "local": "reports/s3-acceptance/predictions.json",
+      "sha256": "b0cfd7b9bae87c5809d5533bd9c3d831610d9d42a955a1d7a78db9652359dff0"
+    },
+    {
+      "local": "reports/s3-acceptance/reference.json",
+      "sha256": "a0dad9cf66144bafee1ca465ebcfc5755fe2fade36f18acfa549e76459999658"
+    }
+  ],
+  "implementation": [
+    {
+      "local": "tools/japanese_source_matcher.mjs",
+      "sha256": "b614c123c639f1c65e79dfeac246af2ab288a815fe9af5dff8bff747ea04b8f5"
+    },
+    {
+      "local": "tools/japanese_source_layout.mjs",
+      "sha256": "9b8463bf505d94498a3ebc9cd9777ded69d4590e65db6ead8f7edca48b7627d9"
+    },
+    {
+      "local": "tools/battle_source_matcher.mjs",
+      "sha256": "7e41793b095550415b6f69eb0fb1fecaae6fba1bdb689b34bda0dec3193f9f6e"
+    },
+    {
+      "local": "tools/build_battle_source_templates.mjs",
+      "sha256": "52cd58c65bf264a991e3dc5cce85e6c45c1e4de05ae7f2a0e6389ad987060dc5"
+    },
+    {
+      "local": "tools/verify_battle_printing.py",
+      "sha256": "bc106e573d94066286d958f8dbd231ac57cb19b4c875ac9488862cc33b8616ea"
+    },
+    {
+      "local": "tools/freeze_battle_source_review.mjs",
+      "sha256": "dd7223edb49014622b05f1db0555d135cdc825b2d6f22f9252ea932151a224c9"
+    },
+    {
+      "local": "tools/test_battle_source_matching.mjs",
+      "sha256": "e899279c5eab152f94f2bca04af329def5037a019a6bcfd45332c0d4675fe441"
+    },
+    {
+      "local": "tools/corpus_common.mjs",
+      "sha256": "58cc7e40e5c443babe2611ea7a6a24b569c3df67867a9ac1d27b6cc6e5133132"
+    },
+    {
+      "local": "tools/resolve_japanese.mjs",
+      "sha256": "207e7b1bb816223aa3d90d3199815907d6bfc5af337e49f9217cbe9890005e7c"
+    },
+    {
+      "local": "tools/evaluate_source_matching.mjs",
+      "sha256": "b0667f3a258497d03541892192f8b2d313f19fb3ccfd2807f97e0f88480c23ea"
+    },
+    {
+      "local": "tools/freeze_source_matching_inputs.mjs",
+      "sha256": "98a9fb67050a96bcd51e87a98ca6da8c3f6fd7c8cd55a732c6e7d4df07d90bfd"
+    },
+    {
+      "local": "tools/freeze_source_matching_review.mjs",
+      "sha256": "dd680d0e286b6ae7ef2d8f9e16cb33787f3f14654ae01c5bc310506f494354b7"
+    },
+    {
+      "local": "tools/freeze_source_matching_baseline.mjs",
+      "sha256": "fc04f30e4fb6ec510db116c70b6e5cedc0239125d3922b20cd033e747396384e"
+    },
+    {
+      "local": "tools/test_source_matching.mjs",
+      "sha256": "0cb43fcf736d9ce565219da38c061a7d0b719015b9585856055d1c65cd614365"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "summary.json",
+      "sha256": "fd6d2c4d31aee30fae07e142c0957d17690f5142f2016ac6c47154fa64e8fa31"
+    },
+    {
+      "file": "results.json",
+      "sha256": "9f9fef173241b18b1c1ca242c1b40e53b8b6f2b8d7ae20b225e04581f61cd116"
+    },
+    {
+      "file": "battle-review.json",
+      "sha256": "db99fdf14b8c2188f2061192feae2c8787168c91f5c5274300b3d6fbbb3d674d"
+    },
+    {
+      "file": "baseline-comparison.json",
+      "sha256": "e0d64a6849f1cdd5ef0a1e35eb57467ad34d60e3fcee406f54951729cffbe02f"
+    },
+    {
+      "file": "worklist.csv",
+      "sha256": "11ed94d8b1a250c2fb169d4aade7522d9edd2d5d1f41d4aae1156264278c6b68"
+    },
+    {
+      "file": "review.html",
+      "sha256": "7a65b1850dfd3cb03fef4bd65a6d2f885d8ce5807bb0fb8b93dcf2a5eac8ba6f"
+    },
+    {
+      "file": "unsupported-sources.json",
+      "sha256": "fe54e5d635775ef6990e80a93ce25220a2c4bed69a31f77ed6289c4ae2a53452"
+    }
+  ]
+}

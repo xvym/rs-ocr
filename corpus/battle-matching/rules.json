@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "rs-japanese-battle-composition-v1",
+  "scope": "offline source matching and structured observed meaning; no Chinese publication",
+  "sourcePrefix": "rs.common.battle_strings.",
+  "normalStatChange": {
+    "upSources": ["BattleText_UnknownString7", "BattleText_UnknownString3"],
+    "downSources": ["BattleText_UnknownString5", "BattleText_UnknownString6"],
+    "stats": [
+      {"id":"attack","source":"BattleStatText_Attack"},
+      {"id":"defense","source":"BattleStatText_Defense"},
+      {"id":"speed","source":"BattleStatText_Speed"},
+      {"id":"special_attack","source":"BattleStatText_SpAtk"},
+      {"id":"special_defense","source":"BattleStatText_SpDef"},
+      {"id":"accuracy","source":"BattleStatText_Accuracy"},
+      {"id":"evasion","source":"BattleStatText_Evasion"}
+    ],
+    "changes": [
+      {"delta":1,"sources":["BattleText_Rose"]},
+      {"delta":2,"sources":["BattleText_Sharply","BattleText_Rose"]},
+      {"delta":-1,"sources":["BattleText_Fell"]},
+      {"delta":-2,"sources":["BattleText_Harshly","BattleText_Fell"]}
+    ]
+  },
+  "moveUse": {
+    "source":"BattleText_OpponentUsedMove",
+    "firstMoveId":1,
+    "lastMoveId":354,
+    "classificationTable":"gUnknown_084016BC",
+    "particles":["は","は","は","の","の"],
+    "suffixSources":["BattleText_Exclamation2","BattleText_Exclamation3","BattleText_Exclamation4","BattleText_Exclamation5","BattleText_Exclamation"]
+  },
+  "actor": {
+    "prefixSources":["BattleText_Wild","BattleText_Foe"],
+    "maxNicknameCharacters":10,
+    "constraintBoundary":"Conservative retrieval bound, not a claim that the Japanese name-entry UI permits ten characters. Full observed display retained; no species or player identity inferred."
+  },
+  "related": [
+    {"id":"stat_ceiling","source":"BattleText_AttackingStatNoHigher","event":"stat_limit","limit":"upper","actors":{"B_ATK_NAME_WITH_PREFIX":"subject"},"finite":{"B_BUFF1":"stats"}},
+    {"id":"stat_floor","source":"BattleText_DefendingStatNoHigher","event":"stat_limit","limit":"lower","actors":{"B_DEF_NAME_WITH_PREFIX":"subject"},"finite":{"B_BUFF1":"stats"}},
+    {"id":"all_stats_ceiling","source":"BattleText_StatNoHigher","event":"stat_limit","limit":"upper","actors":{"B_ATK_NAME_WITH_PREFIX":"subject"}},
+    {"id":"all_stats_floor","source":"BattleText_StatNoLower","event":"stat_limit","limit":"lower","actors":{"B_DEF_NAME_WITH_PREFIX":"subject"}},
+    {"id":"speed_boost","source":"BattleText_SpeedRisen","event":"stat_change","stat":"speed","delta":1,"actors":{"B_SCR_ACTIVE_NAME_WITH_PREFIX":"subject"},"finite":{"B_SCR_ACTIVE_ABILITY":[3]}},
+    {"id":"intimidate","source":"BattleText_CutsAttack","event":"stat_change","stat":"attack","delta":-1,"actors":{"B_SCR_ACTIVE_NAME_WITH_PREFIX":"cause","B_DEF_NAME_WITH_PREFIX":"subject"},"finite":{"B_SCR_ACTIVE_ABILITY":[22]}},
+    {"id":"prevent_stat_loss","source":"BattleText_PreventedStatLoss","event":"stat_loss_prevented","actors":{"B_SCR_ACTIVE_NAME_WITH_PREFIX":"subject"},"finite":{"B_SCR_ACTIVE_ABILITY":[29,73]}},
+    {"id":"copy_stat_changes","source":"BattleText_CopyStatChanges","event":"stat_changes_copied","actors":{"B_ATK_NAME_WITH_PREFIX":"subject","B_DEF_NAME_WITH_PREFIX":"copied_from"}},
+    {"id":"reset_stat_changes","source":"BattleText_StatElim","event":"stat_changes_reset","actors":{}},
+    {"id":"flash_fire","source":"BattleText_RaisedFirePower","event":"fire_power_boosted","actors":{"B_DEF_NAME_WITH_PREFIX":"subject"},"finite":{"B_DEF_ABILITY":[18]}},
+    {"id":"item_use","source":"BattleText_Used1","event":"item_use","actors":{"B_PLAYER_NAME":"subject"},"finite":{"B_LAST_ITEM":"items"}},
+    {"id":"trainer_item_use","source":"BattleText_Used2","event":"item_use","actors":{"B_TRAINER1_NAME":"subject"},"finite":{"B_TRAINER1_CLASS":"trainer_classes","B_LAST_ITEM":"items"}},
+    {"id":"tutorial_item_use","source":"BattleText_TutorialUsed","event":"item_use","actors":{},"finite":{"B_LAST_ITEM":"items"}},
+    {"id":"copy_ability","source":"BattleText_CopiedObject","event":"ability_copied","actors":{"B_ATK_NAME_WITH_PREFIX":"subject","B_DEF_NAME_WITH_PREFIX":"copied_from"},"finite":{"B_DEF_ABILITY":"abilities"}}
+  ],
+  "releasePolicy":"All source candidates remain reviewable. Matching/meaning agreement does not approve Chinese, infer actual species, resolve attacking/defending script identity, or validate live timing."
+}
