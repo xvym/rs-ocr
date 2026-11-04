@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+  "repositoryTextFiles": 35,
+  "indexedProjectTextEntries": 27122,
+  "parseErrors": [],
+  "missingUniqueQids": 1772,
+  "missingGamePairs": 3539,
+  "perGamePairRetrieval": {
+    "bilingual_duplicate_found": 178,
+    "braille_requires_decoding": 44,
+    "control_symbol_or_placeholder": 374,
+    "debug_or_sound_test": 876,
+    "english_whole_candidate_found": 256,
+    "japanese_whole_candidate_found": 103,
+    "not_found_by_whole_retrieval": 1708
+  },
+  "uniqueQidsByRetrieval": {
+    "bilingual_duplicate_found": 89,
+    "braille_requires_decoding": 22,
+    "control_symbol_or_placeholder": 187,
+    "debug_or_sound_test": 438,
+    "english_whole_candidate_found": 128,
+    "japanese_whole_candidate_found": 52,
+    "not_found_by_whole_retrieval": 856
+  },
+  "actualUpstreamMissingConfirmed": null,
+  "method": "Whole Japanese/English duplicate retrieval plus English full-text ranking, followed by separately recorded model semantic review; no embedding model, translation generation or automatic publication.",
+  "limitation": "Ranked candidates and duplicate wording are retrieval evidence, not semantic equivalence. Absence from retrieval never proves absence from the project. Easy Chat omission is a project-level documented limitation; reusable words elsewhere are checked separately.",
+  "semanticReview": {
+    "method": "non_blind_model_comparison_of_original_quotes; no Chinese authored, rewritten, concatenated or published",
+    "reviewedQids": 280,
+    "confirmedOriginalCorrespondenceQids": 196,
+    "originalSourceSpanQids": 1,
+    "partialOriginalSegmentQids": 27,
+    "counts": {
+      "braille_requires_decoding": 22,
+      "control_symbol_or_placeholder": 187,
+      "debug_or_sound_test": 438,
+      "not_confirmed": 56,
+      "not_found_by_whole_retrieval": 845,
+      "original_correspondence_found": 196,
+      "original_source_span_found": 1,
+      "partial_original_segments": 27
+    },
+    "sourceNotFoundOrNotConfirmedIsNotProofOfAbsence": true,
+    "runtimePackageChanged": false,
+    "confirmedBySourceType": {
+      "currentPinnedInputs": 197,
+      "additionalProjectFilesOnly": 0
+    },
+    "upstreamStatement": {
+      "file": "README.md",
+      "line": 44,
+      "commit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+      "scope": "The project explicitly says Easy Chat phrases, including related TV/Tower combinations, were not localized. This does not mean every reusable word is absent elsewhere."
+    }
+  }
+}

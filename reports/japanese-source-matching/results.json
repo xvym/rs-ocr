@@ -24,16 +24,16 @@
       "template_candidate": 96
     },
     "unitsWithChineseCandidate": 1035,
-    "unitsWithReviewedSource": 121,
+    "unitsWithReviewedSource": 99,
     "nextActions": {
       "build_chinese_correspondence": 52,
       "investigate_source_or_composition": 1,
-      "review_existing_chinese_candidate": 587,
+      "review_existing_chinese_candidate": 609,
       "review_partial_visible_window": 2,
       "review_slot_callsite_and_semantic_unit": 51,
       "review_source_ambiguity": 288,
       "review_structured_battle_meaning_and_chinese": 60,
-      "review_visible_semantic_unit_before_integration": 92
+      "review_visible_semantic_unit_before_integration": 70
     },
     "unitsWithCapturedSlots": 148,
     "unitsWithAmbiguousBindings": 2,
@@ -106,7 +106,7 @@
       "previousHitsNowIncomplete": [],
       "note": "Original OCR spans retained. A decomposed span counts complete only when every emitted text component has source candidates; captured fields remain unapproved."
     },
-    "chineseCoverageBaselineUnchanged": "25/770; source candidates do not approve translations",
+    "chineseCoverageBaselineUnchanged": "Historical model-authored Chinese gates withdrawn; source candidates do not approve translations",
     "limitations": [
       "Candidate presence is not source correctness or Chinese coverage.",
       "Template capture is syntactic evidence, not verified buffer meaning or identity.",
@@ -54533,8 +54533,7 @@
                     "hasReviewedStaticRecord": true,
                     "candidateCount": 2,
                     "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.10:ruby",
-                      "rs.common.type_names.gTypeNames.10:sapphire"
+                      "rs.common.type_names.gTypeNames.10:ruby"
                     ],
                     "status": "reviewed_record_exists_not_window_approval"
                   }
@@ -54598,13 +54597,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.1:ruby",
-                      "rs.common.type_names.gTypeNames.1:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -57612,13 +57608,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.1:ruby",
-                      "rs.common.type_names.gTypeNames.1:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -57890,13 +57883,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.1:ruby",
-                      "rs.common.type_names.gTypeNames.1:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -58032,8 +58022,7 @@
                     "hasReviewedStaticRecord": true,
                     "candidateCount": 2,
                     "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.10:ruby",
-                      "rs.common.type_names.gTypeNames.10:sapphire"
+                      "rs.common.type_names.gTypeNames.10:ruby"
                     ],
                     "status": "reviewed_record_exists_not_window_approval"
                   }
@@ -58755,13 +58744,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.1:ruby",
-                      "rs.common.type_names.gTypeNames.1:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -59033,13 +59019,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.1:ruby",
-                      "rs.common.type_names.gTypeNames.1:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -59175,8 +59158,7 @@
                     "hasReviewedStaticRecord": true,
                     "candidateCount": 2,
                     "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.10:ruby",
-                      "rs.common.type_names.gTypeNames.10:sapphire"
+                      "rs.common.type_names.gTypeNames.10:ruby"
                     ],
                     "status": "reviewed_record_exists_not_window_approval"
                   }
@@ -98532,13 +98514,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.ability_names.gAbilityNames.67:ruby",
-                      "rs.common.ability_names.gAbilityNames.67:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -110267,13 +110246,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -113103,13 +113079,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -113245,13 +113218,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -113384,13 +113354,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -114009,13 +113976,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -114151,13 +114115,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -114290,13 +114251,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -115165,13 +115123,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -115307,13 +115262,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -115446,13 +115398,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -116321,13 +116270,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -116463,13 +116409,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -116602,13 +116545,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -117477,13 +117417,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -117619,13 +117556,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],
@@ -117758,13 +117692,10 @@
                   "displayProjectionUsed": false,
                   "chinese": {
                     "hasCandidate": true,
-                    "hasReviewedStaticRecord": true,
+                    "hasReviewedStaticRecord": false,
                     "candidateCount": 2,
-                    "reviewedRecordIds": [
-                      "rs.common.type_names.gTypeNames.13:ruby",
-                      "rs.common.type_names.gTypeNames.13:sapphire"
-                    ],
-                    "status": "reviewed_record_exists_not_window_approval"
+                    "reviewedRecordIds": [],
+                    "status": "candidate_needs_review"
                   }
                 }
               ],

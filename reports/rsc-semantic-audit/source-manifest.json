@@ -1,0 +1,359 @@
+{
+  "repository": "UWorldGX/pkmn_rs_chn_rsc",
+  "commit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+  "treeSha256": "090284ffe39fe174165579e25b4c72d9b95afd1e1073dec5cb6510b920d08201",
+  "allRepositoryBlobs": 49,
+  "scope": "All txt/md/html blobs at the pinned commit; historical variants are retrieval evidence only, not active runtime inputs.",
+  "files": [
+    {
+      "path": "1.2汉化红宝石拼合/红宝石1.2 增补用文本.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44fdeb1c8399566ef27c657fa194303affe215d7",
+      "size": 198,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E7%BA%A2%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E7%BA%A2%E5%AE%9D%E7%9F%B31.2%20%E5%A2%9E%E8%A1%A5%E7%94%A8%E6%96%87%E6%9C%AC.txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2 增补用文本.txt",
+      "sha256": "a893b9d676e7227501f31e56d4a5112c1706f0ef4b16135e75a060c899d11caa"
+    },
+    {
+      "path": "1.2汉化红宝石拼合/红宝石1.2汉化 G7版差分文本.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfcf128ca745f3db6bed91d658a260f4849d5e34",
+      "size": 4107,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E7%BA%A2%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E7%BA%A2%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%20G7%E7%89%88%E5%B7%AE%E5%88%86%E6%96%87%E6%9C%AC.txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化 G7版差分文本.txt",
+      "sha256": "e232f640c8f6eae49b00e92291d1939e907975b832ffb1467ac34e9af569180e"
+    },
+    {
+      "path": "1.2汉化红宝石拼合/红宝石1.2汉化 版权汉化文本.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88c3e5bfbe3fe05bb74f4dcd292b2b76230853e9",
+      "size": 335,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E7%BA%A2%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E7%BA%A2%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%20%E7%89%88%E6%9D%83%E6%B1%89%E5%8C%96%E6%96%87%E6%9C%AC.txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化 版权汉化文本.txt",
+      "sha256": "6900e90db3f77e4b6423a18b7f8b1929ad677460d777f0c67f581decb26d8f89"
+    },
+    {
+      "path": "1.2汉化红宝石拼合/红宝石1.2汉化中文名专用文本，主角名.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63bbb82d9e2044ae62a8fe3ee77c2911bf111074",
+      "size": 398,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E7%BA%A2%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E7%BA%A2%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E4%B8%AD%E6%96%87%E5%90%8D%E4%B8%93%E7%94%A8%E6%96%87%E6%9C%AC%EF%BC%8C%E4%B8%BB%E8%A7%92%E5%90%8D.txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化中文名专用文本，主角名.txt",
+      "sha256": "63591a83a18fc196408a4c7891a4400e283264aaa633555aa2c4d48996b950d4"
+    },
+    {
+      "path": "1.2汉化红宝石拼合/红宝石1.2汉化总文本(D版).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "940170118f013d8a4662b2fdea1467f334ae4704",
+      "size": 1013447,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E7%BA%A2%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E7%BA%A2%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC(D%E7%89%88).txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化总文本(D版).txt",
+      "sha256": "31e7aba926aecaec3e1de9355404283a002074e419eba08d2243e3b30eace184"
+    },
+    {
+      "path": "1.2汉化红宝石拼合/红宝石1.2汉化总文本(EN).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc1cf39135e0b5198f3bceb89e43fa2148b77388",
+      "size": 1020533,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E7%BA%A2%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E7%BA%A2%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC(EN).txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化总文本(EN).txt",
+      "sha256": "6418521150ef822fbea5d8951c4bcd6568b42ade3ab3843b124a7c3d093c0ae8"
+    },
+    {
+      "path": "1.2汉化红宝石拼合/红宝石1.2汉化总文本(JP).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf40b47b80ec62af3d307ec06a66169b78e64c4e",
+      "size": 1021094,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E7%BA%A2%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E7%BA%A2%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC(JP).txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化总文本(JP).txt",
+      "sha256": "b0fccb0a43f840f58aa32a420933c54e0bf1eb4bd854a368129f050910763e69"
+    },
+    {
+      "path": "1.2汉化红宝石拼合/红宝石1.2繁中汉化总文本(EN).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "218bbb68d432329ba2fea03aea78970dce6bcdb6",
+      "size": 1020533,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E7%BA%A2%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E7%BA%A2%E5%AE%9D%E7%9F%B31.2%E7%B9%81%E4%B8%AD%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC(EN).txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2繁中汉化总文本(EN).txt",
+      "sha256": "7623b30e3c311da2c3d06be89815ded03adc5f8e82f0277c74ac7c9fc4c05a06"
+    },
+    {
+      "path": "1.2汉化红宝石拼合/红宝石1.2繁中汉化总文本(JP).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3502745cbcebe7fbc2168cfa3d23641c43321cb8",
+      "size": 1021136,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E7%BA%A2%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E7%BA%A2%E5%AE%9D%E7%9F%B31.2%E7%B9%81%E4%B8%AD%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC(JP).txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2繁中汉化总文本(JP).txt",
+      "sha256": "111a76f1b0611c62134f27ec563372d3a72707fe530ba1fe455af5cc80e3a35d"
+    },
+    {
+      "path": "1.2汉化蓝宝石拼合/蓝宝石1.2 增补用文本.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ece9eb875833118d2ba83fa9dcafb5214c330b1c",
+      "size": 198,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E8%93%9D%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E8%93%9D%E5%AE%9D%E7%9F%B31.2%20%E5%A2%9E%E8%A1%A5%E7%94%A8%E6%96%87%E6%9C%AC.txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2 增补用文本.txt",
+      "sha256": "24cc7660964b8ea0c3098dce75b6d7909eee119098456c472ac74d21ecbf1fb4"
+    },
+    {
+      "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化 G7版差分文本.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73e4af127da4c7d9022cfa5f05370cc7ce70ddee",
+      "size": 4107,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E8%93%9D%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E8%93%9D%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%20G7%E7%89%88%E5%B7%AE%E5%88%86%E6%96%87%E6%9C%AC.txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化 G7版差分文本.txt",
+      "sha256": "1c767e9407a19724f18e4ae09d26c993a18ca66ecb37ff748a84349ab00c4431"
+    },
+    {
+      "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化 版权汉化文本.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0d1238b4bf3555b767824961b89f413ebf0c934",
+      "size": 335,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E8%93%9D%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E8%93%9D%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%20%E7%89%88%E6%9D%83%E6%B1%89%E5%8C%96%E6%96%87%E6%9C%AC.txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化 版权汉化文本.txt",
+      "sha256": "a8fc2c7c7abed1bb7a64c9e8d217bfaa8a44f971ad4cdf810d4a955e5e2f9a2e"
+    },
+    {
+      "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化中文名专用文本，主角名.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7967fb24081a05449795e1b640c92d31a60c9590",
+      "size": 399,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E8%93%9D%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E8%93%9D%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E4%B8%AD%E6%96%87%E5%90%8D%E4%B8%93%E7%94%A8%E6%96%87%E6%9C%AC%EF%BC%8C%E4%B8%BB%E8%A7%92%E5%90%8D.txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化中文名专用文本，主角名.txt",
+      "sha256": "34a5fbbded25ef081d9f13f5f995d0db725665482a18770b270c8e72d831aa76"
+    },
+    {
+      "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(D版).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7961b0e5512f6e9aa9fd89dbf70af48cc2e0354",
+      "size": 1011308,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E8%93%9D%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E8%93%9D%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC(D%E7%89%88).txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(D版).txt",
+      "sha256": "406c6cd7684a0c6f72d615370a56f22aaa39ee099bf6eaa11997a851ed659f03"
+    },
+    {
+      "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(EN).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5ae79fef8a73d6b736c22b1f042cf8345b5371f",
+      "size": 1020319,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E8%93%9D%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E8%93%9D%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC(EN).txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(EN).txt",
+      "sha256": "5ef4e350001432016c8819bc9402b7c0acd34a80eab21da60040d142561bbe75"
+    },
+    {
+      "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(JP).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0112b0a9fc792e82fb1a94766a360941fc20d291",
+      "size": 1020870,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E8%93%9D%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E8%93%9D%E5%AE%9D%E7%9F%B31.2%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC(JP).txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(JP).txt",
+      "sha256": "3ba491e6d71e366666da42ed9877d1ef5c0b6d70440068c0d479de65d4984bc1"
+    },
+    {
+      "path": "1.2汉化蓝宝石拼合/蓝宝石1.2繁中汉化总文本(EN).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cb356abaf34c56eab6711915c7fa12085621736",
+      "size": 1020319,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E8%93%9D%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E8%93%9D%E5%AE%9D%E7%9F%B31.2%E7%B9%81%E4%B8%AD%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC(EN).txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2繁中汉化总文本(EN).txt",
+      "sha256": "fa6c7fc37a97b957ff4ca61f2708d7dc0ca7814ede4f31174310ba0a2acc5de2"
+    },
+    {
+      "path": "1.2汉化蓝宝石拼合/蓝宝石1.2繁中汉化总文本(JP).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08cc0b4f4452df0ee71acc0d28e4395ee4ee7ac",
+      "size": 1020870,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/1.2%E6%B1%89%E5%8C%96%E8%93%9D%E5%AE%9D%E7%9F%B3%E6%8B%BC%E5%90%88/%E8%93%9D%E5%AE%9D%E7%9F%B31.2%E7%B9%81%E4%B8%AD%E6%B1%89%E5%8C%96%E6%80%BB%E6%96%87%E6%9C%AC(JP).txt",
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2繁中汉化总文本(JP).txt",
+      "sha256": "3e56b66806d90777db0021d013f3d5c1e91b164ad8658409f341b5e7f4f73fb0"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6aa345c8ea0f2a1d3fa1a2cae3c348e522c39e8",
+      "size": 11567,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/README.md",
+      "local": ".tools/rsc-semantic/files/README.md",
+      "sha256": "f4828877a85aac0e68df6e9a9f98ab3029c6d4c3c028a1fb131fd76811fbe72c"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93ff656989653e0a631cbb23b2312f44d431fa51",
+      "size": 8568,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/index.html",
+      "local": ".tools/rsc-semantic/files/index.html",
+      "sha256": "931342c2e82546b22bf4c007637e4b7cf2af9c83f1b1242b806db15de71d5f55"
+    },
+    {
+      "path": "其他文件/无限船票使用说明.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "094958e0d1211d66a96739ed40512a0ff124b726",
+      "size": 595,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/%E6%97%A0%E9%99%90%E8%88%B9%E7%A5%A8%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md",
+      "local": ".tools/rsc-semantic/files/其他文件/无限船票使用说明.md",
+      "sha256": "68a740e0f57ea7e3ff5c205a840f8c3fc52130dc36dd83bb10ea43e05b0fae2a"
+    },
+    {
+      "path": "其他文件/汉化资源/前三世代宝可梦名称_英-日(该词典不合法，仅推荐改版使用).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "521eb1150ade0b1b24151486a036a53d09a936b3",
+      "size": 50297,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/%E6%B1%89%E5%8C%96%E8%B5%84%E6%BA%90/%E5%89%8D%E4%B8%89%E4%B8%96%E4%BB%A3%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E6%97%A5(%E8%AF%A5%E8%AF%8D%E5%85%B8%E4%B8%8D%E5%90%88%E6%B3%95%EF%BC%8C%E4%BB%85%E6%8E%A8%E8%8D%90%E6%94%B9%E7%89%88%E4%BD%BF%E7%94%A8).txt",
+      "local": ".tools/rsc-semantic/files/其他文件/汉化资源/前三世代宝可梦名称_英-日(该词典不合法，仅推荐改版使用).txt",
+      "sha256": "f96ad8766433a47f842281bfaedf95a503f2b2b317cb28c77127f15b11181036"
+    },
+    {
+      "path": "其他文件/汉化资源/前三世代宝可梦名称_英_中(D商版).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "723d5d0d5170298d835d404b557820341139aa85",
+      "size": 41591,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/%E6%B1%89%E5%8C%96%E8%B5%84%E6%BA%90/%E5%89%8D%E4%B8%89%E4%B8%96%E4%BB%A3%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%90%8D%E7%A7%B0_%E8%8B%B1_%E4%B8%AD(D%E5%95%86%E7%89%88).txt",
+      "local": ".tools/rsc-semantic/files/其他文件/汉化资源/前三世代宝可梦名称_英_中(D商版).txt",
+      "sha256": "e101fe1a8651642dbd5c429ca83d6511ff83f6eeada1793b0031b040131e9875"
+    },
+    {
+      "path": "其他文件/汉化资源/汉化版修改的数据地址表.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a644974ac0be80bf5d3d9920df3ae83a5f6e2cfd",
+      "size": 335,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/%E6%B1%89%E5%8C%96%E8%B5%84%E6%BA%90/%E6%B1%89%E5%8C%96%E7%89%88%E4%BF%AE%E6%94%B9%E7%9A%84%E6%95%B0%E6%8D%AE%E5%9C%B0%E5%9D%80%E8%A1%A8.txt",
+      "local": ".tools/rsc-semantic/files/其他文件/汉化资源/汉化版修改的数据地址表.txt",
+      "sha256": "4aa9b5bbcaf54a6a314555420549e220f0a60ab15506cd1e3e9ca27102f9d0a4"
+    },
+    {
+      "path": "其他文件/汉化资源/这些文件仅适用于口袋改版工具盒.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/%E6%B1%89%E5%8C%96%E8%B5%84%E6%BA%90/%E8%BF%99%E4%BA%9B%E6%96%87%E4%BB%B6%E4%BB%85%E9%80%82%E7%94%A8%E4%BA%8E%E5%8F%A3%E8%A2%8B%E6%94%B9%E7%89%88%E5%B7%A5%E5%85%B7%E7%9B%92.txt",
+      "local": ".tools/rsc-semantic/files/其他文件/汉化资源/这些文件仅适用于口袋改版工具盒.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "词典（校队）/前三世代宝可梦名称_英_中(D商版).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "723d5d0d5170298d835d404b557820341139aa85",
+      "size": 41591,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E5%89%8D%E4%B8%89%E4%B8%96%E4%BB%A3%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%90%8D%E7%A7%B0_%E8%8B%B1_%E4%B8%AD(D%E5%95%86%E7%89%88).txt",
+      "local": ".tools/rsc-semantic/files/词典（校队）/前三世代宝可梦名称_英_中(D商版).txt",
+      "sha256": "e101fe1a8651642dbd5c429ca83d6511ff83f6eeada1793b0031b040131e9875"
+    },
+    {
+      "path": "词典（校队）/前三代宝可梦名称_英-日.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "521eb1150ade0b1b24151486a036a53d09a936b3",
+      "size": 50297,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E5%89%8D%E4%B8%89%E4%BB%A3%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E6%97%A5.txt",
+      "local": ".tools/rsc-semantic/files/词典（校队）/前三代宝可梦名称_英-日.txt",
+      "sha256": "f96ad8766433a47f842281bfaedf95a503f2b2b317cb28c77127f15b11181036"
+    },
+    {
+      "path": "词典（校队）/宝可梦名称_英-中_G7官译版.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c73a89ff1597a709892ed5cfe35b29b5f0795300",
+      "size": 40938,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD_G7%E5%AE%98%E8%AF%91%E7%89%88.txt",
+      "local": ".tools/rsc-semantic/files/词典（校队）/宝可梦名称_英-中_G7官译版.txt",
+      "sha256": "00529e909713dae89098b82c841150c399ddd928a9e9e73a3e2398b5934a19c0"
+    },
+    {
+      "path": "词典（校队）/宝可梦名称_英-中_现行官译版.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2891dc4cc31402a9d26163df978feb20fd265873",
+      "size": 41990,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD_%E7%8E%B0%E8%A1%8C%E5%AE%98%E8%AF%91%E7%89%88.txt",
+      "local": ".tools/rsc-semantic/files/词典（校队）/宝可梦名称_英-中_现行官译版.txt",
+      "sha256": "3b8b08b6beebecdae4fcad9e4d7630a969a2373010d1ef3f635ef220efcb0880"
+    },
+    {
+      "path": "词典（校队）/技能名称_英-中_G7官译版.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10f735b96c2b26c0456bcff675212c5d8052352d",
+      "size": 42007,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E6%8A%80%E8%83%BD%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD_G7%E5%AE%98%E8%AF%91%E7%89%88.txt",
+      "local": ".tools/rsc-semantic/files/词典（校队）/技能名称_英-中_G7官译版.txt",
+      "sha256": "8e0c2108086649823cc2abdea4522c87c8305af37defe51736b951aed0eeba09"
+    },
+    {
+      "path": "词典（校队）/技能名称_英-中_现行官译版.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf4ade486b5b974dba44540abeae5470665c7641",
+      "size": 42031,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E6%8A%80%E8%83%BD%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD_%E7%8E%B0%E8%A1%8C%E5%AE%98%E8%AF%91%E7%89%88.txt",
+      "local": ".tools/rsc-semantic/files/词典（校队）/技能名称_英-中_现行官译版.txt",
+      "sha256": "53283155d31b8e121d803f04172774e2321100e8c423f5042a97e0aecf306b88"
+    },
+    {
+      "path": "词典（校队）/特性名称_英-中_官译版.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61317b99679c6b626bc5fac48ea94015ccac0f41",
+      "size": 12756,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E7%89%B9%E6%80%A7%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD_%E5%AE%98%E8%AF%91%E7%89%88.txt",
+      "local": ".tools/rsc-semantic/files/词典（校队）/特性名称_英-中_官译版.txt",
+      "sha256": "03b8df96d0dd5c898c4ff0019e275f2388e435f00358759484017fbd076ec661"
+    },
+    {
+      "path": "词典（校队）/道具名称_英-中(G3 D商版).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c26aee840efba9bece9247678e6c80a766439478",
+      "size": 10111,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E9%81%93%E5%85%B7%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD(G3%20D%E5%95%86%E7%89%88).txt",
+      "local": ".tools/rsc-semantic/files/词典（校队）/道具名称_英-中(G3 D商版).txt",
+      "sha256": "8bb621a3bffda6eed0a2c771dc31e7075e27c3539aaee54b405e8305f42fb86c"
+    },
+    {
+      "path": "词典（校队）/道具名称_英-中_G7官译版.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "758a4aa3b7e53edacc5c8fcc6d32bece2cc243c8",
+      "size": 59194,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E9%81%93%E5%85%B7%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD_G7%E5%AE%98%E8%AF%91%E7%89%88.txt",
+      "local": ".tools/rsc-semantic/files/词典（校队）/道具名称_英-中_G7官译版.txt",
+      "sha256": "04fb9ecb46d522f7e3c7b71a8ca6728c1cb9e99764dea793344efca773c0e66e"
+    },
+    {
+      "path": "词典（校队）/道具名称_英-中_现行官译版.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "758a4aa3b7e53edacc5c8fcc6d32bece2cc243c8",
+      "size": 59194,
+      "url": "https://raw.githubusercontent.com/UWorldGX/pkmn_rs_chn_rsc/f513cf437acca23d1a5882650ee3b148dc463a17/%E8%AF%8D%E5%85%B8%EF%BC%88%E6%A0%A1%E9%98%9F%EF%BC%89/%E9%81%93%E5%85%B7%E5%90%8D%E7%A7%B0_%E8%8B%B1-%E4%B8%AD_%E7%8E%B0%E8%A1%8C%E5%AE%98%E8%AF%91%E7%89%88.txt",
+      "local": ".tools/rsc-semantic/files/词典（校队）/道具名称_英-中_现行官译版.txt",
+      "sha256": "04fb9ecb46d522f7e3c7b71a8ca6728c1cb9e99764dea793344efca773c0e66e"
+    }
+  ]
+}

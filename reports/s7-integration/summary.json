@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "stage": "S7",
+  "complete": false,
+  "status": "software_integrated_actual_device_acceptance_pending",
+  "softwareIntegrationPassed": true,
+  "s6": "temporarily_deferred_by_user",
+  "s6Complete": false,
+  "translationPolicy": "rsc-original-only-v1",
+  "sourceSelection": "unique_original_rsc_text",
+  "semanticDifferenceFallback": false,
+  "generatedChineseRecords": 0,
+  "rewrittenChineseRecords": 0,
+  "s6ManifestSha256": "5dde5f3c76bc4b858943551058db4e77e4fab00c896aa4ab38cd14cd33b4b145",
+  "jarSha256": "efba666818512bc224f3a107f193d0e996c86a40192fa7bdeaf929e4bff6c373",
+  "javaParityChecks": 2349,
+  "staticImages": 456,
+  "staticRegions": 579,
+  "originalWindowAndFormatOutputs": 772,
+  "additionalVisibleNameFields": 4,
+  "renderedBlocks": 776,
+  "desktopTests": {
+    "tests": 34,
+    "failures": 0,
+    "suites": [
+      {
+        "file": "TEST-io.github.rsocr.desktop.BattleCursorTest.xml",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "file": "TEST-io.github.rsocr.desktop.capture.WindowCapturePixelsTest.xml",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "file": "TEST-io.github.rsocr.desktop.ImageSessionTest.xml",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "file": "TEST-io.github.rsocr.desktop.LiveMetricsTest.xml",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "file": "TEST-io.github.rsocr.desktop.LivePresentationTest.xml",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "file": "TEST-io.github.rsocr.desktop.LiveStateTest.xml",
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "file": "TEST-io.github.rsocr.desktop.PresentationTest.xml",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "file": "TEST-io.github.rsocr.desktop.translation.TranslationEngineTest.xml",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "file": "TEST-io.github.rsocr.desktop.translation.TranslationSessionTest.xml",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ]
+  },
+  "latencyTargetMs": 200,
+  "allControlledSamplesWithinTarget": false,
+  "finalPackageReplay": {
+    "passed": true,
+    "images": 18,
+    "scenarios": 23,
+    "report": "reports/s7-integration/live-final/playback-checks.json"
+  },
+  "controlledReplay": {
+    "passed": true,
+    "images": 456,
+    "scenarios": 23,
+    "unexpectedDisplayedText": null,
+    "chains": {
+      "GBA": {
+        "states": 315,
+        "fullyShown": 315,
+        "missedStates": [],
+        "chineseDisplay": {
+          "endpoint": "original RSC Chinese result canvas after JavaFX post-layout pulse; includes capture, stability wait, OCR, matching, names, binding and rendering",
+          "samples": 334,
+          "p50Ms": 190.2099,
+          "p95Ms": 210.023,
+          "maxMs": 312.9155,
+          "over200Ms": 59
+        }
+      },
+      "NGC": {
+        "states": 141,
+        "fullyShown": 141,
+        "missedStates": [],
+        "chineseDisplay": {
+          "endpoint": "original RSC Chinese result canvas after JavaFX post-layout pulse; includes capture, stability wait, OCR, matching, names, binding and rendering",
+          "samples": 143,
+          "p50Ms": 206.9196,
+          "p95Ms": 226.7213,
+          "maxMs": 236.0615,
+          "over200Ms": 116
+        }
+      }
+    }
+  },
+  "remaining": [
+    {
+      "stage": "S6",
+      "reason": "Existing 7 unresolved fixed units and broader source/window/variable/version coverage remain deferred; not generated or silently marked complete."
+    },
+    {
+      "stage": "S7",
+      "reason": "Actual NDS and NGC continuous-gameplay Chinese latency and behavior still require device-chain evidence. Controlled replay does not replace it."
+    },
+    {
+      "stage": "S7",
+      "reason": "The 200ms end-to-end target is not met by the controlled replay: P95 is about 210ms/227ms, with over-target samples retained."
+    },
+    {
+      "stage": "S7",
+      "reason": "Manual/session player identity is available with current>manual>memory priority; existing approved templates require complete current variables and have no approved hidden-player-only slot."
+    },
+    {
+      "stage": "S8",
+      "reason": "Final Chinese acceptance, clean-machine distribution and supported-environment verification remain pending."
+    }
+  ],
+  "report": "reports/s7-integration/README.md"
+}

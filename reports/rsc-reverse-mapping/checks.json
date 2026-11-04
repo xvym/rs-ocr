@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "Both primary totals have exactly 9805 entries and disjoint complete evidence-level partitions",
+      "passed": true
+    },
+    {
+      "name": "Every formal link has nonempty applicable Japanese and exactly preserves original RSC Chinese",
+      "passed": true
+    },
+    {
+      "name": "Reviewed extra links preserve per-game original hashes and quotation ranges",
+      "passed": true
+    },
+    {
+      "name": "Each game has 386 non-dummy second pages with existing whole Japanese parents and NULL second Japanese fields",
+      "passed": true
+    },
+    {
+      "name": "Dummy second-page text stays unresolved; whole-page semantics are not inferred",
+      "passed": true
+    },
+    {
+      "name": "All pinned dictionary and project text hashes match; original-only runtime manifests verify",
+      "passed": true
+    }
+  ],
+  "scope": "Reverse inventory and source/parent identities, not independent semantic acceptance"
+}

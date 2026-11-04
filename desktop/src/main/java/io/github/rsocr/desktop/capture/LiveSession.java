@@ -2,6 +2,7 @@ package io.github.rsocr.desktop.capture;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.rsocr.*;
+import io.github.rsocr.desktop.translation.*;
 import java.awt.image.BufferedImage;
 import java.util.*;
 import java.util.concurrent.*;
@@ -11,11 +12,12 @@ import java.util.function.Consumer;
 /** Capture and OCR have separate single-thread owners and at most one OCR job in flight. */
 public final class LiveSession implements AutoCloseable {
     public record View(long session,long sequence,long captureRevision,long frameId,String status,BufferedImage image,BufferedImage captured,
-                       LiveMapping mapping,List<OcrEngine.Region> regions,List<LiveState.Ready> ready,String diagnostics) {}
+                       LiveMapping mapping,List<OcrEngine.Region> regions,List<LiveState.Ready> ready,String diagnostics,TranslationSession.Frame translations) {}
     private final ScheduledExecutorService captureWorker=Executors.newSingleThreadScheduledExecutor(r->{var t=new Thread(r,"rs-capture");t.setDaemon(true);return t;});
     private final ExecutorService ocrWorker=Executors.newSingleThreadExecutor(r->{var t=new Thread(r,"rs-live-ocr");t.setDaemon(true);return t;});
     private final AtomicLong selected=new AtomicLong(),sequence=new AtomicLong();
     private final OcrEngine engine;private final LiveLayout layout;private final LiveState state;private final Consumer<View> listener;
+    private final TranslationSession translations;
     private volatile LiveMetrics metrics=new LiveMetrics();
     private WindowCapture capture;private WindowCapture.Window window;private LiveMapping mapping;
     private long active,revision=-1,mappingGeneration,lastFrame=-1;
@@ -24,11 +26,16 @@ public final class LiveSession implements AutoCloseable {
     private String status="已停止";private long lastCalibration;
 
     public LiveSession(ObjectMapper mapper,Consumer<View> listener) throws Exception {
+        this(mapper,listener,null);
+    }
+    public LiveSession(ObjectMapper mapper,Consumer<View> listener,TranslationEngine translationEngine) throws Exception {
         this.listener=listener;engine=new OcrEngine(mapper);layout=new LiveLayout(mapper);state=new LiveState(layout);
+        translations=translationEngine==null?null:new TranslationSession(translationEngine);
         captureWorker.scheduleWithFixedDelay(this::tick,0,16,TimeUnit.MILLISECONDS);
     }
     public long session() {return selected.get();}
     public long latestSequence() {return sequence.get();}
+    public void translationSettings(String game,String manualPlayer) {if(translations!=null)captureWorker.execute(()->translations.configure(game,manualPlayer));}
     public void windows(Consumer<List<WindowCapture.Window>> result,Consumer<String> failure) {
         captureWorker.execute(()->{try{result.accept(WindowCapture.windows());}catch(RuntimeException|LinkageError e){failure.accept(e.getMessage());}});
     }
@@ -36,7 +43,7 @@ public final class LiveSession implements AutoCloseable {
         long id=selected.incrementAndGet();
         captureWorker.execute(()->{
             if(id!=selected.get())return;
-            release();active=id;state.newSession(id);this.window=window;this.profile=profile;metrics=new LiveMetrics();
+            release();active=id;state.newSession(id);if(translations!=null)translations.reset();this.window=window;this.profile=profile;metrics=new LiveMetrics();
             try {capture=new WindowCapture(window);status="等待窗口画面…";emit();}catch(RuntimeException|LinkageError e){fail(e);}
         });return id;
     }
@@ -57,7 +64,7 @@ public final class LiveSession implements AutoCloseable {
     }
     private void invalidate() {mapping=null;normalized=null;previousPixels=null;lastFrame=-1;state.reset(active,++mappingGeneration);}
     private void release() {
-        if(capture!=null){capture.close();capture=null;}invalidate();captured=null;lastPoll=null;revision=-1;
+        if(capture!=null){capture.close();capture=null;}invalidate();captured=null;lastPoll=null;revision=-1;if(translations!=null)translations.reset();
     }
     private void fail(Throwable error) {release();status="捕获已停止："+error.getMessage();emit();}
     private void tick() {
@@ -106,9 +113,10 @@ public final class LiveSession implements AutoCloseable {
         var snapshot=state.snapshot();String detail=window==null?"":("窗口="+window+"\n会话="+active+" 映射代次="+mappingGeneration+"\n映射="+mapping);
         if(lastPoll!=null)detail+="\n捕获代次="+lastPoll.revision()+" 帧="+lastPoll.frameId()+" DPI="+lastPoll.dpi()+"\n原生接收="+lastPoll.frameArrivalNanos()+" 采样="+lastPoll.sampleTimeNanos();
         detail+="\n状态="+state.counts();
-        listener.accept(new View(active,sequence.incrementAndGet(),revision,lastPoll==null?-1:lastPoll.frameId(),status,normalized,captured,mapping,snapshot.regions(),snapshot.ready(),detail));
+        var translated=translations==null?null:translations.translate(snapshot.regions());
+        listener.accept(new View(active,sequence.incrementAndGet(),revision,lastPoll==null?-1:lastPoll.frameId(),status,normalized,captured,mapping,snapshot.regions(),snapshot.ready(),detail,translated));
     }
-    public void displayed(View view,long now) {if(view.session()==selected.get())for(var ready:view.ready())if(state.current(ready.key()))metrics.displayed(ready,now);}
+    public void displayed(View view,long now) {if(view.session()==selected.get())for(var ready:view.ready())if(state.current(ready.key()))metrics.displayed(ready,now,view.translations());}
     public Map<String,Object> report() {
         var report=new LinkedHashMap<String,Object>(metrics.report(state.counts()));
         report.put("sourceWindow",window);report.put("currentMapping",mapping);report.put("profileIndex",profile);report.put("pollIntervalMs",16);

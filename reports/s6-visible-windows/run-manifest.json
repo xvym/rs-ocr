@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "policyId": "s6-original-rsc-visible-windows-v1",
+  "translationPolicy": "rsc-original-only-v1",
+  "inputs": [
+    {
+      "local": "corpus/visible-windows/freeze-manifest.json",
+      "sha256": "e403c649268a5cb06a1b422d6907e6e2c2d72163c33a03d7d09cccedb039874d"
+    },
+    {
+      "local": "corpus/visible-windows/reference.json",
+      "sha256": "cfb628f8e7049f7bd035a7e0296276775ff0fe3e14a4b517379ff18759fb657b"
+    },
+    {
+      "local": "corpus/visible-windows/variable-bindings.json",
+      "sha256": "027bf7ff08be81e330967be43c4c01477bc9f1c582370712d1140b335962effc"
+    },
+    {
+      "local": "outputs/s6-corpus/build-manifest.json",
+      "sha256": "5dde5f3c76bc4b858943551058db4e77e4fab00c896aa4ab38cd14cd33b4b145"
+    },
+    {
+      "local": "outputs/corpus-inputs/qid_msg.txt",
+      "sha256": "bafdfb4540e8b766e7cbc947890b12164234d81f1ca039f2bdfadc8dd1d5d1b8"
+    },
+    {
+      "local": "outputs/corpus-inputs/ja-Hrkt_msg.txt",
+      "sha256": "8bc1ba84bd6fba37071f9082a63fcbabcf84f66ee5dfce8e71428cf1a032e038"
+    },
+    {
+      "local": "outputs/corpus-inputs/en_msg.txt",
+      "sha256": "c3deee1a461c71d19b9dbeb5e119d477ee9b10cbbcf59c1b045ebd2b2407ab55"
+    },
+    {
+      "local": "outputs/corpus-mapping/candidates.csv",
+      "sha256": "7c467a740e53726d5c4f26d0aec928c9fd8927ea52edffff684fc8e140d54c51"
+    },
+    {
+      "local": "outputs/corpus-mapping/runtime.json",
+      "sha256": "04627f1bdefdb2980ca91d190e884cd534565071cd40f187e0b1f03e72da83e5"
+    },
+    {
+      "local": "src/main/resources/ocr/labels.json",
+      "sha256": "dd7a9f7e67ecd7b94304ecdd1fda7859f30b37245cdb89acbb8186b593c454e0"
+    },
+    {
+      "local": "src/main/resources/ocr/fonts.json",
+      "sha256": "65d01cd335908c4c0fd8532a8f984b1d2dfaab933b78164fce34242ef5290f46"
+    },
+    {
+      "local": "corpus/battle-matching/rules.json",
+      "sha256": "c444c78a4164e88cede697644778a0cc4d34777c9772c89795892ac3b4c73b3d"
+    },
+    {
+      "local": "reports/battle-source-matching/japanese-evidence.json",
+      "sha256": "e024a5e40df6350b60ebbcf98c2a9e03c12a5b72f1ca631cbeeee452fdeef098"
+    },
+    {
+      "local": "outputs/corpus-mapping/records.csv",
+      "sha256": "524d1726bc626b7a496565587834a42772d1de97fb1536586b8947ad24a06c61"
+    },
+    {
+      "local": "reports/battle-source-matching/experience-evidence.json",
+      "sha256": "d392988edd7a61362293bace7f3f96f9eef6bdb2f452f8684f1a1d20ca0390c0"
+    },
+    {
+      "local": "corpus/source-matching/typed-slot-rules.json",
+      "sha256": "4fda5eb8f5dc2af834d9b1c4864748132c78808923e5ebbe46146540f6b10040"
+    },
+    {
+      "local": "corpus/battle-matching/send-out-rules.json",
+      "sha256": "6a2119d41d388f6a129379c8c8a2097b7112fae7c921b4b8f8f05c5c23636a75"
+    },
+    {
+      "local": "corpus/battle-matching/observation-rules.json",
+      "sha256": "61d5a8bef49c49f17e7c409675d7496e718c7d8f96668908c8bb879ec94f8c6a"
+    },
+    {
+      "local": "outputs/battle-source-matching/build-manifest.json",
+      "sha256": "09fa4a7b6b5d4edf848ac3e20b7bf1bbea0d348d60744538d8b717acebdc2fa7"
+    },
+    {
+      "local": "outputs/battle-source-matching/templates.json",
+      "sha256": "5b90e1b4a8f9fe1b07e870256556ef823f99ab733a24a26e9d5e700ea36e6fc9"
+    }
+  ],
+  "implementation": [
+    {
+      "local": "tools/evaluate_visible_windows.mjs",
+      "sha256": "f3f8a03f179784f5de4b445cea0eeaffde3d4afab4c9eb33fd82dc8621d70649"
+    },
+    {
+      "local": "tools/s6_visible_windows.mjs",
+      "sha256": "25b0c700f4428d40c7add9daf56d536ecf21f36b120884c3cfda1c4d77947ca7"
+    },
+    {
+      "local": "tools/s6_variable_bindings.mjs",
+      "sha256": "6ec4c682c6947599941cf3b5e4ba57535e85bab6c1589579c09eb2d3a724cc22"
+    },
+    {
+      "local": "tools/s6_semantic_units.mjs",
+      "sha256": "3c41e099ee88c096f62a283a8febb22a6e9651d747615e1850543747581efe52"
+    },
+    {
+      "local": "tools/s6_native_fields.mjs",
+      "sha256": "f0e315c53b9c5877f61eb2d75407c93e3b4d84a7ece12c6d09b24dce8fba2ffc"
+    },
+    {
+      "local": "tools/s6_corpus_probe.mjs",
+      "sha256": "45ed3e378475971d7913966fcee04e871c933311ac718f7b871213ee0367561e"
+    },
+    {
+      "local": "tools/japanese_source_matcher.mjs",
+      "sha256": "91f8c4a237ab7a1aef2d339c2bceffea9e307e99590e5c888dbfb8078c01fb6a"
+    },
+    {
+      "local": "tools/japanese_source_layout.mjs",
+      "sha256": "9b8463bf505d94498a3ebc9cd9777ded69d4590e65db6ead8f7edca48b7627d9"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "summary.json",
+      "sha256": "cda2bd8de9ff3266a01360d444d429a4884ede3f17823042549b3ae057e3fe9c"
+    },
+    {
+      "file": "evaluation.json",
+      "sha256": "b77864ef83e1a1221a7de58272bc0b829f96ab4332464eb7ce9a0219843de79a"
+    },
+    {
+      "file": "units.csv",
+      "sha256": "79e4d4d922d36be237ef48c207fa44edd8c1ceee54dc6451fb430c7927b7ade1"
+    },
+    {
+      "file": "remaining.csv",
+      "sha256": "eae73b1a670a3bdba261e1c41cde3b81856680586ea9e436a1ac7d0edf077daf"
+    },
+    {
+      "file": "variable-binding-audit.json",
+      "sha256": "fddf7ce98dfdc4372c76f866faf8f5abdc5ae5a8623cec015e3e57655386cf4c"
+    },
+    {
+      "file": "review.html",
+      "sha256": "e2128e4bc7c41ea29785a4d5e3ff810580dad472aa1b99cbcc805c95f6e605f9"
+    }
+  ]
+}

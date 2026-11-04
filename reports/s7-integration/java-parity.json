@@ -1,0 +1,6 @@
+{
+  "checks" : 2349,
+  "nameLookupDisabledForS6Parity" : true,
+  "failures" : [ ],
+  "passed" : true
+}

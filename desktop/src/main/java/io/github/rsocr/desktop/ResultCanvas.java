@@ -7,6 +7,8 @@ import javafx.scene.layout.Region;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.TextAlignment;
+import javafx.scene.text.Text;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -59,11 +61,34 @@ public final class ResultCanvas extends Region {
             g.setFont(Font.font("Microsoft YaHei",size));
             g.fillText(run.raw(),run.x(),run.y()+(run.height()>=16?12:run.height()-.6),run.width());g.restore();
         }
+        for(var block:panel.translations())drawTranslation(g,block);
         for(var pointer:panel.pointers()) {
             g.setFill(Color.web("#3469c6"));g.fillPolygon(new double[]{pointer.x()+1,pointer.x()+6,pointer.x()+1},new double[]{pointer.y()+3,pointer.y()+8,pointer.y()+13},3);
         }
         if(panel.status().equals("pending")) {g.setFill(Color.web("#64758d"));g.setFont(Font.font("Microsoft YaHei",6));g.fillText("等待文字稳定…",clip.x()+3,clip.y()+10,Math.max(1,clip.width()-6));}
         g.restore();
+    }
+    public record TextLayout(double fontSize,List<String> lines) {}
+    public static TextLayout textLayout(String text,double width,double height) {
+        for(double size=12;size>=2;size-=.25) {
+            var lines=new ArrayList<String>();var font=Font.font("Microsoft YaHei",size);
+            for(String paragraph:text.split("\n",-1)) {
+                var line=new StringBuilder();
+                for(int at=0;at<paragraph.length();) {
+                    int cp=paragraph.codePointAt(at);String next=new String(Character.toChars(cp));at+=Character.charCount(cp);
+                    var probe=new Text(line+next);probe.setFont(font);
+                    if(!line.isEmpty()&&probe.getLayoutBounds().getWidth()>width){lines.add(line.toString());line.setLength(0);}line.append(next);
+                }
+                lines.add(line.toString());
+            }
+            if(lines.size()*size*1.18<=height)return new TextLayout(size,List.copyOf(lines));
+        }
+        throw new IllegalArgumentException("译文无法放入当前文字区域");
+    }
+    private void drawTranslation(GraphicsContext g,Presentation.TextBlock block) {
+        var b=block.box();var layout=textLayout(block.text(),b.width(),b.height());g.save();g.beginPath();g.rect(b.x(),b.y(),b.width(),b.height());g.clip();
+        g.setFill(Color.web("#152f52"));g.setFont(Font.font("Microsoft YaHei",layout.fontSize()));int row=0;
+        for(String line:layout.lines())g.fillText(line,b.x(),b.y()+layout.fontSize()*(1+row++*1.18));g.restore();
     }
     public static WritableImage image(java.awt.image.BufferedImage source) {
         if(source==null)return null;

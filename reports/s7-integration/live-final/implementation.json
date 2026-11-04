@@ -1,0 +1,4 @@
+{
+  "jarSha256": "efba666818512bc224f3a107f193d0e996c86a40192fa7bdeaf929e4bff6c373",
+  "note": "Final representative replay loads production classes and resources from the packaged desktop JAR."
+}

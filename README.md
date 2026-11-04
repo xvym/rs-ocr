@@ -8,12 +8,18 @@
 
 实时模式已调整为文字连续稳定 150ms 后再识别，选择光标和等待箭头动画不反复触发文字识别；结果区对光标显示防抖，内容不变时跳过重绘。更新后关闭旧窗口，再双击启动器使用新版。验证记录见 [稳定触发与防闪烁](reports/s5-live/README.md#稳定触发版本的验证)。
 
-当前推进 S6：[新正式语料包](reports/s6-corpus/README.md)已通过冻结中文库门槛，770／770 个应翻译单元和 8／8 个合法保留单元通过，核对为非盲模型方法。S6 整体仍未完成：[进度审计](reports/s6-corpus/progress.json)保留电视 170 个变量页、任意组合短语和首版长尾/页面状态等缺口。来源绑定累计排除 138 个错误解释，只余 2 个当前含义一致的双打行号身份歧义；来源候选证据保持 766／769。
+按用户要求暂时跳过 S6 剩余项，已将现有原译文资源接入 S7 桌面中文显示，见 [S7 集成报告](reports/s7-integration/README.md)。图片和实时模式均使用 Java 原汉化匹配、变量及姓名查库；可选择游戏版本、设置玩家名，并查看原始日文和回退原因。关闭旧窗口后重新双击启动器即可使用。
+
+[正式语料包](reports/s6-corpus/README.md)仍仅使用固定 RSC 汉化项目原译文，禁止模型补译、重译和另造中文格式。唯一原汉化定位即可输出，不做语义差异回退。此前模型译文及 770／770 中文门槛已[撤回并归档](archive/model-translations/README.md)。S6 保持未完成，原汉化来源、窗口和变量缺口见 [进度审计](reports/s6-corpus/progress.json)；未找到对应不等于原项目缺译。
+
+最新 [原汉化反查](reports/rsc-reverse-mapping/README.md)对原先 115 条待核记录已确认 35 条记录对应及 18 条精确源片段，两作各余 31 条尚无确认关联。片段与图鉴结构关联分别保存，不计作整条中文覆盖，也不自动发布；正式索引现有 1,273 条关联，原汉化生成／改写数保持 0。
+
+已建立 [首版可见窗口与原中文基线](reports/s6-visible-windows/README.md)：全部 579 个区域、1,133 个单元登记完整，首版范围内 783 个单元中 772 个按原 RSC 译文或原有格式输出、11 个保留原文（含 4 个固定 EXP 标签，实际待解决 7 个）并列明原因，另有 350 个范围外单元。41 组语义单元、43 类原模板和 4 种原打印规则已接入 S7；换行、滚动和清屏不机械切断同一语义。772 个输出含 8 个仅数字/等级格式单元。S7 的 2,349 次 Java 原规则对照与 456 张截图绘制通过，另按现有词库替换 4 处可见姓名。完整首版覆盖和真实设备中文验收仍待完成。可查看 [原窗口审阅](reports/s6-visible-windows/review.html)与 [桌面中文样例](reports/s7-integration/NGC-053.png)。
 
 - [Spec](spec.md)：目标、输入、行为、语料和验收要求。
 - [ExecPlan](execplan.md)：调查、实现、验证及交付步骤。
-- [中日文映射库](corpus/README.md)、[正式包与交接结构](reports/s6-corpus/README.md)：固定日英记录 13,479 条、21,192 条原中文候选；新增词条、当前语义单元、动态模板及两作原生命名/Easy Chat/对战塔证据，支持离线重建和缺口审计。
-- [新中文库验收](reports/s6-acceptance/README.md)：冻结 579 区域的库级门槛通过。旧包 [25／770 基线](reports/chinese-corpus-acceptance/README.md)保持原样；新结果不冒充 S7 窗口中文、完整首版覆盖或实机验收。
+- [中日文映射库](corpus/README.md)、[正式包与交接结构](reports/s6-corpus/README.md)：固定日英记录 13,479 条、21,192 条原中文候选；逐条保存原译文来源，支持离线重建和来源核验。
+- [原译文来源检查](reports/s6-acceptance/README.md)：确认中文逐字来自汉化项目，不使用旧模型中文答案；原文对应、窗口和变量验收、完整首版覆盖及实机验收仍待完成。
 - [日文来源匹配器](reports/japanese-source-matching/README.md)、[来源逐区诊断](reports/japanese-source-matching/review.html)：来源候选证据为 766／769；原 32 项战斗、9 项经验值、8 项派出及新增 9 项观察消息复核通过。53 项来源检查、30 项战斗检查通过；全量来源准确率仍未宣称。
 - [S5 实时捕获与回放报告](reports/s5-live/README.md)：双击启动后选择投屏或 OBS 窗口，点击“开始实时”；未定位时使用“校准游戏区域”。包含当前测量和实机待验项目。
 - [S4 独立窗口与检查记录](reports/s4-window/README.md)：运行方式、456 张实机截图布局检查和显示样例；通过 [build-desktop.ps1](build-desktop.ps1) 构建、[run-desktop.ps1](run-desktop.ps1) 启动，需要 Java 21。

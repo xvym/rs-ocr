@@ -1,6 +1,7 @@
 {
-  "schemaVersion": 1,
-  "scope": "reviewed_complete_static_records_only",
+  "schemaVersion": 2,
+  "translationPolicy": "rsc-original-only-v1",
+  "scope": "original_rsc_static_records_only",
   "records": [
     {
       "id": "rs.common.species_names.gSpeciesNames.1:ruby",
@@ -9,9 +10,9 @@
       "japanese": "フシギダネ",
       "chinese": "妙蛙种子",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "妙蛙种子",
       "sourceCandidates": [
         "candidate-004915"
@@ -24,9 +25,9 @@
       "japanese": "フシギダネ",
       "chinese": "妙蛙种子",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "妙蛙种子",
       "sourceCandidates": [
         "candidate-015552"
@@ -39,9 +40,9 @@
       "japanese": "ヒトカゲ",
       "chinese": "小火龙",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "小火龙",
       "sourceCandidates": [
         "candidate-004918"
@@ -54,9 +55,9 @@
       "japanese": "ヒトカゲ",
       "chinese": "小火龙",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "小火龙",
       "sourceCandidates": [
         "candidate-015555"
@@ -69,9 +70,9 @@
       "japanese": "ゼニガメ",
       "chinese": "杰尼龟",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "杰尼龟",
       "sourceCandidates": [
         "candidate-004921"
@@ -84,9 +85,9 @@
       "japanese": "ゼニガメ",
       "chinese": "杰尼龟",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "杰尼龟",
       "sourceCandidates": [
         "candidate-015558"
@@ -99,9 +100,9 @@
       "japanese": "ピカチュウ",
       "chinese": "皮卡丘",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "皮卡丘",
       "sourceCandidates": [
         "candidate-004939"
@@ -114,9 +115,9 @@
       "japanese": "ピカチュウ",
       "chinese": "皮卡丘",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "皮卡丘",
       "sourceCandidates": [
         "candidate-015576"
@@ -129,9 +130,9 @@
       "japanese": "イーブイ",
       "chinese": "伊布",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "伊布",
       "sourceCandidates": [
         "candidate-005047"
@@ -144,9 +145,9 @@
       "japanese": "イーブイ",
       "chinese": "伊布",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "伊布",
       "sourceCandidates": [
         "candidate-015684"
@@ -159,9 +160,9 @@
       "japanese": "キモリ",
       "chinese": "木守宫",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "木守宫",
       "sourceCandidates": [
         "candidate-005166"
@@ -174,9 +175,9 @@
       "japanese": "キモリ",
       "chinese": "木守宫",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "木守宫",
       "sourceCandidates": [
         "candidate-010004"
@@ -189,9 +190,9 @@
       "japanese": "キモリ",
       "chinese": "木守宫",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "木守宫",
       "sourceCandidates": [
         "candidate-015803"
@@ -204,9 +205,9 @@
       "japanese": "キモリ",
       "chinese": "木守宫",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "木守宫",
       "sourceCandidates": [
         "candidate-020642"
@@ -219,9 +220,9 @@
       "japanese": "アチャモ",
       "chinese": "火稚鸡",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "火稚鸡",
       "sourceCandidates": [
         "candidate-005169"
@@ -234,9 +235,9 @@
       "japanese": "アチャモ",
       "chinese": "火稚鸡",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "火稚鸡",
       "sourceCandidates": [
         "candidate-010005"
@@ -249,9 +250,9 @@
       "japanese": "アチャモ",
       "chinese": "火稚鸡",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "火稚鸡",
       "sourceCandidates": [
         "candidate-015806"
@@ -264,9 +265,9 @@
       "japanese": "アチャモ",
       "chinese": "火稚鸡",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "火稚鸡",
       "sourceCandidates": [
         "candidate-020643"
@@ -279,9 +280,9 @@
       "japanese": "ミズゴロウ",
       "chinese": "水跃鱼",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "水跃鱼",
       "sourceCandidates": [
         "candidate-005172"
@@ -294,9 +295,9 @@
       "japanese": "ミズゴロウ",
       "chinese": "水跃鱼",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "水跃鱼",
       "sourceCandidates": [
         "candidate-010006"
@@ -309,9 +310,9 @@
       "japanese": "ミズゴロウ",
       "chinese": "水跃鱼",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "水跃鱼",
       "sourceCandidates": [
         "candidate-015809"
@@ -324,9 +325,9 @@
       "japanese": "ミズゴロウ",
       "chinese": "水跃鱼",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "水跃鱼",
       "sourceCandidates": [
         "candidate-020644"
@@ -339,9 +340,9 @@
       "japanese": "ココドラ",
       "chinese": "可可多拉",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "可可多拉",
       "sourceCandidates": [
         "candidate-005271"
@@ -354,9 +355,9 @@
       "japanese": "ココドラ",
       "chinese": "可可多拉",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "可可多拉",
       "sourceCandidates": [
         "candidate-015908"
@@ -369,9 +370,9 @@
       "japanese": "コドラ",
       "chinese": "可多拉",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "可多拉",
       "sourceCandidates": [
         "candidate-005272"
@@ -384,9 +385,9 @@
       "japanese": "コドラ",
       "chinese": "可多拉",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "可多拉",
       "sourceCandidates": [
         "candidate-015909"
@@ -399,9 +400,9 @@
       "japanese": "ボスゴドラ",
       "chinese": "波士可多拉",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "波士可多拉",
       "sourceCandidates": [
         "candidate-005273"
@@ -414,9 +415,9 @@
       "japanese": "ボスゴドラ",
       "chinese": "波士可多拉",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "波士可多拉",
       "sourceCandidates": [
         "candidate-015910"
@@ -429,9 +430,9 @@
       "japanese": "ラルトス",
       "chinese": "拉鲁拉丝",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "拉鲁拉丝",
       "sourceCandidates": [
         "candidate-005281"
@@ -444,9 +445,9 @@
       "japanese": "ラルトス",
       "chinese": "拉鲁拉丝",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "拉鲁拉丝",
       "sourceCandidates": [
         "candidate-015918"
@@ -459,9 +460,9 @@
       "japanese": "カイオーガ",
       "chinese": "盖欧卡",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "盖欧卡",
       "sourceCandidates": [
         "candidate-005293"
@@ -474,9 +475,9 @@
       "japanese": "カイオーガ",
       "chinese": "盖欧卡",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "盖欧卡",
       "sourceCandidates": [
         "candidate-009544"
@@ -489,9 +490,9 @@
       "japanese": "カイオーガ",
       "chinese": "盖欧卡",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "盖欧卡",
       "sourceCandidates": [
         "candidate-015930"
@@ -504,9 +505,9 @@
       "japanese": "カイオーガ",
       "chinese": "盖欧卡",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "盖欧卡",
       "sourceCandidates": [
         "candidate-020182"
@@ -519,9 +520,9 @@
       "japanese": "グラードン",
       "chinese": "固拉多",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "固拉多",
       "sourceCandidates": [
         "candidate-005294"
@@ -534,9 +535,9 @@
       "japanese": "グラードン",
       "chinese": "固拉多",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "固拉多",
       "sourceCandidates": [
         "candidate-009545"
@@ -549,9 +550,9 @@
       "japanese": "グラードン",
       "chinese": "固拉多",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "固拉多",
       "sourceCandidates": [
         "candidate-015931"
@@ -564,9 +565,9 @@
       "japanese": "グラードン",
       "chinese": "固拉多",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "固拉多",
       "sourceCandidates": [
         "candidate-020183"
@@ -579,9 +580,9 @@
       "japanese": "レックウザ",
       "chinese": "烈空坐",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "烈空坐",
       "sourceCandidates": [
         "candidate-005295"
@@ -594,9 +595,9 @@
       "japanese": "レックウザ",
       "chinese": "烈空坐",
       "kind": "species",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "烈空坐",
       "sourceCandidates": [
         "candidate-015932"
@@ -609,9 +610,9 @@
       "japanese": "はたく",
       "chinese": "拍击",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "拍击",
       "sourceCandidates": [
         "candidate-005301"
@@ -624,9 +625,9 @@
       "japanese": "はたく",
       "chinese": "拍击",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "拍击",
       "sourceCandidates": [
         "candidate-015938"
@@ -639,9 +640,9 @@
       "japanese": "ひっかく",
       "chinese": "抓",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "抓",
       "sourceCandidates": [
         "candidate-005312"
@@ -654,9 +655,9 @@
       "japanese": "ひっかく",
       "chinese": "抓",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "抓",
       "sourceCandidates": [
         "candidate-015949"
@@ -669,9 +670,9 @@
       "japanese": "いあいぎり",
       "chinese": "居合劈",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "居合劈",
       "sourceCandidates": [
         "candidate-005317"
@@ -684,9 +685,9 @@
       "japanese": "いあいぎり",
       "chinese": "居合劈",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "居合劈",
       "sourceCandidates": [
         "candidate-015954"
@@ -699,9 +700,9 @@
       "japanese": "そらをとぶ",
       "chinese": "飞翔",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "飞翔",
       "sourceCandidates": [
         "candidate-005321"
@@ -714,9 +715,9 @@
       "japanese": "そらをとぶ",
       "chinese": "飞翔",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "飞翔",
       "sourceCandidates": [
         "candidate-015958"
@@ -729,9 +730,9 @@
       "japanese": "たいあたり",
       "chinese": "撞击",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "撞击",
       "sourceCandidates": [
         "candidate-005336"
@@ -744,72 +745,12 @@
       "japanese": "たいあたり",
       "chinese": "撞击",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "撞击",
       "sourceCandidates": [
         "candidate-015973"
-      ]
-    },
-    {
-      "id": "rs.common.move_names.gMoveNames.45:ruby",
-      "qid": "rs.common.move_names.gMoveNames.45",
-      "game": "ruby",
-      "japanese": "なきごえ",
-      "chinese": "叫声",
-      "kind": "move",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "叫声",
-      "sourceCandidates": [
-        "candidate-005348"
-      ]
-    },
-    {
-      "id": "rs.common.strings.gDexText_CryOf.0:ruby",
-      "qid": "rs.common.strings.gDexText_CryOf.0",
-      "game": "ruby",
-      "japanese": "なきごえ",
-      "chinese": "叫声",
-      "kind": "move",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "[擦除到02]叫声",
-      "sourceCandidates": [
-        "candidate-009576"
-      ]
-    },
-    {
-      "id": "rs.common.move_names.gMoveNames.45:sapphire",
-      "qid": "rs.common.move_names.gMoveNames.45",
-      "game": "sapphire",
-      "japanese": "なきごえ",
-      "chinese": "叫声",
-      "kind": "move",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "叫声",
-      "sourceCandidates": [
-        "candidate-015985"
-      ]
-    },
-    {
-      "id": "rs.common.strings.gDexText_CryOf.0:sapphire",
-      "qid": "rs.common.strings.gDexText_CryOf.0",
-      "game": "sapphire",
-      "japanese": "なきごえ",
-      "chinese": "叫声",
-      "kind": "move",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "[擦除到02]叫声",
-      "sourceCandidates": [
-        "candidate-020214"
       ]
     },
     {
@@ -819,9 +760,9 @@
       "japanese": "かえんほうしゃ",
       "chinese": "喷射火焰",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "喷射火焰",
       "sourceCandidates": [
         "candidate-005357"
@@ -834,9 +775,9 @@
       "japanese": "かえんほうしゃ",
       "chinese": "喷射火焰",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "喷射火焰",
       "sourceCandidates": [
         "candidate-015994"
@@ -849,9 +790,9 @@
       "japanese": "なみのり",
       "chinese": "冲浪",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "冲浪",
       "sourceCandidates": [
         "candidate-005361"
@@ -864,9 +805,9 @@
       "japanese": "なみのり",
       "chinese": "冲浪",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "冲浪",
       "sourceCandidates": [
         "candidate-015998"
@@ -879,9 +820,9 @@
       "japanese": "かいりき",
       "chinese": "怪力",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怪力",
       "sourceCandidates": [
         "candidate-005375"
@@ -894,9 +835,9 @@
       "japanese": "かいりき",
       "chinese": "怪力",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怪力",
       "sourceCandidates": [
         "candidate-006311"
@@ -909,9 +850,9 @@
       "japanese": "かいりき",
       "chinese": "怪力",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怪力",
       "sourceCandidates": [
         "candidate-006312"
@@ -924,9 +865,9 @@
       "japanese": "かいりき",
       "chinese": "怪力",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怪力",
       "sourceCandidates": [
         "candidate-006313"
@@ -939,9 +880,9 @@
       "japanese": "かいりき",
       "chinese": "怪力",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怪力",
       "sourceCandidates": [
         "candidate-016012"
@@ -954,9 +895,9 @@
       "japanese": "かいりき",
       "chinese": "怪力",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怪力",
       "sourceCandidates": [
         "candidate-016948"
@@ -969,9 +910,9 @@
       "japanese": "かいりき",
       "chinese": "怪力",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怪力",
       "sourceCandidates": [
         "candidate-016949"
@@ -984,9 +925,9 @@
       "japanese": "かいりき",
       "chinese": "怪力",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怪力",
       "sourceCandidates": [
         "candidate-016950"
@@ -999,9 +940,9 @@
       "japanese": "１０まんボルト",
       "chinese": "十万伏特",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "十万伏特",
       "sourceCandidates": [
         "candidate-005393"
@@ -1014,9 +955,9 @@
       "japanese": "１０まんボルト",
       "chinese": "十万伏特",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "十万伏特",
       "sourceCandidates": [
         "candidate-016030"
@@ -1029,9 +970,9 @@
       "japanese": "あなをほる",
       "chinese": "挖洞",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "挖洞",
       "sourceCandidates": [
         "candidate-005399"
@@ -1044,9 +985,9 @@
       "japanese": "あなをほる",
       "chinese": "挖洞",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "挖洞",
       "sourceCandidates": [
         "candidate-016036"
@@ -1059,9 +1000,9 @@
       "japanese": "サイコキネシス",
       "chinese": "精神强念",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "精神强念",
       "sourceCandidates": [
         "candidate-005402"
@@ -1074,9 +1015,9 @@
       "japanese": "サイコキネシス",
       "chinese": "精神强念",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "精神强念",
       "sourceCandidates": [
         "candidate-016039"
@@ -1089,9 +1030,9 @@
       "japanese": "でんこうせっか",
       "chinese": "电光一闪",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "电光一闪",
       "sourceCandidates": [
         "candidate-005406"
@@ -1104,9 +1045,9 @@
       "japanese": "でんこうせっか",
       "chinese": "电光一闪",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "电光一闪",
       "sourceCandidates": [
         "candidate-016043"
@@ -1119,9 +1060,9 @@
       "japanese": "たきのぼり",
       "chinese": "攀瀑",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "攀瀑",
       "sourceCandidates": [
         "candidate-005436"
@@ -1134,9 +1075,9 @@
       "japanese": "たきのぼり",
       "chinese": "攀瀑",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "攀瀑",
       "sourceCandidates": [
         "candidate-016073"
@@ -1149,9 +1090,9 @@
       "japanese": "フラッシュ",
       "chinese": "闪光",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "闪光",
       "sourceCandidates": [
         "candidate-005458"
@@ -1164,9 +1105,9 @@
       "japanese": "フラッシュ",
       "chinese": "闪光",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "闪光",
       "sourceCandidates": [
         "candidate-016095"
@@ -1179,9 +1120,9 @@
       "japanese": "いわくだき",
       "chinese": "碎岩",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "碎岩",
       "sourceCandidates": [
         "candidate-005563"
@@ -1194,9 +1135,9 @@
       "japanese": "いわくだき",
       "chinese": "碎岩",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "碎岩",
       "sourceCandidates": [
         "candidate-016200"
@@ -1209,9 +1150,9 @@
       "japanese": "ダイビング",
       "chinese": "潜水",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "潜水",
       "sourceCandidates": [
         "candidate-005605"
@@ -1224,69 +1165,13 @@
       "japanese": "ダイビング",
       "chinese": "潜水",
       "kind": "move",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "潜水",
       "sourceCandidates": [
         "candidate-016242"
       ]
-    },
-    {
-      "id": "rs.common.type_names.gTypeNames.1:ruby",
-      "qid": "rs.common.type_names.gTypeNames.1",
-      "game": "ruby",
-      "japanese": "かくとう",
-      "chinese": "格斗",
-      "kind": "type",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "格斗",
-      "sourceCandidates": [
-        "candidate-005672"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.16:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.16",
-      "game": "ruby",
-      "japanese": "かくとう",
-      "chinese": "格斗",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.type_names.gTypeNames.1:sapphire",
-      "qid": "rs.common.type_names.gTypeNames.1",
-      "game": "sapphire",
-      "japanese": "かくとう",
-      "chinese": "格斗",
-      "kind": "type",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "格斗",
-      "sourceCandidates": [
-        "candidate-016309"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.16:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.16",
-      "game": "sapphire",
-      "japanese": "かくとう",
-      "chinese": "格斗",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
     },
     {
       "id": "rs.common.type_names.gTypeNames.2:ruby",
@@ -1295,9 +1180,9 @@
       "japanese": "ひこう",
       "chinese": "飞行",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "飞行",
       "sourceCandidates": [
         "candidate-005673"
@@ -1310,9 +1195,9 @@
       "japanese": "ひこう",
       "chinese": "飞行",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "飞行",
       "sourceCandidates": [
         "candidate-008125"
@@ -1325,9 +1210,9 @@
       "japanese": "ひこう",
       "chinese": "飞行",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "飞行",
       "sourceCandidates": [
         "candidate-016310"
@@ -1340,9 +1225,9 @@
       "japanese": "ひこう",
       "chinese": "飞行",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "飞行",
       "sourceCandidates": [
         "candidate-018763"
@@ -1355,9 +1240,9 @@
       "japanese": "じめん",
       "chinese": "地面",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "地面",
       "sourceCandidates": [
         "candidate-005675"
@@ -1370,9 +1255,9 @@
       "japanese": "じめん",
       "chinese": "地面",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "地面",
       "sourceCandidates": [
         "candidate-008106"
@@ -1385,9 +1270,9 @@
       "japanese": "じめん",
       "chinese": "地面",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "地面",
       "sourceCandidates": [
         "candidate-016312"
@@ -1400,9 +1285,9 @@
       "japanese": "じめん",
       "chinese": "地面",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "地面",
       "sourceCandidates": [
         "candidate-018744"
@@ -1415,9 +1300,9 @@
       "japanese": "いわ",
       "chinese": "岩石",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "岩石",
       "sourceCandidates": [
         "candidate-005676"
@@ -1430,9 +1315,9 @@
       "japanese": "いわ",
       "chinese": "岩石",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "岩石",
       "sourceCandidates": [
         "candidate-008085",
@@ -1447,9 +1332,9 @@
       "japanese": "いわ",
       "chinese": "岩石",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "岩石",
       "sourceCandidates": [
         "candidate-016313"
@@ -1462,9 +1347,9 @@
       "japanese": "いわ",
       "chinese": "岩石",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "岩石",
       "sourceCandidates": [
         "candidate-018723",
@@ -1479,9 +1364,9 @@
       "japanese": "むし",
       "chinese": "虫",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "虫",
       "sourceCandidates": [
         "candidate-005677"
@@ -1494,9 +1379,9 @@
       "japanese": "むし",
       "chinese": "虫",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "虫",
       "sourceCandidates": [
         "candidate-008128"
@@ -1509,9 +1394,9 @@
       "japanese": "むし",
       "chinese": "虫",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "虫",
       "sourceCandidates": [
         "candidate-016314"
@@ -1524,9 +1409,9 @@
       "japanese": "むし",
       "chinese": "虫",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "虫",
       "sourceCandidates": [
         "candidate-018766"
@@ -1539,9 +1424,9 @@
       "japanese": "はがね",
       "chinese": "钢",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "钢",
       "sourceCandidates": [
         "candidate-005679"
@@ -1554,9 +1439,9 @@
       "japanese": "はがね",
       "chinese": "钢",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "钢",
       "sourceCandidates": [
         "candidate-008124"
@@ -1569,9 +1454,9 @@
       "japanese": "はがね",
       "chinese": "钢",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "钢",
       "sourceCandidates": [
         "candidate-016316"
@@ -1584,9 +1469,9 @@
       "japanese": "はがね",
       "chinese": "钢",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "钢",
       "sourceCandidates": [
         "candidate-018762"
@@ -1599,9 +1484,9 @@
       "japanese": "ほのお",
       "chinese": "火",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "火",
       "sourceCandidates": [
         "candidate-005680"
@@ -1614,9 +1499,9 @@
       "japanese": "ほのお",
       "chinese": "火",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "火",
       "sourceCandidates": [
         "candidate-006381"
@@ -1629,57 +1514,12 @@
       "japanese": "ほのお",
       "chinese": "火",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "火",
       "sourceCandidates": [
         "candidate-008126"
-      ]
-    },
-    {
-      "id": "rs.common.type_names.gTypeNames.10:sapphire",
-      "qid": "rs.common.type_names.gTypeNames.10",
-      "game": "sapphire",
-      "japanese": "ほのお",
-      "chinese": "火",
-      "kind": "type",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "火",
-      "sourceCandidates": [
-        "candidate-016317"
-      ]
-    },
-    {
-      "id": "rs.common.pokedex_entries.gPokedexEntries.136:sapphire",
-      "qid": "rs.common.pokedex_entries.gPokedexEntries.136",
-      "game": "sapphire",
-      "japanese": "ほのお",
-      "chinese": "火",
-      "kind": "type",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "火焰",
-      "sourceCandidates": [
-        "candidate-017018"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.90:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.90",
-      "game": "sapphire",
-      "japanese": "ほのお",
-      "chinese": "火",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "火",
-      "sourceCandidates": [
-        "candidate-018764"
       ]
     },
     {
@@ -1689,9 +1529,9 @@
       "japanese": "みず",
       "chinese": "水",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "水",
       "sourceCandidates": [
         "candidate-005681"
@@ -1704,9 +1544,9 @@
       "japanese": "みず",
       "chinese": "水",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "水",
       "sourceCandidates": [
         "candidate-008127"
@@ -1719,9 +1559,9 @@
       "japanese": "みず",
       "chinese": "水",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "水",
       "sourceCandidates": [
         "candidate-016318"
@@ -1734,9 +1574,9 @@
       "japanese": "みず",
       "chinese": "水",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "水",
       "sourceCandidates": [
         "candidate-018765"
@@ -1749,9 +1589,9 @@
       "japanese": "くさ",
       "chinese": "草",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "草",
       "sourceCandidates": [
         "candidate-005682"
@@ -1764,9 +1604,9 @@
       "japanese": "くさ",
       "chinese": "草",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "草",
       "sourceCandidates": [
         "candidate-008102"
@@ -1779,9 +1619,9 @@
       "japanese": "くさ",
       "chinese": "草",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "草",
       "sourceCandidates": [
         "candidate-016319"
@@ -1794,166 +1634,12 @@
       "japanese": "くさ",
       "chinese": "草",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "草",
       "sourceCandidates": [
         "candidate-018740"
-      ]
-    },
-    {
-      "id": "rs.common.type_names.gTypeNames.13:ruby",
-      "qid": "rs.common.type_names.gTypeNames.13",
-      "game": "ruby",
-      "japanese": "でんき",
-      "chinese": "电",
-      "kind": "type",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "电",
-      "sourceCandidates": [
-        "candidate-005683"
-      ]
-    },
-    {
-      "id": "rs.common.pokedex_entries.gPokedexEntries.239:ruby",
-      "qid": "rs.common.pokedex_entries.gPokedexEntries.239",
-      "game": "ruby",
-      "japanese": "でんき",
-      "chinese": "电",
-      "kind": "type",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "电气",
-      "sourceCandidates": [
-        "candidate-006484"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.57:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.57",
-      "game": "ruby",
-      "japanese": "でんき",
-      "chinese": "电",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "电气",
-      "sourceCandidates": [
-        "candidate-008110",
-        "candidate-008111",
-        "candidate-008112"
-      ]
-    },
-    {
-      "id": "rs.common.type_names.gTypeNames.13:sapphire",
-      "qid": "rs.common.type_names.gTypeNames.13",
-      "game": "sapphire",
-      "japanese": "でんき",
-      "chinese": "电",
-      "kind": "type",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "电",
-      "sourceCandidates": [
-        "candidate-016320"
-      ]
-    },
-    {
-      "id": "rs.common.pokedex_entries.gPokedexEntries.239:sapphire",
-      "qid": "rs.common.pokedex_entries.gPokedexEntries.239",
-      "game": "sapphire",
-      "japanese": "でんき",
-      "chinese": "电",
-      "kind": "type",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "电气",
-      "sourceCandidates": [
-        "candidate-017121"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.57:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.57",
-      "game": "sapphire",
-      "japanese": "でんき",
-      "chinese": "电",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "电气",
-      "sourceCandidates": [
-        "candidate-018748",
-        "candidate-018749",
-        "candidate-018750"
-      ]
-    },
-    {
-      "id": "rs.common.type_names.gTypeNames.14:ruby",
-      "qid": "rs.common.type_names.gTypeNames.14",
-      "game": "ruby",
-      "japanese": "エスパー",
-      "chinese": "超能力",
-      "kind": "type",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "超能力",
-      "sourceCandidates": [
-        "candidate-005684"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.14:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.14",
-      "game": "ruby",
-      "japanese": "エスパー",
-      "chinese": "超能力",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "超能力者",
-      "sourceCandidates": [
-        "candidate-008092"
-      ]
-    },
-    {
-      "id": "rs.common.type_names.gTypeNames.14:sapphire",
-      "qid": "rs.common.type_names.gTypeNames.14",
-      "game": "sapphire",
-      "japanese": "エスパー",
-      "chinese": "超能力",
-      "kind": "type",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "超能力",
-      "sourceCandidates": [
-        "candidate-016321"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.14:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.14",
-      "game": "sapphire",
-      "japanese": "エスパー",
-      "chinese": "超能力",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "超能力者",
-      "sourceCandidates": [
-        "candidate-018730"
       ]
     },
     {
@@ -1963,9 +1649,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-005686"
@@ -1978,9 +1664,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-006361"
@@ -1993,9 +1679,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-006362"
@@ -2008,9 +1694,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-006392"
@@ -2023,9 +1709,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-006393"
@@ -2038,9 +1724,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-006394"
@@ -2053,9 +1739,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-006475"
@@ -2068,9 +1754,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-006618"
@@ -2083,9 +1769,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-008114",
@@ -2105,9 +1791,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-016323"
@@ -2120,9 +1806,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-016998"
@@ -2135,9 +1821,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-016999"
@@ -2150,9 +1836,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-017029"
@@ -2165,9 +1851,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-017030"
@@ -2180,9 +1866,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-017031"
@@ -2195,9 +1881,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-017112"
@@ -2210,9 +1896,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-017255"
@@ -2225,9 +1911,9 @@
       "japanese": "ドラゴン",
       "chinese": "龙",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "龙",
       "sourceCandidates": [
         "candidate-018752",
@@ -2247,9 +1933,9 @@
       "japanese": "あく",
       "chinese": "恶",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "恶",
       "sourceCandidates": [
         "candidate-005687"
@@ -2262,9 +1948,9 @@
       "japanese": "あく",
       "chinese": "恶",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "恶",
       "sourceCandidates": [
         "candidate-008081",
@@ -2279,9 +1965,9 @@
       "japanese": "あく",
       "chinese": "恶",
       "kind": "type",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "恶",
       "sourceCandidates": [
         "candidate-016324"
@@ -2294,9 +1980,9 @@
       "japanese": "あく",
       "chinese": "恶",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "恶",
       "sourceCandidates": [
         "candidate-018719",
@@ -2305,631 +1991,15 @@
       ]
     },
     {
-      "id": "rs.common.ability_names.gAbilityNames.1:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.1",
-      "game": "ruby",
-      "japanese": "あくしゅう",
-      "chinese": "恶臭",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "恶臭",
-      "sourceCandidates": [
-        "candidate-005766"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.1:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.1",
-      "game": "ruby",
-      "japanese": "あくしゅう",
-      "chinese": "恶臭",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.1:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.1",
-      "game": "sapphire",
-      "japanese": "あくしゅう",
-      "chinese": "恶臭",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "恶臭",
-      "sourceCandidates": [
-        "candidate-016403"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.1:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.1",
-      "game": "sapphire",
-      "japanese": "あくしゅう",
-      "chinese": "恶臭",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.2:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.2",
-      "game": "ruby",
-      "japanese": "あめふらし",
-      "chinese": "降雨",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "降雨",
-      "sourceCandidates": [
-        "candidate-005767"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.4:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.4",
-      "game": "ruby",
-      "japanese": "あめふらし",
-      "chinese": "降雨",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.2:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.2",
-      "game": "sapphire",
-      "japanese": "あめふらし",
-      "chinese": "降雨",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "降雨",
-      "sourceCandidates": [
-        "candidate-016404"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.4:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.4",
-      "game": "sapphire",
-      "japanese": "あめふらし",
-      "chinese": "降雨",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.3:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.3",
-      "game": "ruby",
-      "japanese": "かそく",
-      "chinese": "加速",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "加速",
-      "sourceCandidates": [
-        "candidate-005768"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.20:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.20",
-      "game": "ruby",
-      "japanese": "かそく",
-      "chinese": "加速",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.3:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.3",
-      "game": "sapphire",
-      "japanese": "かそく",
-      "chinese": "加速",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "加速",
-      "sourceCandidates": [
-        "candidate-016405"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.20:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.20",
-      "game": "sapphire",
-      "japanese": "かそく",
-      "chinese": "加速",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.4:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.4",
-      "game": "ruby",
-      "japanese": "カブトアーマー",
-      "chinese": "战斗盔甲",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "战斗盔甲",
-      "sourceCandidates": [
-        "candidate-005769"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.23:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.23",
-      "game": "ruby",
-      "japanese": "カブトアーマー",
-      "chinese": "战斗盔甲",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.4:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.4",
-      "game": "sapphire",
-      "japanese": "カブトアーマー",
-      "chinese": "战斗盔甲",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "战斗盔甲",
-      "sourceCandidates": [
-        "candidate-016406"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.23:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.23",
-      "game": "sapphire",
-      "japanese": "カブトアーマー",
-      "chinese": "战斗盔甲",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.5:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.5",
-      "game": "ruby",
-      "japanese": "がんじょう",
-      "chinese": "结实",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "结实",
-      "sourceCandidates": [
-        "candidate-005770"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.26:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.26",
-      "game": "ruby",
-      "japanese": "がんじょう",
-      "chinese": "结实",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.5:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.5",
-      "game": "sapphire",
-      "japanese": "がんじょう",
-      "chinese": "结实",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "结实",
-      "sourceCandidates": [
-        "candidate-016407"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.26:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.26",
-      "game": "sapphire",
-      "japanese": "がんじょう",
-      "chinese": "结实",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.6:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.6",
-      "game": "ruby",
-      "japanese": "しめりけ",
-      "chinese": "湿气",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "湿气",
-      "sourceCandidates": [
-        "candidate-005771"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.37:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.37",
-      "game": "ruby",
-      "japanese": "しめりけ",
-      "chinese": "湿气",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.6:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.6",
-      "game": "sapphire",
-      "japanese": "しめりけ",
-      "chinese": "湿气",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "湿气",
-      "sourceCandidates": [
-        "candidate-016408"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.37:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.37",
-      "game": "sapphire",
-      "japanese": "しめりけ",
-      "chinese": "湿气",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.7:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.7",
-      "game": "ruby",
-      "japanese": "じゅうなん",
-      "chinese": "柔软",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "柔软",
-      "sourceCandidates": [
-        "candidate-005772"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.39:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.39",
-      "game": "ruby",
-      "japanese": "じゅうなん",
-      "chinese": "柔软",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.7:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.7",
-      "game": "sapphire",
-      "japanese": "じゅうなん",
-      "chinese": "柔软",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "柔软",
-      "sourceCandidates": [
-        "candidate-016409"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.39:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.39",
-      "game": "sapphire",
-      "japanese": "じゅうなん",
-      "chinese": "柔软",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.8:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.8",
-      "game": "ruby",
-      "japanese": "すながくれ",
-      "chinese": "沙隐",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "沙隐",
-      "sourceCandidates": [
-        "candidate-005773"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.46:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.46",
-      "game": "ruby",
-      "japanese": "すながくれ",
-      "chinese": "沙隐",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.8:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.8",
-      "game": "sapphire",
-      "japanese": "すながくれ",
-      "chinese": "沙隐",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "沙隐",
-      "sourceCandidates": [
-        "candidate-016410"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.46:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.46",
-      "game": "sapphire",
-      "japanese": "すながくれ",
-      "chinese": "沙隐",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.9:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.9",
-      "game": "ruby",
-      "japanese": "せいでんき",
-      "chinese": "静电",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "静电",
-      "sourceCandidates": [
-        "candidate-005774"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.49:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.49",
-      "game": "ruby",
-      "japanese": "せいでんき",
-      "chinese": "静电",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.9:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.9",
-      "game": "sapphire",
-      "japanese": "せいでんき",
-      "chinese": "静电",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "静电",
-      "sourceCandidates": [
-        "candidate-016411"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.49:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.49",
-      "game": "sapphire",
-      "japanese": "せいでんき",
-      "chinese": "静电",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.10:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.10",
-      "game": "ruby",
-      "japanese": "ちくでん",
-      "chinese": "蓄电",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "蓄电",
-      "sourceCandidates": [
-        "candidate-005775"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.55:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.55",
-      "game": "ruby",
-      "japanese": "ちくでん",
-      "chinese": "蓄电",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.10:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.10",
-      "game": "sapphire",
-      "japanese": "ちくでん",
-      "chinese": "蓄电",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "蓄电",
-      "sourceCandidates": [
-        "candidate-016412"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.55:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.55",
-      "game": "sapphire",
-      "japanese": "ちくでん",
-      "chinese": "蓄电",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.65:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.65",
-      "game": "ruby",
-      "japanese": "しんりょく",
-      "chinese": "茂盛",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "茂盛",
-      "sourceCandidates": [
-        "candidate-005832"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.43:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.43",
-      "game": "ruby",
-      "japanese": "しんりょく",
-      "chinese": "茂盛",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.65:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.65",
-      "game": "sapphire",
-      "japanese": "しんりょく",
-      "chinese": "茂盛",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "茂盛",
-      "sourceCandidates": [
-        "candidate-016469"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.43:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.43",
-      "game": "sapphire",
-      "japanese": "しんりょく",
-      "chinese": "茂盛",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
       "id": "rs.common.ability_names.gAbilityNames.66:ruby",
       "qid": "rs.common.ability_names.gAbilityNames.66",
       "game": "ruby",
       "japanese": "もうか",
       "chinese": "猛火",
       "kind": "ability",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "猛火",
       "sourceCandidates": [
         "candidate-005833"
@@ -2942,9 +2012,9 @@
       "japanese": "もうか",
       "chinese": "猛火",
       "kind": "ability",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "猛火",
       "sourceCandidates": [
         "candidate-006502"
@@ -2957,9 +2027,9 @@
       "japanese": "もうか",
       "chinese": "猛火",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "猛火",
       "sourceCandidates": [
         "candidate-008129"
@@ -2972,9 +2042,9 @@
       "japanese": "もうか",
       "chinese": "猛火",
       "kind": "ability",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "猛火",
       "sourceCandidates": [
         "candidate-016470"
@@ -2987,9 +2057,9 @@
       "japanese": "もうか",
       "chinese": "猛火",
       "kind": "ability",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "猛火",
       "sourceCandidates": [
         "candidate-017139"
@@ -3002,262 +2072,12 @@
       "japanese": "もうか",
       "chinese": "猛火",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "猛火",
       "sourceCandidates": [
         "candidate-018767"
-      ]
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.67:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.67",
-      "game": "ruby",
-      "japanese": "げきりゅう",
-      "chinese": "激流",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "激流",
-      "sourceCandidates": [
-        "candidate-005834"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.30:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.30",
-      "game": "ruby",
-      "japanese": "げきりゅう",
-      "chinese": "激流",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.67:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.67",
-      "game": "sapphire",
-      "japanese": "げきりゅう",
-      "chinese": "激流",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "激流",
-      "sourceCandidates": [
-        "candidate-016471"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.30:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.30",
-      "game": "sapphire",
-      "japanese": "げきりゅう",
-      "chinese": "激流",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.68:ruby",
-      "qid": "rs.common.ability_names.gAbilityNames.68",
-      "game": "ruby",
-      "japanese": "むしのしらせ",
-      "chinese": "虫之预感",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "虫之预感",
-      "sourceCandidates": [
-        "candidate-005835"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.98:ruby",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.98",
-      "game": "ruby",
-      "japanese": "むしのしらせ",
-      "chinese": "虫之预感",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.ability_names.gAbilityNames.68:sapphire",
-      "qid": "rs.common.ability_names.gAbilityNames.68",
-      "game": "sapphire",
-      "japanese": "むしのしらせ",
-      "chinese": "虫之预感",
-      "kind": "ability",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "虫之预感",
-      "sourceCandidates": [
-        "candidate-016472"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.98:sapphire",
-      "qid": "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.98",
-      "game": "sapphire",
-      "japanese": "むしのしらせ",
-      "chinese": "虫之预感",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.^j_0.1:ruby",
-      "qid": "rs.common.^j_0.1",
-      "game": "ruby",
-      "japanese": "はい",
-      "chinese": "是",
-      "kind": "ui",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.easy_chat_group_voices.gEasyChatGroupWords_Voices.39:ruby",
-      "qid": "rs.common.easy_chat_group_voices.gEasyChatGroupWords_Voices.39",
-      "game": "ruby",
-      "japanese": "はい",
-      "chinese": "是",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.strings.OtherText_Yes:ruby",
-      "qid": "rs.common.strings.OtherText_Yes",
-      "game": "ruby",
-      "japanese": "はい",
-      "chinese": "是",
-      "kind": "ui",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "是",
-      "sourceCandidates": [
-        "candidate-009984"
-      ]
-    },
-    {
-      "id": "rs.common.^j_0.1:sapphire",
-      "qid": "rs.common.^j_0.1",
-      "game": "sapphire",
-      "japanese": "はい",
-      "chinese": "是",
-      "kind": "ui",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.easy_chat_group_voices.gEasyChatGroupWords_Voices.39:sapphire",
-      "qid": "rs.common.easy_chat_group_voices.gEasyChatGroupWords_Voices.39",
-      "game": "sapphire",
-      "japanese": "はい",
-      "chinese": "是",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.strings.OtherText_Yes:sapphire",
-      "qid": "rs.common.strings.OtherText_Yes",
-      "game": "sapphire",
-      "japanese": "はい",
-      "chinese": "是",
-      "kind": "ui",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "是",
-      "sourceCandidates": [
-        "candidate-020622"
-      ]
-    },
-    {
-      "id": "rs.common.^j_0.2:ruby",
-      "qid": "rs.common.^j_0.2",
-      "game": "ruby",
-      "japanese": "いいえ",
-      "chinese": "否",
-      "kind": "ui",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.strings.OtherText_No:ruby",
-      "qid": "rs.common.strings.OtherText_No",
-      "game": "ruby",
-      "japanese": "いいえ",
-      "chinese": "否",
-      "kind": "ui",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "否",
-      "sourceCandidates": [
-        "candidate-009985"
-      ]
-    },
-    {
-      "id": "rs.common.^j_0.2:sapphire",
-      "qid": "rs.common.^j_0.2",
-      "game": "sapphire",
-      "japanese": "いいえ",
-      "chinese": "否",
-      "kind": "ui",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.strings.OtherText_No:sapphire",
-      "qid": "rs.common.strings.OtherText_No",
-      "game": "sapphire",
-      "japanese": "いいえ",
-      "chinese": "否",
-      "kind": "ui",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "否",
-      "sourceCandidates": [
-        "candidate-020623"
       ]
     },
     {
@@ -3267,9 +2087,9 @@
       "japanese": "ようき",
       "chinese": "爽朗",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "爽朗",
       "sourceCandidates": [
         "candidate-006516"
@@ -3282,9 +2102,9 @@
       "japanese": "ようき",
       "chinese": "爽朗",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "爽朗",
       "sourceCandidates": [
         "candidate-006999"
@@ -3297,9 +2117,9 @@
       "japanese": "ようき",
       "chinese": "爽朗",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "爽朗",
       "sourceCandidates": [
         "candidate-017153"
@@ -3312,9 +2132,9 @@
       "japanese": "ようき",
       "chinese": "爽朗",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "爽朗",
       "sourceCandidates": [
         "candidate-017636"
@@ -3327,9 +2147,9 @@
       "japanese": "のうてんき",
       "chinese": "乐天",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "乐天",
       "sourceCandidates": [
         "candidate-006517"
@@ -3342,9 +2162,9 @@
       "japanese": "のうてんき",
       "chinese": "乐天",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "乐天",
       "sourceCandidates": [
         "candidate-006995"
@@ -3357,9 +2177,9 @@
       "japanese": "のうてんき",
       "chinese": "乐天",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "乐天",
       "sourceCandidates": [
         "candidate-017154"
@@ -3372,9 +2192,9 @@
       "japanese": "のうてんき",
       "chinese": "乐天",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "乐天",
       "sourceCandidates": [
         "candidate-017632"
@@ -3387,9 +2207,9 @@
       "japanese": "がんばりや",
       "chinese": "勤奋",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "勤奋",
       "sourceCandidates": [
         "candidate-006986"
@@ -3402,9 +2222,9 @@
       "japanese": "がんばりや",
       "chinese": "勤奋",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "勤奋",
       "sourceCandidates": [
         "candidate-017623"
@@ -3417,9 +2237,9 @@
       "japanese": "さみしがり",
       "chinese": "怕寂寞",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怕寂寞",
       "sourceCandidates": [
         "candidate-006987"
@@ -3432,9 +2252,9 @@
       "japanese": "さみしがり",
       "chinese": "怕寂寞",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怕寂寞",
       "sourceCandidates": [
         "candidate-017624"
@@ -3447,9 +2267,9 @@
       "japanese": "ゆうかん",
       "chinese": "勇敢",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "勇敢",
       "sourceCandidates": [
         "candidate-006988"
@@ -3462,9 +2282,9 @@
       "japanese": "ゆうかん",
       "chinese": "勇敢",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "勇敢",
       "sourceCandidates": [
         "candidate-017625"
@@ -3477,9 +2297,9 @@
       "japanese": "いじっぱり",
       "chinese": "固执",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "固执",
       "sourceCandidates": [
         "candidate-006989"
@@ -3492,9 +2312,9 @@
       "japanese": "いじっぱり",
       "chinese": "固执",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "固执",
       "sourceCandidates": [
         "candidate-017626"
@@ -3507,9 +2327,9 @@
       "japanese": "やんちゃ",
       "chinese": "顽皮",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "顽皮",
       "sourceCandidates": [
         "candidate-006990"
@@ -3522,9 +2342,9 @@
       "japanese": "やんちゃ",
       "chinese": "顽皮",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "顽皮",
       "sourceCandidates": [
         "candidate-017627"
@@ -3537,9 +2357,9 @@
       "japanese": "ずぶとい",
       "chinese": "大胆",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "大胆",
       "sourceCandidates": [
         "candidate-006991"
@@ -3552,9 +2372,9 @@
       "japanese": "ずぶとい",
       "chinese": "大胆",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "大胆",
       "sourceCandidates": [
         "candidate-017628"
@@ -3567,9 +2387,9 @@
       "japanese": "すなお",
       "chinese": "坦率",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "坦率",
       "sourceCandidates": [
         "candidate-006992"
@@ -3582,9 +2402,9 @@
       "japanese": "すなお",
       "chinese": "坦率",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "坦率",
       "sourceCandidates": [
         "candidate-017629"
@@ -3597,9 +2417,9 @@
       "japanese": "のんき",
       "chinese": "悠闲",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "悠闲",
       "sourceCandidates": [
         "candidate-006993"
@@ -3612,9 +2432,9 @@
       "japanese": "のんき",
       "chinese": "悠闲",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "悠闲",
       "sourceCandidates": [
         "candidate-017630"
@@ -3627,9 +2447,9 @@
       "japanese": "わんぱく",
       "chinese": "淘气",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "淘气",
       "sourceCandidates": [
         "candidate-006994"
@@ -3642,9 +2462,9 @@
       "japanese": "わんぱく",
       "chinese": "淘气",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "淘气",
       "sourceCandidates": [
         "candidate-017631"
@@ -3657,9 +2477,9 @@
       "japanese": "おくびょう",
       "chinese": "胆小",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "胆小",
       "sourceCandidates": [
         "candidate-006996"
@@ -3672,9 +2492,9 @@
       "japanese": "おくびょう",
       "chinese": "胆小",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "胆小",
       "sourceCandidates": [
         "candidate-017633"
@@ -3687,9 +2507,9 @@
       "japanese": "せっかち",
       "chinese": "急躁",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "急躁",
       "sourceCandidates": [
         "candidate-006997"
@@ -3702,9 +2522,9 @@
       "japanese": "せっかち",
       "chinese": "急躁",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "急躁",
       "sourceCandidates": [
         "candidate-017634"
@@ -3717,9 +2537,9 @@
       "japanese": "まじめ",
       "chinese": "认真",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "认真",
       "sourceCandidates": [
         "candidate-006998"
@@ -3732,9 +2552,9 @@
       "japanese": "まじめ",
       "chinese": "认真",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "认真",
       "sourceCandidates": [
         "candidate-017635"
@@ -3747,9 +2567,9 @@
       "japanese": "むじゃき",
       "chinese": "天真",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "天真",
       "sourceCandidates": [
         "candidate-007000"
@@ -3762,9 +2582,9 @@
       "japanese": "むじゃき",
       "chinese": "天真",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "天真",
       "sourceCandidates": [
         "candidate-017637"
@@ -3777,9 +2597,9 @@
       "japanese": "ひかえめ",
       "chinese": "内敛",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "内敛",
       "sourceCandidates": [
         "candidate-007001"
@@ -3792,9 +2612,9 @@
       "japanese": "ひかえめ",
       "chinese": "内敛",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "内敛",
       "sourceCandidates": [
         "candidate-017638"
@@ -3807,9 +2627,9 @@
       "japanese": "おっとり",
       "chinese": "慢吞吞",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "慢吞吞",
       "sourceCandidates": [
         "candidate-007002"
@@ -3822,9 +2642,9 @@
       "japanese": "おっとり",
       "chinese": "慢吞吞",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "慢吞吞",
       "sourceCandidates": [
         "candidate-017639"
@@ -3837,9 +2657,9 @@
       "japanese": "れいせい",
       "chinese": "冷静",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "冷静",
       "sourceCandidates": [
         "candidate-007003"
@@ -3852,9 +2672,9 @@
       "japanese": "れいせい",
       "chinese": "冷静",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "冷静",
       "sourceCandidates": [
         "candidate-017640"
@@ -3867,9 +2687,9 @@
       "japanese": "てれや",
       "chinese": "害羞",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "害羞",
       "sourceCandidates": [
         "candidate-007004"
@@ -3882,9 +2702,9 @@
       "japanese": "てれや",
       "chinese": "害羞",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "害羞",
       "sourceCandidates": [
         "candidate-017641"
@@ -3897,9 +2717,9 @@
       "japanese": "うっかりや",
       "chinese": "马虎",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "马虎",
       "sourceCandidates": [
         "candidate-007005"
@@ -3912,9 +2732,9 @@
       "japanese": "うっかりや",
       "chinese": "马虎",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "马虎",
       "sourceCandidates": [
         "candidate-017642"
@@ -3927,9 +2747,9 @@
       "japanese": "おだやか",
       "chinese": "温和",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "温和",
       "sourceCandidates": [
         "candidate-007006"
@@ -3942,72 +2762,12 @@
       "japanese": "おだやか",
       "chinese": "温和",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "温和",
       "sourceCandidates": [
         "candidate-017643"
-      ]
-    },
-    {
-      "id": "rs.common.nature_names.NatureName_Gentle:ruby",
-      "qid": "rs.common.nature_names.NatureName_Gentle",
-      "game": "ruby",
-      "japanese": "おとなしい",
-      "chinese": "温顺",
-      "kind": "nature",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "温顺",
-      "sourceCandidates": [
-        "candidate-007007"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_conditions.gEasyChatGroupWords_Conditions.22:ruby",
-      "qid": "rs.common.easy_chat_group_conditions.gEasyChatGroupWords_Conditions.22",
-      "game": "ruby",
-      "japanese": "おとなしい",
-      "chinese": "温顺",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "坦率",
-      "sourceCandidates": [
-        "candidate-008155"
-      ]
-    },
-    {
-      "id": "rs.common.nature_names.NatureName_Gentle:sapphire",
-      "qid": "rs.common.nature_names.NatureName_Gentle",
-      "game": "sapphire",
-      "japanese": "おとなしい",
-      "chinese": "温顺",
-      "kind": "nature",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
-      "originalChinese": "温顺",
-      "sourceCandidates": [
-        "candidate-017644"
-      ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_conditions.gEasyChatGroupWords_Conditions.22:sapphire",
-      "qid": "rs.common.easy_chat_group_conditions.gEasyChatGroupWords_Conditions.22",
-      "game": "sapphire",
-      "japanese": "おとなしい",
-      "chinese": "温顺",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "坦率",
-      "sourceCandidates": [
-        "candidate-018793"
       ]
     },
     {
@@ -4017,9 +2777,9 @@
       "japanese": "なまいき",
       "chinese": "自大",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "自大",
       "sourceCandidates": [
         "candidate-007008"
@@ -4032,9 +2792,9 @@
       "japanese": "なまいき",
       "chinese": "自大",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "自大",
       "sourceCandidates": [
         "candidate-017645"
@@ -4047,9 +2807,9 @@
       "japanese": "しんちょう",
       "chinese": "慎重",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "慎重",
       "sourceCandidates": [
         "candidate-007009"
@@ -4062,9 +2822,9 @@
       "japanese": "しんちょう",
       "chinese": "慎重",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "慎重",
       "sourceCandidates": [
         "candidate-017646"
@@ -4077,9 +2837,9 @@
       "japanese": "きまぐれ",
       "chinese": "浮躁",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "浮躁",
       "sourceCandidates": [
         "candidate-007010"
@@ -4092,9 +2852,9 @@
       "japanese": "きまぐれ",
       "chinese": "浮躁",
       "kind": "nature",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "浮躁",
       "sourceCandidates": [
         "candidate-017647"
@@ -4107,9 +2867,9 @@
       "japanese": "ポケモン",
       "chinese": "宝可梦",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "宝可梦",
       "sourceCandidates": [
         "candidate-008073",
@@ -4125,9 +2885,9 @@
       "japanese": "ポケモン",
       "chinese": "宝可梦",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "宝可梦",
       "sourceCandidates": [
         "candidate-009552",
@@ -4143,9 +2903,9 @@
       "japanese": "ポケモン",
       "chinese": "宝可梦",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "宝可梦",
       "sourceCandidates": [
         "candidate-009632"
@@ -4158,9 +2918,9 @@
       "japanese": "ポケモン",
       "chinese": "宝可梦",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "宝可梦",
       "sourceCandidates": [
         "candidate-010327"
@@ -4173,9 +2933,9 @@
       "japanese": "ポケモン",
       "chinese": "宝可梦",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "宝可梦",
       "sourceCandidates": [
         "candidate-010369"
@@ -4188,9 +2948,9 @@
       "japanese": "ポケモン",
       "chinese": "宝可梦",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "宝可梦",
       "sourceCandidates": [
         "candidate-018711",
@@ -4206,9 +2966,9 @@
       "japanese": "ポケモン",
       "chinese": "宝可梦",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "宝可梦",
       "sourceCandidates": [
         "candidate-020190",
@@ -4224,9 +2984,9 @@
       "japanese": "ポケモン",
       "chinese": "宝可梦",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "宝可梦",
       "sourceCandidates": [
         "candidate-020270"
@@ -4239,9 +2999,9 @@
       "japanese": "ポケモン",
       "chinese": "宝可梦",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "宝可梦",
       "sourceCandidates": [
         "candidate-020965"
@@ -4254,9 +3014,9 @@
       "japanese": "ポケモン",
       "chinese": "宝可梦",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "宝可梦",
       "sourceCandidates": [
         "candidate-021007"
@@ -4269,9 +3029,9 @@
       "japanese": "こうげき",
       "chinese": "攻击",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "攻击",
       "sourceCandidates": [
         "candidate-008130",
@@ -4285,9 +3045,9 @@
       "japanese": "こうげき",
       "chinese": "攻击",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "攻击",
       "sourceCandidates": [
         "candidate-009291"
@@ -4300,9 +3060,9 @@
       "japanese": "こうげき",
       "chinese": "攻击",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "攻击",
       "sourceCandidates": [
         "candidate-009828"
@@ -4315,9 +3075,9 @@
       "japanese": "こうげき",
       "chinese": "攻击",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "攻击",
       "sourceCandidates": [
         "candidate-018768",
@@ -4331,9 +3091,9 @@
       "japanese": "こうげき",
       "chinese": "攻击",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "攻击",
       "sourceCandidates": [
         "candidate-019929"
@@ -4346,69 +3106,13 @@
       "japanese": "こうげき",
       "chinese": "攻击",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "攻击",
       "sourceCandidates": [
         "candidate-020466"
       ]
-    },
-    {
-      "id": "rs.common.easy_chat_group_battle.gEasyChatGroupWords_Battle.62:ruby",
-      "qid": "rs.common.easy_chat_group_battle.gEasyChatGroupWords_Battle.62",
-      "game": "ruby",
-      "japanese": "わざ",
-      "chinese": "招式",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "移动",
-      "sourceCandidates": [
-        "candidate-008139"
-      ]
-    },
-    {
-      "id": "rs.common.strings2.gOtherText_Terminator2:ruby",
-      "qid": "rs.common.strings2.gOtherText_Terminator2",
-      "game": "ruby",
-      "japanese": "わざ",
-      "chinese": "招式",
-      "kind": "ui",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
-    },
-    {
-      "id": "rs.common.easy_chat_group_battle.gEasyChatGroupWords_Battle.62:sapphire",
-      "qid": "rs.common.easy_chat_group_battle.gEasyChatGroupWords_Battle.62",
-      "game": "sapphire",
-      "japanese": "わざ",
-      "chinese": "招式",
-      "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文与词条用途，采用对应术语；保留原汉化候选。",
-      "originalChinese": "移动",
-      "sourceCandidates": [
-        "candidate-018777"
-      ]
-    },
-    {
-      "id": "rs.common.strings2.gOtherText_Terminator2:sapphire",
-      "qid": "rs.common.strings2.gOtherText_Terminator2",
-      "game": "sapphire",
-      "japanese": "わざ",
-      "chinese": "招式",
-      "kind": "ui",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "supplement",
-      "reason": "离线模型按完整日文静态词条补译；未从英文缺失项推定地址。",
-      "originalChinese": "",
-      "sourceCandidates": []
     },
     {
       "id": "rs.common.easy_chat_group_lifestyle.gEasyChatGroupWords_Lifestyle.29:ruby",
@@ -4417,9 +3121,9 @@
       "japanese": "どうぐ",
       "chinese": "道具",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "道具",
       "sourceCandidates": [
         "candidate-008168"
@@ -4432,9 +3136,9 @@
       "japanese": "どうぐ",
       "chinese": "道具",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "道具",
       "sourceCandidates": [
         "candidate-010080"
@@ -4447,9 +3151,9 @@
       "japanese": "どうぐ",
       "chinese": "道具",
       "kind": "easy_chat_word",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "道具",
       "sourceCandidates": [
         "candidate-018806"
@@ -4462,9 +3166,9 @@
       "japanese": "どうぐ",
       "chinese": "道具",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "道具",
       "sourceCandidates": [
         "candidate-020718"
@@ -4477,9 +3181,9 @@
       "japanese": "すばやさ",
       "chinese": "速度",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "速度",
       "sourceCandidates": [
         "candidate-009230"
@@ -4492,9 +3196,9 @@
       "japanese": "すばやさ",
       "chinese": "速度",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "速度",
       "sourceCandidates": [
         "candidate-009832"
@@ -4507,9 +3211,9 @@
       "japanese": "すばやさ",
       "chinese": "速度",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "速度",
       "sourceCandidates": [
         "candidate-019868"
@@ -4522,9 +3226,9 @@
       "japanese": "すばやさ",
       "chinese": "速度",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "速度",
       "sourceCandidates": [
         "candidate-020470"
@@ -4537,9 +3241,9 @@
       "japanese": "とくこう",
       "chinese": "特攻",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特攻",
       "sourceCandidates": [
         "candidate-009231"
@@ -4552,9 +3256,9 @@
       "japanese": "とくこう",
       "chinese": "特攻",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特攻",
       "sourceCandidates": [
         "candidate-009293"
@@ -4567,9 +3271,9 @@
       "japanese": "とくこう",
       "chinese": "特攻",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特攻",
       "sourceCandidates": [
         "candidate-009760"
@@ -4582,9 +3286,9 @@
       "japanese": "とくこう",
       "chinese": "特攻",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特攻",
       "sourceCandidates": [
         "candidate-009830"
@@ -4597,9 +3301,9 @@
       "japanese": "とくこう",
       "chinese": "特攻",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特攻",
       "sourceCandidates": [
         "candidate-019869"
@@ -4612,9 +3316,9 @@
       "japanese": "とくこう",
       "chinese": "特攻",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特攻",
       "sourceCandidates": [
         "candidate-019931"
@@ -4627,9 +3331,9 @@
       "japanese": "とくこう",
       "chinese": "特攻",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特攻",
       "sourceCandidates": [
         "candidate-020398"
@@ -4642,9 +3346,9 @@
       "japanese": "とくこう",
       "chinese": "特攻",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特攻",
       "sourceCandidates": [
         "candidate-020468"
@@ -4657,9 +3361,9 @@
       "japanese": "とくぼう",
       "chinese": "特防",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特防",
       "sourceCandidates": [
         "candidate-009232"
@@ -4672,9 +3376,9 @@
       "japanese": "とくぼう",
       "chinese": "特防",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特防",
       "sourceCandidates": [
         "candidate-009294"
@@ -4687,9 +3391,9 @@
       "japanese": "とくぼう",
       "chinese": "特防",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特防",
       "sourceCandidates": [
         "candidate-009761"
@@ -4702,9 +3406,9 @@
       "japanese": "とくぼう",
       "chinese": "特防",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特防",
       "sourceCandidates": [
         "candidate-009831"
@@ -4717,9 +3421,9 @@
       "japanese": "とくぼう",
       "chinese": "特防",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特防",
       "sourceCandidates": [
         "candidate-019870"
@@ -4732,9 +3436,9 @@
       "japanese": "とくぼう",
       "chinese": "特防",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特防",
       "sourceCandidates": [
         "candidate-019932"
@@ -4747,9 +3451,9 @@
       "japanese": "とくぼう",
       "chinese": "特防",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特防",
       "sourceCandidates": [
         "candidate-020399"
@@ -4762,9 +3466,9 @@
       "japanese": "とくぼう",
       "chinese": "特防",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "特防",
       "sourceCandidates": [
         "candidate-020469"
@@ -4777,9 +3481,9 @@
       "japanese": "ぼうぎょ",
       "chinese": "防御",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "防御",
       "sourceCandidates": [
         "candidate-009292"
@@ -4792,9 +3496,9 @@
       "japanese": "ぼうぎょ",
       "chinese": "防御",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "防御",
       "sourceCandidates": [
         "candidate-009829"
@@ -4807,9 +3511,9 @@
       "japanese": "ぼうぎょ",
       "chinese": "防御",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "防御",
       "sourceCandidates": [
         "candidate-019930"
@@ -4822,9 +3526,9 @@
       "japanese": "ぼうぎょ",
       "chinese": "防御",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "防御",
       "sourceCandidates": [
         "candidate-020467"
@@ -4837,9 +3541,9 @@
       "japanese": "キャンセル",
       "chinese": "取消",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "取消",
       "sourceCandidates": [
         "candidate-009644",
@@ -4857,9 +3561,9 @@
       "japanese": "キャンセル",
       "chinese": "取消",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "取消",
       "sourceCandidates": [
         "candidate-020282",
@@ -4877,9 +3581,9 @@
       "japanese": "もちもの",
       "chinese": "道具",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "道具",
       "sourceCandidates": [
         "candidate-009650"
@@ -4892,9 +3596,9 @@
       "japanese": "もちもの",
       "chinese": "道具",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "道具",
       "sourceCandidates": [
         "candidate-020288"
@@ -4907,9 +3611,9 @@
       "japanese": "バッグ",
       "chinese": "包包",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "包包",
       "sourceCandidates": [
         "candidate-010328"
@@ -4922,9 +3626,9 @@
       "japanese": "バッグ",
       "chinese": "包包",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "包包",
       "sourceCandidates": [
         "candidate-020966"
@@ -4937,9 +3641,9 @@
       "japanese": "レポート",
       "chinese": "记录",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "记录",
       "sourceCandidates": [
         "candidate-010331"
@@ -4952,9 +3656,9 @@
       "japanese": "レポート",
       "chinese": "记录",
       "kind": "ui",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对日文、英文与中文完整静态词条，保留来源措辞。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "记录",
       "sourceCandidates": [
         "candidate-020969"
@@ -4965,11 +3669,11 @@
       "qid": "rs.script.PetalburgCity.PetalburgCity_Text_164426",
       "game": "ruby",
       "japanese": "ほら　ここが　トウカシティの　ジムさ！",
-      "chinese": "看到了吗？这就是橙华市的道馆。",
+      "chinese": "看到了吗？\\n这就是橙华市的道馆。",
       "kind": "dialogue",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "看到了吗？\\n这就是橙华市的道馆。",
       "sourceCandidates": [
         "candidate-000003"
@@ -4980,11 +3684,11 @@
       "qid": "rs.script.PetalburgCity.PetalburgCity_Text_164426",
       "game": "sapphire",
       "japanese": "ほら　ここが　トウカシティの　ジムさ！",
-      "chinese": "看到了吗？这就是橙华市的道馆。",
+      "chinese": "看到了吗？\\n这就是橙华市的道馆。",
       "kind": "dialogue",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "看到了吗？\\n这就是橙华市的道馆。",
       "sourceCandidates": [
         "candidate-010557"
@@ -4997,9 +3701,9 @@
       "japanese": "「ミツルの　いえ」",
       "chinese": "满充的家",
       "kind": "dialogue",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "满充的家",
       "sourceCandidates": [
         "candidate-000009"
@@ -5012,9 +3716,9 @@
       "japanese": "「ミツルの　いえ」",
       "chinese": "满充的家",
       "kind": "dialogue",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "满充的家",
       "sourceCandidates": [
         "candidate-010563"
@@ -5027,9 +3731,9 @@
       "japanese": "どけー！　どけどけー！！",
       "chinese": "让开！别挡路！",
       "kind": "dialogue",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "让开！别挡路！",
       "sourceCandidates": [
         "candidate-000112"
@@ -5042,9 +3746,9 @@
       "japanese": "どけー！　どけどけー！！",
       "chinese": "让开！别挡路！",
       "kind": "dialogue",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "让开！别挡路！",
       "sourceCandidates": [
         "candidate-010666"
@@ -5057,9 +3761,9 @@
       "japanese": "つぎの　ポケモンを　つかいますか？",
       "chinese": "派出下一只宝可梦吗？",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "派出下一只宝可梦吗？",
       "sourceCandidates": [
         "candidate-008878"
@@ -5072,9 +3776,9 @@
       "japanese": "つぎの　ポケモンを　つかいますか？",
       "chinese": "派出下一只宝可梦吗？",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "派出下一只宝可梦吗？",
       "sourceCandidates": [
         "candidate-019516"
@@ -5085,11 +3789,11 @@
       "qid": "rs.common.battle_strings.BattleText_ElecWeakened",
       "game": "ruby",
       "japanese": "でんきの　いりょくが　よわまった！",
-      "chinese": "电属性招式的威力减弱了！",
+      "chinese": "电属性招式的\\n威力减弱了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "电属性招式的\\n威力减弱了！",
       "sourceCandidates": [
         "candidate-009056"
@@ -5100,11 +3804,11 @@
       "qid": "rs.common.battle_strings.BattleText_ElecWeakened",
       "game": "sapphire",
       "japanese": "でんきの　いりょくが　よわまった！",
-      "chinese": "电属性招式的威力减弱了！",
+      "chinese": "电属性招式的\\n威力减弱了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "电属性招式的\\n威力减弱了！",
       "sourceCandidates": [
         "candidate-019694"
@@ -5115,11 +3819,11 @@
       "qid": "rs.common.battle_strings.BattleText_FireWeakened",
       "game": "ruby",
       "japanese": "ほのおの　いりょくが　よわまった！",
-      "chinese": "火属性招式的威力减弱了！",
+      "chinese": "火属性招式的\\n威力减弱了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "火属性招式的\\n威力减弱了！",
       "sourceCandidates": [
         "candidate-009057"
@@ -5130,11 +3834,11 @@
       "qid": "rs.common.battle_strings.BattleText_FireWeakened",
       "game": "sapphire",
       "japanese": "ほのおの　いりょくが　よわまった！",
-      "chinese": "火属性招式的威力减弱了！",
+      "chinese": "火属性招式的\\n威力减弱了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "火属性招式的\\n威力减弱了！",
       "sourceCandidates": [
         "candidate-019695"
@@ -5147,9 +3851,9 @@
       "japanese": "ここちよい　かおりが　ひろがった！",
       "chinese": "怡人的香气扩散了开来！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怡人的香气扩散了开来！",
       "sourceCandidates": [
         "candidate-009059"
@@ -5162,9 +3866,9 @@
       "japanese": "ここちよい　かおりが　ひろがった！",
       "chinese": "怡人的香气扩散了开来！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "怡人的香气扩散了开来！",
       "sourceCandidates": [
         "candidate-019697"
@@ -5177,9 +3881,9 @@
       "japanese": "かべが　こわれた！",
       "chinese": "墙壁被粉碎了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "墙壁被粉碎了！",
       "sourceCandidates": [
         "candidate-009065"
@@ -5192,9 +3896,9 @@
       "japanese": "かべが　こわれた！",
       "chinese": "墙壁被粉碎了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "墙壁被粉碎了！",
       "sourceCandidates": [
         "candidate-019703"
@@ -5207,9 +3911,9 @@
       "japanese": "しかし　こうかが　なかった！",
       "chinese": "但是，没有任何效果！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "但是，没有任何效果！",
       "sourceCandidates": [
         "candidate-009066"
@@ -5222,9 +3926,9 @@
       "japanese": "しかし　こうかが　なかった！",
       "chinese": "但是，没有任何效果！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "但是，没有任何效果！",
       "sourceCandidates": [
         "candidate-019704"
@@ -5237,9 +3941,9 @@
       "japanese": "ヘドロえきを　すいとった！",
       "chinese": "它吸到了污泥浆！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "它吸到了污泥浆！",
       "sourceCandidates": [
         "candidate-009099"
@@ -5252,9 +3956,9 @@
       "japanese": "ヘドロえきを　すいとった！",
       "chinese": "它吸到了污泥浆！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "它吸到了污泥浆！",
       "sourceCandidates": [
         "candidate-019737"
@@ -5267,9 +3971,9 @@
       "japanese": "きゅうしょに　あたった！",
       "chinese": "击中了要害！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "击中了要害！",
       "sourceCandidates": [
         "candidate-009120"
@@ -5282,9 +3986,9 @@
       "japanese": "きゅうしょに　あたった！",
       "chinese": "击中了要害！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "击中了要害！",
       "sourceCandidates": [
         "candidate-019758"
@@ -5297,9 +4001,9 @@
       "japanese": "いちげき　ひっさつ！",
       "chinese": "一击必杀！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "一击必杀！",
       "sourceCandidates": [
         "candidate-009121"
@@ -5312,9 +4016,9 @@
       "japanese": "いちげき　ひっさつ！",
       "chinese": "一击必杀！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "一击必杀！",
       "sourceCandidates": [
         "candidate-019759"
@@ -5327,9 +4031,9 @@
       "japanese": "こうかは　いまひとつの　ようだ",
       "chinese": "好像效果不好...",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "好像效果不好...",
       "sourceCandidates": [
         "candidate-009125"
@@ -5342,9 +4046,9 @@
       "japanese": "こうかは　いまひとつの　ようだ",
       "chinese": "好像效果不好...",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "好像效果不好...",
       "sourceCandidates": [
         "candidate-019763"
@@ -5357,9 +4061,9 @@
       "japanese": "こうかは　ばつぐんだ！",
       "chinese": "效果绝佳！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "效果绝佳！",
       "sourceCandidates": [
         "candidate-009126"
@@ -5372,9 +4076,9 @@
       "japanese": "こうかは　ばつぐんだ！",
       "chinese": "效果绝佳！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "效果绝佳！",
       "sourceCandidates": [
         "candidate-019764"
@@ -5387,9 +4091,9 @@
       "japanese": "しかし　なにもおこらない",
       "chinese": "但是，什么也没有发生！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "但是，什么也没有发生！",
       "sourceCandidates": [
         "candidate-009142"
@@ -5402,9 +4106,9 @@
       "japanese": "しかし　なにもおこらない",
       "chinese": "但是，什么也没有发生！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "但是，什么也没有发生！",
       "sourceCandidates": [
         "candidate-019780"
@@ -5417,9 +4121,9 @@
       "japanese": "しかし　うまく　きまらなかった！",
       "chinese": "但是，招式失败了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "但是，招式失败了！",
       "sourceCandidates": [
         "candidate-009143"
@@ -5432,9 +4136,9 @@
       "japanese": "しかし　うまく　きまらなかった！",
       "chinese": "但是，招式失败了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "但是，招式失败了！",
       "sourceCandidates": [
         "candidate-019781"
@@ -5447,9 +4151,9 @@
       "japanese": "あめが　ふりはじめた！",
       "chinese": "开始下雨了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "开始下雨了！",
       "sourceCandidates": [
         "candidate-009146"
@@ -5462,9 +4166,9 @@
       "japanese": "あめが　ふりはじめた！",
       "chinese": "开始下雨了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "开始下雨了！",
       "sourceCandidates": [
         "candidate-019784"
@@ -5477,9 +4181,9 @@
       "japanese": "おおあめに　なった！",
       "chinese": "下起了倾盆大雨！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "下起了倾盆大雨！",
       "sourceCandidates": [
         "candidate-009147"
@@ -5492,9 +4196,9 @@
       "japanese": "おおあめに　なった！",
       "chinese": "下起了倾盆大雨！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "下起了倾盆大雨！",
       "sourceCandidates": [
         "candidate-019785"
@@ -5507,9 +4211,9 @@
       "japanese": "あめが　ふりつづいている",
       "chinese": "雨还在持续下着。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "雨还在持续下着。",
       "sourceCandidates": [
         "candidate-009148"
@@ -5522,9 +4226,9 @@
       "japanese": "あめが　ふりつづいている",
       "chinese": "雨还在持续下着。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "雨还在持续下着。",
       "sourceCandidates": [
         "candidate-019786"
@@ -5535,11 +4239,11 @@
       "qid": "rs.common.battle_strings.BattleText_PourCont",
       "game": "ruby",
       "japanese": "おおあめが　ふりつづいている",
-      "chinese": "倾盆大雨还在持续下着。",
+      "chinese": "倾盆大雨\\n还在持续下着。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "倾盆大雨\\n还在持续下着。",
       "sourceCandidates": [
         "candidate-009149"
@@ -5550,11 +4254,11 @@
       "qid": "rs.common.battle_strings.BattleText_PourCont",
       "game": "sapphire",
       "japanese": "おおあめが　ふりつづいている",
-      "chinese": "倾盆大雨还在持续下着。",
+      "chinese": "倾盆大雨\\n还在持续下着。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "倾盆大雨\\n还在持续下着。",
       "sourceCandidates": [
         "candidate-019787"
@@ -5567,9 +4271,9 @@
       "japanese": "あめが　ふりやんだ！",
       "chinese": "雨停了。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "雨停了。",
       "sourceCandidates": [
         "candidate-009150"
@@ -5582,9 +4286,9 @@
       "japanese": "あめが　ふりやんだ！",
       "chinese": "雨停了。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "雨停了。",
       "sourceCandidates": [
         "candidate-019788"
@@ -5597,9 +4301,9 @@
       "japanese": "すなあらしが　ふきはじめた！",
       "chinese": "开始刮沙暴了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "开始刮沙暴了！",
       "sourceCandidates": [
         "candidate-009151"
@@ -5612,9 +4316,9 @@
       "japanese": "すなあらしが　ふきはじめた！",
       "chinese": "开始刮沙暴了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "开始刮沙暴了！",
       "sourceCandidates": [
         "candidate-019789"
@@ -5627,9 +4331,9 @@
       "japanese": "すなあらしが　ふきあれる",
       "chinese": "沙暴正在肆虐着！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "沙暴正在肆虐着！",
       "sourceCandidates": [
         "candidate-009152"
@@ -5642,9 +4346,9 @@
       "japanese": "すなあらしが　ふきあれる",
       "chinese": "沙暴正在肆虐着！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "沙暴正在肆虐着！",
       "sourceCandidates": [
         "candidate-019790"
@@ -5657,9 +4361,9 @@
       "japanese": "すなあらしが　おさまった！",
       "chinese": "沙暴停止了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "沙暴停止了！",
       "sourceCandidates": [
         "candidate-009153"
@@ -5672,9 +4376,9 @@
       "japanese": "すなあらしが　おさまった！",
       "chinese": "沙暴停止了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "沙暴停止了！",
       "sourceCandidates": [
         "candidate-019791"
@@ -5687,9 +4391,9 @@
       "japanese": "ひざしが　つよくなった！",
       "chinese": "日照变强了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "日照变强了！",
       "sourceCandidates": [
         "candidate-009154"
@@ -5702,9 +4406,9 @@
       "japanese": "ひざしが　つよくなった！",
       "chinese": "日照变强了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "日照变强了！",
       "sourceCandidates": [
         "candidate-019792"
@@ -5717,9 +4421,9 @@
       "japanese": "ひざしが　よわくなった！",
       "chinese": "日照复原了。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "日照复原了。",
       "sourceCandidates": [
         "candidate-009156"
@@ -5732,9 +4436,9 @@
       "japanese": "ひざしが　よわくなった！",
       "chinese": "日照复原了。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "日照复原了。",
       "sourceCandidates": [
         "candidate-019794"
@@ -5747,9 +4451,9 @@
       "japanese": "あられが　ふりはじめた！",
       "chinese": "开始下冰雹了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "开始下冰雹了！",
       "sourceCandidates": [
         "candidate-009157"
@@ -5762,9 +4466,9 @@
       "japanese": "あられが　ふりはじめた！",
       "chinese": "开始下冰雹了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "开始下冰雹了！",
       "sourceCandidates": [
         "candidate-019795"
@@ -5777,9 +4481,9 @@
       "japanese": "あられが　ふりつづいている",
       "chinese": "冰雹仍在漫天持续着！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "冰雹仍在漫天持续着！",
       "sourceCandidates": [
         "candidate-009158"
@@ -5792,9 +4496,9 @@
       "japanese": "あられが　ふりつづいている",
       "chinese": "冰雹仍在漫天持续着！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "冰雹仍在漫天持续着！",
       "sourceCandidates": [
         "candidate-019796"
@@ -5807,9 +4511,9 @@
       "japanese": "あられが　ふりやんだ！",
       "chinese": "冰雹停止了。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "冰雹停止了。",
       "sourceCandidates": [
         "candidate-009159"
@@ -5822,9 +4526,9 @@
       "japanese": "あられが　ふりやんだ！",
       "chinese": "冰雹停止了。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "冰雹停止了。",
       "sourceCandidates": [
         "candidate-019797"
@@ -5835,11 +4539,11 @@
       "qid": "rs.common.battle_strings.BattleText_SpitUpFail",
       "game": "ruby",
       "japanese": "しかし　なにも　はきだせなかった！",
-      "chinese": "但它没能喷出积蓄的力量！",
+      "chinese": "但它没能喷出\\n积蓄的力量！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "但它没能喷出\\n积蓄的力量！",
       "sourceCandidates": [
         "candidate-009160"
@@ -5850,11 +4554,11 @@
       "qid": "rs.common.battle_strings.BattleText_SpitUpFail",
       "game": "sapphire",
       "japanese": "しかし　なにも　はきだせなかった！",
-      "chinese": "但它没能喷出积蓄的力量！",
+      "chinese": "但它没能喷出\\n积蓄的力量！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "但它没能喷出\\n积蓄的力量！",
       "sourceCandidates": [
         "candidate-019798"
@@ -5865,11 +4569,11 @@
       "qid": "rs.common.battle_strings.BattleText_SwallowFail",
       "game": "ruby",
       "japanese": "しかし　なにも　のみこめなかった！",
-      "chinese": "但它没能吞下积蓄的力量！",
+      "chinese": "但它没能吞下\\n积蓄的力量！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "但它没能吞下\\n积蓄的力量！",
       "sourceCandidates": [
         "candidate-009161"
@@ -5880,11 +4584,11 @@
       "qid": "rs.common.battle_strings.BattleText_SwallowFail",
       "game": "sapphire",
       "japanese": "しかし　なにも　のみこめなかった！",
-      "chinese": "但它没能吞下积蓄的力量！",
+      "chinese": "但它没能吞下\\n积蓄的力量！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "但它没能吞下\\n积蓄的力量！",
       "sourceCandidates": [
         "candidate-019799"
@@ -5895,11 +4599,11 @@
       "qid": "rs.common.battle_strings.BattleText_WindHeatWave",
       "game": "ruby",
       "japanese": "かぜは　ねっぷうに　なった！",
-      "chinese": "风变成热风了！",
+      "chinese": "风变成\\n热风了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "风变成\\n热风了！",
       "sourceCandidates": [
         "candidate-009162"
@@ -5910,11 +4614,11 @@
       "qid": "rs.common.battle_strings.BattleText_WindHeatWave",
       "game": "sapphire",
       "japanese": "かぜは　ねっぷうに　なった！",
-      "chinese": "风变成热风了！",
+      "chinese": "风变成\\n热风了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "风变成\\n热风了！",
       "sourceCandidates": [
         "candidate-019800"
@@ -5927,9 +4631,9 @@
       "japanese": "こばんが　あたりに　ちらばった！",
       "chinese": "金币散落一地！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "金币散落一地！",
       "sourceCandidates": [
         "candidate-009164"
@@ -5942,9 +4646,9 @@
       "japanese": "こばんが　あたりに　ちらばった！",
       "chinese": "金币散落一地！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "金币散落一地！",
       "sourceCandidates": [
         "candidate-019802"
@@ -5957,9 +4661,9 @@
       "japanese": "すずのねが　ひびきわたった！",
       "chinese": "铃声响彻四周！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "铃声响彻四周！",
       "sourceCandidates": [
         "candidate-009167"
@@ -5972,9 +4676,9 @@
       "japanese": "すずのねが　ひびきわたった！",
       "chinese": "铃声响彻四周！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "铃声响彻四周！",
       "sourceCandidates": [
         "candidate-019805"
@@ -5987,9 +4691,9 @@
       "japanese": "トレーナーに　ボールを　はじかれた！",
       "chinese": "球被训练家击飞了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "球被训练家击飞了！",
       "sourceCandidates": [
         "candidate-009243"
@@ -6002,9 +4706,9 @@
       "japanese": "トレーナーに　ボールを　はじかれた！",
       "chinese": "球被训练家击飞了！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "球被训练家击飞了！",
       "sourceCandidates": [
         "candidate-019881"
@@ -6017,9 +4721,9 @@
       "japanese": "ひとの　ものを　とったら　どろぼう！",
       "chinese": "拿别人东西的是小偷！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "拿别人东西的是小偷！",
       "sourceCandidates": [
         "candidate-009244"
@@ -6032,9 +4736,9 @@
       "japanese": "ひとの　ものを　とったら　どろぼう！",
       "chinese": "拿别人东西的是小偷！",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "拿别人东西的是小偷！",
       "sourceCandidates": [
         "candidate-019882"
@@ -6047,9 +4751,9 @@
       "japanese": "あめが　ふっている",
       "chinese": "现在正在下雨。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "现在正在下雨。",
       "sourceCandidates": [
         "candidate-009258"
@@ -6062,9 +4766,9 @@
       "japanese": "あめが　ふっている",
       "chinese": "现在正在下雨。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "现在正在下雨。",
       "sourceCandidates": [
         "candidate-019896"
@@ -6077,9 +4781,9 @@
       "japanese": "すなあらしが　ふきあれている",
       "chinese": "沙暴很猛烈。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "沙暴很猛烈。",
       "sourceCandidates": [
         "candidate-009259"
@@ -6092,9 +4796,9 @@
       "japanese": "すなあらしが　ふきあれている",
       "chinese": "沙暴很猛烈。",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
+      "reviewMethod": "rsc_original_retained",
       "reviewAction": "retain",
-      "reason": "离线模型核对完整日文静态句与英中对应，保留汉化措辞；不包含滚动、清屏或动态变量。",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "沙暴很猛烈。",
       "sourceCandidates": [
         "candidate-019897"
@@ -6105,11 +4809,11 @@
       "qid": "rs.common.battle_strings.BattleText_WallyMenu",
       "game": "ruby",
       "japanese": "ミツルは　どうする？",
-      "chinese": "满充要做什么呢？",
+      "chinese": "满充要做\\n什么呢？",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "满充要做\\n什么呢？",
       "sourceCandidates": [
         "candidate-009282"
@@ -6120,11 +4824,11 @@
       "qid": "rs.common.battle_strings.BattleText_WallyMenu",
       "game": "sapphire",
       "japanese": "ミツルは　どうする？",
-      "chinese": "满充要做什么呢？",
+      "chinese": "满充要做\\n什么呢？",
       "kind": "battle_message",
-      "reviewMethod": "model_reviewed",
-      "reviewAction": "correct",
-      "reason": "离线模型核对完整日文静态句，去掉汉化的排版换行后保留原有含义；原译文另存。",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。",
       "originalChinese": "满充要做\\n什么呢？",
       "sourceCandidates": [
         "candidate-019920"

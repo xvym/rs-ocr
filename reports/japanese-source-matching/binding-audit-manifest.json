@@ -11,7 +11,7 @@
     },
     {
       "local": "reports/japanese-source-matching/results.json",
-      "sha256": "fef619df94deeb4406c00ba29988b57296beb676caea1e32ae210c1db71d39d5"
+      "sha256": "09f893e495b9e42ae9e94d1baf9f6a93b6978c1035c2db4d636ca0566eb4dbfe"
     },
     {
       "local": "outputs/corpus-mapping/records.csv",
@@ -57,7 +57,7 @@
     },
     {
       "local": "tools/corpus_common.mjs",
-      "sha256": "58cc7e40e5c443babe2611ea7a6a24b569c3df67867a9ac1d27b6cc6e5133132"
+      "sha256": "74faf4f0dfab325cc2a972c4a9a83d15a988b75a7bc585fb6359ef55e7bb69b4"
     }
   ],
   "outputs": [

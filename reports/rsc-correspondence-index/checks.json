@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "scope": "Confirmed source indexing, original quotations, structural boundaries and handoff; not Chinese runtime acceptance",
+  "checks": [
+    {
+      "name": "All confirmed selections are indexed with separate reviewed and parent-only evidence levels",
+      "passed": true
+    },
+    {
+      "name": "Every indexed Chinese value and quoted range comes directly from the pinned original text",
+      "passed": true
+    },
+    {
+      "name": "Japanese, qid and original-source lookups round-trip to identical link identities",
+      "passed": true
+    },
+    {
+      "name": "The reviewed A-button display range never brings the unobserved save-completed prefix with it",
+      "passed": true
+    },
+    {
+      "name": "Pokedex second pages point to existing whole Japanese parents and never create NULL Japanese or inferred spans",
+      "passed": true
+    },
+    {
+      "name": "Stale Japanese, changed original Chinese, invalid ranges, cross-game links and approval flags fail closed",
+      "passed": true
+    },
+    {
+      "name": "Changed index maps or Chinese cannot bypass validation; rejected semantic homonyms stay out",
+      "passed": true
+    },
+    {
+      "name": "Established command-line queries expose associations without silently approving new translations",
+      "passed": true
+    },
+    {
+      "name": "The correspondence compiler is reproducible and rebuilds the exact saved index",
+      "passed": true
+    },
+    {
+      "name": "Reverse review preserves its frozen cohort, deferred decisions and separate review provenance",
+      "passed": true
+    },
+    {
+      "name": "Reviewed Japanese fragments isolate units, interjections and mutually exclusive move-learning branches",
+      "passed": true
+    },
+    {
+      "name": "Partial source links stay out of whole-record coverage and cannot publish a translation",
+      "passed": true
+    },
+    {
+      "name": "S6 handoff retains the index without publishing it and loads without upstream files",
+      "passed": true
+    }
+  ]
+}

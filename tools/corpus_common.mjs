@@ -99,13 +99,12 @@ export function toSourceEnglish(text) {
 // Reviews are explicit, input-bound decisions. Candidate generation alone cannot approve a translation.
 export function applyReview(review, record, candidates) {
   if (review.japanese !== record.japanese || review.english !== record.english) throw Error(`Stale review: ${record.qid}`);
-  if (!['model_reviewed','human_reviewed'].includes(review.method) || !review.reason || !review.chinese) throw Error('Incomplete review');
+  if (!['model_reviewed','human_reviewed','rsc_original_retained'].includes(review.method) || !review.reason || !review.chinese) throw Error('Incomplete review');
   const found = candidates.filter(c => c.qid === record.qid && c.game === review.game && c.chinese === review.originalChinese);
   const originals=[...new Set(candidates.filter(c=>c.qid===record.qid&&c.game===review.game).map(c=>c.chinese))].sort();
   if (JSON.stringify([...(review.originalCandidates||[])].sort())!==JSON.stringify(originals)) throw Error(`Stale review candidate set: ${record.qid}`);
-  if (review.action === 'supplement' && originals.length) throw Error('Supplement must not replace existing candidates');
-  if (review.action !== 'supplement' && !found.length) throw Error(`Review original translation not found: ${record.qid}`);
-  if (!['retain','correct','unify','supplement'].includes(review.action)) throw Error('Unknown review action');
-  if (review.action === 'retain' && review.chinese !== review.originalChinese) throw Error('Retain review changes text');
+  if (review.action !== 'retain') throw Error('RSC-only policy rejects supplement, correction and unification');
+  if (!found.length) throw Error(`Review original translation not found: ${record.qid}`);
+  if (review.chinese !== review.originalChinese) throw Error('Retain review changes text');
   return found;
 }

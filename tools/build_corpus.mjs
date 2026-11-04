@@ -2,10 +2,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {reconstruct} from './corpus_source.mjs';
+import {loadPolicy,POLICY,validateOriginalRows} from './rsc_translation_policy.mjs';
+import {loadOriginalRscEntries,compileRscCorrespondences,validateReverseCorrespondenceReview} from './rsc_correspondence_index.mjs';
 import {sha256, read, hex, parseAligned, parseRsc, parseDictionary, csv, tokensIn, termKey, sourceBytes, toSourceEnglish, applyReview} from './corpus_common.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const manifest = JSON.parse(read(path.join(root,'corpus/sources.json')));
+const {sources:rscSources}=loadPolicy(root);
 const out = path.resolve(root, process.argv[2] || 'outputs/corpus-mapping');
 fs.mkdirSync(out,{recursive:true});
 const writeJson = (file,value) => fs.writeFileSync(path.join(out,file),JSON.stringify(value,null,2)+'\n');
@@ -125,13 +128,23 @@ for (const game of ['ruby','sapphire']) {
       }
     }
     if (candidates.length===candidateStart) gaps.push({qid:r.qid,game,
-      reason:error?'unsupported_english_encoding':addresses.length?'rsc_translation_missing':'english_source_unmatched',detail:error});
+      reason:error?'unsupported_english_encoding':addresses.length?'rsc_address_correspondence_unmatched':'english_source_unmatched',detail:error});
   }
   engineSummary[game]={rscEntries:entries.length,reconstructedBytes:engine.memory.size,reconstructionErrors:engine.errors.length,encodingErrors};
 }
 for (const [i,c] of candidates.entries()) c.id=`candidate-${String(i+1).padStart(6,'0')}`;
 const reviews=JSON.parse(read(path.join(root,'corpus/reviews.json')));
 const recordMap=new Map(records.map(r=>[r.qid,r]));
+const originals=loadOriginalRscEntries(root,rscRows),sourceManifestSha256=sha256(fs.readFileSync(path.join(root,'corpus/sources.json')));
+const selection=JSON.parse(read(path.join(root,'corpus/correspondence-selections.json'))),reverseLocal='corpus/rsc-reverse-reviews.json';
+const reverseBytes=fs.readFileSync(path.join(root,reverseLocal));
+const reverse=validateReverseCorrespondenceReview(JSON.parse(reverseBytes),{records,originals,sourceManifestSha256});
+const reverseLinks=selection.links.filter(l=>l.originReview?.local===reverseLocal);
+if(reverseLinks.length!==reverse.cases.filter(c=>c.verdict==='confirmed').length||reverseLinks.some(l=>{
+  const c=reverse.cases.find(c=>c.sourceId===l.sourceId&&c.sourceLine===l.sourceLine);
+  return !c||c.verdict!=='confirmed'||l.originReview.sha256!==sha256(reverseBytes)||['qid','game','relation','reason','japaneseSha256','englishSha256','originalChineseSha256','japaneseFragmentSha256'].some(k=>l[k]!==c[k])||JSON.stringify(l.chineseSpan)!==JSON.stringify(c.chineseSpan)||JSON.stringify(l.japaneseSpan)!==JSON.stringify(c.japaneseSpan);
+}))throw Error('Reimport the current reverse correspondence review');
+const correspondenceIndex=compileRscCorrespondences({selection,records,rscRows,originals,sourceManifestSha256});
 const approved=[], usedReviews=new Set();
 for (const review of reviews) {
   const r=recordMap.get(review.qid);
@@ -145,7 +158,7 @@ for (const review of reviews) {
   }
   const variables=tokensIn(r.japanese);
   // This first runtime pack admits only complete static source records; templates and paging are audited separately.
-  if (variables.length || /\\[nrc]/.test(r.japanese) || /\\|\{|\[/.test(review.chinese) || !r.japanese) throw Error(`Non-static review requires semantic/variable rules: ${key}`);
+  if (variables.length || /\\[nrc]/.test(r.japanese) || !r.japanese) throw Error(`Non-static review requires semantic/variable rules: ${key}`);
   approved.push({id:key,qid:r.qid,game:review.game,japanese:r.japanese,chinese:review.chinese,
     kind:review.kind,reviewMethod:review.method,reviewAction:review.action,reason:review.reason,
     originalChinese:review.originalChinese,sourceCandidates:candidates.filter(c=>c.qid===r.qid&&c.game===review.game).map(c=>c.id)});
@@ -192,8 +205,16 @@ writeCsv('rsc-import.csv',rscRows,['game','index','sourceId','recordedAddress','
 writeCsv('gaps.csv',gaps,['qid','game','reason','detail']);
 writeCsv('semantic-worklist.csv',unitRows,['qid','newlines','scrolls','clears','tokens','status']);
 writeCsv('variables.csv',variableAudit,['token','occurrences','kind','status','binding','reference']);
+writeJson('correspondences.json',correspondenceIndex);
+const candidatePairs=new Set(candidates.map(c=>c.qid+':'+c.game));
+const reviewedPairs=new Set(correspondenceIndex.links.filter(l=>!['pokedex_parent','reviewed_source_fragment'].includes(l.relation)).map(l=>l.qid+':'+l.game));
+const fragmentPairs=new Set(correspondenceIndex.links.filter(l=>l.relation==='reviewed_source_fragment').map(l=>l.qid+':'+l.game));
+const indexedPairs=new Set([...candidatePairs,...reviewedPairs]);
+const correspondenceGaps=gaps.filter(g=>g.reason!=='japanese_absent'&&!indexedPairs.has(g.qid+':'+g.game));
+writeCsv('correspondence-gaps.csv',correspondenceGaps,['qid','game','reason','detail']);
 writeJson('conflicts.json',conflicts);
-writeJson('runtime.json',{schemaVersion:1,scope:'reviewed_complete_static_records_only',records:publishable});
+validateOriginalRows(publishable,candidates,rscSources);
+writeJson('runtime.json',{schemaVersion:2,translationPolicy:POLICY,scope:'original_rsc_static_records_only',records:publishable});
 const countBy=(items,key)=>Object.fromEntries([...new Set(items.map(x=>x[key]))].sort().map(k=>[k,items.filter(x=>x[key]===k).length]));
 const summary={schemaVersion:1,sourceManifestSha256:sha256(fs.readFileSync(path.join(root,'corpus/sources.json'))),
   corpusRecords:records.length,japanese:{empty:records.filter(r=>!r.japanese).length,null:records.filter(r=>r.japanese==='[NULL]').length},
@@ -204,11 +225,16 @@ const summary={schemaVersion:1,sourceManifestSha256:sha256(fs.readFileSync(path.
     recordsWithSourceLinks:new Set(sourceLinks.filter(c=>c.game===game).map(c=>c.qid)).size,
     homographGroups:countBy(conflicts.filter(c=>c.game===game),'status'),gaps:countBy(gaps.filter(g=>g.game===game),'reason'),
     reviewedRecords:approved.filter(a=>a.game===game).length,publishableStaticRecords:publishable.filter(a=>a.game===game).length}])),
-  sourceLinks:sourceLinks.length,addressCorrections:corrections.map(c=>({...c,recorded:hex(c.recorded),corrected:hex(c.corrected)})),
+  sourceLinks:sourceLinks.length,correspondenceIndex:correspondenceIndex.summary,
+  correspondenceCoverage:Object.fromEntries(['ruby','sapphire'].map(game=>[game,{
+    recordsWithOriginalOrReviewedCorrespondence:records.filter(r=>(r.game==='both'||r.game===game)&&indexedPairs.has(r.qid+':'+game)).length,
+    reviewedGamePairs:[...reviewedPairs].filter(k=>k.endsWith(':'+game)).length,reviewedFragmentGamePairs:[...fragmentPairs].filter(k=>k.endsWith(':'+game)).length,remainingValidJapaneseWithoutCorrespondence:correspondenceGaps.filter(g=>g.game===game).length,
+    structuralParents:correspondenceIndex.links.filter(l=>l.game===game&&l.relation==='pokedex_parent').length} ])),
+  addressCorrections:corrections.map(c=>({...c,recorded:hex(c.recorded),corrected:hex(c.corrected)})),
   semanticWorklistRecords:unitRows.length,tokenOccurrences:variableCounts,heldReviews:held,
   semanticAcceptance:'not_complete',runtimeIntegration:'S7_pending',denominator:'all pinned RS records; includes out-of-first-release scope; not screenshot/runtime coverage'};
 writeJson('summary.json',summary);
 writeJson('build-manifest.json',{schemaVersion:1,inputs:manifest.sources,
-  implementation:['tools/build_corpus.mjs','tools/corpus_source.mjs','tools/corpus_common.mjs','tools/prepare_corpus.mjs','corpus/reviews.json','corpus/variable-rules.json'].map(local=>({local,sha256:sha256(fs.readFileSync(path.join(root,local)))})),
+  implementation:['tools/build_corpus.mjs','tools/corpus_source.mjs','tools/corpus_common.mjs','tools/rsc_translation_policy.mjs','tools/rsc_correspondence_index.mjs','tools/prepare_corpus.mjs','corpus/reviews.json','corpus/variable-rules.json','corpus/translation-policy.json','corpus/correspondence-selections.json','corpus/rsc-reverse-reviews.json'].map(local=>({local,sha256:sha256(fs.readFileSync(path.join(root,local)))})),
   outputs:fs.readdirSync(out).filter(f=>f!=='build-manifest.json').sort().map(file=>({file,sha256:sha256(fs.readFileSync(path.join(out,file)))}))});
 console.log(JSON.stringify({records:records.length,candidates:candidates.length,perGame:summary.perGame},null,2));

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 3,
+  "direction": "original_RSC_record_to_Japanese_source",
+  "translationPolicy": "rsc-original-only-v1",
+  "perGame": {
+    "ruby": {
+      "total": 9805,
+      "indexedJapaneseCandidates": 9293,
+      "indexedReviewedCorrespondences": 86,
+      "indexedReviewedFragments": 9,
+      "indexedPokedexParentRecords": 386,
+      "notIndexed": 31,
+      "additionalReviewedCorrespondences": 0,
+      "additionalPokedexParentRecords": 0,
+      "remainingWithoutConfirmedOrParentLink": 31,
+      "remainingSourceGroups": {
+        "data/text/cable_club.inc": 1,
+        "src/data/pokedex_entries_en.h": 1,
+        "src/easy_chat_2.c": 1,
+        "src/data/credits_en.h": 28
+      },
+      "note": "Parent location is structural evidence only: Chinese page-to-Japanese-span equivalence is not approved."
+    },
+    "sapphire": {
+      "total": 9805,
+      "indexedJapaneseCandidates": 9294,
+      "indexedReviewedCorrespondences": 85,
+      "indexedReviewedFragments": 9,
+      "indexedPokedexParentRecords": 386,
+      "notIndexed": 31,
+      "additionalReviewedCorrespondences": 0,
+      "additionalPokedexParentRecords": 0,
+      "remainingWithoutConfirmedOrParentLink": 31,
+      "remainingSourceGroups": {
+        "data/text/cable_club.inc": 1,
+        "src/data/pokedex_entries_en.h": 1,
+        "src/easy_chat_2.c": 1,
+        "src/data/credits_en.h": 28
+      },
+      "note": "Parent location is structural evidence only: Chinese page-to-Japanese-span equivalence is not approved."
+    }
+  },
+  "dictionaries": [
+    {
+      "sourceId": "corpus-6",
+      "path": "词典（校队）/宝可梦名称_英-中_现行官译版.txt",
+      "total": 1034,
+      "addressOrTypedBaselineRows": 386,
+      "additionalCorrespondenceRows": 0,
+      "indexedRows": 386,
+      "notIndexedRows": 648,
+      "note": "Dictionary rows include aliases and entries outside the RS name tables; unlinked rows are not automatically missing RS translations."
+    },
+    {
+      "sourceId": "corpus-7",
+      "path": "词典（校队）/技能名称_英-中_现行官译版.txt",
+      "total": 954,
+      "addressOrTypedBaselineRows": 370,
+      "additionalCorrespondenceRows": 1,
+      "indexedRows": 371,
+      "notIndexedRows": 583,
+      "note": "Dictionary rows include aliases and entries outside the RS name tables; unlinked rows are not automatically missing RS translations."
+    },
+    {
+      "sourceId": "corpus-8",
+      "path": "词典（校队）/特性名称_英-中_官译版.txt",
+      "total": 301,
+      "addressOrTypedBaselineRows": 79,
+      "additionalCorrespondenceRows": 0,
+      "indexedRows": 79,
+      "notIndexedRows": 222,
+      "note": "Dictionary rows include aliases and entries outside the RS name tables; unlinked rows are not automatically missing RS translations."
+    },
+    {
+      "sourceId": "corpus-9",
+      "path": "词典（校队）/道具名称_英-中_现行官译版.txt",
+      "total": 1278,
+      "addressOrTypedBaselineRows": 231,
+      "additionalCorrespondenceRows": 1,
+      "indexedRows": 232,
+      "notIndexedRows": 1046,
+      "note": "Dictionary rows include aliases and entries outside the RS name tables; unlinked rows are not automatically missing RS translations."
+    }
+  ],
+  "correspondenceIndex": {
+    "links": 1273,
+    "reviewedLinks": 501,
+    "reviewedJapaneseQids": 222,
+    "reviewedGamePairs": 441,
+    "reviewedFragmentLinks": 18,
+    "structuralParentLinks": 772,
+    "sourceEntries": 1178,
+    "publicationApprovedLinks": 0
+  },
+  "reverseReview": {
+    "baseline": {
+      "ruby": 58,
+      "sapphire": 57
+    },
+    "cases": 115,
+    "confirmedRecords": 35,
+    "confirmedFragments": 18,
+    "deferred": 62,
+    "sameSourceJapaneseNull": 62
+  },
+  "projectFiles": 35,
+  "translationDatabaseFiles": 28,
+  "countsAreSourceEntriesNotUniqueSentences": true,
+  "semanticApprovalOfAllIndexedCandidates": false,
+  "wholeProjectSemanticReverseReviewComplete": false,
+  "translationPublicationChanged": false,
+  "formalCorrespondenceIndexPresent": true,
+  "boundary": "Formal candidate links, indexed reviewed correspondences and indexed Pokedex parent-record locations are distinct evidence levels. Alternate branches only inherit structural address hypotheses, not semantic approval."
+}

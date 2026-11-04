@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "scope": "Source quotations, review integrity and separation from runtime; not independent semantic acceptance",
+  "checks": [
+    {
+      "name": "All 1772 missing qids and 3539 applicable game gaps are accounted for once",
+      "passed": true
+    },
+    {
+      "name": "Pinned repository text inventory is complete and every downloaded byte matches its manifest",
+      "passed": true
+    },
+    {
+      "name": "Every quoted Chinese character is an unchanged range of a real original source entry",
+      "passed": true
+    },
+    {
+      "name": "All confirmed findings have their own applicable per-game source witnesses",
+      "passed": true
+    },
+    {
+      "name": "Semantic homonyms and English localization mismatches cannot count as confirmed matches",
+      "passed": true
+    },
+    {
+      "name": "Braille stays meaningful pending text rather than being discarded as punctuation",
+      "passed": true
+    },
+    {
+      "name": "Original semantic queries retrieve saving messages without relying on address or original English",
+      "passed": true
+    },
+    {
+      "name": "Search normalization preserves negation and numeric differences; it never licenses a match alone",
+      "passed": true
+    },
+    {
+      "name": "Both retrieval and semantic-review manifests reproduce their current inputs and outputs",
+      "passed": true
+    },
+    {
+      "name": "Runtime and base RSC-only packages remain unchanged and verifiable",
+      "passed": true
+    }
+  ]
+}

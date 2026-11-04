@@ -6,6 +6,8 @@ $previousJavaHome = $env:JAVA_HOME
 Push-Location $PSScriptRoot
 try {
     $env:JAVA_HOME = $JavaHome
+    & node "$PSScriptRoot/tools/build_s7_resources.mjs"
+    if ($LASTEXITCODE -ne 0) { throw '原汉化桌面资源构建失败。' }
     & "$PSScriptRoot/build-capture.ps1" -JavaHome $JavaHome
     $arguments = @('-f', 'desktop/pom.xml', '-s', 'tools/maven-settings.xml', 'package')
     if ($Offline) { $arguments += '-o' }

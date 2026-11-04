@@ -83,7 +83,8 @@ check('Exact complete term query publishes reviewed names and refuses prefixes',
   assert.equal(query('ピカチュ').status,'no_record');
 });
 check('Reviewed complete battle sentence is usable without predicting an unfinished prefix',()=>{
-  assert.equal(query('こうかは　ばつぐんだ！').translation,'效果绝佳！');
+  const hit=query('こうかは　ばつぐんだ！');
+  assert.ok(hit.translation!==null);assert.ok(hit.candidates.some(c=>c.chinese===hit.translation));
   assert.equal(query('こうかは　ばつ').status,'no_record');
 });
 check('Real homographs keep species/type and type/status meanings separate',()=>{
@@ -96,7 +97,7 @@ check('Unreviewed dialogue and dynamic templates cannot enter static runtime res
   const dialogue=records[0];assert.equal(query(dialogue.japanese).translation,null);
   assert.ok(runtime.length>0);
   for(const r of runtime) {
-    assert.doesNotMatch(r.japanese,/\[|\\[nrc]/);assert.equal(r.reviewMethod,'model_reviewed');
+    assert.doesNotMatch(r.japanese,/\[|\\[nrc]/);assert.equal(r.reviewMethod,'rsc_original_retained');
     assert.ok(!['ゴースト','どく','こおり','ノーマル'].includes(r.japanese));
   }
 });

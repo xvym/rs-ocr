@@ -1,0 +1,315 @@
+[
+  {
+    "path": "1.2汉化红宝石拼合/红宝石1.2 增补用文本.txt",
+    "kind": "rsc_address_text",
+    "game": "ruby",
+    "entries": 4,
+    "sameAddressIndexedJapanese": 0,
+    "sameAddressReviewedJapanese": 0,
+    "sameAddressReviewedFragment": 0,
+    "sameAddressPokedexParent": 0,
+    "sameAddressStillUnresolved": 0,
+    "outsidePrimaryAddressInventory": 4
+  },
+  {
+    "path": "1.2汉化红宝石拼合/红宝石1.2汉化 G7版差分文本.txt",
+    "kind": "rsc_address_text",
+    "game": "ruby",
+    "entries": 32,
+    "sameAddressIndexedJapanese": 32,
+    "sameAddressReviewedJapanese": 0,
+    "sameAddressReviewedFragment": 0,
+    "sameAddressPokedexParent": 0,
+    "sameAddressStillUnresolved": 0,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化红宝石拼合/红宝石1.2汉化 版权汉化文本.txt",
+    "kind": "rsc_address_text",
+    "game": "ruby",
+    "entries": 2,
+    "sameAddressIndexedJapanese": 2,
+    "sameAddressReviewedJapanese": 0,
+    "sameAddressReviewedFragment": 0,
+    "sameAddressPokedexParent": 0,
+    "sameAddressStillUnresolved": 0,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化红宝石拼合/红宝石1.2汉化中文名专用文本，主角名.txt",
+    "kind": "rsc_address_text",
+    "game": "ruby",
+    "entries": 8,
+    "sameAddressIndexedJapanese": 0,
+    "sameAddressReviewedJapanese": 0,
+    "sameAddressReviewedFragment": 0,
+    "sameAddressPokedexParent": 0,
+    "sameAddressStillUnresolved": 0,
+    "outsidePrimaryAddressInventory": 8
+  },
+  {
+    "path": "1.2汉化红宝石拼合/红宝石1.2汉化总文本(D版).txt",
+    "kind": "rsc_address_text",
+    "game": "ruby",
+    "entries": 9805,
+    "sameAddressIndexedJapanese": 9293,
+    "sameAddressReviewedJapanese": 86,
+    "sameAddressReviewedFragment": 9,
+    "sameAddressPokedexParent": 386,
+    "sameAddressStillUnresolved": 31,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化红宝石拼合/红宝石1.2汉化总文本(EN).txt",
+    "kind": "rsc_address_text",
+    "game": "ruby",
+    "entries": 9805,
+    "sameAddressIndexedJapanese": 9293,
+    "sameAddressReviewedJapanese": 86,
+    "sameAddressReviewedFragment": 9,
+    "sameAddressPokedexParent": 386,
+    "sameAddressStillUnresolved": 31,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化红宝石拼合/红宝石1.2汉化总文本(JP).txt",
+    "kind": "rsc_address_text",
+    "game": "ruby",
+    "entries": 9805,
+    "sameAddressIndexedJapanese": 9293,
+    "sameAddressReviewedJapanese": 86,
+    "sameAddressReviewedFragment": 9,
+    "sameAddressPokedexParent": 386,
+    "sameAddressStillUnresolved": 31,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化红宝石拼合/红宝石1.2繁中汉化总文本(EN).txt",
+    "kind": "rsc_address_text",
+    "game": "ruby",
+    "entries": 9805,
+    "sameAddressIndexedJapanese": 9293,
+    "sameAddressReviewedJapanese": 86,
+    "sameAddressReviewedFragment": 9,
+    "sameAddressPokedexParent": 386,
+    "sameAddressStillUnresolved": 31,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化红宝石拼合/红宝石1.2繁中汉化总文本(JP).txt",
+    "kind": "rsc_address_text",
+    "game": "ruby",
+    "entries": 9805,
+    "sameAddressIndexedJapanese": 9293,
+    "sameAddressReviewedJapanese": 86,
+    "sameAddressReviewedFragment": 9,
+    "sameAddressPokedexParent": 386,
+    "sameAddressStillUnresolved": 31,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化蓝宝石拼合/蓝宝石1.2 增补用文本.txt",
+    "kind": "rsc_address_text",
+    "game": "sapphire",
+    "entries": 4,
+    "sameAddressIndexedJapanese": 0,
+    "sameAddressReviewedJapanese": 0,
+    "sameAddressReviewedFragment": 0,
+    "sameAddressPokedexParent": 0,
+    "sameAddressStillUnresolved": 0,
+    "outsidePrimaryAddressInventory": 4
+  },
+  {
+    "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化 G7版差分文本.txt",
+    "kind": "rsc_address_text",
+    "game": "sapphire",
+    "entries": 32,
+    "sameAddressIndexedJapanese": 32,
+    "sameAddressReviewedJapanese": 0,
+    "sameAddressReviewedFragment": 0,
+    "sameAddressPokedexParent": 0,
+    "sameAddressStillUnresolved": 0,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化 版权汉化文本.txt",
+    "kind": "rsc_address_text",
+    "game": "sapphire",
+    "entries": 2,
+    "sameAddressIndexedJapanese": 2,
+    "sameAddressReviewedJapanese": 0,
+    "sameAddressReviewedFragment": 0,
+    "sameAddressPokedexParent": 0,
+    "sameAddressStillUnresolved": 0,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化中文名专用文本，主角名.txt",
+    "kind": "rsc_address_text",
+    "game": "sapphire",
+    "entries": 8,
+    "sameAddressIndexedJapanese": 0,
+    "sameAddressReviewedJapanese": 0,
+    "sameAddressReviewedFragment": 0,
+    "sameAddressPokedexParent": 0,
+    "sameAddressStillUnresolved": 0,
+    "outsidePrimaryAddressInventory": 8
+  },
+  {
+    "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(D版).txt",
+    "kind": "rsc_address_text",
+    "game": "sapphire",
+    "entries": 9805,
+    "sameAddressIndexedJapanese": 9294,
+    "sameAddressReviewedJapanese": 85,
+    "sameAddressReviewedFragment": 9,
+    "sameAddressPokedexParent": 386,
+    "sameAddressStillUnresolved": 31,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(EN).txt",
+    "kind": "rsc_address_text",
+    "game": "sapphire",
+    "entries": 9805,
+    "sameAddressIndexedJapanese": 9294,
+    "sameAddressReviewedJapanese": 85,
+    "sameAddressReviewedFragment": 9,
+    "sameAddressPokedexParent": 386,
+    "sameAddressStillUnresolved": 31,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(JP).txt",
+    "kind": "rsc_address_text",
+    "game": "sapphire",
+    "entries": 9805,
+    "sameAddressIndexedJapanese": 9294,
+    "sameAddressReviewedJapanese": 85,
+    "sameAddressReviewedFragment": 9,
+    "sameAddressPokedexParent": 386,
+    "sameAddressStillUnresolved": 31,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化蓝宝石拼合/蓝宝石1.2繁中汉化总文本(EN).txt",
+    "kind": "rsc_address_text",
+    "game": "sapphire",
+    "entries": 9805,
+    "sameAddressIndexedJapanese": 9294,
+    "sameAddressReviewedJapanese": 85,
+    "sameAddressReviewedFragment": 9,
+    "sameAddressPokedexParent": 386,
+    "sameAddressStillUnresolved": 31,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "1.2汉化蓝宝石拼合/蓝宝石1.2繁中汉化总文本(JP).txt",
+    "kind": "rsc_address_text",
+    "game": "sapphire",
+    "entries": 9805,
+    "sameAddressIndexedJapanese": 9294,
+    "sameAddressReviewedJapanese": 85,
+    "sameAddressReviewedFragment": 9,
+    "sameAddressPokedexParent": 386,
+    "sameAddressStillUnresolved": 31,
+    "outsidePrimaryAddressInventory": 0
+  },
+  {
+    "path": "README.md",
+    "kind": "documentation_or_page",
+    "entries": 0
+  },
+  {
+    "path": "index.html",
+    "kind": "documentation_or_page",
+    "entries": 0
+  },
+  {
+    "path": "其他文件/无限船票使用说明.md",
+    "kind": "documentation_or_page",
+    "entries": 0
+  },
+  {
+    "path": "其他文件/汉化资源/前三世代宝可梦名称_英-日(该词典不合法，仅推荐改版使用).txt",
+    "kind": "english_japanese_dictionary_not_chinese",
+    "entries": 0
+  },
+  {
+    "path": "其他文件/汉化资源/前三世代宝可梦名称_英_中(D商版).txt",
+    "kind": "translation_dictionary",
+    "entries": 1034,
+    "typedEnglishIdentityCandidates": 386
+  },
+  {
+    "path": "其他文件/汉化资源/汉化版修改的数据地址表.txt",
+    "kind": "other_text",
+    "entries": 0,
+    "typedEnglishIdentityCandidates": null
+  },
+  {
+    "path": "其他文件/汉化资源/这些文件仅适用于口袋改版工具盒.txt",
+    "kind": "other_text",
+    "entries": 0,
+    "typedEnglishIdentityCandidates": null
+  },
+  {
+    "path": "词典（校队）/前三世代宝可梦名称_英_中(D商版).txt",
+    "kind": "translation_dictionary",
+    "entries": 1034,
+    "typedEnglishIdentityCandidates": 386
+  },
+  {
+    "path": "词典（校队）/前三代宝可梦名称_英-日.txt",
+    "kind": "english_japanese_dictionary_not_chinese",
+    "entries": 0
+  },
+  {
+    "path": "词典（校队）/宝可梦名称_英-中_G7官译版.txt",
+    "kind": "translation_dictionary",
+    "entries": 1009,
+    "typedEnglishIdentityCandidates": 386
+  },
+  {
+    "path": "词典（校队）/宝可梦名称_英-中_现行官译版.txt",
+    "kind": "translation_dictionary",
+    "entries": 1034,
+    "typedEnglishIdentityCandidates": 386
+  },
+  {
+    "path": "词典（校队）/技能名称_英-中_G7官译版.txt",
+    "kind": "translation_dictionary",
+    "entries": 954,
+    "typedEnglishIdentityCandidates": 370
+  },
+  {
+    "path": "词典（校队）/技能名称_英-中_现行官译版.txt",
+    "kind": "translation_dictionary",
+    "entries": 954,
+    "typedEnglishIdentityCandidates": 370
+  },
+  {
+    "path": "词典（校队）/特性名称_英-中_官译版.txt",
+    "kind": "translation_dictionary",
+    "entries": 301,
+    "typedEnglishIdentityCandidates": 79
+  },
+  {
+    "path": "词典（校队）/道具名称_英-中(G3 D商版).txt",
+    "kind": "translation_dictionary",
+    "entries": 236,
+    "typedEnglishIdentityCandidates": 231
+  },
+  {
+    "path": "词典（校队）/道具名称_英-中_G7官译版.txt",
+    "kind": "translation_dictionary",
+    "entries": 1278,
+    "typedEnglishIdentityCandidates": 231
+  },
+  {
+    "path": "词典（校队）/道具名称_英-中_现行官译版.txt",
+    "kind": "translation_dictionary",
+    "entries": 1278,
+    "typedEnglishIdentityCandidates": 231
+  }
+]

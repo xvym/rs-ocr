@@ -83,7 +83,7 @@
     },
     {
       "local": "tools/corpus_common.mjs",
-      "sha256": "58cc7e40e5c443babe2611ea7a6a24b569c3df67867a9ac1d27b6cc6e5133132"
+      "sha256": "74faf4f0dfab325cc2a972c4a9a83d15a988b75a7bc585fb6359ef55e7bb69b4"
     },
     {
       "local": "tools/verify_battle_printing.py",

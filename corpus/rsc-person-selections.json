@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 1,
+  "selections": [
+    {
+      "qid": "rs.common.trainers.gTrainers.1",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.1",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.30",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.30",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.31",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.31",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.32",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.32",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.33",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.33",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.34",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.34",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.35",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.35",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.261",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.261",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.262",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.262",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.263",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.263",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.264",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.264",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.265",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.265",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.266",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.266",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.267",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.267",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.268",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.268",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.269",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.269",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.270",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.270",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.271",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.271",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.272",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.272",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.335",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.335",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.519",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.519",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.520",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.520",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.521",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.521",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.522",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.522",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.523",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.523",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.524",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.524",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.525",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.525",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.526",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.526",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.527",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.527",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.528",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.528",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.529",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.529",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.530",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.530",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.531",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.531",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.532",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.532",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.533",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.533",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.534",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.534",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.535",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.535",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.536",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.536",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.537",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.537",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.566",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.566",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.596",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.596",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.597",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.597",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.599",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.599",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.600",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.600",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.601",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.601",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.602",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.602",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.656",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.656",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.657",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.657",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.658",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.658",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.659",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.659",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.660",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.660",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.661",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.661",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.662",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.662",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.663",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.663",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.664",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.664",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.665",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.665",
+      "game": "sapphire"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.666",
+      "game": "ruby"
+    },
+    {
+      "qid": "rs.common.trainers.gTrainers.666",
+      "game": "sapphire"
+    }
+  ]
+}

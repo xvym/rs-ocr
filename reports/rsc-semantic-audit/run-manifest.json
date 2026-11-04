@@ -1,0 +1,220 @@
+{
+  "inputs": [
+    {
+      "local": ".tools/rsc-semantic/manifest.json",
+      "sha256": "3638c93001ee0f7e91676510ed45eda0a2936b26b8261968afb7e25613f310ce"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2 增补用文本.txt",
+      "sha256": "a893b9d676e7227501f31e56d4a5112c1706f0ef4b16135e75a060c899d11caa"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化 G7版差分文本.txt",
+      "sha256": "e232f640c8f6eae49b00e92291d1939e907975b832ffb1467ac34e9af569180e"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化 版权汉化文本.txt",
+      "sha256": "6900e90db3f77e4b6423a18b7f8b1929ad677460d777f0c67f581decb26d8f89"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化中文名专用文本，主角名.txt",
+      "sha256": "63591a83a18fc196408a4c7891a4400e283264aaa633555aa2c4d48996b950d4"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化总文本(D版).txt",
+      "sha256": "31e7aba926aecaec3e1de9355404283a002074e419eba08d2243e3b30eace184"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化总文本(EN).txt",
+      "sha256": "6418521150ef822fbea5d8951c4bcd6568b42ade3ab3843b124a7c3d093c0ae8"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2汉化总文本(JP).txt",
+      "sha256": "b0fccb0a43f840f58aa32a420933c54e0bf1eb4bd854a368129f050910763e69"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2繁中汉化总文本(EN).txt",
+      "sha256": "7623b30e3c311da2c3d06be89815ded03adc5f8e82f0277c74ac7c9fc4c05a06"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化红宝石拼合/红宝石1.2繁中汉化总文本(JP).txt",
+      "sha256": "111a76f1b0611c62134f27ec563372d3a72707fe530ba1fe455af5cc80e3a35d"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2 增补用文本.txt",
+      "sha256": "24cc7660964b8ea0c3098dce75b6d7909eee119098456c472ac74d21ecbf1fb4"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化 G7版差分文本.txt",
+      "sha256": "1c767e9407a19724f18e4ae09d26c993a18ca66ecb37ff748a84349ab00c4431"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化 版权汉化文本.txt",
+      "sha256": "a8fc2c7c7abed1bb7a64c9e8d217bfaa8a44f971ad4cdf810d4a955e5e2f9a2e"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化中文名专用文本，主角名.txt",
+      "sha256": "34a5fbbded25ef081d9f13f5f995d0db725665482a18770b270c8e72d831aa76"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(D版).txt",
+      "sha256": "406c6cd7684a0c6f72d615370a56f22aaa39ee099bf6eaa11997a851ed659f03"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(EN).txt",
+      "sha256": "5ef4e350001432016c8819bc9402b7c0acd34a80eab21da60040d142561bbe75"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(JP).txt",
+      "sha256": "3ba491e6d71e366666da42ed9877d1ef5c0b6d70440068c0d479de65d4984bc1"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2繁中汉化总文本(EN).txt",
+      "sha256": "fa6c7fc37a97b957ff4ca61f2708d7dc0ca7814ede4f31174310ba0a2acc5de2"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/1.2汉化蓝宝石拼合/蓝宝石1.2繁中汉化总文本(JP).txt",
+      "sha256": "3e56b66806d90777db0021d013f3d5c1e91b164ad8658409f341b5e7f4f73fb0"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/README.md",
+      "sha256": "f4828877a85aac0e68df6e9a9f98ab3029c6d4c3c028a1fb131fd76811fbe72c"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/index.html",
+      "sha256": "931342c2e82546b22bf4c007637e4b7cf2af9c83f1b1242b806db15de71d5f55"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/其他文件/无限船票使用说明.md",
+      "sha256": "68a740e0f57ea7e3ff5c205a840f8c3fc52130dc36dd83bb10ea43e05b0fae2a"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/其他文件/汉化资源/前三世代宝可梦名称_英-日(该词典不合法，仅推荐改版使用).txt",
+      "sha256": "f96ad8766433a47f842281bfaedf95a503f2b2b317cb28c77127f15b11181036"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/其他文件/汉化资源/前三世代宝可梦名称_英_中(D商版).txt",
+      "sha256": "e101fe1a8651642dbd5c429ca83d6511ff83f6eeada1793b0031b040131e9875"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/其他文件/汉化资源/汉化版修改的数据地址表.txt",
+      "sha256": "4aa9b5bbcaf54a6a314555420549e220f0a60ab15506cd1e3e9ca27102f9d0a4"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/其他文件/汉化资源/这些文件仅适用于口袋改版工具盒.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/词典（校队）/前三世代宝可梦名称_英_中(D商版).txt",
+      "sha256": "e101fe1a8651642dbd5c429ca83d6511ff83f6eeada1793b0031b040131e9875"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/词典（校队）/前三代宝可梦名称_英-日.txt",
+      "sha256": "f96ad8766433a47f842281bfaedf95a503f2b2b317cb28c77127f15b11181036"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/词典（校队）/宝可梦名称_英-中_G7官译版.txt",
+      "sha256": "00529e909713dae89098b82c841150c399ddd928a9e9e73a3e2398b5934a19c0"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/词典（校队）/宝可梦名称_英-中_现行官译版.txt",
+      "sha256": "3b8b08b6beebecdae4fcad9e4d7630a969a2373010d1ef3f635ef220efcb0880"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/词典（校队）/技能名称_英-中_G7官译版.txt",
+      "sha256": "8e0c2108086649823cc2abdea4522c87c8305af37defe51736b951aed0eeba09"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/词典（校队）/技能名称_英-中_现行官译版.txt",
+      "sha256": "53283155d31b8e121d803f04172774e2321100e8c423f5042a97e0aecf306b88"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/词典（校队）/特性名称_英-中_官译版.txt",
+      "sha256": "03b8df96d0dd5c898c4ff0019e275f2388e435f00358759484017fbd076ec661"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/词典（校队）/道具名称_英-中(G3 D商版).txt",
+      "sha256": "8bb621a3bffda6eed0a2c771dc31e7075e27c3539aaee54b405e8305f42fb86c"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/词典（校队）/道具名称_英-中_G7官译版.txt",
+      "sha256": "04fb9ecb46d522f7e3c7b71a8ca6728c1cb9e99764dea793344efca773c0e66e"
+    },
+    {
+      "local": ".tools/rsc-semantic/files/词典（校队）/道具名称_英-中_现行官译版.txt",
+      "sha256": "04fb9ecb46d522f7e3c7b71a8ca6728c1cb9e99764dea793344efca773c0e66e"
+    },
+    {
+      "local": "corpus/sources.json",
+      "sha256": "6850287479516bc69fb0bb8687cb722e8e26f11018bbd8179ee410b56a36f53b"
+    },
+    {
+      "local": "outputs/corpus-mapping/records.csv",
+      "sha256": "524d1726bc626b7a496565587834a42772d1de97fb1536586b8947ad24a06c61"
+    },
+    {
+      "local": "outputs/corpus-mapping/candidates.csv",
+      "sha256": "7c467a740e53726d5c4f26d0aec928c9fd8927ea52edffff684fc8e140d54c51"
+    },
+    {
+      "local": "outputs/corpus-mapping/gaps.csv",
+      "sha256": "1fec409f21d0b36b444a8cb7bf84aa28392808ad8eaaa8e6eb6ac2dbc89a31bd"
+    },
+    {
+      "local": "outputs/corpus-mapping/rsc-import.csv",
+      "sha256": "db1b36640bfb0441c9c100c516f5ff591e178301465ac7c6b836ba1f1f6934cb"
+    },
+    {
+      "local": ".tools/corpus-source/tree.json",
+      "sha256": "6b4cc833a8389e056f346d04f5812341a7887299e41c88715a9c87149e2e89b2"
+    },
+    {
+      "local": "outputs/pokeruby-text-audit/inputs/pokeruby_rev2.sym",
+      "sha256": "b78e6ae48600b704041c54c6220951568b1a922555ce758158f7d219f5393de1"
+    },
+    {
+      "local": "outputs/pokeruby-text-audit/inputs/pokesapphire_rev2.sym",
+      "sha256": "8f5cbc4943b21108e5f65070537acf53b30cf24a434e92a24b15529bb49f0612"
+    }
+  ],
+  "implementation": [
+    {
+      "local": "tools/audit_rsc_semantic_correspondence.mjs",
+      "sha256": "a13850b9cd5d006cacc43da9197f379139e1d2ea1df98dabc81aa8bd79b35d2b"
+    },
+    {
+      "local": "tools/rsc_semantic_retrieval.mjs",
+      "sha256": "bddd7a624f2d98390c330a6616cfe015a679beedc9f015c6460e6650680a07cb"
+    },
+    {
+      "local": "tools/corpus_common.mjs",
+      "sha256": "74faf4f0dfab325cc2a972c4a9a83d15a988b75a7bc585fb6359ef55e7bb69b4"
+    },
+    {
+      "local": "tools/corpus_source.mjs",
+      "sha256": "21c51d4384f39ff5f6a48e849aea1e93a254189f9a2acd052681438c337afa91"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "retrieval.json",
+      "sha256": "002a979fc87af4b17861f30fde3e32d28ef715b9572319e0920cb086d25b2aed"
+    },
+    {
+      "file": "retrieval-documents.json",
+      "sha256": "0f803d06b0194ee3b20ae45e799ae05677a34b6e8fcd718f3d3b1d46b1fff151"
+    },
+    {
+      "file": "retrieval-summary.json",
+      "sha256": "4c29fd977e8f93451ae33d531d76eb64c8aa38b226eb0bd05edcf8667c04c4dd"
+    },
+    {
+      "file": "source-manifest.json",
+      "sha256": "3638c93001ee0f7e91676510ed45eda0a2936b26b8261968afb7e25613f310ce"
+    },
+    {
+      "file": "worklist.csv",
+      "sha256": "b275ec2c96cd0afba4a98ccd74dab757a3649857b634eb639851244ddd20add7"
+    }
+  ]
+}

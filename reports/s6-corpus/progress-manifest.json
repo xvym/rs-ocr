@@ -1,59 +1,45 @@
 {
-  "schemaVersion": 1,
   "inputs": [
     {
-      "local": "outputs/s6-corpus/summary.json",
-      "sha256": "d7fc005931493d6245e423d0951b3b93fe34e79de9cf00228f4c2c72089e4003"
+      "local": "outputs/s6-corpus/build-manifest.json",
+      "sha256": "5dde5f3c76bc4b858943551058db4e77e4fab00c896aa4ab38cd14cd33b4b145"
     },
     {
       "local": "reports/s6-acceptance/summary.json",
-      "sha256": "85eb50799cc66614f0821963ce47724abc6d92d0aeef537c47739c0bc46fb73d"
+      "sha256": "f88448021b0d5481edbbce5528502848aa6e96b669b90f49e9c4d924b62de88b"
     },
     {
-      "local": "corpus/s6/tv-page-reviews.json",
-      "sha256": "45cb62f7493667a9c6e942d10f7d3b1619b275b8742143482b70f0a3712f4044"
+      "local": "reports/s6-visible-windows/summary.json",
+      "sha256": "cda2bd8de9ff3266a01360d444d429a4884ede3f17823042549b3ae057e3fe9c"
     },
     {
-      "local": "reports/s6-corpus/easy-chat-native-evidence.json",
-      "sha256": "fe5195b237d281992af1f83ef20645de4a00e00a2b6c50fd2577ab6585acef68"
+      "local": "reports/s6-visible-windows/run-manifest.json",
+      "sha256": "0f0b147f3d6c1ba07ad2646c979db9d5a2438397a692be6c9578fda38cedf250"
+    },
+    {
+      "local": "reports/rsc-reverse-mapping/summary.json",
+      "sha256": "3bed908b36072704fe84ae6a823244a9d5239e6605543b3f1ff4a0a3e4bbfd84"
+    },
+    {
+      "local": "reports/rsc-reverse-mapping/run-manifest.json",
+      "sha256": "18bda7bf5288b075c924dada859bf816e1de4e79462623711ccd26f1fecac091"
     },
     {
       "local": "reports/s6-corpus/japanese-name-evidence.json",
       "sha256": "91e5e469476559cb8de5a71e29005b103415246e6735c2eb264c8aa36c835d47"
     },
     {
-      "local": "corpus/s6/homograph-reviews.json",
-      "sha256": "4be764470475a4ec7ff3902faed4ce1806760e86e747c680f7b23bc622ccbcd6"
+      "local": "reports/s6-corpus/easy-chat-native-evidence.json",
+      "sha256": "fe5195b237d281992af1f83ef20645de4a00e00a2b6c50fd2577ab6585acef68"
     },
     {
-      "local": "reports/textbox-features/features.json",
-      "sha256": "376a99a0c951c3bd8c7c333e624659e0d1fc65e7e0bae3999d38917f9fdf40ba"
-    },
-    {
-      "local": "reports/s6-acceptance/evaluation.json",
-      "sha256": "4a192e82bbef7baf43dce702eb3493b20849f9348d0b6801211b1e877e19eb19"
-    },
-    {
-      "local": "outputs/s6-corpus/source-inventory.csv",
-      "sha256": "fe3923eb5b044c8f857b7b89f8b513d53fb331438b6f6735b1d1551e4fd0f1d2"
+      "local": "reports/s7-integration/summary.json",
+      "sha256": "70e1e3e3b328d92a96799a4aeaa1d305683d8edbd7074c8bf4d81d94868b2c5f"
     }
   ],
   "implementation": {
     "local": "tools/audit_s6_progress.mjs",
-    "sha256": "a33c481b854d1afd2849a02fbea5ae20e1c7ee25e642b6c3d8b4da1c313ca9cb"
+    "sha256": "45d965f0468bf93c02cb518a8b18ea6598705d4ef4e8f504683c5271aff49df9"
   },
-  "outputs": [
-    {
-      "file": "progress.json",
-      "sha256": "be17ece9b851e6cdaa93f20c9ea6e241e7ee78f5e0fc81069a2f0dbd16b3dea1"
-    },
-    {
-      "file": "page-coverage.csv",
-      "sha256": "13188da0a584392f9d39b9667affaaaa05565679472b4c2adeda75b81cba1317"
-    },
-    {
-      "file": "remaining-gaps.csv",
-      "sha256": "27fd7863781a0241b748f657adb9b21d19f05e6f01fe61663d0d36c4e4e71af6"
-    }
-  ]
+  "outputSha256": "4d878b41dfc89f071792df39cd0739b1bbe1ff5a04c0725b75fcc4a7b5e59fe4"
 }

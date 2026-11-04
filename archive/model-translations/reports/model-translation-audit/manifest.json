@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "inputs": [
+    {
+      "local": "outputs/s6-corpus/runtime.json",
+      "sha256": "60b956ec2b68538c9d1b768fcf993344031cc25198df323d7d599d44d071e573"
+    },
+    {
+      "local": "outputs/corpus-mapping/candidates.csv",
+      "sha256": "ed3e27b1831e6a52a39b81ef672aa27eebb3e414e0d5d25a0849b0ea2daf21ff"
+    },
+    {
+      "local": "corpus/reviews.json",
+      "sha256": "3067a301058af262659de9ba6f9e9573f38a42327295d717a939ede1bd638fee"
+    },
+    {
+      "local": "corpus/s6/lexicon-reviews.json",
+      "sha256": "4162f76a0230a9c06f2fb051eac5e1877d0ca69373498cbbfe32c1b942983c83"
+    },
+    {
+      "local": "corpus/s6/person-reviews.json",
+      "sha256": "6c7c3aba65d8762e54cd6ad0ab975d3121c3e397eb19a86222646efd37397cb7"
+    },
+    {
+      "local": "corpus/s6/easy-chat-reviews.json",
+      "sha256": "a51853d309138831f5a0764f8b6e3041636c1b20145d1b871df2622249a2352e"
+    },
+    {
+      "local": "corpus/s6/visible-unit-reviews.json",
+      "sha256": "50c9a2e016df3ef29f28a212cc288e53e9662e8047ca1cb6207108d66c5c5271"
+    },
+    {
+      "local": "corpus/s6/template-reviews.json",
+      "sha256": "c0878323b4b8fc213b6f6c912eecb57671c1e625ff2be91e01d52657f9deeeea"
+    },
+    {
+      "local": "corpus/s6/tower-phrase-reviews.json",
+      "sha256": "9d420cac316c1d2aff149dea5b3f2bd08e62ee23c029eadf466ffcab10e4000c"
+    },
+    {
+      "local": "corpus/s6/tv-page-reviews.json",
+      "sha256": "45cb62f7493667a9c6e942d10f7d3b1619b275b8742143482b70f0a3712f4044"
+    },
+    {
+      "local": "corpus/s6/homograph-reviews.json",
+      "sha256": "4be764470475a4ec7ff3902faed4ce1806760e86e747c680f7b23bc622ccbcd6"
+    },
+    {
+      "local": "corpus/s6/event-translations.json",
+      "sha256": "b762284d645ecc90515ab69097f8a3b16749335ed451abccb3ca3f4bfb54d398"
+    },
+    {
+      "local": "corpus/s6/name-policy.json",
+      "sha256": "6b070b902e68f8e891af2668ca26ef65fce1321b26b09b4c3337a5d8dd6eedb2"
+    },
+    {
+      "local": "corpus/s6/composition-policy.json",
+      "sha256": "7a56243abd98cbb7be855e4e7830946ad075c66596b3ea3e22f2f5d5a4961ee8"
+    },
+    {
+      "local": "tools/build_s6_corpus.mjs",
+      "sha256": "f95edcb1a6557211d8e2e4f18bc0e136da0901b20b8b25877f4fd7366721979f"
+    },
+    {
+      "local": "corpus/acceptance/reference.json",
+      "sha256": "b0560a72fb535b4d7d4e8156d27ea9b8eab0611a140b558c245e17e154319af3"
+    },
+    {
+      "local": "corpus/acceptance/scenarios.json",
+      "sha256": "bacd18d8177550ffbb2f570b6993b2a591377cc0dc259257bbd9023bdfdf1634"
+    },
+    {
+      "local": "tools/test_s6_corpus.mjs",
+      "sha256": "25183ef7d72662ce27cd73d55e321fa00d7d255f93e2192c96b1f4c4250e08a3"
+    },
+    {
+      "local": "tools/test_chinese_corpus_acceptance.mjs",
+      "sha256": "1f432b67e3918f48ba35a39d87fead608e4eea46585175bfc9de425ac5ac38b7"
+    },
+    {
+      "local": "corpus/acceptance/semantic-judgments.json",
+      "sha256": "d2a4246a8377456d0eca63bd261782170308366dc74ed18a90652cc7f6ccc168"
+    },
+    {
+      "local": "corpus/s6/output-judgments.json",
+      "sha256": "10401bfbbdeba0dbb7b75f99accfe3ecb4ffcd647058d82a306e42f8ef5bd58c"
+    }
+  ],
+  "implementation": {
+    "local": "tools/audit_model_translations.mjs",
+    "sha256": "fa728838f7fef2dac72de9af8e2e9849bdde26bf25e665f2c15e779a973d8a1a"
+  },
+  "outputs": [
+    {
+      "file": "summary.json",
+      "sha256": "acdcbf64433571f76cf306fb31428ec5a881db32c28dd0dc650bd66d9cee874f"
+    },
+    {
+      "file": "unique-translations.json",
+      "sha256": "9852d0d99075565a167c2d78cd8c010ed11ec9b6d35219605e984ca0658509c8"
+    },
+    {
+      "file": "model-authored-translations.csv",
+      "sha256": "6df2e68e9d644cad35796db0690261dba713b5407097726092bf5dc3ae3e47ad"
+    },
+    {
+      "file": "all-records.csv",
+      "sha256": "54ae43e3d08dc2cb5afb822fa606b7f040d0b5c60c5346140fa7613c04261d8a"
+    },
+    {
+      "file": "README.txt",
+      "sha256": "43fab913578b8a20ba1bd555b190f1d3159bfb30ae026e9a4c18fc158365ea63"
+    }
+  ]
+}

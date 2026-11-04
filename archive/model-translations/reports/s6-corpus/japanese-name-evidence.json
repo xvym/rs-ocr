@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "implementationSha256": "3a3c3bc187395a516c171206343d86da3c75176098fec5d6969800fc4dbecec5",
+  "method": "Japanese title/template identity, native template initializer reads and restricted caret execution in both fixed ROMs",
+  "sourceInputs": [
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/charmap.txt",
+      "sha256": "8c1db143d4f5f8186a6853d076b8b5dbd5d505b64e3c04ed79fe75afa54b7e9c"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/naming_screen.c",
+      "sha256": "b8004f1d839f0acbd3b5d642b005e87946955e94c33f1cf02f62dd2ea50cacb8"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/naming_screen.h",
+      "sha256": "f099ab4d5f1104c5bbe0d8588b000fb47c46af8292a4b686ada5b2b3f92b3bd7"
+    },
+    {
+      "local": "outputs/corpus-inputs/qid_msg.txt",
+      "sha256": "bafdfb4540e8b766e7cbc947890b12164234d81f1ca039f2bdfadc8dd1d5d1b8"
+    },
+    {
+      "local": "outputs/corpus-inputs/ja-Hrkt_msg.txt",
+      "sha256": "8bc1ba84bd6fba37071f9082a63fcbabcf84f66ee5dfce8e71428cf1a032e038"
+    }
+  ],
+  "roms": [
+    {
+      "gameCode": "AXPJ",
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+      "templateOffset": 3814124,
+      "pointerTableOffset": 3814160,
+      "pointerTableReferenceOffsets": [
+        726012
+      ],
+      "templates": [
+        {
+          "kind": "player",
+          "maxCharacters": 5,
+          "titleQid": "rs.common.strings2.OtherText_YourName",
+          "titleOffset": 3814082
+        },
+        {
+          "kind": "box",
+          "maxCharacters": 8,
+          "titleQid": "rs.common.strings2.OtherText_BoxName",
+          "titleOffset": 3814094
+        },
+        {
+          "kind": "pokemon",
+          "maxCharacters": 5,
+          "titleQid": "rs.common.strings2.OtherText_PokeName",
+          "titleOffset": 3814107
+        }
+      ],
+      "initializerSha256": "8ef0788ed3c278e0d38d5416e551716a5834297e7c2b8ab94ee0fcc6d7f80131",
+      "caretReaderOffset": 730428,
+      "caretCodeSha256": "1b0fc45955221084e32c704afc6f54d39e3a79246054f6d1c8ba1a82160974a5",
+      "keyboardTableOffset": 3814176,
+      "keyboardTableSha256": "c379960f85f9262be5de45be8b56466002f8944aa8d5233bc937caf36191b40e",
+      "checks": [
+        {
+          "template": 0,
+          "filledCharacters": 0,
+          "maxCharacters": 5,
+          "caret": 0,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 1,
+          "maxCharacters": 5,
+          "caret": 1,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 2,
+          "maxCharacters": 5,
+          "caret": 2,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 3,
+          "maxCharacters": 5,
+          "caret": 3,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 4,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 5,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 6,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 0,
+          "maxCharacters": 8,
+          "caret": 0,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 1,
+          "maxCharacters": 8,
+          "caret": 1,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 2,
+          "maxCharacters": 8,
+          "caret": 2,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 3,
+          "maxCharacters": 8,
+          "caret": 3,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 4,
+          "maxCharacters": 8,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 5,
+          "maxCharacters": 8,
+          "caret": 5,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 6,
+          "maxCharacters": 8,
+          "caret": 6,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 7,
+          "maxCharacters": 8,
+          "caret": 7,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 8,
+          "maxCharacters": 8,
+          "caret": 7,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 9,
+          "maxCharacters": 8,
+          "caret": 7,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 0,
+          "maxCharacters": 5,
+          "caret": 0,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 1,
+          "maxCharacters": 5,
+          "caret": 1,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 2,
+          "maxCharacters": 5,
+          "caret": 2,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 3,
+          "maxCharacters": 5,
+          "caret": 3,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 4,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 5,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 6,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "gameCode": "AXVJ",
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "templateOffset": 3814152,
+      "pointerTableOffset": 3814188,
+      "pointerTableReferenceOffsets": [
+        726012
+      ],
+      "templates": [
+        {
+          "kind": "player",
+          "maxCharacters": 5,
+          "titleQid": "rs.common.strings2.OtherText_YourName",
+          "titleOffset": 3814110
+        },
+        {
+          "kind": "box",
+          "maxCharacters": 8,
+          "titleQid": "rs.common.strings2.OtherText_BoxName",
+          "titleOffset": 3814122
+        },
+        {
+          "kind": "pokemon",
+          "maxCharacters": 5,
+          "titleQid": "rs.common.strings2.OtherText_PokeName",
+          "titleOffset": 3814135
+        }
+      ],
+      "initializerSha256": "8ef0788ed3c278e0d38d5416e551716a5834297e7c2b8ab94ee0fcc6d7f80131",
+      "caretReaderOffset": 730428,
+      "caretCodeSha256": "1b0fc45955221084e32c704afc6f54d39e3a79246054f6d1c8ba1a82160974a5",
+      "keyboardTableOffset": 3814204,
+      "keyboardTableSha256": "c379960f85f9262be5de45be8b56466002f8944aa8d5233bc937caf36191b40e",
+      "checks": [
+        {
+          "template": 0,
+          "filledCharacters": 0,
+          "maxCharacters": 5,
+          "caret": 0,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 1,
+          "maxCharacters": 5,
+          "caret": 1,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 2,
+          "maxCharacters": 5,
+          "caret": 2,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 3,
+          "maxCharacters": 5,
+          "caret": 3,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 4,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 5,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 0,
+          "filledCharacters": 6,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 0,
+          "maxCharacters": 8,
+          "caret": 0,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 1,
+          "maxCharacters": 8,
+          "caret": 1,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 2,
+          "maxCharacters": 8,
+          "caret": 2,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 3,
+          "maxCharacters": 8,
+          "caret": 3,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 4,
+          "maxCharacters": 8,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 5,
+          "maxCharacters": 8,
+          "caret": 5,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 6,
+          "maxCharacters": 8,
+          "caret": 6,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 7,
+          "maxCharacters": 8,
+          "caret": 7,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 8,
+          "maxCharacters": 8,
+          "caret": 7,
+          "passed": true
+        },
+        {
+          "template": 1,
+          "filledCharacters": 9,
+          "maxCharacters": 8,
+          "caret": 7,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 0,
+          "maxCharacters": 5,
+          "caret": 0,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 1,
+          "maxCharacters": 5,
+          "caret": 1,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 2,
+          "maxCharacters": 5,
+          "caret": 2,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 3,
+          "maxCharacters": 5,
+          "caret": 3,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 4,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 5,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        },
+        {
+          "template": 2,
+          "filledCharacters": 6,
+          "maxCharacters": 5,
+          "caret": 4,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "limits": {
+    "localJapanesePlayer": 5,
+    "localJapanesePokemonNamingUI": 5,
+    "pcBoxNamingUI": 8
+  },
+  "characterPolicy": "Observed names must be representable by pinned native font glyphs. This is a conservative display alphabet, not a claim every glyph can be typed on the naming keyboard; modifier/voicing input is not fully emulated.",
+  "boundary": "No live naming UI or full script execution. Foreign/scripted displayed nicknames retain the separate conservative ten-character retrieval budget; names never imply actual species or identity."
+}

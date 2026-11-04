@@ -93,7 +93,7 @@ const summary={schemaVersion:1,scope:'Offline source candidate retrieval on actu
    remainingWithoutCompleteCandidateEvidence:comparisons.filter(c=>!c.currentAllPartsHaveCandidates).length,
    previousHitsNowIncomplete:comparisons.filter(c=>c.previousHadCandidate&&!c.currentAllPartsHaveCandidates).map(c=>c.id),
    note:'Original OCR spans retained. A decomposed span counts complete only when every emitted text component has source candidates; captured fields remain unapproved.'},
- chineseCoverageBaselineUnchanged:'25/770; source candidates do not approve translations',
+ chineseCoverageBaselineUnchanged:'Historical model-authored Chinese gates withdrawn; source candidates do not approve translations',
  limitations:['Candidate presence is not source correctness or Chinese coverage.','Template capture is syntactic evidence, not verified buffer meaning or identity.','Source-record and visible-window identity do not define publishable Chinese semantic units.','No fuzzy edit-distance correction or unseen future content is used.','Version attribution remains unknown for each screenshot.','Full-set exhaustive source judgments, Japanese automatic wrapping/call-sites, and live continuity remain incomplete.']};
 const save=(name,value)=>fs.writeFileSync(path.join(out,name),JSON.stringify(value,null,2)+'\n');
 save('summary.json',summary);save('results.json',{summary,regions,reviewedProbes:reviewed,reviewedBattleCases:reviewedBattle});save('unsupported-sources.json',matcher.unsupported);save('baseline-comparison.json',comparisons);save('battle-review.json',reviewedBattle);

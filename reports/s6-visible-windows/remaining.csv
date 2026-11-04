@@ -1,0 +1,13 @@
+﻿"id","regionId","platform","type","raw","reasonCode","sourceQids"
+"GBA-153-R03:S1","GBA-153-R03","gba","battle_message","しかし あいての グラ","incomplete_or_unmapped_source","[]"
+"GBA-175-R03:S1","GBA-175-R03","gba","battle_message","あいて","incomplete_visible_semantic_unit","[""rs.common.easy_chat_group_people.gEasyChatGroupWords_People.0""]"
+"GBA-292-R01:S1","GBA-292-R01","gba","field_dialog","こんにちは！
+こちらでは ポケモンコンテスト","required_variable_not_yet_visible","[""rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A5DFC""]"
+"GBA-304-R06:S1","GBA-304-R06","gba","summary_memo","トレーナーメモ","native_title_correspondence_unverified","[""native.label.memo""]"
+"GBA-305-R06:S5","GBA-305-R06","gba","summary_experience","EXP","invariant_raw_label","[""native.label.exp""]"
+"GBA-310-R06:S1","GBA-310-R06","gba","summary_memo","トレーナーメモ","native_title_correspondence_unverified","[""native.label.memo""]"
+"GBA-311-R06:S5","GBA-311-R06","gba","summary_experience","EXP","invariant_raw_label","[""native.label.exp""]"
+"NGC-123-R06:S1","NGC-123-R06","ngc","summary_memo","トレーナーメモ","native_title_correspondence_unverified","[""native.label.memo""]"
+"NGC-124-R06:S5","NGC-124-R06","ngc","summary_experience","EXP","invariant_raw_label","[""native.label.exp""]"
+"NGC-131-R06:S1","NGC-131-R06","ngc","summary_memo","トレーナーメモ","native_title_correspondence_unverified","[""native.label.memo""]"
+"NGC-132-R06:S5","NGC-132-R06","ngc","summary_experience","EXP","invariant_raw_label","[""native.label.exp""]"

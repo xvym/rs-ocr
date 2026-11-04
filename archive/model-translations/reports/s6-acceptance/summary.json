@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "stage": "S6_library_only",
+  "targetRegions": 579,
+  "totalTranslationUnits": 770,
+  "available": 770,
+  "semanticCorrect": 770,
+  "pendingSemanticGroups": 0,
+  "coverage": 1,
+  "legalRetention": {
+    "passed": 8,
+    "total": 8
+  },
+  "regionsPassed": 579,
+  "valuesCorrect": true,
+  "symbolsCorrect": true,
+  "gatePassed": true,
+  "supplementalScenarios": {
+    "passed": 21,
+    "total": 23,
+    "notAllAreVerifiedOriginalTemplates": true
+  },
+  "excludedChinesePipeline": "not_executed_in_S6",
+  "negativeChinesePipeline": "not_executed_in_S6",
+  "blind": false,
+  "method": "Frozen independent Chinese expectations against new reviewed S6 resources; output-bound semantic judgments; same implementing model, non-blind",
+  "resourceSummary": {
+    "schemaVersion": 1,
+    "stage": "S6",
+    "lexicalRecords": 3575,
+    "visibleUnits": 793,
+    "completeStaticRecords": 350,
+    "templates": 410,
+    "homographDecisions": {
+      "reviewed_common_current_meaning": 168,
+      "unresolved_person_name_localization": 24,
+      "typed_context_required": 23
+    },
+    "tvTextReviews": 133,
+    "tvPublishedLiteralPages": 229,
+    "tvPendingVariablePages": 170,
+    "tvNonPublishedPlaceholders": 4,
+    "sourceRecords": 13479,
+    "perGameInventory": 25410,
+    "inventoryStatuses": {
+      "unreviewed_chinese_candidate": 16857,
+      "has_reviewed_unit_or_term_not_whole_record_approval": 5830,
+      "missing_chinese_correspondence": 1451,
+      "no_japanese_record": 1044,
+      "unused_placeholder": 228
+    },
+    "boundary": "Reviewable corpus and offline availability probe; not S7 desktop/live integration or S8 whole-game acceptance. Inventory is explicit about unreviewed whole records."
+  },
+  "referenceSha256": "b0560a72fb535b4d7d4e8156d27ea9b8eab0611a140b558c245e17e154319af3",
+  "runtimeSha256": "60b956ec2b68538c9d1b768fcf993344031cc25198df323d7d599d44d071e573"
+}

@@ -1,0 +1,2763 @@
+{
+  "schemaVersion": 1,
+  "translationPolicy": "rsc-original-only-v1",
+  "method": "non_blind_model_original_RSC_semantic_unit_alignment",
+  "plans": [
+    {
+      "id": "gym_combination",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F",
+      "japaneseSha256": "d6947a51c4c8f11a6525dfdafa3f91344acfb4e8ea49c2225ac0d988c50420dc",
+      "englishSha256": "9343cca747d06769992a277180d29261b0ef8920f932876c9e0ca4db524c535b",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+          "sha256": "274130418b96eecb78d1f865c0c5dac6123acd65bfdc0a525ad1ae173b7aa2ed",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 29
+        },
+        {
+          "japanese": "なんといっても あの コンビネーションは\nさいこう！ さすが！ って かんじよ",
+          "sha256": "ad12a2224ad30fd08e8b77945c843ae6e9628c28599942645475e65d41f4a3b9",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 33
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001582",
+          "qid": "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1590,
+          "sourceChineseSha256": "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60",
+          "span": [
+            0,
+            42
+          ],
+          "quoteSha256": "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60"
+        },
+        {
+          "candidateId": "candidate-012187",
+          "qid": "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1590,
+          "sourceChineseSha256": "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60",
+          "span": [
+            0,
+            42
+          ],
+          "quoteSha256": "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "tm03_effect",
+      "type": "bag_description",
+      "kind": null,
+      "qid": "rs.common.item_descriptions.gItemDescription_TM03",
+      "japaneseSha256": "a1ce63fd13588b12cdeaa57080388b4385093b04d86078bec494912b9ccc74f8",
+      "englishSha256": "49d68d6380b19dcff572dee38ad3e128deaade69dec54c01cde8e2dfb5c7fea0",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "ちょうおんぱ こうげきで\nてきを こんらんさせる\nことがある",
+          "sha256": "6fe062b0ae70495e565201b80d2305727ecd9b2c4e06343a28cb25345477de65",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 26
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-007236",
+          "qid": "rs.common.item_descriptions.gItemDescription_TM03",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6813,
+          "sourceChineseSha256": "8f203dc78dc7b869b0efb4aebf257e93d3611f4d1b8660b4668bef32e5a7e38c",
+          "span": [
+            0,
+            23
+          ],
+          "quoteSha256": "8f203dc78dc7b869b0efb4aebf257e93d3611f4d1b8660b4668bef32e5a7e38c"
+        },
+        {
+          "candidateId": "candidate-017873",
+          "qid": "rs.common.item_descriptions.gItemDescription_TM03",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6813,
+          "sourceChineseSha256": "8f203dc78dc7b869b0efb4aebf257e93d3611f4d1b8660b4668bef32e5a7e38c",
+          "span": [
+            0,
+            23
+          ],
+          "quoteSha256": "8f203dc78dc7b869b0efb4aebf257e93d3611f4d1b8660b4668bef32e5a7e38c"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "The Japanese ultrasonic wording and original RSC water-vibration wording identify the same TM03 Water Pulse attack and its confusion chance. Retain the original localized description without rewriting it."
+    },
+    {
+      "id": "clerk_service",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.mart_clerk.Text_HowMayIServeYou",
+      "japaneseSha256": "e0620358b5079d48a857c9eb77466701c343353af051c4299267e0a7f9d5402a",
+      "englishSha256": "25f7b8f16551e948981171428a24c718dde8560086e7c24b82654449d029b730",
+      "parts": [
+        {
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 1
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "おかいもの ですね！",
+          "sha256": "fb793e215d76cc9a1aeede6356d36febea9cbc37158b7e17529543bb6d282700",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 9
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-002428",
+          "qid": "rs.script.mart_clerk.Text_HowMayIServeYou",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 2442,
+          "sourceChineseSha256": "413ed676241af67e9ff29f4535407ac18b6573b133fcb46402963f6d9520e225",
+          "span": [
+            5,
+            14
+          ],
+          "quoteSha256": "099508cc765d85a171fbb53c5551ee1510ad19ae9aff3f5c4b295d0bdaff2367"
+        },
+        {
+          "candidateId": "candidate-013061",
+          "qid": "rs.script.mart_clerk.Text_HowMayIServeYou",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 2442,
+          "sourceChineseSha256": "413ed676241af67e9ff29f4535407ac18b6573b133fcb46402963f6d9520e225",
+          "span": [
+            5,
+            14
+          ],
+          "quoteSha256": "099508cc765d85a171fbb53c5551ee1510ad19ae9aff3f5c4b295d0bdaff2367"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "The complete shop-clerk service prompt is localized as the existing RSC offer of service. It is the same interaction stage, with no transaction, price or future effect inferred."
+    },
+    {
+      "id": "failed_action",
+      "type": "battle_message",
+      "kind": null,
+      "qid": "rs.common.battle_strings.BattleText_Failed",
+      "japaneseSha256": "7eaf2c554fd36ce7b72d18acee394cc75744e9187a153616a412248a967a300b",
+      "englishSha256": "c857fbe41b4e82cdb543455a76e113c662e232d536bceb972dfa4860cb2cda96",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "しかし うまく きまら",
+          "sha256": "0e2725654b0051c75d192faccc957716a96d19872866602d6a972dd79abba06b",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 9
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-009143",
+          "qid": "rs.common.battle_strings.BattleText_Failed",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7204,
+          "sourceChineseSha256": "825e09d761e382788f007ce8c058c10eb0d9d143887a8d444000148440d67ef5",
+          "span": [
+            0,
+            9
+          ],
+          "quoteSha256": "825e09d761e382788f007ce8c058c10eb0d9d143887a8d444000148440d67ef5"
+        },
+        {
+          "candidateId": "candidate-019781",
+          "qid": "rs.common.battle_strings.BattleText_Failed",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7204,
+          "sourceChineseSha256": "825e09d761e382788f007ce8c058c10eb0d9d143887a8d444000148440d67ef5",
+          "span": [
+            0,
+            9
+          ],
+          "quoteSha256": "825e09d761e382788f007ce8c058c10eb0d9d143887a8d444000148440d67ef5"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "This reviewed literal negative-action anchor uniquely identifies the source failure unit and contains no hidden actor or numeric slot. Complete only this original RSC failure message, not arbitrary short prefixes."
+    },
+    {
+      "id": "rare_balls",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.MossdeepCity_Mart.MossdeepCity_Mart_Text_18D841",
+      "japaneseSha256": "b9355535cdec5b1586647a690ca408cd1a4a31bf43966d900420e62e8d40a670",
+      "englishSha256": "2d5255b105c0722033a9a178dc242241806263d21768b7e0c1ed025919b23a6f",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "ネットボールと ダイブボールは\nここ トクサネでしか つくっていない",
+          "sha256": "87855683fb611b1440799b414b8957cb2d14fbcc55405dcab97e85af4fcf0dad",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 30
+        },
+        {
+          "japanese": "ここ トクサネでしか つくっていない\nめずらしい モンスターボール！",
+          "sha256": "009d43b53bf5acb5166c87b09548ea61fef9a9af0e7c5777a604c6a948ed9dcf",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 30
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001587",
+          "qid": "rs.script.MossdeepCity_Mart.MossdeepCity_Mart_Text_18D841",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1595,
+          "sourceChineseSha256": "1a44132185fcbf5417116f7f38b46c48cb0291588a7f0732074188d5fc1fc775",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "f8e00d3ca9ffe848105b5377be1761ca0de0313389f94a41704ec3be62715825"
+        },
+        {
+          "candidateId": "candidate-012192",
+          "qid": "rs.script.MossdeepCity_Mart.MossdeepCity_Mart_Text_18D841",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1595,
+          "sourceChineseSha256": "1a44132185fcbf5417116f7f38b46c48cb0291588a7f0732074188d5fc1fc775",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "f8e00d3ca9ffe848105b5377be1761ca0de0313389f94a41704ec3be62715825"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "young_traveller",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.MossdeepCity_GameCorner_1F.MossdeepCity_GameCorner_1F_Text_18E59A",
+      "japaneseSha256": "9fc53484452929033872ab5c88608d7f49ed67b07c8223f6d732d0475caecfb7",
+      "englishSha256": "83d12c4f68d18f8e0489f7139e355eb78b71b263528de5671a50d2e80bcc453f",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "わしも わかいころは\nポケモン トレーナーとして",
+          "sha256": "0b0ac31f0e81550a393baf450083a5b0b286912ade1f0b319899bac5b683aefc",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 21
+        },
+        {
+          "japanese": "ポケモン トレーナーとして\nせかいじゅうを たび していたのじゃ",
+          "sha256": "f4e48c08e90322e6d79d18a9a78c1b9bf9e92c949c074b555a71c2b52614d086",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 28
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001618",
+          "qid": "rs.script.MossdeepCity_GameCorner_1F.MossdeepCity_GameCorner_1F_Text_18E59A",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1626,
+          "sourceChineseSha256": "3f297e7ee169443d7a9a7666c2a2f4918bd0ac5d77d0493983617007ba08746a",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "8ce5a6eaef15f33269c39023ef7323b8a0af895d5fb1342eac5467a3ec285021"
+        },
+        {
+          "candidateId": "candidate-012223",
+          "qid": "rs.script.MossdeepCity_GameCorner_1F.MossdeepCity_GameCorner_1F_Text_18E59A",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1626,
+          "sourceChineseSha256": "3f297e7ee169443d7a9a7666c2a2f4918bd0ac5d77d0493983617007ba08746a",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "8ce5a6eaef15f33269c39023ef7323b8a0af895d5fb1342eac5467a3ec285021"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "old_spectator",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.MossdeepCity_GameCorner_1F.MossdeepCity_GameCorner_1F_Text_18E59A",
+      "japaneseSha256": "9fc53484452929033872ab5c88608d7f49ed67b07c8223f6d732d0475caecfb7",
+      "englishSha256": "83d12c4f68d18f8e0489f7139e355eb78b71b263528de5671a50d2e80bcc453f",
+      "parts": [
+        {
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "ジジイとなった いまでは\nわかい トレーナーの しょうぶを みるのが",
+          "sha256": "249ec922fad0910ef2b2f807224d8d07df971a36f7640a2b2979e93996186b01",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 29
+        },
+        {
+          "japanese": "わかい トレーナーの しょうぶを みるのが\nゆいいつの たのしみ じゃ",
+          "sha256": "78016497c21fac6e6481a33f7d253f0f0fabfb3aed6f9e346dad00c49ccf9ec3",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 29
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001618",
+          "qid": "rs.script.MossdeepCity_GameCorner_1F.MossdeepCity_GameCorner_1F_Text_18E59A",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1626,
+          "sourceChineseSha256": "3f297e7ee169443d7a9a7666c2a2f4918bd0ac5d77d0493983617007ba08746a",
+          "span": [
+            26,
+            60
+          ],
+          "quoteSha256": "605b2d427be4768731516e5c253bcab92e8c43e0549773b583a3d3ddda004ecb"
+        },
+        {
+          "candidateId": "candidate-012223",
+          "qid": "rs.script.MossdeepCity_GameCorner_1F.MossdeepCity_GameCorner_1F_Text_18E59A",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1626,
+          "sourceChineseSha256": "3f297e7ee169443d7a9a7666c2a2f4918bd0ac5d77d0493983617007ba08746a",
+          "span": [
+            26,
+            60
+          ],
+          "quoteSha256": "605b2d427be4768731516e5c253bcab92e8c43e0549773b583a3d3ddda004ecb"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "birch_field_research",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AC56",
+      "japaneseSha256": "70cc728b2e67134cfa927dae80c271871a4b5bc79ce8069f6ebc6124676955a6",
+      "englishSha256": "76d89b5707b38c0ebb80fed1e5561ccc196dd114733d124cd826aefdcb653baa",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "ずーっと けんきゅうしつに こもって\nしらべものを しているかと おもえば",
+          "sha256": "88c45b57740010d73c51494af546ab68eea71a323ee043b0c534029da4d9eb36",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 32
+        },
+        {
+          "japanese": "しらべものを しているかと おもえば\nとつぜん のやまに とびだしていく‥‥",
+          "sha256": "72e916befacf938d84ed556d0df82cb79c9a2ee26765542837ed789050c5cffb",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 33
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-000245",
+          "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AC56",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 247,
+          "sourceChineseSha256": "71bc49b60d9d6ffd1457f8d42fb560fd972871f964b69221a17da11f011be9e1",
+          "span": [
+            0,
+            39
+          ],
+          "quoteSha256": "99699f74e684405d18e608955354ee35a9150055a982bc794852ee62ab1795f3"
+        },
+        {
+          "candidateId": "candidate-010805",
+          "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AC56",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 247,
+          "sourceChineseSha256": "71bc49b60d9d6ffd1457f8d42fb560fd972871f964b69221a17da11f011be9e1",
+          "span": [
+            0,
+            39
+          ],
+          "quoteSha256": "99699f74e684405d18e608955354ee35a9150055a982bc794852ee62ab1795f3"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "birch_habitats",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D15",
+      "japaneseSha256": "e584cb471ce253422ee2af5a2aa4647826b3054bd7fb88cd085f41006d644bd7",
+      "englishSha256": "501618871b698561f9623ae6a291f1e77df47fc3f0b413e47b266d50738aa67f",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "オダマキはかせは\nポケモンが どこに すんでいるのか",
+          "sha256": "e70369ef1ead02e8c1f84c7ea5ea146c7e83e6db39da11d241263e04efaa843b",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 23
+        },
+        {
+          "japanese": "ポケモンが どこに すんでいるのか\nぶんぷの ちょうさを なさっています",
+          "sha256": "1473804b313b2bfdd3c281c6c4b8b7e123683e22261733eedfa4317409966534",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 31
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-000611",
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D15",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 614,
+          "sourceChineseSha256": "65e2f09d7f3466838e3435681f2d05f4caa6fe1024bba4945f71a529cf490063",
+          "span": [
+            0,
+            20
+          ],
+          "quoteSha256": "81532772232dab085fafdf425ebb4051727b4ec5877e8a1d95f61151283617dd"
+        },
+        {
+          "candidateId": "candidate-011174",
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D15",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 614,
+          "sourceChineseSha256": "65e2f09d7f3466838e3435681f2d05f4caa6fe1024bba4945f71a529cf490063",
+          "span": [
+            0,
+            20
+          ],
+          "quoteSha256": "81532772232dab085fafdf425ebb4051727b4ec5877e8a1d95f61151283617dd"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "cut_and_badge",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.RustboroCity_CuttersHouse.RustboroCity_CuttersHouse_Text_1851C9",
+      "japaneseSha256": "3b834a20237e58356e492871aac2ba07961c7c986fc1b058b72054aeff3b0c71",
+      "englishSha256": "9f79ebdb62c07a0ce3a7131a29c231d04b5aaac693aea16d130b810c58a4b906",
+      "parts": [
+        {
+          "page": 2,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "いあいぎりを おぼえた ポケモンは\nストーンバッジを もっていれば",
+          "sha256": "b0d359b783bb28b2c1e5936fd430291e51c6fef17a304ad172361da4213d6586",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 29
+        },
+        {
+          "japanese": "ストーンバッジを もっていれば\nほそい きを きれるように なるのだよ！",
+          "sha256": "bd244a2bc5e0df1bfe4aa913e0d0e918016e9a5612af0ae5abc1e014a0ddde96",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 31
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001239",
+          "qid": "rs.script.RustboroCity_CuttersHouse.RustboroCity_CuttersHouse_Text_1851C9",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1247,
+          "sourceChineseSha256": "004a50f839ba77a8f136be66e1c6a255dc5015c0d98450ebe8ecd10fdc55f733",
+          "span": [
+            43,
+            81
+          ],
+          "quoteSha256": "fe80526f97a87890f6ca655c2fe0c0bee9e4a1e9e61cc20ea4df055ec4256c64"
+        },
+        {
+          "candidateId": "candidate-011822",
+          "qid": "rs.script.RustboroCity_CuttersHouse.RustboroCity_CuttersHouse_Text_1851C9",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1247,
+          "sourceChineseSha256": "004a50f839ba77a8f136be66e1c6a255dc5015c0d98450ebe8ecd10fdc55f733",
+          "span": [
+            43,
+            81
+          ],
+          "quoteSha256": "fe80526f97a87890f6ca655c2fe0c0bee9e4a1e9e61cc20ea4df055ec4256c64"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "father_cleared_land",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.RustboroCity_CuttersHouse.RustboroCity_CuttersHouse_Text_1852B3",
+      "japaneseSha256": "b95b75e2d5ef324c5d2435190bd57992160c3b0b199e437214c1faf7b3bac6d0",
+      "englishSha256": "487e032cadc8ef028b1f1160503c53e18997641e3e7fdd4bed43695932e07642",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 4
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "この カナズミが おおきくなるとき\nおとうさん みんなの ために",
+          "sha256": "a0ed35d297d02584fb253be38682bbe7a92fe1cdd60f9c7edc8d7742c264acb3",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 27
+        },
+        {
+          "japanese": "おとうさん みんなの ために\nいあいぎりを つかって",
+          "sha256": "03f282f84299096f37a8840f78afcce519e79dec368062306a74e1068d82e8de",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 22
+        },
+        {
+          "japanese": "いあいぎりを つかって\nあたりを きりひらいたんだって！",
+          "sha256": "fdd7d4a063b1f004079e8cceb1794a3d9e2724ffb818d48e54fbd2efe42a1233",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 25
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001240",
+          "qid": "rs.script.RustboroCity_CuttersHouse.RustboroCity_CuttersHouse_Text_1852B3",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1248,
+          "sourceChineseSha256": "ed8bff35f722f994595c509c0aab57ca460eca1f3494ecc4f655dc719e93f1a5",
+          "span": [
+            0,
+            46
+          ],
+          "quoteSha256": "ed8bff35f722f994595c509c0aab57ca460eca1f3494ecc4f655dc719e93f1a5"
+        },
+        {
+          "candidateId": "candidate-011823",
+          "qid": "rs.script.RustboroCity_CuttersHouse.RustboroCity_CuttersHouse_Text_1852B3",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1248,
+          "sourceChineseSha256": "ed8bff35f722f994595c509c0aab57ca460eca1f3494ecc4f655dc719e93f1a5",
+          "span": [
+            0,
+            46
+          ],
+          "quoteSha256": "ed8bff35f722f994595c509c0aab57ca460eca1f3494ecc4f655dc719e93f1a5"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "school_enrolment",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.RustboroCity.RustboroCity_Text_166CFA",
+      "japaneseSha256": "8d7b5d4a57795b9eca48285fe558d8f6f15f92f72333b37346d84b81df1551fe",
+      "englishSha256": "b3b4a2063038ed8e359920337d026f26b2cbfa53437e91a7021d0542568556ab",
+      "parts": [
+        {
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "ここに にゅうがく すれば\nめずらしい ポケモンでも かんたんに",
+          "sha256": "0f94254d7d4925b337d08a48c15036bd9d0e9958d06f4ece6fa02d348ed1baec",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 27
+        },
+        {
+          "japanese": "めずらしい ポケモンでも かんたんに\nつかまえられるように なるのかな？",
+          "sha256": "0393388d4e4acc5d8ee400e2c52f448ddd91a69e4012b5168a1b589af7d6b8cc",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 32
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-000108",
+          "qid": "rs.script.RustboroCity.RustboroCity_Text_166CFA",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 108,
+          "sourceChineseSha256": "684a5aeceda25e25206ad536f9bf08d4a00c782226193394bb234e3b7a64e0a6",
+          "span": [
+            11,
+            39
+          ],
+          "quoteSha256": "d144c4963034c3b6874f1c2c851a2e31c5e2c1a02555628be81e4fc862bd856e"
+        },
+        {
+          "candidateId": "candidate-010662",
+          "qid": "rs.script.RustboroCity.RustboroCity_Text_166CFA",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 108,
+          "sourceChineseSha256": "684a5aeceda25e25206ad536f9bf08d4a00c782226193394bb234e3b7a64e0a6",
+          "span": [
+            11,
+            39
+          ],
+          "quoteSha256": "d144c4963034c3b6874f1c2c851a2e31c5e2c1a02555628be81e4fc862bd856e"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "surf_without_boat",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.Route118.Route118_Text_170FFE",
+      "japaneseSha256": "edf60509c0f9341a4ffbfc32f2046bad7a8fbe91d5de67bc41e8d0e9bb7d03b1",
+      "englishSha256": "4286ede521bac0233d91ecd2a474d2bf03a17a1f6c5af157986debc48e9ce993",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "ふねを もって いなくても\nなみのりを おぼえた ポケモンが いれば",
+          "sha256": "d4dd36c5442cbc3ce762940f1f04ae825170f5e3ecaf6c4753163647c566f6f7",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 28
+        },
+        {
+          "japanese": "なみのりを おぼえた ポケモンが いれば\nうみや かわを わたって いけちゃうの！",
+          "sha256": "9ed90d2b771246d18c4674c7809811e7bd53353e0fe94551b99e08c07d4c9730",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 34
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-000510",
+          "qid": "rs.script.Route118.Route118_Text_170FFE",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 513,
+          "sourceChineseSha256": "07af098b95b180bfe726f405d14732695a5041a7a9c805d13e9c4ca7ecee2839",
+          "span": [
+            0,
+            31
+          ],
+          "quoteSha256": "196a10a73d8c47e47a553ccf96d47023641f5ccc67a5b7f95ea0e791d09ccaf0"
+        },
+        {
+          "candidateId": "candidate-011073",
+          "qid": "rs.script.Route118.Route118_Text_170FFE",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 513,
+          "sourceChineseSha256": "07af098b95b180bfe726f405d14732695a5041a7a9c805d13e9c4ca7ecee2839",
+          "span": [
+            0,
+            31
+          ],
+          "quoteSha256": "196a10a73d8c47e47a553ccf96d47023641f5ccc67a5b7f95ea0e791d09ccaf0"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "hot_spring_goal",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.LavaridgeTown.LavaridgeTown_Text_16C59B",
+      "japaneseSha256": "5ed2e29b7a2070533167d09a7c28c1349649ddd7716116e7c1356430d05d3e50",
+      "englishSha256": "9b95471d2e6c233f7098cf551ababec6f36533f2f117cb47760db5ee434ce50f",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "あたし アスナさん みたいに\nすてきで つよい ジムリーダーに なるため",
+          "sha256": "e8317d97345101c54a16a64a8751423fa390d88c60db103d55e122719a286b26",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 30
+        },
+        {
+          "japanese": "すてきで つよい ジムリーダーに なるため\nまいにち おんせんに はいってるの！",
+          "sha256": "c9c898767904df25844bcb2f60ae666731ed5e05394d7bcdfd07a50bdc9bc010",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 34
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-000305",
+          "qid": "rs.script.LavaridgeTown.LavaridgeTown_Text_16C59B",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 307,
+          "sourceChineseSha256": "f2f3ddd6a817e2fabfc3ee5b4bece7916247230bf6105a751197d5495d90f2ff",
+          "span": [
+            0,
+            32
+          ],
+          "quoteSha256": "f2f3ddd6a817e2fabfc3ee5b4bece7916247230bf6105a751197d5495d90f2ff"
+        },
+        {
+          "candidateId": "candidate-010867",
+          "qid": "rs.script.LavaridgeTown.LavaridgeTown_Text_16C59B",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 307,
+          "sourceChineseSha256": "f2f3ddd6a817e2fabfc3ee5b4bece7916247230bf6105a751197d5495d90f2ff",
+          "span": [
+            0,
+            32
+          ],
+          "quoteSha256": "f2f3ddd6a817e2fabfc3ee5b4bece7916247230bf6105a751197d5495d90f2ff"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "ledge_return",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.Route112.Route112_Text_16FE7A",
+      "japaneseSha256": "8db7f09445b4c72672a889bf43bc039523d39b7bb9ec599679676bcbadda7604",
+      "englishSha256": "8fe45ebb96d3167842696c83264f3c920c840ac1aee459c96b444dc0364be0ac",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "うーむ‥‥ キンセツに いきたいのだが‥‥\nこの だんさを おりてしまうと",
+          "sha256": "a32134ec4ad995ad8e49a6efb754d5cb053f9233202b2c03e20daeed83844a28",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 32
+        },
+        {
+          "japanese": "この だんさを おりてしまうと\nフエンに もどるのは たいへん だよな‥‥",
+          "sha256": "56bd3a91516987eec4b861c44d8a8c0be823c688aaab5459f8c6b210633cb940",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 31
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-000461",
+          "qid": "rs.script.Route112.Route112_Text_16FE7A",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 464,
+          "sourceChineseSha256": "dd76a34bab38f19a046f310ace5db6f4e93d330fdc666c11804f5b56d0836372",
+          "span": [
+            0,
+            37
+          ],
+          "quoteSha256": "dd76a34bab38f19a046f310ace5db6f4e93d330fdc666c11804f5b56d0836372"
+        },
+        {
+          "candidateId": "candidate-011024",
+          "qid": "rs.script.Route112.Route112_Text_16FE7A",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 464,
+          "sourceChineseSha256": "dd76a34bab38f19a046f310ace5db6f4e93d330fdc666c11804f5b56d0836372",
+          "span": [
+            0,
+            37
+          ],
+          "quoteSha256": "dd76a34bab38f19a046f310ace5db6f4e93d330fdc666c11804f5b56d0836372"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "bike_rugged_pass",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.JaggedPass.JaggedPass_Text_195F04",
+      "japaneseSha256": "285698b5bd7841c71c25eefe496418645c25d0fad078dd83f44d45ed4c88d2aa",
+      "englishSha256": "f6f80213e453f1781843a2d743afaa0feed6e7fa120c8e9fccef69d99137d2c6",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "こんな デコボコしたところ\nじてんしゃで じょうずに のぼっていく",
+          "sha256": "5d20396c024a0d109ad876b7044091f517dacab88e94804b5f470422fb6331f6",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 29
+        },
+        {
+          "japanese": "じてんしゃで じょうずに のぼっていく\nひとも いるのよ！",
+          "sha256": "70c7dc5b2ea64999a7b65a66e56aaca8508470ffce021655027f609130e264b9",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 25
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001898",
+          "qid": "rs.script.JaggedPass.JaggedPass_Text_195F04",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1908,
+          "sourceChineseSha256": "8d24a8d3244bf573e9289f078cd7b5f0b72c9156f5fc901c71791fd5c3e89c03",
+          "span": [
+            0,
+            34
+          ],
+          "quoteSha256": "8d24a8d3244bf573e9289f078cd7b5f0b72c9156f5fc901c71791fd5c3e89c03"
+        },
+        {
+          "candidateId": "candidate-012504",
+          "qid": "rs.script.JaggedPass.JaggedPass_Text_195F04",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1908,
+          "sourceChineseSha256": "8d24a8d3244bf573e9289f078cd7b5f0b72c9156f5fc901c71791fd5c3e89c03",
+          "span": [
+            0,
+            34
+          ],
+          "quoteSha256": "8d24a8d3244bf573e9289f078cd7b5f0b72c9156f5fc901c71791fd5c3e89c03"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "pacifidlog_livelihood",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.PacifidlogTown.PacifidlogTown_Text_16D08A",
+      "japaneseSha256": "9824e3daa18bf442bfad1133548f1be738973e8f7111815e4eef9eb335083bf0",
+      "englishSha256": "ee5c953622a071f0c600c8a72a83ab19636b64a20d78e6f2229159c112034a29",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "キナギの にんげんは\nみんな つりをしたり もぐったりして",
+          "sha256": "6aad4335a06db509b04df9e46a7cd98de2733467f0422eeb1baa71f7cb17a1e6",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 25
+        },
+        {
+          "japanese": "みんな つりをしたり もぐったりして\nせいかつ してるんだな",
+          "sha256": "dcb1b3c3701d89a6c59121e1881f6c9179099407319f0450c90520866ec4d4bd",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 26
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-000331",
+          "qid": "rs.script.PacifidlogTown.PacifidlogTown_Text_16D08A",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 333,
+          "sourceChineseSha256": "69a3b4b735a274e78b9e1fc2c4ae70808ec1f702442e1a84863392ad2247f084",
+          "span": [
+            0,
+            26
+          ],
+          "quoteSha256": "69a3b4b735a274e78b9e1fc2c4ae70808ec1f702442e1a84863392ad2247f084"
+        },
+        {
+          "candidateId": "candidate-010894",
+          "qid": "rs.script.PacifidlogTown.PacifidlogTown_Text_16D08A",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 333,
+          "sourceChineseSha256": "69a3b4b735a274e78b9e1fc2c4ae70808ec1f702442e1a84863392ad2247f084",
+          "span": [
+            0,
+            26
+          ],
+          "quoteSha256": "69a3b4b735a274e78b9e1fc2c4ae70808ec1f702442e1a84863392ad2247f084"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "three_regis",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.PacifidlogTown_House1.PacifidlogTown_House1_Text_178F9F",
+      "japaneseSha256": "d3f39f955589c86c1c8a4f7c80ce2d23b37e9e56eef1a460a2d778754ae6714b",
+      "englishSha256": "cacfed2f243d883b137d505d812ddbfa21f24cd0425ccbd71478796d98747430",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2
+        },
+        {
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "ホウエンちほう には\nいわ‥‥ こおり‥‥ はがね‥‥",
+          "sha256": "16c5aea4292f915778adaebd3678ba98595bfdc35279ed40f1ecca302fd1620b",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 23
+        },
+        {
+          "japanese": "それぞれの ちからを つかさどる\n3びきの ポケモンが",
+          "sha256": "c4795007c1ebcdb051feff534aef00d0f81160f0b8c044f28cdfd531bd310efe",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 23
+        },
+        {
+          "japanese": "3びきの ポケモンが\nそれぞれ どこかの どうくつに いる‥‥",
+          "sha256": "e5a94ba3c68bf0e660125efb2b15d28035325e31a5204b6df720f9a8486c6fc5",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 26
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-000804",
+          "qid": "rs.script.PacifidlogTown_House1.PacifidlogTown_House1_Text_178F9F",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 807,
+          "sourceChineseSha256": "eb1b8589eed146c3065aa13e7ee7f91dd575401a30ccec86cb2c022d16194056",
+          "span": [
+            0,
+            43
+          ],
+          "quoteSha256": "e84a6ee2bae48d2396650ea80f95f91f428df16e422d858dbcffe06edf7b2b8d"
+        },
+        {
+          "candidateId": "candidate-011367",
+          "qid": "rs.script.PacifidlogTown_House1.PacifidlogTown_House1_Text_178F9F",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 807,
+          "sourceChineseSha256": "eb1b8589eed146c3065aa13e7ee7f91dd575401a30ccec86cb2c022d16194056",
+          "span": [
+            0,
+            43
+          ],
+          "quoteSha256": "e84a6ee2bae48d2396650ea80f95f91f428df16e422d858dbcffe06edf7b2b8d"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "sidney_praise",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.EverGrandeCity_SidneysRoom.EverGrandeCity_SidneysRoom_Text_190728",
+      "japaneseSha256": "57f1074b09a73aa8a9f576a6084120019593faebcc759d56090d36a56b4d770d",
+      "englishSha256": "5e8f202892600ebf7a2d9fdf2fa4a858c3020f38eb160bec0a42472b67d46138",
+      "parts": [
+        {
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "うーん いい かお してるな\nなかなか たのしませて くれそうだぞ！",
+          "sha256": "c7251d59cee7b5fc51734807ee001c94cb9fc550cfb30add1d502274955847cd",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 28
+        },
+        {
+          "japanese": "なかなか たのしませて くれそうだぞ！\nいいぞ！ いい かんじだぞ！",
+          "sha256": "f2bbcb50d240c156efe9a281c3d4fc41b135ff1e003108faecfdfe43c8b7ec6d",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 29
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001712",
+          "qid": "rs.script.EverGrandeCity_SidneysRoom.EverGrandeCity_SidneysRoom_Text_190728",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1720,
+          "sourceChineseSha256": "0cba587eab5683b9c183301327a272baabbe3f02bf0c06a5be6d591f198110dc",
+          "span": [
+            20,
+            55
+          ],
+          "quoteSha256": "d00efe0e3c237437cc9e3c432a5afc1bdc1cb4711a150abb8a51cf22781ddcff"
+        },
+        {
+          "candidateId": "candidate-012318",
+          "qid": "rs.script.EverGrandeCity_SidneysRoom.EverGrandeCity_SidneysRoom_Text_190728",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1720,
+          "sourceChineseSha256": "0cba587eab5683b9c183301327a272baabbe3f02bf0c06a5be6d591f198110dc",
+          "span": [
+            20,
+            55
+          ],
+          "quoteSha256": "d00efe0e3c237437cc9e3c432a5afc1bdc1cb4711a150abb8a51cf22781ddcff"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "sidney_invitation",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.EverGrandeCity_SidneysRoom.EverGrandeCity_SidneysRoom_Text_190728",
+      "japaneseSha256": "57f1074b09a73aa8a9f576a6084120019593faebcc759d56090d36a56b4d770d",
+      "englishSha256": "5e8f202892600ebf7a2d9fdf2fa4a858c3020f38eb160bec0a42472b67d46138",
+      "parts": [
+        {
+          "page": 2,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "よーし！ おれと おまえ とで\nポケモン リーグでしか できない",
+          "sha256": "7c68b9ac90b1f007cc46ca8712e98b8d3d39eb107f36947796687a709ed01d19",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 26
+        },
+        {
+          "japanese": "ポケモン リーグでしか できない\nたたかいを たのしむと しようぜ！！",
+          "sha256": "1ef4833d166e2a683ef861c48d27dc3b4e364ce7a804db2dc9dbad05341f7bb2",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 30
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001712",
+          "qid": "rs.script.EverGrandeCity_SidneysRoom.EverGrandeCity_SidneysRoom_Text_190728",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1720,
+          "sourceChineseSha256": "0cba587eab5683b9c183301327a272baabbe3f02bf0c06a5be6d591f198110dc",
+          "span": [
+            57,
+            88
+          ],
+          "quoteSha256": "b879f6400fa1e9b49ca3fa8e5114dc6318978084790588c54ae38fd07006cb70"
+        },
+        {
+          "candidateId": "candidate-012318",
+          "qid": "rs.script.EverGrandeCity_SidneysRoom.EverGrandeCity_SidneysRoom_Text_190728",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1720,
+          "sourceChineseSha256": "0cba587eab5683b9c183301327a272baabbe3f02bf0c06a5be6d591f198110dc",
+          "span": [
+            57,
+            88
+          ],
+          "quoteSha256": "b879f6400fa1e9b49ca3fa8e5114dc6318978084790588c54ae38fd07006cb70"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "sidney_next_room",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.EverGrandeCity_SidneysRoom.EverGrandeCity_SidneysRoom_Text_19086D",
+      "japaneseSha256": "50b5aff83d33956bc791344d08a70484e8c4b37424f0a6647bfdf28d0ffbc784",
+      "englishSha256": "d64e3d6567f8523e5616afeeccf58dd86f8c61833e51e1562e1b7fcdcdd83123",
+      "parts": [
+        {
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "おまえなら もっと さきに すすめるぜ\nさあ つぎの へやに いって",
+          "sha256": "831a91f83f69f293f08c95988a4e6df8395d928eb94c689fc689d5c0ef1fe71c",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 27
+        },
+        {
+          "japanese": "さあ つぎの へやに いって\nたたかいを たのしんで きなよ！",
+          "sha256": "5b2f33bccaaee628064c4b1750d60ea20ae6df25d5189c730c9b54752ae4cd72",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 25
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001714",
+          "qid": "rs.script.EverGrandeCity_SidneysRoom.EverGrandeCity_SidneysRoom_Text_19086D",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1722,
+          "sourceChineseSha256": "ba867cc09f4ff232f634df52905e92b5ae97ba1b26fa5157dea8cd78e4c8e8fd",
+          "span": [
+            15,
+            53
+          ],
+          "quoteSha256": "cb5baa371441f431345eda7b19ee553ef8e29759d93559c7e85e2e828a13d393"
+        },
+        {
+          "candidateId": "candidate-012320",
+          "qid": "rs.script.EverGrandeCity_SidneysRoom.EverGrandeCity_SidneysRoom_Text_19086D",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1722,
+          "sourceChineseSha256": "ba867cc09f4ff232f634df52905e92b5ae97ba1b26fa5157dea8cd78e4c8e8fd",
+          "span": [
+            15,
+            53
+          ],
+          "quoteSha256": "cb5baa371441f431345eda7b19ee553ef8e29759d93559c7e85e2e828a13d393"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "phoebe_training",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.EverGrandeCity_PhoebesRoom.EverGrandeCity_PhoebesRoom_Text_1908F5",
+      "japaneseSha256": "1c7a9f1f9842f2c4a5fa3888cfc0280ad5300df312bdfd174c870c8352920900",
+      "englishSha256": "0b36f449e41bec26196d8f2db06914bee34e3af125d7fe803aed9addd5ac28b5",
+      "parts": [
+        {
+          "page": 2,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "おくりびやまで しゅぎょう するうちに\nゴーストタイプの ポケモンと きもちを",
+          "sha256": "49dee0a05562bc18ad264ef522573debfa7437f6ea8839d750f1688932bce98c",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 34
+        },
+        {
+          "japanese": "ゴーストタイプの ポケモンと きもちを\nかよわせる ことが できるように なったの",
+          "sha256": "7ceebe933dec659b8281b663ab30f7d8594e80a297808bcaaa15b9e642f5b3af",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 35
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001715",
+          "qid": "rs.script.EverGrandeCity_PhoebesRoom.EverGrandeCity_PhoebesRoom_Text_1908F5",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1723,
+          "sourceChineseSha256": "b184a4dc5d15ba37a889b7764fd798d160c3711329b70692306f408e27d5315c",
+          "span": [
+            17,
+            48
+          ],
+          "quoteSha256": "2e80c1b186a7efc65012eedbd4c1ca450ffe926ddcd0c73891de9a478ea7bccc"
+        },
+        {
+          "candidateId": "candidate-012321",
+          "qid": "rs.script.EverGrandeCity_PhoebesRoom.EverGrandeCity_PhoebesRoom_Text_1908F5",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1723,
+          "sourceChineseSha256": "b184a4dc5d15ba37a889b7764fd798d160c3711329b70692306f408e27d5315c",
+          "span": [
+            17,
+            48
+          ],
+          "quoteSha256": "2e80c1b186a7efc65012eedbd4c1ca450ffe926ddcd0c73891de9a478ea7bccc"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "phoebe_challenge",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.EverGrandeCity_PhoebesRoom.EverGrandeCity_PhoebesRoom_Text_1908F5",
+      "japaneseSha256": "1c7a9f1f9842f2c4a5fa3888cfc0280ad5300df312bdfd174c870c8352920900",
+      "englishSha256": "0b36f449e41bec26196d8f2db06914bee34e3af125d7fe803aed9addd5ac28b5",
+      "parts": [
+        {
+          "page": 4,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "そんな アタシの ポケモンたちに\nダメージを あたえる ことが できるか",
+          "sha256": "bbf5ab606e3f27a09f4ea67d81098c67a5a3f34349f6f194455ae235ed5c66cd",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 30
+        },
+        {
+          "japanese": "ダメージを あたえる ことが できるか\nためして ごらんよ！",
+          "sha256": "ea6e0f6e06d2d7130c99decc2e4b74b45aee5b3f87525b368097e563eed9c4e2",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 25
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001715",
+          "qid": "rs.script.EverGrandeCity_PhoebesRoom.EverGrandeCity_PhoebesRoom_Text_1908F5",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1723,
+          "sourceChineseSha256": "b184a4dc5d15ba37a889b7764fd798d160c3711329b70692306f408e27d5315c",
+          "span": [
+            72,
+            96
+          ],
+          "quoteSha256": "4098d63d191c53d2f198f0c03f137fc141d2097bf5b092d4f5ab6139caa37d3f"
+        },
+        {
+          "candidateId": "candidate-012321",
+          "qid": "rs.script.EverGrandeCity_PhoebesRoom.EverGrandeCity_PhoebesRoom_Text_1908F5",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1723,
+          "sourceChineseSha256": "b184a4dc5d15ba37a889b7764fd798d160c3711329b70692306f408e27d5315c",
+          "span": [
+            72,
+            96
+          ],
+          "quoteSha256": "4098d63d191c53d2f198f0c03f137fc141d2097bf5b092d4f5ab6139caa37d3f"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "phoebe_bond_and_next_room",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.EverGrandeCity_PhoebesRoom.EverGrandeCity_PhoebesRoom_Text_190A2A",
+      "japaneseSha256": "0de57ab1f27bce51c66efc7b10061e39408acef6c6e2a300dc46f098c19ca297",
+      "englishSha256": "2f9e1fc38ed834662a018621d746eba1132ab4ff1c64a2a8dad6c01ad853088d",
+      "parts": [
+        {
+          "page": 2,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "どこまで つうじるか みてみたいな\nつぎの へやに すすみなよ",
+          "sha256": "26dc621319c22e581f81d5c2b1bdd1ff0c1d41ce488114581af125b7577bf333",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 26
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001717",
+          "qid": "rs.script.EverGrandeCity_PhoebesRoom.EverGrandeCity_PhoebesRoom_Text_190A2A",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1725,
+          "sourceChineseSha256": "6b8569a77b31faed84fe287915d62ca6bd5d69e77b16f25f5745ed75c740d884",
+          "span": [
+            48,
+            88
+          ],
+          "quoteSha256": "b152aa4e5bf76916c51e31f3981bbe762cadc2cbf73ce76dcd8e491571bc67f9"
+        },
+        {
+          "candidateId": "candidate-012323",
+          "qid": "rs.script.EverGrandeCity_PhoebesRoom.EverGrandeCity_PhoebesRoom_Text_190A2A",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1725,
+          "sourceChineseSha256": "6b8569a77b31faed84fe287915d62ca6bd5d69e77b16f25f5745ed75c740d884",
+          "span": [
+            48,
+            88
+          ],
+          "quoteSha256": "b152aa4e5bf76916c51e31f3981bbe762cadc2cbf73ce76dcd8e491571bc67f9"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "contest_winners",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.LilycoveCity.LilycoveCity_Text_1686C9",
+      "japaneseSha256": "1ebd861200594e2d634feaa63dea3eb1055a13e3ad38947d3abe9e0bb2d3aa97",
+      "englishSha256": "d1810fae2cba436587bf2ffbb1df402d77b530495be818da346d711080716170",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "ぜんこく から かちぬいてきた\nポケモンが あつ",
+          "sha256": "15581a452cbf20800a8985d5d6cfdfa6ae26b96ead5584adf101185dab771c1c",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 20
+        },
+        {
+          "japanese": "ぜんこく から かちぬいてきた\nポケモンが あつまって いるんだな！",
+          "sha256": "fa1f73ee7adc146068ed8f47c27ab9a16c7f9dd9d1c2797b472ab761947cf860",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 29
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-000165",
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_1686C9",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 166,
+          "sourceChineseSha256": "94a02d8294281a078c5834dca9d67b8943b11cc79e5eea9ed3e6b8f094419009",
+          "span": [
+            0,
+            33
+          ],
+          "quoteSha256": "581e4d3c3e2878c8b4d020773693c5d3abe2da6801e5f23b0c66acfbf1544373"
+        },
+        {
+          "candidateId": "candidate-010721",
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_1686C9",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 166,
+          "sourceChineseSha256": "94a02d8294281a078c5834dca9d67b8943b11cc79e5eea9ed3e6b8f094419009",
+          "span": [
+            0,
+            33
+          ],
+          "quoteSha256": "581e4d3c3e2878c8b4d020773693c5d3abe2da6801e5f23b0c66acfbf1544373"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "contest_pass_reminder",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188E47",
+      "japaneseSha256": "f59302f0d44e92c3b456797b189070ea5a4e7b0408bc91bf82e6cc088a2ce305",
+      "englishSha256": "97ca527d3814853f30cf58eae5243303cd8bad16ba7283c423296ea55c6530a3",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "もらって ないのね！\nシダケタウンで はやく もらっておいでよ！",
+          "sha256": "d57a20e2951a83f20c3c65ce21cd0a6288f0a5a66c6009c3e5ddcf0e16c21706",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 28
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001398",
+          "qid": "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188E47",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1406,
+          "sourceChineseSha256": "5c34577a0a65679347dcc8d68ea664a77a4850dadd1a312afc06634d6f8b1166",
+          "span": [
+            0,
+            40
+          ],
+          "quoteSha256": "d097bb737cbc8c691e0e7d4d6f47d6d685a7aeedc89b799586fab4b29db1fad3"
+        },
+        {
+          "candidateId": "candidate-011986",
+          "qid": "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188E47",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1406,
+          "sourceChineseSha256": "5c34577a0a65679347dcc8d68ea664a77a4850dadd1a312afc06634d6f8b1166",
+          "span": [
+            0,
+            40
+          ],
+          "quoteSha256": "d097bb737cbc8c691e0e7d4d6f47d6d685a7aeedc89b799586fab4b29db1fad3"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "family_pokeblocks",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_18904D",
+      "japaneseSha256": "106443518e749daa09751d0284d7575fc327fca07c60315d3f6c4449e40c4fc9",
+      "englishSha256": "087b25bf33f37a6475dc8d7d3bc7e6891039e113efcb7838d47069cc916d9f01",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "ママと パパと おねえちゃんと\n4にんで ポロックを つくったら",
+          "sha256": "7c01ea2b24d089f2d5a22052791a9b7ce1a469cffd9f95ab84f4cd76cb016dd9",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 27
+        },
+        {
+          "japanese": "4にんで ポロックを つくったら\nすごく いいやつが できたんだ！",
+          "sha256": "1404fe320332cfda69442ab027af22bf8ddd531f67bf403519bfb68b01acd39f",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 28
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001402",
+          "qid": "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_18904D",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1410,
+          "sourceChineseSha256": "0b45182f884e01d277f2ad52d0d0bf99528eb51ebbec51163d5c5c60109d51ae",
+          "span": [
+            0,
+            31
+          ],
+          "quoteSha256": "1c935c30ba28027c6b140c01ceec5145b5fd939d976e2af855e03402694d29ef"
+        },
+        {
+          "candidateId": "candidate-011990",
+          "qid": "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_18904D",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1410,
+          "sourceChineseSha256": "0b45182f884e01d277f2ad52d0d0bf99528eb51ebbec51163d5c5c60109d51ae",
+          "span": [
+            0,
+            31
+          ],
+          "quoteSha256": "1c935c30ba28027c6b140c01ceec5145b5fd939d976e2af855e03402694d29ef"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "perfect_condition",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188FE3",
+      "japaneseSha256": "9a40bdff84c663384e9427f919d58d2b565cbf1ac6e16313e6502c9a2dd4418c",
+      "englishSha256": "065a3e7a1a921780ba62183f7c1fa99a08a166a11eca5fa780cf1dde4f9ce369",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "そだてあげた わしの ポケモン\nコンディションは カンペキ！",
+          "sha256": "90b52e58e48a7c9b1716b15426ae3cd010d2a3cdcfba3232e8a2f8b1b66d7294",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 26
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001401",
+          "qid": "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188FE3",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1409,
+          "sourceChineseSha256": "4fbf38bf5bb3d8cd96b5b27c2f4de8d680436a0537215c18b8487c74ad07cd8f",
+          "span": [
+            0,
+            30
+          ],
+          "quoteSha256": "295dd5e1487ae6af1523ff1ca108ea413637f7e5dd55d496bc6138661e0143cd"
+        },
+        {
+          "candidateId": "candidate-011989",
+          "qid": "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188FE3",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1409,
+          "sourceChineseSha256": "4fbf38bf5bb3d8cd96b5b27c2f4de8d680436a0537215c18b8487c74ad07cd8f",
+          "span": [
+            0,
+            30
+          ],
+          "quoteSha256": "295dd5e1487ae6af1523ff1ca108ea413637f7e5dd55d496bc6138661e0143cd"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "contest_pass_location",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A6340",
+      "japaneseSha256": "e1f33d98cc75b7e45a41ee1d50164742d49b8b4f34edbccf0e56ec29bd12a530",
+      "englishSha256": "719616cf2b6f4132241d28deb9268317046dca7abfeef4af8d83f0ff14b57868",
+      "parts": [
+        {
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "コンテストパスは シダケタウンに ある\nノーマルランクの コンテスト かいじょうで",
+          "sha256": "4249a105d6f79b27d9e89ba4ac3b07bfa6e3280ca5a74ca775d7084643e8a0af",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 36
+        },
+        {
+          "japanese": "ノーマルランクの コンテスト かいじょうで\nどなたでも もらえますよ！",
+          "sha256": "69b9c305cae19d2311a640addf9b0349946b73051871926348ec0871b835be7b",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 31
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-002627",
+          "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A6340",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 2642,
+          "sourceChineseSha256": "6ad0c51c91d187d7de10ed343c6d17c6f7b0b24af3e22d520af06666d31ef5f9",
+          "span": [
+            20,
+            54
+          ],
+          "quoteSha256": "763fff2d76b6fde529e37f1c9d040507129cf05f014697cce16b1210583fb25f"
+        },
+        {
+          "candidateId": "candidate-013264",
+          "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A6340",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 2642,
+          "sourceChineseSha256": "6ad0c51c91d187d7de10ed343c6d17c6f7b0b24af3e22d520af06666d31ef5f9",
+          "span": [
+            20,
+            54
+          ],
+          "quoteSha256": "763fff2d76b6fde529e37f1c9d040507129cf05f014697cce16b1210583fb25f"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "two_contest_victories",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.LilycoveCity_ContestHall.LilycoveCity_ContestHall_Text_1890D4",
+      "japaneseSha256": "ec47d73d7db5cb80ab7d6760eb7d405c6923aaea98b6af629bb2b3647f031737",
+      "englishSha256": "ee01378e40c29610d9fc4903d4c527c3cfc8a5e0e4151c340e29ee1139b54ee5",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 4
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "うつくしさ コンテストで\nゆうしょうした この ポケモンを",
+          "sha256": "b51a6d6497c97b8f74c054fff9e616d2c51fc89c68000b2eea6496d1bf2e502b",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 25
+        },
+        {
+          "japanese": "ゆうしょうした この ポケモンを\nきょうは かしこさ コンテストで",
+          "sha256": "c01f68c341d544aff2f3bf9d7358f86269a5b4c286ad5d7f6878241e899f77eb",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 28
+        },
+        {
+          "japanese": "きょうは かしこさ コンテストで\nゆうしょう させたんだぜ！",
+          "sha256": "215b44cc3b9fe65bd1102d5c9ff92127700d2d92816ca9a4b9d2a9b47c276a46",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 26
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001403",
+          "qid": "rs.script.LilycoveCity_ContestHall.LilycoveCity_ContestHall_Text_1890D4",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1411,
+          "sourceChineseSha256": "cbf70530d64c1c59c0400d95e714ddd18d774a9f0f284533a28f9518dbbf6051",
+          "span": [
+            0,
+            49
+          ],
+          "quoteSha256": "82d078f25b99a6d184b9207660fccf6bce48f02ce683b6d9e4a2b1c426b4bd92"
+        },
+        {
+          "candidateId": "candidate-011991",
+          "qid": "rs.script.LilycoveCity_ContestHall.LilycoveCity_ContestHall_Text_1890D4",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1411,
+          "sourceChineseSha256": "cbf70530d64c1c59c0400d95e714ddd18d774a9f0f284533a28f9518dbbf6051",
+          "span": [
+            0,
+            49
+          ],
+          "quoteSha256": "82d078f25b99a6d184b9207660fccf6bce48f02ce683b6d9e4a2b1c426b4bd92"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "rtc_play_and_events",
+      "type": "boot_dialog",
+      "kind": null,
+      "qid": "rs.common.strings.gBatteryDryMessage",
+      "japaneseSha256": "8a161721ec3a037dae823b4350c18f1b4cfbdd2725ca3082694efcfee35e8877",
+      "englishSha256": "1e78dd50be0914b296f0ceb98a767cb077fbf2c872248badd6b6ef9cfca25461",
+      "parts": [
+        {
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 2
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます",
+          "sha256": "22343a9df30206dfd6a41b514325577d8ea7b67c041cb5a08c4dc8fbd25b9378",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 39
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-009566",
+          "qid": "rs.common.strings.gBatteryDryMessage",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 8787,
+          "sourceChineseSha256": "555f6e54c1a0444985d692cdd377499bd4719619d5cd14811ae03d4463d9d04e",
+          "span": [
+            13,
+            44
+          ],
+          "quoteSha256": "bb14fe3ce01347ff06b8b2da19e092ae8f67caa102131f99c15ae8bd26d0d247"
+        },
+        {
+          "candidateId": "candidate-020204",
+          "qid": "rs.common.strings.gBatteryDryMessage",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 8787,
+          "sourceChineseSha256": "555f6e54c1a0444985d692cdd377499bd4719619d5cd14811ae03d4463d9d04e",
+          "span": [
+            13,
+            44
+          ],
+          "quoteSha256": "bb14fe3ce01347ff06b8b2da19e092ae8f67caa102131f99c15ae8bd26d0d247"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "brother_base_battles",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.MossdeepCity_House4.MossdeepCity_House4_Text_18E125",
+      "japaneseSha256": "90fd204a05e08b93903fb0a5238cbcaa218ba11aefffe6ad2a407ee53ac68361",
+      "englishSha256": "3fac8de75c5b66807316bc12c9ad78edac653086a7d8d86833b66db733f9a094",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 4
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "おとうと ったら\nともだちの ひみつきちに いって",
+          "sha256": "7bc55d7ff4cdb8ddda18b1e891e634a0d9a545fcfde619af75b020771b9fef76",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 21
+        },
+        {
+          "japanese": "ともだちの ひみつきちに いって\nポケモンしょうぶを するのが",
+          "sha256": "dfffd3259196f38e4c7bf974dcbceead38cb9f60d48809a486f6056e61bad3e1",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 27
+        },
+        {
+          "japanese": "ポケモンしょうぶを するのが\nたのしみ なんだって！",
+          "sha256": "595fe7026c51517a5f577f48256dabaffd90247ef247c573c238575ce53d8b23",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 23
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-001604",
+          "qid": "rs.script.MossdeepCity_House4.MossdeepCity_House4_Text_18E125",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 1612,
+          "sourceChineseSha256": "8e622919f24fcabb1442cc5b8aa3932cec00bfd47725dd23a031c15406dcdbec",
+          "span": [
+            0,
+            33
+          ],
+          "quoteSha256": "8e622919f24fcabb1442cc5b8aa3932cec00bfd47725dd23a031c15406dcdbec"
+        },
+        {
+          "candidateId": "candidate-012209",
+          "qid": "rs.script.MossdeepCity_House4.MossdeepCity_House4_Text_18E125",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 1612,
+          "sourceChineseSha256": "8e622919f24fcabb1442cc5b8aa3932cec00bfd47725dd23a031c15406dcdbec",
+          "span": [
+            0,
+            33
+          ],
+          "quoteSha256": "8e622919f24fcabb1442cc5b8aa3932cec00bfd47725dd23a031c15406dcdbec"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "blending_invitation",
+      "type": "field_dialog",
+      "kind": null,
+      "qid": "rs.script.pokeblocks.FallarborTown_ContestLobby_Text_1B7469",
+      "japaneseSha256": "c3926a3db2882a24eb94a9fd94622bf8d128337c618c24dae0ad795b11fcbd89",
+      "englishSha256": "f32b69ff6037d59d40cec921280cde19054b5a21dbf9a4f20c187948d6380817",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 3
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "もし よかったら\nいっしょに きのみブレンダーで",
+          "sha256": "9ffca459ff2c85111fedd12faa114b0f110b4ae0ab6cbd653f25a7b0d4bb2941",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 21
+        },
+        {
+          "japanese": "いっしょに きのみブレンダーで\nポロックを つくろうや",
+          "sha256": "66ba7781a18d30a4987821656836828d8ce322801741f9ba6b2df79076ad93b9",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 24
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-003199",
+          "qid": "rs.script.pokeblocks.FallarborTown_ContestLobby_Text_1B7469",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 3217,
+          "sourceChineseSha256": "541eb0982e9201485ff0de58773b770fdf6117cbb0cd19324589203037bfb0f1",
+          "span": [
+            0,
+            33
+          ],
+          "quoteSha256": "541eb0982e9201485ff0de58773b770fdf6117cbb0cd19324589203037bfb0f1"
+        },
+        {
+          "candidateId": "candidate-013836",
+          "qid": "rs.script.pokeblocks.FallarborTown_ContestLobby_Text_1B7469",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 3217,
+          "sourceChineseSha256": "541eb0982e9201485ff0de58773b770fdf6117cbb0cd19324589203037bfb0f1",
+          "span": [
+            0,
+            33
+          ],
+          "quoteSha256": "541eb0982e9201485ff0de58773b770fdf6117cbb0cd19324589203037bfb0f1"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "personal_title",
+      "type": "summary_personal",
+      "kind": null,
+      "qid": "native.label.personal",
+      "japaneseSha256": "e3ce7ce21af55617a675ed60642f978887151cec34d9232486c4bd7fbc83da2e",
+      "englishSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "パーソナル",
+          "sha256": "e3ce7ce21af55617a675ed60642f978887151cec34d9232486c4bd7fbc83da2e",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 5
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9486",
+          "qid": "native.label.personal",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9486,
+          "sourceChineseSha256": "b94d13a45ea21152fd63e193e3c0e3d6ff168931b471e1f8bfca84b0723dd3c1",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "b94d13a45ea21152fd63e193e3c0e3d6ff168931b471e1f8bfca84b0723dd3c1"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:9486",
+          "qid": "native.label.personal",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9486,
+          "sourceChineseSha256": "b94d13a45ea21152fd63e193e3c0e3d6ff168931b471e1f8bfca84b0723dd3c1",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "b94d13a45ea21152fd63e193e3c0e3d6ff168931b471e1f8bfca84b0723dd3c1"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "native_label_to_original_lexical_span",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "ability_title",
+      "type": "summary_ability",
+      "kind": null,
+      "qid": "native.label.ability",
+      "japaneseSha256": "52ab89eaa3588510b9622fa4416b5efdb24ffe3e75874516a4414eec650c5853",
+      "englishSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "とくせい",
+          "sha256": "52ab89eaa3588510b9622fa4416b5efdb24ffe3e75874516a4414eec650c5853",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 4
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9620",
+          "qid": "native.label.ability",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9620,
+          "sourceChineseSha256": "adcf64ba14be2a0a532fa3296033df172f7e3b0364a381d109b16e745d8428a3",
+          "span": [
+            0,
+            2
+          ],
+          "quoteSha256": "adcf64ba14be2a0a532fa3296033df172f7e3b0364a381d109b16e745d8428a3"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:9620",
+          "qid": "native.label.ability",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9620,
+          "sourceChineseSha256": "adcf64ba14be2a0a532fa3296033df172f7e3b0364a381d109b16e745d8428a3",
+          "span": [
+            0,
+            2
+          ],
+          "quoteSha256": "adcf64ba14be2a0a532fa3296033df172f7e3b0364a381d109b16e745d8428a3"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "native_label_to_original_lexical_span",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "stats_title",
+      "type": "summary_stats",
+      "kind": null,
+      "qid": "native.label.stats",
+      "japaneseSha256": "5499f7145c0af2d138e43295d57e5f4bf28fb611cbec4771b7d1dbceddc12aa5",
+      "englishSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "のうりょく",
+          "sha256": "5499f7145c0af2d138e43295d57e5f4bf28fb611cbec4771b7d1dbceddc12aa5",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 5
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:461",
+          "qid": "native.label.stats",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 461,
+          "sourceChineseSha256": "d60fda7f662a673545a4b1144dc112929593f2993d6fd565fb1df616d24064a9",
+          "span": [
+            13,
+            15
+          ],
+          "quoteSha256": "5c5374dd958bcb79c1fe83a1b7a6c25df36603eec36f15f180a916af2022cee1"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:461",
+          "qid": "native.label.stats",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 461,
+          "sourceChineseSha256": "d60fda7f662a673545a4b1144dc112929593f2993d6fd565fb1df616d24064a9",
+          "span": [
+            13,
+            15
+          ],
+          "quoteSha256": "5c5374dd958bcb79c1fe83a1b7a6c25df36603eec36f15f180a916af2022cee1"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "native_label_to_original_lexical_span",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "experience_title",
+      "type": "summary_experience",
+      "kind": null,
+      "qid": "native.label.experience",
+      "japaneseSha256": "ea6295323462c423e4ea97ab57cc1071c514cb42cd2452d543dc6ec3275f2b26",
+      "englishSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "けいけんち",
+          "sha256": "ea6295323462c423e4ea97ab57cc1071c514cb42cd2452d543dc6ec3275f2b26",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 5
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9067",
+          "qid": "native.label.experience",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9067,
+          "sourceChineseSha256": "3d2343c45d457536c9a3246ed6de5d68f33bd8f87010329df56bb61f65947f71",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "3d2343c45d457536c9a3246ed6de5d68f33bd8f87010329df56bb61f65947f71"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:9067",
+          "qid": "native.label.experience",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9067,
+          "sourceChineseSha256": "3d2343c45d457536c9a3246ed6de5d68f33bd8f87010329df56bb61f65947f71",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "3d2343c45d457536c9a3246ed6de5d68f33bd8f87010329df56bb61f65947f71"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "native_label_to_original_lexical_span",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "nature_grammar",
+      "type": "summary_memo",
+      "kind": null,
+      "qid": "rs.common.strings2.gOtherText_Nature",
+      "japaneseSha256": "d3c0d5abc370686c12056feb0a840c115b69177aacddf86a485c0816ca013d72",
+      "englishSha256": "8c2f16f1d517d8d8a4422fbea70d54a4da68047eb8507d33a4463f9338ff7eb4",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "なせいかく",
+          "sha256": "9b9b8c5990833937eda74e31c9b44c413f63eff963f3ac697183b2601aa8d958",
+          "sourcePresence": "reviewed_layout_grammar",
+          "minimumRecognizedCharacters": 5
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9750",
+          "qid": "rs.common.strings2.gOtherText_Nature",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9750,
+          "sourceChineseSha256": "4739955935a1512e3d44c0ec7ce66b4fee65cfbe1eb4cdf3af51f815dc254256",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "4739955935a1512e3d44c0ec7ce66b4fee65cfbe1eb4cdf3af51f815dc254256"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:9750",
+          "qid": "rs.common.strings2.gOtherText_Nature",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9750,
+          "sourceChineseSha256": "4739955935a1512e3d44c0ec7ce66b4fee65cfbe1eb4cdf3af51f815dc254256",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "4739955935a1512e3d44c0ec7ce66b4fee65cfbe1eb4cdf3af51f815dc254256"
+        }
+      ],
+      "outputMode": "whole_unit",
+      "relationship": "reviewed_original_layout_equivalence",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "battle_type_label",
+      "type": "battle_move_meta",
+      "kind": null,
+      "qid": "rs.common.strings.gOtherText_Type2",
+      "japaneseSha256": "072a585184407c2c691045113940a01f2df2dc06c824744c5a7215f5c027076e",
+      "englishSha256": "c50ea4e3f91a5b8aee58e16c41776ee2d3b6a6249ad124028159ac89f78a89a6",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "わざタイプ/",
+          "sha256": "44c9d755b44cbcd71226e8e0e3687c4e036b3ccc08ea0ff8d9efb589f75dc981",
+          "sourcePresence": "reviewed_layout_grammar",
+          "minimumRecognizedCharacters": 6
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "candidate-009835",
+          "qid": "rs.common.strings.gOtherText_Type2",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9061,
+          "sourceChineseSha256": "90d1e1bb079f15b9a6fe69101a609fc0e3a515f5086156c5ae9821b52658ce12",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "90d1e1bb079f15b9a6fe69101a609fc0e3a515f5086156c5ae9821b52658ce12"
+        },
+        {
+          "candidateId": "candidate-020473",
+          "qid": "rs.common.strings.gOtherText_Type2",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9061,
+          "sourceChineseSha256": "90d1e1bb079f15b9a6fe69101a609fc0e3a515f5086156c5ae9821b52658ce12",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "90d1e1bb079f15b9a6fe69101a609fc0e3a515f5086156c5ae9821b52658ce12"
+        }
+      ],
+      "outputMode": "whole_unit",
+      "relationship": "reviewed_original_layout_equivalence",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "mossdeep_city",
+      "type": "save_summary",
+      "kind": null,
+      "qid": "rs.common.region_map_entries.sMapName_MOSSDEEPNAMEENDCITY",
+      "japaneseSha256": "29be1e95143a6093a1758e57d059c97cf922fd3451e13b3600d077b8030066d4",
+      "englishSha256": "38720d5b94c73cda254283ee132619addb6ea24315806c6ebb95f4f042bc35d5",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "トクサネシティ",
+          "sha256": "29be1e95143a6093a1758e57d059c97cf922fd3451e13b3600d077b8030066d4",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 7
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:202",
+          "qid": "rs.common.region_map_entries.sMapName_MOSSDEEPNAMEENDCITY",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 202,
+          "sourceChineseSha256": "8010ef2043eeb2740e71ccc0c8a1e4c070513af7c3eeeb3ccebe7cb2d81924a4",
+          "span": [
+            3,
+            6
+          ],
+          "quoteSha256": "e9f269ea59ef9694ca056aa650ec9f473651c2b095a5bf08a3029fde71d9d8db"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:202",
+          "qid": "rs.common.region_map_entries.sMapName_MOSSDEEPNAMEENDCITY",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 202,
+          "sourceChineseSha256": "8010ef2043eeb2740e71ccc0c8a1e4c070513af7c3eeeb3ccebe7cb2d81924a4",
+          "span": [
+            3,
+            6
+          ],
+          "quoteSha256": "e9f269ea59ef9694ca056aa650ec9f473651c2b095a5bf08a3029fde71d9d8db"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    },
+    {
+      "id": "lilycove_city",
+      "type": "save_summary",
+      "kind": null,
+      "qid": "rs.common.region_map_entries.sMapName_LILYCOVENAMEENDCITY",
+      "japaneseSha256": "c0475749d395e71b341d18485fe28700da08f80c7086a7c98d70b13c26b6b22c",
+      "englishSha256": "a3b0e03618b021e348d1993ff9c43261e9ebf6e0100c9615efd9120a06d1a53d",
+      "parts": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 1
+        }
+      ],
+      "anchors": [
+        {
+          "japanese": "ミナモシティ",
+          "sha256": "c0475749d395e71b341d18485fe28700da08f80c7086a7c98d70b13c26b6b22c",
+          "sourcePresence": "literal_source_unit_subspan",
+          "minimumRecognizedCharacters": 6
+        }
+      ],
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9181",
+          "qid": "rs.common.region_map_entries.sMapName_LILYCOVENAMEENDCITY",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9181,
+          "sourceChineseSha256": "18eefab142fc215f193b5561eaa6fd4567143f83b5beece8cc3b7a66e53568dd",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "18eefab142fc215f193b5561eaa6fd4567143f83b5beece8cc3b7a66e53568dd"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:9181",
+          "qid": "rs.common.region_map_entries.sMapName_LILYCOVENAMEENDCITY",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9181,
+          "sourceChineseSha256": "18eefab142fc215f193b5561eaa6fd4567143f83b5beece8cc3b7a66e53568dd",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "18eefab142fc215f193b5561eaa6fd4567143f83b5beece8cc3b7a66e53568dd"
+        }
+      ],
+      "outputMode": "search_text",
+      "relationship": "reviewed_semantic_unit_across_print_controls",
+      "reason": "A reviewed identifying source window determines this complete semantic unit. Soft line breaks, scrolling and different Chinese pagination do not create new meanings; the cited original range excludes later independent source units."
+    }
+  ],
+  "cases": [
+    {
+      "decisionId": "W002",
+      "key": "0bb88f067402b7cd3431f280ce07327419fc882f86d2420126142772746e0196",
+      "plan": "gym_combination"
+    },
+    {
+      "decisionId": "W003",
+      "key": "0efff8991f147d96e5a9aa4e67a51e6938febb3daf19cf78d1f5857597410152",
+      "plan": "gym_combination"
+    },
+    {
+      "decisionId": "W072",
+      "key": "de8ad7b43a930971352c6e0c7665a923a5f15f0b76b5312b69af5e9aef97c5a4",
+      "plan": "tm03_effect"
+    },
+    {
+      "decisionId": "W102",
+      "key": "371a984aa8f2f37dafcca4a7d559fe7988ebe653aedf7153e062c2bbc1404349",
+      "plan": "clerk_service"
+    },
+    {
+      "decisionId": "W162",
+      "key": "41206ad255c7ac6c59cf44831749fecdc7c4b3007bee091d55f65293ce61b01a",
+      "plan": "failed_action"
+    },
+    {
+      "decisionId": "W116",
+      "key": "c312b8348cf02f6418db3daad479a5a5aa1b687d28b9e850b3760272c42e4047",
+      "plan": "rare_balls"
+    },
+    {
+      "decisionId": "W117",
+      "key": "fc006629f4e3f47a3a301861abd6a6ea08d8aa40de956ca5e6fc8d5ac903d1d7",
+      "plan": "rare_balls"
+    },
+    {
+      "decisionId": "W125",
+      "key": "34a2f9a18a25a53348ec55cdce31a41508f5031689a1f4856c1b30965bcbb9b4",
+      "plan": "young_traveller"
+    },
+    {
+      "decisionId": "W126",
+      "key": "c033985ee36bc46fb6db813aaa506df8ed848424f3c01e1a38bf4d08d2e13345",
+      "plan": "young_traveller"
+    },
+    {
+      "decisionId": "W127",
+      "key": "6e32d3aab04086835d2005c3d339faa0096d6cfb6c4c3530d162416abc2aa972",
+      "plan": "old_spectator"
+    },
+    {
+      "decisionId": "W128",
+      "key": "409e1f20919d05e6135f33178b5de821e5729637be195cbad2c6c41572e9b76f",
+      "plan": "old_spectator"
+    },
+    {
+      "decisionId": "W140",
+      "key": "265a20174bbe051b05dfdc7c81850a25838bdcf87750eb4ed02a07abe7290514",
+      "plan": "birch_field_research"
+    },
+    {
+      "decisionId": "W141",
+      "key": "22c2195503360b0646c69649fbaf42fb1d43d20a1a4e8dd98c0203e087fb7fe3",
+      "plan": "birch_field_research"
+    },
+    {
+      "decisionId": "W143",
+      "key": "16bf13fb4c010e2312cda0ad79b736344c9a5493a7eafd21fbf62ac726d16d95",
+      "plan": "birch_habitats"
+    },
+    {
+      "decisionId": "W144",
+      "key": "def26af6f345224b6bc94bb66acfd70ba03b13950e1415fe9debae7d6240cd01",
+      "plan": "birch_habitats"
+    },
+    {
+      "decisionId": "W185",
+      "key": "babea30e6ea9284c384fa2c1ff5ce98cdcabdc35684be7182c4296fa8544f1cd",
+      "plan": "cut_and_badge"
+    },
+    {
+      "decisionId": "W186",
+      "key": "e6018f23738dd20f24ef31fec66a262c80f4b1c410d96ca2df98c746a572bfd9",
+      "plan": "cut_and_badge"
+    },
+    {
+      "decisionId": "W188",
+      "key": "c9f5f428bd45642075930a9119b7b7ab8ef8eb3dff5434689605d71add6f8fef",
+      "plan": "father_cleared_land"
+    },
+    {
+      "decisionId": "W189",
+      "key": "b531175ea93605f4959a681320a39742418f38982785f47dd026726a55d2b9db",
+      "plan": "father_cleared_land"
+    },
+    {
+      "decisionId": "W190",
+      "key": "84698a4ddf9418dcca11741cbfce6ba5cccc96e1af974b87bb7f2a5747f819f8",
+      "plan": "father_cleared_land"
+    },
+    {
+      "decisionId": "W192",
+      "key": "6451898d359961de232395e370725d8e5081d7418e8eea256c7b6e1054c32d52",
+      "plan": "school_enrolment"
+    },
+    {
+      "decisionId": "W193",
+      "key": "7de747719e075299f743b6cecc62ab2e1aec754d77bd834c9b51bbca84195bb8",
+      "plan": "school_enrolment"
+    },
+    {
+      "decisionId": "W203",
+      "key": "e34b8027343592c9b935479cb8d17c04e2a7820b67fa9a7524bbb269fa60dd88",
+      "plan": "surf_without_boat"
+    },
+    {
+      "decisionId": "W204",
+      "key": "3b556b18029c89f5854656d45f79b8e12894d7242f293fcf5a0ccdc92e874584",
+      "plan": "surf_without_boat"
+    },
+    {
+      "decisionId": "W208",
+      "key": "66319bece18ce7ef7e6163918c54e73a2414ff14f641e3a48deff0e764feea69",
+      "plan": "hot_spring_goal"
+    },
+    {
+      "decisionId": "W209",
+      "key": "200282751d2cdcabc16a8f9f6778ee43e04b8e0383537bb9f80e342601a0c948",
+      "plan": "hot_spring_goal"
+    },
+    {
+      "decisionId": "W210",
+      "key": "e8d156a6b3001126ba063009fc92fefff3752ffca0e089acab704efd7fe367e2",
+      "plan": "ledge_return"
+    },
+    {
+      "decisionId": "W211",
+      "key": "7568dc5cdb21abb172b110f3130a01b1860dfe4ba84c637e9c5d613530b65b00",
+      "plan": "ledge_return"
+    },
+    {
+      "decisionId": "W212",
+      "key": "ed0491475030b9f182efb75285173a6276d9677ca75e236ee41e3c48cf6f6d82",
+      "plan": "bike_rugged_pass"
+    },
+    {
+      "decisionId": "W213",
+      "key": "19e824bae6a3c63b3d544a87961f95c7e66ade2a596734e53455012c620834bb",
+      "plan": "bike_rugged_pass"
+    },
+    {
+      "decisionId": "W216",
+      "key": "6c7e725d950ce38579dce0db28fae021feafded3d80a82558a7baac00e41eab2",
+      "plan": "pacifidlog_livelihood"
+    },
+    {
+      "decisionId": "W217",
+      "key": "1e436b6b8fee2880986b4406d86ed605e04dd2078c3484ade30cb761823e3181",
+      "plan": "pacifidlog_livelihood"
+    },
+    {
+      "decisionId": "W218",
+      "key": "3a4b9765457f1913ee29f14978361c36e65fb1d0b8d13e238bdd33229a2f9763",
+      "plan": "three_regis"
+    },
+    {
+      "decisionId": "W219",
+      "key": "6f1c129efe7a5371a97547a20fd6982771b4299e80cad42c1e71678729a602f6",
+      "plan": "three_regis"
+    },
+    {
+      "decisionId": "W220",
+      "key": "fc7a91003939ef5c563d99f9bdacaf3ec83509e210a809de5ee3f08da7e4984f",
+      "plan": "three_regis"
+    },
+    {
+      "decisionId": "W225",
+      "key": "f192ed4332828011b311fb353a4590b74d90fd93c0f894cae654a65ff708687b",
+      "plan": "sidney_praise"
+    },
+    {
+      "decisionId": "W226",
+      "key": "c01efa319b309860f81749df93888023744d398ca5321ea89f123955b8afbb26",
+      "plan": "sidney_praise"
+    },
+    {
+      "decisionId": "W227",
+      "key": "2ddf1f15d76bdf6aa2d4ff176ee49fdbaabe27459b793ef1fe578b547459ad69",
+      "plan": "sidney_invitation"
+    },
+    {
+      "decisionId": "W228",
+      "key": "35cb809f5afb2cce79205f4971943842c18d62e4ceccfa1ec25ae7bac793291f",
+      "plan": "sidney_invitation"
+    },
+    {
+      "decisionId": "W265",
+      "key": "30a48165fba16b9f54ca2467ebff984ba0a9eac35147b179397cbea12db581e5",
+      "plan": "sidney_next_room"
+    },
+    {
+      "decisionId": "W266",
+      "key": "d1cc45cac8c3968bd404d6e6597b9007a0ffb0e91d5b41ab7cc6968a42a86108",
+      "plan": "sidney_next_room"
+    },
+    {
+      "decisionId": "W267",
+      "key": "59a70539f689b0b368964c8d6331fe6c200dbebf5e3a82d0433dc3ad785839a6",
+      "plan": "phoebe_training"
+    },
+    {
+      "decisionId": "W268",
+      "key": "7b0be19f165e2fd413146fb5d2b893b0a1f5e6ba1f061dac9d66e13d1d7f65be",
+      "plan": "phoebe_training"
+    },
+    {
+      "decisionId": "W270",
+      "key": "1cdc5de70a9ff3e6c6c0a8606eddfa97944434b31b740728f0e6ef931c01a0c7",
+      "plan": "phoebe_challenge"
+    },
+    {
+      "decisionId": "W271",
+      "key": "748581394cf1d889d8eb6b962593cb5bff366f5345d91e864f05f78df850b9c8",
+      "plan": "phoebe_challenge"
+    },
+    {
+      "decisionId": "W311",
+      "key": "f03fb83dc6b444d93b5ef03fc564b9bf9ff5173c6f9fa75e84650a13209e4306",
+      "plan": "phoebe_bond_and_next_room"
+    },
+    {
+      "decisionId": "W319",
+      "key": "3f746659d2d8f31b1e69a4fa769b4ad15efef4f16fb15976e66ba44f6a96175d",
+      "plan": "contest_winners"
+    },
+    {
+      "decisionId": "W320",
+      "key": "7511ea8ebc3b7e275d55ce6a34f71d9428610f66b018fea2f11f0326acd7c8d1",
+      "plan": "contest_winners"
+    },
+    {
+      "decisionId": "W324",
+      "key": "f68e94122a2280f4c097a0ad736cb53a0520393b3371df1cddec36315a84b750",
+      "plan": "contest_pass_reminder"
+    },
+    {
+      "decisionId": "W328",
+      "key": "02f32abeb48d5241d9f671f15963cbd9802e46a0dfc719bc3a62eca4bf738ee9",
+      "plan": "family_pokeblocks"
+    },
+    {
+      "decisionId": "W329",
+      "key": "85b6c38103ceb3ab2929c702c0a2f6dbf93b986b76681b83a992d5503af810ac",
+      "plan": "family_pokeblocks"
+    },
+    {
+      "decisionId": "W332",
+      "key": "3b8de0856d2cef8df5eca4430bdfc63538db84c747fe3049ee612a4759615208",
+      "plan": "perfect_condition"
+    },
+    {
+      "decisionId": "W368",
+      "key": "4cbb3fbcc2022252ee3af0320d5ee07ea7de7bbb3bfc9301e418762b76b2b550",
+      "plan": "contest_pass_location"
+    },
+    {
+      "decisionId": "W369",
+      "key": "cf4976d146d3a8d72dbdde511beb3eb524a35fc92c87e4b3baf4b3f5cd2bf02e",
+      "plan": "contest_pass_location"
+    },
+    {
+      "decisionId": "W374",
+      "key": "b8af97c276eed83630d280d945ac8373faa0f1f49826ef04fdb00d72e5f12928",
+      "plan": "two_contest_victories"
+    },
+    {
+      "decisionId": "W375",
+      "key": "aa6662a825620f60e63e5bd64988dc15c175eb92a99b8c6826fb92ef0fc5aa36",
+      "plan": "two_contest_victories"
+    },
+    {
+      "decisionId": "W376",
+      "key": "6cd9227aaf5f45cf775c48a2e793b7b82aff8ab3a216eb27c03e517553f93bfb",
+      "plan": "two_contest_victories"
+    },
+    {
+      "decisionId": "W446",
+      "key": "20fe60f1114aed690058471d11d4b3554d6b6c5a31fd00ea4a4f472cb036a155",
+      "plan": "rtc_play_and_events"
+    },
+    {
+      "decisionId": "W451",
+      "key": "5693e93dcdfab1b7f692149564f2d990a381e5695884003b2526b8ade7024df2",
+      "plan": "brother_base_battles"
+    },
+    {
+      "decisionId": "W452",
+      "key": "adbec5da391a3329cca90a693f7b3344faf3ea67a28b654109f3133f155830b2",
+      "plan": "brother_base_battles"
+    },
+    {
+      "decisionId": "W453",
+      "key": "c102c35773319a85efd221cc3bf0c97577f48736e32e22e40945bf61a7ba912d",
+      "plan": "brother_base_battles"
+    },
+    {
+      "decisionId": "W478",
+      "key": "bf1bf72e6ab1403a75c9620c6343050eb80d39dbd3b5759df1bee1475c852320",
+      "plan": "blending_invitation"
+    },
+    {
+      "decisionId": "W479",
+      "key": "a4c6f7c9555833439189e722f6cea15adb5acb76c34a3888b3bd72a8e504aaa2",
+      "plan": "blending_invitation"
+    },
+    {
+      "decisionId": "W379",
+      "key": "6c69e7906d3559e0c4894d6140c67c1415d12a9823d4c92c11a4bb3495f9bc25",
+      "plan": "personal_title"
+    },
+    {
+      "decisionId": "W384",
+      "key": "41ebaa6e81522515b569701072564e3bcedc96250b26321c82b8517de97c31d2",
+      "plan": "ability_title"
+    },
+    {
+      "decisionId": "W396",
+      "key": "6c2bb400f4918375884f551c7d22930115cd5c3f3e2c6ff520666c52e7341fd6",
+      "plan": "stats_title"
+    },
+    {
+      "decisionId": "W403",
+      "key": "2b242b36576150f11de033e962112128ffac6632d095b73086272915b706d56c",
+      "plan": "experience_title"
+    },
+    {
+      "decisionId": "W389",
+      "key": "084c8f86e465b8af053a2199029f94aff6c8e8f310721c18050ef3643e7b57d3",
+      "plan": "nature_grammar"
+    },
+    {
+      "decisionId": "W501",
+      "key": "650d39eb5cf960742f6bda2ff8b2c4d5e4bfaf82869fdd511f3bf25bd29e03fa",
+      "plan": "battle_type_label"
+    },
+    {
+      "decisionId": "W462",
+      "key": "5dde6049a74ef61a7b3ee276e9732e0cbcd9632db57d2c88840f0648cb760328",
+      "plan": "mossdeep_city"
+    },
+    {
+      "decisionId": "W547",
+      "key": "b1b9cf903c1ac69c0f369bf28896c7bb6c2b5b371f4926caafd170c604ee9138",
+      "plan": "lilycove_city"
+    }
+  ]
+}

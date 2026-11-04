@@ -1,0 +1,4853 @@
+{
+  "schemaVersion": 1,
+  "translationPolicy": "rsc-original-only-v1",
+  "method": "non_blind_model_original_template_and_source_scoped_binding_review",
+  "inputs": [
+    {
+      "local": "outputs/battle-source-matching/templates.json",
+      "sha256": "5b90e1b4a8f9fe1b07e870256556ef823f99ab733a24a26e9d5e700ea36e6fc9"
+    },
+    {
+      "local": "outputs/battle-source-matching/build-manifest.json",
+      "sha256": "09fa4a7b6b5d4edf848ac3e20b7bf1bbea0d348d60744538d8b717acebdc2fa7"
+    },
+    {
+      "local": "reports/s6-corpus/japanese-name-evidence.json",
+      "sha256": "91e5e469476559cb8de5a71e29005b103415246e6735c2eb264c8aa36c835d47"
+    },
+    {
+      "local": "reports/battle-source-matching/experience-evidence.json",
+      "sha256": "d392988edd7a61362293bace7f3f96f9eef6bdb2f452f8684f1a1d20ca0390c0"
+    },
+    {
+      "local": "tools/corpus_source.mjs",
+      "sha256": "21c51d4384f39ff5f6a48e849aea1e93a254189f9a2acd052681438c337afa91"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/battle_message.h",
+      "sha256": "260592d39c97cd03e635b7e3910217d615308db3a519bdf5dd5c2733fb81c34c"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_script_commands.c",
+      "sha256": "0a6f58f8e5fc19c40e3546a5bc81f3354fc669376c31435301a8884055c9d77a"
+    }
+  ],
+  "families": [
+    {
+      "id": "rival_help_father",
+      "type": "field_dialog",
+      "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D15",
+      "sourceJapaneseSha256": "e584cb471ce253422ee2af5a2aa4647826b3054bd7fb88cd085f41006d644bd7",
+      "sourceEnglishSha256": "501618871b698561f9623ae6a291f1e77df47fc3f0b413e47b266d50738aa67f",
+      "window": {
+        "page": 1,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[对手]": {
+          "from": "capture",
+          "slot": "RIVAL",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-000611",
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D15",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 614,
+          "sourceChineseSha256": "65e2f09d7f3466838e3435681f2d05f4caa6fe1024bba4945f71a529cf490063",
+          "span": [
+            23,
+            48
+          ],
+          "quoteSha256": "855bceaf401c9f23758c21214a5183cbdb206cbcb8a2b73b79a0cba6755f8cc1"
+        },
+        {
+          "candidateId": "candidate-011174",
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D15",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 614,
+          "sourceChineseSha256": "65e2f09d7f3466838e3435681f2d05f4caa6fe1024bba4945f71a529cf490063",
+          "span": [
+            23,
+            48
+          ],
+          "quoteSha256": "855bceaf401c9f23758c21214a5183cbdb206cbcb8a2b73b79a0cba6755f8cc1"
+        }
+      ],
+      "publicationMode": "complete_identified_semantic_unit_with_all_current_variables",
+      "semanticReview": {
+        "relationship": "reviewed_original_localization_of_same_help_and_affection_unit",
+        "japaneseMeaning": "The rival helps their beloved father.",
+        "localizationDifference": "English/RSC expresses the father enjoying the help, then states their close affection. This difference remains visible in the unchanged original quotation; it is not a new translation or a general permission to ignore subject or actor differences.",
+        "sharedAction": {
+          "helper": "current RIVAL",
+          "recipient": "father",
+          "action": "help"
+        },
+        "chineseRewritten": false
+      },
+      "reason": "The complete Japanese unit and the original English/RSC localization describe the same rival helping their father and familial affection. The localization shifts the subject of liking, but does not change the helper, recipient or action. Preserve this original localized help-and-affection unit, bind only the current visible RIVAL to the original [对手], and exclude the independent habitat-research unit. No Chinese wording is corrected or generated."
+    },
+    {
+      "id": "pc_boot",
+      "type": "field_dialog",
+      "qid": "rs.script.pc.Text_BootUpPC",
+      "sourceJapaneseSha256": "b4ee60e9c242dd2366862fcc2cb38236946528f666dc9838d4d55a9ae34c2d22",
+      "sourceEnglishSha256": "4ba7320b936d550eb0ec7cfc547f636785bcc2c0f29574b0abf2127dd29e4521",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-002416",
+          "qid": "rs.script.pc.Text_BootUpPC",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 2430,
+          "sourceChineseSha256": "1ed2546e4c4fdf4e4ed2b5ebfdf29516602f3ea38bdc297e796f8e4fdb89b2e4",
+          "span": [
+            0,
+            10
+          ],
+          "quoteSha256": "1ed2546e4c4fdf4e4ed2b5ebfdf29516602f3ea38bdc297e796f8e4fdb89b2e4"
+        },
+        {
+          "candidateId": "candidate-013049",
+          "qid": "rs.script.pc.Text_BootUpPC",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 2430,
+          "sourceChineseSha256": "1ed2546e4c4fdf4e4ed2b5ebfdf29516602f3ea38bdc297e796f8e4fdb89b2e4",
+          "span": [
+            0,
+            10
+          ],
+          "quoteSha256": "1ed2546e4c4fdf4e4ed2b5ebfdf29516602f3ea38bdc297e796f8e4fdb89b2e4"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "pc_owner",
+      "type": "pc_connect_menu",
+      "qid": "rs.common.strings.gPCText_PlayersPC",
+      "sourceJapaneseSha256": "be4378532fd884ab4898966111813abdd91cec74b1284f55aeb1e5e2baccdb2f",
+      "sourceEnglishSha256": "69922384527b2d7518f5c0e76ed5eaed4d282dee814cf5f8b28651eb3ffa5669",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-010087",
+          "qid": "rs.common.strings.gPCText_PlayersPC",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9320,
+          "sourceChineseSha256": "ea5e7ab085a9fdf49418e5b3a64a69c598c21df999f9b103af500748f018e09f",
+          "span": [
+            0,
+            7
+          ],
+          "quoteSha256": "ea5e7ab085a9fdf49418e5b3a64a69c598c21df999f9b103af500748f018e09f"
+        },
+        {
+          "candidateId": "candidate-020725",
+          "qid": "rs.common.strings.gPCText_PlayersPC",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9320,
+          "sourceChineseSha256": "ea5e7ab085a9fdf49418e5b3a64a69c598c21df999f9b103af500748f018e09f",
+          "span": [
+            0,
+            7
+          ],
+          "quoteSha256": "ea5e7ab085a9fdf49418e5b3a64a69c598c21df999f9b103af500748f018e09f"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "party_action",
+      "type": "party_short_prompt",
+      "qid": "rs.common.strings.OtherText_DoWhat",
+      "sourceJapaneseSha256": "af7c7fc1a987b2aa0bc77c2c36fe10cff3e45dfd8a75112fbd38f26e1a8ef6c6",
+      "sourceEnglishSha256": "84d8bf1c44dfeed880d5e5ea122512816198394587aa3e7ab6d1445877ce0a56",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[buffer1]": {
+          "from": "capture",
+          "slot": "STR_VAR_1",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009813",
+          "qid": "rs.common.strings.OtherText_DoWhat",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9039,
+          "sourceChineseSha256": "bf92dad824f37b96343ed60e4cf0c4a13c70943391891b12ae4bba9f77d7385b",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "bf92dad824f37b96343ed60e4cf0c4a13c70943391891b12ae4bba9f77d7385b"
+        },
+        {
+          "candidateId": "candidate-020451",
+          "qid": "rs.common.strings.OtherText_DoWhat",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9039,
+          "sourceChineseSha256": "bf92dad824f37b96343ed60e4cf0c4a13c70943391891b12ae4bba9f77d7385b",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "bf92dad824f37b96343ed60e4cf0c4a13c70943391891b12ae4bba9f77d7385b"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "professor_greeting",
+      "type": "field_dialog",
+      "qid": "rs.script.pokedex_rating.gBirchDexRatingText_ComeToShowMePokedex",
+      "sourceJapaneseSha256": "eedc7b0e5723cd0e3d8cd7936135dec585e63af2da3789987d478757c779d7a6",
+      "sourceEnglishSha256": "fdfff2487116a925d2afb501b351f2d0a9bb75d3f2fe9d683f172251a81ffd2c",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        },
+        "[占位符]": {
+          "from": "capture",
+          "slot": "KUN",
+          "category": "honorific"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-004055",
+          "qid": "rs.script.pokedex_rating.gBirchDexRatingText_ComeToShowMePokedex",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 4082,
+          "sourceChineseSha256": "e0ab5a7ee100ee0f45c9636abcb4a0a66222115cd43271fb43297f3933195f3b",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "fa5a02d62d1094c1e1db7c122d94352de712388f3e0b18c511bafec4208ae2bd"
+        },
+        {
+          "candidateId": "candidate-014692",
+          "qid": "rs.script.pokedex_rating.gBirchDexRatingText_ComeToShowMePokedex",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 4082,
+          "sourceChineseSha256": "e0ab5a7ee100ee0f45c9636abcb4a0a66222115cd43271fb43297f3933195f3b",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "fa5a02d62d1094c1e1db7c122d94352de712388f3e0b18c511bafec4208ae2bd"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "wild_encounter",
+      "equivalentWording": {
+        "event": "wild_encounter",
+        "selection": "ruby",
+        "scope": "same_observed_event_no_version_fact",
+        "reason": "Both pinned RSC versions describe the same wild appearance with the same visible actor. For an unknown game select the unchanged existing Ruby wording, retaining both original witnesses; no game identity is inferred."
+      },
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_WildAppeared1",
+      "sourceJapaneseSha256": "a0a197aa9ba3da4bf97292c363064d902c0f2c1d70de522a450d4483cbd2d0c5",
+      "sourceEnglishSha256": "961ce8330647b8ef6827b72d55090126290bfc68b2b2167e145c8c872a60b8ca",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[buffer2]": {
+          "from": "capture",
+          "slot": "B_COPY_VAR_2",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009189",
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7250,
+          "sourceChineseSha256": "d488c8130a4315beca67005d81ed49dedf0bc5aa2b2cb86f53b5f42e2d6654d2",
+          "span": [
+            0,
+            17
+          ],
+          "quoteSha256": "99347c8cc4dde3287c2d7210b346eed554f294a29b2cb65709144b1c3a1a7f2e"
+        },
+        {
+          "candidateId": "candidate-019827",
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7250,
+          "sourceChineseSha256": "3ebe93d3dd902ddb233ca053ef2554858c30275e3997a52e04cfbc1e8e7eb117",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "2a106e48edea5c62ea4e197ae8ecd7a33018ad88a8e481b2740a6181515105dd"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "send_out",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+      "sourceJapaneseSha256": "8ffde354f2468f770ab2a402af3b6304be5aaad1dab55be7c3c95408fe3a53c2",
+      "sourceEnglishSha256": "932c057b77e2babe8fa4a963af05fa8438de8ef0b806c3e15354fdc263b899ec",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[buffer1]": {
+          "from": "capture",
+          "slot": "B_COPY_VAR_1",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009204",
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7265,
+          "sourceChineseSha256": "be691f863641abf444ee1255ee44d160281e4f654864db4982f31f812d73ab44",
+          "span": [
+            0,
+            13
+          ],
+          "quoteSha256": "be691f863641abf444ee1255ee44d160281e4f654864db4982f31f812d73ab44"
+        },
+        {
+          "candidateId": "candidate-019842",
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7265,
+          "sourceChineseSha256": "be691f863641abf444ee1255ee44d160281e4f654864db4982f31f812d73ab44",
+          "span": [
+            0,
+            13
+          ],
+          "quoteSha256": "be691f863641abf444ee1255ee44d160281e4f654864db4982f31f812d73ab44"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "move_use",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+      "sourceJapaneseSha256": "70a3d9f7206bd5cbbda9f0149b06640ac57ac39afe3d60d1770b7f5c7b576880",
+      "sourceEnglishSha256": "93a115e043184e38fb1958fe5a3c5e6d89eef0ec675ebd2e1a99a2217cadad85",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "[玩家]": {
+          "from": "meaning_term",
+          "field": "moveQid",
+          "kind": "move"
+        }
+      },
+      "conditions": {
+        "event": "move_use"
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009226",
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7287,
+          "sourceChineseSha256": "79ff54f67f595e04dcb18e29013c3497d81edc76edf633957d16d75409308ddb",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "79ff54f67f595e04dcb18e29013c3497d81edc76edf633957d16d75409308ddb"
+        },
+        {
+          "candidateId": "candidate-019864",
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7287,
+          "sourceChineseSha256": "79ff54f67f595e04dcb18e29013c3497d81edc76edf633957d16d75409308ddb",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "79ff54f67f595e04dcb18e29013c3497d81edc76edf633957d16d75409308ddb"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "fainted",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+      "sourceJapaneseSha256": "21a8e713a96220ff6768f28f39998b1ff8ac33f9a16ee669acecb38ecfa4e3c2",
+      "sourceEnglishSha256": "02761b7a3fe350f35cf393541578877cdd7168a6c9c394be4882d92f1461ee8c",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008885",
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6944,
+          "sourceChineseSha256": "44d60e16eeaf4151487270aa12610fecbbae7a185c82d21d632a995581e90f28",
+          "span": [
+            0,
+            22
+          ],
+          "quoteSha256": "12c26236e5e7cf6ff6fd311779f8405fe3c44ee2874cb2547046970244558cb4"
+        },
+        {
+          "candidateId": "candidate-019523",
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6944,
+          "sourceChineseSha256": "44d60e16eeaf4151487270aa12610fecbbae7a185c82d21d632a995581e90f28",
+          "span": [
+            0,
+            22
+          ],
+          "quoteSha256": "12c26236e5e7cf6ff6fd311779f8405fe3c44ee2874cb2547046970244558cb4"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "experience_normal",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+      "sourceJapaneseSha256": "ab56af575eeeb44f42bf9e186a4344c7dd97d22244b4b62886de66057193bb13",
+      "sourceEnglishSha256": "1f9db4c6d87677bf41e952451cd8382b5140655d50af48aec538db222ec695bb",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h00": {
+          "from": "capture",
+          "slot": "B_BUFF1.actor",
+          "category": "actor"
+        },
+        "[玩家]": {
+          "from": "normal_experience_empty"
+        },
+        "\\v\\h2A": {
+          "from": "capture",
+          "slot": "B_BUFF2",
+          "category": "number"
+        }
+      },
+      "conditions": {
+        "event": "experience_gain",
+        "boostedWording": false
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008869",
+          "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6927,
+          "sourceChineseSha256": "30506fe3f2fac51158c49fd5cc69a10dc6c62ce970429b818f01d99f4a08aac9",
+          "span": [
+            0,
+            26
+          ],
+          "quoteSha256": "ebeb7192f0ab2afac544f55f8b101505cadd896f6d78e5987187ef6df52fc086"
+        },
+        {
+          "candidateId": "candidate-019507",
+          "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6927,
+          "sourceChineseSha256": "30506fe3f2fac51158c49fd5cc69a10dc6c62ce970429b818f01d99f4a08aac9",
+          "span": [
+            0,
+            26
+          ],
+          "quoteSha256": "ebeb7192f0ab2afac544f55f8b101505cadd896f6d78e5987187ef6df52fc086"
+        }
+      ],
+      "reason": "Native Japanese experience evidence binds the current actor and amount. The pinned English normal experience component is empty; its B_BUFF2 is distinct from the Japanese numeric B_BUFF2. Preserve the original RSC three-slot template and bind its normal modifier to that verified empty component."
+    },
+    {
+      "id": "stat_down",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+      "sourceJapaneseSha256": "a74946d7c59b30f80d84a078a451f6a6b1aa7d06e4f24348028dc8dd9f14f15f",
+      "sourceEnglishSha256": "f39e37d177149f12525143474fa54c924ed404386cd6817e687191eddbc20200",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "\\v\\h00": {
+          "from": "model_component",
+          "index": 0
+        },
+        "[玩家]": {
+          "from": "model_component",
+          "index": 1
+        }
+      },
+      "conditions": {
+        "event": "stat_change",
+        "delta": -1
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009116",
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7177,
+          "sourceChineseSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2"
+        },
+        {
+          "candidateId": "candidate-019754",
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7177,
+          "sourceChineseSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "stat_up",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+      "sourceJapaneseSha256": "a74946d7c59b30f80d84a078a451f6a6b1aa7d06e4f24348028dc8dd9f14f15f",
+      "sourceEnglishSha256": "f39e37d177149f12525143474fa54c924ed404386cd6817e687191eddbc20200",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "\\v\\h00": {
+          "from": "model_component",
+          "index": 0
+        },
+        "[玩家]": {
+          "from": "model_component",
+          "index": 1
+        }
+      },
+      "conditions": {
+        "event": "stat_change",
+        "delta": 1
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009113",
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7174,
+          "sourceChineseSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2"
+        },
+        {
+          "candidateId": "candidate-019751",
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7174,
+          "sourceChineseSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "rain_ability",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_RainMade",
+      "sourceJapaneseSha256": "b106ead862498456727f3df62e3dd5bf0c42b70b35753fc2a9736ceed955f77d",
+      "sourceEnglishSha256": "eb4091774a8a4a1ef19c7af150370c25b8094e1beb43c742c8682a60e291ea1e",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h10": {
+          "from": "capture",
+          "slot": "B_SCR_ACTIVE_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "\\v\\h17": {
+          "from": "lexical_capture",
+          "slot": "B_SCR_ACTIVE_ABILITY",
+          "kind": "ability",
+          "allowedQids": [
+            "rs.common.ability_names.gAbilityNames.2"
+          ]
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009072",
+          "qid": "rs.common.battle_strings.BattleText_RainMade",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7133,
+          "sourceChineseSha256": "c0f77d2b4e3c27ab11f349f77bd18ab6bdef1246bf59ca6aea9c5103caf6c44b",
+          "span": [
+            0,
+            22
+          ],
+          "quoteSha256": "c0f77d2b4e3c27ab11f349f77bd18ab6bdef1246bf59ca6aea9c5103caf6c44b"
+        },
+        {
+          "candidateId": "candidate-019710",
+          "qid": "rs.common.battle_strings.BattleText_RainMade",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7133,
+          "sourceChineseSha256": "c0f77d2b4e3c27ab11f349f77bd18ab6bdef1246bf59ca6aea9c5103caf6c44b",
+          "span": [
+            0,
+            22
+          ],
+          "quoteSha256": "c0f77d2b4e3c27ab11f349f77bd18ab6bdef1246bf59ca6aea9c5103caf6c44b"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "battle_action_prompt",
+      "type": "battle_prompt",
+      "qid": "rs.common.battle_strings.BattleText_OtherMenu",
+      "sourceJapaneseSha256": "5caa080e21fb4f1166e20e1127022461d12b2b223c8f0adfc8e9d9cc8924f7c4",
+      "sourceEnglishSha256": "740c3d93f6077a4ac408a8d685b5518fa5d2d42c44e19e9cdc2dc6d83bbddd93",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "\\v\\h0F": {
+          "from": "capture",
+          "slot": "B_ACTIVE_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009280",
+          "qid": "rs.common.battle_strings.BattleText_OtherMenu",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7342,
+          "sourceChineseSha256": "888b804161c09ab09ae630aef746a8f28820c77cd90b41480dee5b69890ab7bc",
+          "span": [
+            0,
+            14
+          ],
+          "quoteSha256": "888b804161c09ab09ae630aef746a8f28820c77cd90b41480dee5b69890ab7bc"
+        },
+        {
+          "candidateId": "candidate-019918",
+          "qid": "rs.common.battle_strings.BattleText_OtherMenu",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7342,
+          "sourceChineseSha256": "888b804161c09ab09ae630aef746a8f28820c77cd90b41480dee5b69890ab7bc",
+          "span": [
+            0,
+            14
+          ],
+          "quoteSha256": "888b804161c09ab09ae630aef746a8f28820c77cd90b41480dee5b69890ab7bc"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "recall_enough",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_ComeBackSingle1",
+      "sourceJapaneseSha256": "3fd9a126f898f1a4586deb427a137e81e1b399ec7792d8b0d5c9044070ad561e",
+      "sourceEnglishSha256": "4ff0d8e8c1073bdb98783b45eb5dcfeb8baa10692408089993144ae6fa591167",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h00": {
+          "from": "capture",
+          "slot": "B_BUFF1",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009211",
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7272,
+          "sourceChineseSha256": "4bbe9a7cf65e54366d4c44ebfb79043a0dc5401556e4b1e5dcf311c4bcd3808b",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "4bbe9a7cf65e54366d4c44ebfb79043a0dc5401556e4b1e5dcf311c4bcd3808b"
+        },
+        {
+          "candidateId": "candidate-019849",
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7272,
+          "sourceChineseSha256": "4bbe9a7cf65e54366d4c44ebfb79043a0dc5401556e4b1e5dcf311c4bcd3808b",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "4bbe9a7cf65e54366d4c44ebfb79043a0dc5401556e4b1e5dcf311c4bcd3808b"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "trainer_challenge",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+      "sourceJapaneseSha256": "39128ac4eb743852704713ff1c78b625f2d87c98172c7e82df05b30b6873e247",
+      "sourceEnglishSha256": "04eab9b4823e1e152207232b2182239bde03d13324bf9dc41c96c7e80f4e8a86",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h19": {
+          "from": "lexical_capture",
+          "slot": "B_TRAINER1_CLASS",
+          "kind": "trainer_class"
+        },
+        "\\v\\h1A": {
+          "from": "capture",
+          "slot": "B_TRAINER1_NAME",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009193",
+          "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7254,
+          "sourceChineseSha256": "90f5562f471944deae42df3133207ccea17be0a5bb9f9677fbb347bf57c5e5ff",
+          "span": [
+            0,
+            21
+          ],
+          "quoteSha256": "9a53d4b44edc49e6d94abe9bea5df8ec7c2cd52671cdca2ab3d57b06cf8c0e97"
+        },
+        {
+          "candidateId": "candidate-019831",
+          "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7254,
+          "sourceChineseSha256": "90f5562f471944deae42df3133207ccea17be0a5bb9f9677fbb347bf57c5e5ff",
+          "span": [
+            0,
+            21
+          ],
+          "quoteSha256": "9a53d4b44edc49e6d94abe9bea5df8ec7c2cd52671cdca2ab3d57b06cf8c0e97"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "trainer_send_out",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+      "sourceJapaneseSha256": "c005f833b09b823a953361b7c1329fff1e2b060c09eaadefd033f4d689d3a2be",
+      "sourceEnglishSha256": "1f8534047c78049b06b1afec1758495f422ddc61ee5eaad90b88c7a8640ec128",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h19": {
+          "from": "lexical_capture",
+          "slot": "B_TRAINER1_CLASS",
+          "kind": "trainer_class"
+        },
+        "\\v\\h1A": {
+          "from": "capture",
+          "slot": "B_TRAINER1_NAME",
+          "category": "player"
+        },
+        "[buffer2]": {
+          "from": "capture",
+          "slot": "B_COPY_VAR_2",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009196",
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7257,
+          "sourceChineseSha256": "7b34c25446a486488e52ce77597e7f1d5c4f85c3f3dbabb27557f1c543674820",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "7b34c25446a486488e52ce77597e7f1d5c4f85c3f3dbabb27557f1c543674820"
+        },
+        {
+          "candidateId": "candidate-019834",
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7257,
+          "sourceChineseSha256": "7b34c25446a486488e52ce77597e7f1d5c4f85c3f3dbabb27557f1c543674820",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "7b34c25446a486488e52ce77597e7f1d5c4f85c3f3dbabb27557f1c543674820"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "intimidate",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_CutsAttack",
+      "sourceJapaneseSha256": "9782e517f5bb2a57fce1334628cd006a60ab23a0939dcfc485e9d61b245ceb68",
+      "sourceEnglishSha256": "f9951764e1a79ab3fb0554348a3f2863e8551f1a87e1d466859dc976ee67c692",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h10": {
+          "from": "capture",
+          "slot": "B_SCR_ACTIVE_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "\\v\\h17": {
+          "from": "lexical_capture",
+          "slot": "B_SCR_ACTIVE_ABILITY",
+          "kind": "ability",
+          "allowedQids": [
+            "rs.common.ability_names.gAbilityNames.22"
+          ]
+        },
+        "[LegendPokemon2]": {
+          "from": "capture",
+          "slot": "B_DEF_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009085",
+          "qid": "rs.common.battle_strings.BattleText_CutsAttack",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7146,
+          "sourceChineseSha256": "00e053be477136f82f53bed76901758a65a881a4d75b59e829065c4f4641fe8b",
+          "span": [
+            0,
+            38
+          ],
+          "quoteSha256": "00e053be477136f82f53bed76901758a65a881a4d75b59e829065c4f4641fe8b"
+        },
+        {
+          "candidateId": "candidate-019723",
+          "qid": "rs.common.battle_strings.BattleText_CutsAttack",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7146,
+          "sourceChineseSha256": "00e053be477136f82f53bed76901758a65a881a4d75b59e829065c4f4641fe8b",
+          "span": [
+            0,
+            38
+          ],
+          "quoteSha256": "00e053be477136f82f53bed76901758a65a881a4d75b59e829065c4f4641fe8b"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "attack_missed",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+      "sourceJapaneseSha256": "095352bdddb92884ed00fe13f1ee88a9a938f047f0a96a8c88fe7192cfdd29d7",
+      "sourceEnglishSha256": "4439b7df68b13fcb4af7aaee5c7d4304defff3cf9689299265094307e7984c9a",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008879",
+          "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6938,
+          "sourceChineseSha256": "ad4669b5b2d71800f55bcc35c3b9c3384e08b02892038e6850d86f6a8c7279b0",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "ad4669b5b2d71800f55bcc35c3b9c3384e08b02892038e6850d86f6a8c7279b0"
+        },
+        {
+          "candidateId": "candidate-019517",
+          "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6938,
+          "sourceChineseSha256": "ad4669b5b2d71800f55bcc35c3b9c3384e08b02892038e6850d86f6a8c7279b0",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "ad4669b5b2d71800f55bcc35c3b9c3384e08b02892038e6850d86f6a8c7279b0"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "will_switch_intent",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+      "sourceJapaneseSha256": "61c7538e00d9d4363977dbaf9f5a716d7caddede94648a8ccc8d3bdf4a4903d5",
+      "sourceEnglishSha256": "543ca4d6313e3f7c0f0c4d15facb8c13acaba462e955668a31a679d7b6ca6911",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h19": {
+          "from": "lexical_capture",
+          "slot": "B_TRAINER1_CLASS",
+          "kind": "trainer_class"
+        },
+        "\\v\\h1A": {
+          "from": "capture",
+          "slot": "B_TRAINER1_NAME",
+          "category": "player"
+        },
+        "[玩家]": {
+          "from": "capture",
+          "slot": "B_BUFF2",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009178",
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7239,
+          "sourceChineseSha256": "820645b503c72269ccc56547604f357b920f49fb521f1033563b6665405a8c67",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "2a920a1f15c5ca748fabca30e6f3d83b982e286b8b90e9da7d890cd64f9140db"
+        },
+        {
+          "candidateId": "candidate-019816",
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7239,
+          "sourceChineseSha256": "820645b503c72269ccc56547604f357b920f49fb521f1033563b6665405a8c67",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "2a920a1f15c5ca748fabca30e6f3d83b982e286b8b90e9da7d890cd64f9140db"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "will_switch_question",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+      "sourceJapaneseSha256": "61c7538e00d9d4363977dbaf9f5a716d7caddede94648a8ccc8d3bdf4a4903d5",
+      "sourceEnglishSha256": "543ca4d6313e3f7c0f0c4d15facb8c13acaba462e955668a31a679d7b6ca6911",
+      "window": {
+        "page": 1,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h20": {
+          "from": "capture",
+          "slot": "B_PLAYER_NAME",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009178",
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7239,
+          "sourceChineseSha256": "820645b503c72269ccc56547604f357b920f49fb521f1033563b6665405a8c67",
+          "span": [
+            27,
+            43
+          ],
+          "quoteSha256": "bc5004d1a3a1323c526b1f6ba5be79e4b37f1ae003b79090a6249aab46e9cbcd"
+        },
+        {
+          "candidateId": "candidate-019816",
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7239,
+          "sourceChineseSha256": "820645b503c72269ccc56547604f357b920f49fb521f1033563b6665405a8c67",
+          "span": [
+            27,
+            43
+          ],
+          "quoteSha256": "bc5004d1a3a1323c526b1f6ba5be79e4b37f1ae003b79090a6249aab46e9cbcd"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "await_move",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_AwaitMove",
+      "sourceJapaneseSha256": "4c2707e5a3d1a9535b8876437141e7d455d30084520a2a6a0c31b4da4e1766b1",
+      "sourceEnglishSha256": "1bceabb934127b4f68316f8f0cf283bfe0100feb5537afc15b506c417e0abfb9",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009054",
+          "qid": "rs.common.battle_strings.BattleText_AwaitMove",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7115,
+          "sourceChineseSha256": "a790f5f2233062bf28859791a707ce93802ec7c759281bdaa536bf5ad3690365",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "a790f5f2233062bf28859791a707ce93802ec7c759281bdaa536bf5ad3690365"
+        },
+        {
+          "candidateId": "candidate-019692",
+          "qid": "rs.common.battle_strings.BattleText_AwaitMove",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7115,
+          "sourceChineseSha256": "a790f5f2233062bf28859791a707ce93802ec7c759281bdaa536bf5ad3690365",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "a790f5f2233062bf28859791a707ce93802ec7c759281bdaa536bf5ad3690365"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "flinched",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_Flinched",
+      "sourceJapaneseSha256": "3539bd866629db352df891bcd8c817bdfaa8763f3e756e41ec9e87c1d28fc205",
+      "sourceEnglishSha256": "672d36e7334337ada434cb7e36a6dd4bcb95de7df6bd01ef7f86ae5a8f5f62d6",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008933",
+          "qid": "rs.common.battle_strings.BattleText_Flinched",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6993,
+          "sourceChineseSha256": "0b517d7f7a97c7b17c8ea47acde4dcba4acce6225a9b77364fe8d32e4f839819",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "0b517d7f7a97c7b17c8ea47acde4dcba4acce6225a9b77364fe8d32e4f839819"
+        },
+        {
+          "candidateId": "candidate-019571",
+          "qid": "rs.common.battle_strings.BattleText_Flinched",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6993,
+          "sourceChineseSha256": "0b517d7f7a97c7b17c8ea47acde4dcba4acce6225a9b77364fe8d32e4f839819",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "0b517d7f7a97c7b17c8ea47acde4dcba4acce6225a9b77364fe8d32e4f839819"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "won_trainer",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+      "sourceJapaneseSha256": "4c16401cf5213a212ab81441f5d5debedebe35d8b904c47846c57a8d11fca59b",
+      "sourceEnglishSha256": "237c569b6f518c0be58e5753f61dff6193978a4f7bc2cae186d8707a28311dfe",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h19": {
+          "from": "lexical_capture",
+          "slot": "B_TRAINER1_CLASS",
+          "kind": "trainer_class"
+        },
+        "\\v\\h1A": {
+          "from": "capture",
+          "slot": "B_TRAINER1_NAME",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009180",
+          "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7241,
+          "sourceChineseSha256": "812eacdddfd006311adc51644633e3c89f535d26c68ab170f4e28f24e4b35208",
+          "span": [
+            0,
+            19
+          ],
+          "quoteSha256": "b419f370ab1090b01cb805233f64c98c6a9f0e78859e95ebf48f26ebffcd7402"
+        },
+        {
+          "candidateId": "candidate-019818",
+          "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7241,
+          "sourceChineseSha256": "812eacdddfd006311adc51644633e3c89f535d26c68ab170f4e28f24e4b35208",
+          "span": [
+            0,
+            19
+          ],
+          "quoteSha256": "b419f370ab1090b01cb805233f64c98c6a9f0e78859e95ebf48f26ebffcd7402"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "became_confused",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_BecameConfused",
+      "sourceJapaneseSha256": "6bfb19488a362dd1630b2fd1511ebbc0b23165ba06ffd280c7bf490afdc10dca",
+      "sourceEnglishSha256": "87e20486e38a7dff4bdbd878f090d5e4aa677101076465dacdb0a4a5f391afe3",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h0E": {
+          "from": "capture",
+          "slot": "B_EFF_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008926",
+          "qid": "rs.common.battle_strings.BattleText_BecameConfused",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6986,
+          "sourceChineseSha256": "e5b2db7ab9a2a5fd4ca20d2ad398a289d6d38031bda422d4aa81810bf4e7f1f8",
+          "span": [
+            0,
+            12
+          ],
+          "quoteSha256": "e5b2db7ab9a2a5fd4ca20d2ad398a289d6d38031bda422d4aa81810bf4e7f1f8"
+        },
+        {
+          "candidateId": "candidate-019564",
+          "qid": "rs.common.battle_strings.BattleText_BecameConfused",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6986,
+          "sourceChineseSha256": "e5b2db7ab9a2a5fd4ca20d2ad398a289d6d38031bda422d4aa81810bf4e7f1f8",
+          "span": [
+            0,
+            12
+          ],
+          "quoteSha256": "e5b2db7ab9a2a5fd4ca20d2ad398a289d6d38031bda422d4aa81810bf4e7f1f8"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "hp_restored",
+      "type": "party_recovery",
+      "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+      "sourceJapaneseSha256": "0525b7473fe31244a03a7a1ddd26aa0cf44089248312cab5ff00b1f45ef5c5f4",
+      "sourceEnglishSha256": "abceafdfc7bf8337e61551cfadf239695c4872412cacb280ee9a7d41fb2884b5",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[buffer1]": {
+          "from": "capture",
+          "slot": "STR_VAR_1",
+          "category": "actor"
+        },
+        "[buffer2]": {
+          "from": "capture",
+          "slot": "STR_VAR_2",
+          "category": "number"
+        }
+      },
+      "conditions": {
+        "event": "hp_restored"
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009794",
+          "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9020,
+          "sourceChineseSha256": "b568df8cc21bc7f0d77949f68175ba695b2d1737f4a33c13f34958843a5ed2a6",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "0076d5b84f969ab58532c57874409c77b6a9a4b0d2a0fbcbd8c30f0c22ca041e"
+        },
+        {
+          "candidateId": "candidate-020432",
+          "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9020,
+          "sourceChineseSha256": "b568df8cc21bc7f0d77949f68175ba695b2d1737f4a33c13f34958843a5ed2a6",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "0076d5b84f969ab58532c57874409c77b6a9a4b0d2a0fbcbd8c30f0c22ca041e"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "curse_lay",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_CurseLay",
+      "sourceJapaneseSha256": "391d952b4200e7bd0cbecf6a88479c3cb37e517c26725c0149ee471617adf663",
+      "sourceEnglishSha256": "4cd24dddf08cc0ac806f47255fd01308c33140faa4458625a8e6f20e49c12f2f",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "[LegendPokemon2]": {
+          "from": "capture",
+          "slot": "B_DEF_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009009",
+          "qid": "rs.common.battle_strings.BattleText_CurseLay",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7070,
+          "sourceChineseSha256": "b820fcc18a395c17b19628f3da4d52dc317ab326ee464aa5a667244bc7af37c9",
+          "span": [
+            0,
+            51
+          ],
+          "quoteSha256": "b820fcc18a395c17b19628f3da4d52dc317ab326ee464aa5a667244bc7af37c9"
+        },
+        {
+          "candidateId": "candidate-019647",
+          "qid": "rs.common.battle_strings.BattleText_CurseLay",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7070,
+          "sourceChineseSha256": "b820fcc18a395c17b19628f3da4d52dc317ab326ee464aa5a667244bc7af37c9",
+          "span": [
+            0,
+            51
+          ],
+          "quoteSha256": "b820fcc18a395c17b19628f3da4d52dc317ab326ee464aa5a667244bc7af37c9"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "curse_afflicted",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_CurseAfflict",
+      "sourceJapaneseSha256": "28f41f31fd8ba57af0b9ee55f3c34d877c3a38ec04154b02da651670e964aef0",
+      "sourceEnglishSha256": "f4efb73b9252eb1a667f8eaa4f55c1fd8e55a4cd84fde0f8dcc28f5e6a53c7c3",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009010",
+          "qid": "rs.common.battle_strings.BattleText_CurseAfflict",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7071,
+          "sourceChineseSha256": "9b9596c7d526b7dc25ad0dc5ed2a6940ba855a2faaf534aea719f064fd52b52d",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "9b9596c7d526b7dc25ad0dc5ed2a6940ba855a2faaf534aea719f064fd52b52d"
+        },
+        {
+          "candidateId": "candidate-019648",
+          "qid": "rs.common.battle_strings.BattleText_CurseAfflict",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7071,
+          "sourceChineseSha256": "9b9596c7d526b7dc25ad0dc5ed2a6940ba855a2faaf534aea719f064fd52b52d",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "9b9596c7d526b7dc25ad0dc5ed2a6940ba855a2faaf534aea719f064fd52b52d"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "recall_good",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_ComeBackSingle4",
+      "sourceJapaneseSha256": "a7ada3d41d9de5f103d611f59ee2f3688b9963c782bd459cf2d1c27590c85ea4",
+      "sourceEnglishSha256": "fc6477613d127fa1da0c9176c5bb8e3ba4acea92d74ffc67b92a256723a2b277",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h00": {
+          "from": "capture",
+          "slot": "B_BUFF1",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009214",
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle4",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7275,
+          "sourceChineseSha256": "a7d26ba73790c87fa9d7b376f771b48966c21553307917f23e229d87836b005b",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "a7d26ba73790c87fa9d7b376f771b48966c21553307917f23e229d87836b005b"
+        },
+        {
+          "candidateId": "candidate-019852",
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle4",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7275,
+          "sourceChineseSha256": "a7d26ba73790c87fa9d7b376f771b48966c21553307917f23e229d87836b005b",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "a7d26ba73790c87fa9d7b376f771b48966c21553307917f23e229d87836b005b"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "flew_high",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_FlewHigh",
+      "sourceJapaneseSha256": "f362a633e84692ad394a2da43683fb257adb6a2951c750088fd1644a408706d5",
+      "sourceEnglishSha256": "94a7724fba041648ad7257eb6dcc4e13aaf30ab24117c3d5340a9a7beeacab8c",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008949",
+          "qid": "rs.common.battle_strings.BattleText_FlewHigh",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7009,
+          "sourceChineseSha256": "c71871da4206be5eeac769bdf4dcba81c848e9b5968c49c86fb3248ba319c856",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "c71871da4206be5eeac769bdf4dcba81c848e9b5968c49c86fb3248ba319c856"
+        },
+        {
+          "candidateId": "candidate-019587",
+          "qid": "rs.common.battle_strings.BattleText_FlewHigh",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7009,
+          "sourceChineseSha256": "c71871da4206be5eeac769bdf4dcba81c848e9b5968c49c86fb3248ba319c856",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "c71871da4206be5eeac769bdf4dcba81c848e9b5968c49c86fb3248ba319c856"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "frozen",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_Frozen",
+      "sourceJapaneseSha256": "22268c104b95a3ef41e5355e4b0672cea3a68a22900ae3701e32386c82e3d40f",
+      "sourceEnglishSha256": "3d12cfe4f55c5bb20a657e7da3f66d7b3fef0eb92cc030967d77436cebc0fdde",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h0E": {
+          "from": "capture",
+          "slot": "B_EFF_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008908",
+          "qid": "rs.common.battle_strings.BattleText_Frozen",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6968,
+          "sourceChineseSha256": "e24ffe6f37dceee3a2ec2298bf59786929f14f8d339f4ddbdf3a2d28eb176c91",
+          "span": [
+            0,
+            13
+          ],
+          "quoteSha256": "e24ffe6f37dceee3a2ec2298bf59786929f14f8d339f4ddbdf3a2d28eb176c91"
+        },
+        {
+          "candidateId": "candidate-019546",
+          "qid": "rs.common.battle_strings.BattleText_Frozen",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6968,
+          "sourceChineseSha256": "e24ffe6f37dceee3a2ec2298bf59786929f14f8d339f4ddbdf3a2d28eb176c91",
+          "span": [
+            0,
+            13
+          ],
+          "quoteSha256": "e24ffe6f37dceee3a2ec2298bf59786929f14f8d339f4ddbdf3a2d28eb176c91"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "confused",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_Confused",
+      "sourceJapaneseSha256": "c51ecc578c1f012f405e9a27ac8135c0d4b82a58e587483655cee8d72f9789e6",
+      "sourceEnglishSha256": "405d74b061d95f026ca51e20b181cbf1f17e8c06b5d4f5e7ff303344d57aa4c3",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008924",
+          "qid": "rs.common.battle_strings.BattleText_Confused",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6984,
+          "sourceChineseSha256": "546b194a8abf7982f6b03b5f4856fbe34e91532780a710de8ea381a7775dc18a",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "546b194a8abf7982f6b03b5f4856fbe34e91532780a710de8ea381a7775dc18a"
+        },
+        {
+          "candidateId": "candidate-019562",
+          "qid": "rs.common.battle_strings.BattleText_Confused",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6984,
+          "sourceChineseSha256": "546b194a8abf7982f6b03b5f4856fbe34e91532780a710de8ea381a7775dc18a",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "546b194a8abf7982f6b03b5f4856fbe34e91532780a710de8ea381a7775dc18a"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "hp_full",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_HPFull",
+      "sourceJapaneseSha256": "a4456b7f606b8ccbd6d1396d0381660e3fcf613f1c426021dc44b47d7d385633",
+      "sourceEnglishSha256": "79c099905d4160fa8dda3d7f9eef16528615ce0e3df02797cad04aac9899b508",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon2]": {
+          "from": "capture",
+          "slot": "B_DEF_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008935",
+          "qid": "rs.common.battle_strings.BattleText_HPFull",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6995,
+          "sourceChineseSha256": "e74753a75dd923e70f773525a1e8627c2f9a544b54bc273aed0cec3df92d1036",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "e74753a75dd923e70f773525a1e8627c2f9a544b54bc273aed0cec3df92d1036"
+        },
+        {
+          "candidateId": "candidate-019573",
+          "qid": "rs.common.battle_strings.BattleText_HPFull",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6995,
+          "sourceChineseSha256": "e74753a75dd923e70f773525a1e8627c2f9a544b54bc273aed0cec3df92d1036",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "e74753a75dd923e70f773525a1e8627c2f9a544b54bc273aed0cec3df92d1036"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "confusion_ended",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_ConfusionSnapOut",
+      "sourceJapaneseSha256": "ae398824ec1a32e0de9a2e40bd043a61c82fb62550e8dad13e5e2bb08f53d995",
+      "sourceEnglishSha256": "3d373f225d6cea796e5eb72e035704556cc492da8f4555bd082d52f095973410",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008925",
+          "qid": "rs.common.battle_strings.BattleText_ConfusionSnapOut",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6985,
+          "sourceChineseSha256": "56334bcf5b0c09937c50001f638840510e20815431becf42a3874872c59706b7",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "56334bcf5b0c09937c50001f638840510e20815431becf42a3874872c59706b7"
+        },
+        {
+          "candidateId": "candidate-019563",
+          "qid": "rs.common.battle_strings.BattleText_ConfusionSnapOut",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6985,
+          "sourceChineseSha256": "56334bcf5b0c09937c50001f638840510e20815431becf42a3874872c59706b7",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "56334bcf5b0c09937c50001f638840510e20815431becf42a3874872c59706b7"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "player_house",
+      "type": "field_dialog",
+      "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AEA1",
+      "sourceJapaneseSha256": "8184b77a60dffd24a7e1a7bee80692d3a6ee3b521ea8c9a46e4b363a46c1b0cd",
+      "sourceEnglishSha256": "36249912c999ca5de278226d1ee588f59410c0be88d64334ca1ffd206d6b6226",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-000253",
+          "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AEA1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 255,
+          "sourceChineseSha256": "ac52e4e9ff5d76ec8a88c5b2efdedfb551668241359c448acd599a72b00e2954",
+          "span": [
+            0,
+            6
+          ],
+          "quoteSha256": "ac52e4e9ff5d76ec8a88c5b2efdedfb551668241359c448acd599a72b00e2954"
+        },
+        {
+          "candidateId": "candidate-010813",
+          "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AEA1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 255,
+          "sourceChineseSha256": "ac52e4e9ff5d76ec8a88c5b2efdedfb551668241359c448acd599a72b00e2954",
+          "span": [
+            0,
+            6
+          ],
+          "quoteSha256": "ac52e4e9ff5d76ec8a88c5b2efdedfb551668241359c448acd599a72b00e2954"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "item_use",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_Used1",
+      "sourceJapaneseSha256": "afdc8f9957421d45a89995738b0447d8f3fffff002b631b844e4360d3c6cd624",
+      "sourceEnglishSha256": "b6e22b1664b01ccf3c1b5c87a09776977de45e561284d219c0980721f60ff268",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h20": {
+          "from": "capture",
+          "slot": "B_PLAYER_NAME",
+          "category": "player"
+        },
+        "\\v\\h13": {
+          "from": "lexical_capture",
+          "slot": "B_LAST_ITEM",
+          "kind": "item"
+        }
+      },
+      "conditions": {
+        "event": "item_use"
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009240",
+          "qid": "rs.common.battle_strings.BattleText_Used1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7301,
+          "sourceChineseSha256": "3033b398b2c718154a1a75e1d00e1ae1c7d91c32347696bd25c36a7996a818fa",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "3033b398b2c718154a1a75e1d00e1ae1c7d91c32347696bd25c36a7996a818fa"
+        },
+        {
+          "candidateId": "candidate-019878",
+          "qid": "rs.common.battle_strings.BattleText_Used1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7301,
+          "sourceChineseSha256": "3033b398b2c718154a1a75e1d00e1ae1c7d91c32347696bd25c36a7996a818fa",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "3033b398b2c718154a1a75e1d00e1ae1c7d91c32347696bd25c36a7996a818fa"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "caught",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_BallCaught1",
+      "sourceJapaneseSha256": "247cb3ababedbc53f3b1b077715cb974b0aaa78da4c66914f8a0498691891a81",
+      "sourceEnglishSha256": "ed7c20e64b650c6827948daf16104a4d2755c7bcabd5b5e9a86fce995676291e",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[buffer2]": {
+          "from": "capture",
+          "slot": "B_COPY_VAR_2",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009251",
+          "qid": "rs.common.battle_strings.BattleText_BallCaught1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7312,
+          "sourceChineseSha256": "ef8ff04a7a93ae40e2aeb87b60d273287a64bbddff5a558ffef2533c38280606",
+          "span": [
+            0,
+            20
+          ],
+          "quoteSha256": "fcd8dfb9937c666a605de3f43314aaef54638722cdbf0987c377269ab556560a"
+        },
+        {
+          "candidateId": "candidate-019889",
+          "qid": "rs.common.battle_strings.BattleText_BallCaught1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7312,
+          "sourceChineseSha256": "ef8ff04a7a93ae40e2aeb87b60d273287a64bbddff5a558ffef2533c38280606",
+          "span": [
+            0,
+            20
+          ],
+          "quoteSha256": "fcd8dfb9937c666a605de3f43314aaef54638722cdbf0987c377269ab556560a"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "discard_block",
+      "type": "field_dialog",
+      "qid": "rs.common.strings.gContestStatsText_ThrowAwayPrompt",
+      "sourceJapaneseSha256": "f667b57cfdf06099ced4abf19ad97fe16975e07bb69505a0a446b7ec2651cd36",
+      "sourceEnglishSha256": "dfad9787bbc35ab305e85856c5530ea4a06947a19504da790baa180e7f45e030",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[buffer1]": {
+          "from": "capture",
+          "slot": "STR_VAR_1",
+          "category": "display_term"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009729",
+          "qid": "rs.common.strings.gContestStatsText_ThrowAwayPrompt",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 8949,
+          "sourceChineseSha256": "e52e05f30ba97c3cb43fc02b07b42d92cb134e334ef63461fa677af3fe175656",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "e52e05f30ba97c3cb43fc02b07b42d92cb134e334ef63461fa677af3fe175656"
+        },
+        {
+          "candidateId": "candidate-020367",
+          "qid": "rs.common.strings.gContestStatsText_ThrowAwayPrompt",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 8949,
+          "sourceChineseSha256": "e52e05f30ba97c3cb43fc02b07b42d92cb134e334ef63461fa677af3fe175656",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "e52e05f30ba97c3cb43fc02b07b42d92cb134e334ef63461fa677af3fe175656"
+        }
+      ],
+      "reason": "Compared the complete currently visible Japanese event, each source-scoped slot role, and the unchanged original RSC template. Values come from this input only; names do not establish global identities."
+    },
+    {
+      "id": "dads_advice",
+      "type": "field_dialog",
+      "qid": "rs.common.strings.gOtherText_DadsAdvice",
+      "sourceJapaneseSha256": "72227ffad257068f743529ef8089b34abc35a598c5dffa7582f2458923b857fe",
+      "sourceEnglishSha256": "172d16c9e718be5cb2f5d68c022d74bd34f910c43c60dd100b924b25d1573446",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "windows": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2
+        },
+        {
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 2
+        }
+      ],
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009686",
+          "qid": "rs.common.strings.gOtherText_DadsAdvice",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 8905,
+          "sourceChineseSha256": "4790bcaa30bd30c9759ca8693baead12e4ee98a1f46f0b9b9bfa88f3e23bf1f1",
+          "span": [
+            0,
+            30
+          ],
+          "quoteSha256": "c6fe891c06a18f022d26f38dee50c0adc6edb4863fc75c26a858065838245401"
+        },
+        {
+          "candidateId": "candidate-020324",
+          "qid": "rs.common.strings.gOtherText_DadsAdvice",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 8905,
+          "sourceChineseSha256": "4790bcaa30bd30c9759ca8693baead12e4ee98a1f46f0b9b9bfa88f3e23bf1f1",
+          "span": [
+            0,
+            30
+          ],
+          "quoteSha256": "c6fe891c06a18f022d26f38dee50c0adc6edb4863fc75c26a858065838245401"
+        }
+      ],
+      "publicationMode": "complete_identified_semantic_unit_with_all_current_variables",
+      "reason": "The overlapping windows identify the same single advice unit. The current player-name capture is present in both; RSC original advice is completed without waiting for the scrolled final predicate, and without adding any new Chinese format."
+    },
+    {
+      "id": "mother_worries",
+      "type": "field_dialog",
+      "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+      "sourceJapaneseSha256": "311a656cb8e174a70323004001c641ceb96cc4cd1b2535c92cd72c7e240c5073",
+      "sourceEnglishSha256": "4a6391999649ee0f4ba619fab04bf7b6ede20c30eecf11e8b843d796b2e9db8d",
+      "window": {
+        "page": 2,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "windows": [
+        {
+          "page": 2,
+          "lineStart": 0,
+          "lineCount": 2
+        },
+        {
+          "page": 2,
+          "lineStart": 1,
+          "lineCount": 2
+        }
+      ],
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        },
+        "[占位符]": {
+          "from": "capture",
+          "slot": "KUN",
+          "category": "honorific"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-000598",
+          "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 601,
+          "sourceChineseSha256": "95735b7a28d6419b51fe18016a999e1b8816be748d9f7a25b45a1e2d575c416b",
+          "span": [
+            49,
+            84
+          ],
+          "quoteSha256": "9fbff48ee9ec6fe4ccd4e9e4a57171aac469aa324ff27351a5e1d7c2ee39aee4"
+        },
+        {
+          "candidateId": "candidate-011161",
+          "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 601,
+          "sourceChineseSha256": "95735b7a28d6419b51fe18016a999e1b8816be748d9f7a25b45a1e2d575c416b",
+          "span": [
+            49,
+            84
+          ],
+          "quoteSha256": "9fbff48ee9ec6fe4ccd4e9e4a57171aac469aa324ff27351a5e1d7c2ee39aee4"
+        }
+      ],
+      "publicationMode": "complete_identified_semantic_unit_with_all_current_variables",
+      "reason": "Both rolling windows identify the same mother-worry semantic unit and expose the complete current name/honorific. The original nonliteral RSC wording expresses this unit; preceding travel and return-home instructions are excluded."
+    },
+    {
+      "id": "contest_registration",
+      "type": "field_dialog",
+      "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A5DFC",
+      "sourceJapaneseSha256": "b18af870e3baa2b9a9b5db7d24a9fd2f254e6aedb08469f3dd3895337b32a95b",
+      "sourceEnglishSha256": "d5328459b0e0a37373ee498530f4d733afb4cd36cd8088d37ed68323f1236b40",
+      "window": {
+        "page": 0,
+        "lineStart": 1,
+        "lineCount": 2
+      },
+      "windows": [
+        {
+          "page": 0,
+          "lineStart": 1,
+          "lineCount": 2
+        },
+        {
+          "page": 0,
+          "lineStart": 2,
+          "lineCount": 2
+        }
+      ],
+      "bindings": {
+        "[buffer1]": {
+          "from": "lexical_capture",
+          "slot": "STR_VAR_1",
+          "kind": "contest_rank"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-002620",
+          "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A5DFC",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 2635,
+          "sourceChineseSha256": "4b5685458ad0d99bf57c4ce5c8db34984f8c88ad77eef5f64632b7adf29ab3f0",
+          "span": [
+            3,
+            37
+          ],
+          "quoteSha256": "661f21b08e66257c59424eb0a9f7264486a4beaf083e89c0513fa80537188609"
+        },
+        {
+          "candidateId": "candidate-013256",
+          "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A5DFC",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 2635,
+          "sourceChineseSha256": "4b5685458ad0d99bf57c4ce5c8db34984f8c88ad77eef5f64632b7adf29ab3f0",
+          "span": [
+            3,
+            37
+          ],
+          "quoteSha256": "661f21b08e66257c59424eb0a9f7264486a4beaf083e89c0513fa80537188609"
+        }
+      ],
+      "publicationMode": "complete_identified_semantic_unit_with_all_current_variables",
+      "reason": "The current visible rank is bound to its original RSC complete rank word. Rolling line boundaries do not postpone the same registration unit; the earlier independent greeting is outside the selected quotation."
+    },
+    {
+      "id": "winning_prize",
+      "type": "battle_message",
+      "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+      "sourceJapaneseSha256": "d8df2d8014ba665c26b94587a2f822db17a95b8a87a35d970d2318523ef28cd5",
+      "sourceEnglishSha256": "0522e0566abae6e97eb6ca7e0e0d2bd8a8cd9067023b5ff2978c0c6e16ac7c1c",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "windows": [
+        {
+          "page": 0,
+          "lineStart": 0,
+          "lineCount": 2
+        }
+      ],
+      "bindings": {
+        "\\v\\h20": {
+          "from": "capture",
+          "slot": "B_PLAYER_NAME",
+          "category": "player"
+        },
+        "\\v\\h00": {
+          "from": "capture",
+          "slot": "B_BUFF1",
+          "category": "number"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:6946",
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6946,
+          "sourceChineseSha256": "aece25d7441f97ea1609cf2576c7e57bba8fc6cdb20e5504d37bca05e2cfac57",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "b331536902ab0adddc6826ccfd8e334eba7467150dbf547acac830f0e5758559",
+          "origin": "reviewed_original_entry",
+          "sourceSymbol": "BattleText_WinningPrize"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:6946",
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6946,
+          "sourceChineseSha256": "aece25d7441f97ea1609cf2576c7e57bba8fc6cdb20e5504d37bca05e2cfac57",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "b331536902ab0adddc6826ccfd8e334eba7467150dbf547acac830f0e5758559",
+          "origin": "reviewed_original_entry",
+          "sourceSymbol": "BattleText_WinningPrize"
+        }
+      ],
+      "publicationMode": "complete_identified_semantic_unit_with_all_current_variables",
+      "reason": "The original RSC WinningPrize record is present at entry 6946 even though the address/English bridge has no candidate row. Its original money-symbol convention and punctuation are retained, while the current player name and displayed digits fill its existing slots."
+    },
+    {
+      "id": "team_departure",
+      "type": "field_dialog",
+      "qid": "rs.script.LilycoveCity.LilycoveCity_Text_168934",
+      "sourceJapaneseSha256": "8f0b224bf10e2228565f23ad3fde49d3050f69c1668920b7891cf30063017125",
+      "sourceEnglishSha256": "bd4364c4bbe95b7631fa9c28eff5fd953b1f411dfbaccce786cd59120d46620c",
+      "window": {
+        "page": 1,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "windows": [
+        {
+          "page": 1,
+          "lineStart": 0,
+          "lineCount": 2
+        }
+      ],
+      "bindings": {
+        "[Team1]": {
+          "from": "lexical_capture",
+          "slot": "EVIL_TEAM",
+          "kind": "team"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-000170",
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_168934",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 171,
+          "sourceChineseSha256": "f772abd2620730197106669f8ff68acef6a97a736c8f754a457d5abe17e25e39",
+          "span": [
+            7,
+            26
+          ],
+          "quoteSha256": "195e636ca6b5e64aea6005e0efecb6028f66056626e6f1e00e88b579087c4ac5"
+        },
+        {
+          "candidateId": "candidate-010726",
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_168934",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 171,
+          "sourceChineseSha256": "f772abd2620730197106669f8ff68acef6a97a736c8f754a457d5abe17e25e39",
+          "span": [
+            7,
+            26
+          ],
+          "quoteSha256": "195e636ca6b5e64aea6005e0efecb6028f66056626e6f1e00e88b579087c4ac5"
+        }
+      ],
+      "publicationMode": "complete_identified_semantic_unit_with_all_current_variables",
+      "reason": "The visible Aqua/Magma stem determines the original RSC organization term directly. Bind only the organization actually shown, from the same game source dictionary, without inferring a version or publishing the next Wailmer/boat paragraph."
+    }
+  ],
+  "cases": [
+    {
+      "decisionId": "W145",
+      "key": "0193b06996a763249fd2b920440a3d21ba3ca5e4e4cc69ea9e665860fcb330cf",
+      "family": "rival_help_father",
+      "sourceMatch": {
+        "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D15",
+        "page": 1,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[对手]": {
+          "raw": "ユウキ",
+          "sourceSlot": "RIVAL",
+          "start": 0,
+          "end": 3,
+          "category": "player"
+        }
+      }
+    },
+    {
+      "decisionId": "W012",
+      "key": "cbdbb1b3336f0ee321d7e7e00e3055c84061b17ea8f6b02c07a7dd7d78f91b58",
+      "family": "pc_boot",
+      "sourceMatch": {
+        "qid": "rs.script.pc.Text_BootUpPC",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[玩家]": {
+          "raw": "ハルカ",
+          "sourceSlot": "PLAYER",
+          "start": 0,
+          "end": 3,
+          "category": "player"
+        }
+      }
+    },
+    {
+      "decisionId": "W015",
+      "key": "04c90ece5590e98da971c5e07177b091b248c377795cb2bb4095a47058ad6de9",
+      "family": "pc_owner",
+      "sourceMatch": {
+        "qid": "rs.common.strings.gPCText_PlayersPC",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[玩家]": {
+          "raw": "ハルカ",
+          "sourceSlot": "PLAYER",
+          "start": 0,
+          "end": 3,
+          "category": "player"
+        }
+      }
+    },
+    {
+      "decisionId": "W130",
+      "key": "ad5ec3ae9cef235435cda6d9f6dbfc13fe77ff5b2c71bb2bdfe783d02139402d",
+      "family": "party_action",
+      "sourceMatch": {
+        "qid": "rs.common.strings.OtherText_DoWhat",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "raw": "レックウザ",
+          "sourceSlot": "STR_VAR_1",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W175",
+      "key": "a496e6381ed4c83aa82510712c46a7b068bd12e8fbf5f295bfeca7f00ae26fb7",
+      "family": "party_action",
+      "sourceMatch": {
+        "qid": "rs.common.strings.OtherText_DoWhat",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "raw": "ボスゴドラ",
+          "sourceSlot": "STR_VAR_1",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W146",
+      "key": "caadcb33225bd6a896f09f030f67c58fd74b6a9191ca6dd2168271247a202beb",
+      "family": "professor_greeting",
+      "sourceMatch": {
+        "qid": "rs.script.pokedex_rating.gBirchDexRatingText_ComeToShowMePokedex",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[玩家]": {
+          "raw": "ハルカ",
+          "sourceSlot": "PLAYER",
+          "start": 8,
+          "end": 11,
+          "category": "player"
+        },
+        "[占位符]": {
+          "raw": "ちゃん",
+          "sourceSlot": "KUN",
+          "start": 11,
+          "end": 14,
+          "category": "honorific"
+        }
+      }
+    },
+    {
+      "decisionId": "W154",
+      "key": "4ee01bd011c13a8353596acfe7d214ef6765e3a99d04658bd79eb03d366fae46",
+      "family": "wild_encounter",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_WildAppeared1",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[buffer2]": {
+          "raw": "ケムッソ",
+          "sourceSlot": "B_COPY_VAR_2",
+          "start": 8,
+          "end": 12,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W155",
+      "key": "a13fdeff02db58b45c0bd903e8dfde4786598fd1b562de79262647b01f5c01bd",
+      "family": "send_out",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "raw": "ラグラージ",
+          "sourceSlot": "B_COPY_VAR_1",
+          "start": 5,
+          "end": 10,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W180",
+      "key": "3d83924fffd9d3d98c9b3f5fb04b20497b8c7b7c1f96d820706fc9483bbc55c9",
+      "family": "send_out",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "raw": "ボスゴドラ",
+          "sourceSlot": "B_COPY_VAR_1",
+          "start": 5,
+          "end": 10,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W231",
+      "key": "d76086fbf7d353ba9f836f0c9ff1479636796bcc2986b347e222b0d9be11665c",
+      "family": "send_out",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_COPY_VAR_1",
+          "start": 5,
+          "end": 10,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W288",
+      "key": "b3eae354eef37f9d99cfb24d0cbae425e9066fccf00deafc62f7467cee534a17",
+      "family": "send_out",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_COPY_VAR_1",
+          "start": 5,
+          "end": 10,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W156",
+      "key": "cf2ae30d60a0ae1fbaac1de2ec0c860678485cf38013c46e0075c8d33aa8f4ea",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "ラグラージ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.341",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W160",
+      "key": "8c7ff0612ba44504a21f862c5e6ed2baf06a26c897550a5c3f1957c6f0b6f492",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "やせいの ケムッソ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 9,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.81",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W163",
+      "key": "9f6e978493311cba75f9efece21a7b41872ddae8f2758fc407806d04b680e573",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "へラクロス",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.280",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W165",
+      "key": "03ea09c0ff7b5122537dad9ea2d17bb23ae57074ac07b6821d3745d97f45e108",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.347",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W235",
+      "key": "8adabe7c1baa6f7744279e12f0fdf540113a7b3d9c941ba0dc8195f2a9464146",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての グラエナ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 9,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.28",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W237",
+      "key": "827105edf20eec893720cb9c257d2e43b47401ae2cc1898c65bd07036804a9db",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.57",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W242",
+      "key": "b3d575ae33976664a3b8a15e39252928d88084b9615969427c37d4135db3d768",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.58",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W255",
+      "key": "6fc9de5bfa23aac277a23f62d84e03c90987ff26791178c2cd011cd76130e99a",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての ダーテング",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.252",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W258",
+      "key": "a4b572c90b79f31fb43b8a71ede38f2fbb8bc74c298bdb05a7bba85d651bcf46",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての ダーテング",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.104",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W273",
+      "key": "1a1b6e2d04f60ce4f172dc1bcd17ebcff2d4789cf594d49581280f82b51438a6",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての サマヨール",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.109",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W276",
+      "key": "8b6d6f3e490f48cd05928928eb8a79ede0fb0c64b3909309bc734429753e6493",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての サマヨール",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.325",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W277",
+      "key": "3c323941ea5653d0c8850ee1a4a7fcd827b7c526da401d554b43d4135aa18952",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての サマヨール",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.174",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W291",
+      "key": "371e1b30a494457652211b410c40e668970b9e0cef3497c29f20f592bcac990b",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.19",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W294",
+      "key": "34baaa4f701737e613baf8d19a672acde93ee05c9712b5df947b1e51fcc4b8c4",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての サマヨール",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.58",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W300",
+      "key": "b511d078b7f6d3f1f2f33bd3072c422291cb1602e62e7b808cbcd277078587b9",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.156",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W303",
+      "key": "c7ebe0ab4c72d052354087412c0e0a87b58811338c4c34663b092df9803981e2",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.200",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W316",
+      "key": "75fad9ba359c453bd37bbde6f7d69b7bbb1c531f6ebe9c5eb11be907d5f0f372",
+      "family": "move_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "やせいの ジグザグマ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "qid": "rs.common.move_names.gMoveNames.45",
+          "kind": "move"
+        }
+      }
+    },
+    {
+      "decisionId": "W158",
+      "key": "fe7dc3b1fd0598796867d36c5e57347a49fa3d685540eceff40b8c96c5709804",
+      "family": "fainted",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "やせいの ケムッソ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 9,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W238",
+      "key": "821597e91c59a993a03abf890e6e54e54f6b52abeee8e91011d4472cd903dc0b",
+      "family": "fainted",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての グラエナ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 9,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W244",
+      "key": "b2c8c72c2d34de562c31143e1d003e2677b1fa2d4ac4d7892dda20cc3b764d51",
+      "family": "fainted",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての ノクタス",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 9,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W247",
+      "key": "3d7fcffc837efdb11a2ef3183598c1cae86bbf16fafcd18acefabdf74b387487",
+      "family": "fainted",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての サメハダー",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W252",
+      "key": "f8dd5f917dd5bf8d3da3e2d5a0ba1415df41894ef8bb380a623be677e6f47458",
+      "family": "fainted",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての アブソル",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 9,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W260",
+      "key": "97c7c550584c0235430b1ea2fc8e49965964485fb79ac6438e5f42ed0be28cc1",
+      "family": "fainted",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての ダーテング",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W280",
+      "key": "d5e5bba8fbca9bd6cf0ba94bea85778d4b5d5c30b436c8c34a32aa918ba931e1",
+      "family": "fainted",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての サマヨール",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W283",
+      "key": "a5f5d3fe5fb6ccf045a46234104a17740b2d5e816ac45a61102bb966c51ba7b0",
+      "family": "fainted",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての ジュペッタ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W159",
+      "key": "7148ed3ceede4c9f5610d11cb80ea9861ecc3720c051669844931d86268a5e25",
+      "family": "experience_normal",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h00": {
+          "raw": "ラグラージ",
+          "sourceSlot": "B_BUFF1.actor",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "empty": true,
+          "evidenceQid": "rs.common.battle_strings.BattleText_Terminator"
+        },
+        "\\v\\h2A": {
+          "raw": "15",
+          "sourceSlot": "B_BUFF2",
+          "start": 7,
+          "end": 9,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W239",
+      "key": "30e86295340cf3e8b9f5f5cef3bb1dbbb6f13339fd30eec3779fcfb3616c9c65",
+      "family": "experience_normal",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h00": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_BUFF1.actor",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "empty": true,
+          "evidenceQid": "rs.common.battle_strings.BattleText_Terminator"
+        },
+        "\\v\\h2A": {
+          "raw": "1261",
+          "sourceSlot": "B_BUFF2",
+          "start": 7,
+          "end": 11,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W245",
+      "key": "0a5cf88db80eba6d591464914259609560be04c53ca261f08176f333ba9d88c5",
+      "family": "experience_normal",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h00": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_BUFF1.actor",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "empty": true,
+          "evidenceQid": "rs.common.battle_strings.BattleText_Terminator"
+        },
+        "\\v\\h2A": {
+          "raw": "1744",
+          "sourceSlot": "B_BUFF2",
+          "start": 7,
+          "end": 11,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W248",
+      "key": "71ec6d27e395755bfae7ba2c4869bac26e656172f450747ad2f990152b401968",
+      "family": "experience_normal",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h00": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_BUFF1.actor",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "empty": true,
+          "evidenceQid": "rs.common.battle_strings.BattleText_Terminator"
+        },
+        "\\v\\h2A": {
+          "raw": "1800",
+          "sourceSlot": "B_BUFF2",
+          "start": 7,
+          "end": 11,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W253",
+      "key": "025f7fbe543cc84b53af734cfe091e4204b80366e86a10d82da0ea3e405973a1",
+      "family": "experience_normal",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h00": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_BUFF1.actor",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "empty": true,
+          "evidenceQid": "rs.common.battle_strings.BattleText_Terminator"
+        },
+        "\\v\\h2A": {
+          "raw": "1827",
+          "sourceSlot": "B_BUFF2",
+          "start": 7,
+          "end": 11,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W281",
+      "key": "e76ea3ec3de5a7b57476ecaa7e9c943dd988c1d8436517cce9ccca28b9c64057",
+      "family": "experience_normal",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h00": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_BUFF1.actor",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "empty": true,
+          "evidenceQid": "rs.common.battle_strings.BattleText_Terminator"
+        },
+        "\\v\\h2A": {
+          "raw": "1840",
+          "sourceSlot": "B_BUFF2",
+          "start": 7,
+          "end": 11,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W292",
+      "key": "4ea0b7202d25827dc7b2a03126c07308e38c503e9ee7dda7c45f034efe1944f2",
+      "family": "experience_normal",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h00": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_BUFF1.actor",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "empty": true,
+          "evidenceQid": "rs.common.battle_strings.BattleText_Terminator"
+        },
+        "\\v\\h2A": {
+          "raw": "1879",
+          "sourceSlot": "B_BUFF2",
+          "start": 7,
+          "end": 11,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W304",
+      "key": "2998f5cfaafbf6327a783d8db7ee01200367a96924e3f38179900f89715b5200",
+      "family": "experience_normal",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h00": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_BUFF1.actor",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[玩家]": {
+          "empty": true,
+          "evidenceQid": "rs.common.battle_strings.BattleText_Terminator"
+        },
+        "\\v\\h2A": {
+          "raw": "1956",
+          "sourceSlot": "B_BUFF2",
+          "start": 7,
+          "end": 11,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W161",
+      "key": "9836d3d04d8ab5f2079bb8b3974c6a72f1b6432201f9adbe0c3dc7ea703b4c79",
+      "family": "stat_down",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "へラクロス",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "\\v\\h00": {
+          "qid": "rs.common.battle_strings.BattleStatText_Speed",
+          "kind": "original_component"
+        },
+        "[玩家]": {
+          "qid": "rs.common.battle_strings.BattleText_Fell",
+          "kind": "original_component"
+        }
+      }
+    },
+    {
+      "decisionId": "W168",
+      "key": "be4ef272ec357771bd7c31872586908701dca3a9a39f3de88673a930a0515e22",
+      "family": "stat_down",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "\\v\\h00": {
+          "qid": "rs.common.battle_strings.BattleStatText_Speed",
+          "kind": "original_component"
+        },
+        "[玩家]": {
+          "qid": "rs.common.battle_strings.BattleText_Fell",
+          "kind": "original_component"
+        }
+      }
+    },
+    {
+      "decisionId": "W236",
+      "key": "3017cfad2c60ad87392a78fe39ffbdd3cc504b48153bdf04977a45d727e884f3",
+      "family": "stat_down",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "\\v\\h00": {
+          "qid": "rs.common.battle_strings.BattleStatText_Accuracy",
+          "kind": "original_component"
+        },
+        "[玩家]": {
+          "qid": "rs.common.battle_strings.BattleText_Fell",
+          "kind": "original_component"
+        }
+      }
+    },
+    {
+      "decisionId": "W317",
+      "key": "fea02eccafc261d80b45cbad9db85e1bb626273bba9553a045c3e3dbaad59e64",
+      "family": "stat_down",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "ラグラージ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "\\v\\h00": {
+          "qid": "rs.common.battle_strings.BattleStatText_Attack",
+          "kind": "original_component"
+        },
+        "[玩家]": {
+          "qid": "rs.common.battle_strings.BattleText_Fell",
+          "kind": "original_component"
+        }
+      }
+    },
+    {
+      "decisionId": "W166",
+      "key": "74c6fbc092149f085cfc969af4f82a05d35c7689d40b4baabab583741f6bca92",
+      "family": "stat_up",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "\\v\\h00": {
+          "qid": "rs.common.battle_strings.BattleStatText_SpAtk",
+          "kind": "original_component"
+        },
+        "[玩家]": {
+          "qid": "rs.common.battle_strings.BattleText_Rose",
+          "kind": "original_component"
+        }
+      }
+    },
+    {
+      "decisionId": "W167",
+      "key": "8b0aed0a77abcd350e66f259666389619c98aeeea92ba788b9bfe00364805c65",
+      "family": "stat_up",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "\\v\\h00": {
+          "qid": "rs.common.battle_strings.BattleStatText_SpDef",
+          "kind": "original_component"
+        },
+        "[玩家]": {
+          "qid": "rs.common.battle_strings.BattleText_Rose",
+          "kind": "original_component"
+        }
+      }
+    },
+    {
+      "decisionId": "W259",
+      "key": "fcda3a20a45f63bd10492e2c9cc925f7c5b2eb6dbb4e413ab79cedcdee2583da",
+      "family": "stat_up",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての ダーテング",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        },
+        "\\v\\h00": {
+          "qid": "rs.common.battle_strings.BattleStatText_Evasion",
+          "kind": "original_component"
+        },
+        "[玩家]": {
+          "qid": "rs.common.battle_strings.BattleText_Rose",
+          "kind": "original_component"
+        }
+      }
+    },
+    {
+      "decisionId": "W164",
+      "key": "6a8c08501bc9fdc7b812b2d755c48567a34b5efcc76e5b95d32b70a3384e24e7",
+      "family": "rain_ability",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_RainMade",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h10": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_SCR_ACTIVE_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "\\v\\h17": {
+          "qid": "rs.common.ability_names.gAbilityNames.2",
+          "kind": "ability",
+          "sourceSlot": "B_SCR_ACTIVE_ABILITY",
+          "raw": "あめふらし"
+        }
+      }
+    },
+    {
+      "decisionId": "W170",
+      "key": "b77ff360cf02fda36fdcd1b7319f65db1d34aeb4ea9caf977d6ba901d76104fe",
+      "family": "battle_action_prompt",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OtherMenu",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "\\v\\h0F": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_ACTIVE_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W495",
+      "key": "891d450a891e4f45975366edbf81583479717974eb069f72abd1525057497ced",
+      "family": "battle_action_prompt",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_OtherMenu",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "\\v\\h0F": {
+          "raw": "ラグラージ",
+          "sourceSlot": "B_ACTIVE_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W179",
+      "key": "921501752e199978f0eb4efc0f0335877523c688a961d972ce0c12770bba091d",
+      "family": "recall_enough",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_ComeBackSingle1",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h00": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_BUFF1",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W229",
+      "key": "6275a287364e3c9bcb961a76ba2f134b007bebaad777e26eb4eac66bf7b0ef07",
+      "family": "trainer_challenge",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "カゲツ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        }
+      }
+    },
+    {
+      "decisionId": "W272",
+      "key": "0fa9e92ad18929bd60a023eb63b80b55e1f197840bfa9ececbff0d5c39e91993",
+      "family": "trainer_challenge",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "フヨウ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        }
+      }
+    },
+    {
+      "decisionId": "W230",
+      "key": "f6b2e3bd7a1f3948173ae3bf1106d1d14193806f132bed7087565851bbb92e07",
+      "family": "trainer_send_out",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "カゲツ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        },
+        "[buffer2]": {
+          "raw": "グラエナ",
+          "sourceSlot": "B_COPY_VAR_2",
+          "start": 12,
+          "end": 16,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W284",
+      "key": "446d5d21e438872a6ea7ca6ff202d2c0098240eec156bd71156514307e6415a9",
+      "family": "trainer_send_out",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "フヨウ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        },
+        "[buffer2]": {
+          "raw": "ヤミラミ",
+          "sourceSlot": "B_COPY_VAR_2",
+          "start": 12,
+          "end": 16,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W232",
+      "key": "0a5190bef64e743d21cd459f6e440e31d5392dd366c00549375d1c196a61a37d",
+      "family": "intimidate",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_CutsAttack",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h10": {
+          "raw": "あいての グラエナ",
+          "sourceSlot": "B_SCR_ACTIVE_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 9,
+          "category": "actor"
+        },
+        "\\v\\h17": {
+          "qid": "rs.common.ability_names.gAbilityNames.22",
+          "kind": "ability",
+          "sourceSlot": "B_SCR_ACTIVE_ABILITY",
+          "raw": "いかく"
+        },
+        "[LegendPokemon2]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_DEF_NAME_WITH_PREFIX",
+          "start": 16,
+          "end": 21,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W233",
+      "key": "86b3a8a288645a222aa4846d42c4d6f01f4bc581777fefd0133a67cf6f8d0ccd",
+      "family": "attack_missed",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての グラエナ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 4,
+          "end": 13,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W257",
+      "key": "f267514dc9583dcbc324451e53214ca899d4de3b8d2e04dbec3650dddd4a8b4e",
+      "family": "attack_missed",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 4,
+          "end": 9,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W290",
+      "key": "cac2fd08521e97c90f433d037c234d6290a0639c82c926e99d3da524c4f565d6",
+      "family": "attack_missed",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての ジュペッタ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 4,
+          "end": 14,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W295",
+      "key": "ba5df12faeed1070ea94eee1c8bccfaa4adf898c5621ae644a4e2e8804d391b9",
+      "family": "attack_missed",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての サマヨール",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 4,
+          "end": 14,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W240",
+      "key": "e50dcc3b7f076386639a1c07445f40a52373b7bd3fb20a5b21016c1e75e6b916",
+      "family": "will_switch_intent",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "カゲツ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        },
+        "[玩家]": {
+          "raw": "ノクタス",
+          "sourceSlot": "B_BUFF2",
+          "start": 12,
+          "end": 16,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W246",
+      "key": "47aa141ad4ec155abd347cc904b6c7a5cac245c6022c515ffd4a0e27585dcc28",
+      "family": "will_switch_intent",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "カゲツ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        },
+        "[玩家]": {
+          "raw": "サメハダー",
+          "sourceSlot": "B_BUFF2",
+          "start": 12,
+          "end": 17,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W249",
+      "key": "da977d8b2710d3fd712868fd9fabe1523437a9fb89efb5efa52234f42a23e12b",
+      "family": "will_switch_intent",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "カゲツ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        },
+        "[玩家]": {
+          "raw": "アブソル",
+          "sourceSlot": "B_BUFF2",
+          "start": 12,
+          "end": 16,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W254",
+      "key": "bf9e3dbf0837b7831337c3a93c99c7958667b669e4adc50971fa38284fe9c211",
+      "family": "will_switch_intent",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "カゲツ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        },
+        "[玩家]": {
+          "raw": "ダーテング",
+          "sourceSlot": "B_BUFF2",
+          "start": 12,
+          "end": 17,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W282",
+      "key": "d92d72cc527b09300e1a3384e5d62ce16c7deeae72fda41da7ff0ad8afc0ed45",
+      "family": "will_switch_intent",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "フヨウ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        },
+        "[玩家]": {
+          "raw": "ジュペッタ",
+          "sourceSlot": "B_BUFF2",
+          "start": 12,
+          "end": 17,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W293",
+      "key": "b725ecc305645988423228cb24451a848d6f2b30dca02591685f7ba304014480",
+      "family": "will_switch_intent",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "フヨウ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        },
+        "[玩家]": {
+          "raw": "サマヨール",
+          "sourceSlot": "B_BUFF2",
+          "start": 12,
+          "end": 17,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W241",
+      "key": "5c4539c2cf48b7b0ab4b2537227398d2ecc7c92e756ab8816385d8a6437f89d9",
+      "family": "will_switch_question",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+        "page": 1,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h20": {
+          "raw": "ハルカ",
+          "sourceSlot": "B_PLAYER_NAME",
+          "start": 0,
+          "end": 3,
+          "category": "player"
+        }
+      }
+    },
+    {
+      "decisionId": "W250",
+      "key": "c406a55a508a3043e2f94f0faa0d1c15409429944337818125c8fd7ce432136b",
+      "family": "await_move",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_AwaitMove",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての アブソル",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 9,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W256",
+      "key": "5fba607b6884b3f885669960098178a9df6bfc1ea866b3d856769092d606353b",
+      "family": "flinched",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_Flinched",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W261",
+      "key": "44d76a1f06be330814df820600da29cc7ef9f81fc751ceabd76bb01c56001c98",
+      "family": "won_trainer",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "カゲツ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        }
+      }
+    },
+    {
+      "decisionId": "W305",
+      "key": "0314ddc8c2c5af19cbd1ac4babf1ad04f9ee23d439ca4a3690d4c3158a0f3353",
+      "family": "won_trainer",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h19": {
+          "qid": "rs.common.trainer_class_names.gTrainerClassNames.24",
+          "kind": "trainer_class",
+          "sourceSlot": "B_TRAINER1_CLASS",
+          "raw": "してんのう"
+        },
+        "\\v\\h1A": {
+          "raw": "フヨウ",
+          "sourceSlot": "B_TRAINER1_NAME",
+          "start": 7,
+          "end": 10,
+          "category": "player"
+        }
+      }
+    },
+    {
+      "decisionId": "W274",
+      "key": "8a7094da6e0429e175913258cee98446f13a0ecf7ddba65eb58d9fd7ee0bcd43",
+      "family": "became_confused",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_BecameConfused",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h0E": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_EFF_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W298",
+      "key": "8af3cd10dbedf5d51d6ed0a6e4ce22ccd819c83ec17bcaf9324578d123e4329c",
+      "family": "became_confused",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_BecameConfused",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h0E": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_EFF_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W275",
+      "key": "b54e585cbb0795fe5adcd75ca31df0d02712d03c6d45e409a87e66b0b536affa",
+      "family": "hp_restored",
+      "sourceMatch": {
+        "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "STR_VAR_1",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[buffer2]": {
+          "raw": "17",
+          "sourceSlot": "STR_VAR_2",
+          "start": 14,
+          "end": 16,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W297",
+      "key": "c639220a423a7dcf2dbfba70d2c30f90b6ceb43010be7f694f5bb9332eb60220",
+      "family": "hp_restored",
+      "sourceMatch": {
+        "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "raw": "レックウザ",
+          "sourceSlot": "STR_VAR_1",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        },
+        "[buffer2]": {
+          "raw": "91",
+          "sourceSlot": "STR_VAR_2",
+          "start": 14,
+          "end": 16,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W278",
+      "key": "e5f91d05f9bdb46a9797959ae6fe1d2d22afb6ce2aad7ceef0dc6eab322a2c62",
+      "family": "curse_lay",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_CurseLay",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "あいての サマヨール",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 10,
+          "category": "actor"
+        },
+        "[LegendPokemon2]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_DEF_NAME_WITH_PREFIX",
+          "start": 29,
+          "end": 34,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W279",
+      "key": "b54c6c5ccb8ac0625adf8874d9f696e4691bfe5e205734fe9b5c7d02906a71d0",
+      "family": "curse_afflicted",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_CurseAfflict",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W287",
+      "key": "f04c68f874d0b5a64c6f664e5dc684d56bf99a5937c8d15036c9851675fbe934",
+      "family": "recall_good",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_ComeBackSingle4",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h00": {
+          "raw": "カイオーガ",
+          "sourceSlot": "B_BUFF1",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W289",
+      "key": "bbfd7895332c3ce46f8cf5c28aeec7636b1a6be1f78232a1093f849258bdb843",
+      "family": "flew_high",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_FlewHigh",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W296",
+      "key": "192ab88bb463532c78ff030958508a869e83a728378a099cd40f7ca7d1586b2d",
+      "family": "frozen",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_Frozen",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h0E": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_EFF_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W299",
+      "key": "c309e48ef2765aa94dcb7598a2f2b2e272bec09817dc3ba3ba0eb848e136b818",
+      "family": "confused",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_Confused",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W301",
+      "key": "f0d9b1400fc1f4ca0cd569c8e216c34043b6d1090a06ff854363dd5626c59bea",
+      "family": "hp_full",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_HPFull",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon2]": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_DEF_NAME_WITH_PREFIX",
+          "start": 4,
+          "end": 9,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W302",
+      "key": "e0bc5903521d082efc3ae887467be6bd355a16be0bd5ec6a8a414667d4bd6982",
+      "family": "confusion_ended",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_ConfusionSnapOut",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[LegendPokemon1]": {
+          "raw": "レックウザ",
+          "sourceSlot": "B_ATK_NAME_WITH_PREFIX",
+          "start": 0,
+          "end": 5,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W313",
+      "key": "2671f570ee0bd0f855999786cfd7bfd0dc7640540ead25278ecdda11a0ef4fad",
+      "family": "player_house",
+      "sourceMatch": {
+        "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AEA1",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "expectedValues": {
+        "[玩家]": {
+          "raw": "ハルカ",
+          "sourceSlot": "PLAYER",
+          "start": 1,
+          "end": 4,
+          "category": "player"
+        }
+      }
+    },
+    {
+      "decisionId": "W314",
+      "key": "4cad240669a5c78fbaeada22bb16522fb9a1a026a2dae9056d3d05b08b245bc4",
+      "family": "item_use",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_Used1",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h20": {
+          "raw": "ハルカ",
+          "sourceSlot": "B_PLAYER_NAME",
+          "start": 0,
+          "end": 3,
+          "category": "player"
+        },
+        "\\v\\h13": {
+          "qid": "rs.common.items.gItems.3",
+          "kind": "item",
+          "sourceSlot": "B_LAST_ITEM",
+          "raw": "スーパーボール"
+        }
+      }
+    },
+    {
+      "decisionId": "W318",
+      "key": "110c24f27202996ee58d9f8f34945d412901a58154bb1db31ce2865e9b2eaf78",
+      "family": "caught",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_BallCaught1",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[buffer2]": {
+          "raw": "ジグザグマ",
+          "sourceSlot": "B_COPY_VAR_2",
+          "start": 6,
+          "end": 11,
+          "category": "actor"
+        }
+      }
+    },
+    {
+      "decisionId": "W360",
+      "key": "32dd0973a0eed2fe94bfd99200205fbc87a2ec14f76e1343b7518eda8a206928",
+      "family": "discard_block",
+      "sourceMatch": {
+        "qid": "rs.common.strings.gContestStatsText_ThrowAwayPrompt",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "raw": "あかいポロック",
+          "sourceSlot": "STR_VAR_1",
+          "start": 0,
+          "end": 7,
+          "category": "display_term"
+        }
+      }
+    },
+    {
+      "decisionId": "W484",
+      "key": "f979b27d52c2e429283b6632db5d44007e625e8febd19e4e12a7d3a023ad68c0",
+      "family": "discard_block",
+      "sourceMatch": {
+        "qid": "rs.common.strings.gContestStatsText_ThrowAwayPrompt",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "raw": "ももいろポロック",
+          "sourceSlot": "STR_VAR_1",
+          "start": 0,
+          "end": 8,
+          "category": "display_term"
+        }
+      }
+    },
+    {
+      "decisionId": "W093",
+      "key": "b3b71f70dd8e1f148cf43945d1ab9296a58dd2468445619ad812558fc4084020",
+      "family": "dads_advice",
+      "sourceMatch": {
+        "qid": "rs.common.strings.gOtherText_DadsAdvice",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[玩家]": {
+          "raw": "ハルカ",
+          "sourceSlot": "PLAYER",
+          "start": 13,
+          "end": 16,
+          "category": "player"
+        }
+      }
+    },
+    {
+      "decisionId": "W096",
+      "key": "8247ae96340ae44558dfcf730d0fed904a12dc2b829ce9107c4095bb45efe33f",
+      "family": "dads_advice",
+      "sourceMatch": {
+        "qid": "rs.common.strings.gOtherText_DadsAdvice",
+        "page": 0,
+        "lineStart": 1,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[玩家]": {
+          "raw": "ハルカ",
+          "sourceSlot": "PLAYER",
+          "start": 0,
+          "end": 3,
+          "category": "player"
+        }
+      }
+    },
+    {
+      "decisionId": "W152",
+      "key": "98069debe8a5bf9a7b050acf854835e1f1d416cc2cca9b56435060143830c083",
+      "family": "mother_worries",
+      "sourceMatch": {
+        "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+        "page": 2,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[玩家]": {
+          "raw": "ハルカ",
+          "sourceSlot": "PLAYER",
+          "start": 14,
+          "end": 17,
+          "category": "player"
+        },
+        "[占位符]": {
+          "raw": "ちゃん",
+          "sourceSlot": "KUN",
+          "start": 17,
+          "end": 20,
+          "category": "honorific"
+        }
+      }
+    },
+    {
+      "decisionId": "W153",
+      "key": "b951a4c797989f03fbf7f8286a5ca0917e2e5af390674652b3a407d0acba675a",
+      "family": "mother_worries",
+      "sourceMatch": {
+        "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+        "page": 2,
+        "lineStart": 1,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[玩家]": {
+          "raw": "ハルカ",
+          "sourceSlot": "PLAYER",
+          "start": 0,
+          "end": 3,
+          "category": "player"
+        },
+        "[占位符]": {
+          "raw": "ちゃん",
+          "sourceSlot": "KUN",
+          "start": 3,
+          "end": 6,
+          "category": "honorific"
+        }
+      }
+    },
+    {
+      "decisionId": "W372",
+      "key": "a88e84c5548b890da4a89e4d9428957265c74f253c6d644bc9233df90f0802b6",
+      "family": "contest_registration",
+      "sourceMatch": {
+        "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A5DFC",
+        "page": 0,
+        "lineStart": 1,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "qid": "rs.common.strings.OtherText_Master",
+          "kind": "contest_rank",
+          "sourceSlot": "STR_VAR_1",
+          "raw": "マスター"
+        }
+      }
+    },
+    {
+      "decisionId": "W373",
+      "key": "96ad6f73b5a0d487684395539230207f1b4d1c85965557c16aac88d3390dde4e",
+      "family": "contest_registration",
+      "sourceMatch": {
+        "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A5DFC",
+        "page": 0,
+        "lineStart": 2,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[buffer1]": {
+          "qid": "rs.common.strings.OtherText_Master",
+          "kind": "contest_rank",
+          "sourceSlot": "STR_VAR_1",
+          "raw": "マスター"
+        }
+      }
+    },
+    {
+      "decisionId": "W263",
+      "key": "e79b9e71c3fec09ac70715e706cf730fa173fe7b2ca84442cc6c005db5168e72",
+      "family": "winning_prize",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h20": {
+          "raw": "ハルカ",
+          "sourceSlot": "B_PLAYER_NAME",
+          "start": 0,
+          "end": 3,
+          "category": "player"
+        },
+        "\\v\\h00": {
+          "raw": "4900",
+          "sourceSlot": "B_BUFF1",
+          "start": 14,
+          "end": 18,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W307",
+      "key": "c1d5bd81a66bb2d481f0ec9ca500677b6d35296383942a21426c99afe7570bcb",
+      "family": "winning_prize",
+      "sourceMatch": {
+        "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "\\v\\h20": {
+          "raw": "ハルカ",
+          "sourceSlot": "B_PLAYER_NAME",
+          "start": 0,
+          "end": 3,
+          "category": "player"
+        },
+        "\\v\\h00": {
+          "raw": "5100",
+          "sourceSlot": "B_BUFF1",
+          "start": 14,
+          "end": 18,
+          "category": "number"
+        }
+      }
+    },
+    {
+      "decisionId": "W474",
+      "key": "6bb6dd3a46a7f402e1dffb044ddfd0832c3af5dd95b3458973d075cfbaa7e9ba",
+      "family": "team_departure",
+      "sourceMatch": {
+        "qid": "rs.script.LilycoveCity.LilycoveCity_Text_168934",
+        "page": 1,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "expectedValues": {
+        "[Team1]": {
+          "qid": "rs.common.strings.gExpandedPlaceholder_Aqua",
+          "kind": "team",
+          "sourceSlot": "EVIL_TEAM",
+          "raw": "アクア"
+        }
+      }
+    }
+  ],
+  "retainedCases": [],
+  "priorVariableCaseIds": [
+    "W012",
+    "W015",
+    "W130",
+    "W175",
+    "W146",
+    "W154",
+    "W155",
+    "W180",
+    "W231",
+    "W288",
+    "W156",
+    "W160",
+    "W163",
+    "W165",
+    "W235",
+    "W237",
+    "W242",
+    "W255",
+    "W258",
+    "W273",
+    "W276",
+    "W277",
+    "W291",
+    "W294",
+    "W300",
+    "W303",
+    "W316",
+    "W158",
+    "W238",
+    "W244",
+    "W247",
+    "W252",
+    "W260",
+    "W280",
+    "W283",
+    "W159",
+    "W239",
+    "W245",
+    "W248",
+    "W253",
+    "W281",
+    "W292",
+    "W304",
+    "W161",
+    "W168",
+    "W236",
+    "W317",
+    "W166",
+    "W167",
+    "W259",
+    "W164",
+    "W170",
+    "W495",
+    "W179",
+    "W229",
+    "W272",
+    "W230",
+    "W284",
+    "W232",
+    "W233",
+    "W257",
+    "W290",
+    "W295",
+    "W240",
+    "W246",
+    "W249",
+    "W254",
+    "W282",
+    "W293",
+    "W241",
+    "W250",
+    "W256",
+    "W261",
+    "W305",
+    "W274",
+    "W298",
+    "W275",
+    "W297",
+    "W278",
+    "W279",
+    "W287",
+    "W289",
+    "W296",
+    "W299",
+    "W301",
+    "W302",
+    "W313",
+    "W314",
+    "W318",
+    "W360",
+    "W484",
+    "W145",
+    "W152",
+    "W153",
+    "W263",
+    "W307",
+    "W391",
+    "W437",
+    "W532",
+    "W474",
+    "W510"
+  ]
+}

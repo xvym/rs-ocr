@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "scope": "Existing original print callers, source literals and current numeric/location values",
+  "checks": [
+    {
+      "name": "Met locations use the existing print sequence with original complete location terms and the original Met suffix",
+      "passed": true
+    },
+    {
+      "name": "Unknown locations, shortened location names and appended independent clauses stay raw without prior-location reuse",
+      "passed": true
+    },
+    {
+      "name": "Ribbon counts overwrite only the two original trailing zeroes with each current observed count and digit width",
+      "passed": true
+    },
+    {
+      "name": "Zero, padded, signed, separated and out-of-range ribbon counts cannot acquire a guessed original format",
+      "passed": true
+    },
+    {
+      "name": "Remaining experience follows the original numeric-only caller while preserving currently observed digit widths",
+      "passed": true
+    },
+    {
+      "name": "Met levels use only the original marker, current visible level and source comma without adding Chinese connector text",
+      "passed": true
+    },
+    {
+      "name": "All frozen native-field occurrences retain raw numeric evidence and reproduce their separately frozen original-format expectations",
+      "passed": true
+    },
+    {
+      "name": "Changed original words, punctuation, source digests or unapproved printing operations reject the native pack",
+      "passed": true
+    }
+  ]
+}

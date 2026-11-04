@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "translationPolicy": "rsc-original-only-v1",
+  "method": "original_source_print_recipe_and_current_visible_value_review",
+  "fields": [
+    {
+      "id": "memo_met_location",
+      "type": "summary_memo",
+      "source": {
+        "qid": "rs.common.strings2.gOtherText_Met",
+        "japaneseSha256": "86a4f3d011c0dc713b8cf96435a5863040b8c31dd7bee9b9ea0a34d5b09efa54",
+        "englishSha256": "185d4ce4b1d403bcbf47a2a0c0611d3aed395e875b4b1e6a8a258e36474cd7fb"
+      },
+      "operation": "original_location_then_literal",
+      "sourceEvidence": {
+        "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/pokemon_summary_screen.c",
+        "sha256": "79990bda2128f399f8565bfda4ebe14b125890f6a68b4fb54bef1f31f987c4a2",
+        "sourceArchiveSha256": "a9c6cd518cef1ee0daf724729b3be2add87c43d78cff11bf4ac69f6a05bf7d0a"
+      },
+      "requiredCode": [
+        "CopyLocationName(gStringVar1, locationMet);",
+        "ptr = SummaryScreen_CopyColoredString(ptr, gStringVar1, 14);",
+        "StringCopy(ptr, gOtherText_Met);"
+      ],
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053"
+        }
+      ],
+      "locations": [
+        {
+          "qid": "rs.common.region_map_entries.sMapName_ROUTE101",
+          "japaneseSha256": "3b139cd8a43a85bacb93073f4ad6f2aece121d5504f6ae41693fa19c6107babe",
+          "englishSha256": "b70c43edc1c831c9a295aa82b0138b850d00c48573b41509cc2ca244e10ead2e",
+          "citations": [
+            {
+              "candidateId": "original-entry:upstream-5:8225",
+              "qid": "rs.common.region_map_entries.sMapName_ROUTE101",
+              "game": "ruby",
+              "sourceId": "upstream-5",
+              "sourceLine": 8225,
+              "sourceChineseSha256": "5f470ca778c0f9640a7e08b9da77d3483deb92ef44d4b88ea4f82788d3b1cb0d",
+              "span": [
+                0,
+                6
+              ],
+              "quoteSha256": "5f470ca778c0f9640a7e08b9da77d3483deb92ef44d4b88ea4f82788d3b1cb0d"
+            },
+            {
+              "candidateId": "original-entry:upstream-6:8225",
+              "qid": "rs.common.region_map_entries.sMapName_ROUTE101",
+              "game": "sapphire",
+              "sourceId": "upstream-6",
+              "sourceLine": 8225,
+              "sourceChineseSha256": "5f470ca778c0f9640a7e08b9da77d3483deb92ef44d4b88ea4f82788d3b1cb0d",
+              "span": [
+                0,
+                6
+              ],
+              "quoteSha256": "5f470ca778c0f9640a7e08b9da77d3483deb92ef44d4b88ea4f82788d3b1cb0d"
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.region_map_entries.sMapName_ROUTE104",
+          "japaneseSha256": "bba5356b5e00eb136c0797caa7fa8377dfd9b09f166c40ab303899bc6cc4dfd6",
+          "englishSha256": "1eafecec4f7eaf0df5a42cf360551a1b48c9c2773c5aaba8f029546034123132",
+          "citations": [
+            {
+              "candidateId": "original-entry:upstream-5:8228",
+              "qid": "rs.common.region_map_entries.sMapName_ROUTE104",
+              "game": "ruby",
+              "sourceId": "upstream-5",
+              "sourceLine": 8228,
+              "sourceChineseSha256": "a114d5bdf4e015877c21bf38a2e68d851ed94b632acc00badb833d9f8aaa8a08",
+              "span": [
+                0,
+                6
+              ],
+              "quoteSha256": "a114d5bdf4e015877c21bf38a2e68d851ed94b632acc00badb833d9f8aaa8a08"
+            },
+            {
+              "candidateId": "original-entry:upstream-6:8228",
+              "qid": "rs.common.region_map_entries.sMapName_ROUTE104",
+              "game": "sapphire",
+              "sourceId": "upstream-6",
+              "sourceLine": 8228,
+              "sourceChineseSha256": "a114d5bdf4e015877c21bf38a2e68d851ed94b632acc00badb833d9f8aaa8a08",
+              "span": [
+                0,
+                6
+              ],
+              "quoteSha256": "a114d5bdf4e015877c21bf38a2e68d851ed94b632acc00badb833d9f8aaa8a08"
+            }
+          ]
+        },
+        {
+          "qid": "rs.common.region_map_entries.sMapName_ROUTE118",
+          "japaneseSha256": "b63f5167df1a714e35dfc7a37c5126bc078d1d1fbc2c5edccb6b6a2ce2ac73fa",
+          "englishSha256": "952ae1ddfc0aa99db4b5f9a1b4c779e78e507dded8958cae74819ebf41c65ba3",
+          "citations": [
+            {
+              "candidateId": "original-entry:upstream-5:8242",
+              "qid": "rs.common.region_map_entries.sMapName_ROUTE118",
+              "game": "ruby",
+              "sourceId": "upstream-5",
+              "sourceLine": 8242,
+              "sourceChineseSha256": "af1b37c5f6bfae86ee00a5db6aa6144f666308ad475f575eb1a241c6110f35b0",
+              "span": [
+                0,
+                6
+              ],
+              "quoteSha256": "af1b37c5f6bfae86ee00a5db6aa6144f666308ad475f575eb1a241c6110f35b0"
+            },
+            {
+              "candidateId": "original-entry:upstream-6:8242",
+              "qid": "rs.common.region_map_entries.sMapName_ROUTE118",
+              "game": "sapphire",
+              "sourceId": "upstream-6",
+              "sourceLine": 8242,
+              "sourceChineseSha256": "af1b37c5f6bfae86ee00a5db6aa6144f666308ad475f575eb1a241c6110f35b0",
+              "span": [
+                0,
+                6
+              ],
+              "quoteSha256": "af1b37c5f6bfae86ee00a5db6aa6144f666308ad475f575eb1a241c6110f35b0"
+            }
+          ]
+        }
+      ],
+      "reason": "Reconstruct only the existing RSC/native memo print sequence: current original location term followed by the original Met literal. Palette controls do not add wording."
+    },
+    {
+      "id": "ribbon_count_overwrite",
+      "type": "summary_ribbon",
+      "source": {
+        "qid": "rs.common.strings.gOtherText_Ribbons00",
+        "japaneseSha256": "2faaa7a9286c268f021ca3a8f749d7181e4b1e361316d6b46ce495fb0c0dce83",
+        "englishSha256": "de5bf1f86e7c1ed191e3efa0d8237f65c80104dd2d3ac9d4e05acaab0afa9c3d"
+      },
+      "operation": "overwrite_original_final_two_zeroes",
+      "sourceEvidence": {
+        "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/pokemon_summary_screen.c",
+        "sha256": "79990bda2128f399f8565bfda4ebe14b125890f6a68b4fb54bef1f31f987c4a2",
+        "sourceArchiveSha256": "a9c6cd518cef1ee0daf724729b3be2add87c43d78cff11bf4ac69f6a05bf7d0a"
+      },
+      "requiredCode": [
+        "StringCopy(gStringVar1, gOtherText_Ribbons00);",
+        "text = &gStringVar1[ribbonsStringLength - 2];",
+        "ConvertIntToDecimalStringN(&text[3], numRibbons, 1, 2);"
+      ],
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9069",
+          "qid": "rs.common.strings.gOtherText_Ribbons00",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9069,
+          "sourceChineseSha256": "b0e1d9a3f05e6c81cbd1871b330ea76f599be0c9021151768e1613456a7fb37c",
+          "span": [
+            0,
+            7
+          ],
+          "quoteSha256": "b0e1d9a3f05e6c81cbd1871b330ea76f599be0c9021151768e1613456a7fb37c"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:9069",
+          "qid": "rs.common.strings.gOtherText_Ribbons00",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9069,
+          "sourceChineseSha256": "b0e1d9a3f05e6c81cbd1871b330ea76f599be0c9021151768e1613456a7fb37c",
+          "span": [
+            0,
+            7
+          ],
+          "quoteSha256": "b0e1d9a3f05e6c81cbd1871b330ea76f599be0c9021151768e1613456a7fb37c"
+        }
+      ],
+      "reason": "The existing caller overwrites only the two trailing original zeroes with the currently visible count. Preserve the original RSC label, colon and spacing."
+    },
+    {
+      "id": "remaining_experience_value",
+      "type": "summary_experience",
+      "source": {
+        "qid": "rs.common.strings.gOtherText_Terminator18",
+        "japaneseSha256": "e220ac43d34b0ded988af08b80240a52d0705dbb626edf664e04a99c183ae78a",
+        "englishSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "operation": "print_current_unsigned_value_only",
+      "sourceEvidence": {
+        "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/pokemon_summary_screen.c",
+        "sha256": "79990bda2128f399f8565bfda4ebe14b125890f6a68b4fb54bef1f31f987c4a2",
+        "sourceArchiveSha256": "a9c6cd518cef1ee0daf724729b3be2add87c43d78cff11bf4ac69f6a05bf7d0a"
+      },
+      "requiredCode": [
+        "ConvertIntToDecimalString(gStringVar1, expToNextLevel);",
+        "MenuPrint_RightAligned(gStringVar1, left + 6, top);"
+      ],
+      "citations": [],
+      "reason": "The original native format prints the remaining value alone after the separate NextLv label. Preserve the current digits; the Japanese layout connector is not a Chinese prefix."
+    },
+    {
+      "id": "memo_met_level",
+      "type": "summary_memo",
+      "source": {
+        "qid": "rs.common.strings2.gOtherText_Comma",
+        "japaneseSha256": "c3123c3246b3bed9a21e9cf67510ee90e398e23e98b673306a96953fbeceeea5",
+        "englishSha256": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7"
+      },
+      "operation": "original_level_marker_value_comma",
+      "sourceEvidence": {
+        "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/pokemon_summary_screen.c",
+        "sha256": "79990bda2128f399f8565bfda4ebe14b125890f6a68b4fb54bef1f31f987c4a2",
+        "sourceArchiveSha256": "a9c6cd518cef1ee0daf724729b3be2add87c43d78cff11bf4ac69f6a05bf7d0a"
+      },
+      "requiredCode": [
+        "*dest++ = CHAR_LV;",
+        "ConvertIntToDecimalString(buffer, level);",
+        "dest = SummaryScreen_CopyColoredString(dest, buffer, 14);",
+        "dest = StringCopy(dest, gOtherText_Comma);"
+      ],
+      "additionalEvidence": [
+        {
+          "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/strings2.s",
+          "sha256": "abb665bd02d592fa194e248ee7f407772015451013bb8283f2ecfc6526df68b7",
+          "sourceArchiveSha256": "a9c6cd518cef1ee0daf724729b3be2add87c43d78cff11bf4ac69f6a05bf7d0a",
+          "requiredText": [
+            "gOtherText_Comma:: @ 842D0F1\n\t.string \",$\""
+          ]
+        }
+      ],
+      "citations": [],
+      "reason": "Use the original native print sequence CHAR_LV + current visible level + original comma. The base punctuation has no translated RSC entry; no new Chinese connector or template is authored. Never infer an unseen met level from a current party level."
+    }
+  ],
+  "cases": [
+    {
+      "decisionId": "W391",
+      "key": "269ce170e5023d0c284b2c0174ea0a52281c2348373b71df8587d147ab4c755b",
+      "field": "memo_met_location",
+      "expected": [
+        {
+          "id": "GBA-304-R06:S5",
+          "raw": "101ばん どうろ",
+          "locationQid": "rs.common.region_map_entries.sMapName_ROUTE101"
+        },
+        {
+          "id": "NGC-123-R06:S5",
+          "raw": "101ばん どうろ",
+          "locationQid": "rs.common.region_map_entries.sMapName_ROUTE101"
+        }
+      ]
+    },
+    {
+      "decisionId": "W437",
+      "key": "e2eb44d84997302baecd527a7d30e48d859f9c87e6c69f6d128056bb6f032239",
+      "field": "memo_met_location",
+      "expected": [
+        {
+          "id": "GBA-310-R06:S5",
+          "raw": "104ばん どうろ",
+          "locationQid": "rs.common.region_map_entries.sMapName_ROUTE104"
+        }
+      ]
+    },
+    {
+      "decisionId": "W532",
+      "key": "010c06606bc26d9270b30df644c534239e790cce2c66321933e9338e3e3a1001",
+      "field": "memo_met_location",
+      "expected": [
+        {
+          "id": "NGC-131-R06:S5",
+          "raw": "118ばん どうろ",
+          "locationQid": "rs.common.region_map_entries.sMapName_ROUTE118"
+        }
+      ]
+    },
+    {
+      "decisionId": "W510",
+      "key": "7c3700b2334dc94156a6cb13530d8722dc65e4d404f2e054d8b345a056ba4723",
+      "field": "ribbon_count_overwrite",
+      "expected": [
+        {
+          "id": "NGC-124-R04:S2",
+          "raw": "1"
+        },
+        {
+          "id": "NGC-132-R04:S2",
+          "raw": "1"
+        }
+      ]
+    },
+    {
+      "decisionId": "W406",
+      "key": "a1635ec16fca1fcae110c65aef154970dd91416b13d3d53a0aa19d64d2a2fd18",
+      "field": "remaining_experience_value",
+      "expected": [
+        {
+          "id": "GBA-305-R06:S4",
+          "raw": "2367"
+        },
+        {
+          "id": "GBA-311-R06:S4",
+          "raw": "651"
+        },
+        {
+          "id": "NGC-124-R06:S4",
+          "raw": "5174"
+        },
+        {
+          "id": "NGC-132-R06:S4",
+          "raw": "7832"
+        }
+      ]
+    },
+    {
+      "decisionId": "W390",
+      "key": "e6d2a07fc41b0f8242c5d7ae4a66c1e76c2e7cd96dea33caf073fe57e4f62205",
+      "field": "memo_met_level",
+      "expected": [
+        {
+          "id": "GBA-304-R06:S4",
+          "raw": "5"
+        },
+        {
+          "id": "GBA-310-R06:S4",
+          "raw": "4"
+        },
+        {
+          "id": "NGC-123-R06:S4",
+          "raw": "5"
+        },
+        {
+          "id": "NGC-131-R06:S4",
+          "raw": "26"
+        }
+      ]
+    }
+  ]
+}

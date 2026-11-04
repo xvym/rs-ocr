@@ -1,0 +1,241 @@
+{
+  "inputs": [
+    {
+      "local": "outputs/s6-corpus/build-manifest.json",
+      "sha256": "5dde5f3c76bc4b858943551058db4e77e4fab00c896aa4ab38cd14cd33b4b145"
+    },
+    {
+      "local": "target/rs-ocr-0.1.0.jar",
+      "sha256": "f7ecb5ee9c3928938214377cd97c1d50d2e681537014f80085325163f173d597"
+    },
+    {
+      "local": "desktop/target/generated-resources/translation/manifest.json",
+      "sha256": "a03737f6187b37cb93b161200957985bf5a87a68786c41960e36702e10604389"
+    },
+    {
+      "local": "reports/s7-integration/java-parity.json",
+      "sha256": "63877f12c1f4bc8f480cccaaca9d140e1dc2994d106f3b11c4c812c19684db50"
+    },
+    {
+      "local": "reports/s7-integration/render-checks.json",
+      "sha256": "a560a94de306176e3bd72d02d8f2544786eb0b20b1d648f0a8c1d74841ba8a07"
+    },
+    {
+      "local": "reports/s7-integration/package-checks.json",
+      "sha256": "665386dde65049f8acc7a8731f57b77fd8187bfec590754d05199a2351f87ccb"
+    },
+    {
+      "local": "reports/s7-integration/live/playback-checks.json",
+      "sha256": "1b077b6426e1a35cc725ce60b9be0aeefb3288468a52a3dc5e39bfaf36ca2a92"
+    },
+    {
+      "local": "reports/s7-integration/live/implementation.json",
+      "sha256": "0c2d097e03e85ac6f72f8f3b33a9da5412b4bb93068dae4d52ae3f7739bb81e2"
+    },
+    {
+      "local": "reports/s7-integration/live-final/playback-checks.json",
+      "sha256": "9817df6ef0b7ef25db71e9eb04daf1841a2753afbc1cfe03a7460c28705b79f7"
+    },
+    {
+      "local": "reports/s7-integration/live-final/implementation.json",
+      "sha256": "2c7551fda4ce1e2cd35370cc40e06fff52805262bc342ef8ba9b683a84b9c62f"
+    },
+    {
+      "local": "desktop/target/surefire-reports/TEST-io.github.rsocr.desktop.BattleCursorTest.xml",
+      "sha256": "27a0604a572c522658afbea5afa8c5d79e9bbbfefadb6d92f993bc470ddd3c3c"
+    },
+    {
+      "local": "desktop/target/surefire-reports/TEST-io.github.rsocr.desktop.capture.WindowCapturePixelsTest.xml",
+      "sha256": "3baeb3a2da499c57ae7d423cce530e698ccfd063de6fd964f81269c459fe05eb"
+    },
+    {
+      "local": "desktop/target/surefire-reports/TEST-io.github.rsocr.desktop.ImageSessionTest.xml",
+      "sha256": "5a1f497d95c46085bbc8527dcd5852d32e22db1e977232bc8cc9e2f37c3c23cc"
+    },
+    {
+      "local": "desktop/target/surefire-reports/TEST-io.github.rsocr.desktop.LiveMetricsTest.xml",
+      "sha256": "dfb019a84692c5526ba0d38c321222f8c6bd0c6ce894ffdcdece705e4ba37dac"
+    },
+    {
+      "local": "desktop/target/surefire-reports/TEST-io.github.rsocr.desktop.LivePresentationTest.xml",
+      "sha256": "5cecef2cc083436a85b5e573ca4d9f325f2332d5299bcd978318d4db5ec1f97b"
+    },
+    {
+      "local": "desktop/target/surefire-reports/TEST-io.github.rsocr.desktop.LiveStateTest.xml",
+      "sha256": "1ecf648c21d2882ca50ccb1ef07b5fc4882d6fdd3c1319e50ab8eb75c029ded0"
+    },
+    {
+      "local": "desktop/target/surefire-reports/TEST-io.github.rsocr.desktop.PresentationTest.xml",
+      "sha256": "37f05b34b322fc654bd501006d636b69f4d2b4d09d6a389ec03c65d771651220"
+    },
+    {
+      "local": "desktop/target/surefire-reports/TEST-io.github.rsocr.desktop.translation.TranslationEngineTest.xml",
+      "sha256": "c3d78fe2408d263ae94c66f1b71e25ede78fa9d74f55110b2ceb0c66190bf665"
+    },
+    {
+      "local": "desktop/target/surefire-reports/TEST-io.github.rsocr.desktop.translation.TranslationSessionTest.xml",
+      "sha256": "3319fe4dd66b359906c093423059e9efc7de710c3c9cc09c72848821a37aae6f"
+    }
+  ],
+  "implementation": [
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/BattleCursor.java",
+      "sha256": "966108e91882fc109967cc6f0306cc35da80bfc0fe5a706dde79fce4eadd3083"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/CalibrationDialog.java",
+      "sha256": "1002dfa39ef68d72409498b251e480909b9e7428f2848fd36c14dc9f5c6b2cdf"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/capture/LiveLayout.java",
+      "sha256": "2333014ed13c0ed0f22ab7ec141e0b7712d32837022503d7cb6fcbff6c905168"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/capture/LiveMapping.java",
+      "sha256": "099fe62cfb2c07f20f829d83e4b978910c03d15f59b69245f26ec28f773b8e08"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/capture/LiveMetrics.java",
+      "sha256": "4beea862eff8855327412527be02a804a22cdf3bc50648fa3fcbdf65c6ce5381"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/capture/LiveSession.java",
+      "sha256": "c6bc9378957f36f0f95659f09ff9b96bbf9bdfa6c8821dc4f97fca0797a0a3d8"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/capture/LiveState.java",
+      "sha256": "0aa103ec38e2fe9c2837c27f025fee00246b96bbde6c8f102b469454d70aa63e"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/capture/WindowCapture.java",
+      "sha256": "5a4f7e1eb56bb67756528e519fa2fd89227c1c968a8010d9f1af4462fe029c7c"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/CursorPixels.java",
+      "sha256": "76581b8338c167693c734b7f13304b1b95bffc69e833a43495c0f85756b5c523"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/DesktopApplication.java",
+      "sha256": "c5cd41c2c97dbb3a67ff722c88f490f3cdc165801079494859d8cf6822b7b86e"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/DesktopMain.java",
+      "sha256": "f8042cd15a27c8b93896b5a2a7927331dd6d9f51f0039dff4f56e2a1257d390f"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/ImageSession.java",
+      "sha256": "e8712861d241271ad55064c153d77eeaf4dffb8935cd64a413c233f3e466f75f"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/LivePresentation.java",
+      "sha256": "48255833b7271bca9441f0d63994894056138d899818474964f4ad36d6bcde42"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/Presentation.java",
+      "sha256": "1bf8157c8e9c6cd6dfc85889d42111c5129bc53c36ce73904d1dea7cc31529b2"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/ResultCanvas.java",
+      "sha256": "4a17378c7d7dd909cf60921d9bd5f5374093edc8a704c8e491425dcfedab6c08"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/translation/TranslationCli.java",
+      "sha256": "d247ee4eeb320c30be03d244375bc3fe22fb2e7a105418a77de9bf0896531859"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/translation/TranslationEngine.java",
+      "sha256": "773463784c40d6c8ad7d7d9d1266f753f38e23b1f5b5d5baf16681e5c831fae2"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/translation/TranslationPresentation.java",
+      "sha256": "400fb383f47816762ebff77d128695ec41dfcae072832c4aa857f1f9b1fa50de"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/translation/TranslationSession.java",
+      "sha256": "96e8ea4ea93ab14a11e10d40300b8de502cb33f3924a7b76a7549942ee7a9726"
+    },
+    {
+      "local": "desktop/src/main/java/io/github/rsocr/desktop/translation/VisibleUnits.java",
+      "sha256": "a716e5841ab8011ccbd989ed3fc40e08303836d542d2d0aee64b35c6c44f6f20"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/BattleCursorTest.java",
+      "sha256": "66589af5660faee644adae773ebdf402cc834730b71a67748091c00b0ee3bb1e"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/capture/WindowCapturePixelsTest.java",
+      "sha256": "450fc350395904a2ae73230b4a9f7cd84e831a2d01b4c8a6b21e06f4f6e60fbb"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/CursorFixCheck.java",
+      "sha256": "498fbe887b1df3d316e662918eafc05b46679f6034417c7a745498a3a1c39092"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/ImageSessionTest.java",
+      "sha256": "3a935dfe4ad34786f07e470a9d6ffb37457980cf00579d3d70588c9f567f432b"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/LiveMetricsTest.java",
+      "sha256": "655b3d4cb76e49526132df2817b7c003eec16f84360d7b1d481f18f6e82d2519"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/LivePlaybackCheck.java",
+      "sha256": "81ea5b3babfc4208addd933645838c10644e35be756cd84b613489090d5e1b82"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/LivePresentationTest.java",
+      "sha256": "474096d4ed62bc1b815c5aa8be80f9e2519ccbaa306595afa0ece1d633facf45"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/LiveStateTest.java",
+      "sha256": "1effb6d4439fa5311cd36d327af01871da4ba18d85cbe6fac4254060ab9f00c8"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/PresentationTest.java",
+      "sha256": "83fe4e8f038154945ee293fdc30aba5222dcc487877fca4b962970ac93e73968"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/S7RenderCheck.java",
+      "sha256": "058e37531265e08222a1b7c54aa3eabe39a76910ebb73d097f54beaf983c1def"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/SnapshotCheck.java",
+      "sha256": "9238c68709c61e10fd322ff9f385dd77d1740a6e94cf81097456990e8a04b3e2"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/StabilityRenderCheck.java",
+      "sha256": "62b6210b3df6bfeb2f46380821f0f0dd1ef8930de37ba03701d0fc516bb695d3"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/translation/TranslationEngineTest.java",
+      "sha256": "8d3fb40605af53e36abe03aed230b56c90ab1e8bf166acab7b36cadf1740722d"
+    },
+    {
+      "local": "desktop/src/test/java/io/github/rsocr/desktop/translation/TranslationSessionTest.java",
+      "sha256": "bc54b02d44cc17e0b8251ec8c3eb6f68a7b006c9c7ac3bd7b4b28334811af84e"
+    },
+    {
+      "local": "tools/build_s7_resources.mjs",
+      "sha256": "91d72b2e1c19a5f51bc7fd9ea52e35ebe99476163410c06eed4dd530723db39e"
+    },
+    {
+      "local": "tools/check_s7_package.mjs",
+      "sha256": "2fad2fe153264c43a7e4b4c3e7bd237d482c17fe6ef75c04be4633d63601b47f"
+    },
+    {
+      "local": "tools/audit_s7_integration.mjs",
+      "sha256": "c3160d7885a62b472aabddc21e912d160c98b46fa96659da897de53fac908abd"
+    },
+    {
+      "local": "build-desktop.ps1",
+      "sha256": "7caea7f2bf04f8521881209383836090991fdfaf371913a87b3977f797c308bf"
+    },
+    {
+      "local": "desktop/pom.xml",
+      "sha256": "e65f7fd38bfcdc987d7c53da09bb5911d6b57d8c5c4f174f755cf365301786c7"
+    }
+  ],
+  "summarySha256": "70e1e3e3b328d92a96799a4aeaa1d305683d8edbd7074c8bf4d81d94868b2c5f",
+  "jarSha256": "efba666818512bc224f3a107f193d0e996c86a40192fa7bdeaf929e4bff6c373",
+  "hardwareAcceptance": false
+}

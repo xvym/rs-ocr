@@ -1,265 +1,182 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
+  "translationPolicy": "rsc-original-only-v1",
   "inputs": [
     {
+      "local": "corpus/translation-policy.json",
+      "sha256": "291b05d92e3ee9138086e36dbfb46d52ae6774d959df25a40acefa81491df0cf"
+    },
+    {
+      "local": "corpus/sources.json",
+      "sha256": "6850287479516bc69fb0bb8687cb722e8e26f11018bbd8179ee410b56a36f53b"
+    },
+    {
       "local": "outputs/corpus-mapping/build-manifest.json",
-      "sha256": "cdc4cb345604295ab5cbfd407fb02d149b4eb7b9b2ed08c1e04fb2395eb5851a"
+      "sha256": "7a2233436333fd0ccf50bd6fa9cc9c5784f03110c1baddce089dfcd67afede86"
     },
     {
-      "local": "outputs/corpus-mapping/records.csv",
-      "sha256": "524d1726bc626b7a496565587834a42772d1de97fb1536586b8947ad24a06c61"
+      "local": "corpus/visible-windows/policy.json",
+      "sha256": "2f6555726e7beb0a189ee54d2a1ed31cfd1c767bf5c599fe3fae513578aa38dc"
     },
     {
-      "local": "outputs/corpus-mapping/candidates.csv",
-      "sha256": "ed3e27b1831e6a52a39b81ef672aa27eebb3e414e0d5d25a0849b0ea2daf21ff"
+      "local": "corpus/visible-windows/decisions.json",
+      "sha256": "d45093ae85c2b95353f91f2582c137e1363c743529001b075ac87b1f6b5a4acf"
     },
     {
-      "local": "outputs/corpus-mapping/source-links.csv",
-      "sha256": "2d866407108a4ea1e8ed52f3a16a73dc71be17e034f0e4c8c9ac1b12e43a4e8f"
+      "local": "reports/japanese-source-matching/ocr-inputs.json",
+      "sha256": "962205e007fcc95a2786494c02d5e85cea89cd9a044e5698b89b8231ee15ae86"
     },
     {
-      "local": "outputs/corpus-inputs/qid_msg.txt",
-      "sha256": "bafdfb4540e8b766e7cbc947890b12164234d81f1ca039f2bdfadc8dd1d5d1b8"
+      "local": "reports/japanese-source-matching/results.json",
+      "sha256": "09f893e495b9e42ae9e94d1baf9f6a93b6978c1035c2db4d636ca0566eb4dbfe"
     },
     {
-      "local": "outputs/corpus-inputs/ja-Hrkt_msg.txt",
-      "sha256": "8bc1ba84bd6fba37071f9082a63fcbabcf84f66ee5dfce8e71428cf1a032e038"
+      "local": "reports/s3-acceptance/reference.json",
+      "sha256": "a0dad9cf66144bafee1ca465ebcfc5755fe2fade36f18acfa549e76459999658"
     },
     {
-      "local": "outputs/corpus-inputs/en_msg.txt",
-      "sha256": "c3deee1a461c71d19b9dbeb5e119d477ee9b10cbbcf59c1b045ebd2b2407ab55"
-    },
-    {
-      "local": "outputs/corpus-mapping/candidates.csv",
-      "sha256": "ed3e27b1831e6a52a39b81ef672aa27eebb3e414e0d5d25a0849b0ea2daf21ff"
-    },
-    {
-      "local": "outputs/corpus-mapping/runtime.json",
-      "sha256": "095b74d7020c7cb1741fb897f27d849b929ed16248343a7028e8b26d96247c5c"
-    },
-    {
-      "local": "src/main/resources/ocr/labels.json",
-      "sha256": "dd7a9f7e67ecd7b94304ecdd1fda7859f30b37245cdb89acbb8186b593c454e0"
-    },
-    {
-      "local": "src/main/resources/ocr/fonts.json",
-      "sha256": "65d01cd335908c4c0fd8532a8f984b1d2dfaab933b78164fce34242ef5290f46"
-    },
-    {
-      "local": "corpus/battle-matching/rules.json",
-      "sha256": "c444c78a4164e88cede697644778a0cc4d34777c9772c89795892ac3b4c73b3d"
-    },
-    {
-      "local": "reports/battle-source-matching/japanese-evidence.json",
-      "sha256": "e024a5e40df6350b60ebbcf98c2a9e03c12a5b72f1ca631cbeeee452fdeef098"
-    },
-    {
-      "local": "outputs/corpus-mapping/records.csv",
-      "sha256": "524d1726bc626b7a496565587834a42772d1de97fb1536586b8947ad24a06c61"
-    },
-    {
-      "local": "reports/battle-source-matching/experience-evidence.json",
-      "sha256": "d392988edd7a61362293bace7f3f96f9eef6bdb2f452f8684f1a1d20ca0390c0"
-    },
-    {
-      "local": "corpus/source-matching/typed-slot-rules.json",
-      "sha256": "4fda5eb8f5dc2af834d9b1c4864748132c78808923e5ebbe46146540f6b10040"
-    },
-    {
-      "local": "corpus/battle-matching/send-out-rules.json",
-      "sha256": "6a2119d41d388f6a129379c8c8a2097b7112fae7c921b4b8f8f05c5c23636a75"
-    },
-    {
-      "local": "corpus/battle-matching/observation-rules.json",
-      "sha256": "61d5a8bef49c49f17e7c409675d7496e718c7d8f96668908c8bb879ec94f8c6a"
-    },
-    {
-      "local": "src/main/resources/ocr/fonts.json",
-      "sha256": "65d01cd335908c4c0fd8532a8f984b1d2dfaab933b78164fce34242ef5290f46"
-    },
-    {
-      "local": "outputs/battle-source-matching/build-manifest.json",
-      "sha256": "e0a0f552211b4e7311fc07c650c0de6a59491d9df09229738e9a715f780e588b"
+      "local": "corpus/visible-windows/variable-bindings.json",
+      "sha256": "027bf7ff08be81e330967be43c4c01477bc9f1c582370712d1140b335962effc"
     },
     {
       "local": "outputs/battle-source-matching/templates.json",
       "sha256": "5b90e1b4a8f9fe1b07e870256556ef823f99ab733a24a26e9d5e700ea36e6fc9"
     },
     {
-      "local": "outputs/corpus-mapping/runtime.json",
-      "sha256": "095b74d7020c7cb1741fb897f27d849b929ed16248343a7028e8b26d96247c5c"
-    },
-    {
-      "local": "corpus/s6/lexicon-reviews.json",
-      "sha256": "4162f76a0230a9c06f2fb051eac5e1877d0ca69373498cbbfe32c1b942983c83"
-    },
-    {
-      "local": "corpus/s6/person-reviews.json",
-      "sha256": "6c7c3aba65d8762e54cd6ad0ab975d3121c3e397eb19a86222646efd37397cb7"
-    },
-    {
-      "local": "corpus/s6/easy-chat-reviews.json",
-      "sha256": "a51853d309138831f5a0764f8b6e3041636c1b20145d1b871df2622249a2352e"
-    },
-    {
-      "local": "corpus/s6/homograph-reviews.json",
-      "sha256": "4be764470475a4ec7ff3902faed4ce1806760e86e747c680f7b23bc622ccbcd6"
-    },
-    {
-      "local": "corpus/s6/tv-page-reviews.json",
-      "sha256": "45cb62f7493667a9c6e942d10f7d3b1619b275b8742143482b70f0a3712f4044"
-    },
-    {
-      "local": "outputs/corpus-mapping/conflicts.json",
-      "sha256": "c8c3a74fe113f1454581a81e048381c3d503078fbb563745d4d61f2a4adae3ec"
-    },
-    {
-      "local": "corpus/s6/tower-phrase-reviews.json",
-      "sha256": "9d420cac316c1d2aff149dea5b3f2bd08e62ee23c029eadf466ffcab10e4000c"
-    },
-    {
-      "local": "reports/s6-corpus/easy-chat-native-evidence.json",
-      "sha256": "fe5195b237d281992af1f83ef20645de4a00e00a2b6c50fd2577ab6585acef68"
-    },
-    {
-      "local": "corpus/s6/visible-unit-reviews.json",
-      "sha256": "50c9a2e016df3ef29f28a212cc288e53e9662e8047ca1cb6207108d66c5c5271"
-    },
-    {
-      "local": "corpus/s6/template-reviews.json",
-      "sha256": "c0878323b4b8fc213b6f6c912eecb57671c1e625ff2be91e01d52657f9deeeea"
-    },
-    {
-      "local": "corpus/s6/name-policy.json",
-      "sha256": "6b070b902e68f8e891af2668ca26ef65fce1321b26b09b4c3337a5d8dd6eedb2"
-    },
-    {
-      "local": "corpus/s6/event-translations.json",
-      "sha256": "b762284d645ecc90515ab69097f8a3b16749335ed451abccb3ca3f4bfb54d398"
-    },
-    {
-      "local": "corpus/s6/composition-policy.json",
-      "sha256": "7a56243abd98cbb7be855e4e7830946ad075c66596b3ea3e22f2f5d5a4961ee8"
+      "local": "outputs/battle-source-matching/build-manifest.json",
+      "sha256": "09fa4a7b6b5d4edf848ac3e20b7bf1bbea0d348d60744538d8b717acebdc2fa7"
     },
     {
       "local": "reports/s6-corpus/japanese-name-evidence.json",
       "sha256": "91e5e469476559cb8de5a71e29005b103415246e6735c2eb264c8aa36c835d47"
     },
     {
-      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/charmap.txt",
-      "sha256": "8c1db143d4f5f8186a6853d076b8b5dbd5d505b64e3c04ed79fe75afa54b7e9c"
+      "local": "reports/battle-source-matching/experience-evidence.json",
+      "sha256": "d392988edd7a61362293bace7f3f96f9eef6bdb2f452f8684f1a1d20ca0390c0"
     },
     {
-      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/naming_screen.c",
-      "sha256": "b8004f1d839f0acbd3b5d642b005e87946955e94c33f1cf02f62dd2ea50cacb8"
+      "local": "tools/corpus_source.mjs",
+      "sha256": "21c51d4384f39ff5f6a48e849aea1e93a254189f9a2acd052681438c337afa91"
     },
     {
-      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/naming_screen.h",
-      "sha256": "f099ab4d5f1104c5bbe0d8588b000fb47c46af8292a4b686ada5b2b3f92b3bd7"
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/battle_message.h",
+      "sha256": "260592d39c97cd03e635b7e3910217d615308db3a519bdf5dd5c2733fb81c34c"
     },
     {
-      "local": "outputs/corpus-inputs/qid_msg.txt",
-      "sha256": "bafdfb4540e8b766e7cbc947890b12164234d81f1ca039f2bdfadc8dd1d5d1b8"
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_script_commands.c",
+      "sha256": "0a6f58f8e5fc19c40e3546a5bc81f3354fc669376c31435301a8884055c9d77a"
     },
     {
-      "local": "outputs/corpus-inputs/ja-Hrkt_msg.txt",
-      "sha256": "8bc1ba84bd6fba37071f9082a63fcbabcf84f66ee5dfce8e71428cf1a032e038"
+      "local": "corpus/visible-windows/semantic-units.json",
+      "sha256": "f600122cc08ffb98e904e03c3a258b5cc3b510f3873d6ec5abb4a7be32e6273c"
     },
     {
-      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/charmap.txt",
-      "sha256": "8c1db143d4f5f8186a6853d076b8b5dbd5d505b64e3c04ed79fe75afa54b7e9c"
+      "local": "corpus/visible-windows/native-fields.json",
+      "sha256": "e529a4ad54ad89dbc4bc3bba15678830918faedb5617ac9887a9a02007283f95"
     },
     {
-      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/easy_chat_2.c",
-      "sha256": "e2cddfc8da4e3b75de8b9dd2ce840b46f2f1deed096911713abc11db52465af6"
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/pokemon_summary_screen.c",
+      "sha256": "79990bda2128f399f8565bfda4ebe14b125890f6a68b4fb54bef1f31f987c4a2"
     },
     {
-      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_tower.c",
-      "sha256": "bb0904eb6037f0081ee171e6b754173a01dc4ef0c47d95f00e45b4eb1e43b8c2"
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/strings2.s",
+      "sha256": "abb665bd02d592fa194e248ee7f407772015451013bb8283f2ecfc6526df68b7"
     },
     {
-      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/global.h",
-      "sha256": "33baab049f4fa7c26b40c05501ea0231480b5c8be60a961efb99e446a8974f32"
+      "local": "corpus/rsc-person-selections.json",
+      "sha256": "efaa8fedced813802f12353ecce7ff98c9829a2d6d64181687aa957812bddfa9"
     },
     {
-      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/constants/easy_chat.h",
-      "sha256": "4af15aab1c74da772b66d0e1e239dc2f06f888c05d0c3e38a69ef847cc55c413"
+      "local": "outputs/corpus-mapping/records.csv",
+      "sha256": "524d1726bc626b7a496565587834a42772d1de97fb1536586b8947ad24a06c61"
     },
     {
-      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/data/battle_tower/trainers.h",
-      "sha256": "e73e38f005907d7bb7fd95b3d8f081ac2d55467904a3054e8bd5dbad742cff4e"
+      "local": "outputs/corpus-mapping/candidates.csv",
+      "sha256": "7c467a740e53726d5c4f26d0aec928c9fd8927ea52edffff684fc8e140d54c51"
     },
     {
-      "local": "outputs/corpus-inputs/qid_msg.txt",
-      "sha256": "bafdfb4540e8b766e7cbc947890b12164234d81f1ca039f2bdfadc8dd1d5d1b8"
+      "local": "outputs/corpus-mapping/source-links.csv",
+      "sha256": "2d866407108a4ea1e8ed52f3a16a73dc71be17e034f0e4c8c9ac1b12e43a4e8f"
     },
     {
-      "local": "outputs/corpus-inputs/ja-Hrkt_msg.txt",
-      "sha256": "8bc1ba84bd6fba37071f9082a63fcbabcf84f66ee5dfce8e71428cf1a032e038"
+      "local": "outputs/corpus-mapping/correspondences.json",
+      "sha256": "95daa71bdcf677b253fb16aae6f3ae88bb83f2d71900f286ab7bad319916a349"
     },
     {
-      "local": "reports/s3-acceptance/freeze-manifest.json",
-      "sha256": "29d3e8e6c002fafb21bdbf41cab25c660f1e95955ef7a6bee809a5649a32816f"
-    },
-    {
-      "local": "src/main/resources/ocr/fonts.json",
-      "sha256": "65d01cd335908c4c0fd8532a8f984b1d2dfaab933b78164fce34242ef5290f46"
-    },
-    {
-      "local": "corpus/sources.json",
-      "sha256": "6850287479516bc69fb0bb8687cb722e8e26f11018bbd8179ee410b56a36f53b"
+      "local": "outputs/corpus-mapping/runtime.json",
+      "sha256": "04627f1bdefdb2980ca91d190e884cd534565071cd40f187e0b1f03e72da83e5"
     }
   ],
   "implementation": [
     {
       "local": "tools/build_s6_corpus.mjs",
-      "sha256": "f95edcb1a6557211d8e2e4f18bc0e136da0901b20b8b25877f4fd7366721979f"
+      "sha256": "b8e6db1eac518e3d1235134343ee1a0a8ffe3d1e7ff650131e253e1ebae7c2f4"
     },
     {
-      "local": "tools/s6_corpus_probe.mjs",
-      "sha256": "2f10c1bac5ed420015a0cb95399eecd6a893d5e4ce6908919ad75e78c3d166fb"
+      "local": "tools/corpus_common.mjs",
+      "sha256": "74faf4f0dfab325cc2a972c4a9a83d15a988b75a7bc585fb6359ef55e7bb69b4"
+    },
+    {
+      "local": "tools/rsc_translation_policy.mjs",
+      "sha256": "6698e6923bdef284f2524748804186b4b10b2bcefa676e26e5911406d156b886"
+    },
+    {
+      "local": "tools/rsc_correspondence_index.mjs",
+      "sha256": "c7db8e9bdefb2cb3b6b261c2e35c320cc75229c578ef187353cdcdd283221122"
+    },
+    {
+      "local": "tools/s6_visible_windows.mjs",
+      "sha256": "25b0c700f4428d40c7add9daf56d536ecf21f36b120884c3cfda1c4d77947ca7"
+    },
+    {
+      "local": "tools/s6_variable_bindings.mjs",
+      "sha256": "6ec4c682c6947599941cf3b5e4ba57535e85bab6c1589579c09eb2d3a724cc22"
+    },
+    {
+      "local": "tools/s6_semantic_units.mjs",
+      "sha256": "3c41e099ee88c096f62a283a8febb22a6e9651d747615e1850543747581efe52"
+    },
+    {
+      "local": "tools/s6_native_fields.mjs",
+      "sha256": "f0e315c53b9c5877f61eb2d75407c93e3b4d84a7ece12c6d09b24dce8fba2ffc"
     },
     {
       "local": "tools/japanese_source_matcher.mjs",
       "sha256": "91f8c4a237ab7a1aef2d339c2bceffea9e307e99590e5c888dbfb8078c01fb6a"
     },
     {
-      "local": "tools/battle_source_matcher.mjs",
-      "sha256": "1d26a7d8d363e7a86331052f9c73ed459c977a61af8f5ab0081a4f68a7041b48"
-    },
-    {
       "local": "tools/japanese_source_layout.mjs",
       "sha256": "9b8463bf505d94498a3ebc9cd9777ded69d4590e65db6ead8f7edca48b7627d9"
     },
     {
-      "local": "tools/corpus_common.mjs",
-      "sha256": "58cc7e40e5c443babe2611ea7a6a24b569c3df67867a9ac1d27b6cc6e5133132"
-    },
-    {
-      "local": "tools/verify_japanese_names.py",
-      "sha256": "3a3c3bc187395a516c171206343d86da3c75176098fec5d6969800fc4dbecec5"
-    },
-    {
-      "local": "tools/verify_easy_chat.py",
-      "sha256": "9f63f51c13e99fab1078851cffaf422bc753908d71b641793753f36141b2e190"
+      "local": "tools/battle_source_matcher.mjs",
+      "sha256": "1d26a7d8d363e7a86331052f9c73ed459c977a61af8f5ab0081a4f68a7041b48"
     }
   ],
   "outputs": [
     {
       "file": "runtime.json",
-      "sha256": "60b956ec2b68538c9d1b768fcf993344031cc25198df323d7d599d44d071e573"
+      "sha256": "2fa5c3dfe77fa491c8bc7528c65df6c351d035faf739ecef37a22e2334f011e3"
     },
     {
       "file": "summary.json",
-      "sha256": "d7fc005931493d6245e423d0951b3b93fe34e79de9cf00228f4c2c72089e4003"
-    },
-    {
-      "file": "source-inventory.csv",
-      "sha256": "fe3923eb5b044c8f857b7b89f8b513d53fb331438b6f6735b1d1551e4fd0f1d2"
+      "sha256": "612f0e05ac8f005f26100fd7995786f231f7e2da02a4f501c6bcb906564a00ed"
     },
     {
       "file": "provenance.json",
-      "sha256": "ad1a55ae6240923c91ea9eadef7466b09dcde7c1b046e611114ca3ae3dda7e9c"
+      "sha256": "d7c60cac7fc03f29a6c566fe008e754cd5fe95541a847c221537f7d56340c5f6"
+    },
+    {
+      "file": "source-inventory.csv",
+      "sha256": "29e2b89c9d4f05a392f7ffd78b8b15c46742d190f48c4860ef7c40ea9c0edf61"
+    },
+    {
+      "file": "correspondences.json",
+      "sha256": "95daa71bdcf677b253fb16aae6f3ae88bb83f2d71900f286ab7bad319916a349"
+    },
+    {
+      "file": "visible-windows.json",
+      "sha256": "03b5543494d2d0045a2562a826ea8630ae866e7b2a2d8f91307b34b33a162f54"
     }
   ]
 }

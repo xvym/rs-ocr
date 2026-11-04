@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "scope": "Original source, visible-range, value-preservation, fallback, frozen baseline and handoff checks; not full first-edition or independent/live acceptance",
+  "checks": [
+    {
+      "name": "Every S3 target and non-whitespace character has a complete visible-unit disposition, with explicit Spec scope",
+      "passed": true
+    },
+    {
+      "name": "Every reviewed quote is re-extracted from pinned RSC bytes and the compiled index is reproducible",
+      "passed": true
+    },
+    {
+      "name": "Nurse greeting, recovery explanation and question never expose later independent pages",
+      "passed": true
+    },
+    {
+      "name": "Bookshelf heading and the two overlapping title windows select their actual original ranges",
+      "passed": true
+    },
+    {
+      "name": "Battle menu cells and PP exclude palette, coordinate and unrelated-cell controls",
+      "passed": true
+    },
+    {
+      "name": "Unidentified actors, unseen required rank and unlocated titles keep current Japanese",
+      "passed": true
+    },
+    {
+      "name": "Unique original sources publish unchanged RSC wording despite localization or entity differences",
+      "passed": true
+    },
+    {
+      "name": "Quantities, display numbers, prices, stats, trainer IDs and new current values are copied verbatim",
+      "passed": true
+    },
+    {
+      "name": "No prefix, unknown glyph, wrong layout or unmatched window can acquire a translation",
+      "passed": true
+    },
+    {
+      "name": "Cross-version witnesses are required and unapproved game conflicts cannot pick a first result",
+      "passed": true
+    },
+    {
+      "name": "Changed original Chinese, invalid ranges, injected controls, duplicate rules and forged source identities are rejected",
+      "passed": true
+    },
+    {
+      "name": "Frozen reference and evaluation manifests bind current sources, decisions and implementations without old model gold",
+      "passed": true
+    },
+    {
+      "name": "Isolated S6 handoff loads original citations without upstream files or the reference",
+      "passed": true
+    },
+    {
+      "name": "Repeated full actual-input evaluation reproduces the fixed baseline and all review data",
+      "passed": true
+    }
+  ]
+}

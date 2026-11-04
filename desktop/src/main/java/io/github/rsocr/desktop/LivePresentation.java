@@ -31,7 +31,7 @@ public final class LivePresentation {
                 if(!observed.equals(entry.candidate)) {entry.candidate=observed;entry.since=now;}
                 if(now-entry.since>=(observed.empty()?HIDE_NANOS:MOVE_NANOS))entry.shown=observed;
             }
-            result.add(new Panel(panel.key(),panel.name(),panel.clip(),panel.frame(),panel.order(),panel.raw(),panel.status(),panel.runs(),entry.shown.pointers(),entry.shown.selections()));
+            result.add(new Panel(panel.key(),panel.name(),panel.clip(),panel.frame(),panel.order(),panel.raw(),panel.status(),panel.runs(),entry.shown.pointers(),entry.shown.selections(),panel.translations()));
         }
         entries.keySet().retainAll(visible);return List.copyOf(result);
     }

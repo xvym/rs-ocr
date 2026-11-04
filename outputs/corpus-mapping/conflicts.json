@@ -774,7 +774,7 @@
       "candidate-005348",
       "candidate-009576"
     ],
-    "status": "resolved_offline"
+    "status": "context_required"
   },
   {
     "game": "ruby",
@@ -876,7 +876,7 @@
       "candidate-008111",
       "candidate-008112"
     ],
-    "status": "resolved_offline"
+    "status": "context_required"
   },
   {
     "game": "ruby",
@@ -893,7 +893,7 @@
       "candidate-005684",
       "candidate-008092"
     ],
-    "status": "resolved_offline"
+    "status": "context_required"
   },
   {
     "game": "ruby",
@@ -1416,7 +1416,7 @@
       "candidate-007007",
       "candidate-008155"
     ],
-    "status": "resolved_offline"
+    "status": "context_required"
   },
   {
     "game": "ruby",
@@ -2739,7 +2739,7 @@
       "candidate-015985",
       "candidate-020214"
     ],
-    "status": "resolved_offline"
+    "status": "context_required"
   },
   {
     "game": "sapphire",
@@ -2838,7 +2838,7 @@
       "candidate-017018",
       "candidate-018764"
     ],
-    "status": "resolved_offline"
+    "status": "context_required"
   },
   {
     "game": "sapphire",
@@ -2859,7 +2859,7 @@
       "candidate-018749",
       "candidate-018750"
     ],
-    "status": "resolved_offline"
+    "status": "context_required"
   },
   {
     "game": "sapphire",
@@ -2876,7 +2876,7 @@
       "candidate-016321",
       "candidate-018730"
     ],
-    "status": "resolved_offline"
+    "status": "context_required"
   },
   {
     "game": "sapphire",
@@ -3365,7 +3365,7 @@
       "candidate-017644",
       "candidate-018793"
     ],
-    "status": "resolved_offline"
+    "status": "context_required"
   },
   {
     "game": "sapphire",

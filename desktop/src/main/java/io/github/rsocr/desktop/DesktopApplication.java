@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.rsocr.Normalizer;
 import io.github.rsocr.OcrEngine;
 import io.github.rsocr.desktop.capture.*;
+import io.github.rsocr.desktop.translation.*;
 import javafx.application.*;
 import javafx.animation.PauseTransition;
 import javafx.util.Duration;
@@ -24,6 +25,12 @@ public final class DesktopApplication extends Application {
     private final ExecutorService worker=Executors.newSingleThreadExecutor(r->{var t=new Thread(r,"rs-ocr-images");t.setDaemon(true);return t;});
     private OcrEngine engine;
     private Presentation presentation;
+    private TranslationEngine translationEngine;
+    private TranslationSession.Frame imageTranslations;
+    private final TranslationPresentation translationPresentation=new TranslationPresentation();
+    private final ComboBox<String> game=new ComboBox<>();
+    private final TextField playerName=new TextField();
+    private String manualPlayer="";
     private final LivePresentation livePresentation=new LivePresentation();
     private final PauseTransition selectionRefresh=new PauseTransition(Duration.millis(60));
     private List<Presentation.Panel> livePanels=List.of();
@@ -44,7 +51,7 @@ public final class DesktopApplication extends Application {
     private VBox sourcePane;
     private Path lastDirectory;
 
-    @Override public void init() throws Exception { engine=new OcrEngine(mapper);presentation=new Presentation(mapper);imageLayout=new LiveLayout(mapper);live=new LiveSession(mapper,this::acceptLive); }
+    @Override public void init() throws Exception { engine=new OcrEngine(mapper);presentation=new Presentation(mapper);translationEngine=new TranslationEngine(mapper);imageLayout=new LiveLayout(mapper);live=new LiveSession(mapper,this::acceptLive,translationEngine); }
     @Override public void start(Stage stage) {
         selectionRefresh.setOnFinished(e->{if(liveMode && liveView!=null)showLiveResult(liveView);});
         var open=new Button("打开图片");open.setDefaultButton(false);open.setOnAction(e->openImage(stage));
@@ -60,23 +67,28 @@ public final class DesktopApplication extends Application {
         sources.setOnAction(e->{if(liveMode && sources.getValue()!=null)startLive();});
         var begin=new Button("开始实时");begin.setOnAction(e->startLive());calibrate.setDisable(true);calibrate.setOnAction(e->calibrate(stage));measure.setOnAction(e->saveMeasurement(stage));
         var captureBar=new HBox(9,new Label("捕获窗口"),sources,refreshSources,begin,calibrate,measure);HBox.setHgrow(sources,Priority.ALWAYS);captureBar.setPadding(new Insets(0,15,12,15));
+        game.getItems().setAll("未指定","红宝石","蓝宝石");game.getSelectionModel().select(0);game.setAccessibleText("游戏版本");
+        game.setOnAction(e->{if(liveMode)startLive();else if(index>=0)loadCurrent();});
+        playerName.setPromptText("日文名字，可留空");playerName.setPrefColumnCount(8);playerName.setAccessibleText("当前玩家名");
+        var applyName=new Button("应用名字");applyName.setOnAction(e->{try{var check=new TranslationSession(translationEngine);check.configure(selectedGame(),playerName.getText());manualPlayer=playerName.getText().strip();if(liveMode)startLive();else if(index>=0)loadCurrent();else status.setText(manualPlayer.isEmpty()?"已清除手动玩家名":"已设置当前玩家名");}catch(IllegalArgumentException error){status.setText(error.getMessage());}});
+        var translationBar=new HBox(9,new Label("游戏"),game,new Separator(),new Label("玩家名"),playerName,applyName);translationBar.setPadding(new Insets(0,15,12,15));
         file.getStyleClass().add("filename");file.setMaxWidth(Double.MAX_VALUE);HBox.setHgrow(file,Priority.ALWAYS);
         var meta=new HBox(12,file,preview,debug);meta.setPadding(new Insets(10,17,10,17));
-        sourcePane=board("实机画面",original);var resultPane=board("原始日文",result);
+        sourcePane=board("实机画面",original);var resultPane=board("原汉化中文",result);
         var boards=new HBox(14,sourcePane,resultPane);boards.setPadding(new Insets(0,17,12,17));HBox.setHgrow(sourcePane,Priority.ALWAYS);HBox.setHgrow(resultPane,Priority.ALWAYS);
         sourcePane.prefWidthProperty().bind(boards.widthProperty().subtract(48).divide(2));resultPane.prefWidthProperty().bind(boards.widthProperty().subtract(48).divide(2));
         sourcePane.setMinWidth(0);resultPane.setMinWidth(0);
         diagnostics.setEditable(false);diagnostics.setWrapText(false);diagnostics.setPrefRowCount(8);diagnostics.setVisible(false);diagnostics.setManaged(false);diagnostics.setAccessibleText("识别诊断");
-        debug.setOnAction(e->{diagnostics.setVisible(debug.isSelected());diagnostics.setManaged(debug.isSelected());if(liveMode&&liveView!=null)diagnostics.setText(liveView.diagnostics()+"\n\n"+liveView.regions());});
+        debug.setOnAction(e->{diagnostics.setVisible(debug.isSelected());diagnostics.setManaged(debug.isSelected());if(liveMode&&liveView!=null)showLiveDiagnostics(liveView);});
         status.setPadding(new Insets(9,17,12,17));status.setMaxWidth(Double.MAX_VALUE);status.getStyleClass().add("status");
-        var root=new VBox(toolbar,captureBar,meta,boards,diagnostics,status);VBox.setVgrow(boards,Priority.ALWAYS);
+        var root=new VBox(toolbar,captureBar,translationBar,meta,boards,diagnostics,status);VBox.setVgrow(boards,Priority.ALWAYS);
         var scene=new Scene(root,1250,760);scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("/desktop.css")).toExternalForm());
         scene.getAccelerators().put(new KeyCodeCombination(KeyCode.O,KeyCombination.CONTROL_DOWN),()->openImage(stage));
         scene.getAccelerators().put(new KeyCodeCombination(KeyCode.RIGHT,KeyCombination.ALT_DOWN),()->navigate(1));
         scene.getAccelerators().put(new KeyCodeCombination(KeyCode.LEFT,KeyCombination.ALT_DOWN),()->navigate(-1));
         scene.getAccelerators().put(new KeyCodeCombination(KeyCode.F5),()->{if(liveMode)startLive();else loadCurrent();});
         scene.addPostLayoutPulseListener(()->{if(pulseView!=null && liveMode){live.displayed(pulseView,System.nanoTime());pulseView=null;}});
-        stage.setTitle("RS OCR · 原始日文");stage.setMinWidth(990);stage.setMinHeight(600);stage.setScene(scene);stage.setOnCloseRequest(e->clear());stage.show();refresh();
+        stage.setTitle("RS OCR · 原汉化中文");stage.setMinWidth(990);stage.setMinHeight(650);stage.setScene(scene);stage.setOnCloseRequest(e->clear());stage.show();refresh();
         refreshSources();
         try {
             var options=options(getParameters().getRaw());
@@ -116,11 +128,13 @@ public final class DesktopApplication extends Application {
         files=entries;index=0;lastDirectory=path.toAbsolutePath().normalize();loadCurrent();
     }
     private void navigate(int delta) {if(index+delta>=0 && index+delta<files.size()){index+=delta;loadCurrent();}}
-    private void clear() {if(pending!=null)pending.cancel(true);liveMode=false;live.stop();liveView=null;pulseView=null;calibrate.setDisable(true);session.stop();refresh();}
-    private void showError(Exception e) {liveMode=false;live.stop();calibrate.setDisable(true);long generation=session.begin(index>=0?files.get(index):null);session.fail(generation,"无法识别："+e.getMessage());refresh();}
+    private String selectedGame() {return switch(game.getSelectionModel().getSelectedIndex()){case 1->"ruby";case 2->"sapphire";default->"both";};}
+    private void clear() {if(pending!=null)pending.cancel(true);liveMode=false;live.stop();liveView=null;pulseView=null;imageTranslations=null;selectionRefresh.stop();livePresentation.reset();calibrate.setDisable(true);session.stop();refresh();}
+    private void showError(Exception e) {liveMode=false;live.stop();imageTranslations=null;liveView=null;pulseView=null;selectionRefresh.stop();calibrate.setDisable(true);long generation=session.begin(index>=0?files.get(index):null);session.fail(generation,"无法识别："+e.getMessage());refresh();}
     private void loadCurrent() {
         if(index<0)return;if(liveMode){liveMode=false;live.stop();liveView=null;pulseView=null;calibrate.setDisable(true);}if(pending!=null)pending.cancel(true);
-        Path path=files.get(index);int selectedProfile=profile.getSelectionModel().getSelectedIndex();long generation=session.begin(path);refresh();
+        imageTranslations=null;Path path=files.get(index);int selectedProfile=profile.getSelectionModel().getSelectedIndex();long generation=session.begin(path);refresh();
+        var translator=new TranslationSession(translationEngine);translator.configure(selectedGame(),manualPlayer);
         pending=worker.submit(()->{
             try {
                 long started=System.nanoTime();var input=ImageIO.read(path.toFile());if(input==null)throw new IllegalArgumentException("无法读取这张图片。");
@@ -129,8 +143,9 @@ public final class DesktopApplication extends Application {
                 Platform.runLater(()->{if(session.imageReady(generation,image))refresh();});
                 double gain=preset.equals("ngc-capture")?.82:.984;
                 var regions=engine.recognize(imageLayout.textImage(image,imageLayout.locate(image,gain)),gain);
+                var translated=translator.translate(regions);
                 double elapsed=(System.nanoTime()-started)/1_000_000.0;
-                Platform.runLater(()->{if(session.complete(generation,regions,elapsed))refresh();});
+                Platform.runLater(()->{if(session.complete(generation,regions,elapsed)){imageTranslations=translated;refresh();}});
             } catch(Exception e) {Platform.runLater(()->{if(session.fail(generation,"无法识别："+e.getMessage()))refresh();});}
         });
     }
@@ -139,12 +154,12 @@ public final class DesktopApplication extends Application {
         throw new IllegalArgumentException("图片尺寸未适配，请使用 1200×800、1600×1200 或 240×160 的截图。");
     }
     private void refresh() {
-        var view=session.view();var panels=presentation.panels(view.regions(),view.image());var image=ResultCanvas.image(view.image());
+        var view=session.view();var panels=translationPresentation.apply(presentation.panels(view.regions(),view.image()),imageTranslations);var image=ResultCanvas.image(view.image());
         original.show(image,List.of(),view.message());result.show(null,panels,view.message());
         file.setText(index<0?"尚未打开图片":String.format("%d / %d   %s",index+1,files.size(),files.get(index).getFileName()));
         previous.setDisable(index<=0);next.setDisable(index<0||index+1>=files.size());recognize.setDisable(index<0);stop.setDisable(view.phase()==ImageSession.Phase.IDLE||view.phase()==ImageSession.Phase.STOPPED);
         status.setText(view.message()+(view.phase()==ImageSession.Phase.READY?String.format(" · %d 个区域 · 离线处理 %.0f ms",panels.size(),view.elapsedMs()):""));
-        try {diagnostics.setText(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(Map.of("state",view.phase(),"generation",view.generation(),"rawRegions",view.regions(),"displayPanels",panels)));}catch(Exception e){diagnostics.setText(e.toString());}
+        try {diagnostics.setText(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(Map.of("state",view.phase(),"generation",view.generation(),"rawRegions",view.regions(),"displayPanels",panels,"translation",imageTranslations==null?"":imageTranslations)));}catch(Exception e){diagnostics.setText(e.toString());}
     }
     private void refreshSources() {
         var selected=sources.getValue();
@@ -156,18 +171,18 @@ public final class DesktopApplication extends Application {
         if(pending!=null)pending.cancel(true);session.stop();liveMode=true;liveView=null;pulseView=null;
         original.show(null,List.of(),"等待窗口画面…");result.show(null,List.of(),"等待窗口画面…");file.setText("实时 · "+selected.title());
         previous.setDisable(true);next.setDisable(true);recognize.setDisable(true);stop.setDisable(false);calibrate.setDisable(true);status.setText("正在连接窗口…");
-        live.start(selected,profile.getSelectionModel().getSelectedIndex());
+        live.translationSettings(selectedGame(),manualPlayer);live.start(selected,profile.getSelectionModel().getSelectedIndex());
     }
     private void acceptLive(LiveSession.View view) {
         Platform.runLater(()->{
             if(!liveMode || view.session()!=live.session() || view.sequence()!=live.latestSequence())return;
             if(liveView==null || liveView.session()!=view.session() || liveView.captureRevision()!=view.captureRevision() || liveView.mapping()!=view.mapping())livePresentation.reset();
             boolean imageChanged=liveView==null || liveView.image()!=view.image();
-            liveView=view;livePanels=presentation.panels(view.regions(),view.image());
+            liveView=view;livePanels=translationPresentation.apply(presentation.panels(view.regions(),view.image()),view.translations());
             if(imageChanged || view.image()==null)original.show(ResultCanvas.image(view.image()),List.of(),view.status());
             showLiveResult(view);
             calibrate.setDisable(view.captured()==null);status.setText(view.status()+" · "+livePanels.size()+" 个区域");
-            if(debug.isSelected())diagnostics.setText(view.diagnostics()+"\n\n"+view.regions());
+            if(debug.isSelected())showLiveDiagnostics(view);
             pulseView=view;Platform.requestNextPulse();
         });
     }
@@ -175,6 +190,7 @@ public final class DesktopApplication extends Application {
         result.show(null,livePresentation.stabilize(livePanels),view.status());
         if(livePresentation.needsRefresh())selectionRefresh.playFromStart();else selectionRefresh.stop();
     }
+    private void showLiveDiagnostics(LiveSession.View view) {try{diagnostics.setText(view.diagnostics()+"\n\n"+mapper.writerWithDefaultPrettyPrinter().writeValueAsString(Map.of("rawRegions",view.regions(),"translation",view.translations()==null?"":view.translations())));}catch(Exception error){diagnostics.setText(error.toString());}}
     private void calibrate(Stage stage) {
         var view=liveView;if(!liveMode || view==null || view.captured()==null){status.setText("请先开始实时捕获，等待窗口画面");return;}
         long sessionId=view.session();

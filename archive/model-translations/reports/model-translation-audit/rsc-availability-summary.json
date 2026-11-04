@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "fd479abe2bdb3f4104678500d9c58c5994a55215",
+  "denominator": 2194,
+  "statuses": {
+    "existing_RSC_source_translation_candidate": 1166,
+    "unresolved_not_proven_missing": 996,
+    "not_an_original_game_translation_unit": 32
+  },
+  "resourceOnly": {
+    "denominator": 1816,
+    "statuses": {
+      "existing_RSC_source_translation_candidate": 926,
+      "unresolved_not_proven_missing": 890
+    }
+  },
+  "confirmedMissing": 0,
+  "confirmedMissingMeaning": "No item has yet been established absent/untranslated in the original project by a verified original location or complete source audit. This is not a finding that the project has zero missing translations.",
+  "existingMeaning": "An explicit corresponding original source record/template or complete identical Japanese term has nonempty RSC translation candidates in at least one applicable game. Some are a full parent page/script, and a few contain only quoted variables. This does not approve every visible subwindow, establish per-game completeness, or prove identical Japanese/English semantics.",
+  "missingBoundary": "No candidate/bridge, empty internal substring, untranslated native composition, or lack of standalone wording is not sufficient proof that the RSC project has no translation.",
+  "baseline": {
+    "rscImportedRows": 19610,
+    "originalCandidateRows": 21192,
+    "pinnedRSCCommit": "f513cf437acca23d1a5882650ee3b148dc463a17"
+  },
+  "nonApplicable": "Only fragments, explicitly unverified constructed scenarios, and test grammars without an original game translation unit; not missing game text."
+}

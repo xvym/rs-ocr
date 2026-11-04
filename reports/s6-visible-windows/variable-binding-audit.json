@@ -1,0 +1,3796 @@
+{
+  "scope": "All earlier variable_printing_unverified cases, reviewed by original template and binding family",
+  "uniqueCases": 101,
+  "occurrences": 134,
+  "families": [
+    {
+      "id": "rival_help_father",
+      "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D15",
+      "window": {
+        "page": 1,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[对手]": {
+          "from": "capture",
+          "slot": "RIVAL",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-000611",
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D15",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 614,
+          "sourceChineseSha256": "65e2f09d7f3466838e3435681f2d05f4caa6fe1024bba4945f71a529cf490063",
+          "span": [
+            23,
+            48
+          ],
+          "quoteSha256": "855bceaf401c9f23758c21214a5183cbdb206cbcb8a2b73b79a0cba6755f8cc1"
+        },
+        {
+          "candidateId": "candidate-011174",
+          "qid": "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173D15",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 614,
+          "sourceChineseSha256": "65e2f09d7f3466838e3435681f2d05f4caa6fe1024bba4945f71a529cf490063",
+          "span": [
+            23,
+            48
+          ],
+          "quoteSha256": "855bceaf401c9f23758c21214a5183cbdb206cbcb8a2b73b79a0cba6755f8cc1"
+        }
+      ]
+    },
+    {
+      "id": "pc_boot",
+      "qid": "rs.script.pc.Text_BootUpPC",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-002416",
+          "qid": "rs.script.pc.Text_BootUpPC",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 2430,
+          "sourceChineseSha256": "1ed2546e4c4fdf4e4ed2b5ebfdf29516602f3ea38bdc297e796f8e4fdb89b2e4",
+          "span": [
+            0,
+            10
+          ],
+          "quoteSha256": "1ed2546e4c4fdf4e4ed2b5ebfdf29516602f3ea38bdc297e796f8e4fdb89b2e4"
+        },
+        {
+          "candidateId": "candidate-013049",
+          "qid": "rs.script.pc.Text_BootUpPC",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 2430,
+          "sourceChineseSha256": "1ed2546e4c4fdf4e4ed2b5ebfdf29516602f3ea38bdc297e796f8e4fdb89b2e4",
+          "span": [
+            0,
+            10
+          ],
+          "quoteSha256": "1ed2546e4c4fdf4e4ed2b5ebfdf29516602f3ea38bdc297e796f8e4fdb89b2e4"
+        }
+      ]
+    },
+    {
+      "id": "pc_owner",
+      "qid": "rs.common.strings.gPCText_PlayersPC",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-010087",
+          "qid": "rs.common.strings.gPCText_PlayersPC",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9320,
+          "sourceChineseSha256": "ea5e7ab085a9fdf49418e5b3a64a69c598c21df999f9b103af500748f018e09f",
+          "span": [
+            0,
+            7
+          ],
+          "quoteSha256": "ea5e7ab085a9fdf49418e5b3a64a69c598c21df999f9b103af500748f018e09f"
+        },
+        {
+          "candidateId": "candidate-020725",
+          "qid": "rs.common.strings.gPCText_PlayersPC",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9320,
+          "sourceChineseSha256": "ea5e7ab085a9fdf49418e5b3a64a69c598c21df999f9b103af500748f018e09f",
+          "span": [
+            0,
+            7
+          ],
+          "quoteSha256": "ea5e7ab085a9fdf49418e5b3a64a69c598c21df999f9b103af500748f018e09f"
+        }
+      ]
+    },
+    {
+      "id": "party_action",
+      "qid": "rs.common.strings.OtherText_DoWhat",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[buffer1]": {
+          "from": "capture",
+          "slot": "STR_VAR_1",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009813",
+          "qid": "rs.common.strings.OtherText_DoWhat",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9039,
+          "sourceChineseSha256": "bf92dad824f37b96343ed60e4cf0c4a13c70943391891b12ae4bba9f77d7385b",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "bf92dad824f37b96343ed60e4cf0c4a13c70943391891b12ae4bba9f77d7385b"
+        },
+        {
+          "candidateId": "candidate-020451",
+          "qid": "rs.common.strings.OtherText_DoWhat",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9039,
+          "sourceChineseSha256": "bf92dad824f37b96343ed60e4cf0c4a13c70943391891b12ae4bba9f77d7385b",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "bf92dad824f37b96343ed60e4cf0c4a13c70943391891b12ae4bba9f77d7385b"
+        }
+      ]
+    },
+    {
+      "id": "professor_greeting",
+      "qid": "rs.script.pokedex_rating.gBirchDexRatingText_ComeToShowMePokedex",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        },
+        "[占位符]": {
+          "from": "capture",
+          "slot": "KUN",
+          "category": "honorific"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-004055",
+          "qid": "rs.script.pokedex_rating.gBirchDexRatingText_ComeToShowMePokedex",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 4082,
+          "sourceChineseSha256": "e0ab5a7ee100ee0f45c9636abcb4a0a66222115cd43271fb43297f3933195f3b",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "fa5a02d62d1094c1e1db7c122d94352de712388f3e0b18c511bafec4208ae2bd"
+        },
+        {
+          "candidateId": "candidate-014692",
+          "qid": "rs.script.pokedex_rating.gBirchDexRatingText_ComeToShowMePokedex",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 4082,
+          "sourceChineseSha256": "e0ab5a7ee100ee0f45c9636abcb4a0a66222115cd43271fb43297f3933195f3b",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "fa5a02d62d1094c1e1db7c122d94352de712388f3e0b18c511bafec4208ae2bd"
+        }
+      ]
+    },
+    {
+      "id": "wild_encounter",
+      "qid": "rs.common.battle_strings.BattleText_WildAppeared1",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[buffer2]": {
+          "from": "capture",
+          "slot": "B_COPY_VAR_2",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009189",
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7250,
+          "sourceChineseSha256": "d488c8130a4315beca67005d81ed49dedf0bc5aa2b2cb86f53b5f42e2d6654d2",
+          "span": [
+            0,
+            17
+          ],
+          "quoteSha256": "99347c8cc4dde3287c2d7210b346eed554f294a29b2cb65709144b1c3a1a7f2e"
+        },
+        {
+          "candidateId": "candidate-019827",
+          "qid": "rs.common.battle_strings.BattleText_WildAppeared1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7250,
+          "sourceChineseSha256": "3ebe93d3dd902ddb233ca053ef2554858c30275e3997a52e04cfbc1e8e7eb117",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "2a106e48edea5c62ea4e197ae8ecd7a33018ad88a8e481b2740a6181515105dd"
+        }
+      ]
+    },
+    {
+      "id": "send_out",
+      "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[buffer1]": {
+          "from": "capture",
+          "slot": "B_COPY_VAR_1",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009204",
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7265,
+          "sourceChineseSha256": "be691f863641abf444ee1255ee44d160281e4f654864db4982f31f812d73ab44",
+          "span": [
+            0,
+            13
+          ],
+          "quoteSha256": "be691f863641abf444ee1255ee44d160281e4f654864db4982f31f812d73ab44"
+        },
+        {
+          "candidateId": "candidate-019842",
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle6",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7265,
+          "sourceChineseSha256": "be691f863641abf444ee1255ee44d160281e4f654864db4982f31f812d73ab44",
+          "span": [
+            0,
+            13
+          ],
+          "quoteSha256": "be691f863641abf444ee1255ee44d160281e4f654864db4982f31f812d73ab44"
+        }
+      ]
+    },
+    {
+      "id": "move_use",
+      "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "[玩家]": {
+          "from": "meaning_term",
+          "field": "moveQid",
+          "kind": "move"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009226",
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7287,
+          "sourceChineseSha256": "79ff54f67f595e04dcb18e29013c3497d81edc76edf633957d16d75409308ddb",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "79ff54f67f595e04dcb18e29013c3497d81edc76edf633957d16d75409308ddb"
+        },
+        {
+          "candidateId": "candidate-019864",
+          "qid": "rs.common.battle_strings.BattleText_OpponentUsedMove",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7287,
+          "sourceChineseSha256": "79ff54f67f595e04dcb18e29013c3497d81edc76edf633957d16d75409308ddb",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "79ff54f67f595e04dcb18e29013c3497d81edc76edf633957d16d75409308ddb"
+        }
+      ]
+    },
+    {
+      "id": "fainted",
+      "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008885",
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6944,
+          "sourceChineseSha256": "44d60e16eeaf4151487270aa12610fecbbae7a185c82d21d632a995581e90f28",
+          "span": [
+            0,
+            22
+          ],
+          "quoteSha256": "12c26236e5e7cf6ff6fd311779f8405fe3c44ee2874cb2547046970244558cb4"
+        },
+        {
+          "candidateId": "candidate-019523",
+          "qid": "rs.common.battle_strings.BattleText_AttackingFainted",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6944,
+          "sourceChineseSha256": "44d60e16eeaf4151487270aa12610fecbbae7a185c82d21d632a995581e90f28",
+          "span": [
+            0,
+            22
+          ],
+          "quoteSha256": "12c26236e5e7cf6ff6fd311779f8405fe3c44ee2874cb2547046970244558cb4"
+        }
+      ]
+    },
+    {
+      "id": "experience_normal",
+      "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h00": {
+          "from": "capture",
+          "slot": "B_BUFF1.actor",
+          "category": "actor"
+        },
+        "[玩家]": {
+          "from": "normal_experience_empty"
+        },
+        "\\v\\h2A": {
+          "from": "capture",
+          "slot": "B_BUFF2",
+          "category": "number"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008869",
+          "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6927,
+          "sourceChineseSha256": "30506fe3f2fac51158c49fd5cc69a10dc6c62ce970429b818f01d99f4a08aac9",
+          "span": [
+            0,
+            26
+          ],
+          "quoteSha256": "ebeb7192f0ab2afac544f55f8b101505cadd896f6d78e5987187ef6df52fc086"
+        },
+        {
+          "candidateId": "candidate-019507",
+          "qid": "rs.common.battle_strings.BattleText_GainExpPoints",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6927,
+          "sourceChineseSha256": "30506fe3f2fac51158c49fd5cc69a10dc6c62ce970429b818f01d99f4a08aac9",
+          "span": [
+            0,
+            26
+          ],
+          "quoteSha256": "ebeb7192f0ab2afac544f55f8b101505cadd896f6d78e5987187ef6df52fc086"
+        }
+      ]
+    },
+    {
+      "id": "stat_down",
+      "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "\\v\\h00": {
+          "from": "model_component",
+          "index": 0
+        },
+        "[玩家]": {
+          "from": "model_component",
+          "index": 1
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009116",
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7177,
+          "sourceChineseSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2"
+        },
+        {
+          "candidateId": "candidate-019754",
+          "qid": "rs.common.battle_strings.BattleText_UnknownString5",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7177,
+          "sourceChineseSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2"
+        }
+      ]
+    },
+    {
+      "id": "stat_up",
+      "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "\\v\\h00": {
+          "from": "model_component",
+          "index": 0
+        },
+        "[玩家]": {
+          "from": "model_component",
+          "index": 1
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009113",
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7174,
+          "sourceChineseSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2"
+        },
+        {
+          "candidateId": "candidate-019751",
+          "qid": "rs.common.battle_strings.BattleText_UnknownString7",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7174,
+          "sourceChineseSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "027702678a54352512bb5de18e6da6117600489c2984f78159c5abc9921e0bf2"
+        }
+      ]
+    },
+    {
+      "id": "rain_ability",
+      "qid": "rs.common.battle_strings.BattleText_RainMade",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h10": {
+          "from": "capture",
+          "slot": "B_SCR_ACTIVE_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "\\v\\h17": {
+          "from": "lexical_capture",
+          "slot": "B_SCR_ACTIVE_ABILITY",
+          "kind": "ability",
+          "allowedQids": [
+            "rs.common.ability_names.gAbilityNames.2"
+          ]
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009072",
+          "qid": "rs.common.battle_strings.BattleText_RainMade",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7133,
+          "sourceChineseSha256": "c0f77d2b4e3c27ab11f349f77bd18ab6bdef1246bf59ca6aea9c5103caf6c44b",
+          "span": [
+            0,
+            22
+          ],
+          "quoteSha256": "c0f77d2b4e3c27ab11f349f77bd18ab6bdef1246bf59ca6aea9c5103caf6c44b"
+        },
+        {
+          "candidateId": "candidate-019710",
+          "qid": "rs.common.battle_strings.BattleText_RainMade",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7133,
+          "sourceChineseSha256": "c0f77d2b4e3c27ab11f349f77bd18ab6bdef1246bf59ca6aea9c5103caf6c44b",
+          "span": [
+            0,
+            22
+          ],
+          "quoteSha256": "c0f77d2b4e3c27ab11f349f77bd18ab6bdef1246bf59ca6aea9c5103caf6c44b"
+        }
+      ]
+    },
+    {
+      "id": "battle_action_prompt",
+      "qid": "rs.common.battle_strings.BattleText_OtherMenu",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "\\v\\h0F": {
+          "from": "capture",
+          "slot": "B_ACTIVE_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009280",
+          "qid": "rs.common.battle_strings.BattleText_OtherMenu",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7342,
+          "sourceChineseSha256": "888b804161c09ab09ae630aef746a8f28820c77cd90b41480dee5b69890ab7bc",
+          "span": [
+            0,
+            14
+          ],
+          "quoteSha256": "888b804161c09ab09ae630aef746a8f28820c77cd90b41480dee5b69890ab7bc"
+        },
+        {
+          "candidateId": "candidate-019918",
+          "qid": "rs.common.battle_strings.BattleText_OtherMenu",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7342,
+          "sourceChineseSha256": "888b804161c09ab09ae630aef746a8f28820c77cd90b41480dee5b69890ab7bc",
+          "span": [
+            0,
+            14
+          ],
+          "quoteSha256": "888b804161c09ab09ae630aef746a8f28820c77cd90b41480dee5b69890ab7bc"
+        }
+      ]
+    },
+    {
+      "id": "recall_enough",
+      "qid": "rs.common.battle_strings.BattleText_ComeBackSingle1",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h00": {
+          "from": "capture",
+          "slot": "B_BUFF1",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009211",
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7272,
+          "sourceChineseSha256": "4bbe9a7cf65e54366d4c44ebfb79043a0dc5401556e4b1e5dcf311c4bcd3808b",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "4bbe9a7cf65e54366d4c44ebfb79043a0dc5401556e4b1e5dcf311c4bcd3808b"
+        },
+        {
+          "candidateId": "candidate-019849",
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7272,
+          "sourceChineseSha256": "4bbe9a7cf65e54366d4c44ebfb79043a0dc5401556e4b1e5dcf311c4bcd3808b",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "4bbe9a7cf65e54366d4c44ebfb79043a0dc5401556e4b1e5dcf311c4bcd3808b"
+        }
+      ]
+    },
+    {
+      "id": "trainer_challenge",
+      "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h19": {
+          "from": "lexical_capture",
+          "slot": "B_TRAINER1_CLASS",
+          "kind": "trainer_class"
+        },
+        "\\v\\h1A": {
+          "from": "capture",
+          "slot": "B_TRAINER1_NAME",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009193",
+          "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7254,
+          "sourceChineseSha256": "90f5562f471944deae42df3133207ccea17be0a5bb9f9677fbb347bf57c5e5ff",
+          "span": [
+            0,
+            21
+          ],
+          "quoteSha256": "9a53d4b44edc49e6d94abe9bea5df8ec7c2cd52671cdca2ab3d57b06cf8c0e97"
+        },
+        {
+          "candidateId": "candidate-019831",
+          "qid": "rs.common.battle_strings.BattleText_SingleWantToBattle1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7254,
+          "sourceChineseSha256": "90f5562f471944deae42df3133207ccea17be0a5bb9f9677fbb347bf57c5e5ff",
+          "span": [
+            0,
+            21
+          ],
+          "quoteSha256": "9a53d4b44edc49e6d94abe9bea5df8ec7c2cd52671cdca2ab3d57b06cf8c0e97"
+        }
+      ]
+    },
+    {
+      "id": "trainer_send_out",
+      "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h19": {
+          "from": "lexical_capture",
+          "slot": "B_TRAINER1_CLASS",
+          "kind": "trainer_class"
+        },
+        "\\v\\h1A": {
+          "from": "capture",
+          "slot": "B_TRAINER1_NAME",
+          "category": "player"
+        },
+        "[buffer2]": {
+          "from": "capture",
+          "slot": "B_COPY_VAR_2",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009196",
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7257,
+          "sourceChineseSha256": "7b34c25446a486488e52ce77597e7f1d5c4f85c3f3dbabb27557f1c543674820",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "7b34c25446a486488e52ce77597e7f1d5c4f85c3f3dbabb27557f1c543674820"
+        },
+        {
+          "candidateId": "candidate-019834",
+          "qid": "rs.common.battle_strings.BattleText_SentOutSingle1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7257,
+          "sourceChineseSha256": "7b34c25446a486488e52ce77597e7f1d5c4f85c3f3dbabb27557f1c543674820",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "7b34c25446a486488e52ce77597e7f1d5c4f85c3f3dbabb27557f1c543674820"
+        }
+      ]
+    },
+    {
+      "id": "intimidate",
+      "qid": "rs.common.battle_strings.BattleText_CutsAttack",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h10": {
+          "from": "capture",
+          "slot": "B_SCR_ACTIVE_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "\\v\\h17": {
+          "from": "lexical_capture",
+          "slot": "B_SCR_ACTIVE_ABILITY",
+          "kind": "ability",
+          "allowedQids": [
+            "rs.common.ability_names.gAbilityNames.22"
+          ]
+        },
+        "[LegendPokemon2]": {
+          "from": "capture",
+          "slot": "B_DEF_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009085",
+          "qid": "rs.common.battle_strings.BattleText_CutsAttack",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7146,
+          "sourceChineseSha256": "00e053be477136f82f53bed76901758a65a881a4d75b59e829065c4f4641fe8b",
+          "span": [
+            0,
+            38
+          ],
+          "quoteSha256": "00e053be477136f82f53bed76901758a65a881a4d75b59e829065c4f4641fe8b"
+        },
+        {
+          "candidateId": "candidate-019723",
+          "qid": "rs.common.battle_strings.BattleText_CutsAttack",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7146,
+          "sourceChineseSha256": "00e053be477136f82f53bed76901758a65a881a4d75b59e829065c4f4641fe8b",
+          "span": [
+            0,
+            38
+          ],
+          "quoteSha256": "00e053be477136f82f53bed76901758a65a881a4d75b59e829065c4f4641fe8b"
+        }
+      ]
+    },
+    {
+      "id": "attack_missed",
+      "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008879",
+          "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6938,
+          "sourceChineseSha256": "ad4669b5b2d71800f55bcc35c3b9c3384e08b02892038e6850d86f6a8c7279b0",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "ad4669b5b2d71800f55bcc35c3b9c3384e08b02892038e6850d86f6a8c7279b0"
+        },
+        {
+          "candidateId": "candidate-019517",
+          "qid": "rs.common.battle_strings.BattleText_AttackMissed",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6938,
+          "sourceChineseSha256": "ad4669b5b2d71800f55bcc35c3b9c3384e08b02892038e6850d86f6a8c7279b0",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "ad4669b5b2d71800f55bcc35c3b9c3384e08b02892038e6850d86f6a8c7279b0"
+        }
+      ]
+    },
+    {
+      "id": "will_switch_intent",
+      "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h19": {
+          "from": "lexical_capture",
+          "slot": "B_TRAINER1_CLASS",
+          "kind": "trainer_class"
+        },
+        "\\v\\h1A": {
+          "from": "capture",
+          "slot": "B_TRAINER1_NAME",
+          "category": "player"
+        },
+        "[玩家]": {
+          "from": "capture",
+          "slot": "B_BUFF2",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009178",
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7239,
+          "sourceChineseSha256": "820645b503c72269ccc56547604f357b920f49fb521f1033563b6665405a8c67",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "2a920a1f15c5ca748fabca30e6f3d83b982e286b8b90e9da7d890cd64f9140db"
+        },
+        {
+          "candidateId": "candidate-019816",
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7239,
+          "sourceChineseSha256": "820645b503c72269ccc56547604f357b920f49fb521f1033563b6665405a8c67",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "2a920a1f15c5ca748fabca30e6f3d83b982e286b8b90e9da7d890cd64f9140db"
+        }
+      ]
+    },
+    {
+      "id": "will_switch_question",
+      "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+      "window": {
+        "page": 1,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h20": {
+          "from": "capture",
+          "slot": "B_PLAYER_NAME",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009178",
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7239,
+          "sourceChineseSha256": "820645b503c72269ccc56547604f357b920f49fb521f1033563b6665405a8c67",
+          "span": [
+            27,
+            43
+          ],
+          "quoteSha256": "bc5004d1a3a1323c526b1f6ba5be79e4b37f1ae003b79090a6249aab46e9cbcd"
+        },
+        {
+          "candidateId": "candidate-019816",
+          "qid": "rs.common.battle_strings.BattleText_WillSwitch",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7239,
+          "sourceChineseSha256": "820645b503c72269ccc56547604f357b920f49fb521f1033563b6665405a8c67",
+          "span": [
+            27,
+            43
+          ],
+          "quoteSha256": "bc5004d1a3a1323c526b1f6ba5be79e4b37f1ae003b79090a6249aab46e9cbcd"
+        }
+      ]
+    },
+    {
+      "id": "await_move",
+      "qid": "rs.common.battle_strings.BattleText_AwaitMove",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009054",
+          "qid": "rs.common.battle_strings.BattleText_AwaitMove",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7115,
+          "sourceChineseSha256": "a790f5f2233062bf28859791a707ce93802ec7c759281bdaa536bf5ad3690365",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "a790f5f2233062bf28859791a707ce93802ec7c759281bdaa536bf5ad3690365"
+        },
+        {
+          "candidateId": "candidate-019692",
+          "qid": "rs.common.battle_strings.BattleText_AwaitMove",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7115,
+          "sourceChineseSha256": "a790f5f2233062bf28859791a707ce93802ec7c759281bdaa536bf5ad3690365",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "a790f5f2233062bf28859791a707ce93802ec7c759281bdaa536bf5ad3690365"
+        }
+      ]
+    },
+    {
+      "id": "flinched",
+      "qid": "rs.common.battle_strings.BattleText_Flinched",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008933",
+          "qid": "rs.common.battle_strings.BattleText_Flinched",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6993,
+          "sourceChineseSha256": "0b517d7f7a97c7b17c8ea47acde4dcba4acce6225a9b77364fe8d32e4f839819",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "0b517d7f7a97c7b17c8ea47acde4dcba4acce6225a9b77364fe8d32e4f839819"
+        },
+        {
+          "candidateId": "candidate-019571",
+          "qid": "rs.common.battle_strings.BattleText_Flinched",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6993,
+          "sourceChineseSha256": "0b517d7f7a97c7b17c8ea47acde4dcba4acce6225a9b77364fe8d32e4f839819",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "0b517d7f7a97c7b17c8ea47acde4dcba4acce6225a9b77364fe8d32e4f839819"
+        }
+      ]
+    },
+    {
+      "id": "won_trainer",
+      "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h19": {
+          "from": "lexical_capture",
+          "slot": "B_TRAINER1_CLASS",
+          "kind": "trainer_class"
+        },
+        "\\v\\h1A": {
+          "from": "capture",
+          "slot": "B_TRAINER1_NAME",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009180",
+          "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7241,
+          "sourceChineseSha256": "812eacdddfd006311adc51644633e3c89f535d26c68ab170f4e28f24e4b35208",
+          "span": [
+            0,
+            19
+          ],
+          "quoteSha256": "b419f370ab1090b01cb805233f64c98c6a9f0e78859e95ebf48f26ebffcd7402"
+        },
+        {
+          "candidateId": "candidate-019818",
+          "qid": "rs.common.battle_strings.BattleText_PlayerDefeatedTrainer2",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7241,
+          "sourceChineseSha256": "812eacdddfd006311adc51644633e3c89f535d26c68ab170f4e28f24e4b35208",
+          "span": [
+            0,
+            19
+          ],
+          "quoteSha256": "b419f370ab1090b01cb805233f64c98c6a9f0e78859e95ebf48f26ebffcd7402"
+        }
+      ]
+    },
+    {
+      "id": "became_confused",
+      "qid": "rs.common.battle_strings.BattleText_BecameConfused",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h0E": {
+          "from": "capture",
+          "slot": "B_EFF_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008926",
+          "qid": "rs.common.battle_strings.BattleText_BecameConfused",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6986,
+          "sourceChineseSha256": "e5b2db7ab9a2a5fd4ca20d2ad398a289d6d38031bda422d4aa81810bf4e7f1f8",
+          "span": [
+            0,
+            12
+          ],
+          "quoteSha256": "e5b2db7ab9a2a5fd4ca20d2ad398a289d6d38031bda422d4aa81810bf4e7f1f8"
+        },
+        {
+          "candidateId": "candidate-019564",
+          "qid": "rs.common.battle_strings.BattleText_BecameConfused",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6986,
+          "sourceChineseSha256": "e5b2db7ab9a2a5fd4ca20d2ad398a289d6d38031bda422d4aa81810bf4e7f1f8",
+          "span": [
+            0,
+            12
+          ],
+          "quoteSha256": "e5b2db7ab9a2a5fd4ca20d2ad398a289d6d38031bda422d4aa81810bf4e7f1f8"
+        }
+      ]
+    },
+    {
+      "id": "hp_restored",
+      "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[buffer1]": {
+          "from": "capture",
+          "slot": "STR_VAR_1",
+          "category": "actor"
+        },
+        "[buffer2]": {
+          "from": "capture",
+          "slot": "STR_VAR_2",
+          "category": "number"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009794",
+          "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9020,
+          "sourceChineseSha256": "b568df8cc21bc7f0d77949f68175ba695b2d1737f4a33c13f34958843a5ed2a6",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "0076d5b84f969ab58532c57874409c77b6a9a4b0d2a0fbcbd8c30f0c22ca041e"
+        },
+        {
+          "candidateId": "candidate-020432",
+          "qid": "rs.common.strings.gOtherText_HPRestoredBy",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9020,
+          "sourceChineseSha256": "b568df8cc21bc7f0d77949f68175ba695b2d1737f4a33c13f34958843a5ed2a6",
+          "span": [
+            0,
+            28
+          ],
+          "quoteSha256": "0076d5b84f969ab58532c57874409c77b6a9a4b0d2a0fbcbd8c30f0c22ca041e"
+        }
+      ]
+    },
+    {
+      "id": "curse_lay",
+      "qid": "rs.common.battle_strings.BattleText_CurseLay",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        },
+        "[LegendPokemon2]": {
+          "from": "capture",
+          "slot": "B_DEF_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009009",
+          "qid": "rs.common.battle_strings.BattleText_CurseLay",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7070,
+          "sourceChineseSha256": "b820fcc18a395c17b19628f3da4d52dc317ab326ee464aa5a667244bc7af37c9",
+          "span": [
+            0,
+            51
+          ],
+          "quoteSha256": "b820fcc18a395c17b19628f3da4d52dc317ab326ee464aa5a667244bc7af37c9"
+        },
+        {
+          "candidateId": "candidate-019647",
+          "qid": "rs.common.battle_strings.BattleText_CurseLay",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7070,
+          "sourceChineseSha256": "b820fcc18a395c17b19628f3da4d52dc317ab326ee464aa5a667244bc7af37c9",
+          "span": [
+            0,
+            51
+          ],
+          "quoteSha256": "b820fcc18a395c17b19628f3da4d52dc317ab326ee464aa5a667244bc7af37c9"
+        }
+      ]
+    },
+    {
+      "id": "curse_afflicted",
+      "qid": "rs.common.battle_strings.BattleText_CurseAfflict",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009010",
+          "qid": "rs.common.battle_strings.BattleText_CurseAfflict",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7071,
+          "sourceChineseSha256": "9b9596c7d526b7dc25ad0dc5ed2a6940ba855a2faaf534aea719f064fd52b52d",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "9b9596c7d526b7dc25ad0dc5ed2a6940ba855a2faaf534aea719f064fd52b52d"
+        },
+        {
+          "candidateId": "candidate-019648",
+          "qid": "rs.common.battle_strings.BattleText_CurseAfflict",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7071,
+          "sourceChineseSha256": "9b9596c7d526b7dc25ad0dc5ed2a6940ba855a2faaf534aea719f064fd52b52d",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "9b9596c7d526b7dc25ad0dc5ed2a6940ba855a2faaf534aea719f064fd52b52d"
+        }
+      ]
+    },
+    {
+      "id": "recall_good",
+      "qid": "rs.common.battle_strings.BattleText_ComeBackSingle4",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h00": {
+          "from": "capture",
+          "slot": "B_BUFF1",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009214",
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle4",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7275,
+          "sourceChineseSha256": "a7d26ba73790c87fa9d7b376f771b48966c21553307917f23e229d87836b005b",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "a7d26ba73790c87fa9d7b376f771b48966c21553307917f23e229d87836b005b"
+        },
+        {
+          "candidateId": "candidate-019852",
+          "qid": "rs.common.battle_strings.BattleText_ComeBackSingle4",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7275,
+          "sourceChineseSha256": "a7d26ba73790c87fa9d7b376f771b48966c21553307917f23e229d87836b005b",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "a7d26ba73790c87fa9d7b376f771b48966c21553307917f23e229d87836b005b"
+        }
+      ]
+    },
+    {
+      "id": "flew_high",
+      "qid": "rs.common.battle_strings.BattleText_FlewHigh",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008949",
+          "qid": "rs.common.battle_strings.BattleText_FlewHigh",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7009,
+          "sourceChineseSha256": "c71871da4206be5eeac769bdf4dcba81c848e9b5968c49c86fb3248ba319c856",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "c71871da4206be5eeac769bdf4dcba81c848e9b5968c49c86fb3248ba319c856"
+        },
+        {
+          "candidateId": "candidate-019587",
+          "qid": "rs.common.battle_strings.BattleText_FlewHigh",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7009,
+          "sourceChineseSha256": "c71871da4206be5eeac769bdf4dcba81c848e9b5968c49c86fb3248ba319c856",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "c71871da4206be5eeac769bdf4dcba81c848e9b5968c49c86fb3248ba319c856"
+        }
+      ]
+    },
+    {
+      "id": "frozen",
+      "qid": "rs.common.battle_strings.BattleText_Frozen",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h0E": {
+          "from": "capture",
+          "slot": "B_EFF_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008908",
+          "qid": "rs.common.battle_strings.BattleText_Frozen",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6968,
+          "sourceChineseSha256": "e24ffe6f37dceee3a2ec2298bf59786929f14f8d339f4ddbdf3a2d28eb176c91",
+          "span": [
+            0,
+            13
+          ],
+          "quoteSha256": "e24ffe6f37dceee3a2ec2298bf59786929f14f8d339f4ddbdf3a2d28eb176c91"
+        },
+        {
+          "candidateId": "candidate-019546",
+          "qid": "rs.common.battle_strings.BattleText_Frozen",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6968,
+          "sourceChineseSha256": "e24ffe6f37dceee3a2ec2298bf59786929f14f8d339f4ddbdf3a2d28eb176c91",
+          "span": [
+            0,
+            13
+          ],
+          "quoteSha256": "e24ffe6f37dceee3a2ec2298bf59786929f14f8d339f4ddbdf3a2d28eb176c91"
+        }
+      ]
+    },
+    {
+      "id": "confused",
+      "qid": "rs.common.battle_strings.BattleText_Confused",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008924",
+          "qid": "rs.common.battle_strings.BattleText_Confused",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6984,
+          "sourceChineseSha256": "546b194a8abf7982f6b03b5f4856fbe34e91532780a710de8ea381a7775dc18a",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "546b194a8abf7982f6b03b5f4856fbe34e91532780a710de8ea381a7775dc18a"
+        },
+        {
+          "candidateId": "candidate-019562",
+          "qid": "rs.common.battle_strings.BattleText_Confused",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6984,
+          "sourceChineseSha256": "546b194a8abf7982f6b03b5f4856fbe34e91532780a710de8ea381a7775dc18a",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "546b194a8abf7982f6b03b5f4856fbe34e91532780a710de8ea381a7775dc18a"
+        }
+      ]
+    },
+    {
+      "id": "hp_full",
+      "qid": "rs.common.battle_strings.BattleText_HPFull",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon2]": {
+          "from": "capture",
+          "slot": "B_DEF_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008935",
+          "qid": "rs.common.battle_strings.BattleText_HPFull",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6995,
+          "sourceChineseSha256": "e74753a75dd923e70f773525a1e8627c2f9a544b54bc273aed0cec3df92d1036",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "e74753a75dd923e70f773525a1e8627c2f9a544b54bc273aed0cec3df92d1036"
+        },
+        {
+          "candidateId": "candidate-019573",
+          "qid": "rs.common.battle_strings.BattleText_HPFull",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6995,
+          "sourceChineseSha256": "e74753a75dd923e70f773525a1e8627c2f9a544b54bc273aed0cec3df92d1036",
+          "span": [
+            0,
+            29
+          ],
+          "quoteSha256": "e74753a75dd923e70f773525a1e8627c2f9a544b54bc273aed0cec3df92d1036"
+        }
+      ]
+    },
+    {
+      "id": "confusion_ended",
+      "qid": "rs.common.battle_strings.BattleText_ConfusionSnapOut",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[LegendPokemon1]": {
+          "from": "capture",
+          "slot": "B_ATK_NAME_WITH_PREFIX",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-008925",
+          "qid": "rs.common.battle_strings.BattleText_ConfusionSnapOut",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6985,
+          "sourceChineseSha256": "56334bcf5b0c09937c50001f638840510e20815431becf42a3874872c59706b7",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "56334bcf5b0c09937c50001f638840510e20815431becf42a3874872c59706b7"
+        },
+        {
+          "candidateId": "candidate-019563",
+          "qid": "rs.common.battle_strings.BattleText_ConfusionSnapOut",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6985,
+          "sourceChineseSha256": "56334bcf5b0c09937c50001f638840510e20815431becf42a3874872c59706b7",
+          "span": [
+            0,
+            25
+          ],
+          "quoteSha256": "56334bcf5b0c09937c50001f638840510e20815431becf42a3874872c59706b7"
+        }
+      ]
+    },
+    {
+      "id": "player_house",
+      "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AEA1",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 1
+      },
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-000253",
+          "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AEA1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 255,
+          "sourceChineseSha256": "ac52e4e9ff5d76ec8a88c5b2efdedfb551668241359c448acd599a72b00e2954",
+          "span": [
+            0,
+            6
+          ],
+          "quoteSha256": "ac52e4e9ff5d76ec8a88c5b2efdedfb551668241359c448acd599a72b00e2954"
+        },
+        {
+          "candidateId": "candidate-010813",
+          "qid": "rs.script.LittlerootTown.LittlerootTown_Text_16AEA1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 255,
+          "sourceChineseSha256": "ac52e4e9ff5d76ec8a88c5b2efdedfb551668241359c448acd599a72b00e2954",
+          "span": [
+            0,
+            6
+          ],
+          "quoteSha256": "ac52e4e9ff5d76ec8a88c5b2efdedfb551668241359c448acd599a72b00e2954"
+        }
+      ]
+    },
+    {
+      "id": "item_use",
+      "qid": "rs.common.battle_strings.BattleText_Used1",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h20": {
+          "from": "capture",
+          "slot": "B_PLAYER_NAME",
+          "category": "player"
+        },
+        "\\v\\h13": {
+          "from": "lexical_capture",
+          "slot": "B_LAST_ITEM",
+          "kind": "item"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009240",
+          "qid": "rs.common.battle_strings.BattleText_Used1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7301,
+          "sourceChineseSha256": "3033b398b2c718154a1a75e1d00e1ae1c7d91c32347696bd25c36a7996a818fa",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "3033b398b2c718154a1a75e1d00e1ae1c7d91c32347696bd25c36a7996a818fa"
+        },
+        {
+          "candidateId": "candidate-019878",
+          "qid": "rs.common.battle_strings.BattleText_Used1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7301,
+          "sourceChineseSha256": "3033b398b2c718154a1a75e1d00e1ae1c7d91c32347696bd25c36a7996a818fa",
+          "span": [
+            0,
+            18
+          ],
+          "quoteSha256": "3033b398b2c718154a1a75e1d00e1ae1c7d91c32347696bd25c36a7996a818fa"
+        }
+      ]
+    },
+    {
+      "id": "caught",
+      "qid": "rs.common.battle_strings.BattleText_BallCaught1",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[buffer2]": {
+          "from": "capture",
+          "slot": "B_COPY_VAR_2",
+          "category": "actor"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009251",
+          "qid": "rs.common.battle_strings.BattleText_BallCaught1",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 7312,
+          "sourceChineseSha256": "ef8ff04a7a93ae40e2aeb87b60d273287a64bbddff5a558ffef2533c38280606",
+          "span": [
+            0,
+            20
+          ],
+          "quoteSha256": "fcd8dfb9937c666a605de3f43314aaef54638722cdbf0987c377269ab556560a"
+        },
+        {
+          "candidateId": "candidate-019889",
+          "qid": "rs.common.battle_strings.BattleText_BallCaught1",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 7312,
+          "sourceChineseSha256": "ef8ff04a7a93ae40e2aeb87b60d273287a64bbddff5a558ffef2533c38280606",
+          "span": [
+            0,
+            20
+          ],
+          "quoteSha256": "fcd8dfb9937c666a605de3f43314aaef54638722cdbf0987c377269ab556560a"
+        }
+      ]
+    },
+    {
+      "id": "discard_block",
+      "qid": "rs.common.strings.gContestStatsText_ThrowAwayPrompt",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[buffer1]": {
+          "from": "capture",
+          "slot": "STR_VAR_1",
+          "category": "display_term"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009729",
+          "qid": "rs.common.strings.gContestStatsText_ThrowAwayPrompt",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 8949,
+          "sourceChineseSha256": "e52e05f30ba97c3cb43fc02b07b42d92cb134e334ef63461fa677af3fe175656",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "e52e05f30ba97c3cb43fc02b07b42d92cb134e334ef63461fa677af3fe175656"
+        },
+        {
+          "candidateId": "candidate-020367",
+          "qid": "rs.common.strings.gContestStatsText_ThrowAwayPrompt",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 8949,
+          "sourceChineseSha256": "e52e05f30ba97c3cb43fc02b07b42d92cb134e334ef63461fa677af3fe175656",
+          "span": [
+            0,
+            16
+          ],
+          "quoteSha256": "e52e05f30ba97c3cb43fc02b07b42d92cb134e334ef63461fa677af3fe175656"
+        }
+      ]
+    },
+    {
+      "id": "dads_advice",
+      "qid": "rs.common.strings.gOtherText_DadsAdvice",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-009686",
+          "qid": "rs.common.strings.gOtherText_DadsAdvice",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 8905,
+          "sourceChineseSha256": "4790bcaa30bd30c9759ca8693baead12e4ee98a1f46f0b9b9bfa88f3e23bf1f1",
+          "span": [
+            0,
+            30
+          ],
+          "quoteSha256": "c6fe891c06a18f022d26f38dee50c0adc6edb4863fc75c26a858065838245401"
+        },
+        {
+          "candidateId": "candidate-020324",
+          "qid": "rs.common.strings.gOtherText_DadsAdvice",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 8905,
+          "sourceChineseSha256": "4790bcaa30bd30c9759ca8693baead12e4ee98a1f46f0b9b9bfa88f3e23bf1f1",
+          "span": [
+            0,
+            30
+          ],
+          "quoteSha256": "c6fe891c06a18f022d26f38dee50c0adc6edb4863fc75c26a858065838245401"
+        }
+      ]
+    },
+    {
+      "id": "mother_worries",
+      "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+      "window": {
+        "page": 2,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[玩家]": {
+          "from": "capture",
+          "slot": "PLAYER",
+          "category": "player"
+        },
+        "[占位符]": {
+          "from": "capture",
+          "slot": "KUN",
+          "category": "honorific"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-000598",
+          "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 601,
+          "sourceChineseSha256": "95735b7a28d6419b51fe18016a999e1b8816be748d9f7a25b45a1e2d575c416b",
+          "span": [
+            49,
+            84
+          ],
+          "quoteSha256": "9fbff48ee9ec6fe4ccd4e9e4a57171aac469aa324ff27351a5e1d7c2ee39aee4"
+        },
+        {
+          "candidateId": "candidate-011161",
+          "qid": "rs.script.LittlerootTown_MaysHouse_1F.LittlerootTown_BrendansHouse_1F_Text_1732B9",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 601,
+          "sourceChineseSha256": "95735b7a28d6419b51fe18016a999e1b8816be748d9f7a25b45a1e2d575c416b",
+          "span": [
+            49,
+            84
+          ],
+          "quoteSha256": "9fbff48ee9ec6fe4ccd4e9e4a57171aac469aa324ff27351a5e1d7c2ee39aee4"
+        }
+      ]
+    },
+    {
+      "id": "contest_registration",
+      "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A5DFC",
+      "window": {
+        "page": 0,
+        "lineStart": 1,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[buffer1]": {
+          "from": "lexical_capture",
+          "slot": "STR_VAR_1",
+          "kind": "contest_rank"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-002620",
+          "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A5DFC",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 2635,
+          "sourceChineseSha256": "4b5685458ad0d99bf57c4ce5c8db34984f8c88ad77eef5f64632b7adf29ab3f0",
+          "span": [
+            3,
+            37
+          ],
+          "quoteSha256": "661f21b08e66257c59424eb0a9f7264486a4beaf083e89c0513fa80537188609"
+        },
+        {
+          "candidateId": "candidate-013256",
+          "qid": "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A5DFC",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 2635,
+          "sourceChineseSha256": "4b5685458ad0d99bf57c4ce5c8db34984f8c88ad77eef5f64632b7adf29ab3f0",
+          "span": [
+            3,
+            37
+          ],
+          "quoteSha256": "661f21b08e66257c59424eb0a9f7264486a4beaf083e89c0513fa80537188609"
+        }
+      ]
+    },
+    {
+      "id": "winning_prize",
+      "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+      "window": {
+        "page": 0,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "\\v\\h20": {
+          "from": "capture",
+          "slot": "B_PLAYER_NAME",
+          "category": "player"
+        },
+        "\\v\\h00": {
+          "from": "capture",
+          "slot": "B_BUFF1",
+          "category": "number"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:6946",
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 6946,
+          "sourceChineseSha256": "aece25d7441f97ea1609cf2576c7e57bba8fc6cdb20e5504d37bca05e2cfac57",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "b331536902ab0adddc6826ccfd8e334eba7467150dbf547acac830f0e5758559",
+          "origin": "reviewed_original_entry",
+          "sourceSymbol": "BattleText_WinningPrize"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:6946",
+          "qid": "rs.common.battle_strings.BattleText_WinningPrize",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 6946,
+          "sourceChineseSha256": "aece25d7441f97ea1609cf2576c7e57bba8fc6cdb20e5504d37bca05e2cfac57",
+          "span": [
+            0,
+            24
+          ],
+          "quoteSha256": "b331536902ab0adddc6826ccfd8e334eba7467150dbf547acac830f0e5758559",
+          "origin": "reviewed_original_entry",
+          "sourceSymbol": "BattleText_WinningPrize"
+        }
+      ]
+    },
+    {
+      "id": "team_departure",
+      "qid": "rs.script.LilycoveCity.LilycoveCity_Text_168934",
+      "window": {
+        "page": 1,
+        "lineStart": 0,
+        "lineCount": 2
+      },
+      "bindings": {
+        "[Team1]": {
+          "from": "lexical_capture",
+          "slot": "EVIL_TEAM",
+          "kind": "team"
+        }
+      },
+      "citations": [
+        {
+          "candidateId": "candidate-000170",
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_168934",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 171,
+          "sourceChineseSha256": "f772abd2620730197106669f8ff68acef6a97a736c8f754a457d5abe17e25e39",
+          "span": [
+            7,
+            26
+          ],
+          "quoteSha256": "195e636ca6b5e64aea6005e0efecb6028f66056626e6f1e00e88b579087c4ac5"
+        },
+        {
+          "candidateId": "candidate-010726",
+          "qid": "rs.script.LilycoveCity.LilycoveCity_Text_168934",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 171,
+          "sourceChineseSha256": "f772abd2620730197106669f8ff68acef6a97a736c8f754a457d5abe17e25e39",
+          "span": [
+            7,
+            26
+          ],
+          "quoteSha256": "195e636ca6b5e64aea6005e0efecb6028f66056626e6f1e00e88b579087c4ac5"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "decisionId": "W012",
+      "family": "pc_boot",
+      "occurrences": [
+        {
+          "id": "GBA-012-R01:S1",
+          "raw": "ハルカは\nパソコンの スイッチを いれた！",
+          "chinese": "ハルカ启动了电脑。",
+          "output": "ハルカ启动了电脑。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "NGC-004-R01:S1",
+          "raw": "ハルカは\nパソコンの スイッチを いれた！",
+          "chinese": "ハルカ启动了电脑。",
+          "output": "ハルカ启动了电脑。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W015",
+      "family": "pc_owner",
+      "occurrences": [
+        {
+          "id": "GBA-013-R02:S2",
+          "raw": "ハルカのパソコン",
+          "chinese": "ハルカ的电脑",
+          "output": "ハルカ的电脑",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "NGC-005-R02:S2",
+          "raw": "ハルカのパソコン",
+          "chinese": "ハルカ的电脑",
+          "output": "ハルカ的电脑",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W130",
+      "family": "party_action",
+      "occurrences": [
+        {
+          "id": "GBA-051-R07:S1",
+          "raw": "レックウザを どうする？",
+          "chinese": "要对レックウザ做什么呢？",
+          "output": "要对レックウザ做什么呢？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-215-R07:S1",
+          "raw": "レックウザを どうする？",
+          "chinese": "要对レックウザ做什么呢？",
+          "output": "要对レックウザ做什么呢？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "NGC-068-R07:S1",
+          "raw": "レックウザを どうする？",
+          "chinese": "要对レックウザ做什么呢？",
+          "output": "要对レックウザ做什么呢？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W175",
+      "family": "party_action",
+      "occurrences": [
+        {
+          "id": "GBA-091-R07:S1",
+          "raw": "ボスゴドラを どうする？",
+          "chinese": "要对ボスゴドラ做什么呢？",
+          "output": "要对ボスゴドラ做什么呢？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W146",
+      "family": "professor_greeting",
+      "occurrences": [
+        {
+          "id": "GBA-062-R01:S1",
+          "raw": "オダマキ『おお ハルカちゃん！",
+          "chinese": "小田卷博士：啊，ハルカちゃん！",
+          "output": "小田卷博士：啊，ハルカちゃん！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W154",
+      "family": "wild_encounter",
+      "occurrences": [
+        {
+          "id": "GBA-070-R02:S1",
+          "raw": "あ！ やせいの\nケムッソが とびだしてきた！",
+          "chinese": "野生的ケムッソ跳出来了！",
+          "output": "野生的ケムッソ跳出来了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "NGC-113-R02:S1",
+          "raw": "あ！ やせいの\nケムッソが とびだしてきた！",
+          "chinese": "野生的ケムッソ跳出来了！",
+          "output": "野生的ケムッソ跳出来了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W155",
+      "family": "send_out",
+      "occurrences": [
+        {
+          "id": "GBA-071-R03:S1",
+          "raw": "ゆけっ！ ラグラージ！",
+          "chinese": "上吧！ラグラージ！",
+          "output": "上吧！ラグラージ！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "NGC-114-R02:S1",
+          "raw": "ゆけっ！ ラグラージ！",
+          "chinese": "上吧！ラグラージ！",
+          "output": "上吧！ラグラージ！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W180",
+      "family": "send_out",
+      "occurrences": [
+        {
+          "id": "GBA-093-R02:S1",
+          "raw": "ゆけっ！ ボスゴドラ！",
+          "chinese": "上吧！ボスゴドラ！",
+          "output": "上吧！ボスゴドラ！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W231",
+      "family": "send_out",
+      "occurrences": [
+        {
+          "id": "GBA-146-R03:S1",
+          "raw": "ゆけっ！ カイオーガ！",
+          "chinese": "上吧！カイオーガ！",
+          "output": "上吧！カイオーガ！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-198-R02:S1",
+          "raw": "ゆけっ！ カイオーガ！",
+          "chinese": "上吧！カイオーガ！",
+          "output": "上吧！カイオーガ！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W288",
+      "family": "send_out",
+      "occurrences": [
+        {
+          "id": "GBA-217-R01:S1",
+          "raw": "ゆけっ！ レックウザ！",
+          "chinese": "上吧！レックウザ！",
+          "output": "上吧！レックウザ！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W156",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-072-R03:S1",
+          "raw": "ラグラージの\nマッドショット！",
+          "chinese": "ラグラージ使出了\n泥巴射击",
+          "output": "ラグラージ使出了\n泥巴射击",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "NGC-117-R03:S1",
+          "raw": "ラグラージの\nマッドショット！",
+          "chinese": "ラグラージ使出了\n泥巴射击",
+          "output": "ラグラージ使出了\n泥巴射击",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W160",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-076-R03:S1",
+          "raw": "やせいの ケムッソの\nいとをはく こうげき！",
+          "chinese": "やせいの ケムッソ使出了\n吐丝",
+          "output": "やせいの ケムッソ使出了\n吐丝",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-077-R03:S1",
+          "raw": "やせいの ケムッソの\nいとをはく こうげき！",
+          "chinese": "やせいの ケムッソ使出了\n吐丝",
+          "output": "やせいの ケムッソ使出了\n吐丝",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-087-R03:S1",
+          "raw": "やせいの ケムッソの\nいとをはく こうげき！",
+          "chinese": "やせいの ケムッソ使出了\n吐丝",
+          "output": "やせいの ケムッソ使出了\n吐丝",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W163",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-080-R03:S1",
+          "raw": "へラクロスは\nかわらわりを した！",
+          "chinese": "へラクロス使出了\n劈瓦",
+          "output": "へラクロス使出了\n劈瓦",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W165",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-083-R03:S1",
+          "raw": "カイオーガは\nめいそうを した！",
+          "chinese": "カイオーガ使出了\n冥想",
+          "output": "カイオーガ使出了\n冥想",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-084-R03:S1",
+          "raw": "カイオーガは\nめいそうを した！",
+          "chinese": "カイオーガ使出了\n冥想",
+          "output": "カイオーガ使出了\n冥想",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-149-R03:S1",
+          "raw": "カイオーガは\nめいそうを した！",
+          "chinese": "カイオーガ使出了\n冥想",
+          "output": "カイオーガ使出了\n冥想",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W235",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-154-R03:S1",
+          "raw": "あいての グラエナの\nすなかけ！",
+          "chinese": "あいての グラエナ使出了\n泼沙",
+          "output": "あいての グラエナ使出了\n泼沙",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W237",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-157-R03:S1",
+          "raw": "カイオーガの\nなみのり！",
+          "chinese": "カイオーガ使出了\n冲浪",
+          "output": "カイオーガ使出了\n冲浪",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W242",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-163-R03:S1",
+          "raw": "カイオーガの\nれいとうビーム！",
+          "chinese": "カイオーガ使出了\n冰冻光束",
+          "output": "カイオーガ使出了\n冰冻光束",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W255",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-180-R03:S1",
+          "raw": "あいての ダーテングの\nねこだまし！",
+          "chinese": "あいての ダーテング使出了\n击掌奇袭",
+          "output": "あいての ダーテング使出了\n击掌奇袭",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W258",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-183-R03:S1",
+          "raw": "あいての ダーテングは\nかげぶんしんを した！",
+          "chinese": "あいての ダーテング使出了\n影子分身",
+          "output": "あいての ダーテング使出了\n影子分身",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W273",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-199-R03:S1",
+          "raw": "あいての サマヨールの\nあやしいひかり！",
+          "chinese": "あいての サマヨール使出了\n奇异之光",
+          "output": "あいての サマヨール使出了\n奇异之光",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W276",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-202-R03:S1",
+          "raw": "あいての サマヨールの\nシャドーパンチ！",
+          "chinese": "あいての サマヨール使出了\n暗影拳",
+          "output": "あいての サマヨール使出了\n暗影拳",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W277",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-203-R03:S1",
+          "raw": "あいての サマヨールの\nのろい こうげき！",
+          "chinese": "あいての サマヨール使出了\n咒术",
+          "output": "あいての サマヨール使出了\n咒术",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-204-R03:S1",
+          "raw": "あいての サマヨールの\nのろい こうげき！",
+          "chinese": "あいての サマヨール使出了\n咒术",
+          "output": "あいての サマヨール使出了\n咒术",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W291",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-220-R03:S1",
+          "raw": "レックウザの\nそらをとぶ こうげき！",
+          "chinese": "レックウザ使出了\n飞翔",
+          "output": "レックウザ使出了\n飞翔",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W294",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-224-R03:S1",
+          "raw": "あいての サマヨールの\nれいとうビーム！",
+          "chinese": "あいての サマヨール使出了\n冰冻光束",
+          "output": "あいての サマヨール使出了\n冰冻光束",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-226-R03:S1",
+          "raw": "あいての サマヨールの\nれいとうビーム！",
+          "chinese": "あいての サマヨール使出了\n冰冻光束",
+          "output": "あいての サマヨール使出了\n冰冻光束",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-236-R03:S1",
+          "raw": "あいての サマヨールの\nれいとうビーム！",
+          "chinese": "あいての サマヨール使出了\n冰冻光束",
+          "output": "あいての サマヨール使出了\n冰冻光束",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W300",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-234-R03:S1",
+          "raw": "レックウザは\nねむるを つかった！",
+          "chinese": "レックウザ使出了\n睡觉",
+          "output": "レックウザ使出了\n睡觉",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W303",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-239-R03:S1",
+          "raw": "レックウザの\nげきりん！",
+          "chinese": "レックウザ使出了\n逆鳞",
+          "output": "レックウザ使出了\n逆鳞",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W316",
+      "family": "move_use",
+      "occurrences": [
+        {
+          "id": "GBA-253-R03:S1",
+          "raw": "やせいの ジグザグマの\nなきごえ こうげき！",
+          "chinese": "やせいの ジグザグマ使出了\n叫声",
+          "output": "やせいの ジグザグマ使出了\n叫声",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W158",
+      "family": "fainted",
+      "occurrences": [
+        {
+          "id": "GBA-074-R02:S1",
+          "raw": "やせいの ケムッソは たおれた！",
+          "chinese": "やせいの ケムッソ\n倒下了！",
+          "output": "やせいの ケムッソ\n倒下了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "NGC-119-R02:S1",
+          "raw": "やせいの ケムッソは たおれた！",
+          "chinese": "やせいの ケムッソ\n倒下了！",
+          "output": "やせいの ケムッソ\n倒下了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W238",
+      "family": "fainted",
+      "occurrences": [
+        {
+          "id": "GBA-158-R02:S1",
+          "raw": "あいての グラエナは たおれた！",
+          "chinese": "あいての グラエナ\n倒下了！",
+          "output": "あいての グラエナ\n倒下了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W244",
+      "family": "fainted",
+      "occurrences": [
+        {
+          "id": "GBA-165-R02:S1",
+          "raw": "あいての ノクタスは たおれた！",
+          "chinese": "あいての ノクタス\n倒下了！",
+          "output": "あいての ノクタス\n倒下了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W247",
+      "family": "fainted",
+      "occurrences": [
+        {
+          "id": "GBA-170-R02:S1",
+          "raw": "あいての サメハダーは たおれた！",
+          "chinese": "あいての サメハダー\n倒下了！",
+          "output": "あいての サメハダー\n倒下了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W252",
+      "family": "fainted",
+      "occurrences": [
+        {
+          "id": "GBA-176-R02:S1",
+          "raw": "あいての アブソルは たおれた！",
+          "chinese": "あいての アブソル\n倒下了！",
+          "output": "あいての アブソル\n倒下了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W260",
+      "family": "fainted",
+      "occurrences": [
+        {
+          "id": "GBA-185-R02:S1",
+          "raw": "あいての ダーテングは たおれた！",
+          "chinese": "あいての ダーテング\n倒下了！",
+          "output": "あいての ダーテング\n倒下了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W280",
+      "family": "fainted",
+      "occurrences": [
+        {
+          "id": "GBA-207-R02:S1",
+          "raw": "あいての サマヨールは たおれた！",
+          "chinese": "あいての サマヨール\n倒下了！",
+          "output": "あいての サマヨール\n倒下了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-240-R02:S1",
+          "raw": "あいての サマヨールは たおれた！",
+          "chinese": "あいての サマヨール\n倒下了！",
+          "output": "あいての サマヨール\n倒下了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W283",
+      "family": "fainted",
+      "occurrences": [
+        {
+          "id": "GBA-212-R02:S1",
+          "raw": "あいての ジュペッタは たおれた！",
+          "chinese": "あいての ジュペッタ\n倒下了！",
+          "output": "あいての ジュペッタ\n倒下了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-221-R02:S1",
+          "raw": "あいての ジュペッタは たおれた！",
+          "chinese": "あいての ジュペッタ\n倒下了！",
+          "output": "あいての ジュペッタ\n倒下了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W159",
+      "family": "experience_normal",
+      "occurrences": [
+        {
+          "id": "GBA-075-R02:S1",
+          "raw": "ラグラージは\n15 けいけんちを もらった！",
+          "chinese": "ラグラージ获得了\n15点经验值！",
+          "output": "ラグラージ获得了\n15点经验值！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "NGC-120-R02:S1",
+          "raw": "ラグラージは\n15 けいけんちを もらった！",
+          "chinese": "ラグラージ获得了\n15点经验值！",
+          "output": "ラグラージ获得了\n15点经验值！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W239",
+      "family": "experience_normal",
+      "occurrences": [
+        {
+          "id": "GBA-159-R02:S1",
+          "raw": "カイオーガは\n1261 けいけんちを もらった！",
+          "chinese": "カイオーガ获得了\n1261点经验值！",
+          "output": "カイオーガ获得了\n1261点经验值！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W245",
+      "family": "experience_normal",
+      "occurrences": [
+        {
+          "id": "GBA-166-R02:S1",
+          "raw": "カイオーガは\n1744 けいけんちを もらった！",
+          "chinese": "カイオーガ获得了\n1744点经验值！",
+          "output": "カイオーガ获得了\n1744点经验值！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W248",
+      "family": "experience_normal",
+      "occurrences": [
+        {
+          "id": "GBA-171-R02:S1",
+          "raw": "カイオーガは\n1800 けいけんちを もらった！",
+          "chinese": "カイオーガ获得了\n1800点经验值！",
+          "output": "カイオーガ获得了\n1800点经验值！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W253",
+      "family": "experience_normal",
+      "occurrences": [
+        {
+          "id": "GBA-177-R02:S1",
+          "raw": "カイオーガは\n1827 けいけんちを もらった！",
+          "chinese": "カイオーガ获得了\n1827点经验值！",
+          "output": "カイオーガ获得了\n1827点经验值！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W281",
+      "family": "experience_normal",
+      "occurrences": [
+        {
+          "id": "GBA-208-R02:S1",
+          "raw": "カイオーガは\n1840 けいけんちを もらった！",
+          "chinese": "カイオーガ获得了\n1840点经验值！",
+          "output": "カイオーガ获得了\n1840点经验值！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W292",
+      "family": "experience_normal",
+      "occurrences": [
+        {
+          "id": "GBA-222-R02:S1",
+          "raw": "レックウザは\n1879 けいけんちを もらった！",
+          "chinese": "レックウザ获得了\n1879点经验值！",
+          "output": "レックウザ获得了\n1879点经验值！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W304",
+      "family": "experience_normal",
+      "occurrences": [
+        {
+          "id": "GBA-241-R02:S1",
+          "raw": "レックウザは\n1956 けいけんちを もらった！",
+          "chinese": "レックウザ获得了\n1956点经验值！",
+          "output": "レックウザ获得了\n1956点经验值！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W161",
+      "family": "stat_down",
+      "occurrences": [
+        {
+          "id": "GBA-078-R03:S1",
+          "raw": "へラクロスの\nすばやさが さがった！",
+          "chinese": "へラクロス的速度\n下降了！",
+          "output": "へラクロス的速度\n下降了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W168",
+      "family": "stat_down",
+      "occurrences": [
+        {
+          "id": "GBA-088-R03:S1",
+          "raw": "カイオーガの\nすばやさが さがった！",
+          "chinese": "カイオーガ的速度\n下降了！",
+          "output": "カイオーガ的速度\n下降了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W236",
+      "family": "stat_down",
+      "occurrences": [
+        {
+          "id": "GBA-155-R03:S1",
+          "raw": "カイオーガの\nめいちゅうりつが さがった！",
+          "chinese": "カイオーガ的命中率\n下降了！",
+          "output": "カイオーガ的命中率\n下降了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W317",
+      "family": "stat_down",
+      "occurrences": [
+        {
+          "id": "GBA-254-R03:S1",
+          "raw": "ラグラージの\nこうげきりょくが さがった！",
+          "chinese": "ラグラージ的攻击\n下降了！",
+          "output": "ラグラージ的攻击\n下降了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W166",
+      "family": "stat_up",
+      "occurrences": [
+        {
+          "id": "GBA-085-R03:S1",
+          "raw": "カイオーガの\nとくこうが あがった！",
+          "chinese": "カイオーガ的特攻\n提高了！",
+          "output": "カイオーガ的特攻\n提高了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-150-R03:S1",
+          "raw": "カイオーガの\nとくこうが あがった！",
+          "chinese": "カイオーガ的特攻\n提高了！",
+          "output": "カイオーガ的特攻\n提高了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W167",
+      "family": "stat_up",
+      "occurrences": [
+        {
+          "id": "GBA-086-R03:S1",
+          "raw": "カイオーガの\nとくぼうが あがった！",
+          "chinese": "カイオーガ的特防\n提高了！",
+          "output": "カイオーガ的特防\n提高了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-151-R03:S1",
+          "raw": "カイオーガの\nとくぼうが あがった！",
+          "chinese": "カイオーガ的特防\n提高了！",
+          "output": "カイオーガ的特防\n提高了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W259",
+      "family": "stat_up",
+      "occurrences": [
+        {
+          "id": "GBA-184-R03:S1",
+          "raw": "あいての ダーテングの\nかいひりつが あがった！",
+          "chinese": "あいての ダーテング的闪避率\n提高了！",
+          "output": "あいての ダーテング的闪避率\n提高了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W164",
+      "family": "rain_ability",
+      "occurrences": [
+        {
+          "id": "GBA-082-R03:S1",
+          "raw": "カイオーガの あめふらしで\nあめが ふりはじめた！",
+          "chinese": "カイオーガ的降雨\n使天空下起雨！",
+          "output": "カイオーガ的降雨\n使天空下起雨！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-147-R03:S1",
+          "raw": "カイオーガの あめふらしで\nあめが ふりはじめた！",
+          "chinese": "カイオーガ的降雨\n使天空下起雨！",
+          "output": "カイオーガ的降雨\n使天空下起雨！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W170",
+      "family": "battle_action_prompt",
+      "occurrences": [
+        {
+          "id": "GBA-090-R03:S1",
+          "raw": "カイオーガは どうする？",
+          "chinese": "カイオーガ要做\n什么呢？",
+          "output": "カイオーガ要做\n什么呢？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W495",
+      "family": "battle_action_prompt",
+      "occurrences": [
+        {
+          "id": "NGC-115-R03:S1",
+          "raw": "ラグラージは どうする？",
+          "chinese": "ラグラージ要做\n什么呢？",
+          "output": "ラグラージ要做\n什么呢？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W179",
+      "family": "recall_enough",
+      "occurrences": [
+        {
+          "id": "GBA-092-R03:S1",
+          "raw": "カイオーガ もういい！\nもどれ！",
+          "chinese": "カイオーガ，好了！\n回来吧！",
+          "output": "カイオーガ，好了！\n回来吧！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W229",
+      "family": "trainer_challenge",
+      "occurrences": [
+        {
+          "id": "GBA-144-R01:S1",
+          "raw": "してんのうの カゲツが\nしょうぶを しかけてきた！",
+          "chinese": "四天王 カゲツ\n前来挑战了！",
+          "output": "四天王 カゲツ\n前来挑战了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W272",
+      "family": "trainer_challenge",
+      "occurrences": [
+        {
+          "id": "GBA-197-R01:S1",
+          "raw": "してんのうの フヨウが\nしょうぶを しかけてきた！",
+          "chinese": "四天王 フヨウ\n前来挑战了！",
+          "output": "四天王 フヨウ\n前来挑战了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W230",
+      "family": "trainer_send_out",
+      "occurrences": [
+        {
+          "id": "GBA-145-R03:S1",
+          "raw": "してんのうの カゲツは\nグラエナを くりだした！",
+          "chinese": "四天王 カゲツ派出了\nグラエナ！",
+          "output": "四天王 カゲツ派出了\nグラエナ！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W284",
+      "family": "trainer_send_out",
+      "occurrences": [
+        {
+          "id": "GBA-213-R02:S1",
+          "raw": "してんのうの フヨウは\nヤミラミを くりだした！",
+          "chinese": "四天王 フヨウ派出了\nヤミラミ！",
+          "output": "四天王 フヨウ派出了\nヤミラミ！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W232",
+      "family": "intimidate",
+      "occurrences": [
+        {
+          "id": "GBA-148-R03:S1",
+          "raw": "あいての グラエナの いかくで\nカイオーガの こうげきりょくが さがった！",
+          "chinese": "あいての グラエナ的威吓\n降低了カイオーガ的攻击！",
+          "output": "あいての グラエナ的威吓\n降低了カイオーガ的攻击！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W233",
+      "family": "attack_missed",
+      "occurrences": [
+        {
+          "id": "GBA-152-R03:S1",
+          "raw": "しかし あいての グラエナの\nこうげきは はずれた！",
+          "chinese": "但是，あいての グラエナ的\n攻击没有命中！",
+          "output": "但是，あいての グラエナ的\n攻击没有命中！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W257",
+      "family": "attack_missed",
+      "occurrences": [
+        {
+          "id": "GBA-182-R03:S1",
+          "raw": "しかし カイオーガの\nこうげきは はずれた！",
+          "chinese": "但是，カイオーガ的\n攻击没有命中！",
+          "output": "但是，カイオーガ的\n攻击没有命中！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W290",
+      "family": "attack_missed",
+      "occurrences": [
+        {
+          "id": "GBA-219-R03:S1",
+          "raw": "しかし あいての ジュペッタの\nこうげきは はずれた！",
+          "chinese": "但是，あいての ジュペッタ的\n攻击没有命中！",
+          "output": "但是，あいての ジュペッタ的\n攻击没有命中！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W295",
+      "family": "attack_missed",
+      "occurrences": [
+        {
+          "id": "GBA-225-R03:S1",
+          "raw": "しかし あいての サマヨールの\nこうげきは はずれた！",
+          "chinese": "但是，あいての サマヨール的\n攻击没有命中！",
+          "output": "但是，あいての サマヨール的\n攻击没有命中！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W240",
+      "family": "will_switch_intent",
+      "occurrences": [
+        {
+          "id": "GBA-160-R02:S1",
+          "raw": "してんのうの カゲツは\nノクタスを くりだそうと している",
+          "chinese": "四天王 カゲツ正准备\n派出ノクタス。",
+          "output": "四天王 カゲツ正准备\n派出ノクタス。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W246",
+      "family": "will_switch_intent",
+      "occurrences": [
+        {
+          "id": "GBA-167-R02:S1",
+          "raw": "してんのうの カゲツは\nサメハダーを くりだそうと している",
+          "chinese": "四天王 カゲツ正准备\n派出サメハダー。",
+          "output": "四天王 カゲツ正准备\n派出サメハダー。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W249",
+      "family": "will_switch_intent",
+      "occurrences": [
+        {
+          "id": "GBA-172-R02:S1",
+          "raw": "してんのうの カゲツは\nアブソルを くりだそうと している",
+          "chinese": "四天王 カゲツ正准备\n派出アブソル。",
+          "output": "四天王 カゲツ正准备\n派出アブソル。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W254",
+      "family": "will_switch_intent",
+      "occurrences": [
+        {
+          "id": "GBA-178-R02:S1",
+          "raw": "してんのうの カゲツは\nダーテングを くりだそうと している",
+          "chinese": "四天王 カゲツ正准备\n派出ダーテング。",
+          "output": "四天王 カゲツ正准备\n派出ダーテング。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W282",
+      "family": "will_switch_intent",
+      "occurrences": [
+        {
+          "id": "GBA-209-R02:S1",
+          "raw": "してんのうの フヨウは\nジュペッタを くりだそうと している",
+          "chinese": "四天王 フヨウ正准备\n派出ジュペッタ。",
+          "output": "四天王 フヨウ正准备\n派出ジュペッタ。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W293",
+      "family": "will_switch_intent",
+      "occurrences": [
+        {
+          "id": "GBA-223-R02:S1",
+          "raw": "してんのうの フヨウは\nサマヨールを くりだそうと している",
+          "chinese": "四天王 フヨウ正准备\n派出サマヨール。",
+          "output": "四天王 フヨウ正准备\n派出サマヨール。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W241",
+      "family": "will_switch_question",
+      "occurrences": [
+        {
+          "id": "GBA-161-R02:S1",
+          "raw": "ハルカも ポケモンを\nいれかえますか？",
+          "chinese": "ハルカ要替换\n宝可梦吗？",
+          "output": "ハルカ要替换\n宝可梦吗？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-168-R02:S1",
+          "raw": "ハルカも ポケモンを\nいれかえますか？",
+          "chinese": "ハルカ要替换\n宝可梦吗？",
+          "output": "ハルカ要替换\n宝可梦吗？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-173-R02:S1",
+          "raw": "ハルカも ポケモンを\nいれかえますか？",
+          "chinese": "ハルカ要替换\n宝可梦吗？",
+          "output": "ハルカ要替换\n宝可梦吗？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-179-R02:S1",
+          "raw": "ハルカも ポケモンを\nいれかえますか？",
+          "chinese": "ハルカ要替换\n宝可梦吗？",
+          "output": "ハルカ要替换\n宝可梦吗？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-210-R02:S1",
+          "raw": "ハルカも ポケモンを\nいれかえますか？",
+          "chinese": "ハルカ要替换\n宝可梦吗？",
+          "output": "ハルカ要替换\n宝可梦吗？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W250",
+      "family": "await_move",
+      "occurrences": [
+        {
+          "id": "GBA-174-R03:S1",
+          "raw": "あいての アブソルは\nあいての でかたを うかがっている！",
+          "chinese": "あいての アブソル\n正在观察对手的动向！",
+          "output": "あいての アブソル\n正在观察对手的动向！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W256",
+      "family": "flinched",
+      "occurrences": [
+        {
+          "id": "GBA-181-R03:S1",
+          "raw": "カイオーガは ひるんで\nうごけなかった！",
+          "chinese": "カイオーガ\n畏缩了，无法使出招式！",
+          "output": "カイオーガ\n畏缩了，无法使出招式！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W261",
+      "family": "won_trainer",
+      "occurrences": [
+        {
+          "id": "GBA-186-R02:S1",
+          "raw": "してんのうの カゲツ\nとの しょうぶに かった！",
+          "chinese": "战胜了\n四天王 カゲツ！",
+          "output": "战胜了\n四天王 カゲツ！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W305",
+      "family": "won_trainer",
+      "occurrences": [
+        {
+          "id": "GBA-242-R02:S1",
+          "raw": "してんのうの フヨウ\nとの しょうぶに かった！",
+          "chinese": "战胜了\n四天王 フヨウ！",
+          "output": "战胜了\n四天王 フヨウ！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W274",
+      "family": "became_confused",
+      "occurrences": [
+        {
+          "id": "GBA-200-R03:S1",
+          "raw": "カイオーガは\nこんらんした！",
+          "chinese": "カイオーガ\n混乱了！",
+          "output": "カイオーガ\n混乱了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W298",
+      "family": "became_confused",
+      "occurrences": [
+        {
+          "id": "GBA-232-R03:S1",
+          "raw": "レックウザは\nこんらんした！",
+          "chinese": "レックウザ\n混乱了！",
+          "output": "レックウザ\n混乱了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W275",
+      "family": "hp_restored",
+      "occurrences": [
+        {
+          "id": "GBA-201-R09:S1",
+          "raw": "カイオーガの たいりょくが\n17 かいふくした",
+          "chinese": "カイオーガ的HP恢复了\n17点。",
+          "output": "カイオーガ的HP恢复了\n17点。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W297",
+      "family": "hp_restored",
+      "occurrences": [
+        {
+          "id": "GBA-229-R09:S1",
+          "raw": "レックウザの たいりょくが\n91 かいふくした",
+          "chinese": "レックウザ的HP恢复了\n91点。",
+          "output": "レックウザ的HP恢复了\n91点。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W278",
+      "family": "curse_lay",
+      "occurrences": [
+        {
+          "id": "GBA-205-R03:S1",
+          "raw": "あいての サマヨールは じぶんの たいりょくを\nけずって カイオーガに のろいを かけた！",
+          "chinese": "あいての サマヨール削减了自己的体力，\n并向カイオーガ施加了咒术！",
+          "output": "あいての サマヨール削减了自己的体力，\n并向カイオーガ施加了咒术！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W279",
+      "family": "curse_afflicted",
+      "occurrences": [
+        {
+          "id": "GBA-206-R03:S1",
+          "raw": "カイオーガは\nのろわれている！",
+          "chinese": "カイオーガ\n正受到诅咒！",
+          "output": "カイオーガ\n正受到诅咒！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-211-R03:S1",
+          "raw": "カイオーガは\nのろわれている！",
+          "chinese": "カイオーガ\n正受到诅咒！",
+          "output": "カイオーガ\n正受到诅咒！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W287",
+      "family": "recall_good",
+      "occurrences": [
+        {
+          "id": "GBA-216-R03:S1",
+          "raw": "カイオーガ よくやった！\nもどれ！",
+          "chinese": "カイオーガ，做得漂亮！\n回来吧！",
+          "output": "カイオーガ，做得漂亮！\n回来吧！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W289",
+      "family": "flew_high",
+      "occurrences": [
+        {
+          "id": "GBA-218-R03:S1",
+          "raw": "レックウザは\nそらたかく とびあがった！",
+          "chinese": "レックウザ\n飞向了高空！",
+          "output": "レックウザ\n飞向了高空！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W296",
+      "family": "frozen",
+      "occurrences": [
+        {
+          "id": "GBA-228-R03:S1",
+          "raw": "レックウザは\nこおりづけになった！",
+          "chinese": "レックウザ\n被冰冻了！",
+          "output": "レックウザ\n被冰冻了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "GBA-231-R03:S1",
+          "raw": "レックウザは\nこおりづけになった！",
+          "chinese": "レックウザ\n被冰冻了！",
+          "output": "レックウザ\n被冰冻了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W299",
+      "family": "confused",
+      "occurrences": [
+        {
+          "id": "GBA-233-R03:S1",
+          "raw": "レックウザは\nこんらんしている！",
+          "chinese": "レックウザ\n正在混乱中！",
+          "output": "レックウザ\n正在混乱中！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W301",
+      "family": "hp_full",
+      "occurrences": [
+        {
+          "id": "GBA-235-R03:S1",
+          "raw": "しかし レックウザの\nたいりょくは まんたんだ！",
+          "chinese": "但是，レックウザ\n的体力是全满的！",
+          "output": "但是，レックウザ\n的体力是全满的！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W302",
+      "family": "confusion_ended",
+      "occurrences": [
+        {
+          "id": "GBA-238-R03:S1",
+          "raw": "レックウザの\nこんらんが とけた！",
+          "chinese": "レックウザ的\n混乱解除了！",
+          "output": "レックウザ的\n混乱解除了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W313",
+      "family": "player_house",
+      "occurrences": [
+        {
+          "id": "GBA-250-R01:S1",
+          "raw": "「ハルカの いえ」",
+          "chinese": "ハルカ的家",
+          "output": "ハルカ的家",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "NGC-101-R01:S1",
+          "raw": "「ハルカの いえ」",
+          "chinese": "ハルカ的家",
+          "output": "ハルカ的家",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W314",
+      "family": "item_use",
+      "occurrences": [
+        {
+          "id": "GBA-251-R03:S1",
+          "raw": "ハルカは\nスーパーボールを つかった！",
+          "chinese": "ハルカ使用了\n超级球！",
+          "output": "ハルカ使用了\n超级球！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W318",
+      "family": "caught",
+      "occurrences": [
+        {
+          "id": "GBA-255-R03:S1",
+          "raw": "やったー！\nジグザグマを つかまえたぞ！",
+          "chinese": "太好了！\nジグザグマ被收服了！",
+          "output": "太好了！\nジグザグマ被收服了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W360",
+      "family": "discard_block",
+      "occurrences": [
+        {
+          "id": "GBA-285-R05:S1",
+          "raw": "あかいポロックを\nすてても よろしいですか？",
+          "chinese": "要丢掉\nあかいポロック吗？",
+          "output": "要丢掉\nあかいポロック吗？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W484",
+      "family": "discard_block",
+      "occurrences": [
+        {
+          "id": "NGC-095-R05:S1",
+          "raw": "ももいろポロックを\nすてても よろしいですか？",
+          "chinese": "要丢掉\nももいろポロック吗？",
+          "output": "要丢掉\nももいろポロック吗？",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W145",
+      "family": "rival_help_father",
+      "occurrences": [
+        {
+          "id": "GBA-061-R01:S1",
+          "raw": "ユウキさんは すきな おとうさんの\nおてつだいを なさって いるのですよ",
+          "chinese": "他喜欢让ユウキ帮他的忙。\n\n两人的感情很要好呢。",
+          "output": "他喜欢让ユウキ帮他的忙。\n\n两人的感情很要好呢。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W152",
+      "family": "mother_worries",
+      "occurrences": [
+        {
+          "id": "GBA-068-R01:S1",
+          "raw": "こころの なかでは きっと\nハルカちゃんの こと",
+          "chinese": "可能她不会说出口，\n但毕竟儿行千里母担忧啊，\nハルカちゃん。",
+          "output": "可能她不会说出口，\n但毕竟儿行千里母担忧啊，\nハルカちゃん。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "NGC-111-R01:S1",
+          "raw": "こころの なかでは きっと\nハルカちゃんの こと",
+          "chinese": "可能她不会说出口，\n但毕竟儿行千里母担忧啊，\nハルカちゃん。",
+          "output": "可能她不会说出口，\n但毕竟儿行千里母担忧啊，\nハルカちゃん。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W153",
+      "family": "mother_worries",
+      "occurrences": [
+        {
+          "id": "GBA-069-R01:S1",
+          "raw": "ハルカちゃんの こと\nしんぱい してる はずだから‥‥",
+          "chinese": "可能她不会说出口，\n但毕竟儿行千里母担忧啊，\nハルカちゃん。",
+          "output": "可能她不会说出口，\n但毕竟儿行千里母担忧啊，\nハルカちゃん。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        },
+        {
+          "id": "NGC-112-R01:S1",
+          "raw": "ハルカちゃんの こと\nしんぱい してる はずだから‥‥",
+          "chinese": "可能她不会说出口，\n但毕竟儿行千里母担忧啊，\nハルカちゃん。",
+          "output": "可能她不会说出口，\n但毕竟儿行千里母担忧啊，\nハルカちゃん。",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W263",
+      "family": "winning_prize",
+      "occurrences": [
+        {
+          "id": "GBA-188-R02:S1",
+          "raw": "ハルカは しょうきんとして\n4900円 てにいれた！",
+          "chinese": "作为奖励，\nハルカ获得了$4900！",
+          "output": "作为奖励，\nハルカ获得了$4900！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W307",
+      "family": "winning_prize",
+      "occurrences": [
+        {
+          "id": "GBA-244-R02:S1",
+          "raw": "ハルカは しょうきんとして\n5100円 てにいれた！",
+          "chinese": "作为奖励，\nハルカ获得了$5100！",
+          "output": "作为奖励，\nハルカ获得了$5100！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W391",
+      "family": null,
+      "occurrences": [
+        {
+          "id": "GBA-304-R06:S5",
+          "raw": "101ばん どうろで であった",
+          "chinese": "101号道路相遇。",
+          "output": "101号道路相遇。",
+          "reason": "reviewed_original_native_printing",
+          "passed": true
+        },
+        {
+          "id": "NGC-123-R06:S5",
+          "raw": "101ばん どうろで であった",
+          "chinese": "101号道路相遇。",
+          "output": "101号道路相遇。",
+          "reason": "reviewed_original_native_printing",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W437",
+      "family": null,
+      "occurrences": [
+        {
+          "id": "GBA-310-R06:S5",
+          "raw": "104ばん どうろで であった",
+          "chinese": "104号道路相遇。",
+          "output": "104号道路相遇。",
+          "reason": "reviewed_original_native_printing",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W532",
+      "family": null,
+      "occurrences": [
+        {
+          "id": "NGC-131-R06:S5",
+          "raw": "118ばん どうろで であった",
+          "chinese": "118号道路相遇。",
+          "output": "118号道路相遇。",
+          "reason": "reviewed_original_native_printing",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W474",
+      "family": "team_departure",
+      "occurrences": [
+        {
+          "id": "NGC-071-R01:S1",
+          "raw": "だれかが アクアだんを\nけちらしてくれた らしいんだ！",
+          "chinese": "有人帮我们把\n海洋队赶走了！",
+          "output": "有人帮我们把\n海洋队赶走了！",
+          "reason": "reviewed_original_template_binding",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    },
+    {
+      "decisionId": "W510",
+      "family": null,
+      "occurrences": [
+        {
+          "id": "NGC-124-R04:S2",
+          "raw": "げんざい 1こ",
+          "chinese": "奖章数: 1",
+          "output": "奖章数: 1",
+          "reason": "reviewed_original_native_printing",
+          "passed": true
+        },
+        {
+          "id": "NGC-132-R04:S2",
+          "raw": "げんざい 1こ",
+          "chinese": "奖章数: 1",
+          "output": "奖章数: 1",
+          "reason": "reviewed_original_native_printing",
+          "passed": true
+        }
+      ],
+      "reviewedRetention": null
+    }
+  ],
+  "originalTemplateOutputOccurrences": 134,
+  "retainedOccurrences": 0
+}

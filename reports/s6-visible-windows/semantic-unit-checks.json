@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "scope": "Original semantic units, control boundaries, identifying anchors, rolling windows and current variable isolation",
+  "checks": [
+    {
+      "name": "Gym combination first and scrolling windows identify the same complete unchanged original semantic unit",
+      "passed": true
+    },
+    {
+      "name": "Wrapping, spaces and carriage returns do not change an already reviewed identifying window",
+      "passed": true
+    },
+    {
+      "name": "Scrolling and clear-window boundaries do not split reviewed same-sentence or dependent semantic units",
+      "passed": true
+    },
+    {
+      "name": "One identified unit cannot publish the next independent invitation, room instruction, recollection or diagnosis",
+      "passed": true
+    },
+    {
+      "name": "Source-backed functional localization and reviewed partial anchors no longer count as missing translations",
+      "passed": true
+    },
+    {
+      "name": "Unknown glyphs, arbitrary short prefixes, unknown actor fragments and incompatible layouts cannot select a semantic unit",
+      "passed": true
+    },
+    {
+      "name": "Native label and grammar equivalence consumes the correct complete visible unit without leaving Japanese prefixes",
+      "passed": true
+    },
+    {
+      "name": "Rolling advice and concern templates require current names and honorifics and never reuse another frame",
+      "passed": true
+    },
+    {
+      "name": "Contest rank comes only from the currently visible rank and its unchanged original term",
+      "passed": true
+    },
+    {
+      "name": "Prize money can use the verified original entry even when the old candidate bridge was missing",
+      "passed": true
+    },
+    {
+      "name": "Organization stems select original complete team terms and never leak the following Wailmer or boat paragraph",
+      "passed": true
+    },
+    {
+      "name": "Changed Japanese ranges, anchor digests, original spans and source identities reject the semantic pack",
+      "passed": true
+    }
+  ]
+}

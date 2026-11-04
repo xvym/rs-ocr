@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "stage": "S6",
+  "complete": false,
+  "libraryGatePassed": true,
+  "resourceHandoffReady": true,
+  "fullFirstEditionCorpusComplete": false,
+  "completedEvidence": {
+    "frozenChinese": {
+      "correct": 770,
+      "total": 770,
+      "legal": {
+        "passed": 8,
+        "total": 8
+      },
+      "blind": false
+    },
+    "nativeNamingCases": 48,
+    "nativeTowerGreetingCases": 200,
+    "nativeTowerDeclaredStressCases": 4,
+    "homographGroupsReviewed": 215
+  },
+  "gaps": [
+    {
+      "id": "tv_variable_binding",
+      "stage": "S6",
+      "count": 170,
+      "unit": "source_clear_pages",
+      "status": "open",
+      "evidence": "corpus/s6/tv-page-reviews.json",
+      "reason": "Chinese text reviewed, but per-buffer caller semantics, spelling fragments, complete visible values and source windows are not approved. Not in runtime."
+    },
+    {
+      "id": "whole_source_semantics",
+      "stage": "S6",
+      "count": 18308,
+      "unit": "per_game_source_records_including_mixed_scope",
+      "status": "open",
+      "evidence": "outputs/s6-corpus/source-inventory.csv",
+      "reason": "Full frozen source inventory is not a first-edition coverage denominator. Complete source-record approval cannot be inferred from an approved child window/term; long-tail first-edition dialogue and menu scope remains incomplete."
+    },
+    {
+      "id": "arbitrary_easy_chat_compositions",
+      "stage": "S6",
+      "count": null,
+      "unit": "user_generated_phrases",
+      "status": "open",
+      "evidence": "reports/s6-corpus/easy-chat-native-evidence.json",
+      "reason": "1015 picker labels and 100 fixed Japanese tower greetings are reviewed. TV letters, record mixing and e-Reader combinations cannot use Chinese word-gloss concatenation as sentence approval."
+    },
+    {
+      "id": "person_name_conflicts",
+      "stage": "S6",
+      "count": 24,
+      "unit": "per_game_groups",
+      "status": "explicit_raw_fallback",
+      "evidence": "corpus/s6/homograph-reviews.json",
+      "reason": "Unresolved real name localizations remain all candidates; no global winner."
+    },
+    {
+      "id": "first_edition_page_state_coverage",
+      "stage": "S6",
+      "count": null,
+      "unit": "uncovered_states",
+      "status": "open",
+      "evidence": "reports/s6-corpus/page-coverage.csv",
+      "reason": "Frozen-region availability is verified, but missing shop/PC states, version-specific standard dialogue and complete page/source relationships are not demonstrated by these screenshots."
+    },
+    {
+      "id": "java_live_integration",
+      "stage": "S7_S8",
+      "count": null,
+      "unit": "actual_chains",
+      "status": "not_part_of_S6_library_gate",
+      "evidence": "execplan.md",
+      "reason": "No Java Chinese pipeline, excluded/negative Chinese output, identity cache, window timing or actual two-chain latency acceptance is claimed."
+    }
+  ],
+  "resourceSummary": {
+    "schemaVersion": 1,
+    "stage": "S6",
+    "lexicalRecords": 3575,
+    "visibleUnits": 793,
+    "completeStaticRecords": 350,
+    "templates": 410,
+    "homographDecisions": {
+      "reviewed_common_current_meaning": 168,
+      "unresolved_person_name_localization": 24,
+      "typed_context_required": 23
+    },
+    "tvTextReviews": 133,
+    "tvPublishedLiteralPages": 229,
+    "tvPendingVariablePages": 170,
+    "tvNonPublishedPlaceholders": 4,
+    "sourceRecords": 13479,
+    "perGameInventory": 25410,
+    "inventoryStatuses": {
+      "unreviewed_chinese_candidate": 16857,
+      "has_reviewed_unit_or_term_not_whole_record_approval": 5830,
+      "missing_chinese_correspondence": 1451,
+      "no_japanese_record": 1044,
+      "unused_placeholder": 228
+    },
+    "boundary": "Reviewable corpus and offline availability probe; not S7 desktop/live integration or S8 whole-game acceptance. Inventory is explicit about unreviewed whole records."
+  },
+  "boundary": "The user requested completion of S6. This audit deliberately keeps S6 incomplete while required first-edition semantics/composition work remains; passing the frozen library gate does not change that scope."
+}

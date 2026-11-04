@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "stage": "S6",
+  "lexicalRecords": 3575,
+  "visibleUnits": 793,
+  "completeStaticRecords": 350,
+  "templates": 410,
+  "homographDecisions": {
+    "reviewed_common_current_meaning": 168,
+    "unresolved_person_name_localization": 24,
+    "typed_context_required": 23
+  },
+  "tvTextReviews": 133,
+  "tvPublishedLiteralPages": 229,
+  "tvPendingVariablePages": 170,
+  "tvNonPublishedPlaceholders": 4,
+  "sourceRecords": 13479,
+  "perGameInventory": 25410,
+  "inventoryStatuses": {
+    "unreviewed_chinese_candidate": 16857,
+    "has_reviewed_unit_or_term_not_whole_record_approval": 5830,
+    "missing_chinese_correspondence": 1451,
+    "no_japanese_record": 1044,
+    "unused_placeholder": 228
+  },
+  "boundary": "Reviewable corpus and offline availability probe; not S7 desktop/live integration or S8 whole-game acceptance. Inventory is explicit about unreviewed whole records."
+}

@@ -149,7 +149,7 @@
   "implementation": [
     {
       "local": "tools/build_corpus.mjs",
-      "sha256": "21b3a64ae60532b184f854542e18dc3d2b1b08cd4f57cd0f83bbe60ea05984eb"
+      "sha256": "087b4d4b6726b7f6849f46d3e519af0e261f7fc2adf3b08ae89129cfa1a3129e"
     },
     {
       "local": "tools/corpus_source.mjs",
@@ -157,7 +157,15 @@
     },
     {
       "local": "tools/corpus_common.mjs",
-      "sha256": "58cc7e40e5c443babe2611ea7a6a24b569c3df67867a9ac1d27b6cc6e5133132"
+      "sha256": "74faf4f0dfab325cc2a972c4a9a83d15a988b75a7bc585fb6359ef55e7bb69b4"
+    },
+    {
+      "local": "tools/rsc_translation_policy.mjs",
+      "sha256": "6698e6923bdef284f2524748804186b4b10b2bcefa676e26e5911406d156b886"
+    },
+    {
+      "local": "tools/rsc_correspondence_index.mjs",
+      "sha256": "c7db8e9bdefb2cb3b6b261c2e35c320cc75229c578ef187353cdcdd283221122"
     },
     {
       "local": "tools/prepare_corpus.mjs",
@@ -165,25 +173,45 @@
     },
     {
       "local": "corpus/reviews.json",
-      "sha256": "3067a301058af262659de9ba6f9e9573f38a42327295d717a939ede1bd638fee"
+      "sha256": "fd53da5c1af98b5a9ee84b6252fdd37f071183a282c4daa563c6b5d63fcb85f7"
     },
     {
       "local": "corpus/variable-rules.json",
       "sha256": "9060659a1e1b98e7bd9358b64b52b1354e071ae7f8c144dd0abb61ddbdd88169"
+    },
+    {
+      "local": "corpus/translation-policy.json",
+      "sha256": "291b05d92e3ee9138086e36dbfb46d52ae6774d959df25a40acefa81491df0cf"
+    },
+    {
+      "local": "corpus/correspondence-selections.json",
+      "sha256": "e97c9ea0fb47cba4b48fa6b805872af6f94d16febdf4a5939d15ce83ad7b58ef"
+    },
+    {
+      "local": "corpus/rsc-reverse-reviews.json",
+      "sha256": "9e11528b561ab8c22c1c8823c7fbbcbe6d6663cda9ca6db6c660b64bced80bfe"
     }
   ],
   "outputs": [
     {
       "file": "candidates.csv",
-      "sha256": "ed3e27b1831e6a52a39b81ef672aa27eebb3e414e0d5d25a0849b0ea2daf21ff"
+      "sha256": "7c467a740e53726d5c4f26d0aec928c9fd8927ea52edffff684fc8e140d54c51"
     },
     {
       "file": "conflicts.json",
-      "sha256": "c8c3a74fe113f1454581a81e048381c3d503078fbb563745d4d61f2a4adae3ec"
+      "sha256": "a3fa3338f8a32447d1991a404accba9fca1e60aa7b4644ad5a2a6f30c4de5226"
+    },
+    {
+      "file": "correspondence-gaps.csv",
+      "sha256": "f2ea85c4d4ac71dd3cdfb307b11af606f9d211b1d9471e1e93f324335a909b2d"
+    },
+    {
+      "file": "correspondences.json",
+      "sha256": "95daa71bdcf677b253fb16aae6f3ae88bb83f2d71900f286ab7bad319916a349"
     },
     {
       "file": "gaps.csv",
-      "sha256": "7bac7d0078a8d1f18408215e93a423f105cd59cbb4781390add1ff2c2e06fd6d"
+      "sha256": "1fec409f21d0b36b444a8cb7bf84aa28392808ad8eaaa8e6eb6ac2dbc89a31bd"
     },
     {
       "file": "records.csv",
@@ -195,7 +223,7 @@
     },
     {
       "file": "runtime.json",
-      "sha256": "095b74d7020c7cb1741fb897f27d849b929ed16248343a7028e8b26d96247c5c"
+      "sha256": "04627f1bdefdb2980ca91d190e884cd534565071cd40f187e0b1f03e72da83e5"
     },
     {
       "file": "semantic-worklist.csv",
@@ -207,7 +235,7 @@
     },
     {
       "file": "summary.json",
-      "sha256": "c624ad3e3d5a0e4744f22370ce5976ac4ad4402989fd52220e121f4fe4de2aab"
+      "sha256": "34536914cc296db32988d279f24ca0fd85a732b111775fc62a643727470da964"
     },
     {
       "file": "variables.csv",

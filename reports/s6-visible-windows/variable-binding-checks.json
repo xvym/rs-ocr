@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "scope": "Original template binding, current-value isolation, version/source boundaries and complete former-variable audit",
+  "checks": [
+    {
+      "name": "PC boot uses the unchanged original PLAYER template and the current visible name without identity setup",
+      "passed": true
+    },
+    {
+      "name": "Incomplete boot text, long or broken names, appended events, placeholder injection and wrong layouts remain raw",
+      "passed": true
+    },
+    {
+      "name": "PC ownership, player house, party actions and honorifics reuse only their original source-scoped tokens",
+      "passed": true
+    },
+    {
+      "name": "Rival helping their father uses the unchanged original localized help-and-affection unit and only the current rival name",
+      "passed": true
+    },
+    {
+      "name": "Current HP recipient and amount are rebound on every call, including observed digit width",
+      "passed": true
+    },
+    {
+      "name": "The same RSC token label has different reviewed roles for PC, move use, switch intent and normal experience",
+      "passed": true
+    },
+    {
+      "name": "Moves and ordinary stat changes fill original buffers with source-backed complete terms, not generated phrases",
+      "passed": true
+    },
+    {
+      "name": "Normal experience binds actor, verified empty modifier and current displayed amount across the Japanese/English buffer difference",
+      "passed": true
+    },
+    {
+      "name": "Switch intent cannot publish the following question and the question cannot reuse an earlier actor or species",
+      "passed": true
+    },
+    {
+      "name": "Trainer class boundaries, distinct actors and ability call-site constraints are preserved",
+      "passed": true
+    },
+    {
+      "name": "Fainting, status, recall, catching and item use keep literal original templates and current actor labels",
+      "passed": true
+    },
+    {
+      "name": "Reviewed same-event wording chooses an unchanged original variant; unreviewed version conflicts still remain raw",
+      "passed": true
+    },
+    {
+      "name": "Original quote, token mapping, component witnesses and Japanese-source tampering are rejected or fail closed",
+      "passed": true
+    },
+    {
+      "name": "All 101 former variable fallback cases have explicit outcomes and no generic variable blocker remains",
+      "passed": true
+    }
+  ]
+}

@@ -1,107 +1,150 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "stage": "S6",
   "complete": false,
-  "libraryGatePassed": true,
-  "resourceHandoffReady": true,
-  "fullFirstEditionCorpusComplete": false,
-  "completedEvidence": {
-    "frozenChinese": {
-      "correct": 770,
-      "total": 770,
-      "legal": {
-        "passed": 8,
-        "total": 8
-      },
-      "blind": false
+  "translationPolicy": "rsc-original-only-v1",
+  "originGatePassed": true,
+  "sourceSelection": "unique_original_rsc_text",
+  "semanticDifferenceFallback": false,
+  "chineseSemanticGateRequired": false,
+  "chineseSemanticGatePassed": null,
+  "previousModelGate": "withdrawn_archived",
+  "generatedChineseRecords": 0,
+  "resourceSummary": {
+    "schemaVersion": 3,
+    "translationPolicy": "rsc-original-only-v1",
+    "sourceSelection": "unique_original_rsc_text",
+    "semanticDifferenceFallback": false,
+    "generatedChineseRecords": 0,
+    "rewrittenChineseRecords": 0,
+    "lexiconRecords": 2506,
+    "staticRecords": 319,
+    "originalCandidateRows": 21192,
+    "deferredTypedConflicts": 0,
+    "displayableRecords": 2809,
+    "chineseTemplates": 43,
+    "templatePolicy": "existing_original_RSC_only",
+    "chineseEventFormats": 0,
+    "chineseCompositionRules": 0,
+    "originalRscTemplateFamilies": 43,
+    "generatedChineseTemplates": 0,
+    "complete": false,
+    "correspondenceIndex": {
+      "links": 1273,
+      "reviewedLinks": 501,
+      "reviewedJapaneseQids": 222,
+      "reviewedGamePairs": 441,
+      "reviewedFragmentLinks": 18,
+      "structuralParentLinks": 772,
+      "sourceEntries": 1178,
+      "publicationApprovedLinks": 0
     },
-    "nativeNamingCases": 48,
-    "nativeTowerGreetingCases": 200,
-    "nativeTowerDeclaredStressCases": 4,
-    "homographGroupsReviewed": 215
+    "visibleWindows": {
+      "reviewedOriginalSpans": 270,
+      "reviewedOriginalTemplateCases": 101,
+      "reviewedSemanticCases": 71,
+      "reviewedNativeFieldCases": 6,
+      "semanticUnitPlans": 41,
+      "originalPrintRecipes": 4,
+      "retainedJapanese": 5,
+      "outsideFirstEdition": 99,
+      "scope": "fixed_observed_units_not_full_first_edition",
+      "approvedOriginalTemplateFamilies": 43,
+      "generatedChineseTemplates": 0
+    },
+    "semanticAcceptance": "not_required_for_unique_original_source",
+    "runtimeIntegration": "S7_pending",
+    "fallback": "original_japanese",
+    "unmatchedIsNotProofOfMissingTranslation": true
+  },
+  "resourceSummaryIsBuildSnapshot": true,
+  "runtimeIntegration": "java_desktop_integrated_pending_device_acceptance",
+  "s7Integration": {
+    "report": "reports/s7-integration/README.md",
+    "complete": false,
+    "softwareIntegrationPassed": true
   },
   "gaps": [
     {
-      "id": "tv_variable_binding",
+      "id": "original_rsc_correspondence",
       "stage": "S6",
-      "count": 170,
-      "unit": "source_clear_pages",
       "status": "open",
-      "evidence": "corpus/s6/tv-page-reviews.json",
-      "reason": "Chinese text reviewed, but per-buffer caller semantics, spelling fragments, complete visible values and source windows are not approved. Not in runtime."
+      "reason": "Resolve original RSC record/page/visible-window correspondence; unmatched does not mean upstream translation is missing."
     },
     {
-      "id": "whole_source_semantics",
+      "id": "original_rsc_variables_and_printing",
       "stage": "S6",
-      "count": 18308,
-      "unit": "per_game_source_records_including_mixed_scope",
+      "status": "partially_completed",
+      "reason": "43 original RSC template families, 41 reviewed semantic-unit plans and 4 existing print recipes are bound. All 101 prior variable fallback cases (134 occurrences) are reviewed: 134 now output original wording/format; 0 remain retained. Wrapping and scrolling do not divide the same identified unit. Broader source and page-state coverage remains open."
+    },
+    {
+      "id": "source_linked_chinese_reference",
+      "stage": "S6",
+      "status": "fixed_visible_baseline_complete",
+      "reason": "All 579 fixed target regions are registered. The 783 in-scope units have 772 original wording/format outputs (8 numeric/level formats) and 11 raw retentions (4 invariant labels; 7 unresolved). Fixed baseline checks do not complete whole-first-edition source/window/variable coverage or live application acceptance."
+    },
+    {
+      "id": "first_edition_scope_and_states",
+      "stage": "S6",
       "status": "open",
-      "evidence": "outputs/s6-corpus/source-inventory.csv",
-      "reason": "Full frozen source inventory is not a first-edition coverage denominator. Complete source-record approval cannot be inferred from an approved child window/term; long-tail first-edition dialogue and menu scope remains incomplete."
+      "reason": "Verify required first-edition pages/states and long-tail source correspondence."
     },
     {
-      "id": "arbitrary_easy_chat_compositions",
-      "stage": "S6",
-      "count": null,
-      "unit": "user_generated_phrases",
-      "status": "open",
-      "evidence": "reports/s6-corpus/easy-chat-native-evidence.json",
-      "reason": "1015 picker labels and 100 fixed Japanese tower greetings are reviewed. TV letters, record mixing and e-Reader combinations cannot use Chinese word-gloss concatenation as sentence approval."
-    },
-    {
-      "id": "person_name_conflicts",
-      "stage": "S6",
-      "count": 24,
-      "unit": "per_game_groups",
-      "status": "explicit_raw_fallback",
-      "evidence": "corpus/s6/homograph-reviews.json",
-      "reason": "Unresolved real name localizations remain all candidates; no global winner."
-    },
-    {
-      "id": "first_edition_page_state_coverage",
-      "stage": "S6",
-      "count": null,
-      "unit": "uncovered_states",
-      "status": "open",
-      "evidence": "reports/s6-corpus/page-coverage.csv",
-      "reason": "Frozen-region availability is verified, but missing shop/PC states, version-specific standard dialogue and complete page/source relationships are not demonstrated by these screenshots."
-    },
-    {
-      "id": "java_live_integration",
+      "id": "java_integration_and_live_acceptance",
       "stage": "S7_S8",
-      "count": null,
-      "unit": "actual_chains",
-      "status": "not_part_of_S6_library_gate",
-      "evidence": "execplan.md",
-      "reason": "No Java Chinese pipeline, excluded/negative Chinese output, identity cache, window timing or actual two-chain latency acceptance is claimed."
+      "status": "java_integrated_device_acceptance_pending",
+      "reason": "Existing S6 resources are integrated into Java desktop and controlled window replay; actual device-chain and final product acceptance remain pending."
     }
   ],
-  "resourceSummary": {
-    "schemaVersion": 1,
-    "stage": "S6",
-    "lexicalRecords": 3575,
-    "visibleUnits": 793,
-    "completeStaticRecords": 350,
-    "templates": 410,
-    "homographDecisions": {
-      "reviewed_common_current_meaning": 168,
-      "unresolved_person_name_localization": 24,
-      "typed_context_required": 23
+  "reverseCorrespondenceReview": {
+    "baseline": {
+      "ruby": 58,
+      "sapphire": 57
     },
-    "tvTextReviews": 133,
-    "tvPublishedLiteralPages": 229,
-    "tvPendingVariablePages": 170,
-    "tvNonPublishedPlaceholders": 4,
-    "sourceRecords": 13479,
-    "perGameInventory": 25410,
-    "inventoryStatuses": {
-      "unreviewed_chinese_candidate": 16857,
-      "has_reviewed_unit_or_term_not_whole_record_approval": 5830,
-      "missing_chinese_correspondence": 1451,
-      "no_japanese_record": 1044,
-      "unused_placeholder": 228
+    "cases": 115,
+    "confirmedRecords": 35,
+    "confirmedFragments": 18,
+    "deferred": 62,
+    "sameSourceJapaneseNull": 62,
+    "remainingByGame": {
+      "ruby": {
+        "unlinked": 31,
+        "fragmentOnly": 9
+      },
+      "sapphire": {
+        "unlinked": 31,
+        "fragmentOnly": 9
+      }
     },
-    "boundary": "Reviewable corpus and offline availability probe; not S7 desktop/live integration or S8 whole-game acceptance. Inventory is explicit about unreviewed whole records."
+    "report": "reports/rsc-reverse-mapping/README.md"
   },
-  "boundary": "The user requested completion of S6. This audit deliberately keeps S6 incomplete while required first-edition semantics/composition work remains; passing the frozen library gate does not change that scope."
+  "visibleWindowBaseline": {
+    "passed": true,
+    "regions": 579,
+    "units": 1133,
+    "firstEditionRegions": 489,
+    "firstEditionUnits": 783,
+    "originalChineseUnits": 772,
+    "originalFormatOnlyUnits": 8,
+    "retainedJapaneseUnits": 11,
+    "retainedByDesignUnits": 4,
+    "unresolvedRetainedUnits": 7,
+    "outsideFirstEditionUnits": 350,
+    "approvedOriginalTemplateFamilies": 43,
+    "semanticUnitPlans": 41,
+    "originalPrintRecipes": 4,
+    "variableBindingAudit": {
+      "uniqueCases": 101,
+      "occurrences": 134,
+      "originalTemplateOutputOccurrences": 134,
+      "retainedOccurrences": 0
+    },
+    "fullFirstEditionChineseGatePassed": false,
+    "independentReview": false,
+    "report": "reports/s6-visible-windows/README.md"
+  },
+  "preservedNativeEvidence": [
+    "reports/s6-corpus/japanese-name-evidence.json",
+    "reports/s6-corpus/easy-chat-native-evidence.json"
+  ]
 }

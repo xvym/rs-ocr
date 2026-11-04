@@ -1,0 +1,38 @@
+{
+  "inputs": [
+    {
+      "local": "reports/rsc-semantic-audit/retrieval.json",
+      "sha256": "002a979fc87af4b17861f30fde3e32d28ef715b9572319e0920cb086d25b2aed"
+    },
+    {
+      "local": "reports/rsc-semantic-audit/semantic-review-rules.mjs",
+      "sha256": "6a98a6f66caa27c4f9c16b98db4b84b9678f57143297b3e847c7dd36ae998322"
+    },
+    {
+      "local": ".tools/rsc-semantic/index.json",
+      "sha256": "446c0ca143044cd87ef300876f3263c8cd36a38894f5b117b9cefabe4a27c38d"
+    }
+  ],
+  "implementation": {
+    "local": "tools/review_rsc_semantic_audit.mjs",
+    "sha256": "306f762a91931dfabf3a83380b86582f0321a2bc292219a88056785625159ace"
+  },
+  "outputs": [
+    {
+      "file": "semantic-review.json",
+      "sha256": "daf8d539453e6fc64506029b535406033a0ed2ae18c8e602b4b1b98dfa8f038e"
+    },
+    {
+      "file": "summary.json",
+      "sha256": "3c12fab516dea7c3d82a24d8895c5016ae95a6843f16c8670e665c98ce55117e"
+    },
+    {
+      "file": "results.json",
+      "sha256": "8a1d971a479004e34379975b9738b76eb3f86fdfd451b7bc288ee62d6c53c361"
+    },
+    {
+      "file": "semantic-worklist.csv",
+      "sha256": "491972ff8ca2d6242222ab73a219e09c3ef2ba369606bb333d2e9025a729e533"
+    }
+  ]
+}

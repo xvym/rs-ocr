@@ -15,11 +15,11 @@
     },
     {
       "local": "outputs/corpus-mapping/candidates.csv",
-      "sha256": "ed3e27b1831e6a52a39b81ef672aa27eebb3e414e0d5d25a0849b0ea2daf21ff"
+      "sha256": "7c467a740e53726d5c4f26d0aec928c9fd8927ea52edffff684fc8e140d54c51"
     },
     {
       "local": "outputs/corpus-mapping/runtime.json",
-      "sha256": "095b74d7020c7cb1741fb897f27d849b929ed16248343a7028e8b26d96247c5c"
+      "sha256": "04627f1bdefdb2980ca91d190e884cd534565071cd40f187e0b1f03e72da83e5"
     },
     {
       "local": "src/main/resources/ocr/labels.json",
@@ -63,7 +63,7 @@
     },
     {
       "local": "outputs/battle-source-matching/build-manifest.json",
-      "sha256": "e0a0f552211b4e7311fc07c650c0de6a59491d9df09229738e9a715f780e588b"
+      "sha256": "09fa4a7b6b5d4edf848ac3e20b7bf1bbea0d348d60744538d8b717acebdc2fa7"
     },
     {
       "local": "outputs/battle-source-matching/templates.json",
@@ -133,7 +133,7 @@
     },
     {
       "local": "tools/corpus_common.mjs",
-      "sha256": "58cc7e40e5c443babe2611ea7a6a24b569c3df67867a9ac1d27b6cc6e5133132"
+      "sha256": "74faf4f0dfab325cc2a972c4a9a83d15a988b75a7bc585fb6359ef55e7bb69b4"
     },
     {
       "local": "tools/resolve_japanese.mjs",
@@ -141,7 +141,7 @@
     },
     {
       "local": "tools/evaluate_source_matching.mjs",
-      "sha256": "b0667f3a258497d03541892192f8b2d313f19fb3ccfd2807f97e0f88480c23ea"
+      "sha256": "4003b366af70aa2cdaac160288bf06b431ce9d3a74bc427e8b44847b74914362"
     },
     {
       "local": "tools/freeze_source_matching_inputs.mjs",
@@ -163,11 +163,11 @@
   "outputs": [
     {
       "file": "summary.json",
-      "sha256": "e3f669053fc9d6e9347933c5c02156a4c9e482e27a87b044e3fa0de7698d7478"
+      "sha256": "680063d73651b3bd3f009da96cc4d5ac35047309a03b022502d9d93c0059633c"
     },
     {
       "file": "results.json",
-      "sha256": "fef619df94deeb4406c00ba29988b57296beb676caea1e32ae210c1db71d39d5"
+      "sha256": "09f893e495b9e42ae9e94d1baf9f6a93b6978c1035c2db4d636ca0566eb4dbfe"
     },
     {
       "file": "battle-review.json",
@@ -179,11 +179,11 @@
     },
     {
       "file": "worklist.csv",
-      "sha256": "5557f2cf839645de0f18757b52c895fbb179d7ef85a42f481de6dfac7e77fc61"
+      "sha256": "017f8d14ff26823fb8bdd38063e23e7f1561a054a38cee2c7a15079e19aa2771"
     },
     {
       "file": "review.html",
-      "sha256": "f51a3e6c2159d86442fb7a725268857a47df50cf689da841ccb625107b992a09"
+      "sha256": "796081aa217064a6d247020b4dbab636e063ac5bfe197e4f1d9e652bc92bc644"
     },
     {
       "file": "unsupported-sources.json",

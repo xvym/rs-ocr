@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "requests": 8,
+  "standaloneJarOnly": true,
+  "externalRuntime": "Java 21; no Node, ROM, upstream checkout, screenshot or acceptance answers required",
+  "networkUsed": false,
+  "jarSha256": "efba666818512bc224f3a107f193d0e996c86a40192fa7bdeaf929e4bff6c373",
+  "s6ManifestSha256": "5dde5f3c76bc4b858943551058db4e77e4fab00c896aa4ab38cd14cd33b4b145",
+  "embeddedTranslationResources": true,
+  "embeddedCaptureComponent": true,
+  "sourceAndAnswersAbsent": true,
+  "tamperedResourceRejected": true,
+  "checks": [
+    "original unique text including known localization error",
+    "current unknown player literal",
+    "original name lexicon",
+    "version conflict fallback",
+    "explicit version selection",
+    "incomplete actor fallback",
+    "placeholder rejection",
+    "restart clears automatic identity",
+    "changed embedded resource rejected"
+  ],
+  "results": [
+    {
+      "request": {
+        "japanese": "エネコロロ『みゃあん？",
+        "type": "field_dialog"
+      },
+      "output": [
+        "向尾喵：喵？"
+      ],
+      "player": null
+    },
+    {
+      "request": {
+        "japanese": "ABCは\nパソコンの スイッチを いれた！",
+        "type": "field_dialog"
+      },
+      "output": [
+        "ABC启动了电脑。"
+      ],
+      "player": {
+        "raw": "ABC",
+        "source": "current_frame"
+      }
+    },
+    {
+      "request": {
+        "japanese": "ハルカは\nパソコンの スイッチを いれた！",
+        "type": "field_dialog"
+      },
+      "output": [
+        "小遥启动了电脑。"
+      ],
+      "player": {
+        "raw": "ハルカ",
+        "source": "current_frame"
+      }
+    },
+    {
+      "request": {
+        "japanese": "ピクニックガール",
+        "type": "field_dialog"
+      },
+      "output": [
+        "ピクニックガール"
+      ],
+      "player": {
+        "raw": "ハルカ",
+        "source": "session_memory"
+      }
+    },
+    {
+      "request": {
+        "japanese": "ピクニックガール",
+        "type": "field_dialog",
+        "game": "sapphire"
+      },
+      "output": [
+        "野餐少女"
+      ],
+      "player": null
+    },
+    {
+      "request": {
+        "japanese": "あいて",
+        "type": "battle_message"
+      },
+      "output": [
+        "あいて"
+      ],
+      "player": null
+    },
+    {
+      "request": {
+        "japanese": "[PLAYER]",
+        "type": "field_dialog"
+      },
+      "output": [
+        "[PLAYER]"
+      ],
+      "player": null
+    },
+    {
+      "request": {
+        "japanese": "",
+        "type": "field_dialog",
+        "restart": true
+      },
+      "output": [],
+      "player": null
+    }
+  ]
+}

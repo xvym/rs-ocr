@@ -1,67 +1,46 @@
 {
   "passed": true,
-  "total": 15,
+  "scope": "RSC-only origin and fallback checks, not Chinese semantic accuracy",
   "checks": [
     {
-      "name": "S6 runtime is self-contained without ROM, upstream caches, fonts or answers",
+      "name": "Every published Chinese value has an exact pinned RSC witness",
       "passed": true
     },
     {
-      "name": "Source and implementation identities are recorded; frozen answers never enter the resource build",
+      "name": "Changing retained Chinese is rejected even with model or human approval",
       "passed": true
     },
     {
-      "name": "Typed full lexical names, raw unknown names and no partial names obey the saved name policy",
+      "name": "Historical model corpus and new event/composition payloads are rejected",
       "passed": true
     },
     {
-      "name": "Species, elemental types, status and word-picker types cannot force a global homograph winner",
+      "name": "Typed complete original names work and homographs do not get a global winner",
       "passed": true
     },
     {
-      "name": "All 354 native move forms have reviewed full-move Chinese and preserve unknown complete actors",
+      "name": "Former generated sentences and prefix composition fall back to Japanese",
       "passed": true
     },
     {
-      "name": "Bindings keep raw current amounts and do not reuse a prior observation",
+      "name": "Unverified original controls and placeholders cannot be silently rewritten",
       "passed": true
     },
     {
-      "name": "Same-rank substantive outputs and incomplete searches fail closed",
+      "name": "Build inputs and hashes are current and exclude historical model payloads",
       "passed": true
     },
     {
-      "name": "Repeated slots are checked on a separate synthetic grammar, without shipping fabricated game sentences",
+      "name": "Standalone handoff loads without upstream data and detects artifact tampering",
       "passed": true
     },
     {
-      "name": "Japanese local player length uses native five-character evidence; ordinary display nicknames keep their own bound",
+      "name": "Source-only rebuild is byte-for-byte reproducible",
       "passed": true
     },
     {
-      "name": "Every fixed Japanese tower greeting is source-bound and translated only as the complete current two-line unit",
-      "passed": true
-    },
-    {
-      "name": "Offline common meanings never include the next clear page or localized parent-text expansion",
-      "passed": true
-    },
-    {
-      "name": "All unresolved whole source records remain outside the published unit approval",
-      "passed": true
-    },
-    {
-      "name": "TV literal pages use explicit dialogue context while all 170 pending variable pages stay unpublished",
-      "passed": true
-    },
-    {
-      "name": "Frozen Chinese gate passes separately from unavailable live/negative/excluded Chinese evidence",
-      "passed": true
-    },
-    {
-      "name": "Rebuild is byte-for-byte identical and the frozen original baseline remains 25/770",
+      "name": "Legacy model semantic gate refuses to report a current pass",
       "passed": true
     }
-  ],
-  "scope": "S6 resource behavior, evidence identity, deterministic rebuild and offline handoff; no S7 Java/live or S8 whole-game acceptance"
+  ]
 }

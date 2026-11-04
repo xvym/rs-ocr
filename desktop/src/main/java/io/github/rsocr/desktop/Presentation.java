@@ -13,7 +13,11 @@ public final class Presentation {
     }
     public record Run(double x,double y,double width,double height,String raw,boolean unknown) {}
     public record Pointer(double x,double y) {}
-    public record Panel(String key,String name,Box clip,Box frame,int order,String raw,String status,List<Run> runs,List<Pointer> pointers,List<Box> selections) {
+    public record TextBlock(Box box,String text) {}
+    public record Panel(String key,String name,Box clip,Box frame,int order,String raw,String status,List<Run> runs,List<Pointer> pointers,List<Box> selections,List<TextBlock> translations) {
+        public Panel(String key,String name,Box clip,Box frame,int order,String raw,String status,List<Run> runs,List<Pointer> pointers,List<Box> selections) {
+            this(key,name,clip,frame,order,raw,status,runs,pointers,selections,List.of());
+        }
         public Panel(String key,String name,Box clip,Box frame,int order,String raw,String status,List<Run> runs,List<Pointer> pointers) {
             this(key,name,clip,frame,order,raw,status,runs,pointers,List.of());
         }

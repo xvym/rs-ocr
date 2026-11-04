@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "total": 15,
+  "checks": [
+    {
+      "name": "S6 runtime is self-contained without ROM, upstream caches, fonts or answers",
+      "passed": true
+    },
+    {
+      "name": "Source and implementation identities are recorded; frozen answers never enter the resource build",
+      "passed": true
+    },
+    {
+      "name": "Typed full lexical names, raw unknown names and no partial names obey the saved name policy",
+      "passed": true
+    },
+    {
+      "name": "Species, elemental types, status and word-picker types cannot force a global homograph winner",
+      "passed": true
+    },
+    {
+      "name": "All 354 native move forms have reviewed full-move Chinese and preserve unknown complete actors",
+      "passed": true
+    },
+    {
+      "name": "Bindings keep raw current amounts and do not reuse a prior observation",
+      "passed": true
+    },
+    {
+      "name": "Same-rank substantive outputs and incomplete searches fail closed",
+      "passed": true
+    },
+    {
+      "name": "Repeated slots are checked on a separate synthetic grammar, without shipping fabricated game sentences",
+      "passed": true
+    },
+    {
+      "name": "Japanese local player length uses native five-character evidence; ordinary display nicknames keep their own bound",
+      "passed": true
+    },
+    {
+      "name": "Every fixed Japanese tower greeting is source-bound and translated only as the complete current two-line unit",
+      "passed": true
+    },
+    {
+      "name": "Offline common meanings never include the next clear page or localized parent-text expansion",
+      "passed": true
+    },
+    {
+      "name": "All unresolved whole source records remain outside the published unit approval",
+      "passed": true
+    },
+    {
+      "name": "TV literal pages use explicit dialogue context while all 170 pending variable pages stay unpublished",
+      "passed": true
+    },
+    {
+      "name": "Frozen Chinese gate passes separately from unavailable live/negative/excluded Chinese evidence",
+      "passed": true
+    },
+    {
+      "name": "Rebuild is byte-for-byte identical and the frozen original baseline remains 25/770",
+      "passed": true
+    }
+  ],
+  "scope": "S6 resource behavior, evidence identity, deterministic rebuild and offline handoff; no S7 Java/live or S8 whole-game acceptance"
+}

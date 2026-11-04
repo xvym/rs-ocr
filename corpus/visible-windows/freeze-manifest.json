@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "policyId": "s6-original-rsc-visible-windows-v1",
+  "translationPolicy": "rsc-original-only-v1",
+  "inputs": [
+    {
+      "local": "corpus/visible-windows/policy.json",
+      "sha256": "2f6555726e7beb0a189ee54d2a1ed31cfd1c767bf5c599fe3fae513578aa38dc"
+    },
+    {
+      "local": "corpus/visible-windows/decisions.json",
+      "sha256": "d45093ae85c2b95353f91f2582c137e1363c743529001b075ac87b1f6b5a4acf"
+    },
+    {
+      "local": "corpus/visible-windows/variable-bindings.json",
+      "sha256": "027bf7ff08be81e330967be43c4c01477bc9f1c582370712d1140b335962effc"
+    },
+    {
+      "local": "corpus/visible-windows/semantic-units.json",
+      "sha256": "f600122cc08ffb98e904e03c3a258b5cc3b510f3873d6ec5abb4a7be32e6273c"
+    },
+    {
+      "local": "corpus/visible-windows/native-fields.json",
+      "sha256": "e529a4ad54ad89dbc4bc3bba15678830918faedb5617ac9887a9a02007283f95"
+    },
+    {
+      "local": "reports/s3-acceptance/reference.json",
+      "sha256": "a0dad9cf66144bafee1ca465ebcfc5755fe2fade36f18acfa549e76459999658"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/pokemon_summary_screen.c",
+      "sha256": "79990bda2128f399f8565bfda4ebe14b125890f6a68b4fb54bef1f31f987c4a2"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/strings2.s",
+      "sha256": "abb665bd02d592fa194e248ee7f407772015451013bb8283f2ecfc6526df68b7"
+    },
+    {
+      "local": "outputs/battle-source-matching/templates.json",
+      "sha256": "5b90e1b4a8f9fe1b07e870256556ef823f99ab733a24a26e9d5e700ea36e6fc9"
+    },
+    {
+      "local": "outputs/battle-source-matching/build-manifest.json",
+      "sha256": "09fa4a7b6b5d4edf848ac3e20b7bf1bbea0d348d60744538d8b717acebdc2fa7"
+    },
+    {
+      "local": "reports/s6-corpus/japanese-name-evidence.json",
+      "sha256": "91e5e469476559cb8de5a71e29005b103415246e6735c2eb264c8aa36c835d47"
+    },
+    {
+      "local": "reports/battle-source-matching/experience-evidence.json",
+      "sha256": "d392988edd7a61362293bace7f3f96f9eef6bdb2f452f8684f1a1d20ca0390c0"
+    },
+    {
+      "local": "tools/corpus_source.mjs",
+      "sha256": "21c51d4384f39ff5f6a48e849aea1e93a254189f9a2acd052681438c337afa91"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/battle_message.h",
+      "sha256": "260592d39c97cd03e635b7e3910217d615308db3a519bdf5dd5c2733fb81c34c"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_script_commands.c",
+      "sha256": "0a6f58f8e5fc19c40e3546a5bc81f3354fc669376c31435301a8884055c9d77a"
+    },
+    {
+      "local": "reports/japanese-source-matching/ocr-inputs.json",
+      "sha256": "962205e007fcc95a2786494c02d5e85cea89cd9a044e5698b89b8231ee15ae86"
+    },
+    {
+      "local": "reports/japanese-source-matching/results.json",
+      "sha256": "09f893e495b9e42ae9e94d1baf9f6a93b6978c1035c2db4d636ca0566eb4dbfe"
+    },
+    {
+      "local": "outputs/corpus-mapping/candidates.csv",
+      "sha256": "7c467a740e53726d5c4f26d0aec928c9fd8927ea52edffff684fc8e140d54c51"
+    },
+    {
+      "local": "corpus/sources.json",
+      "sha256": "6850287479516bc69fb0bb8687cb722e8e26f11018bbd8179ee410b56a36f53b"
+    }
+  ],
+  "implementation": [
+    {
+      "local": "tools/s6_visible_windows.mjs",
+      "sha256": "25b0c700f4428d40c7add9daf56d536ecf21f36b120884c3cfda1c4d77947ca7"
+    },
+    {
+      "local": "tools/s6_variable_bindings.mjs",
+      "sha256": "6ec4c682c6947599941cf3b5e4ba57535e85bab6c1589579c09eb2d3a724cc22"
+    },
+    {
+      "local": "tools/s6_semantic_units.mjs",
+      "sha256": "3c41e099ee88c096f62a283a8febb22a6e9651d747615e1850543747581efe52"
+    },
+    {
+      "local": "tools/s6_native_fields.mjs",
+      "sha256": "f0e315c53b9c5877f61eb2d75407c93e3b4d84a7ece12c6d09b24dce8fba2ffc"
+    },
+    {
+      "local": "tools/freeze_visible_window_reference.mjs",
+      "sha256": "d10590eee06f53414be029acab72993f78d0b0ec1818fc81b0129e486a37d6ae"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "reference.json",
+      "sha256": "cfb628f8e7049f7bd035a7e0296276775ff0fe3e14a4b517379ff18759fb657b"
+    }
+  ]
+}

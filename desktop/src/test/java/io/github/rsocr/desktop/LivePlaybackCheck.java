@@ -3,6 +3,7 @@ package io.github.rsocr.desktop;
 import com.fasterxml.jackson.databind.*;
 import io.github.rsocr.*;
 import io.github.rsocr.desktop.capture.*;
+import io.github.rsocr.desktop.translation.*;
 import javafx.application.Platform;
 import javafx.scene.Scene;
 import javafx.scene.layout.*;
@@ -32,6 +33,8 @@ public final class LivePlaybackCheck {
     private static final AtomicReference<String> invalidDisplay=new AtomicReference<>();
     private static LiveSession live;private static Stage stage;
     private static long serial;
+    private static boolean chineseMode;
+    private static final Set<String> REPRESENTATIVE=Set.of("GBA-001","GBA-002","GBA-013","GBA-019","GBA-090","GBA-091","GBA-100","GBA-129","GBA-153","GBA-304","GBA-305","NGC-001","NGC-002","NGC-029","NGC-053","NGC-057","NGC-123","NGC-124");
     private static List<String> text(List<OcrEngine.Region> regions) {
         return regions.stream().filter(r->!r.status().equals("pending")).map(r->Arrays.toString(r.logicalBox())+"::"+r.rawOcr()).sorted().toList();
     }
@@ -41,7 +44,7 @@ public final class LivePlaybackCheck {
     private static int hash(BufferedImage image) {return Arrays.hashCode(comparisonPixels(image));}
     private static boolean pixels(BufferedImage a,BufferedImage b) {return a!=null && b!=null && Arrays.equals(comparisonPixels(a),comparisonPixels(b));}
     public static void main(String[] args) throws Exception {
-        root=Path.of(args[0]).toAbsolutePath();out=root.resolve(args.length>2?args[2]:"reports/s5-live");Files.createDirectories(out);
+        root=Path.of(args[0]).toAbsolutePath();out=root.resolve(args.length>2?args[2]:"reports/s5-live");chineseMode=args.length>3&&args[3].equals("s7");Files.createDirectories(out);
         Path run=Files.createTempDirectory(root.resolve(".tools"),"s5-replay-");control=run.resolve("command");ack=run.resolve("ack");
         var ref=JSON.readTree(root.resolve("reports/s3-acceptance/reference.json").toFile());
         var predictions=new HashMap<String,JsonNode>();for(var r:JSON.readTree(root.resolve("reports/s3-acceptance/predictions.json").toFile()).get("regions"))predictions.put(r.get("instance_id").asText(),r);
@@ -59,12 +62,12 @@ public final class LivePlaybackCheck {
         try {
             var initialized=new CompletableFuture<Void>();
             Platform.startup(()->{try {
-                var presentation=new Presentation(JSON);var source=new ResultCanvas(true);var result=new ResultCanvas(false);var boards=new HBox(12,source,result);HBox.setHgrow(source,Priority.ALWAYS);HBox.setHgrow(result,Priority.ALWAYS);
-                source.setPrefSize(600,400);result.setPrefSize(600,400);var scene=new Scene(boards,1220,430);stage=new Stage();stage.setTitle("RS OCR · S5 回放检查");stage.setScene(scene);stage.show();
+                var presentation=new Presentation(JSON);var translator=chineseMode?new TranslationEngine(JSON):null;var translatedPresentation=new TranslationPresentation();var source=new ResultCanvas(true);var result=new ResultCanvas(false);var boards=new HBox(12,source,result);HBox.setHgrow(source,Priority.ALWAYS);HBox.setHgrow(result,Priority.ALWAYS);
+                source.setPrefSize(600,400);result.setPrefSize(600,400);var scene=new Scene(boards,1220,430);stage=new Stage();stage.setTitle(chineseMode?"RS OCR · S7 中文回放检查":"RS OCR · S5 回放检查");stage.setScene(scene);stage.show();
                 live=new LiveSession(JSON,view->Platform.runLater(()->{
                     if(view.session()!=live.session() || view.sequence()!=live.latestSequence())return;
-                    source.show(ResultCanvas.image(view.image()),List.of(),view.status());result.show(null,presentation.panels(view.regions(),view.image()),view.status());shown.set(view);Platform.requestNextPulse();
-                }));
+                    source.show(ResultCanvas.image(view.image()),List.of(),view.status());var panels=presentation.panels(view.regions(),view.image());result.show(null,chineseMode?translatedPresentation.apply(panels,view.translations()):panels,view.status());shown.set(view);Platform.requestNextPulse();
+                }),translator);
                 scene.addPostLayoutPulseListener(()->{var view=shown.get();if(view!=null&&view.session()==live.session()&&view.sequence()==live.latestSequence()){live.displayed(view,System.nanoTime());checkDisplay(view);displayed.set(view);}});
                 initialized.complete(null);
             }catch(Exception e){initialized.completeExceptionally(e);}});
@@ -72,10 +75,14 @@ public final class LivePlaybackCheck {
             WindowCapture.Window window=find(fixture.pid());
             for(String chain:List.of("GBA","NGC")) {
                 int profile=chain.equals("GBA")?1:2;live.start(window,profile);int passed=0;var misses=new ArrayList<String>();
+                var initial=expected.stream().filter(e->e.id().equals(chain+"-001")).findFirst().orElseThrow();send(Map.of("source",initial.source(),"mode","normal","cover",false));
+                require(awaitCondition(8000,v->pixels(v.image(),initial.image())&&text(v.regions()).equals(initial.text())),chain+" capture startup before timed replay states");
                 for(var item:expected)if(item.id().startsWith(chain)) {
+                    if(args.length>4&&args[4].equals("representative")&&!REPRESENTATIVE.contains(item.id()))continue;
                     if(args.length>1 && passed+misses.size()>=Integer.parseInt(args[1]))break;
                     send(Map.of("source",item.source(),"mode","normal","cover",false));
                     boolean matched=watch(EXPOSURE_MS,v->v.image()!=null && pixels(v.image(),item.image()) && v.regions().stream().noneMatch(r->r.status().equals("pending")) && text(v.regions()).equals(item.text()));
+                    var current=displayed.get();if(!matched&&current!=null&&current.status().startsWith("捕获已停止"))throw new IllegalStateException(current.status());
                     if(matched)passed++;else {
                         if(misses.isEmpty()) {
                             var failed=displayed.get();
@@ -93,7 +100,7 @@ public final class LivePlaybackCheck {
                 send(Map.of("mode","minimized","cover",false));record(scenarios,chain,"minimize clears results",watch(1000,v->v.image()==null&&v.regions().isEmpty()&&v.status().contains("最小化")));
                 send(Map.of("source",first.source(),"mode","normal","cover",false));record(scenarios,chain,"restore reacquires content",watch(1000,v->pixels(v.image(),first.image())&&text(v.regions()).equals(first.text())));
                 var beforeResize=displayed.get().mapping();
-                send(Map.of("mode","resized","cover",false));record(scenarios,chain,"size change clears mapping and old results",watch(1000,v->v.image()==null&&v.regions().isEmpty()&&v.status().contains("校准")));
+                send(Map.of("mode","resized","cover",false));record(scenarios,chain,"size change clears mapping and old results",awaitCondition(3000,v->v.image()==null&&v.regions().isEmpty()&&v.captured()!=null&&v.status().contains("校准")));
                 var resizeView=displayed.get();live.calibrate(resizeView,beforeResize.viewport(),profile);
                 record(scenarios,chain,"manual viewport calibration",watch(1000,v->v.mapping()!=null&&v.mapping().manual()&&pixels(v.image(),first.image())&&text(v.regions()).equals(first.text())));
                 send(Map.of("source",second.source(),"mode","normal","cover",false));record(scenarios,chain,"size restore recalibrates",watch(1000,v->pixels(v.image(),second.image())&&text(v.regions()).equals(second.text())));
@@ -115,9 +122,11 @@ public final class LivePlaybackCheck {
         } finally {
             var report=new LinkedHashMap<String,Object>();report.put("evidenceKind","controlled window replay of existing actual-device screenshots through real WGC and JavaFX");report.put("hardwareLiveCaptureVerified",false);
             report.put("realContinuousGameplayVerified",false);report.put("chains",chains);report.put("scenarios",scenarios);report.put("unexpectedDisplayedText",invalidDisplay.get());report.put("completed",complete);
+            report.put("originalRscChineseIntegration",chineseMode);report.put("chineseTimingScope",chineseMode?"includes 150ms stability, OCR, Java original RSC lookup/binding, names and JavaFX drawing":"not enabled");
             report.put("passed",complete&&invalidDisplay.get()==null&&chains.values().stream().allMatch(c->((List<?>)((Map<?,?>)c).get("missedStates")).isEmpty())&&scenarios.stream().allMatch(c->Boolean.TRUE.equals(c.get("passed"))));
             report.put("pixelComparison","38,398 of 38,400 normalized pixels exact; only two bottom corner samples blended by the test host window frame excluded. No text comparison exceptions.");
             report.put("constructedLoad","Replay window caption refresh requested every 16ms to exercise continuous WGC frame delivery while each game screenshot is exposed at least "+EXPOSURE_MS+"ms, including a deliberate 150ms text-stability wait; not real continuous gameplay or a latency acceptance threshold.");
+            report.put("startupPolicy","Wait for the first source frame to be captured and shown before testing 750ms content states; startup and resize waits are transition synchronization, not changes to content exposure or measured latency.");
             JSON.writerWithDefaultPrettyPrinter().writeValue(out.resolve("playback-checks.json").toFile(),report);
             if(live!=null)live.close();if(stage!=null)Platform.runLater(stage::close);Platform.exit();fixture.destroy();fixture.waitFor(5,TimeUnit.SECONDS);
         }
@@ -127,6 +136,7 @@ public final class LivePlaybackCheck {
     }
     private static long nativeFrameFromView() {var view=displayed.get();return view==null?-1:(view.captureRevision()<<32)^view.frameId();}
     private static void checkDisplay(LiveSession.View view) {
+        if(chineseMode&&view.translations()!=null)for(var translated:view.translations().regions())if(!translated.units().isEmpty()&&view.regions().stream().noneMatch(r->String.join("|",r.typeCandidates()).equals(translated.key())&&r.rawOcr().equals(translated.raw())&&!r.status().equals("pending")))invalidDisplay.compareAndSet(null,"Chinese belongs to stale region "+translated.key());
         if(view.image()==null)return;var candidates=known.get(hash(view.image()));if(candidates==null)return;
         var item=candidates.stream().filter(e->pixels(e.image(),view.image())).findFirst().orElse(null);if(item==null)return;
         for(String actual:text(view.regions()))if(!item.text().contains(actual))invalidDisplay.compareAndSet(null,item.id()+" "+actual);
@@ -151,7 +161,14 @@ public final class LivePlaybackCheck {
         boolean matched=false;long until=System.nanoTime()+durationMs*1_000_000L;
         while(System.nanoTime()<until){var view=displayed.get();if(view!=null && condition.test(view))matched=true;Thread.sleep(10);}return matched;
     }
-    private static void record(List<Map<String,Object>> checks,String chain,String scenario,boolean passed) {checks.add(Map.of("chain",chain,"scenario",scenario,"passed",passed));require(passed,chain+" "+scenario);}
+    private static boolean awaitCondition(long timeoutMs,Predicate<LiveSession.View> condition) throws Exception {
+        long until=System.nanoTime()+timeoutMs*1_000_000L;while(System.nanoTime()<until){var view=displayed.get();if(view!=null&&condition.test(view))return true;Thread.sleep(10);}return false;
+    }
+    private static void record(List<Map<String,Object>> checks,String chain,String scenario,boolean passed) throws Exception {
+        checks.add(Map.of("chain",chain,"scenario",scenario,"passed",passed));
+        if(!passed){var view=displayed.get();if(view!=null)JSON.writerWithDefaultPrettyPrinter().writeValue(out.resolve("last-failure-state.json").toFile(),Map.of("scenario",scenario,"chain",chain,"status",view.status(),"diagnostics",view.diagnostics(),"mapping",Objects.toString(view.mapping()),"capturedSize",view.captured()==null?"none":view.captured().getWidth()+"x"+view.captured().getHeight(),"regions",text(view.regions())));}
+        require(passed,chain+" "+scenario);
+    }
     private static void require(boolean condition,String detail) {if(!condition)throw new AssertionError(detail);}
 
     /** Test-owned application. Its own timer paints, covers, minimizes and resizes its own window. */

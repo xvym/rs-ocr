@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "rsc-original-only-v1",
+  "repository": "UWorldGX/pkmn_rs_chn_rsc",
+  "commit": "f513cf437acca23d1a5882650ee3b148dc463a17",
+  "generatedChineseAllowed": false,
+  "wordingChangesAllowed": false,
+  "fallback": "original_japanese",
+  "unmatchedMeans": "correspondence_not_established_not_proof_of_missing_upstream_translation",
+  "sourceSelection": "unique_original_rsc_text",
+  "semanticDifferenceFallback": false
+}

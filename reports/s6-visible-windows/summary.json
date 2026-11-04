@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "policyId": "s6-original-rsc-visible-windows-v1",
+  "translationPolicy": "rsc-original-only-v1",
+  "sourceSelection": "unique_original_rsc_text",
+  "semanticDifferenceFallback": false,
+  "baselineGatePassed": true,
+  "approvedOutputChecksPassed": true,
+  "fallbackChecksPassed": true,
+  "images": 456,
+  "targetRegions": 579,
+  "units": 1133,
+  "firstEditionRegions": 489,
+  "firstEditionUnits": 783,
+  "originalChineseUnits": 772,
+  "originalOutputMetric": "Original RSC wording or verified existing native format; numeric-only fields are not Chinese text.",
+  "originalFormatOnlyUnits": 8,
+  "retainedJapaneseUnits": 11,
+  "retainedByDesignUnits": 4,
+  "unresolvedRetainedUnits": 7,
+  "outsideFirstEditionRegions": 90,
+  "outsideFirstEditionUnits": 350,
+  "uniqueReviewedDecisions": 552,
+  "fullyOriginalChineseRegions": 478,
+  "perPlatform": {
+    "gba": 508,
+    "ngc": 275
+  },
+  "byType": [
+    {
+      "type": "bag_action",
+      "units": 6,
+      "originalChinese": 6,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "bag_category",
+      "units": 12,
+      "originalChinese": 12,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "bag_description",
+      "units": 10,
+      "originalChinese": 10,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "bag_list",
+      "units": 106,
+      "originalChinese": 106,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "bag_prompt",
+      "units": 2,
+      "originalChinese": 2,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "battle_action",
+      "units": 8,
+      "originalChinese": 8,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "battle_message",
+      "units": 125,
+      "originalChinese": 123,
+      "retainedJapanese": 2
+    },
+    {
+      "type": "battle_move_meta",
+      "units": 6,
+      "originalChinese": 6,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "battle_moves",
+      "units": 8,
+      "originalChinese": 8,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "battle_prompt",
+      "units": 2,
+      "originalChinese": 2,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "boot_dialog",
+      "units": 1,
+      "originalChinese": 1,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "field_dialog",
+      "units": 244,
+      "originalChinese": 243,
+      "retainedJapanese": 1
+    },
+    {
+      "type": "party_battle_action",
+      "units": 6,
+      "originalChinese": 6,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "party_cancel",
+      "units": 2,
+      "originalChinese": 2,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "party_field_action",
+      "units": 10,
+      "originalChinese": 10,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "party_prompt",
+      "units": 2,
+      "originalChinese": 2,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "party_recovery",
+      "units": 2,
+      "originalChinese": 2,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "party_short_prompt",
+      "units": 4,
+      "originalChinese": 4,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "pc_connect_menu",
+      "units": 8,
+      "originalChinese": 8,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "pc_item_description",
+      "units": 3,
+      "originalChinese": 3,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "pc_item_heading",
+      "units": 3,
+      "originalChinese": 3,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "pc_item_list",
+      "units": 24,
+      "originalChinese": 24,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "pc_item_menu",
+      "units": 12,
+      "originalChinese": 12,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "pc_pokemon_menu",
+      "units": 12,
+      "originalChinese": 12,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "pc_store_menu",
+      "units": 4,
+      "originalChinese": 4,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "save_summary",
+      "units": 10,
+      "originalChinese": 10,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "shop_description",
+      "units": 4,
+      "originalChinese": 4,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "shop_list",
+      "units": 32,
+      "originalChinese": 32,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "summary_ability",
+      "units": 12,
+      "originalChinese": 12,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "summary_experience",
+      "units": 20,
+      "originalChinese": 16,
+      "retainedJapanese": 4
+    },
+    {
+      "type": "summary_item",
+      "units": 8,
+      "originalChinese": 8,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "summary_memo",
+      "units": 20,
+      "originalChinese": 16,
+      "retainedJapanese": 4
+    },
+    {
+      "type": "summary_personal",
+      "units": 19,
+      "originalChinese": 19,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "summary_ribbon",
+      "units": 8,
+      "originalChinese": 8,
+      "retainedJapanese": 0
+    },
+    {
+      "type": "summary_stats",
+      "units": 28,
+      "originalChinese": 28,
+      "retainedJapanese": 0
+    }
+  ],
+  "fallbackReasons": {
+    "incomplete_or_unmapped_source": 1,
+    "incomplete_visible_semantic_unit": 1,
+    "invariant_raw_label": 4,
+    "native_title_correspondence_unverified": 4,
+    "required_variable_not_yet_visible": 1
+  },
+  "excludedRegionsRegistered": 11,
+  "scopeNegativeImagesRegistered": 5,
+  "excludedAndNegativeChineseOutputs": "not_executed_in_S6; retained S3 visibility evidence, S7/S8 application checks pending",
+  "gameChecks": 1566,
+  "gameAttribution": "Each fixture is checked against both original-source versions; screenshot version attribution is unknown, not per-version hardware evidence.",
+  "generatedChineseRecords": 0,
+  "rewrittenChineseRecords": 0,
+  "approvedOriginalTemplateFamilies": 43,
+  "semanticUnitPlans": 41,
+  "originalPrintRecipes": 4,
+  "generatedChineseTemplates": 0,
+  "variableBindingAudit": {
+    "uniqueCases": 101,
+    "occurrences": 134,
+    "originalTemplateOutputOccurrences": 134,
+    "retainedOccurrences": 0
+  },
+  "fullFirstEditionChineseGatePassed": false,
+  "S6Complete": false,
+  "independentReview": false,
+  "blind": false,
+  "requiredPageEvidenceGaps": [
+    "Both versions: screenshots have no confirmed per-image Ruby/Sapphire attribution or complete version-difference coverage.",
+    "PC: box grid, deposit/withdraw operations and their complete substate coverage require additional correspondence evidence.",
+    "Shop: selling, quantity selection and purchase/sale confirmation windows are not fully represented in the fixed set.",
+    "Battle: arbitrary names, dynamic buffers, all messages, multi-battle states and original RSC printing bindings are not fully approved.",
+    "Summary numeric/personality pages: native Trainer Memo title still lacks an approved original RSC correspondence; fixed observed met-location/level and ribbon print recipes are verified, but arbitrary locations and complete substate coverage remain open.",
+    "Standard dialogue outside these observed windows, including TV/Easy Chat/Tower composition and other version-specific sources, is not exhausted by this fixed baseline."
+  ],
+  "failures": [],
+  "scope": "Source-linked fixed visible-window output and conservative fallback contract. Deferred Japanese is separately counted and is not Chinese coverage or final semantic/product acceptance."
+}

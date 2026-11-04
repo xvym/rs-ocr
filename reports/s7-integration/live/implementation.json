@@ -1,0 +1,21 @@
+{
+  "note": "Classes used by the controlled replay JVM; recorded before any subsequent compilation.",
+  "classes": [
+    {
+      "local": "desktop/target/classes/io/github/rsocr/desktop/translation/TranslationEngine.class",
+      "sha256": "c07e4cd4b2db95d22e4bf20765f75b3af6d4abe2d76ab2d44bd11fa289a1f678"
+    },
+    {
+      "local": "desktop/target/classes/io/github/rsocr/desktop/capture/LiveSession.class",
+      "sha256": "ac95746a299a1b13ebf16269f609c87428df4a5f952346c5b4afdd9e01f51d40"
+    },
+    {
+      "local": "desktop/target/classes/io/github/rsocr/desktop/translation/TranslationPresentation.class",
+      "sha256": "ec7787bfda147b63c01db86b63fad1dce7ca26625b3eee11a18f10fe0bb2e6fd"
+    },
+    {
+      "local": "desktop/target/classes/io/github/rsocr/desktop/ResultCanvas.class",
+      "sha256": "bfd515b932eecb06fad3163dbef369b404528908a404fb5089f68677b6dac999"
+    }
+  ]
+}

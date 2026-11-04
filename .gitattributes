@@ -2,6 +2,7 @@
 /corpus/*.json text eol=lf
 /tools/*corpus*.mjs text eol=lf
 /outputs/corpus-mapping/* -text
+/outputs/corpus-mapping/*.csv whitespace=cr-at-eol
 /corpus/acceptance/*.json -text
 /corpus/acceptance/*.mjs text eol=lf
 /reports/chinese-corpus-acceptance/* -text
@@ -31,3 +32,19 @@
 /tools/verify_japanese_names.py text eol=lf
 /tools/verify_easy_chat.py text eol=lf
 /tools/audit_s6_progress.mjs text eol=lf
+/tools/rsc_translation_policy.mjs text eol=lf
+# Historical evidence must retain its original bytes and remain inactive.
+/archive/model-translations/** -text
+/archive/model-translations/**/*.csv whitespace=cr-at-eol
+/tools/*rsc_semantic*.mjs text eol=lf
+/reports/rsc-semantic-audit/* -text
+/reports/rsc-semantic-audit/*.csv whitespace=cr-at-eol
+/tools/audit_rsc_reverse_mapping.mjs text eol=lf
+/reports/rsc-reverse-mapping/* -text
+/reports/rsc-reverse-mapping/*.csv whitespace=cr-at-eol
+/tools/*rsc_correspond*.mjs text eol=lf
+/reports/rsc-correspondence-index/* -text
+/tools/rsc_translation_policy.mjs text eol=lf
+# Historical evidence must retain its original bytes and remain inactive.
+/archive/model-translations/** -text
+/archive/model-translations/**/*.csv whitespace=cr-at-eol

@@ -43,41 +43,67 @@
       "recordsWithChineseCandidates": 10413,
       "recordsWithSourceLinks": 10793,
       "homographGroups": {
-        "context_required": 4,
-        "resolved_offline": 5,
+        "context_required": 8,
+        "resolved_offline": 1,
         "unresolved": 98
       },
       "gaps": {
         "english_absent": 34,
         "english_source_unmatched": 1320,
         "japanese_absent": 522,
-        "rsc_translation_missing": 380,
+        "rsc_address_correspondence_unmatched": 380,
         "unsupported_english_encoding": 36
       },
-      "reviewedRecords": 220,
-      "publishableStaticRecords": 205
+      "reviewedRecords": 202,
+      "publishableStaticRecords": 161
     },
     "sapphire": {
       "eligibleSourceRecords": 12705,
       "recordsWithChineseCandidates": 10414,
       "recordsWithSourceLinks": 10793,
       "homographGroups": {
-        "context_required": 4,
-        "resolved_offline": 6,
+        "context_required": 9,
+        "resolved_offline": 1,
         "unresolved": 98
       },
       "gaps": {
         "english_absent": 34,
         "english_source_unmatched": 1320,
         "japanese_absent": 522,
-        "rsc_translation_missing": 379,
+        "rsc_address_correspondence_unmatched": 379,
         "unsupported_english_encoding": 36
       },
-      "reviewedRecords": 220,
-      "publishableStaticRecords": 205
+      "reviewedRecords": 202,
+      "publishableStaticRecords": 158
     }
   },
   "sourceLinks": 22038,
+  "correspondenceIndex": {
+    "links": 1273,
+    "reviewedLinks": 501,
+    "reviewedJapaneseQids": 222,
+    "reviewedGamePairs": 441,
+    "reviewedFragmentLinks": 18,
+    "structuralParentLinks": 772,
+    "sourceEntries": 1178,
+    "publicationApprovedLinks": 0
+  },
+  "correspondenceCoverage": {
+    "ruby": {
+      "recordsWithOriginalOrReviewedCorrespondence": 10626,
+      "reviewedGamePairs": 213,
+      "reviewedFragmentGamePairs": 8,
+      "remainingValidJapaneseWithoutCorrespondence": 1557,
+      "structuralParents": 386
+    },
+    "sapphire": {
+      "recordsWithOriginalOrReviewedCorrespondence": 10626,
+      "reviewedGamePairs": 212,
+      "reviewedFragmentGamePairs": 8,
+      "remainingValidJapaneseWithoutCorrespondence": 1557,
+      "structuralParents": 386
+    }
+  },
   "addressCorrections": [
     {
       "game": "ruby",
@@ -219,11 +245,32 @@
     },
     {
       "game": "ruby",
+      "japanese": "なきごえ",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "叫声",
+        "[擦除到02]叫声"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "なきごえ",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "叫声",
+        "[擦除到02]叫声"
+      ]
+    },
+    {
+      "game": "ruby",
       "japanese": "ノーマル",
       "missingReviews": [],
       "reason": "context_required",
       "translations": [
         "一般",
+        "进化",
         "普通"
       ]
     },
@@ -234,7 +281,30 @@
       "reason": "context_required",
       "translations": [
         "一般",
+        "进化",
         "普通"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "かくとう",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.16"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "格斗"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "かくとう",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.16"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "格斗"
       ]
     },
     {
@@ -258,6 +328,56 @@
       ]
     },
     {
+      "game": "sapphire",
+      "japanese": "ほのお",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "火",
+        "火焰"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "でんき",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "电",
+        "电气"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "でんき",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "电",
+        "电气"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "エスパー",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "超能力",
+        "超能力者"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "エスパー",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "超能力",
+        "超能力者"
+      ]
+    },
+    {
       "game": "ruby",
       "japanese": "こおり",
       "missingReviews": [],
@@ -275,6 +395,380 @@
       "translations": [
         "冰",
         "冰冻"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "あくしゅう",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.1"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "恶臭"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "あくしゅう",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.1"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "恶臭"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "あめふらし",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.4"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "降雨"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "あめふらし",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.4"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "降雨"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "かそく",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.20"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "加速"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "かそく",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.20"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "加速"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "カブトアーマー",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.23"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "战斗盔甲"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "カブトアーマー",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.23"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "战斗盔甲"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "がんじょう",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.26"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "结实"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "がんじょう",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.26"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "结实"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "しめりけ",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.37"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "湿气"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "しめりけ",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.37"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "湿气"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "じゅうなん",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.39"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "柔软"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "じゅうなん",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.39"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "柔软"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "すながくれ",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.46"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "沙隐"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "すながくれ",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.46"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "沙隐"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "せいでんき",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.49"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "静电"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "せいでんき",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.49"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "静电"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "ちくでん",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.55"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "蓄电"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "ちくでん",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.55"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "蓄电"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "しんりょく",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.43"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "茂盛"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "しんりょく",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.43"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "茂盛"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "げきりゅう",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.30"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "激流"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "げきりゅう",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.30"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "激流"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "むしのしらせ",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.98"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "虫之预感"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "むしのしらせ",
+      "missingReviews": [
+        "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.98"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "虫之预感"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "おとなしい",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "温顺",
+        "坦率"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "おとなしい",
+      "missingReviews": [],
+      "reason": "context_required",
+      "translations": [
+        "温顺",
+        "坦率"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "わざ",
+      "missingReviews": [
+        "rs.common.strings2.gOtherText_Terminator2"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "移动"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "わざ",
+      "missingReviews": [
+        "rs.common.strings2.gOtherText_Terminator2"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "移动"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "はい",
+      "missingReviews": [
+        "rs.common.^j_0.1",
+        "rs.common.easy_chat_group_voices.gEasyChatGroupWords_Voices.39"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "是"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "はい",
+      "missingReviews": [
+        "rs.common.^j_0.1",
+        "rs.common.easy_chat_group_voices.gEasyChatGroupWords_Voices.39"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "是"
+      ]
+    },
+    {
+      "game": "ruby",
+      "japanese": "いいえ",
+      "missingReviews": [
+        "rs.common.^j_0.2"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "否"
+      ]
+    },
+    {
+      "game": "sapphire",
+      "japanese": "いいえ",
+      "missingReviews": [
+        "rs.common.^j_0.2"
+      ],
+      "reason": "unreviewed_homograph",
+      "translations": [
+        "否"
       ]
     }
   ],
