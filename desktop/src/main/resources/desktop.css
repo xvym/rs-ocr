@@ -9,3 +9,4 @@
 .board-title { -fx-font-weight: bold; -fx-padding: 0 0 3 0; }
 .status { -fx-background-color: white; -fx-text-fill: #536984; -fx-font-size: 12px; }
 .text-area { -fx-font-family: "Consolas"; -fx-font-size: 12px; }
+.result-text { -fx-font-family: "Microsoft YaHei"; -fx-font-size: 14px; }

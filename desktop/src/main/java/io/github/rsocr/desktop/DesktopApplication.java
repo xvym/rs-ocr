@@ -42,6 +42,7 @@ public final class DesktopApplication extends Application {
     private final Button calibrate=new Button("校准游戏区域"),measure=new Button("保存测量");
     private Future<?> pending;
     private final ResultCanvas original=new ResultCanvas(true),result=new ResultCanvas(false);
+    private final ResultText resultText=new ResultText();
     private final Label status=new Label(),file=new Label("尚未打开图片");
     private final TextArea diagnostics=new TextArea();
     private final ComboBox<String> profile=new ComboBox<>();
@@ -78,10 +79,11 @@ public final class DesktopApplication extends Application {
         var boards=new HBox(14,sourcePane,resultPane);boards.setPadding(new Insets(0,17,12,17));HBox.setHgrow(sourcePane,Priority.ALWAYS);HBox.setHgrow(resultPane,Priority.ALWAYS);
         sourcePane.prefWidthProperty().bind(boards.widthProperty().subtract(48).divide(2));resultPane.prefWidthProperty().bind(boards.widthProperty().subtract(48).divide(2));
         sourcePane.setMinWidth(0);resultPane.setMinWidth(0);
+        var copyPane=new VBox(5,new Label("结果文本 · 选中后按 Ctrl+C 复制"),resultText);copyPane.setPadding(new Insets(0,17,12,17));
         diagnostics.setEditable(false);diagnostics.setWrapText(false);diagnostics.setPrefRowCount(8);diagnostics.setVisible(false);diagnostics.setManaged(false);diagnostics.setAccessibleText("识别诊断");
         debug.setOnAction(e->{diagnostics.setVisible(debug.isSelected());diagnostics.setManaged(debug.isSelected());if(liveMode&&liveView!=null)showLiveDiagnostics(liveView);});
         status.setPadding(new Insets(9,17,12,17));status.setMaxWidth(Double.MAX_VALUE);status.getStyleClass().add("status");
-        var root=new VBox(toolbar,captureBar,translationBar,meta,boards,diagnostics,status);VBox.setVgrow(boards,Priority.ALWAYS);
+        var root=new VBox(toolbar,captureBar,translationBar,meta,boards,copyPane,diagnostics,status);VBox.setVgrow(boards,Priority.ALWAYS);
         var scene=new Scene(root,1250,760);scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("/desktop.css")).toExternalForm());
         scene.getAccelerators().put(new KeyCodeCombination(KeyCode.O,KeyCombination.CONTROL_DOWN),()->openImage(stage));
         scene.getAccelerators().put(new KeyCodeCombination(KeyCode.RIGHT,KeyCombination.ALT_DOWN),()->navigate(1));
@@ -156,6 +158,7 @@ public final class DesktopApplication extends Application {
     private void refresh() {
         var view=session.view();var panels=translationPresentation.apply(presentation.panels(view.regions(),view.image()),imageTranslations);var image=ResultCanvas.image(view.image());
         original.show(image,List.of(),view.message());result.show(null,panels,view.message());
+        resultText.show(panels);
         file.setText(index<0?"尚未打开图片":String.format("%d / %d   %s",index+1,files.size(),files.get(index).getFileName()));
         previous.setDisable(index<=0);next.setDisable(index<0||index+1>=files.size());recognize.setDisable(index<0);stop.setDisable(view.phase()==ImageSession.Phase.IDLE||view.phase()==ImageSession.Phase.STOPPED);
         status.setText(view.message()+(view.phase()==ImageSession.Phase.READY?String.format(" · %d 个区域 · 离线处理 %.0f ms",panels.size(),view.elapsedMs()):""));
@@ -170,6 +173,7 @@ public final class DesktopApplication extends Application {
         var selected=sources.getValue();if(selected==null){status.setText("请先选择投屏或 OBS 窗口");return;}
         if(pending!=null)pending.cancel(true);session.stop();liveMode=true;liveView=null;pulseView=null;
         original.show(null,List.of(),"等待窗口画面…");result.show(null,List.of(),"等待窗口画面…");file.setText("实时 · "+selected.title());
+        resultText.show(List.of());
         previous.setDisable(true);next.setDisable(true);recognize.setDisable(true);stop.setDisable(false);calibrate.setDisable(true);status.setText("正在连接窗口…");
         live.translationSettings(selectedGame(),manualPlayer);live.start(selected,profile.getSelectionModel().getSelectedIndex());
     }
@@ -187,7 +191,8 @@ public final class DesktopApplication extends Application {
         });
     }
     private void showLiveResult(LiveSession.View view) {
-        result.show(null,livePresentation.stabilize(livePanels),view.status());
+        var panels=livePresentation.stabilize(livePanels);
+        result.show(null,panels,view.status());resultText.show(panels);
         if(livePresentation.needsRefresh())selectionRefresh.playFromStart();else selectionRefresh.stop();
     }
     private void showLiveDiagnostics(LiveSession.View view) {try{diagnostics.setText(view.diagnostics()+"\n\n"+mapper.writerWithDefaultPrettyPrinter().writeValueAsString(Map.of("rawRegions",view.regions(),"translation",view.translations()==null?"":view.translations())));}catch(Exception error){diagnostics.setText(error.toString());}}
