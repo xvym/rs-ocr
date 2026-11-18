@@ -1,0 +1,53 @@
+{
+  "s3FrozenFilesVerified": 471,
+  "s3EngineSha256": "f7ecb5ee9c3928938214377cd97c1d50d2e681537014f80085325163f173d597",
+  "embeddedEngineEntriesIdentical": 14,
+  "desktopJarSha256": "53451b995d9729f3061dac72a703f5e76397d97d1a2c3015bc442249178ad7ec",
+  "noRomScreenshotsOrAnswersInJar": true,
+  "tests": [
+    {
+      "suite": "io.github.rsocr.desktop.BattleCursorTest",
+      "tests": 3
+    },
+    {
+      "suite": "io.github.rsocr.desktop.capture.WindowCapturePixelsTest",
+      "tests": 1
+    },
+    {
+      "suite": "io.github.rsocr.desktop.ImageSessionTest",
+      "tests": 3
+    },
+    {
+      "suite": "io.github.rsocr.desktop.LiveMetricsTest",
+      "tests": 1
+    },
+    {
+      "suite": "io.github.rsocr.desktop.LivePresentationTest",
+      "tests": 3
+    },
+    {
+      "suite": "io.github.rsocr.desktop.LiveStateTest",
+      "tests": 8
+    },
+    {
+      "suite": "io.github.rsocr.desktop.PresentationTest",
+      "tests": 6
+    },
+    {
+      "suite": "io.github.rsocr.desktop.SummaryMoveSelectionTest",
+      "tests": 3
+    },
+    {
+      "suite": "io.github.rsocr.desktop.translation.TranslationDiagnosticsTest",
+      "tests": 5
+    },
+    {
+      "suite": "io.github.rsocr.desktop.translation.TranslationEngineTest",
+      "tests": 7
+    },
+    {
+      "suite": "io.github.rsocr.desktop.translation.TranslationSessionTest",
+      "tests": 5
+    }
+  ]
+}

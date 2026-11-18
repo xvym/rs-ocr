@@ -11,9 +11,10 @@ const {pack,visibleProbe,manifest}=loadS6Probe(root),matcher=visibleProbe.variab
 const generic=matcher.templates.map(({record,tokens,page,lineStart,lineCount,fixed})=>({qid:record.qid,game:record.game,tokens,page,lineStart,lineCount,fixed}));
 const battle=matcher.battle.models.map(({regex,...model})=>model);
 const data={schemaVersion:1,translationPolicy:pack.translationPolicy,sourceSelection:'unique_original_rsc_text',semanticDifferenceFallback:false,
-  s6Complete:false,lexicon:pack.lexicon,units:pack.units,candidates:pack.candidates,rscSources:pack.rscSources,
+  s6Complete:false,lexicon:pack.lexicon,units:pack.units,sourceRecords:pack.sourceRecords,candidates:pack.candidates,rscSources:pack.rscSources,
   visible:visibleProbe.pack,generic,battle,
   includedTypes:JSON.parse(fs.readFileSync(path.join(root,'corpus/visible-windows/policy.json'),'utf8')).scopeIncludedTypes,
+  additionalLexicalWindows:{summary_battle_moves:['type','move'],summary_move_description:['move_description']},
   s6ManifestSha256:sha256(fs.readFileSync(path.join(root,'outputs/s6-corpus/build-manifest.json')))};
 const target=path.join(root,'desktop/target/generated-resources/translation');fs.mkdirSync(target,{recursive:true});
 const bytes=Buffer.from(JSON.stringify(data));fs.writeFileSync(path.join(target,'runtime.json'),bytes);

@@ -5,7 +5,7 @@
   "inputs": [
     {
       "local": "corpus/visible-windows/freeze-manifest.json",
-      "sha256": "e403c649268a5cb06a1b422d6907e6e2c2d72163c33a03d7d09cccedb039874d"
+      "sha256": "38b8d625aa264b9c97a6ce1359a2d09b57392197114178ab5965ba7fb5ad80a3"
     },
     {
       "local": "corpus/visible-windows/reference.json",
@@ -17,7 +17,7 @@
     },
     {
       "local": "outputs/s6-corpus/build-manifest.json",
-      "sha256": "5dde5f3c76bc4b858943551058db4e77e4fab00c896aa4ab38cd14cd33b4b145"
+      "sha256": "952df3f827add1784a9b5620b8692b513ce039448af208bca675a5abf0c8461b"
     },
     {
       "local": "outputs/corpus-inputs/qid_msg.txt",
@@ -33,11 +33,11 @@
     },
     {
       "local": "outputs/corpus-mapping/candidates.csv",
-      "sha256": "7c467a740e53726d5c4f26d0aec928c9fd8927ea52edffff684fc8e140d54c51"
+      "sha256": "f04b0b3100e316bd05a89eb7bfd54fadd3a2dc8002a844165f122dc51df10ecb"
     },
     {
       "local": "outputs/corpus-mapping/runtime.json",
-      "sha256": "04627f1bdefdb2980ca91d190e884cd534565071cd40f187e0b1f03e72da83e5"
+      "sha256": "b29c281b539f80489864313e8b90eac979b7fc74fc2e1d8363249f54209b519d"
     },
     {
       "local": "src/main/resources/ocr/labels.json",
@@ -107,7 +107,7 @@
     },
     {
       "local": "tools/s6_corpus_probe.mjs",
-      "sha256": "45ed3e378475971d7913966fcee04e871c933311ac718f7b871213ee0367561e"
+      "sha256": "f08ecdd03e1abc44cebfcf72701522e10e56f4eb36c82fda15ddae7e3f703553"
     },
     {
       "local": "tools/japanese_source_matcher.mjs",

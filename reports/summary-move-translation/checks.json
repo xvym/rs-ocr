@@ -1,0 +1,1233 @@
+{
+  "copyableResult" : "おぼえているわざ\n水\t冲浪\tPP15/15\n超能力\t冥想\tPP20/20\n冰\t冰冻光束\tPP10/10\n水\t水炮\tPP\t5/\t5\n\nせつめい",
+  "panels" : [ {
+    "key" : "summary_battle_moves",
+    "name" : "战斗招式页列表",
+    "clip" : {
+      "x" : 80.0,
+      "y" : 24.0,
+      "width" : 160.0,
+      "height" : 72.0
+    },
+    "frame" : {
+      "x" : 85.0,
+      "y" : 32.0,
+      "width" : 150.0,
+      "height" : 64.0
+    },
+    "order" : 0,
+    "raw" : "おぼえているわざ\nみず なみのり PP15/15\nエスパー めいそう PP20/20\nこおり れいとうビーム PP10/10\nみず ハイドロポンプ PP5/5",
+    "status" : "recognized",
+    "runs" : [ {
+      "x" : 88.0,
+      "y" : 24.0,
+      "width" : 88.0,
+      "height" : 8.0,
+      "raw" : "おぼえているわざ",
+      "unknown" : false
+    }, {
+      "x" : 184.0,
+      "y" : 32.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "PP",
+      "unknown" : false
+    }, {
+      "x" : 192.0,
+      "y" : 32.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "1",
+      "unknown" : false
+    }, {
+      "x" : 200.0,
+      "y" : 32.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "5",
+      "unknown" : false
+    }, {
+      "x" : 208.0,
+      "y" : 32.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "/",
+      "unknown" : false
+    }, {
+      "x" : 216.0,
+      "y" : 32.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "1",
+      "unknown" : false
+    }, {
+      "x" : 224.0,
+      "y" : 32.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "5",
+      "unknown" : false
+    }, {
+      "x" : 184.0,
+      "y" : 48.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "PP",
+      "unknown" : false
+    }, {
+      "x" : 192.0,
+      "y" : 48.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "2",
+      "unknown" : false
+    }, {
+      "x" : 200.0,
+      "y" : 48.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "0",
+      "unknown" : false
+    }, {
+      "x" : 208.0,
+      "y" : 48.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "/",
+      "unknown" : false
+    }, {
+      "x" : 216.0,
+      "y" : 48.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "2",
+      "unknown" : false
+    }, {
+      "x" : 224.0,
+      "y" : 48.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "0",
+      "unknown" : false
+    }, {
+      "x" : 184.0,
+      "y" : 64.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "PP",
+      "unknown" : false
+    }, {
+      "x" : 192.0,
+      "y" : 64.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "1",
+      "unknown" : false
+    }, {
+      "x" : 200.0,
+      "y" : 64.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "0",
+      "unknown" : false
+    }, {
+      "x" : 208.0,
+      "y" : 64.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "/",
+      "unknown" : false
+    }, {
+      "x" : 216.0,
+      "y" : 64.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "1",
+      "unknown" : false
+    }, {
+      "x" : 224.0,
+      "y" : 64.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "0",
+      "unknown" : false
+    }, {
+      "x" : 184.0,
+      "y" : 80.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "PP",
+      "unknown" : false
+    }, {
+      "x" : 200.0,
+      "y" : 80.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "5",
+      "unknown" : false
+    }, {
+      "x" : 208.0,
+      "y" : 80.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "/",
+      "unknown" : false
+    }, {
+      "x" : 224.0,
+      "y" : 80.0,
+      "width" : 8.0,
+      "height" : 16.0,
+      "raw" : "5",
+      "unknown" : false
+    } ],
+    "pointers" : [ ],
+    "selections" : [ ],
+    "translations" : [ {
+      "box" : {
+        "x" : 87.0,
+        "y" : 32.0,
+        "width" : 31.0,
+        "height" : 16.0
+      },
+      "text" : "水"
+    }, {
+      "box" : {
+        "x" : 120.0,
+        "y" : 32.0,
+        "width" : 62.0,
+        "height" : 16.0
+      },
+      "text" : "冲浪"
+    }, {
+      "box" : {
+        "x" : 87.0,
+        "y" : 48.0,
+        "width" : 31.0,
+        "height" : 16.0
+      },
+      "text" : "超能力"
+    }, {
+      "box" : {
+        "x" : 120.0,
+        "y" : 48.0,
+        "width" : 62.0,
+        "height" : 16.0
+      },
+      "text" : "冥想"
+    }, {
+      "box" : {
+        "x" : 87.0,
+        "y" : 64.0,
+        "width" : 31.0,
+        "height" : 16.0
+      },
+      "text" : "冰"
+    }, {
+      "box" : {
+        "x" : 120.0,
+        "y" : 64.0,
+        "width" : 62.0,
+        "height" : 16.0
+      },
+      "text" : "冰冻光束"
+    }, {
+      "box" : {
+        "x" : 87.0,
+        "y" : 80.0,
+        "width" : 31.0,
+        "height" : 16.0
+      },
+      "text" : "水"
+    }, {
+      "box" : {
+        "x" : 120.0,
+        "y" : 80.0,
+        "width" : 62.0,
+        "height" : 16.0
+      },
+      "text" : "水炮"
+    } ]
+  }, {
+    "key" : "summary_move_description",
+    "name" : "战斗招式页说明",
+    "clip" : {
+      "x" : 80.0,
+      "y" : 112.0,
+      "width" : 160.0,
+      "height" : 40.0
+    },
+    "frame" : {
+      "x" : 85.0,
+      "y" : 120.0,
+      "width" : 150.0,
+      "height" : 32.0
+    },
+    "order" : 0,
+    "raw" : "せつめい",
+    "status" : "recognized",
+    "runs" : [ {
+      "x" : 88.0,
+      "y" : 112.0,
+      "width" : 48.0,
+      "height" : 8.0,
+      "raw" : "せつめい",
+      "unknown" : false
+    } ],
+    "pointers" : [ ],
+    "selections" : [ ],
+    "translations" : [ ]
+  } ],
+  "passed" : true,
+  "translation" : {
+    "game" : "both",
+    "regions" : [ {
+      "key" : "summary_battle_moves",
+      "raw" : "おぼえているわざ\nみず なみのり PP15/15\nエスパー めいそう PP20/20\nこおり れいとうビーム PP10/10\nみず ハイドロポンプ PP5/5",
+      "units" : [ {
+        "unit" : {
+          "raw" : "おぼえているわざ",
+          "start" : 0,
+          "end" : 8,
+          "searchText" : "おぼえているわざ",
+          "kind" : null,
+          "fields" : [ ]
+        },
+        "output" : "おぼえているわざ",
+        "chinese" : null,
+        "status" : "retained_japanese",
+        "reason" : "no_reviewed_visible_window",
+        "ruleId" : null,
+        "citations" : [ ],
+        "bindings" : [ ],
+        "sourceQids" : [ ]
+      }, {
+        "unit" : {
+          "raw" : "みず",
+          "start" : 9,
+          "end" : 11,
+          "searchText" : "みず",
+          "kind" : "type",
+          "fields" : [ ]
+        },
+        "output" : "水",
+        "chinese" : "水",
+        "status" : "original_rsc_available",
+        "reason" : "unique_original_rsc_source",
+        "ruleId" : null,
+        "citations" : [ {
+          "id" : "candidate-005681",
+          "qid" : "rs.common.type_names.gTypeNames.11",
+          "game" : "ruby",
+          "chinese" : "水",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4950",
+          "recordedAddress" : "0x1F98D5",
+          "address" : "0x1F98D5",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "77",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        }, {
+          "id" : "candidate-016318",
+          "qid" : "rs.common.type_names.gTypeNames.11",
+          "game" : "sapphire",
+          "chinese" : "水",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4950",
+          "recordedAddress" : "0x1F9865",
+          "address" : "0x1F9865",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "77",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        }, {
+          "id" : "candidate-005681",
+          "qid" : "rs.common.type_names.gTypeNames.11",
+          "game" : "ruby",
+          "chinese" : "水",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4950",
+          "recordedAddress" : "0x1F98D5",
+          "address" : "0x1F98D5",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "77",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        }, {
+          "id" : "candidate-016318",
+          "qid" : "rs.common.type_names.gTypeNames.11",
+          "game" : "sapphire",
+          "chinese" : "水",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4950",
+          "recordedAddress" : "0x1F9865",
+          "address" : "0x1F9865",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "77",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.type_names.gTypeNames.11" ]
+      }, {
+        "unit" : {
+          "raw" : "なみのり PP15/15",
+          "start" : 12,
+          "end" : 24,
+          "searchText" : "なみのり",
+          "kind" : "move",
+          "fields" : [ {
+            "role" : "current_pp",
+            "raw" : " PP15/15"
+          } ]
+        },
+        "output" : "冲浪 PP15/15",
+        "chinese" : "冲浪",
+        "status" : "original_rsc_available",
+        "reason" : "unique_original_rsc_source",
+        "ruleId" : null,
+        "citations" : [ {
+          "id" : "candidate-005361",
+          "qid" : "rs.common.move_names.gMoveNames.57",
+          "game" : "ruby",
+          "chinese" : "冲浪",
+          "kind" : "move",
+          "sourceId" : "corpus-7",
+          "sourceLine" : "312",
+          "recordedAddress" : "",
+          "address" : "",
+          "sourceSymbol" : "gMoveNames",
+          "sourceFile" : "词典（校队）/技能名称_英-中_现行官译版.txt",
+          "offsetWithinSymbol" : "",
+          "evidence" : "typed_dictionary_case_insensitive",
+          "semanticStatus" : "rsc_original_retained_retained"
+        }, {
+          "id" : "candidate-015998",
+          "qid" : "rs.common.move_names.gMoveNames.57",
+          "game" : "sapphire",
+          "chinese" : "冲浪",
+          "kind" : "move",
+          "sourceId" : "corpus-7",
+          "sourceLine" : "312",
+          "recordedAddress" : "",
+          "address" : "",
+          "sourceSymbol" : "gMoveNames",
+          "sourceFile" : "词典（校队）/技能名称_英-中_现行官译版.txt",
+          "offsetWithinSymbol" : "",
+          "evidence" : "typed_dictionary_case_insensitive",
+          "semanticStatus" : "rsc_original_retained_retained"
+        }, {
+          "id" : "candidate-005361",
+          "qid" : "rs.common.move_names.gMoveNames.57",
+          "game" : "ruby",
+          "chinese" : "冲浪",
+          "kind" : "move",
+          "sourceId" : "corpus-7",
+          "sourceLine" : "312",
+          "recordedAddress" : "",
+          "address" : "",
+          "sourceSymbol" : "gMoveNames",
+          "sourceFile" : "词典（校队）/技能名称_英-中_现行官译版.txt",
+          "offsetWithinSymbol" : "",
+          "evidence" : "typed_dictionary_case_insensitive",
+          "semanticStatus" : "rsc_original_retained_retained"
+        }, {
+          "id" : "candidate-015998",
+          "qid" : "rs.common.move_names.gMoveNames.57",
+          "game" : "sapphire",
+          "chinese" : "冲浪",
+          "kind" : "move",
+          "sourceId" : "corpus-7",
+          "sourceLine" : "312",
+          "recordedAddress" : "",
+          "address" : "",
+          "sourceSymbol" : "gMoveNames",
+          "sourceFile" : "词典（校队）/技能名称_英-中_现行官译版.txt",
+          "offsetWithinSymbol" : "",
+          "evidence" : "typed_dictionary_case_insensitive",
+          "semanticStatus" : "rsc_original_retained_retained"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.move_names.gMoveNames.57" ]
+      }, {
+        "unit" : {
+          "raw" : "エスパー",
+          "start" : 25,
+          "end" : 29,
+          "searchText" : "エスパー",
+          "kind" : "type",
+          "fields" : [ ]
+        },
+        "output" : "超能力",
+        "chinese" : "超能力",
+        "status" : "original_rsc_available",
+        "reason" : "unique_original_rsc_source",
+        "ruleId" : null,
+        "citations" : [ {
+          "id" : "candidate-005684",
+          "qid" : "rs.common.type_names.gTypeNames.14",
+          "game" : "ruby",
+          "chinese" : "超能力",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4953",
+          "recordedAddress" : "0x1F98EA",
+          "address" : "0x1F98EA",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "98",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        }, {
+          "id" : "candidate-016321",
+          "qid" : "rs.common.type_names.gTypeNames.14",
+          "game" : "sapphire",
+          "chinese" : "超能力",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4953",
+          "recordedAddress" : "0x1F987A",
+          "address" : "0x1F987A",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "98",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.type_names.gTypeNames.14" ]
+      }, {
+        "unit" : {
+          "raw" : "めいそう PP20/20",
+          "start" : 30,
+          "end" : 42,
+          "searchText" : "めいそう",
+          "kind" : "move",
+          "fields" : [ {
+            "role" : "current_pp",
+            "raw" : " PP20/20"
+          } ]
+        },
+        "output" : "冥想 PP20/20",
+        "chinese" : "冥想",
+        "status" : "original_rsc_available",
+        "reason" : "unique_original_rsc_source",
+        "ruleId" : null,
+        "citations" : [ {
+          "id" : "candidate-005663",
+          "qid" : "rs.common.move_names.gMoveNames.347",
+          "game" : "ruby",
+          "chinese" : "冥想",
+          "kind" : "move",
+          "sourceId" : "corpus-7",
+          "sourceLine" : "1837",
+          "recordedAddress" : "",
+          "address" : "",
+          "sourceSymbol" : "gMoveNames",
+          "sourceFile" : "词典（校队）/技能名称_英-中_现行官译版.txt",
+          "offsetWithinSymbol" : "",
+          "evidence" : "typed_dictionary_case_insensitive",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-016300",
+          "qid" : "rs.common.move_names.gMoveNames.347",
+          "game" : "sapphire",
+          "chinese" : "冥想",
+          "kind" : "move",
+          "sourceId" : "corpus-7",
+          "sourceLine" : "1837",
+          "recordedAddress" : "",
+          "address" : "",
+          "sourceSymbol" : "gMoveNames",
+          "sourceFile" : "词典（校队）/技能名称_英-中_现行官译版.txt",
+          "offsetWithinSymbol" : "",
+          "evidence" : "typed_dictionary_case_insensitive",
+          "semanticStatus" : "unreviewed"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.move_names.gMoveNames.347" ]
+      }, {
+        "unit" : {
+          "raw" : "こおり",
+          "start" : 43,
+          "end" : 46,
+          "searchText" : "こおり",
+          "kind" : "type",
+          "fields" : [ ]
+        },
+        "output" : "冰",
+        "chinese" : "冰",
+        "status" : "original_rsc_available",
+        "reason" : "unique_original_rsc_source",
+        "ruleId" : null,
+        "citations" : [ {
+          "id" : "candidate-005685",
+          "qid" : "rs.common.type_names.gTypeNames.15",
+          "game" : "ruby",
+          "chinese" : "冰",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4954",
+          "recordedAddress" : "0x1F98F1",
+          "address" : "0x1F98F1",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "105",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        }, {
+          "id" : "candidate-016322",
+          "qid" : "rs.common.type_names.gTypeNames.15",
+          "game" : "sapphire",
+          "chinese" : "冰",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4954",
+          "recordedAddress" : "0x1F9881",
+          "address" : "0x1F9881",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "105",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.type_names.gTypeNames.15" ]
+      }, {
+        "unit" : {
+          "raw" : "れいとうビーム PP10/10",
+          "start" : 47,
+          "end" : 62,
+          "searchText" : "れいとうビーム",
+          "kind" : "move",
+          "fields" : [ {
+            "role" : "current_pp",
+            "raw" : " PP10/10"
+          } ]
+        },
+        "output" : "冰冻光束 PP10/10",
+        "chinese" : "冰冻光束",
+        "status" : "original_rsc_available",
+        "reason" : "unique_original_rsc_source",
+        "ruleId" : null,
+        "citations" : [ {
+          "id" : "candidate-005362",
+          "qid" : "rs.common.move_names.gMoveNames.58",
+          "game" : "ruby",
+          "chinese" : "冰冻光束",
+          "kind" : "move",
+          "sourceId" : "corpus-7",
+          "sourceLine" : "317",
+          "recordedAddress" : "",
+          "address" : "",
+          "sourceSymbol" : "gMoveNames",
+          "sourceFile" : "词典（校队）/技能名称_英-中_现行官译版.txt",
+          "offsetWithinSymbol" : "",
+          "evidence" : "typed_dictionary_case_insensitive",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015999",
+          "qid" : "rs.common.move_names.gMoveNames.58",
+          "game" : "sapphire",
+          "chinese" : "冰冻光束",
+          "kind" : "move",
+          "sourceId" : "corpus-7",
+          "sourceLine" : "317",
+          "recordedAddress" : "",
+          "address" : "",
+          "sourceSymbol" : "gMoveNames",
+          "sourceFile" : "词典（校队）/技能名称_英-中_现行官译版.txt",
+          "offsetWithinSymbol" : "",
+          "evidence" : "typed_dictionary_case_insensitive",
+          "semanticStatus" : "unreviewed"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.move_names.gMoveNames.58" ]
+      }, {
+        "unit" : {
+          "raw" : "みず",
+          "start" : 63,
+          "end" : 65,
+          "searchText" : "みず",
+          "kind" : "type",
+          "fields" : [ ]
+        },
+        "output" : "水",
+        "chinese" : "水",
+        "status" : "original_rsc_available",
+        "reason" : "unique_original_rsc_source",
+        "ruleId" : null,
+        "citations" : [ {
+          "id" : "candidate-005681",
+          "qid" : "rs.common.type_names.gTypeNames.11",
+          "game" : "ruby",
+          "chinese" : "水",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4950",
+          "recordedAddress" : "0x1F98D5",
+          "address" : "0x1F98D5",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "77",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        }, {
+          "id" : "candidate-016318",
+          "qid" : "rs.common.type_names.gTypeNames.11",
+          "game" : "sapphire",
+          "chinese" : "水",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4950",
+          "recordedAddress" : "0x1F9865",
+          "address" : "0x1F9865",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "77",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        }, {
+          "id" : "candidate-005681",
+          "qid" : "rs.common.type_names.gTypeNames.11",
+          "game" : "ruby",
+          "chinese" : "水",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4950",
+          "recordedAddress" : "0x1F98D5",
+          "address" : "0x1F98D5",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "77",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        }, {
+          "id" : "candidate-016318",
+          "qid" : "rs.common.type_names.gTypeNames.11",
+          "game" : "sapphire",
+          "chinese" : "水",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4950",
+          "recordedAddress" : "0x1F9865",
+          "address" : "0x1F9865",
+          "sourceSymbol" : "gTypeNames",
+          "sourceFile" : "data/text/type_names.inc",
+          "offsetWithinSymbol" : "77",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "rsc_original_retained_retained"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.type_names.gTypeNames.11" ]
+      }, {
+        "unit" : {
+          "raw" : "ハイドロポンプ PP5/5",
+          "start" : 66,
+          "end" : 79,
+          "searchText" : "ハイドロポンプ",
+          "kind" : "move",
+          "fields" : [ {
+            "role" : "current_pp",
+            "raw" : " PP5/5"
+          } ]
+        },
+        "output" : "水炮 PP5/5",
+        "chinese" : "水炮",
+        "status" : "original_rsc_available",
+        "reason" : "unique_original_rsc_source",
+        "ruleId" : null,
+        "citations" : [ {
+          "id" : "candidate-005360",
+          "qid" : "rs.common.move_names.gMoveNames.56",
+          "game" : "ruby",
+          "chinese" : "水炮",
+          "kind" : "move",
+          "sourceId" : "corpus-7",
+          "sourceLine" : "307",
+          "recordedAddress" : "",
+          "address" : "",
+          "sourceSymbol" : "gMoveNames",
+          "sourceFile" : "词典（校队）/技能名称_英-中_现行官译版.txt",
+          "offsetWithinSymbol" : "",
+          "evidence" : "typed_dictionary_case_insensitive",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015997",
+          "qid" : "rs.common.move_names.gMoveNames.56",
+          "game" : "sapphire",
+          "chinese" : "水炮",
+          "kind" : "move",
+          "sourceId" : "corpus-7",
+          "sourceLine" : "307",
+          "recordedAddress" : "",
+          "address" : "",
+          "sourceSymbol" : "gMoveNames",
+          "sourceFile" : "词典（校队）/技能名称_英-中_现行官译版.txt",
+          "offsetWithinSymbol" : "",
+          "evidence" : "typed_dictionary_case_insensitive",
+          "semanticStatus" : "unreviewed"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.move_names.gMoveNames.56" ]
+      } ]
+    }, {
+      "key" : "summary_move_description",
+      "raw" : "せつめい",
+      "units" : [ {
+        "unit" : {
+          "raw" : "せつめい",
+          "start" : 0,
+          "end" : 4,
+          "searchText" : "せつめい",
+          "kind" : null,
+          "fields" : [ ]
+        },
+        "output" : "せつめい",
+        "chinese" : null,
+        "status" : "retained_japanese",
+        "reason" : "outside_first_edition",
+        "ruleId" : null,
+        "citations" : [ ],
+        "bindings" : [ ],
+        "sourceQids" : [ ]
+      } ]
+    } ],
+    "player" : null,
+    "manualPlayer" : "",
+    "automaticPlayer" : "",
+    "resourceVersion" : "a24990eb501cdada49fda5b32547ce2104a13a3df97b9e9a4dd01a4676f35f22"
+  },
+  "translatedFields" : 8,
+  "regions" : [ {
+    "typeCandidates" : [ "summary_battle_moves" ],
+    "variant" : "summary_battle",
+    "logicalBox" : [ 80, 24, 160, 72 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "おぼえているわざ\nみず なみのり PP15/15\nエスパー めいそう PP20/20\nこおり れいとうビーム PP10/10\nみず ハイドロポンプ PP5/5",
+    "status" : "recognized",
+    "characters" : [ {
+      "x" : 88,
+      "y" : 24,
+      "font" : -1,
+      "raw" : "おぼえているわざ",
+      "candidates" : [ "おぼえているわざ" ],
+      "distance" : 0,
+      "runnerUpDistance" : -1
+    }, {
+      "x" : 87,
+      "y" : 32,
+      "font" : -2,
+      "raw" : "みず",
+      "candidates" : [ "みず" ],
+      "distance" : 0,
+      "runnerUpDistance" : 42
+    }, {
+      "x" : 120,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "な",
+      "candidates" : [ "な" ],
+      "distance" : 0,
+      "runnerUpDistance" : 18
+    }, {
+      "x" : 128,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "み",
+      "candidates" : [ "み" ],
+      "distance" : 0,
+      "runnerUpDistance" : 20
+    }, {
+      "x" : 136,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "の",
+      "candidates" : [ "の" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 144,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "り",
+      "candidates" : [ "り" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 184,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "PP",
+      "candidates" : [ "PP" ],
+      "distance" : 0,
+      "runnerUpDistance" : 17
+    }, {
+      "x" : 192,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "1",
+      "candidates" : [ "1" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 200,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "5",
+      "candidates" : [ "5" ],
+      "distance" : 0,
+      "runnerUpDistance" : 6
+    }, {
+      "x" : 208,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 216,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "1",
+      "candidates" : [ "1" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 224,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "5",
+      "candidates" : [ "5" ],
+      "distance" : 0,
+      "runnerUpDistance" : 6
+    }, {
+      "x" : 87,
+      "y" : 48,
+      "font" : -2,
+      "raw" : "エスパー",
+      "candidates" : [ "エスパー" ],
+      "distance" : 0,
+      "runnerUpDistance" : 66
+    }, {
+      "x" : 120,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "め",
+      "candidates" : [ "め" ],
+      "distance" : 0,
+      "runnerUpDistance" : 13
+    }, {
+      "x" : 128,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "い",
+      "candidates" : [ "い" ],
+      "distance" : 0,
+      "runnerUpDistance" : 13
+    }, {
+      "x" : 136,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "そ",
+      "candidates" : [ "そ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 144,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "う",
+      "candidates" : [ "う" ],
+      "distance" : 0,
+      "runnerUpDistance" : 7
+    }, {
+      "x" : 184,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "PP",
+      "candidates" : [ "PP" ],
+      "distance" : 0,
+      "runnerUpDistance" : 17
+    }, {
+      "x" : 192,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "2",
+      "candidates" : [ "2" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 200,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "0",
+      "candidates" : [ "0", "O" ],
+      "distance" : 0,
+      "runnerUpDistance" : 2
+    }, {
+      "x" : 208,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 216,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "2",
+      "candidates" : [ "2" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 224,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "0",
+      "candidates" : [ "0", "O" ],
+      "distance" : 0,
+      "runnerUpDistance" : 2
+    }, {
+      "x" : 87,
+      "y" : 64,
+      "font" : -2,
+      "raw" : "こおり",
+      "candidates" : [ "こおり" ],
+      "distance" : 0,
+      "runnerUpDistance" : 47
+    }, {
+      "x" : 120,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "れ",
+      "candidates" : [ "れ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 128,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "い",
+      "candidates" : [ "い" ],
+      "distance" : 0,
+      "runnerUpDistance" : 13
+    }, {
+      "x" : 136,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "と",
+      "candidates" : [ "と" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 144,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "う",
+      "candidates" : [ "う" ],
+      "distance" : 0,
+      "runnerUpDistance" : 7
+    }, {
+      "x" : 152,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "ビ",
+      "candidates" : [ "ビ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 160,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "ー",
+      "candidates" : [ "ー" ],
+      "distance" : 0,
+      "runnerUpDistance" : 3
+    }, {
+      "x" : 168,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "ム",
+      "candidates" : [ "ム" ],
+      "distance" : 0,
+      "runnerUpDistance" : 18
+    }, {
+      "x" : 184,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "PP",
+      "candidates" : [ "PP" ],
+      "distance" : 0,
+      "runnerUpDistance" : 17
+    }, {
+      "x" : 192,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "1",
+      "candidates" : [ "1" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 200,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "0",
+      "candidates" : [ "0", "O" ],
+      "distance" : 0,
+      "runnerUpDistance" : 2
+    }, {
+      "x" : 208,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 216,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "1",
+      "candidates" : [ "1" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 224,
+      "y" : 64,
+      "font" : 3,
+      "raw" : "0",
+      "candidates" : [ "0", "O" ],
+      "distance" : 0,
+      "runnerUpDistance" : 2
+    }, {
+      "x" : 87,
+      "y" : 80,
+      "font" : -2,
+      "raw" : "みず",
+      "candidates" : [ "みず" ],
+      "distance" : 0,
+      "runnerUpDistance" : 42
+    }, {
+      "x" : 120,
+      "y" : 80,
+      "font" : 3,
+      "raw" : "ハ",
+      "candidates" : [ "ハ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 128,
+      "y" : 80,
+      "font" : 3,
+      "raw" : "イ",
+      "candidates" : [ "イ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 136,
+      "y" : 80,
+      "font" : 3,
+      "raw" : "ド",
+      "candidates" : [ "ド" ],
+      "distance" : 0,
+      "runnerUpDistance" : 5
+    }, {
+      "x" : 144,
+      "y" : 80,
+      "font" : 3,
+      "raw" : "ロ",
+      "candidates" : [ "ロ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 152,
+      "y" : 80,
+      "font" : 3,
+      "raw" : "ポ",
+      "candidates" : [ "ポ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 160,
+      "y" : 80,
+      "font" : 3,
+      "raw" : "ン",
+      "candidates" : [ "ン" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 168,
+      "y" : 80,
+      "font" : 3,
+      "raw" : "プ",
+      "candidates" : [ "プ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 184,
+      "y" : 80,
+      "font" : 3,
+      "raw" : "PP",
+      "candidates" : [ "PP" ],
+      "distance" : 0,
+      "runnerUpDistance" : 17
+    }, {
+      "x" : 200,
+      "y" : 80,
+      "font" : 3,
+      "raw" : "5",
+      "candidates" : [ "5" ],
+      "distance" : 0,
+      "runnerUpDistance" : 6
+    }, {
+      "x" : 208,
+      "y" : 80,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 224,
+      "y" : 80,
+      "font" : 3,
+      "raw" : "5",
+      "candidates" : [ "5" ],
+      "distance" : 0,
+      "runnerUpDistance" : 6
+    } ]
+  }, {
+    "typeCandidates" : [ "summary_move_description" ],
+    "variant" : "summary_battle",
+    "logicalBox" : [ 80, 112, 160, 40 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "せつめい",
+    "status" : "recognized",
+    "characters" : [ {
+      "x" : 88,
+      "y" : 112,
+      "font" : -1,
+      "raw" : "せつめい",
+      "candidates" : [ "せつめい" ],
+      "distance" : 0,
+      "runnerUpDistance" : -1
+    } ]
+  } ],
+  "sourceViewport" : {
+    "x" : 62.0,
+    "y" : 43.0,
+    "width" : 810.0,
+    "height" : 540.0
+  }
+}

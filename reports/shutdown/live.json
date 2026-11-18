@@ -1,0 +1,7 @@
+{
+  "statusBeforeClose" : "实时识别中 · 1 个区域",
+  "startupAndCheckMs" : 2667.0234,
+  "closeToApplicationReturnMs" : 53.495,
+  "passed" : true,
+  "mode" : "live"
+}

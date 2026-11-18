@@ -1,0 +1,1128 @@
+{
+  "scope" : "Complete-source synthetic text inputs; not screenshot, partial-page or device-chain coverage",
+  "statuses" : {
+    "original_rsc_available" : 146,
+    "original_rsc_bound_template" : 35,
+    "original_rsc_source_record" : 13709,
+    "original_rsc_source_template" : 744,
+    "original_rsc_visible_span" : 4,
+    "retained_japanese" : 371
+  },
+  "retained" : [ {
+    "id" : "rs.script.RustboroCity.RustboroCity_Text_16704C:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.RustboroCity.RustboroCity_Text_16704C:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.FortreeCity.FortreeCity_Text_167868:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.DewfordTown.DewfordTown_Text_16B627:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.DewfordTown.DewfordTown_Text_16B627:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route109.Route109_Text_16E159:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route109.Route109_Text_16E159:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route109.Route109_Text_16E2C5:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route109.Route109_Text_16E2C5:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route110.UnknownString_816F5D7:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route110.UnknownString_816F5D7:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route120.Text_SomethingUnseeable:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173B29:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173B29:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173C88:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LittlerootTown_ProfessorBirchsLab.LittlerootTown_ProfessorBirchsLab_Text_173C88:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SlateportCity_SternsShipyard_1F.UnknownString_817C6A6:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SlateportCity_SternsShipyard_1F.UnknownString_817C6A6:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SlateportCity_Harbor.SlateportCity_Harbor_Text_17FA0A:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SlateportCity_Harbor.SlateportCity_Harbor_Text_17FAAD:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SlateportCity_Harbor.SlateportCity_Harbor_Text_17FBB6:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.MauvilleCity_GameCorner.MauvilleCity_GameCorner_Text_181E49:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.MauvilleCity_GameCorner.MauvilleCity_GameCorner_Text_181E49:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.MauvilleCity_GameCorner.MauvilleCity_GameCorner_Text_181F08:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.MauvilleCity_GameCorner.MauvilleCity_GameCorner_Text_181F89:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.FortreeCity_Gym.FortreeCity_Gym_Text_185C7C:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.FortreeCity_Gym.FortreeCity_Gym_Text_185C7C:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.FortreeCity_House2.FortreeCity_House2_Text_1863F6:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.FortreeCity_House2.FortreeCity_House2_Text_1863F6:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.FortreeCity_House2.FortreeCity_House2_Text_186455:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.FortreeCity_House2.FortreeCity_House2_Text_186455:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188559:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188559:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_1886DC:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_18878D:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_18878D:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_1887C7:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_1887C7:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_1887F4:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_1887F4:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_ContestLobby.LilycoveCity_ContestLobby_Text_188C03:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_Harbor.LilycoveCity_Harbor_Text_18B306:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_Harbor.LilycoveCity_Harbor_Text_18B3A9:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.LilycoveCity_Harbor.LilycoveCity_Harbor_Text_18B4B3:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.MossdeepCity_Gym.MossdeepCity_Gym_Text_18CD66:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.MossdeepCity_Gym.MossdeepCity_Gym_Text_18CD66:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SootopolisCity_Gym_1F.SootopolisCity_Gym_B1F_Text_18EEDC:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SootopolisCity_Gym_1F.SootopolisCity_Gym_B1F_Text_18EEDC:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SootopolisCity_House8.SootopolisCity_House8_Text_1902C4:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SootopolisCity_House8.SootopolisCity_House8_Text_1902C4:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SootopolisCity_House8.SootopolisCity_House8_Text_1905C1:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SootopolisCity_House8.SootopolisCity_House8_Text_1905C1:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route104_MrBrineysHouse.Route104_MrBrineysHouse_Text_191BFD:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route104_MrBrineysHouse.Route104_MrBrineysHouse_Text_191BFD:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route104_MrBrineysHouse.Route104_MrBrineysHouse_Text_191FB9:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route104_MrBrineysHouse.Route104_MrBrineysHouse_Text_191FB9:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.PetalburgWoods.PetalburgWoods_Text_195182:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.PetalburgWoods.PetalburgWoods_Text_195182:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SSTidalRooms.SSTidalRooms_Text_19956B:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.SSTidalRooms.SSTidalRooms_Text_19956B:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.BattleTower_Outside.BattleTower_Outside_Text_199D40:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.BattleTower_Outside.BattleTower_Outside_Text_199E4B:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route104_Prototype.Route104_Prototype_Text_19B267:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route104_Prototype.Route104_Prototype_Text_19B267:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route104_Prototype.Route104_Prototype_Text_19B2E9:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route104_Prototype.Route104_Prototype_Text_19B2E9:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route109_SeashoreHouse.UnknownString_819B7C5:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route119_WeatherInstitute_1F.Route119_WeatherInstitute_1F_Text_19EE8B:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.Route119_WeatherInstitute_1F.Route119_WeatherInstitute_1F_Text_19EE8B:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.secret_base.SecretBase_Text_WhatWouldYouLikeToDo:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.secret_base.SecretBase_Text_WhatWouldYouLikeToDo:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.cable_club.gUnknown_081A490C:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.cable_club.gUnknown_081A490C:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.cable_club.OldaleTown_PokemonCenter_2F_Text_1A4B1D:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.cable_club.OldaleTown_PokemonCenter_2F_Text_1A4B1D:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.cable_club.OldaleTown_PokemonCenter_2F_Text_1A4B59:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.cable_club.OldaleTown_PokemonCenter_2F_Text_1A4B59:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.contest_hall.FallarborTown_ContestLobby_Text_1A6623:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.contest_hall.LinkContestRoom1_Text_1A6D96:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.tv.gTVBravoTrainerBattleTowerText8:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.tv.gTVBravoTrainerBattleTowerText9:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.tv.gTVBravoTrainerBattleTowerText10:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.tv.gTVBravoTrainerBattleTowerText11:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.trader.gTextTrader_FeelUnwanted1:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.trader.gTextTrader_FeelUnwanted1:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.storyteller.gTextStoryteller_OhIFeelStifled:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.storyteller.gTextStoryteller_OhIFeelStifled:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.bard.gTextBard_OhYouveLeftMe:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.bard.gTextBard_OhYouveLeftMe:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.bard.gTextBard_OhYouveLeftMe2:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.bard.gTextBard_OhYouveLeftMe2:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.trainers.Route106_Text_1B917F:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.trainers.Route106_Text_1B917F:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.trainers.Route119_Text_1BE88D:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.trainers.Route119_Text_1BE88D:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.trainers.Route125_Text_1C1002:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.trainers.Route125_Text_1C1002:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.barboach.UnknownString_81C4340:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.barboach.UnknownString_81C4340:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.lottery_corner.LilycoveCity_DepartmentStore_1F_Text_1C4C85:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.lottery_corner.LilycoveCity_DepartmentStore_1F_Text_1C4C85:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.lottery_corner.LilycoveCity_DepartmentStore_1F_Text_1C501C:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.lottery_corner.LilycoveCity_DepartmentStore_1F_Text_1C501C:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.berries.Route111_Text_1C56F0:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.berries.Route111_Text_1C56F0:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.birch_speech.gBirchSpeech_ThisIsPokemon:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.script.birch_speech.gBirchSpeech_ThisIsPokemon:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.77:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.77:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.144:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.144:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.152:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.152:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.161:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.161:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.202:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.202:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.206:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.206:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.207:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.207:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.208:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.208:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.209:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.209:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.210:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.210:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.323:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.323:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.403:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.403:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.425:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.425:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.459:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.459:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.475:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.475:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.506:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.506:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.510:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.510:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.539:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.539:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.540:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.540:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.547:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.547:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.648:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.648:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.649:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.649:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.650:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.650:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.653:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.653:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.654:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.654:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.655:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.655:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.674:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.674:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.693:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainers.gTrainers.693:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_CloudNine:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_CloudNine:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_ShadowTag:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_ShadowTag:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_ClearBody:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_ClearBody:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_ArenaTrap:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_ArenaTrap:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_WhiteSmoke:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_WhiteSmoke:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_AirLock:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ability_descriptions.gAbilityDescription_AirLock:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.berry_blender.sBlenderOpponentName2:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.berry_blender.sBlenderOpponentName2:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.berry_blender.sBlenderOpponentName3:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.berry_blender.sBlenderOpponentName3:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Scratch:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Scratch:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Thrash:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Thrash:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_DoubleEdge:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_DoubleEdge:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_PinMissile:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_PinMissile:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Psybeam:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Psybeam:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_HyperBeam:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_HyperBeam:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Absorb:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Absorb:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_MegaDrain:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_MegaDrain:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_PetalDance:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_PetalDance:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Recover:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Recover:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_SelfDestruct:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_SelfDestruct:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Sludge:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_SpikeCannon:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_SpikeCannon:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_SoftBoiled:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_SoftBoiled:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_LeechLife:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_LeechLife:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Explosion:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Explosion:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Flail:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Flail:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Reversal:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Reversal:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_SludgeBomb:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Outrage:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Outrage:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_GigaDrain:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_GigaDrain:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Rollout:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Rollout:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_MilkDrink:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_MilkDrink:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Whirlpool:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Whirlpool:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Eruption:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_Eruption:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_IceBall:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_IceBall:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_BlastBurn:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_BlastBurn:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_HydroCannon:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_HydroCannon:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_WaterSpout:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_WaterSpout:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_SignalBeam:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_SignalBeam:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_SandTomb:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_SandTomb:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_DragonClaw:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_DragonClaw:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_FrenzyPlant:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_FrenzyPlant:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_VoltTackle:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.move_descriptions.MoveDescription_VoltTackle:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.berry.sBerryDescriptionPart2_Liechi:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.berry.sBerryDescriptionPart2_Liechi:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.berry.sBerryDescriptionPart2_Ganlon:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.berry.sBerryDescriptionPart2_Ganlon:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.berry.sBerryDescriptionPart2_Salac:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.berry.sBerryDescriptionPart2_Salac:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.31:ruby",
+    "reason" : "original_rsc_context_required"
+  }, {
+    "id" : "rs.common.easy_chat_group_status.gEasyChatGroupWords_Status.31:sapphire",
+    "reason" : "original_rsc_context_required"
+  }, {
+    "id" : "rs.common.easy_chat_group_people.gEasyChatGroupWords_People.12:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_people.gEasyChatGroupWords_People.12:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_people.gEasyChatGroupWords_People.21:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_people.gEasyChatGroupWords_People.21:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_lifestyle.gEasyChatGroupWords_Lifestyle.30:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_lifestyle.gEasyChatGroupWords_Lifestyle.30:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_hobbies.gEasyChatGroupWords_Hobbies.45:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_hobbies.gEasyChatGroupWords_Hobbies.45:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_time.gEasyChatGroupWords_Time.19:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_time.gEasyChatGroupWords_Time.19:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_CoolContest:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_CoolContest:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_BeautyContest:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_BeautyContest:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_CuteContest:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_CuteContest:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_SmartContest:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_SmartContest:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_ToughContest:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.ribbon_descriptions.gRibbonDescriptionPart1_ToughContest:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainer_eye_descriptions.TrainerEyeDescription_BugManiac_Brandon.0:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainer_eye_descriptions.TrainerEyeDescription_BugManiac_Brandon.0:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainer_eye_descriptions.TrainerEyeDescription_Youngster_Calvin.1:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainer_eye_descriptions.TrainerEyeDescription_Youngster_Calvin.1:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainer_eye_descriptions.TrainerEyeDescription_PkmnRanger_Jackson.0:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainer_eye_descriptions.TrainerEyeDescription_PkmnRanger_Jackson.0:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainer_eye_descriptions.TrainerEyeDescription_PkmnRanger_Jackson.1:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.trainer_eye_descriptions.TrainerEyeDescription_PkmnRanger_Jackson.1:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gMainMenuString_Time:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gMainMenuString_Time:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gSystemText_IntroWeCall:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gSystemText_IntroWeCall:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.DexText_None:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_Level3:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_Level3:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_Name:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_Name:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Confirm:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Confirm:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_Check:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_Check:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_None:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_Lv:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_Lv:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_WhatWillYouDo:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_WhatWillYouDo:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_HereYouGo2:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_HereYouGo2:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_WhichMoveToForget2:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_WhichMoveToForget2:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_ChoosePoke:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_ChoosePoke:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_Status:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.gOtherText_Status:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_BattleMoves:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_BattleMoves:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_ContestMoves:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_ContestMoves:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.SecretBaseText_Tristan:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.SecretBaseText_Tristan:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Info3:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Info3:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_CoolContest:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_CoolContest:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_BeautyContest:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_BeautyContest:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_CuteContest:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_CuteContest:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_SmartContest:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_SmartContest:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_ToughContest:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_ToughContest:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_ObtainInformation:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_ObtainInformation:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Lv50_2:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Lv50_2:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Lv100_2:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Lv100_2:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Jumping:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Jumping:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Balls:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_Balls:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.PCText_Name:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.PCText_Name:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.PCText_Jump:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.PCText_Jump:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.PCText_WhatDoYouWant:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.PCText_WhatDoYouWant:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_CombineTwoPhrasesPage1:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_CombineTwoPhrasesPage1:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_HipsterPage1:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings.OtherText_HipsterPage1:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gSystemText_On:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gSystemText_On:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.TradeText_ChoosePoke:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.TradeText_ChoosePoke:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_ControlAndMiscText.2:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_ControlAndMiscText.2:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Conditions:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Conditions:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Time:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.easy_chat_group_name_strings.gEasyChatGroupName_Time:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_PlayTime:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_PlayTime:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_Lv50:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_Lv50:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_Lv100:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_Lv100:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.OtherText_Battle:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.OtherText_Battle:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.OtherText_Contest:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.OtherText_Contest:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_WhichMoveToForget:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_WhichMoveToForget:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_RequiredTime:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_RequiredTime:sapphire",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_OK:ruby",
+    "reason" : "original_source_record_conflict"
+  }, {
+    "id" : "rs.common.strings2.gOtherText_OK:sapphire",
+    "reason" : "original_source_record_conflict"
+  } ],
+  "passed" : true,
+  "staticAttempts" : 14229,
+  "templateAttempts" : 780
+}

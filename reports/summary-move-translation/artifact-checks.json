@@ -1,0 +1,65 @@
+{
+  "s3FrozenFilesVerified": 471,
+  "s3EngineSha256": "f7ecb5ee9c3928938214377cd97c1d50d2e681537014f80085325163f173d597",
+  "embeddedEngineEntriesIdentical": 14,
+  "desktopJarSha256": "e6f8cfa5ba584544607eaeeef37df1ceda6ab2b11efa785deba5fe16f81805e5",
+  "noRomScreenshotsOrAnswersInJar": true,
+  "tests": [
+    {
+      "suite": "io.github.rsocr.desktop.BattleCursorTest",
+      "tests": 3
+    },
+    {
+      "suite": "io.github.rsocr.desktop.capture.LiveSessionCloseTest",
+      "tests": 1
+    },
+    {
+      "suite": "io.github.rsocr.desktop.capture.WindowCapturePixelsTest",
+      "tests": 1
+    },
+    {
+      "suite": "io.github.rsocr.desktop.ImageSessionTest",
+      "tests": 3
+    },
+    {
+      "suite": "io.github.rsocr.desktop.LiveMetricsTest",
+      "tests": 1
+    },
+    {
+      "suite": "io.github.rsocr.desktop.LivePresentationTest",
+      "tests": 3
+    },
+    {
+      "suite": "io.github.rsocr.desktop.LiveStateTest",
+      "tests": 8
+    },
+    {
+      "suite": "io.github.rsocr.desktop.PresentationTest",
+      "tests": 6
+    },
+    {
+      "suite": "io.github.rsocr.desktop.SummaryMoveSelectionTest",
+      "tests": 3
+    },
+    {
+      "suite": "io.github.rsocr.desktop.SummaryTrainerNameTest",
+      "tests": 3
+    },
+    {
+      "suite": "io.github.rsocr.desktop.translation.SummaryMoveTranslationTest",
+      "tests": 4
+    },
+    {
+      "suite": "io.github.rsocr.desktop.translation.TranslationDiagnosticsTest",
+      "tests": 5
+    },
+    {
+      "suite": "io.github.rsocr.desktop.translation.TranslationEngineTest",
+      "tests": 10
+    },
+    {
+      "suite": "io.github.rsocr.desktop.translation.TranslationSessionTest",
+      "tests": 5
+    }
+  ]
+}

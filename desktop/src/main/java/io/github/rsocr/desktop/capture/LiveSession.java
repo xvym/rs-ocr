@@ -7,6 +7,7 @@ import java.awt.image.BufferedImage;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;
 
 /** Capture and OCR have separate single-thread owners and at most one OCR job in flight. */
@@ -16,6 +17,7 @@ public final class LiveSession implements AutoCloseable {
     private final ScheduledExecutorService captureWorker=Executors.newSingleThreadScheduledExecutor(r->{var t=new Thread(r,"rs-capture");t.setDaemon(true);return t;});
     private final ExecutorService ocrWorker=Executors.newSingleThreadExecutor(r->{var t=new Thread(r,"rs-live-ocr");t.setDaemon(true);return t;});
     private final AtomicLong selected=new AtomicLong(),sequence=new AtomicLong();
+    private final AtomicBoolean closed=new AtomicBoolean();
     private final OcrEngine engine;private final LiveLayout layout;private final LiveState state;private final Consumer<View> listener;
     private final TranslationSession translations;
     private volatile LiveMetrics metrics=new LiveMetrics();
@@ -24,6 +26,7 @@ public final class LiveSession implements AutoCloseable {
     private int profile;private int[] previousPixels;private boolean busy;
     private BufferedImage normalized,captured;private WindowCapture.Poll lastPoll;
     private String status="已停止";private long lastCalibration;
+    private String lastFailure="";
 
     public LiveSession(ObjectMapper mapper,Consumer<View> listener) throws Exception {
         this(mapper,listener,null);
@@ -43,7 +46,7 @@ public final class LiveSession implements AutoCloseable {
         long id=selected.incrementAndGet();
         captureWorker.execute(()->{
             if(id!=selected.get())return;
-            release();active=id;state.newSession(id);if(translations!=null)translations.reset();this.window=window;this.profile=profile;metrics=new LiveMetrics();
+            release();lastFailure="";active=id;state.newSession(id);if(translations!=null)translations.reset();this.window=window;this.profile=profile;metrics=new LiveMetrics();
             try {capture=new WindowCapture(window);status="等待窗口画面…";emit();}catch(RuntimeException|LinkageError e){fail(e);}
         });return id;
     }
@@ -66,7 +69,7 @@ public final class LiveSession implements AutoCloseable {
     private void release() {
         if(capture!=null){capture.close();capture=null;}invalidate();captured=null;lastPoll=null;revision=-1;if(translations!=null)translations.reset();
     }
-    private void fail(Throwable error) {release();status="捕获已停止："+error.getMessage();emit();}
+    private void fail(Throwable error) {lastFailure=io.github.rsocr.desktop.BugReport.stackTrace(error);error.printStackTrace();release();status="捕获已停止："+error.getMessage();emit();}
     private void tick() {
         if(capture==null || active!=selected.get())return;
         try {
@@ -113,6 +116,7 @@ public final class LiveSession implements AutoCloseable {
         var snapshot=state.snapshot();String detail=window==null?"":("窗口="+window+"\n会话="+active+" 映射代次="+mappingGeneration+"\n映射="+mapping);
         if(lastPoll!=null)detail+="\n捕获代次="+lastPoll.revision()+" 帧="+lastPoll.frameId()+" DPI="+lastPoll.dpi()+"\n原生接收="+lastPoll.frameArrivalNanos()+" 采样="+lastPoll.sampleTimeNanos();
         detail+="\n状态="+state.counts();
+        if(!lastFailure.isEmpty())detail+="\n"+lastFailure;
         var translated=translations==null?null:translations.translate(snapshot.regions());
         listener.accept(new View(active,sequence.incrementAndGet(),revision,lastPoll==null?-1:lastPoll.frameId(),status,normalized,captured,mapping,snapshot.regions(),snapshot.ready(),detail,translated));
     }
@@ -123,7 +127,15 @@ public final class LiveSession implements AutoCloseable {
         report.put("stabilityWaitMs",TimeUnit.NANOSECONDS.toMillis(LiveState.STABILITY_NANOS));
         report.put("stabilityPolicy","Wait until every visible text region is unchanged for 150ms before whole-frame OCR. Background animation and recognized cursor/wait-arrow pixels do not reset text stability. Timing includes stability wait; pixel stability does not prove sentence completion.");return report;
     }
+    /** Read capture-owned fields on their owner, rather than racing the next poll. */
+    public CompletableFuture<Map<String,Object>> diagnosticReport() {
+        var result=new CompletableFuture<Map<String,Object>>();
+        try {captureWorker.execute(()->{try{result.complete(report());}catch(Exception error){result.completeExceptionally(error);}});}
+        catch(RejectedExecutionException error){result.completeExceptionally(error);}
+        return result;
+    }
     @Override public void close() {
+        if(!closed.compareAndSet(false,true))return;
         selected.incrementAndGet();captureWorker.execute(this::release);captureWorker.shutdown();ocrWorker.shutdownNow();
     }
 }

@@ -1,0 +1,6 @@
+﻿{
+    "passed":  true,
+    "sourceUpdatesPreserveRunningSnapshot":  true,
+    "unchangedSnapshotsAreNotRewritten":  true,
+    "corruptSnapshotRejected":  true
+}

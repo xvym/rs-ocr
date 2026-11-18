@@ -3,15 +3,19 @@
   "reference_tag": "v0.0.3",
   "reference_commit": "9f65656e4489cde6f2112e77ba33b90037cb55d7",
   "original_cpp_sha256": "237fc2a402d0e218388ddc2b794aaa44e739d0848e1395844b36b5c861b70253",
-  "rs_cpp_sha256": "feab2a822a87b37b4abf7b0d42902a0d3c8134cb368decb040b7af7700d83701",
-  "native_changes": "JNI namespace only",
+  "rs_cpp_sha256": "3722a18bb658ddcdedda6b24bff119b31e249afd7e997bbd4a55760ffe40599d",
+  "native_changes": [
+    "JNI namespace",
+    "crop WGC frames to the physical client area before JNI pixel transfer",
+    "match frame bounds and reject geometry transitions; client-relative calibration hints"
+  ],
   "java_changes": [
     "RS namespace",
     "lazy bundled-DLL extraction and verified cache",
     "Java clock alignment before pixel copy",
     "wrap immutable native ARGB array without a second full-window copy"
   ],
-  "native_dll_sha256": "8e496661acdd48a0430d48a8e7abe86bd3589909d575f1b0cb60a874f79e41c1",
+  "native_dll_sha256": "7ccc50c8fb62cc7cd1a96470a9da6ae6160db7a92169de45ed1f9a8401fdf5ef",
   "embedded_dll_identical": true,
   "api_minimum_windows_build": 18362,
   "architecture": "x64",

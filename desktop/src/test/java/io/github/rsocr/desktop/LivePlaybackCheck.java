@@ -76,7 +76,11 @@ public final class LivePlaybackCheck {
             for(String chain:List.of("GBA","NGC")) {
                 int profile=chain.equals("GBA")?1:2;live.start(window,profile);int passed=0;var misses=new ArrayList<String>();
                 var initial=expected.stream().filter(e->e.id().equals(chain+"-001")).findFirst().orElseThrow();send(Map.of("source",initial.source(),"mode","normal","cover",false));
-                require(awaitCondition(8000,v->pixels(v.image(),initial.image())&&text(v.regions()).equals(initial.text())),chain+" capture startup before timed replay states");
+                record(scenarios,chain,"capture startup before timed replay states",
+                    awaitCondition(8000,v->pixels(v.image(),initial.image())&&text(v.regions()).equals(initial.text())));
+                var input=ImageIO.read(root.resolve(initial.source()).toFile());
+                record(scenarios,chain,"capture excludes native title bar and window frame",
+                    displayed.get().captured().getWidth()==input.getWidth() && displayed.get().captured().getHeight()==input.getHeight());
                 for(var item:expected)if(item.id().startsWith(chain)) {
                     if(args.length>4&&args[4].equals("representative")&&!REPRESENTATIVE.contains(item.id()))continue;
                     if(args.length>1 && passed+misses.size()>=Integer.parseInt(args[1]))break;

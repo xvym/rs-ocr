@@ -1,0 +1,504 @@
+{
+  "evidenceKind" : "controlled window replay of existing actual-device screenshots through real WGC and JavaFX",
+  "hardwareLiveCaptureVerified" : false,
+  "realContinuousGameplayVerified" : false,
+  "chains" : {
+    "GBA" : {
+      "fullyShown" : 2,
+      "measurement" : {
+        "endpoint" : "raw Japanese canvas after JavaFX post-layout pulse; not Chinese latency acceptance",
+        "timingScope" : "native callback arrival of the first processed frame for a region state; superseded native frames are counted separately",
+        "polls" : 103,
+        "newNativeFrames" : 61,
+        "repeatedNativeFramePolls" : 42,
+        "changedNormalizedFrames" : 2,
+        "layoutUpdates" : 2,
+        "nativeFramesNotSampled" : 5,
+        "unknownGlyphDisplays" : 0,
+        "textSamples" : 2,
+        "p50Ms" : 252.7373,
+        "p95Ms" : 316.8463,
+        "maxMs" : 316.8463,
+        "over200Ms" : 2,
+        "contentGenerationsNotShown" : 0,
+        "chineseDisplay" : {
+          "endpoint" : "original RSC Chinese result canvas after JavaFX post-layout pulse; includes capture, stability wait, OCR, matching, names, binding and rendering",
+          "samples" : 2,
+          "p50Ms" : 252.7373,
+          "p95Ms" : 316.8463,
+          "maxMs" : 316.8463,
+          "over200Ms" : 2
+        },
+        "contentGenerations" : 2,
+        "pendingBeforeChange" : 0,
+        "discardedCompletions" : 0,
+        "events" : [ {
+          "translation" : {
+            "key" : "field_dialog",
+            "raw" : "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+            "units" : [ {
+              "unit" : {
+                "raw" : "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+                "start" : 0,
+                "end" : 32,
+                "searchText" : "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+                "kind" : null,
+                "fields" : [ ]
+              },
+              "output" : "依据宝可梦的特殊特性，\n有些招式可能会改变效果",
+              "chinese" : "依据宝可梦的特殊特性，\n有些招式可能会改变效果",
+              "status" : "original_rsc_visible_span",
+              "reason" : "reviewed_original_visible_span",
+              "ruleId" : "W001",
+              "citations" : [ {
+                "candidateId" : "candidate-001583",
+                "qid" : "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D69A",
+                "game" : "ruby",
+                "sourceId" : "upstream-5",
+                "sourceLine" : 1591,
+                "sourceChineseSha256" : "4c3d88410f1313049be12be0b7d08c8b16582cbb4160a773bce6ed50e0be4f37",
+                "span" : [ 0, 24 ],
+                "quoteSha256" : "6de521b5a02f95cbd46a4b9aa329362a8636a9c282f56d33f5f67a67a52ee00a",
+                "sourceEntryId" : "upstream-5:1591",
+                "quote" : "依据宝可梦的特殊特性，\\n有些招式可能会改变效果",
+                "sourceJapanese" : "ポケモンの　とくせいに　よっては\\nわざの　いりょくが　かわったり\\rまったく　きかなかったり　するよ！",
+                "sourceJapaneseSha256" : "6fc68efa2f11516d157c64a70ab25bbbdf8b1fb3fc442e4e0de3cececaf0c84c",
+                "sourceEnglish" : "Depending on the special abilities of\\nPOKéMON, some moves might change\\ror not work at all.",
+                "japaneseWindow" : {
+                  "page" : 0,
+                  "lineStart" : 0,
+                  "lineCount" : 2,
+                  "mode" : "control_window",
+                  "matchedJapanese" : "ポケモンの とくせいに よっては\nわざの いりょくが かわったり"
+                },
+                "selectionMethod" : "source_record_and_visible_range_alignment"
+              }, {
+                "candidateId" : "candidate-012188",
+                "qid" : "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D69A",
+                "game" : "sapphire",
+                "sourceId" : "upstream-6",
+                "sourceLine" : 1591,
+                "sourceChineseSha256" : "4c3d88410f1313049be12be0b7d08c8b16582cbb4160a773bce6ed50e0be4f37",
+                "span" : [ 0, 24 ],
+                "quoteSha256" : "6de521b5a02f95cbd46a4b9aa329362a8636a9c282f56d33f5f67a67a52ee00a",
+                "sourceEntryId" : "upstream-6:1591",
+                "quote" : "依据宝可梦的特殊特性，\\n有些招式可能会改变效果",
+                "sourceJapanese" : "ポケモンの　とくせいに　よっては\\nわざの　いりょくが　かわったり\\rまったく　きかなかったり　するよ！",
+                "sourceJapaneseSha256" : "6fc68efa2f11516d157c64a70ab25bbbdf8b1fb3fc442e4e0de3cececaf0c84c",
+                "sourceEnglish" : "Depending on the special abilities of\\nPOKéMON, some moves might change\\ror not work at all.",
+                "japaneseWindow" : {
+                  "page" : 0,
+                  "lineStart" : 0,
+                  "lineCount" : 2,
+                  "mode" : "control_window",
+                  "matchedJapanese" : "ポケモンの とくせいに よっては\nわざの いりょくが かわったり"
+                },
+                "selectionMethod" : "source_record_and_visible_range_alignment"
+              } ],
+              "bindings" : [ ],
+              "sourceQids" : [ "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D69A" ]
+            } ]
+          },
+          "game" : "both",
+          "player" : "",
+          "resourceVersion" : "5dde5f3c76bc4b858943551058db4e77e4fab00c896aa4ab38cd14cd33b4b145",
+          "translatedUnits" : 1,
+          "displayLatencyMs" : 316.8463
+        }, {
+          "generation" : 1,
+          "receiveToSubmissionMs" : 220.5836,
+          "acceptanceToUiPulseMs" : 42.0193,
+          "displayLatencyMs" : 316.8463,
+          "session" : 1,
+          "ocrThroughAcceptanceMs" : 54.2434,
+          "rawJapanese" : "ポケモンの とくせいに よっては\nわざの いりょくが かわったり",
+          "mappingGeneration" : 3,
+          "region" : "field_dialog",
+          "status" : "recognized"
+        }, {
+          "translation" : {
+            "key" : "field_dialog",
+            "raw" : "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+            "units" : [ {
+              "unit" : {
+                "raw" : "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+                "start" : 0,
+                "end" : 34,
+                "searchText" : "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+                "kind" : null,
+                "fields" : [ ]
+              },
+              "output" : "这座城市的道馆馆主\n可是一对超强组合。\n\n他们的组合技攻击非常出色，\n让人惊叹！",
+              "chinese" : "这座城市的道馆馆主\n可是一对超强组合。\n\n他们的组合技攻击非常出色，\n让人惊叹！",
+              "status" : "original_rsc_semantic_unit",
+              "reason" : "reviewed_original_semantic_unit",
+              "ruleId" : "W002",
+              "citations" : [ {
+                "candidateId" : "candidate-001582",
+                "qid" : "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F",
+                "game" : "ruby",
+                "sourceId" : "upstream-5",
+                "sourceLine" : 1590,
+                "sourceChineseSha256" : "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60",
+                "span" : [ 0, 42 ],
+                "quoteSha256" : "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60",
+                "sourceEntryId" : "upstream-5:1590",
+                "quote" : "这座城市的道馆馆主\\n可是一对超强组合。\\p他们的组合技攻击非常出色，\\n让人惊叹！"
+              }, {
+                "candidateId" : "candidate-012187",
+                "qid" : "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F",
+                "game" : "sapphire",
+                "sourceId" : "upstream-6",
+                "sourceLine" : 1590,
+                "sourceChineseSha256" : "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60",
+                "span" : [ 0, 42 ],
+                "quoteSha256" : "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60",
+                "sourceEntryId" : "upstream-6:1590",
+                "quote" : "这座城市的道馆馆主\\n可是一对超强组合。\\p他们的组合技攻击非常出色，\\n让人惊叹！"
+              } ],
+              "bindings" : [ ],
+              "sourceQids" : [ "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F" ]
+            } ]
+          },
+          "game" : "both",
+          "player" : "",
+          "resourceVersion" : "5dde5f3c76bc4b858943551058db4e77e4fab00c896aa4ab38cd14cd33b4b145",
+          "translatedUnits" : 1,
+          "displayLatencyMs" : 252.7373
+        }, {
+          "generation" : 2,
+          "receiveToSubmissionMs" : 174.6699,
+          "acceptanceToUiPulseMs" : 56.6201,
+          "displayLatencyMs" : 252.7373,
+          "session" : 1,
+          "ocrThroughAcceptanceMs" : 21.4473,
+          "rawJapanese" : "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+          "mappingGeneration" : 3,
+          "region" : "field_dialog",
+          "status" : "recognized"
+        } ],
+        "sourceWindow" : {
+          "hwnd" : 985030,
+          "pid" : 24328,
+          "title" : "RS OCR S5 controlled screenshot replay · 331"
+        },
+        "currentMapping" : {
+          "viewport" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "width" : 1200.0,
+            "height" : 800.0
+          },
+          "gain" : 0.984,
+          "width" : 1200,
+          "height" : 800,
+          "dpi" : 144,
+          "manual" : false
+        },
+        "profileIndex" : 1,
+        "pollIntervalMs" : 16,
+        "stabilityWaitMs" : 150,
+        "stabilityPolicy" : "Wait until every visible text region is unchanged for 150ms before whole-frame OCR. Background animation and recognized cursor/wait-arrow pixels do not reset text stability. Timing includes stability wait; pixel stability does not prove sentence completion."
+      },
+      "missedStates" : [ ],
+      "minimumExposureMs" : 750,
+      "states" : 2
+    },
+    "NGC" : {
+      "fullyShown" : 2,
+      "measurement" : {
+        "endpoint" : "raw Japanese canvas after JavaFX post-layout pulse; not Chinese latency acceptance",
+        "timingScope" : "native callback arrival of the first processed frame for a region state; superseded native frames are counted separately",
+        "polls" : 85,
+        "newNativeFrames" : 64,
+        "repeatedNativeFramePolls" : 21,
+        "changedNormalizedFrames" : 2,
+        "layoutUpdates" : 2,
+        "nativeFramesNotSampled" : 3,
+        "unknownGlyphDisplays" : 0,
+        "textSamples" : 2,
+        "p50Ms" : 239.8782,
+        "p95Ms" : 278.3715,
+        "maxMs" : 278.3715,
+        "over200Ms" : 2,
+        "contentGenerationsNotShown" : 0,
+        "chineseDisplay" : {
+          "endpoint" : "original RSC Chinese result canvas after JavaFX post-layout pulse; includes capture, stability wait, OCR, matching, names, binding and rendering",
+          "samples" : 2,
+          "p50Ms" : 239.8782,
+          "p95Ms" : 278.3715,
+          "maxMs" : 278.3715,
+          "over200Ms" : 2
+        },
+        "contentGenerations" : 2,
+        "pendingBeforeChange" : 0,
+        "discardedCompletions" : 0,
+        "events" : [ {
+          "translation" : {
+            "key" : "boot_dialog",
+            "raw" : "とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます",
+            "units" : [ {
+              "unit" : {
+                "raw" : "とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます",
+                "start" : 0,
+                "end" : 46,
+                "searchText" : "とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます",
+                "kind" : null,
+                "fields" : [ ]
+              },
+              "output" : "游戏仍然可以继续游玩。\n\n然而，基于时钟的事件\n将不再发生。",
+              "chinese" : "游戏仍然可以继续游玩。\n\n然而，基于时钟的事件\n将不再发生。",
+              "status" : "original_rsc_semantic_unit",
+              "reason" : "reviewed_original_semantic_unit",
+              "ruleId" : "W446",
+              "citations" : [ {
+                "candidateId" : "candidate-009566",
+                "qid" : "rs.common.strings.gBatteryDryMessage",
+                "game" : "ruby",
+                "sourceId" : "upstream-5",
+                "sourceLine" : 8787,
+                "sourceChineseSha256" : "555f6e54c1a0444985d692cdd377499bd4719619d5cd14811ae03d4463d9d04e",
+                "span" : [ 13, 44 ],
+                "quoteSha256" : "bb14fe3ce01347ff06b8b2da19e092ae8f67caa102131f99c15ae8bd26d0d247",
+                "sourceEntryId" : "upstream-5:8787",
+                "quote" : "游戏仍然可以继续游玩。\\p然而，基于时钟的事件\\n将不再发生。"
+              }, {
+                "candidateId" : "candidate-020204",
+                "qid" : "rs.common.strings.gBatteryDryMessage",
+                "game" : "sapphire",
+                "sourceId" : "upstream-6",
+                "sourceLine" : 8787,
+                "sourceChineseSha256" : "555f6e54c1a0444985d692cdd377499bd4719619d5cd14811ae03d4463d9d04e",
+                "span" : [ 13, 44 ],
+                "quoteSha256" : "bb14fe3ce01347ff06b8b2da19e092ae8f67caa102131f99c15ae8bd26d0d247",
+                "sourceEntryId" : "upstream-6:8787",
+                "quote" : "游戏仍然可以继续游玩。\\p然而，基于时钟的事件\\n将不再发生。"
+              } ],
+              "bindings" : [ ],
+              "sourceQids" : [ "rs.common.strings.gBatteryDryMessage" ]
+            } ]
+          },
+          "game" : "both",
+          "player" : "",
+          "resourceVersion" : "5dde5f3c76bc4b858943551058db4e77e4fab00c896aa4ab38cd14cd33b4b145",
+          "translatedUnits" : 1,
+          "displayLatencyMs" : 278.3715
+        }, {
+          "generation" : 1,
+          "receiveToSubmissionMs" : 194.7868,
+          "acceptanceToUiPulseMs" : 10.4133,
+          "displayLatencyMs" : 278.3715,
+          "session" : 3,
+          "ocrThroughAcceptanceMs" : 73.1714,
+          "rawJapanese" : "とけいに かんけいする できごとは おきませんが\nゲームを つづけて あそぶことは できます",
+          "mappingGeneration" : 16,
+          "region" : "boot_dialog",
+          "status" : "recognized"
+        }, {
+          "translation" : {
+            "key" : "field_dialog",
+            "raw" : "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+            "units" : [ {
+              "unit" : {
+                "raw" : "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+                "start" : 0,
+                "end" : 34,
+                "searchText" : "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+                "kind" : null,
+                "fields" : [ ]
+              },
+              "output" : "这座城市的道馆馆主\n可是一对超强组合。\n\n他们的组合技攻击非常出色，\n让人惊叹！",
+              "chinese" : "这座城市的道馆馆主\n可是一对超强组合。\n\n他们的组合技攻击非常出色，\n让人惊叹！",
+              "status" : "original_rsc_semantic_unit",
+              "reason" : "reviewed_original_semantic_unit",
+              "ruleId" : "W002",
+              "citations" : [ {
+                "candidateId" : "candidate-001582",
+                "qid" : "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F",
+                "game" : "ruby",
+                "sourceId" : "upstream-5",
+                "sourceLine" : 1590,
+                "sourceChineseSha256" : "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60",
+                "span" : [ 0, 42 ],
+                "quoteSha256" : "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60",
+                "sourceEntryId" : "upstream-5:1590",
+                "quote" : "这座城市的道馆馆主\\n可是一对超强组合。\\p他们的组合技攻击非常出色，\\n让人惊叹！"
+              }, {
+                "candidateId" : "candidate-012187",
+                "qid" : "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F",
+                "game" : "sapphire",
+                "sourceId" : "upstream-6",
+                "sourceLine" : 1590,
+                "sourceChineseSha256" : "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60",
+                "span" : [ 0, 42 ],
+                "quoteSha256" : "654698401af6251d40d1cac767ac859ef4752df29c8666fe893a108a4ea07d60",
+                "sourceEntryId" : "upstream-6:1590",
+                "quote" : "这座城市的道馆馆主\\n可是一对超强组合。\\p他们的组合技攻击非常出色，\\n让人惊叹！"
+              } ],
+              "bindings" : [ ],
+              "sourceQids" : [ "rs.script.MossdeepCity_PokemonCenter_1F.MossdeepCity_PokemonCenter_1F_Text_18D62F" ]
+            } ]
+          },
+          "game" : "both",
+          "player" : "",
+          "resourceVersion" : "5dde5f3c76bc4b858943551058db4e77e4fab00c896aa4ab38cd14cd33b4b145",
+          "translatedUnits" : 1,
+          "displayLatencyMs" : 239.8782
+        }, {
+          "generation" : 2,
+          "receiveToSubmissionMs" : 205.7163,
+          "acceptanceToUiPulseMs" : 11.9459,
+          "displayLatencyMs" : 239.8782,
+          "session" : 3,
+          "ocrThroughAcceptanceMs" : 22.216,
+          "rawJapanese" : "この まちの ジムリーダー\nなんといっても あの コンビネーションは",
+          "mappingGeneration" : 16,
+          "region" : "field_dialog",
+          "status" : "recognized"
+        } ],
+        "sourceWindow" : {
+          "hwnd" : 985030,
+          "pid" : 24328,
+          "title" : "RS OCR S5 controlled screenshot replay · 331"
+        },
+        "currentMapping" : {
+          "viewport" : {
+            "x" : 212.0,
+            "y" : 200.0,
+            "width" : 1168.0,
+            "height" : 800.0
+          },
+          "gain" : 0.82,
+          "width" : 1600,
+          "height" : 1200,
+          "dpi" : 144,
+          "manual" : false
+        },
+        "profileIndex" : 2,
+        "pollIntervalMs" : 16,
+        "stabilityWaitMs" : 150,
+        "stabilityPolicy" : "Wait until every visible text region is unchanged for 150ms before whole-frame OCR. Background animation and recognized cursor/wait-arrow pixels do not reset text stability. Timing includes stability wait; pixel stability does not prove sentence completion."
+      },
+      "missedStates" : [ ],
+      "minimumExposureMs" : 750,
+      "states" : 2
+    }
+  },
+  "scenarios" : [ {
+    "scenario" : "capture startup before timed replay states",
+    "chain" : "GBA",
+    "passed" : true
+  }, {
+    "scenario" : "capture excludes native title bar and window frame",
+    "chain" : "GBA",
+    "passed" : true
+  }, {
+    "scenario" : "new content while fully occluded",
+    "chain" : "GBA",
+    "passed" : true
+  }, {
+    "scenario" : "minimize clears results",
+    "chain" : "GBA",
+    "passed" : true
+  }, {
+    "scenario" : "restore reacquires content",
+    "chain" : "GBA",
+    "passed" : true
+  }, {
+    "scenario" : "size change clears mapping and old results",
+    "chain" : "GBA",
+    "passed" : true
+  }, {
+    "scenario" : "manual viewport calibration",
+    "chain" : "GBA",
+    "passed" : true
+  }, {
+    "scenario" : "size restore recalibrates",
+    "chain" : "GBA",
+    "passed" : true
+  }, {
+    "scenario" : "stale calibration is rejected",
+    "chain" : "GBA",
+    "passed" : true
+  }, {
+    "scenario" : "stop clears source and results",
+    "chain" : "GBA",
+    "passed" : true
+  }, {
+    "scenario" : "capture startup before timed replay states",
+    "chain" : "NGC",
+    "passed" : true
+  }, {
+    "scenario" : "capture excludes native title bar and window frame",
+    "chain" : "NGC",
+    "passed" : true
+  }, {
+    "scenario" : "new content while fully occluded",
+    "chain" : "NGC",
+    "passed" : true
+  }, {
+    "scenario" : "minimize clears results",
+    "chain" : "NGC",
+    "passed" : true
+  }, {
+    "scenario" : "restore reacquires content",
+    "chain" : "NGC",
+    "passed" : true
+  }, {
+    "scenario" : "size change clears mapping and old results",
+    "chain" : "NGC",
+    "passed" : true
+  }, {
+    "scenario" : "manual viewport calibration",
+    "chain" : "NGC",
+    "passed" : true
+  }, {
+    "scenario" : "size restore recalibrates",
+    "chain" : "NGC",
+    "passed" : true
+  }, {
+    "scenario" : "stale calibration is rejected",
+    "chain" : "NGC",
+    "passed" : true
+  }, {
+    "scenario" : "stop clears source and results",
+    "chain" : "NGC",
+    "passed" : true
+  }, {
+    "scenario" : "switch to a different source window",
+    "chain" : "constructed",
+    "passed" : true
+  }, {
+    "scenario" : "switch back rejects prior window results",
+    "chain" : "constructed",
+    "passed" : true
+  }, {
+    "scenario" : "empty dialogue keeps panel and clears text",
+    "chain" : "constructed",
+    "passed" : true
+  }, {
+    "scenario" : "partial glyphs replace prior text",
+    "chain" : "constructed",
+    "passed" : true
+  }, {
+    "scenario" : "disappeared dialogue removes panel",
+    "chain" : "constructed",
+    "passed" : true
+  }, {
+    "scenario" : "visibility restore recognizes again",
+    "chain" : "constructed",
+    "passed" : true
+  }, {
+    "scenario" : "closed window clears results",
+    "chain" : "constructed",
+    "passed" : true
+  } ],
+  "unexpectedDisplayedText" : null,
+  "completed" : true,
+  "originalRscChineseIntegration" : true,
+  "chineseTimingScope" : "includes 150ms stability, OCR, Java original RSC lookup/binding, names and JavaFX drawing",
+  "passed" : true,
+  "pixelComparison" : "38,398 of 38,400 normalized pixels exact; only two bottom corner samples blended by the test host window frame excluded. No text comparison exceptions.",
+  "constructedLoad" : "Replay window caption refresh requested every 16ms to exercise continuous WGC frame delivery while each game screenshot is exposed at least 750ms, including a deliberate 150ms text-stability wait; not real continuous gameplay or a latency acceptance threshold.",
+  "startupPolicy" : "Wait for the first source frame to be captured and shown before testing 750ms content states; startup and resize waits are transition synchronization, not changes to content exposure or measured latency."
+}

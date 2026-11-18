@@ -1,0 +1,286 @@
+{
+  "passed": true,
+  "checks": 18,
+  "reasonBeforeFix": "no_reviewed_visible_window",
+  "qid": "rs.common.strings.OtherText_CantUseThatHere",
+  "jarSha256": "d21464c3f24c9fea4348bfb49eac0f5a4588322f9b7bb5cafe399b7c89bf941c",
+  "generatedChineseRecords": 0,
+  "results": [
+    {
+      "request": {
+        "japanese": "ここでは　つかえません",
+        "type": "field_dialog",
+        "game": "ruby"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは つかえません",
+        "type": "field_dialog",
+        "game": "ruby"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは\nつかえません",
+        "type": "field_dialog",
+        "game": "ruby"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは　つかえません",
+        "type": "bag_prompt",
+        "game": "ruby"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは つかえません",
+        "type": "bag_prompt",
+        "game": "ruby"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは\nつかえません",
+        "type": "bag_prompt",
+        "game": "ruby"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは　つかえません",
+        "type": "field_dialog",
+        "game": "sapphire"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-020455"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは つかえません",
+        "type": "field_dialog",
+        "game": "sapphire"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-020455"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは\nつかえません",
+        "type": "field_dialog",
+        "game": "sapphire"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-020455"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは　つかえません",
+        "type": "bag_prompt",
+        "game": "sapphire"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-020455"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは つかえません",
+        "type": "bag_prompt",
+        "game": "sapphire"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-020455"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは\nつかえません",
+        "type": "bag_prompt",
+        "game": "sapphire"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-020455"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは　つかえません",
+        "type": "field_dialog",
+        "game": "both"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817",
+        "candidate-020455"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは つかえません",
+        "type": "field_dialog",
+        "game": "both"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817",
+        "candidate-020455"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは\nつかえません",
+        "type": "field_dialog",
+        "game": "both"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817",
+        "candidate-020455"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは　つかえません",
+        "type": "bag_prompt",
+        "game": "both"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817",
+        "candidate-020455"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは つかえません",
+        "type": "bag_prompt",
+        "game": "both"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817",
+        "candidate-020455"
+      ]
+    },
+    {
+      "request": {
+        "japanese": "ここでは\nつかえません",
+        "type": "bag_prompt",
+        "game": "both"
+      },
+      "output": "在这里无法使用。",
+      "status": "original_rsc_available",
+      "sourceQids": [
+        "rs.common.strings.OtherText_CantUseThatHere"
+      ],
+      "candidateIds": [
+        "candidate-009817",
+        "candidate-020455"
+      ]
+    }
+  ]
+}

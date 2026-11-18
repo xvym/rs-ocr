@@ -1,0 +1,7 @@
+{
+  "statusBeforeClose" : "image open requested",
+  "startupAndCheckMs" : 2215.0174,
+  "closeToApplicationReturnMs" : 168.5472,
+  "passed" : true,
+  "mode" : "image"
+}

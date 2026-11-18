@@ -32,9 +32,13 @@ node tools/query_corpus.mjs --source-id upstream-5 --source-line 5051
 
 日英桥与英中地址桥分别保存证据。美版 1.2 地址纠错仍为求雨 `0x3CAE94 → 0x3CAEB0`、小果然玩偶 `0x3EC2761 → 0x3EC261`；原地址不覆盖。不能按汉化“字节数”截取英文，也须确认 qid、游戏、源码字段和原汉化范围；唯一对应后不再要求日中语义等价。
 
-`reviews.json` 当前仅允许 `retain`，中文必须等于 `originalChinese` 且确实存在于该 qid/游戏的原候选中。旧 36 条补译已移除，31 条修改恢复原文，留下 404 条来源保留决定；同文冲突仍可能阻止静态发布。`rsc-person-selections.json` 仅保存已有来源人物的 qid/游戏选择，不包含中文。
+`reviews.json` 当前仅允许 `retain`，中文必须等于 `originalChinese` 且确实存在于该 qid/游戏的原候选中。旧 36 条补译已移除，31 条修改恢复原文；补充 `OtherText_CantUseThatHere` 和 `gAbilityDescription_Drizzle` 两作各一条后，现有 408 条来源保留决定，同文冲突仍可能阻止静态发布。前者原译文为“在这里无法使用。”，分别引用 upstream-5／upstream-6 第 9043 条；后者以 `ability_description` 类别发布“出场时降下雨。”，分别引用两份来源第 4959 条。`rsc-person-selections.json` 仅保存已有来源人物的 qid/游戏选择，不包含中文。
 
 `outputs/s6-corpus/` 是当前版本 3 的原译文包，结构和交接方式见 [正式包说明](../reports/s6-corpus/README.md)。完整物种、招式、道具、特性名称优先选择 RSC 项目自带的对应类型词典；原地址候选仍完整保留。其他完整词条须有唯一原候选。不能跨类型全局替换词语、拼接称呼或套用模型句式。
+
+`sourceRecords` 现按唯一原候选批量登记完整来源记录，保留 `japanese`、`chinese`、候选 ID；`matchText`/`outputText` 只执行已核实的原打印转换。每作每个 qid 均在 `source-registration.json` 登记状态；新增 15,009 条与现有条目去重后共 17,707 条，不等同于所有可见窗口的翻译覆盖。玩家、对手、原称呼及明确攻击/防守名称槽位可绑定当前完整值；不依缓冲区编号猜测 `STR_VAR`、战斗联合缓冲区的用途。特性名称与说明的同索引关系直接读取固定原指针表。完整静态原文优先于模式匹配，原窗口/语义/变量规则仍优先于新增来源匹配。
+
+`node tools/test_source_records.mjs` 检查完整来源、打印与绑定、78 条特性说明和可复现性；`node tools/audit_runtime_registration.mjs` 更新全量登记及未发布原因。`query_corpus.mjs` 仍查询旧逐条审阅静态库，新增批量登记以此审计与桌面 `TranslationCli` 的实际结果为准。`source-inventory.csv` 的旧 `staticPublished` 字段含义保持不变，新增 `sourceRegistration` 单列批量状态。
 
 每条可输出中文都有原候选 ID 和固定来源。加载器拒绝旧模型包、未经来源验证的中文及中文事件/组合规则。未知、冲突、未核实的原控制符和变量整句暂时保留日文；后续应完善原汉化对应和打印规则。没有找到对应不能推断原汉化缺少译文。
 

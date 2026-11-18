@@ -1,0 +1,8 @@
+{
+  "blinkResultPixelsIdentical" : true,
+  "size" : [ 960, 640 ],
+  "physicalDeviceRetested" : false,
+  "realMoveChangesResultPixels" : true,
+  "blinkDoesNotRestartOcr" : true,
+  "passed" : true
+}

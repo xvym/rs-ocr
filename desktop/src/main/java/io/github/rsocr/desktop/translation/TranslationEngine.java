@@ -24,8 +24,11 @@ public final class TranslationEngine {
     private static final class MatchingLimit extends RuntimeException {}
     private final JsonNode data,visible,variables;
     private final Map<String,JsonNode> rules=new HashMap<>();
-    private final Map<String,List<JsonNode>> lexical=new HashMap<>(),plans=new HashMap<>(),contracts=new HashMap<>();
+    private final Map<String,List<JsonNode>> lexical=new HashMap<>(),lexicalHomoglyphs=new HashMap<>(),plans=new HashMap<>(),contracts=new HashMap<>();
     private final Set<String> included=new HashSet<>();
+    private final Map<String,Set<String>> additionalLexicalWindows=new HashMap<>();
+    private final Map<String,List<JsonNode>> sourceRecords=new HashMap<>();
+    private final List<JsonNode> sourceTemplates=new ArrayList<>();
     private final Map<String,JsonNode> originalCandidates=new HashMap<>();
     private final String allowed;
     private static final Pattern TOKEN=Pattern.compile("\\[[^\\]]+\\]|\\\\v\\\\h[0-9A-Fa-f]{2}");
@@ -40,8 +43,20 @@ public final class TranslationEngine {
         data=mapper.readTree(bytes);visible=data.path("visible");variables=visible.path("variableBindings");
         if(!POLICY.equals(data.path("translationPolicy").asText())||!data.path("sourceSelection").asText().equals("unique_original_rsc_text")||data.path("semanticDifferenceFallback").asBoolean(true))throw new IOException("原汉化资源政策不兼容");
         for(var s:data.path("rscSources"))if(!s.path("repository").asText().equals("UWorldGX/pkmn_rs_chn_rsc")||!s.path("commit").asText().equals("f513cf437acca23d1a5882650ee3b148dc463a17"))throw new IOException("汉化来源版本不兼容");
+        for(var entries=data.path("additionalLexicalWindows").fields();entries.hasNext();) {
+            var entry=entries.next();var kinds=new HashSet<String>();for(var kind:entry.getValue())kinds.add(kind.asText());
+            additionalLexicalWindows.put(entry.getKey(),Set.copyOf(kinds));
+        }
         for(var r:visible.path("rules"))rules.put(ruleKey(r.path("type").asText(),r.path("searchText").asText(),nullable(r.get("kind"))),r);
-        for(var group:List.of("lexicon","units"))for(var r:data.path(group))lexical.computeIfAbsent(project(r.path("japanese").asText(),false).key,k->new ArrayList<>()).add(r);
+        for(var group:List.of("lexicon","units"))for(var r:data.path(group)) {
+            String key=project(r.path("japanese").asText(),false).key;
+            lexical.computeIfAbsent(key,k->new ArrayList<>()).add(r);
+            lexicalHomoglyphs.computeIfAbsent(kanaHomoglyphKey(key),k->new ArrayList<>()).add(r);
+        }
+        for(var r:data.path("sourceRecords")) {
+            if(r.path("mode").asText().equals("named_template"))sourceTemplates.add(r);
+            else sourceRecords.computeIfAbsent(project(r.path("matchText").asText(),true).key,k->new ArrayList<>()).add(r);
+        }
         for(var p:visible.path("semanticUnits").path("plans"))for(var a:p.path("anchors"))plans.computeIfAbsent(ruleKey(p.path("type").asText(),project(a.path("japanese").asText(),true).key,nullable(p.get("kind"))),k->new ArrayList<>()).add(p);
         for(var c:variables.path("contracts"))contracts.computeIfAbsent(c.path("type").asText(),k->new ArrayList<>()).add(c);
         for(var t:data.path("includedTypes"))included.add(t.asText());
@@ -49,12 +64,30 @@ public final class TranslationEngine {
         allowed=variables.path("battleTemplates").path("actor").path("allowedCharacters").asText()+" 　";
     }
     public String resourceVersion() {return data.path("s6ManifestSha256").asText();}
+    /** Read-only clues for a failed lookup; these never select or publish Chinese. */
+    List<String> diagnosticHints(Result result,String type,String game) {
+        if(result.translated())return List.of();
+        var hints=new LinkedHashSet<String>();var unit=result.unit();
+        var rows=lexical.getOrDefault(project(unit.searchText(),false).key,List.of());
+        var sameKind=rows.stream().filter(r->unit.kind()==null||unit.kind().equals(r.path("kind").asText())).toList();
+        if(!sameKind.isEmpty()&&sameKind.stream().noneMatch(r->applicable(r,game)))
+            hints.add("词库有相同日文，但属于其他游戏版本；请核对上方的游戏选择。");
+        if(!rows.isEmpty()&&sameKind.isEmpty())hints.add("词库有相同日文，但类别不同："+String.join("、",rows.stream().map(r->r.path("kind").asText()).distinct().sorted().toList())+"。请先核对识别到的窗口和字段类别。");
+        for(var rule:visible.path("rules")) {
+            if(!project(rule.path("searchText").asText(),false).key.equals(project(unit.searchText(),false).key))continue;
+            if(!rule.path("type").asText().equals(type))hints.add("相同日文在其他窗口有登记规则："+rule.path("type").asText()+"。这不代表该规则可直接用于当前窗口。");
+            else if(Objects.equals(nullable(rule.get("kind")),unit.kind())&&!rule.path("searchText").asText().equals(unit.searchText()))
+                hints.add("当前窗口存在仅空白或换行不同的登记文本；窗口规则使用原始查找文本精确匹配，需检查排版差异。");
+            if(hints.size()>=4)break;
+        }
+        return List.copyOf(hints);
+    }
     private static String digest(byte[] b) {try{return HexFormat.of().formatHex(MessageDigest.getInstance("SHA-256").digest(b));}catch(NoSuchAlgorithmException e){throw new IllegalStateException(e);}}
     private static String nullable(JsonNode n) {return n==null||n.isNull()?null:n.asText();}
     private static String ruleKey(String type,String text,String kind) {return type+"\u0000"+Objects.toString(kind,"")+"\u0000"+text;}
     private static boolean applicable(JsonNode n,String game) {return game.equals("both")||n.path("game").asText().equals("both")||n.path("game").asText().equals(game);}
     private static List<String> games(String game) {if(!Set.of("ruby","sapphire","both").contains(game))throw new IllegalArgumentException("未知游戏版本");return game.equals("both")?List.of("ruby","sapphire"):List.of(game);}
-    private static boolean space(char c) {return c==' '||c=='　'||c=='\r'||c=='\n';}
+    private static boolean space(char c) {return c==' '||c=='　'||c=='\t'||c=='\r'||c=='\n';}
     private static boolean digit(char c) {return c>='0'&&c<='9'||c>='０'&&c<='９';}
     private static Projection project(String raw,boolean display) {
         var key=new StringBuilder();var offsets=new ArrayList<Integer>();
@@ -71,8 +104,16 @@ public final class TranslationEngine {
     private static String unique(Collection<String> values) {var set=new LinkedHashSet<>(values);return set.size()==1?set.iterator().next():null;}
     private static List<String> qids(List<JsonNode> cs) {return cs.stream().map(c->c.path("qid").asText()).filter(s->!s.isEmpty()).distinct().toList();}
     private Result fallback(Unit u,String reason,String id) {return new Result(u,u.raw(),null,"retained_japanese",reason,id,List.of(),List.of(),List.of());}
+    // The game's へ/ヘ glyphs can be identical. Fold lookup keys only, never OCR or source text.
+    private static String kanaHomoglyphKey(String key) {return key.replace('へ','ヘ');}
     private List<JsonNode> lexicalRows(String raw,String kind,String game,boolean typedOnly) {
-        var rows=lexical.getOrDefault(project(raw,false).key,List.of()).stream().filter(r->applicable(r,game)).toList();
+        String key=project(raw,false).key;
+        var exact=selectLexicalRows(lexical.getOrDefault(key,List.of()),kind,game,typedOnly);
+        // An exact match, including a conflict, takes precedence over compatible spellings.
+        return exact.isEmpty()?selectLexicalRows(lexicalHomoglyphs.getOrDefault(kanaHomoglyphKey(key),List.of()),kind,game,typedOnly):exact;
+    }
+    private static List<JsonNode> selectLexicalRows(List<JsonNode> candidates,String kind,String game,boolean typedOnly) {
+        var rows=candidates.stream().filter(r->applicable(r,game)).toList();
         if(kind!=null){var typed=rows.stream().filter(r->kind.equals(r.path("kind").asText())).toList();if(typedOnly||!typed.isEmpty())return typed;}
         return rows;
     }
@@ -102,8 +143,11 @@ public final class TranslationEngine {
     }
     public Result lookup(Unit u,String type,String game) {return lookup(u,type,game,true);}
     public Result lookup(Unit u,String type,String game,boolean translateNames) {
-        games(game);if(!included.contains(type))return fallback(u,"outside_first_edition",null);
+        games(game);boolean lexicalOnly=!included.contains(type);
+        if(lexicalOnly && !additionalLexicalWindows.containsKey(type))return fallback(u,"outside_first_edition",null);
+        if(lexicalOnly && (u.kind()==null || !additionalLexicalWindows.get(type).contains(u.kind())))return fallback(u,"no_reviewed_visible_window",null);
         if(u.searchText().isEmpty()||!u.raw().contains(u.searchText())||INVALID.matcher(u.raw()).find())return fallback(u,"invalid_or_unknown_input",null);
+        if(lexicalOnly){var lexical=lexicalResult(u,game);return lexical.translated()?lexical:sourceRecord(u,type,game,translateNames);}
         var rule=rules.get(ruleKey(type,u.searchText(),u.kind()));String id=rule==null?null:rule.path("id").asText();
         var nativeResult=nativeField(u,type,game);if(nativeResult!=null)return nativeResult;
         var meanings=new LinkedHashSet<JsonNode>();
@@ -121,15 +165,62 @@ public final class TranslationEngine {
             if(bound!=null&&(rule==null||rule.path("variableFamily").asText().equals(bound.family)))return output(u,bound.output,"original_rsc_bound_template","reviewed_original_template_binding",id,bound.citations,bound.bindings,false);
             if(rule!=null)return fallback(u,"current_variable_binding_not_verified",id);
             // Complete source-backed lexical values may appear beyond the fixed fixtures.
-            var lexicalRows=lexicalRows(u.searchText(),u.kind(),game,true);String chinese=unique(lexicalRows.stream().map(r->r.path("chinese").asText()).filter(s->!s.matches(".*[\\\\\\[\\]{}].*")).toList());
-            if(chinese!=null)return output(u,display(chinese),"original_rsc_available","unique_original_rsc_source",null,lexicalEvidence(lexicalRows),List.of(),false);
-            if(!lexicalRows.isEmpty()){var cs=lexicalEvidence(lexicalRows);return new Result(u,u.raw(),null,"retained_japanese","original_rsc_context_required",null,cs,List.of(),qids(cs));}
-            return fallback(u,"no_reviewed_visible_window",null);
+            var lexical=lexicalResult(u,game);
+            return lexical.translated()||!lexical.citations().isEmpty()?lexical:sourceRecord(u,type,game,translateNames);
         }
         if(!rule.path("disposition").asText().equals("original_rsc_span"))return fallback(u,rule.path("reasonCode").asText(),id);
         var cs=citations(rule,game);String chinese=unique(cs.stream().map(c->display(c.path("quote").asText())).toList());
         if(chinese==null||!games(game).stream().allMatch(g->cs.stream().anyMatch(c->c.path("game").asText().equals(g))))return fallback(u,"original_game_or_wording_conflict",id);
         return output(u,chinese,"original_rsc_visible_span",rule.path("reasonCode").asText(),id,cs,List.of(),false);
+    }
+    private Result lexicalResult(Unit u,String game) {
+        var rows=lexicalRows(u.searchText(),u.kind(),game,true);
+        String chinese=unique(rows.stream().map(r->r.path("chinese").asText()).filter(s->!s.matches(".*[\\\\\\[\\]{}].*")).toList());
+        if(chinese!=null)return output(u,display(chinese),"original_rsc_available","unique_original_rsc_source",null,lexicalEvidence(rows),List.of(),false);
+        if(!rows.isEmpty()){var cs=lexicalEvidence(rows);return new Result(u,u.raw(),null,"retained_japanese","original_rsc_context_required",null,cs,List.of(),qids(cs));}
+        return fallback(u,"no_reviewed_visible_window",null);
+    }
+    private static boolean sourceApplies(JsonNode row,Unit unit,String type,String game) {
+        return applicable(row,game)&&(unit.kind()==null||unit.kind().equals(row.path("kind").asText()))
+            &&nodes(row.path("types")).stream().anyMatch(t->t.asText().equals(type));
+    }
+    private Result sourceRecord(Unit u,String type,String game,boolean translateNames) {
+        var projection=project(u.searchText(),true);
+        var rows=sourceRecords.getOrDefault(projection.key,List.of()).stream().filter(r->sourceApplies(r,u,type,game)).toList();
+        // A damaged neighbouring name must not block a unique description.
+        // Use the current name only when it resolves different original outputs.
+        if(!rows.isEmpty()&&unique(rows.stream().map(r->r.path("outputText").asText()).toList())==null&&rows.stream().allMatch(r->r.path("context").has("abilityName"))) {
+            var names=u.fields().stream().filter(f->f.role().equals("visible_ability")).map(Field::raw).toList();
+            var contextual=rows.stream().filter(r->names.stream().anyMatch(n->project(n,false).key.equals(project(r.path("context").path("abilityName").asText(),false).key))).toList();
+            if(!contextual.isEmpty())rows=contextual;
+        }
+        var outputs=new ArrayList<String>();var sources=new ArrayList<JsonNode>();var bindings=new ArrayList<Binding>();var represented=new HashSet<String>();
+        for(var row:rows){outputs.add(row.path("outputText").asText());sources.addAll(lexicalEvidence(List.of(row)));represented.add(row.path("game").asText());}
+        boolean matchedTemplate=false;
+        if(rows.isEmpty()&&u.searchText().length()<=512)for(var row:sourceTemplates) {
+            if(!sourceApplies(row,u,type,game)||row.path("fixed").asDouble()/Math.max(1,projection.key.length())<.25)continue;
+            if(nodes(row.path("tokens")).stream().filter(t->t.has("literal")).anyMatch(t->!projection.key.contains(t.path("literal").asText())))continue;
+            var hits=new ArrayList<Hit>();var work=new int[2];
+            enumerate(row,row.path("tokens"),0,0,projection,u.searchText(),new ArrayList<>(),new HashMap<>(),hits,work,false,row.path("qid").asText(),0);
+            if(work[0]>4096)return fallback(u,"binding_search_incomplete",null);
+            for(var hit:hits) {
+                var firstCaptures=new LinkedHashMap<String,Capture>();for(var capture:hit.captures())firstCaptures.putIfAbsent(capture.slot(),capture);
+                var bindingHit=new Hit(hit.qid(),hit.page(),hit.lineStart(),hit.lineCount(),new ArrayList<>(firstCaptures.values()),hit.meaning(),hit.model());
+                var values=new LinkedHashMap<String,Binding>();boolean valid=true;
+                for(var it=row.path("bindings").fields();it.hasNext();) {
+                    var e=it.next();String slot=e.getValue().asText();var spec=JsonNodeFactory.instance.objectNode().put("from","capture").put("slot",slot).put("category",slot.equals("KUN")?"honorific":slot.startsWith("B_")?"actor":"player");
+                    var bound=value(e.getKey(),spec,bindingHit,u.searchText(),row.path("game").asText(),translateNames);
+                    if(bound==null){valid=false;break;}values.put(e.getKey(),bound);
+                }
+                if(!valid)continue;String text=render(row.path("outputText").asText(),values);if(text==null)continue;
+                matchedTemplate=true;outputs.add(text);bindings.addAll(values.values());sources.addAll(lexicalEvidence(List.of(row)));represented.add(row.path("game").asText());
+            }
+        }
+        if(outputs.isEmpty())return fallback(u,"no_reviewed_visible_window",null);
+        String chinese=unique(outputs);
+        if(chinese==null)return new Result(u,u.raw(),null,"retained_japanese","original_source_record_conflict",null,List.copyOf(sources),List.of(),qids(sources));
+        if(!represented.containsAll(games(game)))return fallback(u,"original_source_game_missing",null);
+        return output(u,chinese,matchedTemplate?"original_rsc_source_template":"original_rsc_source_record","complete_original_source_record",null,sources,bindings,false);
     }
     private List<Hit> hits(JsonNode contract,String raw,String game) {
         var p=project(raw,true);var hits=new ArrayList<Hit>();

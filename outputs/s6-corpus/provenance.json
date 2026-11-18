@@ -185405,7 +185405,7 @@
       "sourceFile": "data/text/ability_descriptions.inc",
       "offsetWithinSymbol": "0",
       "evidence": "symbol_or_rev0_alias_and_exact_english_bytes",
-      "semanticStatus": "unreviewed"
+      "semanticStatus": "rsc_original_retained_retained"
     },
     {
       "id": "candidate-005691",
@@ -251437,7 +251437,7 @@
       "sourceFile": "src/strings.c",
       "offsetWithinSymbol": "0",
       "evidence": "symbol_or_rev0_alias_and_exact_english_bytes",
-      "semanticStatus": "unreviewed"
+      "semanticStatus": "rsc_original_retained_retained"
     },
     {
       "id": "candidate-009818",
@@ -355597,7 +355597,7 @@
       "sourceFile": "data/text/ability_descriptions.inc",
       "offsetWithinSymbol": "0",
       "evidence": "symbol_or_rev0_alias_and_exact_english_bytes",
-      "semanticStatus": "unreviewed"
+      "semanticStatus": "rsc_original_retained_retained"
     },
     {
       "id": "candidate-016328",
@@ -421645,7 +421645,7 @@
       "sourceFile": "src/strings.c",
       "offsetWithinSymbol": "0",
       "evidence": "symbol_or_rev0_alias_and_exact_english_bytes",
-      "semanticStatus": "unreviewed"
+      "semanticStatus": "rsc_original_retained_retained"
     },
     {
       "id": "candidate-020456",

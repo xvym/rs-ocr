@@ -77,30 +77,9 @@ public final class Presentation {
                 for(var row:layout.get("rows"))for(var s:row)if(s.has("font") && s.get("font").asInt()==3)ys.add(s.get("y").asInt());
                 for(int y:ys)for(int x=0;x<=232;x+=8)if(clip.contains(x+4,y+8) && cursors.arrow(image,x,y))pointers.add(new Pointer(x,y));
             }
-            var selections=image!=null && key.startsWith("summary_") && key.contains("moves")?selectionOutlines(image,clip):List.<Box>of();
+            var selections=image!=null && SummaryMoveSelection.isMoveList(key)?SummaryMoveSelection.outlines(image,clip):List.<Box>of();
             panels.add(new Panel(key,profile.get("name").asText(),clip,frame,profile.get("order").asInt(),region.rawOcr(),region.status(),List.copyOf(runs),List.copyOf(pointers),selections));
         }
         panels.sort(Comparator.comparingInt(Panel::order));return List.copyOf(panels);
-    }
-    private static boolean red(int rgb) {
-        int r=(rgb>>16)&255,g=(rgb>>8)&255,b=rgb&255;return r>100 && r>g*1.4 && r>b*1.3;
-    }
-    // Observe the native red outline, never infer a selected move from its text or filename.
-    private static List<Box> selectionOutlines(BufferedImage image,Box clip) {
-        var lines=new ArrayList<int[]>();
-        for(int y=Math.max(0,(int)clip.y()-2);y<Math.min(160,clip.y()+clip.height());y++) {
-            int left=-1;
-            for(int x=Math.max(0,(int)clip.x()-3);x<Math.min(240,clip.x()+clip.width());x++) {
-                if(red(image.getRGB(x,y))) {if(left<0)left=x;}
-                else if(left>=0) {if(x-left>clip.width()*.8)lines.add(new int[]{left,y,x-left});left=-1;}
-            }
-            if(left>=0 && clip.x()+clip.width()-left>clip.width()*.8)lines.add(new int[]{left,y,(int)(clip.x()+clip.width()-left)});
-        }
-        var boxes=new ArrayList<Box>();
-        for(var top:lines)for(var bottom:lines)if(bottom[1]-top[1]>=10 && bottom[1]-top[1]<=18 && Math.abs(top[0]-bottom[0])<=2 && Math.abs(top[2]-bottom[2])<=2) {
-            var candidate=new Box(top[0],top[1],top[2],bottom[1]-top[1]+1);
-            if(boxes.stream().noneMatch(b->Math.abs(b.y()-candidate.y())<=2))boxes.add(candidate);
-        }
-        return List.copyOf(boxes);
     }
 }

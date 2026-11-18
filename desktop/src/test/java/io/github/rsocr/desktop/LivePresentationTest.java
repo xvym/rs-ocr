@@ -28,4 +28,20 @@ class LivePresentationTest {
         assertTrue(show(List.of()).pointers().isEmpty());show(List.of(first));display.reset();
         assertTrue(show(List.of()).pointers().isEmpty());
     }
+    private Panel moves(String raw,List<Box> selection) {
+        var box=new Box(80,24,160,88);return new Panel("summary_battle_moves","招式",box,box,0,raw,"recognized",List.of(),List.of(),selection);
+    }
+    @Test void moveOutlineRetainsTheObservedRowAcrossLongDarkPhasesAndUpdatesOnMovement() {
+        var first=new Box(85,32,150,16);var next=new Box(85,96,150,16);
+        var visible=display.stabilize(List.of(moves("列表",List.of(first))));
+        clock.set(10_000_000L);assertEquals(visible,display.stabilize(List.of(moves("列表",List.of()))));
+        clock.set(2_000_000_000L);assertEquals(visible,display.stabilize(List.of(moves("列表",List.of()))));assertFalse(display.needsRefresh());
+        display.stabilize(List.of(moves("列表",List.of(next))));clock.addAndGet(60_000_000L);
+        assertEquals(List.of(next),display.stabilize(List.of(moves("列表",List.of(next)))).getFirst().selections());
+        assertTrue(display.stabilize(List.of(moves("新列表",List.of()))).getFirst().selections().isEmpty());
+        display.stabilize(List.of(moves("新列表",List.of(first))));display.reset();
+        assertTrue(display.stabilize(List.of(moves("新列表",List.of()))).getFirst().selections().isEmpty());
+        display.stabilize(List.of(moves("新列表",List.of(first))));display.stabilize(List.of());
+        assertTrue(display.stabilize(List.of(moves("新列表",List.of()))).getFirst().selections().isEmpty());
+    }
 }

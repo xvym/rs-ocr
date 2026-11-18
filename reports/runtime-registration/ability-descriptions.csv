@@ -1,0 +1,765 @@
+﻿"qid","game","form","japanese","chinese","status","translated"
+"rs.common.ability_descriptions.gAbilityDescription_Drizzle","ruby","original","せんとうに　でると　あめを　ふらす","出场时降下雨。","original_rsc_available","true"
+"rs.common.ability_descriptions.gAbilityDescription_Drizzle","ruby","half_width","せんとうに でると あめを ふらす","出场时降下雨。","original_rsc_available","true"
+"rs.common.ability_descriptions.gAbilityDescription_Drizzle","ruby","wrapped","せんとうに
+でると
+あめを
+ふらす","出场时降下雨。","original_rsc_available","true"
+"rs.common.ability_descriptions.gAbilityDescription_Drizzle","sapphire","original","せんとうに　でると　あめを　ふらす","出场时降下雨。","original_rsc_available","true"
+"rs.common.ability_descriptions.gAbilityDescription_Drizzle","sapphire","half_width","せんとうに でると あめを ふらす","出场时降下雨。","original_rsc_available","true"
+"rs.common.ability_descriptions.gAbilityDescription_Drizzle","sapphire","wrapped","せんとうに
+でると
+あめを
+ふらす","出场时降下雨。","original_rsc_available","true"
+"rs.common.ability_descriptions.gAbilityDescription_None","ruby","original","とくせいなし","没有任何特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_None","ruby","half_width","とくせいなし","没有任何特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_None","ruby","wrapped","とくせいなし","没有任何特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_None","sapphire","original","とくせいなし","没有任何特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_None","sapphire","half_width","とくせいなし","没有任何特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_None","sapphire","wrapped","とくせいなし","没有任何特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Stench","ruby","original","ポケモンが　よりつき　にくくなる","降低野外遭遇几率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Stench","ruby","half_width","ポケモンが よりつき にくくなる","降低野外遭遇几率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Stench","ruby","wrapped","ポケモンが
+よりつき
+にくくなる","降低野外遭遇几率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Stench","sapphire","original","ポケモンが　よりつき　にくくなる","降低野外遭遇几率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Stench","sapphire","half_width","ポケモンが よりつき にくくなる","降低野外遭遇几率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Stench","sapphire","wrapped","ポケモンが
+よりつき
+にくくなる","降低野外遭遇几率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SpeedBoost","ruby","original","ちょっとずつ　すばやく　なっていく","每一回合速度会变快。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SpeedBoost","ruby","half_width","ちょっとずつ すばやく なっていく","每一回合速度会变快。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SpeedBoost","ruby","wrapped","ちょっとずつ
+すばやく
+なっていく","每一回合速度会变快。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SpeedBoost","sapphire","original","ちょっとずつ　すばやく　なっていく","每一回合速度会变快。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SpeedBoost","sapphire","half_width","ちょっとずつ すばやく なっていく","每一回合速度会变快。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SpeedBoost","sapphire","wrapped","ちょっとずつ
+すばやく
+なっていく","每一回合速度会变快。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_BattleArmor","ruby","original","わざを　きゅうしょに　うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_BattleArmor","ruby","half_width","わざを きゅうしょに うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_BattleArmor","ruby","wrapped","わざを
+きゅうしょに
+うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_BattleArmor","sapphire","original","わざを　きゅうしょに　うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_BattleArmor","sapphire","half_width","わざを きゅうしょに うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_BattleArmor","sapphire","wrapped","わざを
+きゅうしょに
+うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Sturdy","ruby","original","いちげきひっさつが　きかない","让一击必杀招式没有效果。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Sturdy","ruby","half_width","いちげきひっさつが きかない","让一击必杀招式没有效果。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Sturdy","ruby","wrapped","いちげきひっさつが
+きかない","让一击必杀招式没有效果。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Sturdy","sapphire","original","いちげきひっさつが　きかない","让一击必杀招式没有效果。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Sturdy","sapphire","half_width","いちげきひっさつが きかない","让一击必杀招式没有效果。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Sturdy","sapphire","wrapped","いちげきひっさつが
+きかない","让一击必杀招式没有效果。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Damp","ruby","original","だれも　じばくが　できなくなる","令自爆等爆炸类招式无效。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Damp","ruby","half_width","だれも じばくが できなくなる","令自爆等爆炸类招式无效。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Damp","ruby","wrapped","だれも
+じばくが
+できなくなる","令自爆等爆炸类招式无效。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Damp","sapphire","original","だれも　じばくが　できなくなる","令自爆等爆炸类招式无效。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Damp","sapphire","half_width","だれも じばくが できなくなる","令自爆等爆炸类招式无效。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Damp","sapphire","wrapped","だれも
+じばくが
+できなくなる","令自爆等爆炸类招式无效。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Limber","ruby","original","まひ　じょうたいに　ならない","不会变为麻痹状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Limber","ruby","half_width","まひ じょうたいに ならない","不会变为麻痹状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Limber","ruby","wrapped","まひ
+じょうたいに
+ならない","不会变为麻痹状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Limber","sapphire","original","まひ　じょうたいに　ならない","不会变为麻痹状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Limber","sapphire","half_width","まひ じょうたいに ならない","不会变为麻痹状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Limber","sapphire","wrapped","まひ
+じょうたいに
+ならない","不会变为麻痹状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandVeil","ruby","original","すなあらしで　かいひりつが　あがる","沙暴天气下提升闪避率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandVeil","ruby","half_width","すなあらしで かいひりつが あがる","沙暴天气下提升闪避率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandVeil","ruby","wrapped","すなあらしで
+かいひりつが
+あがる","沙暴天气下提升闪避率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandVeil","sapphire","original","すなあらしで　かいひりつが　あがる","沙暴天气下提升闪避率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandVeil","sapphire","half_width","すなあらしで かいひりつが あがる","沙暴天气下提升闪避率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandVeil","sapphire","wrapped","すなあらしで
+かいひりつが
+あがる","沙暴天气下提升闪避率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Static","ruby","original","さわった　あいてを　まひさせる","有时让接触的对手麻痹。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Static","ruby","half_width","さわった あいてを まひさせる","有时让接触的对手麻痹。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Static","ruby","wrapped","さわった
+あいてを
+まひさせる","有时让接触的对手麻痹。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Static","sapphire","original","さわった　あいてを　まひさせる","有时让接触的对手麻痹。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Static","sapphire","half_width","さわった あいてを まひさせる","有时让接触的对手麻痹。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Static","sapphire","wrapped","さわった
+あいてを
+まひさせる","有时让接触的对手麻痹。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VoltAbsorb","ruby","original","でんきを　うけると　かいふくする","吸收电属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VoltAbsorb","ruby","half_width","でんきを うけると かいふくする","吸收电属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VoltAbsorb","ruby","wrapped","でんきを
+うけると
+かいふくする","吸收电属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VoltAbsorb","sapphire","original","でんきを　うけると　かいふくする","吸收电属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VoltAbsorb","sapphire","half_width","でんきを うけると かいふくする","吸收电属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VoltAbsorb","sapphire","wrapped","でんきを
+うけると
+かいふくする","吸收电属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterAbsorb","ruby","original","みずを　うけると　かいふくする","吸收水属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterAbsorb","ruby","half_width","みずを うけると かいふくする","吸收水属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterAbsorb","ruby","wrapped","みずを
+うけると
+かいふくする","吸收水属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterAbsorb","sapphire","original","みずを　うけると　かいふくする","吸收水属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterAbsorb","sapphire","half_width","みずを うけると かいふくする","吸收水属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterAbsorb","sapphire","wrapped","みずを
+うけると
+かいふくする","吸收水属性招式回复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Oblivious","ruby","original","メロメロ　じょうたいに　ならない","不会变为着迷状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Oblivious","ruby","half_width","メロメロ じょうたいに ならない","不会变为着迷状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Oblivious","ruby","wrapped","メロメロ
+じょうたいに
+ならない","不会变为着迷状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Oblivious","sapphire","original","メロメロ　じょうたいに　ならない","不会变为着迷状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Oblivious","sapphire","half_width","メロメロ じょうたいに ならない","不会变为着迷状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Oblivious","sapphire","wrapped","メロメロ
+じょうたいに
+ならない","不会变为着迷状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CloudNine","ruby","original","てんきの　えいきょうが　なくなる","去除所有天气的影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CloudNine","ruby","half_width","てんきの えいきょうが なくなる","去除所有天气的影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CloudNine","ruby","wrapped","てんきの
+えいきょうが
+なくなる","去除所有天气的影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CloudNine","sapphire","original","てんきの　えいきょうが　なくなる","去除所有天气的影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CloudNine","sapphire","half_width","てんきの えいきょうが なくなる","去除所有天气的影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CloudNine","sapphire","wrapped","てんきの
+えいきょうが
+なくなる","去除所有天气的影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CompoundEyes","ruby","original","わざの　めいちゅうりつが　あがる","招式命中率提高。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CompoundEyes","ruby","half_width","わざの めいちゅうりつが あがる","招式命中率提高。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CompoundEyes","ruby","wrapped","わざの
+めいちゅうりつが
+あがる","招式命中率提高。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CompoundEyes","sapphire","original","わざの　めいちゅうりつが　あがる","招式命中率提高。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CompoundEyes","sapphire","half_width","わざの めいちゅうりつが あがる","招式命中率提高。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CompoundEyes","sapphire","wrapped","わざの
+めいちゅうりつが
+あがる","招式命中率提高。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Insomnia","ruby","original","ねむり　じょうたいに　ならない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Insomnia","ruby","half_width","ねむり じょうたいに ならない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Insomnia","ruby","wrapped","ねむり
+じょうたいに
+ならない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Insomnia","sapphire","original","ねむり　じょうたいに　ならない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Insomnia","sapphire","half_width","ねむり じょうたいに ならない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Insomnia","sapphire","wrapped","ねむり
+じょうたいに
+ならない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ColorChange","ruby","original","うけた　わざの　タイプに　へんかする","属性变为对手招式的属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ColorChange","ruby","half_width","うけた わざの タイプに へんかする","属性变为对手招式的属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ColorChange","ruby","wrapped","うけた
+わざの
+タイプに
+へんかする","属性变为对手招式的属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ColorChange","sapphire","original","うけた　わざの　タイプに　へんかする","属性变为对手招式的属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ColorChange","sapphire","half_width","うけた わざの タイプに へんかする","属性变为对手招式的属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ColorChange","sapphire","wrapped","うけた
+わざの
+タイプに
+へんかする","属性变为对手招式的属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Immunity","ruby","original","どく　じょうたいに　ならない","不会变为中毒状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Immunity","ruby","half_width","どく じょうたいに ならない","不会变为中毒状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Immunity","ruby","wrapped","どく
+じょうたいに
+ならない","不会变为中毒状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Immunity","sapphire","original","どく　じょうたいに　ならない","不会变为中毒状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Immunity","sapphire","half_width","どく じょうたいに ならない","不会变为中毒状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Immunity","sapphire","wrapped","どく
+じょうたいに
+ならない","不会变为中毒状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlashFire","ruby","original","ほのおを　うけると　つよくなる","受火提升火属性招式威力。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlashFire","ruby","half_width","ほのおを うけると つよくなる","受火提升火属性招式威力。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlashFire","ruby","wrapped","ほのおを
+うけると
+つよくなる","受火提升火属性招式威力。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlashFire","sapphire","original","ほのおを　うけると　つよくなる","受火提升火属性招式威力。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlashFire","sapphire","half_width","ほのおを うけると つよくなる","受火提升火属性招式威力。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlashFire","sapphire","wrapped","ほのおを
+うけると
+つよくなる","受火提升火属性招式威力。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShieldDust","ruby","original","わざの　ついかこうかを　うけない","不受招式的追加效果影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShieldDust","ruby","half_width","わざの ついかこうかを うけない","不受招式的追加效果影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShieldDust","ruby","wrapped","わざの
+ついかこうかを
+うけない","不受招式的追加效果影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShieldDust","sapphire","original","わざの　ついかこうかを　うけない","不受招式的追加效果影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShieldDust","sapphire","half_width","わざの ついかこうかを うけない","不受招式的追加效果影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShieldDust","sapphire","wrapped","わざの
+ついかこうかを
+うけない","不受招式的追加效果影响。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_OwnTempo","ruby","original","こんらん　じょうたいに　ならない","不会变为混乱状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_OwnTempo","ruby","half_width","こんらん じょうたいに ならない","不会变为混乱状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_OwnTempo","ruby","wrapped","こんらん
+じょうたいに
+ならない","不会变为混乱状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_OwnTempo","sapphire","original","こんらん　じょうたいに　ならない","不会变为混乱状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_OwnTempo","sapphire","half_width","こんらん じょうたいに ならない","不会变为混乱状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_OwnTempo","sapphire","wrapped","こんらん
+じょうたいに
+ならない","不会变为混乱状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SuctionCups","ruby","original","きゅうばんで　じめんに　はりつく","不会被强制替换下场。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SuctionCups","ruby","half_width","きゅうばんで じめんに はりつく","不会被强制替换下场。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SuctionCups","ruby","wrapped","きゅうばんで
+じめんに
+はりつく","不会被强制替换下场。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SuctionCups","sapphire","original","きゅうばんで　じめんに　はりつく","不会被强制替换下场。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SuctionCups","sapphire","half_width","きゅうばんで じめんに はりつく","不会被强制替换下场。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SuctionCups","sapphire","wrapped","きゅうばんで
+じめんに
+はりつく","不会被强制替换下场。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Intimidate","ruby","original","あいての　こうげきを　さげる","出场时降低对手的攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Intimidate","ruby","half_width","あいての こうげきを さげる","出场时降低对手的攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Intimidate","ruby","wrapped","あいての
+こうげきを
+さげる","出场时降低对手的攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Intimidate","sapphire","original","あいての　こうげきを　さげる","出场时降低对手的攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Intimidate","sapphire","half_width","あいての こうげきを さげる","出场时降低对手的攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Intimidate","sapphire","wrapped","あいての
+こうげきを
+さげる","出场时降低对手的攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShadowTag","ruby","original","あいてを　にげられなくする","让对手无法逃走或替换。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShadowTag","ruby","half_width","あいてを にげられなくする","让对手无法逃走或替换。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShadowTag","ruby","wrapped","あいてを
+にげられなくする","让对手无法逃走或替换。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShadowTag","sapphire","original","あいてを　にげられなくする","让对手无法逃走或替换。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShadowTag","sapphire","half_width","あいてを にげられなくする","让对手无法逃走或替换。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShadowTag","sapphire","wrapped","あいてを
+にげられなくする","让对手无法逃走或替换。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RoughSkin","ruby","original","さわった　あいてを　キズつける","弄伤接触的对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RoughSkin","ruby","half_width","さわった あいてを キズつける","弄伤接触的对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RoughSkin","ruby","wrapped","さわった
+あいてを
+キズつける","弄伤接触的对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RoughSkin","sapphire","original","さわった　あいてを　キズつける","弄伤接触的对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RoughSkin","sapphire","half_width","さわった あいてを キズつける","弄伤接触的对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RoughSkin","sapphire","wrapped","さわった
+あいてを
+キズつける","弄伤接触的对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WonderGuard","ruby","original","こうか　ばつぐん　しか　あたらない","效果绝佳的招式才能击中。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WonderGuard","ruby","half_width","こうか ばつぐん しか あたらない","效果绝佳的招式才能击中。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WonderGuard","ruby","wrapped","こうか
+ばつぐん
+しか
+あたらない","效果绝佳的招式才能击中。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WonderGuard","sapphire","original","こうか　ばつぐん　しか　あたらない","效果绝佳的招式才能击中。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WonderGuard","sapphire","half_width","こうか ばつぐん しか あたらない","效果绝佳的招式才能击中。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WonderGuard","sapphire","wrapped","こうか
+ばつぐん
+しか
+あたらない","效果绝佳的招式才能击中。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Levitate","ruby","original","じめんタイプの　わざを　うけない","漂起以免疫地面属性攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Levitate","ruby","half_width","じめんタイプの わざを うけない","漂起以免疫地面属性攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Levitate","ruby","wrapped","じめんタイプの
+わざを
+うけない","漂起以免疫地面属性攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Levitate","sapphire","original","じめんタイプの　わざを　うけない","漂起以免疫地面属性攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Levitate","sapphire","half_width","じめんタイプの わざを うけない","漂起以免疫地面属性攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Levitate","sapphire","wrapped","じめんタイプの
+わざを
+うけない","漂起以免疫地面属性攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EffectSpore","ruby","original","さわった　あいてに　ほうしがつく","接触对手后留下孢子。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EffectSpore","ruby","half_width","さわった あいてに ほうしがつく","接触对手后留下孢子。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EffectSpore","ruby","wrapped","さわった
+あいてに
+ほうしがつく","接触对手后留下孢子。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EffectSpore","sapphire","original","さわった　あいてに　ほうしがつく","接触对手后留下孢子。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EffectSpore","sapphire","half_width","さわった あいてに ほうしがつく","接触对手后留下孢子。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EffectSpore","sapphire","wrapped","さわった
+あいてに
+ほうしがつく","接触对手后留下孢子。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Synchronize","ruby","original","どく　まひ　やけどを　あいてにうつす","将异常状态传染给对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Synchronize","ruby","half_width","どく まひ やけどを あいてにうつす","将异常状态传染给对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Synchronize","ruby","wrapped","どく
+まひ
+やけどを
+あいてにうつす","将异常状态传染给对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Synchronize","sapphire","original","どく　まひ　やけどを　あいてにうつす","将异常状态传染给对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Synchronize","sapphire","half_width","どく まひ やけどを あいてにうつす","将异常状态传染给对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Synchronize","sapphire","wrapped","どく
+まひ
+やけどを
+あいてにうつす","将异常状态传染给对手。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ClearBody","ruby","original","あいてに　のうりょくを　さげられない","使得能力不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ClearBody","ruby","half_width","あいてに のうりょくを さげられない","使得能力不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ClearBody","ruby","wrapped","あいてに
+のうりょくを
+さげられない","使得能力不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ClearBody","sapphire","original","あいてに　のうりょくを　さげられない","使得能力不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ClearBody","sapphire","half_width","あいてに のうりょくを さげられない","使得能力不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ClearBody","sapphire","wrapped","あいてに
+のうりょくを
+さげられない","使得能力不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_NaturalCure","ruby","original","ひっこむと　いじょうが　なおる","回到队伍后治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_NaturalCure","ruby","half_width","ひっこむと いじょうが なおる","回到队伍后治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_NaturalCure","ruby","wrapped","ひっこむと
+いじょうが
+なおる","回到队伍后治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_NaturalCure","sapphire","original","ひっこむと　いじょうが　なおる","回到队伍后治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_NaturalCure","sapphire","half_width","ひっこむと いじょうが なおる","回到队伍后治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_NaturalCure","sapphire","wrapped","ひっこむと
+いじょうが
+なおる","回到队伍后治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_LightningRod","ruby","original","でんきタイプの　わざが　じぶんにくる","将电属性招式吸引至自身。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_LightningRod","ruby","half_width","でんきタイプの わざが じぶんにくる","将电属性招式吸引至自身。","original_rsc_visible_span","true"
+"rs.common.ability_descriptions.gAbilityDescription_LightningRod","ruby","wrapped","でんきタイプの
+わざが
+じぶんにくる","将电属性招式吸引至自身。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_LightningRod","sapphire","original","でんきタイプの　わざが　じぶんにくる","将电属性招式吸引至自身。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_LightningRod","sapphire","half_width","でんきタイプの わざが じぶんにくる","将电属性招式吸引至自身。","original_rsc_visible_span","true"
+"rs.common.ability_descriptions.gAbilityDescription_LightningRod","sapphire","wrapped","でんきタイプの
+わざが
+じぶんにくる","将电属性招式吸引至自身。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SereneGrace","ruby","original","わざの　ついかこうかが　でやすい","招式的追加效果容易出现。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SereneGrace","ruby","half_width","わざの ついかこうかが でやすい","招式的追加效果容易出现。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SereneGrace","ruby","wrapped","わざの
+ついかこうかが
+でやすい","招式的追加效果容易出现。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SereneGrace","sapphire","original","わざの　ついかこうかが　でやすい","招式的追加效果容易出现。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SereneGrace","sapphire","half_width","わざの ついかこうかが でやすい","招式的追加效果容易出现。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SereneGrace","sapphire","wrapped","わざの
+ついかこうかが
+でやすい","招式的追加效果容易出现。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SwiftSwim","ruby","original","あめのとき　すばやさが　はやくなる","在下雨时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SwiftSwim","ruby","half_width","あめのとき すばやさが はやくなる","在下雨时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SwiftSwim","ruby","wrapped","あめのとき
+すばやさが
+はやくなる","在下雨时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SwiftSwim","sapphire","original","あめのとき　すばやさが　はやくなる","在下雨时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SwiftSwim","sapphire","half_width","あめのとき すばやさが はやくなる","在下雨时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SwiftSwim","sapphire","wrapped","あめのとき
+すばやさが
+はやくなる","在下雨时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Chlorophyll","ruby","original","はれのとき　すばやさが　はやくなる","晴朗天气时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Chlorophyll","ruby","half_width","はれのとき すばやさが はやくなる","晴朗天气时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Chlorophyll","ruby","wrapped","はれのとき
+すばやさが
+はやくなる","晴朗天气时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Chlorophyll","sapphire","original","はれのとき　すばやさが　はやくなる","晴朗天气时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Chlorophyll","sapphire","half_width","はれのとき すばやさが はやくなる","晴朗天气时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Chlorophyll","sapphire","wrapped","はれのとき
+すばやさが
+はやくなる","晴朗天气时提高速度。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Illuminate","ruby","original","ポケモンに　そうぐう　しやすくなる","发光以防止命中率降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Illuminate","ruby","half_width","ポケモンに そうぐう しやすくなる","发光以防止命中率降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Illuminate","ruby","wrapped","ポケモンに
+そうぐう
+しやすくなる","发光以防止命中率降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Illuminate","sapphire","original","ポケモンに　そうぐう　しやすくなる","发光以防止命中率降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Illuminate","sapphire","half_width","ポケモンに そうぐう しやすくなる","发光以防止命中率降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Illuminate","sapphire","wrapped","ポケモンに
+そうぐう
+しやすくなる","发光以防止命中率降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Trace","ruby","original","あいてと　おなじ　とくせいになる","出场时复制对手的特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Trace","ruby","half_width","あいてと おなじ とくせいになる","出场时复制对手的特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Trace","ruby","wrapped","あいてと
+おなじ
+とくせいになる","出场时复制对手的特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Trace","sapphire","original","あいてと　おなじ　とくせいになる","出场时复制对手的特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Trace","sapphire","half_width","あいてと おなじ とくせいになる","出场时复制对手的特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Trace","sapphire","wrapped","あいてと
+おなじ
+とくせいになる","出场时复制对手的特性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HugePower","ruby","original","こうげきりょくが　たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HugePower","ruby","half_width","こうげきりょくが たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HugePower","ruby","wrapped","こうげきりょくが
+たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HugePower","sapphire","original","こうげきりょくが　たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HugePower","sapphire","half_width","こうげきりょくが たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HugePower","sapphire","wrapped","こうげきりょくが
+たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PoisonPoint","ruby","original","さわったあいてに　どくをあたえる","让接触到自己的对手中毒。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PoisonPoint","ruby","half_width","さわったあいてに どくをあたえる","让接触到自己的对手中毒。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PoisonPoint","ruby","wrapped","さわったあいてに
+どくをあたえる","让接触到自己的对手中毒。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PoisonPoint","sapphire","original","さわったあいてに　どくをあたえる","让接触到自己的对手中毒。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PoisonPoint","sapphire","half_width","さわったあいてに どくをあたえる","让接触到自己的对手中毒。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PoisonPoint","sapphire","wrapped","さわったあいてに
+どくをあたえる","让接触到自己的对手中毒。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_InnerFocus","ruby","original","ひるまない","对战时不会畏缩。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_InnerFocus","ruby","half_width","ひるまない","对战时不会畏缩。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_InnerFocus","ruby","wrapped","ひるまない","对战时不会畏缩。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_InnerFocus","sapphire","original","ひるまない","对战时不会畏缩。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_InnerFocus","sapphire","half_width","ひるまない","对战时不会畏缩。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_InnerFocus","sapphire","wrapped","ひるまない","对战时不会畏缩。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagmaArmor","ruby","original","こおり　じょうたいに　ならない","不会变为冰冻状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagmaArmor","ruby","half_width","こおり じょうたいに ならない","不会变为冰冻状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagmaArmor","ruby","wrapped","こおり
+じょうたいに
+ならない","不会变为冰冻状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagmaArmor","sapphire","original","こおり　じょうたいに　ならない","不会变为冰冻状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagmaArmor","sapphire","half_width","こおり じょうたいに ならない","不会变为冰冻状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagmaArmor","sapphire","wrapped","こおり
+じょうたいに
+ならない","不会变为冰冻状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterVeil","ruby","original","やけど　じょうたいに　ならない","不会陷入灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterVeil","ruby","half_width","やけど じょうたいに ならない","不会陷入灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterVeil","ruby","wrapped","やけど
+じょうたいに
+ならない","不会陷入灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterVeil","sapphire","original","やけど　じょうたいに　ならない","不会陷入灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterVeil","sapphire","half_width","やけど じょうたいに ならない","不会陷入灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WaterVeil","sapphire","wrapped","やけど
+じょうたいに
+ならない","不会陷入灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagnetPull","ruby","original","はがねタイプが　にげられなくなる","阻止钢属性宝可梦逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagnetPull","ruby","half_width","はがねタイプが にげられなくなる","阻止钢属性宝可梦逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagnetPull","ruby","wrapped","はがねタイプが
+にげられなくなる","阻止钢属性宝可梦逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagnetPull","sapphire","original","はがねタイプが　にげられなくなる","阻止钢属性宝可梦逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagnetPull","sapphire","half_width","はがねタイプが にげられなくなる","阻止钢属性宝可梦逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MagnetPull","sapphire","wrapped","はがねタイプが
+にげられなくなる","阻止钢属性宝可梦逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Soundproof","ruby","original","おとの　わざを　うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Soundproof","ruby","half_width","おとの わざを うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Soundproof","ruby","wrapped","おとの
+わざを
+うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Soundproof","sapphire","original","おとの　わざを　うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Soundproof","sapphire","half_width","おとの わざを うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Soundproof","sapphire","wrapped","おとの
+わざを
+うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RainDish","ruby","original","あめのとき　すこしずつ　かいふく","下雨时会缓缓恢复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RainDish","ruby","half_width","あめのとき すこしずつ かいふく","下雨时会缓缓恢复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RainDish","ruby","wrapped","あめのとき
+すこしずつ
+かいふく","下雨时会缓缓恢复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RainDish","sapphire","original","あめのとき　すこしずつ　かいふく","下雨时会缓缓恢复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RainDish","sapphire","half_width","あめのとき すこしずつ かいふく","下雨时会缓缓恢复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RainDish","sapphire","wrapped","あめのとき
+すこしずつ
+かいふく","下雨时会缓缓恢复HP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandStream","ruby","original","せんとうで　すなあらしを　おこす","出场时刮起沙暴。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandStream","ruby","half_width","せんとうで すなあらしを おこす","出场时刮起沙暴。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandStream","ruby","wrapped","せんとうで
+すなあらしを
+おこす","出场时刮起沙暴。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandStream","sapphire","original","せんとうで　すなあらしを　おこす","出场时刮起沙暴。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandStream","sapphire","half_width","せんとうで すなあらしを おこす","出场时刮起沙暴。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_SandStream","sapphire","wrapped","せんとうで
+すなあらしを
+おこす","出场时刮起沙暴。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pressure","ruby","original","あいての　ＰＰが　へりやすくなる","压减对手使用招式的PP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pressure","ruby","half_width","あいての ＰＰが へりやすくなる","压减对手使用招式的PP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pressure","ruby","wrapped","あいての
+ＰＰが
+へりやすくなる","压减对手使用招式的PP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pressure","sapphire","original","あいての　ＰＰが　へりやすくなる","压减对手使用招式的PP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pressure","sapphire","half_width","あいての ＰＰが へりやすくなる","压减对手使用招式的PP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pressure","sapphire","wrapped","あいての
+ＰＰが
+へりやすくなる","压减对手使用招式的PP。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ThickFat","ruby","original","ほのお　こおりに　つよい","火、冰属性招式伤害减半。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ThickFat","ruby","half_width","ほのお こおりに つよい","火、冰属性招式伤害减半。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ThickFat","ruby","wrapped","ほのお
+こおりに
+つよい","火、冰属性招式伤害减半。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ThickFat","sapphire","original","ほのお　こおりに　つよい","火、冰属性招式伤害减半。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ThickFat","sapphire","half_width","ほのお こおりに つよい","火、冰属性招式伤害减半。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ThickFat","sapphire","wrapped","ほのお
+こおりに
+つよい","火、冰属性招式伤害减半。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EarlyBird","ruby","original","おきるのが　はやくなる","从睡眠状态中迅速醒来。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EarlyBird","ruby","half_width","おきるのが はやくなる","从睡眠状态中迅速醒来。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EarlyBird","ruby","wrapped","おきるのが
+はやくなる","从睡眠状态中迅速醒来。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EarlyBird","sapphire","original","おきるのが　はやくなる","从睡眠状态中迅速醒来。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EarlyBird","sapphire","half_width","おきるのが はやくなる","从睡眠状态中迅速醒来。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_EarlyBird","sapphire","wrapped","おきるのが
+はやくなる","从睡眠状态中迅速醒来。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlameBody","ruby","original","さわった　あいてを　やけど　させる","让接触到自己的对手灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlameBody","ruby","half_width","さわった あいてを やけど させる","让接触到自己的对手灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlameBody","ruby","wrapped","さわった
+あいてを
+やけど
+させる","让接触到自己的对手灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlameBody","sapphire","original","さわった　あいてを　やけど　させる","让接触到自己的对手灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlameBody","sapphire","half_width","さわった あいてを やけど させる","让接触到自己的对手灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_FlameBody","sapphire","wrapped","さわった
+あいてを
+やけど
+させる","让接触到自己的对手灼伤。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RunAway","ruby","original","せんとうから　にげやすい","必定能在野战中逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RunAway","ruby","half_width","せんとうから にげやすい","必定能在野战中逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RunAway","ruby","wrapped","せんとうから
+にげやすい","必定能在野战中逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RunAway","sapphire","original","せんとうから　にげやすい","必定能在野战中逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RunAway","sapphire","half_width","せんとうから にげやすい","必定能在野战中逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RunAway","sapphire","wrapped","せんとうから
+にげやすい","必定能在野战中逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_KeenEye","ruby","original","あいてに　めいちゅうを　さげられない","因锐利目光命中不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_KeenEye","ruby","half_width","あいてに めいちゅうを さげられない","因锐利目光命中不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_KeenEye","ruby","wrapped","あいてに
+めいちゅうを
+さげられない","因锐利目光命中不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_KeenEye","sapphire","original","あいてに　めいちゅうを　さげられない","因锐利目光命中不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_KeenEye","sapphire","half_width","あいてに めいちゅうを さげられない","因锐利目光命中不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_KeenEye","sapphire","wrapped","あいてに
+めいちゅうを
+さげられない","因锐利目光命中不会降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HyperCutter","ruby","original","あいてに　こうげきを　さげられない","不会被对手降低攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HyperCutter","ruby","half_width","あいてに こうげきを さげられない","不会被对手降低攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HyperCutter","ruby","wrapped","あいてに
+こうげきを
+さげられない","不会被对手降低攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HyperCutter","sapphire","original","あいてに　こうげきを　さげられない","不会被对手降低攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HyperCutter","sapphire","half_width","あいてに こうげきを さげられない","不会被对手降低攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_HyperCutter","sapphire","wrapped","あいてに
+こうげきを
+さげられない","不会被对手降低攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pickup","ruby","original","どうぐを　ひろってくる　ことがある","有时候会捡起道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pickup","ruby","half_width","どうぐを ひろってくる ことがある","有时候会捡起道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pickup","ruby","wrapped","どうぐを
+ひろってくる
+ことがある","有时候会捡起道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pickup","sapphire","original","どうぐを　ひろってくる　ことがある","有时候会捡起道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pickup","sapphire","half_width","どうぐを ひろってくる ことがある","有时候会捡起道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Pickup","sapphire","wrapped","どうぐを
+ひろってくる
+ことがある","有时候会捡起道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Truant","ruby","original","こうげきが　れんぞくで　だせない","使出招式后下回合休息。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Truant","ruby","half_width","こうげきが れんぞくで だせない","使出招式后下回合休息。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Truant","ruby","wrapped","こうげきが
+れんぞくで
+だせない","使出招式后下回合休息。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Truant","sapphire","original","こうげきが　れんぞくで　だせない","使出招式后下回合休息。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Truant","sapphire","half_width","こうげきが れんぞくで だせない","使出招式后下回合休息。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Truant","sapphire","wrapped","こうげきが
+れんぞくで
+だせない","使出招式后下回合休息。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Hustle","ruby","original","こうげきは　たかいが　はずれやすい","提高攻击但降低命中率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Hustle","ruby","half_width","こうげきは たかいが はずれやすい","提高攻击但降低命中率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Hustle","ruby","wrapped","こうげきは
+たかいが
+はずれやすい","提高攻击但降低命中率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Hustle","sapphire","original","こうげきは　たかいが　はずれやすい","提高攻击但降低命中率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Hustle","sapphire","half_width","こうげきは たかいが はずれやすい","提高攻击但降低命中率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Hustle","sapphire","wrapped","こうげきは
+たかいが
+はずれやすい","提高攻击但降低命中率。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CuteCharm","ruby","original","さわった　あいてを　メロメロにする","有时让接触的对手着迷。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CuteCharm","ruby","half_width","さわった あいてを メロメロにする","有时让接触的对手着迷。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CuteCharm","ruby","wrapped","さわった
+あいてを
+メロメロにする","有时让接触的对手着迷。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CuteCharm","sapphire","original","さわった　あいてを　メロメロにする","有时让接触的对手着迷。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CuteCharm","sapphire","half_width","さわった あいてを メロメロにする","有时让接触的对手着迷。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_CuteCharm","sapphire","wrapped","さわった
+あいてを
+メロメロにする","有时让接触的对手着迷。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Plus","ruby","original","マイナスが　いると　つよくなる","与负电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Plus","ruby","half_width","マイナスが いると つよくなる","与负电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Plus","ruby","wrapped","マイナスが
+いると
+つよくなる","与负电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Plus","sapphire","original","マイナスが　いると　つよくなる","与负电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Plus","sapphire","half_width","マイナスが いると つよくなる","与负电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Plus","sapphire","wrapped","マイナスが
+いると
+つよくなる","与负电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Minus","ruby","original","プラスが　いると　つよくなる","与正电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Minus","ruby","half_width","プラスが いると つよくなる","与正电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Minus","ruby","wrapped","プラスが
+いると
+つよくなる","与正电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Minus","sapphire","original","プラスが　いると　つよくなる","与正电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Minus","sapphire","half_width","プラスが いると つよくなる","与正电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Minus","sapphire","wrapped","プラスが
+いると
+つよくなる","与正电搭档提升特攻。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Forecast","ruby","original","てんきで　ポワルンが　へんかする","随天气变换形态与属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Forecast","ruby","half_width","てんきで ポワルンが へんかする","随天气变换形态与属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Forecast","ruby","wrapped","てんきで
+ポワルンが
+へんかする","随天气变换形态与属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Forecast","sapphire","original","てんきで　ポワルンが　へんかする","随天气变换形态与属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Forecast","sapphire","half_width","てんきで ポワルンが へんかする","随天气变换形态与属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Forecast","sapphire","wrapped","てんきで
+ポワルンが
+へんかする","随天气变换形态与属性。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_StickyHold","ruby","original","どうぐを　とられない","不会被对手夺走道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_StickyHold","ruby","half_width","どうぐを とられない","不会被对手夺走道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_StickyHold","ruby","wrapped","どうぐを
+とられない","不会被对手夺走道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_StickyHold","sapphire","original","どうぐを　とられない","不会被对手夺走道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_StickyHold","sapphire","half_width","どうぐを とられない","不会被对手夺走道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_StickyHold","sapphire","wrapped","どうぐを
+とられない","不会被对手夺走道具。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShedSkin","ruby","original","だっぴして　からだを　なおす","以蜕皮来治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShedSkin","ruby","half_width","だっぴして からだを なおす","以蜕皮来治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShedSkin","ruby","wrapped","だっぴして
+からだを
+なおす","以蜕皮来治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShedSkin","sapphire","original","だっぴして　からだを　なおす","以蜕皮来治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShedSkin","sapphire","half_width","だっぴして からだを なおす","以蜕皮来治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShedSkin","sapphire","wrapped","だっぴして
+からだを
+なおす","以蜕皮来治愈异常状态。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Guts","ruby","original","いじょうのとき　こうげきが　あがる","异常状态时提高攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Guts","ruby","half_width","いじょうのとき こうげきが あがる","异常状态时提高攻击。","original_rsc_visible_span","true"
+"rs.common.ability_descriptions.gAbilityDescription_Guts","ruby","wrapped","いじょうのとき
+こうげきが
+あがる","异常状态时提高攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Guts","sapphire","original","いじょうのとき　こうげきが　あがる","异常状态时提高攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Guts","sapphire","half_width","いじょうのとき こうげきが あがる","异常状态时提高攻击。","original_rsc_visible_span","true"
+"rs.common.ability_descriptions.gAbilityDescription_Guts","sapphire","wrapped","いじょうのとき
+こうげきが
+あがる","异常状态时提高攻击。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MarvelScale","ruby","original","いじょうのとき　ぼうぎょが　あがる","异常状态时提高防御。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MarvelScale","ruby","half_width","いじょうのとき ぼうぎょが あがる","异常状态时提高防御。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MarvelScale","ruby","wrapped","いじょうのとき
+ぼうぎょが
+あがる","异常状态时提高防御。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MarvelScale","sapphire","original","いじょうのとき　ぼうぎょが　あがる","异常状态时提高防御。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MarvelScale","sapphire","half_width","いじょうのとき ぼうぎょが あがる","异常状态时提高防御。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_MarvelScale","sapphire","wrapped","いじょうのとき
+ぼうぎょが
+あがる","异常状态时提高防御。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_LiquidOoze","ruby","original","すいとると　たいりょくが　へる","令对手吸取类招式反噬。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_LiquidOoze","ruby","half_width","すいとると たいりょくが へる","令对手吸取类招式反噬。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_LiquidOoze","ruby","wrapped","すいとると
+たいりょくが
+へる","令对手吸取类招式反噬。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_LiquidOoze","sapphire","original","すいとると　たいりょくが　へる","令对手吸取类招式反噬。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_LiquidOoze","sapphire","half_width","すいとると たいりょくが へる","令对手吸取类招式反噬。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_LiquidOoze","sapphire","wrapped","すいとると
+たいりょくが
+へる","令对手吸取类招式反噬。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Overgrow","ruby","original","ピンチに　くさの　いりょくが　あがる","危机时提高草属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Overgrow","ruby","half_width","ピンチに くさの いりょくが あがる","危机时提高草属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Overgrow","ruby","wrapped","ピンチに
+くさの
+いりょくが
+あがる","危机时提高草属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Overgrow","sapphire","original","ピンチに　くさの　いりょくが　あがる","危机时提高草属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Overgrow","sapphire","half_width","ピンチに くさの いりょくが あがる","危机时提高草属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Overgrow","sapphire","wrapped","ピンチに
+くさの
+いりょくが
+あがる","危机时提高草属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Blaze","ruby","original","ピンチに　ほのおが　つよくなる","危机时提高火属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Blaze","ruby","half_width","ピンチに ほのおが つよくなる","危机时提高火属性伤害。","original_rsc_visible_span","true"
+"rs.common.ability_descriptions.gAbilityDescription_Blaze","ruby","wrapped","ピンチに
+ほのおが
+つよくなる","危机时提高火属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Blaze","sapphire","original","ピンチに　ほのおが　つよくなる","危机时提高火属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Blaze","sapphire","half_width","ピンチに ほのおが つよくなる","危机时提高火属性伤害。","original_rsc_visible_span","true"
+"rs.common.ability_descriptions.gAbilityDescription_Blaze","sapphire","wrapped","ピンチに
+ほのおが
+つよくなる","危机时提高火属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Torrent","ruby","original","ピンチに　みずの　いりょくが　あがる","危机时提高水属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Torrent","ruby","half_width","ピンチに みずの いりょくが あがる","危机时提高水属性伤害。","original_rsc_visible_span","true"
+"rs.common.ability_descriptions.gAbilityDescription_Torrent","ruby","wrapped","ピンチに
+みずの
+いりょくが
+あがる","危机时提高水属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Torrent","sapphire","original","ピンチに　みずの　いりょくが　あがる","危机时提高水属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Torrent","sapphire","half_width","ピンチに みずの いりょくが あがる","危机时提高水属性伤害。","original_rsc_visible_span","true"
+"rs.common.ability_descriptions.gAbilityDescription_Torrent","sapphire","wrapped","ピンチに
+みずの
+いりょくが
+あがる","危机时提高水属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Swarm","ruby","original","ピンチに　むしの　いりょくが　あがる","危机时提高虫属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Swarm","ruby","half_width","ピンチに むしの いりょくが あがる","危机时提高虫属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Swarm","ruby","wrapped","ピンチに
+むしの
+いりょくが
+あがる","危机时提高虫属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Swarm","sapphire","original","ピンチに　むしの　いりょくが　あがる","危机时提高虫属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Swarm","sapphire","half_width","ピンチに むしの いりょくが あがる","危机时提高虫属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Swarm","sapphire","wrapped","ピンチに
+むしの
+いりょくが
+あがる","危机时提高虫属性伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RockHead","ruby","original","ぶつかっても　はんどうを　うけない","防止受反作用力的伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RockHead","ruby","half_width","ぶつかっても はんどうを うけない","防止受反作用力的伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RockHead","ruby","wrapped","ぶつかっても
+はんどうを
+うけない","防止受反作用力的伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RockHead","sapphire","original","ぶつかっても　はんどうを　うけない","防止受反作用力的伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RockHead","sapphire","half_width","ぶつかっても はんどうを うけない","防止受反作用力的伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_RockHead","sapphire","wrapped","ぶつかっても
+はんどうを
+うけない","防止受反作用力的伤害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Drought","ruby","original","せんとうで　ひざしを　つよくする","出场时令天气变得晴朗。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Drought","ruby","half_width","せんとうで ひざしを つよくする","出场时令天气变得晴朗。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Drought","ruby","wrapped","せんとうで
+ひざしを
+つよくする","出场时令天气变得晴朗。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Drought","sapphire","original","せんとうで　ひざしを　つよくする","出场时令天气变得晴朗。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Drought","sapphire","half_width","せんとうで ひざしを つよくする","出场时令天气变得晴朗。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Drought","sapphire","wrapped","せんとうで
+ひざしを
+つよくする","出场时令天气变得晴朗。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ArenaTrap","ruby","original","あいてを　にげられなくする","让对手无法逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ArenaTrap","ruby","half_width","あいてを にげられなくする","让对手无法逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ArenaTrap","ruby","wrapped","あいてを
+にげられなくする","让对手无法逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ArenaTrap","sapphire","original","あいてを　にげられなくする","让对手无法逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ArenaTrap","sapphire","half_width","あいてを にげられなくする","让对手无法逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ArenaTrap","sapphire","wrapped","あいてを
+にげられなくする","让对手无法逃走。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VitalSpirit","ruby","original","ねむらない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VitalSpirit","ruby","half_width","ねむらない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VitalSpirit","ruby","wrapped","ねむらない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VitalSpirit","sapphire","original","ねむらない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VitalSpirit","sapphire","half_width","ねむらない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_VitalSpirit","sapphire","wrapped","ねむらない","不会陷入睡眠。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WhiteSmoke","ruby","original","あいてに　のうりょくを　さげられない","白色烟雾防止能力被降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WhiteSmoke","ruby","half_width","あいてに のうりょくを さげられない","白色烟雾防止能力被降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WhiteSmoke","ruby","wrapped","あいてに
+のうりょくを
+さげられない","白色烟雾防止能力被降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WhiteSmoke","sapphire","original","あいてに　のうりょくを　さげられない","白色烟雾防止能力被降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WhiteSmoke","sapphire","half_width","あいてに のうりょくを さげられない","白色烟雾防止能力被降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_WhiteSmoke","sapphire","wrapped","あいてに
+のうりょくを
+さげられない","白色烟雾防止能力被降低。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PurePower","ruby","original","こうげきりょくが　たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PurePower","ruby","half_width","こうげきりょくが たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PurePower","ruby","wrapped","こうげきりょくが
+たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PurePower","sapphire","original","こうげきりょくが　たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PurePower","sapphire","half_width","こうげきりょくが たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_PurePower","sapphire","wrapped","こうげきりょくが
+たかい","物理攻击翻倍。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShellArmor","ruby","original","わざを　きゅうしょに　うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShellArmor","ruby","half_width","わざを きゅうしょに うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShellArmor","ruby","wrapped","わざを
+きゅうしょに
+うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShellArmor","sapphire","original","わざを　きゅうしょに　うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShellArmor","sapphire","half_width","わざを きゅうしょに うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_ShellArmor","sapphire","wrapped","わざを
+きゅうしょに
+うけない","不会被对手击中要害。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Cacophony","ruby","original","おとの　わざを　うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Cacophony","ruby","half_width","おとの わざを うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Cacophony","ruby","wrapped","おとの
+わざを
+うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Cacophony","sapphire","original","おとの　わざを　うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Cacophony","sapphire","half_width","おとの わざを うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_Cacophony","sapphire","wrapped","おとの
+わざを
+うけない","阻挡声音类招式。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_AirLock","ruby","original","てんきの　えいきょうが　なくなる","所有天气的影响都会消失。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_AirLock","ruby","half_width","てんきの えいきょうが なくなる","所有天气的影响都会消失。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_AirLock","ruby","wrapped","てんきの
+えいきょうが
+なくなる","所有天气的影响都会消失。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_AirLock","sapphire","original","てんきの　えいきょうが　なくなる","所有天气的影响都会消失。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_AirLock","sapphire","half_width","てんきの えいきょうが なくなる","所有天气的影响都会消失。","original_rsc_source_record","true"
+"rs.common.ability_descriptions.gAbilityDescription_AirLock","sapphire","wrapped","てんきの
+えいきょうが
+なくなる","所有天气的影响都会消失。","original_rsc_source_record","true"

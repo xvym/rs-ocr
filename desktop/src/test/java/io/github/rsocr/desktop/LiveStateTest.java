@@ -29,7 +29,7 @@ class LiveStateTest {
         for(var entry:ref.get("images")) {
             var im=image(entry.get("source").asText());double gain=entry.get("id").asText().startsWith("NGC")?.82:.984;
             var expected=engine.recognize(im,gain);var actual=layout.locate(im,gain);
-            var cursorSeparated=engine.recognize(layout.textImage(im,actual),gain);
+            var cursorSeparated=engine.recognize(layout.textImage(im,actual,gain),gain);
             assertEquals(expected.stream().map(r->r.typeCandidates()+":"+r.rawOcr()).toList(),cursorSeparated.stream().map(r->r.typeCandidates()+":"+r.rawOcr()).toList(),"Frozen screenshot results must stay unchanged: "+entry.get("id").asText());
             assertEquals(expected.size(),actual.size(),entry.get("id").asText());
             for(int i=0;i<expected.size();i++) {

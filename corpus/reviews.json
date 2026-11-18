@@ -6063,5 +6063,57 @@
     "action": "retain",
     "method": "rsc_original_retained",
     "reason": "仅保留汉化项目原候选；撤销此前对中文措辞和格式的修改。"
+  },
+  {
+    "qid": "rs.common.strings.OtherText_CantUseThatHere",
+    "game": "ruby",
+    "japanese": "ここでは　つかえません",
+    "english": "Can't use that here.",
+    "kind": "dialogue",
+    "originalChinese": "在这里无法使用。",
+    "chinese": "在这里无法使用。",
+    "action": "retain",
+    "method": "rsc_original_retained",
+    "reason": "完整静态提示；OtherText_CantUseThatHere 的符号及英文原字节对应 upstream-5 第 9043 条唯一原候选，原样发布。",
+    "originalCandidates": ["在这里无法使用。"]
+  },
+  {
+    "qid": "rs.common.strings.OtherText_CantUseThatHere",
+    "game": "sapphire",
+    "japanese": "ここでは　つかえません",
+    "english": "Can't use that here.",
+    "kind": "dialogue",
+    "originalChinese": "在这里无法使用。",
+    "chinese": "在这里无法使用。",
+    "action": "retain",
+    "method": "rsc_original_retained",
+    "reason": "完整静态提示；OtherText_CantUseThatHere 的符号及英文原字节对应 upstream-6 第 9043 条唯一原候选，原样发布。",
+    "originalCandidates": ["在这里无法使用。"]
+  },
+  {
+    "qid": "rs.common.ability_descriptions.gAbilityDescription_Drizzle",
+    "game": "ruby",
+    "japanese": "せんとうに　でると　あめを　ふらす",
+    "english": "Summons rain in battle.",
+    "kind": "ability_description",
+    "originalChinese": "出场时降下雨。",
+    "chinese": "出场时降下雨。",
+    "action": "retain",
+    "method": "rsc_original_retained",
+    "reason": "完整静态特性说明；gAbilityDescription_Drizzle 的符号及英文原字节对应 upstream-5 第 4959 条唯一原候选，按特性说明类别原样发布。",
+    "originalCandidates": ["出场时降下雨。"]
+  },
+  {
+    "qid": "rs.common.ability_descriptions.gAbilityDescription_Drizzle",
+    "game": "sapphire",
+    "japanese": "せんとうに　でると　あめを　ふらす",
+    "english": "Summons rain in battle.",
+    "kind": "ability_description",
+    "originalChinese": "出场时降下雨。",
+    "chinese": "出场时降下雨。",
+    "action": "retain",
+    "method": "rsc_original_retained",
+    "reason": "完整静态特性说明；gAbilityDescription_Drizzle 的符号及英文原字节对应 upstream-6 第 4959 条唯一原候选，按特性说明类别原样发布。",
+    "originalCandidates": ["出场时降下雨。"]
   }
 ]

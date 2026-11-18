@@ -12,7 +12,7 @@
     },
     {
       "local": "outputs/corpus-mapping/build-manifest.json",
-      "sha256": "7a2233436333fd0ccf50bd6fa9cc9c5784f03110c1baddce089dfcd67afede86"
+      "sha256": "f5832d4376b53e5c67a00f311e5de7a2ded4382b919231c64d54d3840ea75999"
     },
     {
       "local": "corpus/visible-windows/policy.json",
@@ -20,7 +20,7 @@
     },
     {
       "local": "corpus/visible-windows/decisions.json",
-      "sha256": "d45093ae85c2b95353f91f2582c137e1363c743529001b075ac87b1f6b5a4acf"
+      "sha256": "122b3998c0c254bca726738336b182fa72774583aaac400a7cf2107ea393bbf0"
     },
     {
       "local": "reports/japanese-source-matching/ocr-inputs.json",
@@ -72,7 +72,7 @@
     },
     {
       "local": "corpus/visible-windows/native-fields.json",
-      "sha256": "e529a4ad54ad89dbc4bc3bba15678830918faedb5617ac9887a9a02007283f95"
+      "sha256": "85cb3f597eacffd932aaa6d4056fd84035021f8db88e62acf1a5ac71e86d2e00"
     },
     {
       "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/pokemon_summary_screen.c",
@@ -92,7 +92,7 @@
     },
     {
       "local": "outputs/corpus-mapping/candidates.csv",
-      "sha256": "7c467a740e53726d5c4f26d0aec928c9fd8927ea52edffff684fc8e140d54c51"
+      "sha256": "f04b0b3100e316bd05a89eb7bfd54fadd3a2dc8002a844165f122dc51df10ecb"
     },
     {
       "local": "outputs/corpus-mapping/source-links.csv",
@@ -104,13 +104,37 @@
     },
     {
       "local": "outputs/corpus-mapping/runtime.json",
-      "sha256": "04627f1bdefdb2980ca91d190e884cd534565071cd40f187e0b1f03e72da83e5"
+      "sha256": "b29c281b539f80489864313e8b90eac979b7fc74fc2e1d8363249f54209b519d"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/text/ability_descriptions.inc",
+      "sha256": "e23e5a59657ab3242edb0774cd41e26c24e8cf7428c151fdaa25e3d4efbc7bcb"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/pokemon_summary_screen.c",
+      "sha256": "79990bda2128f399f8565bfda4ebe14b125890f6a68b4fb54bef1f31f987c4a2"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/text.c",
+      "sha256": "34df7adbfb9aa14c4a6507cb555ce4484ab2f10148c759e79d8f19e8f27f9593"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/battle_message.h",
+      "sha256": "260592d39c97cd03e635b7e3910217d615308db3a519bdf5dd5c2733fb81c34c"
+    },
+    {
+      "local": ".tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_message.c",
+      "sha256": "719a8aeb662142aab4503ee3ee0858823bebe300bbe11669cb2309a5206ffb8a"
     }
   ],
   "implementation": [
     {
       "local": "tools/build_s6_corpus.mjs",
-      "sha256": "b8e6db1eac518e3d1235134343ee1a0a8ffe3d1e7ff650131e253e1ebae7c2f4"
+      "sha256": "40354fcefbef3b95b810fb91081085a7ca61c849c4d15789d13eb2ab82e86c9a"
+    },
+    {
+      "local": "tools/source_records.mjs",
+      "sha256": "2cc09ee74878106868eb1268039517ec0558be569000b9a7275ee2c813ff419e"
     },
     {
       "local": "tools/corpus_common.mjs",
@@ -156,19 +180,19 @@
   "outputs": [
     {
       "file": "runtime.json",
-      "sha256": "2fa5c3dfe77fa491c8bc7528c65df6c351d035faf739ecef37a22e2334f011e3"
+      "sha256": "3085ba6714a6672793b2bde63c275036797c31716ec35aa5a805fe2f94f287b8"
     },
     {
       "file": "summary.json",
-      "sha256": "612f0e05ac8f005f26100fd7995786f231f7e2da02a4f501c6bcb906564a00ed"
+      "sha256": "3c7fcd566860e99b1b3ef6a3e1b73329a7ca2d258a47a96ad531cd17b1579b8b"
     },
     {
       "file": "provenance.json",
-      "sha256": "d7c60cac7fc03f29a6c566fe008e754cd5fe95541a847c221537f7d56340c5f6"
+      "sha256": "05f6bd30a5a06c92f4919d184e7cb831b467325907a079b8e426bfc1245757e6"
     },
     {
       "file": "source-inventory.csv",
-      "sha256": "29e2b89c9d4f05a392f7ffd78b8b15c46742d190f48c4860ef7c40ea9c0edf61"
+      "sha256": "996a7468037aa843acf1c695213365739791d16491a9c3d9a182507732ffd1bc"
     },
     {
       "file": "correspondences.json",
@@ -176,7 +200,11 @@
     },
     {
       "file": "visible-windows.json",
-      "sha256": "03b5543494d2d0045a2562a826ea8630ae866e7b2a2d8f91307b34b33a162f54"
+      "sha256": "62d5fb8637a0d1968ab5ce04cb406592675e11753d38ab29aa151a71f8df953e"
+    },
+    {
+      "file": "source-registration.json",
+      "sha256": "d0dacb4e39470276383a91464c653ba62d8338568b17371cba17de2e1aff8eea"
     }
   ]
 }

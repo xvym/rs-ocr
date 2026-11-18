@@ -32,7 +32,7 @@ public final class LiveState {
         entries.clear();image=null;this.session=session;this.mapping=mapping;
     }
     public synchronized void observe(BufferedImage image,double gain,long firstObservedNanos) {
-        var regions=layout.locate(image,gain);var textImage=layout.textImage(image,regions);var current=new LinkedHashMap<String,Entry>();
+        var regions=layout.locate(image,gain);var textImage=layout.textImage(image,regions,gain);var current=new LinkedHashMap<String,Entry>();
         for(var region:regions) {
             String id=id(region);byte[] pixels=layout.fingerprint(region,regions,textImage,gain);var old=entries.get(id);
             if(old!=null && Arrays.equals(old.pixels,pixels) && Arrays.equals(old.geometry.logicalBox(),region.logicalBox()))current.put(id,old);

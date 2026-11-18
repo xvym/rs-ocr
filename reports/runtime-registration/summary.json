@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "countingUnit": "qid plus game; identical text and shared sources can count more than once",
+  "scope": "Current source registration, not whole-game screenshot translation coverage",
+  "wholeSourceRequired": true,
+  "noPageIndexAlignment": true,
+  "noUntypedBufferInference": true,
+  "generatedChineseRecords": 0,
+  "rewrittenChineseRecords": 0,
+  "perGame": {
+    "ruby": {
+      "withOriginalCandidates": 10413,
+      "previouslyRegistered": 1350,
+      "newlyRegistered": 7509,
+      "registeredTotal": 8859,
+      "pendingWithCandidates": 1554,
+      "pendingReasons": {
+        "unverified_variable_binding": 723,
+        "ambiguous_variable_boundaries": 5,
+        "unsupported_printing_control": 61,
+        "pokedex_page_alignment_required": 760,
+        "conflicting_original_candidates": 5
+      }
+    },
+    "sapphire": {
+      "withOriginalCandidates": 10414,
+      "previouslyRegistered": 1348,
+      "newlyRegistered": 7500,
+      "registeredTotal": 8848,
+      "pendingWithCandidates": 1566,
+      "pendingReasons": {
+        "unverified_variable_binding": 722,
+        "conflicting_original_candidates": 17,
+        "ambiguous_variable_boundaries": 5,
+        "unsupported_printing_control": 61,
+        "pokedex_page_alignment_required": 761
+      }
+    }
+  },
+  "bothVersions": {
+    "withOriginalCandidates": 20827,
+    "previouslyRegistered": 2698,
+    "newlyRegistered": 15009,
+    "registeredTotal": 17707,
+    "pendingWithCandidates": 3120,
+    "pendingReasons": {
+      "unverified_variable_binding": 1445,
+      "conflicting_original_candidates": 22,
+      "ambiguous_variable_boundaries": 10,
+      "unsupported_printing_control": 122,
+      "pokedex_page_alignment_required": 1521
+    }
+  },
+  "limitations": [
+    "Whole-source matches require all source text to be currently visible. Multi-page registration does not approve partial-page translation.",
+    "Multiple different applicable outputs still retain Japanese unless current visible context resolves them.",
+    "Pending rows may already have separately reviewed window/template rules; pending counts are not counts of completely untranslatable text.",
+    "Source registration does not enable OCR for new or unsupported layouts."
+  ],
+  "inputs": [
+    {
+      "local": "outputs/s6-corpus/build-manifest.json",
+      "sha256": "952df3f827add1784a9b5620b8692b513ce039448af208bca675a5abf0c8461b"
+    },
+    {
+      "local": "tools/source_records.mjs",
+      "sha256": "2cc09ee74878106868eb1268039517ec0558be569000b9a7275ee2c813ff419e"
+    },
+    {
+      "local": "tools/audit_runtime_registration.mjs",
+      "sha256": "d9a9b8d49f11ec9f9b7bfa12c339ea77320db9f512f5c8047685d03d55900171"
+    }
+  ]
+}

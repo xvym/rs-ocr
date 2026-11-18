@@ -28,6 +28,10 @@ public final class LivePresentation {
                 entry=new Entry(panel,observed,now);entries.put(panel.key(),entry);
             }
             else {
+                // A blinking outline carries no new selection while it is dark.
+                // Keep the last observed row until another outline or page content replaces it.
+                if(SummaryMoveSelection.isMoveList(panel.key()) && observed.selections().isEmpty())
+                    observed=new Decoration(observed.pointers(),entry.shown.selections());
                 if(!observed.equals(entry.candidate)) {entry.candidate=observed;entry.since=now;}
                 if(now-entry.since>=(observed.empty()?HIDE_NANOS:MOVE_NANOS))entry.shown=observed;
             }

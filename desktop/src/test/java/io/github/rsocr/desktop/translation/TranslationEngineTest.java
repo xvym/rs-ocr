@@ -40,9 +40,91 @@ class TranslationEngineTest {
         assertEquals("妙蛙种子",ENGINE.name("フシギダネ","species","both").value());assertEquals("ポチ",ENGINE.name("ポチ",null,"both").value());
         var r=ENGINE.lookup(unit("ハルカは パソコンの\nスイッチを いれた！"),"field_dialog","both");assertNotNull(r.chinese());assertEquals("ハルカは パソコンの\nスイッチを いれた！",r.unit().raw());
     }
+    @Test void heKanaHomoglyphsUseOriginalLexiconInBothDirectionsAndKeepRawText() {
+        for(String game:List.of("both","ruby","sapphire")) {
+            var result=ENGINE.lookup(unit("へラクロス"),"field_dialog",game);
+            var canonical=ENGINE.lookup(unit("ヘラクロス"),"field_dialog",game);
+            assertEquals("赫拉克罗斯",result.chinese());assertEquals(canonical.citations(),result.citations());
+            assertEquals("へラクロス",result.unit().raw());assertEquals("へラクロス",result.unit().searchText());
+            var name=ENGINE.name("へラクロス","species",game);
+            assertEquals("赫拉克罗斯",name.value());assertEquals("へラクロス",name.raw());assertFalse(name.sources().isEmpty());
+            assertEquals("大蛇瞪眼",ENGINE.name("ヘびにらみ","move",game).value());
+            assertEquals("给大吾的信",ENGINE.name("ダイゴヘのてがみ","item",game).value());
+        }
+        var wrongKind=new VisibleUnits.Unit("へラクロス",0,5,"へラクロス","move",List.of());
+        assertNull(ENGINE.lookup(wrongKind,"battle_moves","both").chinese());
+        for(String raw:List.of("へラクロ","へらクロス","へラクロス�","[へラクロス]"))
+            assertEquals(raw,ENGINE.name(raw,"species","both").value());
+    }
+    @Test void battleActorHomoglyphsTranslateWithoutChangingObservedBindingsOrUnknownNames() {
+        for(String game:List.of("both","ruby","sapphire"))for(String raw:List.of("へラクロスの\nすばやさが さがった！","へラクロスは\nかわらわりを した！")) {
+            var result=ENGINE.lookup(unit(raw),"battle_message",game);
+            var canonical=ENGINE.lookup(unit(raw.replace('へ','ヘ')),"battle_message",game);
+            assertNotNull(result.chinese());assertEquals(canonical.chinese(),result.chinese());assertTrue(result.chinese().contains("赫拉克罗斯"));
+            assertEquals(raw,result.unit().raw());assertTrue(result.bindings().stream().anyMatch(b->"へラクロス".equals(b.raw())&&"赫拉克罗斯".equals(b.value())&&!b.citations().isEmpty()));
+            for(var binding:result.bindings())if(binding.start()>=0)assertEquals(binding.raw(),raw.substring(binding.start(),binding.end()));
+            assertTrue(ENGINE.lookup(unit(raw),"battle_message",game,false).chinese().contains("へラクロス"));
+            var unknown=ENGINE.lookup(unit(raw.replace("へラクロス","へラクロ")),"battle_message",game);
+            assertNotNull(unknown.chinese());assertTrue(unknown.chinese().contains("へラクロ"));
+        }
+    }
     @Test void truncatedUnknownInjectedAndWrongLayoutInputsRemainRaw() {
         for(String s:List.of("あいて","しかし あいての グラ","ハルカは パソコンの","�","[PLAYER]"))assertNull(ENGINE.lookup(unit(s),"field_dialog","both").chinese(),s);
         assertNull(ENGINE.lookup(unit("エネコロロ『みゃあん？"),"bag_description","both").chinese());
+    }
+    @Test void cannotUseHerePublishesTheCompleteOriginalInBothGames() {
+        for(String game:List.of("both","ruby","sapphire"))for(String type:List.of("field_dialog","bag_prompt"))
+            for(String raw:List.of("ここでは つかえません","ここでは　つかえません","ここでは\nつかえません")) {
+                var result=ENGINE.lookup(unit(raw),type,game);
+                assertEquals("在这里无法使用。",result.chinese());assertEquals(result.chinese(),result.output());
+                assertEquals(raw,result.unit().raw());
+                assertEquals(List.of("rs.common.strings.OtherText_CantUseThatHere"),result.sourceQids());
+                assertEquals(game.equals("both")?2:1,result.citations().size());
+                for(var citation:result.citations()) {
+                    assertEquals("9043",citation.path("sourceLine").asText());
+                    assertEquals("在这里无法使用。",citation.path("chinese").asText());
+                }
+            }
+        for(String raw:List.of("ここでは つかえませ","ここでは つかえません�"))
+            assertNull(ENGINE.lookup(unit(raw),"field_dialog","both").chinese());
+        var wrongKind=new VisibleUnits.Unit("ここでは つかえません",0,11,"ここでは つかえません","move",List.of());
+        assertNull(ENGINE.lookup(wrongKind,"battle_moves","both").chinese());
+    }
+    @Test void drizzleDescriptionUsesTheCompleteOriginalSourceInBothGames() {
+        for(String game:List.of("both","ruby","sapphire"))
+            for(String raw:List.of("せんとうに　でると　あめを　ふらす","せんとうに でると あめを ふらす","せんとうに でると\nあめを ふらす")) {
+                var units=VisibleUnits.split("とくせい\nあめふらし\n"+raw,List.of("summary_ability"));
+                var result=ENGINE.lookup(units.get(2),"summary_ability",game);
+                assertEquals("ability_description",units.get(2).kind());
+                assertEquals("出场时降下雨。",result.chinese());assertEquals(result.chinese(),result.output());
+                assertEquals(raw,result.unit().raw());
+                assertEquals(List.of("rs.common.ability_descriptions.gAbilityDescription_Drizzle"),result.sourceQids());
+                assertEquals(game.equals("both")?2:1,result.citations().size());
+                for(var citation:result.citations()) {
+                    assertEquals("4959",citation.path("sourceLine").asText());
+                    assertEquals("出场时降下雨。",citation.path("chinese").asText());
+                    assertEquals(citation.path("game").asText().equals("ruby")?"upstream-5":"upstream-6",citation.path("sourceId").asText());
+                }
+            }
+        for(String raw:List.of("せんとうに でると あめを ふら","せんとうに でると あめを ふらす�"))
+            assertNull(ENGINE.lookup(new VisibleUnits.Unit(raw,0,raw.length(),raw,"ability_description",List.of()),"summary_ability","both").chinese());
+        String raw="せんとうに でると あめを ふらす";
+        assertNull(ENGINE.lookup(new VisibleUnits.Unit(raw,0,raw.length(),raw,"ability",List.of()),"summary_ability","both").chinese());
+    }
+    @Test void safariMetLocationUsesTheOriginalMapNameAndMemoPrintRecipe() {
+        for(String game:List.of("both","ruby","sapphire"))
+            for(String raw:List.of("サファリゾーンで であった","サファリゾーンで　であった","サファリゾーンでであった")) {
+                var result=ENGINE.lookup(unit(raw),"summary_memo",game);
+                assertEquals("狩猎地带相遇。",result.chinese());assertEquals(result.chinese(),result.output());
+                assertEquals("original_rsc_native_field",result.status());assertEquals("memo_met_location",result.ruleId());
+                assertEquals(raw,result.unit().raw());
+                assertTrue(result.citations().stream().anyMatch(c->c.path("qid").asText().equals("rs.common.region_map_entries.sMapName_SAFARIZONE")&&c.path("sourceLine").asInt()==8262));
+                assertTrue(result.citations().stream().anyMatch(c->c.path("qid").asText().equals("rs.common.strings2.gOtherText_Met")&&c.path("sourceLine").asInt()==9751));
+                assertEquals(game.equals("both")?4:2,result.citations().size());
+            }
+        for(String raw:List.of("サファリゾーンで であっ","サファリゾー�で であった","サファリゾーンで あったようだ","サファリゾーンXで であった"))
+            assertNull(ENGINE.lookup(unit(raw),"summary_memo","both").chinese());
+        assertNull(ENGINE.lookup(unit("サファリゾーンで であった"),"field_dialog","both").chinese());
     }
     @Test void equalOutputKeepsEverySourceAndActualTypeAndVersionConflictsStayRaw() {
         var same=ENGINE.name("ハルカ","person","both");assertEquals("小遥",same.value());assertTrue(same.sources().size()>2);

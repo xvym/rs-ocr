@@ -50,6 +50,9 @@ foreach ($candidate in ($candidates | Select-Object -Unique)) {
     }
 }
 if (-not $java) { throw '没有找到 Java 21 或更新版本。请安装后设置 JAVA_HOME，或使用 -JavaHome 指定目录。' }
+# The running JVM lazily reads classes from its JAR. Never let a rebuild replace it.
+. (Join-Path $PSScriptRoot 'tools/desktop_snapshot.ps1')
+$jar = Get-DesktopSnapshot -SourceJar $jar -CacheRoot (Join-Path $PSScriptRoot '.tools/desktop-cache')
 $cache = Join-Path $PSScriptRoot '.tools/javafx-cache'
 $arguments = @("-Djavafx.cachedir=$cache", '-jar', $jar, '--profile', $Profile)
 if ($Image) { $arguments += @('--image', $Image) }
@@ -63,6 +66,7 @@ $null = New-Item -ItemType Directory -Path $cache -Force
 $stamp = Get-Date -Format 'yyyyMMdd-HHmmss-fff'
 $errorLog = Join-Path $PSScriptRoot ".tools/desktop-$stamp-stderr.log"
 $outputLog = Join-Path $PSScriptRoot ".tools/desktop-$stamp-stdout.log"
+$arguments = @("-Drsocr.project.root=$PSScriptRoot", "-Drsocr.log.stdout=$outputLog", "-Drsocr.log.stderr=$errorLog") + $arguments
 # Start-Process joins arguments on Windows: quote paths, including trailing backslashes.
 $quoted = $arguments | ForEach-Object { '"' + ($_ -replace '(\\+)$', '$1$1') + '"' }
 $process = Start-Process -FilePath $java -ArgumentList $quoted -WorkingDirectory $PSScriptRoot -WindowStyle Normal -RedirectStandardError $errorLog -RedirectStandardOutput $outputLog -PassThru

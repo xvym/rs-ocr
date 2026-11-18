@@ -9,7 +9,7 @@
     },
     {
       "local": "corpus/visible-windows/decisions.json",
-      "sha256": "d45093ae85c2b95353f91f2582c137e1363c743529001b075ac87b1f6b5a4acf"
+      "sha256": "122b3998c0c254bca726738336b182fa72774583aaac400a7cf2107ea393bbf0"
     },
     {
       "local": "corpus/visible-windows/variable-bindings.json",
@@ -21,7 +21,7 @@
     },
     {
       "local": "corpus/visible-windows/native-fields.json",
-      "sha256": "e529a4ad54ad89dbc4bc3bba15678830918faedb5617ac9887a9a02007283f95"
+      "sha256": "85cb3f597eacffd932aaa6d4056fd84035021f8db88e62acf1a5ac71e86d2e00"
     },
     {
       "local": "reports/s3-acceptance/reference.json",
@@ -73,7 +73,7 @@
     },
     {
       "local": "outputs/corpus-mapping/candidates.csv",
-      "sha256": "7c467a740e53726d5c4f26d0aec928c9fd8927ea52edffff684fc8e140d54c51"
+      "sha256": "f04b0b3100e316bd05a89eb7bfd54fadd3a2dc8002a844165f122dc51df10ecb"
     },
     {
       "local": "corpus/sources.json",

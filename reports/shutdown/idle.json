@@ -1,0 +1,7 @@
+{
+  "mode" : "idle",
+  "statusBeforeClose" : "idle",
+  "startupAndCheckMs" : 2266.3207,
+  "closeToApplicationReturnMs" : 121.1217,
+  "passed" : true
+}

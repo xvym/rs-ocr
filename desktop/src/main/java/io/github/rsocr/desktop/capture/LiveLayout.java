@@ -4,6 +4,8 @@ import io.github.rsocr.OcrEngine.*;
 import io.github.rsocr.OcrEngine;
 import io.github.rsocr.desktop.CursorPixels;
 import io.github.rsocr.desktop.BattleCursor;
+import io.github.rsocr.desktop.SummaryMoveSelection;
+import io.github.rsocr.desktop.SummaryTrainerName;
 
 import com.fasterxml.jackson.databind.*;
 import java.awt.image.BufferedImage;
@@ -17,6 +19,7 @@ public final class LiveLayout {
     private final JsonNode profiles;
     private final CursorPixels cursors;
     private final BattleCursor cursor;
+    private final SummaryTrainerName trainerName;
     private final Map<String,JsonNode> labels=new HashMap<>();
     private final Map<String,JsonNode> sprites=new HashMap<>();
     private final Map<String,JsonNode> contexts=new HashMap<>();
@@ -24,6 +27,7 @@ public final class LiveLayout {
     public LiveLayout(ObjectMapper mapper) throws IOException {
         cursors=new CursorPixels(mapper);
         cursor=new BattleCursor(mapper);
+        trainerName=new SummaryTrainerName(mapper);
         try(var in=OcrEngine.class.getResourceAsStream("/ocr/regions.json")) {
             profiles=mapper.readTree(in).get("profiles");
         }
@@ -37,7 +41,10 @@ public final class LiveLayout {
         }
     }
 
-    public BufferedImage textImage(BufferedImage image,List<Region> regions) {return cursor.textImage(image,regions);}
+    public BufferedImage textImage(BufferedImage image,List<Region> regions) {return textImage(image,regions,.984);}
+    public BufferedImage textImage(BufferedImage image,List<Region> regions,double gain) {
+        return trainerName.textImage(cursor.textImage(SummaryMoveSelection.detectorImage(image,profiles,gain),regions),regions,profiles,gain);
+    }
 
     private static int[] box(JsonNode n) {
         return new int[]{n.get(0).asInt(),n.get(1).asInt(),n.get(2).asInt(),n.get(3).asInt()};
@@ -77,6 +84,7 @@ public final class LiveLayout {
 
     public List<Region> locate(BufferedImage image,double gain) {
         if(image.getWidth()!=240 || image.getHeight()!=160) throw new IllegalArgumentException("识别器输入必须是 240×160。");
+        image=SummaryMoveSelection.detectorImage(image,profiles,gain);
         var detected=new ArrayList<Detected>();
         for(var p:profiles) {
             if(p.has("required_label")) {
@@ -157,9 +165,11 @@ public final class LiveLayout {
         JsonNode profile=null;String key=region.typeCandidates().getFirst();
         for(var p:profiles)if(p.get("key").asText().equals(key))profile=p;
         var bytes=new ByteArrayOutputStream();
-        bytes.writeBytes((region.variant()+":"+region.typeCandidates()).getBytes(java.nio.charset.StandardCharsets.UTF_8));
+        String variant=SummaryMoveSelection.isMoveList(key)?region.variant().replace("_selection",""):region.variant();
+        bytes.writeBytes((variant+":"+region.typeCandidates()).getBytes(java.nio.charset.StandardCharsets.UTF_8));
         for(var segment:profile.get("rows"))for(var block:segment) {
             int left,top,width,height;String mode;String labelId=null,spriteId=null;
+            JsonNode spriteValid=null;
             if(block.has("font")) {
                 left=block.get("x").asInt();top=block.get("y").asInt();width=block.get("right").asInt()-left;height=16;
                 boolean covered=false;
@@ -173,6 +183,7 @@ public final class LiveLayout {
                 left=b[0];top=b[1];width=b[2];height=b[3];mode=label.get("color").asText();
             } else {
                 spriteId=block.get("sprite").asText();var group=sprites.get(spriteId);var mask=group.get("templates").get(0).get("mask");
+                if(SummaryMoveSelection.isMoveList(key) && spriteId.equals("types"))spriteValid=group.get("templates").get(0).get("valid");
                 left=block.get("x").asInt();top=block.get("y").asInt();width=mask.get(0).asText().length();height=mask.size();mode=group.get("color").asText();
             }
             var ignored=new BitSet(width);
@@ -183,7 +194,8 @@ public final class LiveLayout {
                     if(advance==8 && cursors.arrow(image,x,top) || dialogue && cursors.waitArrow(image,x,top,advance))ignored.set(x-left,x-left+advance);
             }
             for(int y=top;y<top+height;y++)for(int x=left;x<left+width;x++) {
-                if(ignored.get(x-left)) {bytes.write(0);continue;}
+                // Match the OCR sprite mask: its decorative icon border is not text.
+                if(ignored.get(x-left) || spriteValid!=null && spriteValid.get(y-top).asText().charAt(x-left)!='1') {bytes.write(0);continue;}
                 int rgb=image.getRGB(x,y);boolean on;
                 if(gain<.9 && "exp".equals(labelId))on=channel(rgb,16)>110 && channel(rgb,8)>80 && channel(rgb,0)<130;
                 else if(gain<.9 && labelId!=null && mode.equals("light"))on=Math.min(channel(rgb,16),Math.min(channel(rgb,8),channel(rgb,0)))>(labelId.equals("experience")?110:135);

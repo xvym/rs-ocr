@@ -64,6 +64,8 @@ void throwJava(JNIEnv* env, std::wstring const& message) {
 struct Metrics {
     int windowWidth;
     int windowHeight;
+    int extendedWidth;
+    int extendedHeight;
     std::array<jint, 8> clientHints;
     UINT dpi;
     bool operator==(Metrics const&) const = default;
@@ -78,6 +80,7 @@ Metrics metrics(HWND hwnd) {
     winrt::check_bool(ClientToScreen(hwnd, &origin));
     winrt::check_hresult(DwmGetWindowAttribute(hwnd, DWMWA_EXTENDED_FRAME_BOUNDS, &extended, sizeof(extended)));
     return {window.right - window.left, window.bottom - window.top,
+        extended.right - extended.left, extended.bottom - extended.top,
         {origin.x - extended.left, origin.y - extended.top, client.right, client.bottom,
          origin.x - window.left, origin.y - window.top, client.right, client.bottom}, GetDpiForWindow(hwnd)};
 }
@@ -94,6 +97,8 @@ struct FrameSnapshot {
 
 // One WGC source, one most recent CPU image. Callbacks never invoke Java/JNI.
 class FrameSource : public std::enable_shared_from_this<FrameSource> {
+    HWND window = nullptr;
+    Metrics geometry{};
     capture::GraphicsCaptureItem item{nullptr};
     capture::Direct3D11CaptureFramePool pool{nullptr};
     capture::GraphicsCaptureSession session{nullptr};
@@ -152,6 +157,25 @@ class FrameSource : public std::enable_shared_from_this<FrameSource> {
                 frame.Close();
                 return;
             }
+            // WGC captures the whole HWND. Match its bounds before translating the
+            // physical client rectangle; never guess an offset from the title height.
+            int hint = size.Width == geometry.extendedWidth && size.Height == geometry.extendedHeight ? 0 :
+                size.Width == geometry.windowWidth && size.Height == geometry.windowHeight ? 4 : -1;
+            if (hint < 0 || !(metrics(window) == geometry)) {
+                std::lock_guard dataLock(dataMutex);
+                latest.status = Waiting;
+                latest.detail = L"窗口尺寸变化，等待内容区新帧";
+                latest.pixels.clear();
+                frame.Close();
+                return;
+            }
+            int left = geometry.clientHints[hint], top = geometry.clientHints[hint + 1];
+            int width = geometry.clientHints[hint + 2], height = geometry.clientHints[hint + 3];
+            if (left < 0 || top < 0 || width <= 0 || height <= 0 ||
+                    left + width > size.Width || top + height > size.Height) {
+                frame.Close();
+                return;
+            }
             if (!staging) {
                 desc.Usage = D3D11_USAGE_STAGING;
                 desc.BindFlags = 0;
@@ -160,13 +184,13 @@ class FrameSource : public std::enable_shared_from_this<FrameSource> {
                 winrt::check_hresult(d3d->CreateTexture2D(&desc, nullptr, staging.put()));
             }
             context->CopyResource(staging.get(), texture.get());
-            std::vector<jint> pixels(static_cast<size_t>(size.Width) * size.Height);
+            std::vector<jint> pixels(static_cast<size_t>(width) * height);
             D3D11_MAPPED_SUBRESOURCE mapped{};
             winrt::check_hresult(context->Map(staging.get(), 0, D3D11_MAP_READ, 0, &mapped));
-            for (int y = 0; y < size.Height; ++y) {
-                auto row = reinterpret_cast<uint32_t const*>(static_cast<uint8_t const*>(mapped.pData) + y * mapped.RowPitch);
-                for (int x = 0; x < size.Width; ++x)
-                    pixels[static_cast<size_t>(y) * size.Width + x] = static_cast<jint>(row[x] | 0xff000000U);
+            for (int y = 0; y < height; ++y) {
+                auto row = reinterpret_cast<uint32_t const*>(static_cast<uint8_t const*>(mapped.pData) + (top + y) * mapped.RowPitch) + left;
+                for (int x = 0; x < width; ++x)
+                    pixels[static_cast<size_t>(y) * width + x] = static_cast<jint>(row[x] | 0xff000000U);
             }
             context->Unmap(staging.get(), 0);
             frame.Close();
@@ -176,8 +200,8 @@ class FrameSource : public std::enable_shared_from_this<FrameSource> {
                 latest.detail = L"捕获中";
                 ++latest.id;
                 latest.arrival = arrival;
-                latest.width = size.Width;
-                latest.height = size.Height;
+                latest.width = width;
+                latest.height = height;
                 latest.pixels = std::move(pixels);
             }
         } catch (winrt::hresult_error const& e) {
@@ -188,7 +212,9 @@ class FrameSource : public std::enable_shared_from_this<FrameSource> {
     }
 
 public:
-    void start(HWND hwnd) {
+    void start(HWND hwnd, Metrics const& current) {
+        window = hwnd;
+        geometry = current;
         auto factory = winrt::get_activation_factory<capture::GraphicsCaptureItem, IGraphicsCaptureItemInterop>();
         winrt::check_hresult(factory->CreateForWindow(hwnd, winrt::guid_of<capture::GraphicsCaptureItem>(), winrt::put_abi(item)));
         winrt::check_hresult(D3D11CreateDevice(nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, D3D11_CREATE_DEVICE_BGRA_SUPPORT,
@@ -276,7 +302,7 @@ struct Session {
             previous = current;
             ++revision;
             source = std::make_shared<FrameSource>();
-            source->start(hwnd);
+            source->start(hwnd, current);
         }
         return source->snapshot(true, previousRevision != revision ? -1 : previousId);
     }
@@ -357,8 +383,10 @@ extern "C" JNIEXPORT jobject JNICALL Java_io_github_rsocr_desktop_capture_Window
             pixels = env->NewIntArray(static_cast<jsize>(frame.pixels.size()));
             env->SetIntArrayRegion(pixels, 0, static_cast<jsize>(frame.pixels.size()), frame.pixels.data());
         }
-        auto hints = env->NewIntArray(8);
-        env->SetIntArrayRegion(hints, 0, 8, current.clientHints.data());
+        // All downstream coordinates are relative to the cropped client image.
+        std::array<jint, 4> client{0, 0, frame.width, frame.height};
+        auto hints = env->NewIntArray(4);
+        env->SetIntArrayRegion(hints, 0, 4, client.data());
         return env->NewObject(type, constructor, static_cast<jint>(frame.status), detail, static_cast<jlong>(session.revision),
             static_cast<jlong>(frame.id), static_cast<jlong>(frame.arrival), static_cast<jlong>(nowNanos()),
             frame.width, frame.height, pixels, hints, static_cast<jint>(current.dpi));

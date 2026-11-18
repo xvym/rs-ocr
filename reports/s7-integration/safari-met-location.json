@@ -1,0 +1,468 @@
+{
+  "passed": true,
+  "packagedLookups": 9,
+  "reasonBeforeFix": "no_reviewed_visible_window",
+  "jarSha256": "87b9b8c59deaf4263c361db72f8cf18733db7c08a5e3d19956b55509200ad327",
+  "generatedChineseRecords": 0,
+  "results": [
+    {
+      "request": {
+        "game": "both",
+        "type": "summary_memo",
+        "japanese": "サファリゾーンで であった"
+      },
+      "chinese": "狩猎地带相遇。",
+      "status": "original_rsc_native_field",
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-5:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-5:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-5:8262",
+          "quote": "狩猎地带"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-6:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-6:8262",
+          "quote": "狩猎地带"
+        }
+      ]
+    },
+    {
+      "request": {
+        "game": "both",
+        "type": "summary_memo",
+        "japanese": "サファリゾーンで　であった"
+      },
+      "chinese": "狩猎地带相遇。",
+      "status": "original_rsc_native_field",
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-5:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-5:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-5:8262",
+          "quote": "狩猎地带"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-6:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-6:8262",
+          "quote": "狩猎地带"
+        }
+      ]
+    },
+    {
+      "request": {
+        "game": "both",
+        "type": "summary_memo",
+        "japanese": "サファリゾーンでであった"
+      },
+      "chinese": "狩猎地带相遇。",
+      "status": "original_rsc_native_field",
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-5:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-5:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-5:8262",
+          "quote": "狩猎地带"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-6:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-6:8262",
+          "quote": "狩猎地带"
+        }
+      ]
+    },
+    {
+      "request": {
+        "game": "ruby",
+        "type": "summary_memo",
+        "japanese": "サファリゾーンで であった"
+      },
+      "chinese": "狩猎地带相遇。",
+      "status": "original_rsc_native_field",
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-5:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-5:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-5:8262",
+          "quote": "狩猎地带"
+        }
+      ]
+    },
+    {
+      "request": {
+        "game": "ruby",
+        "type": "summary_memo",
+        "japanese": "サファリゾーンで　であった"
+      },
+      "chinese": "狩猎地带相遇。",
+      "status": "original_rsc_native_field",
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-5:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-5:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-5:8262",
+          "quote": "狩猎地带"
+        }
+      ]
+    },
+    {
+      "request": {
+        "game": "ruby",
+        "type": "summary_memo",
+        "japanese": "サファリゾーンでであった"
+      },
+      "chinese": "狩猎地带相遇。",
+      "status": "original_rsc_native_field",
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-5:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-5:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-5:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "ruby",
+          "sourceId": "upstream-5",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-5:8262",
+          "quote": "狩猎地带"
+        }
+      ]
+    },
+    {
+      "request": {
+        "game": "sapphire",
+        "type": "summary_memo",
+        "japanese": "サファリゾーンで であった"
+      },
+      "chinese": "狩猎地带相遇。",
+      "status": "original_rsc_native_field",
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-6:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-6:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-6:8262",
+          "quote": "狩猎地带"
+        }
+      ]
+    },
+    {
+      "request": {
+        "game": "sapphire",
+        "type": "summary_memo",
+        "japanese": "サファリゾーンで　であった"
+      },
+      "chinese": "狩猎地带相遇。",
+      "status": "original_rsc_native_field",
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-6:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-6:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-6:8262",
+          "quote": "狩猎地带"
+        }
+      ]
+    },
+    {
+      "request": {
+        "game": "sapphire",
+        "type": "summary_memo",
+        "japanese": "サファリゾーンでであった"
+      },
+      "chinese": "狩猎地带相遇。",
+      "status": "original_rsc_native_field",
+      "citations": [
+        {
+          "candidateId": "original-entry:upstream-6:9751",
+          "qid": "rs.common.strings2.gOtherText_Met",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 9751,
+          "sourceChineseSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span": [
+            0,
+            3
+          ],
+          "quoteSha256": "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId": "upstream-6:9751",
+          "quote": "相遇。"
+        },
+        {
+          "candidateId": "original-entry:upstream-6:8262",
+          "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+          "game": "sapphire",
+          "sourceId": "upstream-6",
+          "sourceLine": 8262,
+          "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "span": [
+            0,
+            4
+          ],
+          "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+          "sourceEntryId": "upstream-6:8262",
+          "quote": "狩猎地带"
+        }
+      ]
+    }
+  ]
+}

@@ -19,9 +19,23 @@ public final class VisibleUnits {
         while(lm.find())lines.add(new Line(lm.group(),lm.start(),lm.end()));
         boolean composite=true;
         switch(type) {
+            case "summary_battle_moves" -> {
+                for(var l:lines) {
+                    var m=match("^([^ 　]+)[ 　]+(.+?)[ 　]+PP[ 　]*([0-9０-９]+)[ 　]*/[ 　]*([0-9０-９]+)$",l.text);
+                    if(!m.matches()){line(out,raw,l);continue;}
+                    add(out,raw,l.start,l.start+m.end(1),m.group(1),"type");
+                    add(out,raw,l.start+m.start(2),l.end,m.group(2),"move",new Field("current_pp",l.text.substring(m.end(2))));
+                }
+            }
+            case "summary_move_description" -> {
+                if(lines.getFirst().text.strip().equals("せつめい")) {
+                    line(out,raw,lines.getFirst());
+                    if(lines.size()>1){int start=lines.get(1).start;add(out,raw,start,raw.length(),raw.substring(start),"move_description");}
+                }else add(out,raw,0,raw.length(),raw,"move_description");
+            }
             case "summary_ability" -> {
                 line(out,raw,lines.getFirst());if(lines.size()>1){var l=lines.get(1);add(out,raw,l.start,l.end,l.text,"ability");}
-                if(lines.size()>2){var l=lines.get(2);add(out,raw,l.start,raw.length(),raw.substring(l.start),"ability_description");}
+                if(lines.size()>2){var l=lines.get(2);add(out,raw,l.start,raw.length(),raw.substring(l.start),"ability_description",new Field("visible_ability",lines.get(1).text));}
             }
             case "summary_stats" -> {
                 line(out,raw,lines.getFirst());

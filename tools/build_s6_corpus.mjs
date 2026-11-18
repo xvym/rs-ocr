@@ -5,6 +5,7 @@ import {read,sha256,parseCsv,csv} from './corpus_common.mjs';
 import {loadPolicy,POLICY,validateOriginalRows,verifyManifest,displayOriginal} from './rsc_translation_policy.mjs';
 import {validateRscCorrespondenceIndex} from './rsc_correspondence_index.mjs';
 import {compileVisibleWindows} from './s6_visible_windows.mjs';
+import {compileSourceRecords,validateSourceRecords} from './source_records.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.resolve(root,process.argv[2]||'outputs/s6-corpus');fs.mkdirSync(out,{recursive:true});
 const {policy,sources}=loadPolicy(root);
@@ -43,9 +44,23 @@ for(const list of groups.values()){
     candidateIds:choices.filter(c=>c.chinese===texts[0]).map(c=>c.id),selection:dictionary.length?'original_rsc_typed_dictionary':'unambiguous_original_rsc_candidate'});
 }
 const units=base.records.map(r=>({...r,candidateIds:r.sourceCandidates.filter(id=>candidates.some(c=>c.id===id&&c.chinese===r.chinese))}));
+const abilityTableLocal='.tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/data/text/ability_descriptions.inc';
+const abilityTable=input(abilityTableLocal).split('gAbilityDescriptions::')[1];
+// Fixed native callers/handlers establish same-index ability selection and
+// non-printing style/sound/wait controls; no positioning control is elided.
+input('.tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/pokemon_summary_screen.c');
+input('.tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/text.c');
+input('.tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/include/battle_message.h');
+input('.tools/corpus-source/pokeruby-5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f/src/battle_message.c');
+const abilitySymbols=[...abilityTable.matchAll(/\.4byte (gAbilityDescription_[A-Za-z0-9_]+)/g)].map(m=>m[1]);
+if(abilitySymbols.length!==78)throw Error('Changed native ability pointer table');
+const sourceContexts=Object.fromEntries(abilitySymbols.map((symbol,i)=>{const name=byQid.get('rs.common.ability_names.gAbilityNames.'+i);if(!name)throw Error('Missing ability index '+i);return ['rs.common.ability_descriptions.'+symbol,{abilityName:name.japanese,abilityNameQid:name.qid,pointerIndex:i}];}));
+const sourceRegistration=compileSourceRecords(records,candidates,[...lexicon,...units],sourceContexts);
+const sourceRecords=sourceRegistration.records;
+validateSourceRecords(sourceRecords,records,candidates,sourceContexts);
 validateOriginalRows([...lexicon,...units],candidates,sources);
 const summary={schemaVersion:3,translationPolicy:POLICY,sourceSelection:policy.sourceSelection,semanticDifferenceFallback:false,generatedChineseRecords:0,rewrittenChineseRecords:0,
-  lexiconRecords:lexicon.length,staticRecords:units.length,originalCandidateRows:candidates.length,
+  lexiconRecords:lexicon.length,staticRecords:units.length,wholeSourceRegistration:sourceRegistration.summary,originalCandidateRows:candidates.length,
   deferredTypedConflicts:conflicts.length,displayableRecords:[...lexicon,...units].filter(r=>displayOriginal(r.chinese)!==null).length,
   chineseTemplates:visibleWindows.variableBindings.contracts.length,templatePolicy:'existing_original_RSC_only',chineseEventFormats:0,chineseCompositionRules:0,originalRscTemplateFamilies:visibleWindows.variableBindings.contracts.length,generatedChineseTemplates:0,complete:false,
   correspondenceIndex:correspondences.summary,
@@ -53,22 +68,24 @@ const summary={schemaVersion:3,translationPolicy:POLICY,sourceSelection:policy.s
   semanticAcceptance:'not_required_for_unique_original_source',runtimeIntegration:'S7_pending',
   fallback:'original_japanese',unmatchedIsNotProofOfMissingTranslation:true};
 const pack={schemaVersion:3,id:'rs-rsc-original-only-v1',translationPolicy:POLICY,rscSources:sources,
-  lexicon,units,candidates,summary};
+  lexicon,units,sourceRecords,candidates,summary};
 const write=(file,value)=>{const target=path.join(out,file),text=JSON.stringify(value,null,2)+'\n';if(!fs.existsSync(target)||fs.readFileSync(target,'utf8')!==text){const temporary=target+'.tmp';fs.writeFileSync(temporary,text);fs.renameSync(temporary,target);}};
 write('runtime.json',pack);write('summary.json',summary);
+write('source-registration.json',sourceRegistration);
 write('visible-windows.json',visibleWindows);
 write('provenance.json',{translationPolicy:policy,records,candidates,sourceLinks,typedConflicts:conflicts});
 fs.writeFileSync(path.join(out,'correspondences.json'),correspondenceText);
 const reviewedPairs=new Set(correspondences.links.filter(l=>!['pokedex_parent','reviewed_source_fragment'].includes(l.relation)).map(l=>l.qid+':'+l.game));
 const fragmentPairs=new Set(correspondences.links.filter(l=>l.relation==='reviewed_source_fragment').map(l=>l.qid+':'+l.game));
 const parentPairs=new Set(correspondences.links.filter(l=>l.relation==='pokedex_parent').map(l=>l.qid+':'+l.game));
+const registrationStates=new Map(sourceRegistration.inventory.map(r=>[r.qid+':'+r.game,r.status]));
 const inventory=records.flatMap(r=>(r.game==='both'?['ruby','sapphire']:[r.game]).map(game=>({qid:r.qid,game,
   status:groups.has(r.qid+':'+game)?'original_rsc_candidates_available':reviewedPairs.has(r.qid+':'+game)?'reviewed_correspondence_indexed':fragmentPairs.has(r.qid+':'+game)?'reviewed_fragment_only':'correspondence_not_established',
   reviewedCorrespondence:reviewedPairs.has(r.qid+':'+game),reviewedSourceFragment:fragmentPairs.has(r.qid+':'+game),parentAssociation:parentPairs.has(r.qid+':'+game),
-  staticPublished:units.some(u=>u.qid===r.qid&&u.game===game)})));
-fs.writeFileSync(path.join(out,'source-inventory.csv'),csv(inventory,['qid','game','status','reviewedCorrespondence','reviewedSourceFragment','parentAssociation','staticPublished']));
-const files=['runtime.json','summary.json','provenance.json','source-inventory.csv','correspondences.json','visible-windows.json'];
+  staticPublished:units.some(u=>u.qid===r.qid&&u.game===game),sourceRegistration:registrationStates.get(r.qid+':'+game)})));
+fs.writeFileSync(path.join(out,'source-inventory.csv'),csv(inventory,['qid','game','status','reviewedCorrespondence','reviewedSourceFragment','parentAssociation','staticPublished','sourceRegistration']));
+const files=['runtime.json','summary.json','provenance.json','source-inventory.csv','correspondences.json','visible-windows.json','source-registration.json'];
 write('build-manifest.json',{schemaVersion:3,translationPolicy:POLICY,inputs,
-  implementation:['tools/build_s6_corpus.mjs','tools/corpus_common.mjs','tools/rsc_translation_policy.mjs','tools/rsc_correspondence_index.mjs','tools/s6_visible_windows.mjs','tools/s6_variable_bindings.mjs','tools/s6_semantic_units.mjs','tools/s6_native_fields.mjs','tools/japanese_source_matcher.mjs','tools/japanese_source_layout.mjs','tools/battle_source_matcher.mjs'].map(local=>({local,sha256:sha256(fs.readFileSync(path.join(root,local)))})),
+  implementation:['tools/build_s6_corpus.mjs','tools/source_records.mjs','tools/corpus_common.mjs','tools/rsc_translation_policy.mjs','tools/rsc_correspondence_index.mjs','tools/s6_visible_windows.mjs','tools/s6_variable_bindings.mjs','tools/s6_semantic_units.mjs','tools/s6_native_fields.mjs','tools/japanese_source_matcher.mjs','tools/japanese_source_layout.mjs','tools/battle_source_matcher.mjs'].map(local=>({local,sha256:sha256(fs.readFileSync(path.join(root,local)))})),
   outputs:files.map(file=>({file,sha256:sha256(fs.readFileSync(path.join(out,file)))}))});
 console.log(JSON.stringify(summary,null,2));

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "requests": 468,
+  "abilityDescriptionsPerGame": 78,
+  "forms": [
+    "original",
+    "half_width",
+    "wrapped"
+  ],
+  "isolatedJarOnly": true,
+  "sourceChineseUnchanged": true,
+  "scope": "Packaged Java text matching with synthetic layout inputs; not screenshot OCR or live-device coverage",
+  "jarSha256": "c12b799069f694e6d8e6b57f5dd3047af9af03dff726f435931070c588d3b536",
+  "s6ManifestSha256": "952df3f827add1784a9b5620b8692b513ce039448af208bca675a5abf0c8461b"
+}

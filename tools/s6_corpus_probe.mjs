@@ -5,13 +5,15 @@ import {project} from './japanese_source_matcher.mjs';
 import {POLICY,validateOriginalRows,displayOriginal} from './rsc_translation_policy.mjs';
 import {validateRscCorrespondenceIndex} from './rsc_correspondence_index.mjs';
 import {S6VisibleWindowProbe} from './s6_visible_windows.mjs';
+import {validateSourceRecords} from './source_records.mjs';
 const key=text=>project(text).key;
 const applicable=(r,game)=>game==='both'||r.game==='both'||r.game===game;
 export class S6CorpusProbe{
   constructor(pack){
     if(pack.schemaVersion!==3||pack.translationPolicy!==POLICY||['templates','events','compositionPolicy','namePolicy'].some(k=>k in pack))throw Error('RSC-only pack required; legacy model corpus rejected');
     if(pack.rscSources?.length!==6||pack.rscSources.some(s=>s.repository!=='UWorldGX/pkmn_rs_chn_rsc'||s.commit!=='f513cf437acca23d1a5882650ee3b148dc463a17'))throw Error('Pinned RSC source identities required');
-    validateOriginalRows([...pack.lexicon,...pack.units],pack.candidates,pack.rscSources);
+    validateOriginalRows([...pack.lexicon,...pack.units,...(pack.sourceRecords||[])],pack.candidates,pack.rscSources);
+    validateSourceRecords(pack.sourceRecords||[],(pack.sourceRecords||[]).map(r=>({...r,game:'both'})),pack.candidates,Object.fromEntries((pack.sourceRecords||[]).filter(r=>r.context).map(r=>[r.qid,r.context])));
     this.pack=structuredClone(pack);this.index=new Map();
     for(const r of [...this.pack.lexicon,...this.pack.units]){const k=key(r.japanese),list=this.index.get(k)||[];list.push(r);this.index.set(k,list);}
   }

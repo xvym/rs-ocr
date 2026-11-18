@@ -182456,6 +182456,38 @@
         "english": ""
       },
       {
+        "id": "upstream-5:8262",
+        "sourceId": "upstream-5",
+        "sourceLine": 8262,
+        "locatorType": "entry_number",
+        "game": "ruby",
+        "sourcePath": "1.2汉化红宝石拼合/红宝石1.2汉化总文本(JP).txt",
+        "sourceSha256": "b0fccb0a43f840f58aa32a420933c54e0bf1eb4bd854a368129f050910763e69",
+        "originalChinese": "狩猎地带",
+        "originalChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+        "recordedAddress": "0x3E7293",
+        "address": "0x3E7293",
+        "sourceSymbol": "sMapName_SAFARI_ZONE",
+        "sourceFile": "src/data/region_map/region_map_sections.json",
+        "english": ""
+      },
+      {
+        "id": "upstream-6:8262",
+        "sourceId": "upstream-6",
+        "sourceLine": 8262,
+        "locatorType": "entry_number",
+        "game": "sapphire",
+        "sourcePath": "1.2汉化蓝宝石拼合/蓝宝石1.2汉化总文本(JP).txt",
+        "sourceSha256": "3ba491e6d71e366666da42ed9877d1ef5c0b6d70440068c0d479de65d4984bc1",
+        "originalChinese": "狩猎地带",
+        "originalChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+        "recordedAddress": "0x3E72EF",
+        "address": "0x3E72EF",
+        "sourceSymbol": "sMapName_SAFARI_ZONE",
+        "sourceFile": "src/data/region_map/region_map_sections.json",
+        "english": ""
+      },
+      {
         "id": "upstream-5:9069",
         "sourceId": "upstream-5",
         "sourceLine": 9069,
@@ -182659,6 +182691,45 @@
             ],
             "japanese": "１１８ばん　どうろ",
             "english": "ROUTE 118"
+          },
+          {
+            "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+            "japaneseSha256": "cbe142933a70b60c165aa4bdbc7c1bced6aa1539991f9d779f4c43bc94959196",
+            "englishSha256": "4615176c58cc1ab624ead6ada3c993687c9f1067759699c103b53095143b980c",
+            "citations": [
+              {
+                "candidateId": "original-entry:upstream-5:8262",
+                "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+                "game": "ruby",
+                "sourceId": "upstream-5",
+                "sourceLine": 8262,
+                "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+                "span": [
+                  0,
+                  4
+                ],
+                "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+                "sourceEntryId": "upstream-5:8262",
+                "quote": "狩猎地带"
+              },
+              {
+                "candidateId": "original-entry:upstream-6:8262",
+                "qid": "rs.common.region_map_entries.sMapName_SAFARIZONE",
+                "game": "sapphire",
+                "sourceId": "upstream-6",
+                "sourceLine": 8262,
+                "sourceChineseSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+                "span": [
+                  0,
+                  4
+                ],
+                "quoteSha256": "4b22514984a04a2d9fa8f0a177ed1c0739d13dbd4e943ae20ad3cec15ba1ee69",
+                "sourceEntryId": "upstream-6:8262",
+                "quote": "狩猎地带"
+              }
+            ],
+            "japanese": "サファリゾーン",
+            "english": "SAFARI ZONE"
           }
         ],
         "reason": "Reconstruct only the existing RSC/native memo print sequence: current original location term followed by the original Met literal. Palette controls do not add wording."

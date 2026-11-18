@@ -10,7 +10,7 @@
 
 1. 关闭旧版窗口，双击根目录 [start-desktop.cmd](../../start-desktop.cmd)。启动器仍自动选择 Java 21。
 2. 点击“刷新窗口”，选择 NDS 投屏或 OBS 窗口；“图像配置”可选择“NDS 采集”或“NGC／OBS 采集”，再点击“开始实时”。
-3. 已知截图几何可自动校准。未定位时，点击“校准游戏区域”，拖动框选完整游戏画面，排除软件工具栏和 OBS 外层画布；必要时微调“左／上／宽／高”，点击“使用此区域”。
+3. 捕获默认去掉 Windows 系统标题栏和外框，交付窗口内容区。已知截图几何可自动校准。未定位时，点击“校准游戏区域”，拖动框选完整游戏画面，排除软件自绘标题栏、工具栏和 OBS 外层画布；必要时微调“左／上／宽／高”，点击“使用此区域”。坐标以内容区左上角为原点。
 4. 可关闭原图对照或打开诊断；“保存测量”将当前会话数据保存为本地 JSON。
 
 “停止”清除当前结果；重新开始、切换来源或配置会创建新会话。窗口最小化时暂停并清除结果，恢复后重新确认映射。尺寸、DPI 或捕获池变化使旧映射失效；自动校准无法确认时需要重新框选。目标关闭或捕获失败后清除结果，刷新并重新开始即可选择其他来源。打开截图会结束实时会话，保留 S4 的离线入口。
@@ -18,8 +18,10 @@
 ## 实现与证据
 
 - 使用 Windows.Graphics.Capture／D3D11，捕获选定窗口；没有桌面截图回退。API 的最低系统条件为 Windows 10 1903／build 18362，见 [微软说明](https://learn.microsoft.com/en-us/windows/win32/api/windows.graphics.capture.interop/nf-windows-graphics-capture-interop-igraphicscaptureiteminterop-createforwindow)。本机验证环境为 Windows build 26200、x64、DPI 144；这不代表发行包已在全部最低版本通过测试。
-- 原生捕获复用只读参考 g1 `v0.0.3`，只替换 JNI 命名空间；Java 侧改为延迟加载内置 DLL、校验缓存，在像素处理之前记录 Java 时钟对齐点，并直接包装不可变 ARGB 数组，避免第二次全窗口复制。组件和工具链依据见 [native-capture.json](native-capture.json)。
+- 原生捕获基于只读参考 g1 `v0.0.3`，替换 JNI 命名空间，并在像素传给 Java 前按物理客户区裁去系统标题栏和外框。裁剪先核对捕获帧与 DWM／窗口边界，尺寸或 DPI 变化时等待新帧并重建会话，校准提示同步使用内容区坐标。Java 侧延迟加载内置 DLL、校验缓存，在像素处理之前记录 Java 时钟对齐点，并直接包装不可变 ARGB 数组，避免第二次全窗口复制。组件和工具链依据见 [native-capture.json](native-capture.json)。
 - 自动校准只尝试已有依据的客户区几何，并用当前图像中的固定特征确认。客户区本身不自动等同于游戏画面。手动框选支持 NGC 这类非 3:2 的实际输入视口，再还原为 240×160。
+
+2026-11-05 内容区采集检查：新版桌面包构建及 45 项自动测试通过。正常桌面环境中的真实 WGC／JavaFX 回放以 4 张原截图检查了 27 个受控场景，GBA／NGC 的原始捕获尺寸分别等于 1200×800／1600×1200，不包含测试窗口的系统标题栏或外框；遮挡、最小化恢复、尺寸变化、手动校准及来源切换通过。详见 [内容区回放记录](client-area/playback-checks.json)和[包一致性检查](client-area/artifact-checks.json)。本次短回放不代替全部截图或实机连续游戏验收；受限环境无法调用捕获服务的记录单独保存在 `client-area/restricted-environment-failure.json`。
 - 捕获与 OCR 各有一个工作线程，最多一个 OCR 任务在途。计划轮询间隔为处理结束后再等 16ms，实际间隔包含处理时间。
 - 框体定位在读取可变文字之前执行，允许显示空框或“识别中”。定位与冻结引擎在全部 456 张图片、579 个区域上逐项一致，见 [layout-compatibility.json](layout-compatibility.json)。
 - 文字区域各自保存像素指纹和内容代次；区域外的动画不重置文字稳定计时。文字变化即清除该区旧内容，窗口／会话／映射／区域代次不符的结果不会发布。
@@ -100,4 +102,12 @@ python tools/check_live_artifact.py
 ```powershell
 & 'D:/Code/Workspace/g1-ocr/.tools/jdk21.0.9_10/bin/java.exe' '-Djavafx.cachedir=.tools/javafx-cache' -cp 'desktop/target/test-classes;desktop/target/rs-ocr-desktop-0.1.0.jar' io.github.rsocr.desktop.LivePlaybackCheck $PWD 2147483647 reports/s5-live/stability
 & 'D:/Code/Workspace/g1-ocr/.tools/jdk21.0.9_10/bin/java.exe' '-Djavafx.cachedir=.tools/javafx-cache' -cp 'desktop/target/test-classes;desktop/target/rs-ocr-desktop-0.1.0.jar' io.github.rsocr.desktop.StabilityRenderCheck
+```
+
+2026-11-05 针对状态页技能红框补充修复：选中框亮灭与文字内容分开判断，保留最近观察到的选中行；“返回”行红框遮挡固定面板边缘时，只在识别用副本中恢复已验证的边缘像素。原图不变，根目录冻结识别 JAR 不重建。45 项桌面测试通过，含原 456 张截图兼容检查及 GBA／NGC 的四技能行、“返回”行回归。两张新增测试小图提取自 `bug/case/` 的 `201356`、`201428` 截图；因桌面截图缩放采样不同，动画回归将观察到的边框叠在同一帧内容上，并保留边框前方的文字像素。
+
+结果绘制检查验证红框熄灭 2 秒后画面像素完全相同，移动选中行后画面改变，且不重新提交 OCR；[输出与记录](../summary-selection/render-checks.json)保留于独立目录。这些检查不替代实际设备连续捕获复测。构建后可独立复现：
+
+```powershell
+& 'D:/Code/Workspace/g1-ocr/.tools/jdk21.0.9_10/bin/java.exe' '-Djavafx.cachedir=.tools/javafx-cache' -cp 'desktop/target/test-classes;desktop/target/rs-ocr-desktop-0.1.0.jar' io.github.rsocr.desktop.SummarySelectionRenderCheck
 ```

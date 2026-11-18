@@ -1,0 +1,7 @@
+{
+  "closeToApplicationReturnMs" : 129.1739,
+  "passed" : true,
+  "mode" : "diagnostic-error",
+  "statusBeforeClose" : "idle",
+  "startupAndCheckMs" : 2129.0885
+}

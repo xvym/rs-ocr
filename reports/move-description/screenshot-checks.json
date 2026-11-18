@@ -1,0 +1,53 @@
+{
+  "checks" : [ {
+    "bodyTranslated" : true,
+    "raw" : "せつめい\n2ほんの あしをつかって てきを\n2かい れんぞくで こうげき",
+    "id" : "GBA-306-R05"
+  }, {
+    "bodyTranslated" : true,
+    "raw" : "せつめい\n2ほんの あしをつかって てきを\n2かい れんぞくで こうげき",
+    "id" : "GBA-307-R05"
+  }, {
+    "bodyTranslated" : false,
+    "raw" : "せつめい",
+    "id" : "GBA-312-R05"
+  }, {
+    "bodyTranslated" : true,
+    "raw" : "せつめい\nつばさを おおきく ひろげて\nそのまま てきに たいあたりする",
+    "id" : "GBA-313-R05"
+  }, {
+    "bodyTranslated" : false,
+    "raw" : "せつめい",
+    "id" : "NGC-125-R05"
+  }, {
+    "bodyTranslated" : true,
+    "raw" : "せつめい\nどろを なげつけて こうげき\nすばやさを さげさせる",
+    "id" : "NGC-126-R05"
+  }, {
+    "bodyTranslated" : true,
+    "raw" : "せつめい\nたきを さかのぼるような いきおいで\nてきに とっしんする",
+    "id" : "NGC-127-R05"
+  }, {
+    "bodyTranslated" : false,
+    "raw" : "せつめい",
+    "id" : "NGC-133-R05"
+  }, {
+    "bodyTranslated" : true,
+    "raw" : "せつめい\nつよいでんげきを あびせて こうげき\nてきを まひさせることがある",
+    "id" : "NGC-134-R05"
+  }, {
+    "bodyTranslated" : true,
+    "raw" : "せつめい\nつよいでんげきを あびせて こうげき\nてきを まひさせることがある",
+    "id" : "NGC-135-R05"
+  }, {
+    "bodyTranslated" : true,
+    "raw" : "せつめい\nてきに むかって かみなりを おとす\nまひさせることがある",
+    "id" : "NGC-136-R05"
+  }, {
+    "bodyTranslated" : true,
+    "raw" : "せつめい\nてきに むかって かみなりを おとす\nまひさせることがある",
+    "id" : "NGC-137-R05"
+  } ],
+  "scope" : "Actual frozen screenshots through OCR, region splitting, translation and text-block geometry; no Take Down screenshot or continuous-device run claimed",
+  "passed" : true
+}

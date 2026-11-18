@@ -4833,6 +4833,66 @@
       "sourceCandidates": [
         "candidate-019920"
       ]
+    },
+    {
+      "id": "rs.common.strings.OtherText_CantUseThatHere:ruby",
+      "qid": "rs.common.strings.OtherText_CantUseThatHere",
+      "game": "ruby",
+      "japanese": "ここでは　つかえません",
+      "chinese": "在这里无法使用。",
+      "kind": "dialogue",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "完整静态提示；OtherText_CantUseThatHere 的符号及英文原字节对应 upstream-5 第 9043 条唯一原候选，原样发布。",
+      "originalChinese": "在这里无法使用。",
+      "sourceCandidates": [
+        "candidate-009817"
+      ]
+    },
+    {
+      "id": "rs.common.strings.OtherText_CantUseThatHere:sapphire",
+      "qid": "rs.common.strings.OtherText_CantUseThatHere",
+      "game": "sapphire",
+      "japanese": "ここでは　つかえません",
+      "chinese": "在这里无法使用。",
+      "kind": "dialogue",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "完整静态提示；OtherText_CantUseThatHere 的符号及英文原字节对应 upstream-6 第 9043 条唯一原候选，原样发布。",
+      "originalChinese": "在这里无法使用。",
+      "sourceCandidates": [
+        "candidate-020455"
+      ]
+    },
+    {
+      "id": "rs.common.ability_descriptions.gAbilityDescription_Drizzle:ruby",
+      "qid": "rs.common.ability_descriptions.gAbilityDescription_Drizzle",
+      "game": "ruby",
+      "japanese": "せんとうに　でると　あめを　ふらす",
+      "chinese": "出场时降下雨。",
+      "kind": "ability_description",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "完整静态特性说明；gAbilityDescription_Drizzle 的符号及英文原字节对应 upstream-5 第 4959 条唯一原候选，按特性说明类别原样发布。",
+      "originalChinese": "出场时降下雨。",
+      "sourceCandidates": [
+        "candidate-005690"
+      ]
+    },
+    {
+      "id": "rs.common.ability_descriptions.gAbilityDescription_Drizzle:sapphire",
+      "qid": "rs.common.ability_descriptions.gAbilityDescription_Drizzle",
+      "game": "sapphire",
+      "japanese": "せんとうに　でると　あめを　ふらす",
+      "chinese": "出场时降下雨。",
+      "kind": "ability_description",
+      "reviewMethod": "rsc_original_retained",
+      "reviewAction": "retain",
+      "reason": "完整静态特性说明；gAbilityDescription_Drizzle 的符号及英文原字节对应 upstream-6 第 4959 条唯一原候选，按特性说明类别原样发布。",
+      "originalChinese": "出场时降下雨。",
+      "sourceCandidates": [
+        "candidate-016327"
+      ]
     }
   ]
 }

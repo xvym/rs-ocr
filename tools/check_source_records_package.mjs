@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {execFileSync} from 'node:child_process';
+import {read,csv,sha256} from './corpus_common.mjs';
+const java=path.join(process.env.JAVA_HOME||'','bin/java.exe');
+if(!fs.existsSync(java))throw Error('JAVA_HOME must point to Java 21');
+const pack=JSON.parse(read('outputs/s6-corpus/runtime.json')),jar=path.resolve('desktop/target/rs-ocr-desktop-0.1.0.jar');
+const directory=fs.mkdtempSync(path.resolve('.tools/source-records-package-'));fs.copyFileSync(jar,path.join(directory,'application.jar'));
+const rows=[...pack.units,...pack.sourceRecords].filter(r=>r.kind==='ability_description'),requests=[];
+assert.equal(rows.length,156);
+for(const row of rows)for(const [form,text] of [['original',row.japanese],['half_width',row.japanese.replaceAll('　',' ')],['wrapped',row.japanese.replaceAll('　','\n')]])
+ requests.push({row,form,request:{game:row.game,type:'summary_ability',restart:true,japanese:'とくせい\n'+(row.context?.abilityName||'あめふらし')+'\n'+text}});
+const output=execFileSync(java,['-cp','application.jar','io.github.rsocr.desktop.translation.TranslationCli'],{cwd:directory,input:requests.map(r=>JSON.stringify(r.request)).join('\n')+'\n',encoding:'utf8',maxBuffer:16*1024*1024,timeout:60000});
+const actual=output.trim().split('\n').map(s=>JSON.parse(s));assert.equal(actual.length,requests.length);
+const checked=actual.map((result,i)=>{const {row,form}=requests[i],description=result.regions[0].units.find(u=>u.unit.kind==='ability_description');assert.ok(description);assert.equal(description.chinese,row.chinese,row.id+':'+form);assert.ok(description.citations.length);return {qid:row.qid,game:row.game,form,japanese:description.unit.raw,chinese:description.chinese,status:description.status,translated:true};});
+const report={passed:true,requests:requests.length,abilityDescriptionsPerGame:78,forms:['original','half_width','wrapped'],isolatedJarOnly:true,sourceChineseUnchanged:true,scope:'Packaged Java text matching with synthetic layout inputs; not screenshot OCR or live-device coverage',jarSha256:sha256(fs.readFileSync(jar)),s6ManifestSha256:actual[0].resourceVersion};
+fs.writeFileSync('reports/runtime-registration/ability-package-checks.json',JSON.stringify(report,null,2)+'\n');
+fs.writeFileSync('reports/runtime-registration/ability-descriptions.csv',csv(checked,['qid','game','form','japanese','chinese','status','translated']));
+console.log(JSON.stringify(report,null,2));

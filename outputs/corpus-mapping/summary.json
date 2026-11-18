@@ -54,8 +54,8 @@
         "rsc_address_correspondence_unmatched": 380,
         "unsupported_english_encoding": 36
       },
-      "reviewedRecords": 202,
-      "publishableStaticRecords": 161
+      "reviewedRecords": 204,
+      "publishableStaticRecords": 163
     },
     "sapphire": {
       "eligibleSourceRecords": 12705,
@@ -73,8 +73,8 @@
         "rsc_address_correspondence_unmatched": 379,
         "unsupported_english_encoding": 36
       },
-      "reviewedRecords": 202,
-      "publishableStaticRecords": 158
+      "reviewedRecords": 204,
+      "publishableStaticRecords": 160
     }
   },
   "sourceLinks": 22038,

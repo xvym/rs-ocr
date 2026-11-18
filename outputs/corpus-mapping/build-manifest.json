@@ -173,7 +173,7 @@
     },
     {
       "local": "corpus/reviews.json",
-      "sha256": "fd53da5c1af98b5a9ee84b6252fdd37f071183a282c4daa563c6b5d63fcb85f7"
+      "sha256": "da2e931adb932257d64bf307f6b2c6263eaa971559df6909e00d9ba18fed0556"
     },
     {
       "local": "corpus/variable-rules.json",
@@ -195,7 +195,7 @@
   "outputs": [
     {
       "file": "candidates.csv",
-      "sha256": "7c467a740e53726d5c4f26d0aec928c9fd8927ea52edffff684fc8e140d54c51"
+      "sha256": "f04b0b3100e316bd05a89eb7bfd54fadd3a2dc8002a844165f122dc51df10ecb"
     },
     {
       "file": "conflicts.json",
@@ -223,7 +223,7 @@
     },
     {
       "file": "runtime.json",
-      "sha256": "04627f1bdefdb2980ca91d190e884cd534565071cd40f187e0b1f03e72da83e5"
+      "sha256": "b29c281b539f80489864313e8b90eac979b7fc74fc2e1d8363249f54209b519d"
     },
     {
       "file": "semantic-worklist.csv",
@@ -235,7 +235,7 @@
     },
     {
       "file": "summary.json",
-      "sha256": "34536914cc296db32988d279f24ca0fd85a732b111775fc62a643727470da964"
+      "sha256": "d8bd0176160bc99a5758a288caa48ce1402f83cc86a54b9e10a1bcc2699231e6"
     },
     {
       "file": "variables.csv",

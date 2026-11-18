@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "inventoryRecords": 25410,
+  "registeredSourceRecords": 15009,
+  "allAbilityDescriptionsRegistered": true,
+  "originalChineseUnchanged": true,
+  "unknownBuffersAndControlsBlocked": true,
+  "conflictsAndPokedexPageAlignmentPreserved": true,
+  "reproducible": true,
+  "manifestSha256": "952df3f827add1784a9b5620b8692b513ce039448af208bca675a5abf0c8461b"
+}

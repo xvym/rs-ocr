@@ -1,0 +1,2229 @@
+{
+  "passed" : true,
+  "source" : "reports\\summary-trainer-name\\reported-ui.png",
+  "sourceViewport" : {
+    "x" : 65.0,
+    "y" : 49.0,
+    "width" : 810.0,
+    "height" : 540.0
+  },
+  "normalizedSourceUnchanged" : true,
+  "before" : [ {
+    "typeCandidates" : [ "summary_personal" ],
+    "variant" : "summary_info",
+    "logicalBox" : [ 80, 24, 160, 40 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "パーソナル\nおや/��� IDNo58333\nタイプ/みず じめん",
+    "status" : "unknown_glyph",
+    "characters" : [ {
+      "x" : 88,
+      "y" : 24,
+      "font" : -1,
+      "raw" : "パーソナル",
+      "candidates" : [ "パーソナル" ],
+      "distance" : 0,
+      "runnerUpDistance" : -1
+    }, {
+      "x" : 88,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "お",
+      "candidates" : [ "お" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 96,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "や",
+      "candidates" : [ "や" ],
+      "distance" : 0,
+      "runnerUpDistance" : 18
+    }, {
+      "x" : 104,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 112,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "�",
+      "candidates" : [ "ハ" ],
+      "distance" : 23,
+      "runnerUpDistance" : 27
+    }, {
+      "x" : 120,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "�",
+      "candidates" : [ "▶" ],
+      "distance" : 30,
+      "runnerUpDistance" : 31
+    }, {
+      "x" : 128,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "�",
+      "candidates" : [ "カ" ],
+      "distance" : 27,
+      "runnerUpDistance" : 33
+    }, {
+      "x" : 176,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "ID",
+      "candidates" : [ "ID" ],
+      "distance" : 0,
+      "runnerUpDistance" : 13
+    }, {
+      "x" : 184,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "No",
+      "candidates" : [ "No" ],
+      "distance" : 0,
+      "runnerUpDistance" : 21
+    }, {
+      "x" : 192,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "5",
+      "candidates" : [ "5" ],
+      "distance" : 0,
+      "runnerUpDistance" : 6
+    }, {
+      "x" : 200,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "8",
+      "candidates" : [ "8" ],
+      "distance" : 0,
+      "runnerUpDistance" : 3
+    }, {
+      "x" : 208,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "3",
+      "candidates" : [ "3" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 216,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "3",
+      "candidates" : [ "3" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 224,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "3",
+      "candidates" : [ "3" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 88,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "タ",
+      "candidates" : [ "タ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 96,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "イ",
+      "candidates" : [ "イ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 104,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "プ",
+      "candidates" : [ "プ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 112,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 120,
+      "y" : 48,
+      "font" : -2,
+      "raw" : "みず",
+      "candidates" : [ "みず" ],
+      "distance" : 0,
+      "runnerUpDistance" : 42
+    }, {
+      "x" : 160,
+      "y" : 48,
+      "font" : -2,
+      "raw" : "じめん",
+      "candidates" : [ "じめん" ],
+      "distance" : 0,
+      "runnerUpDistance" : 57
+    } ]
+  }, {
+    "typeCandidates" : [ "summary_ability" ],
+    "variant" : "summary_info",
+    "logicalBox" : [ 80, 64, 160, 40 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "とくせい\nげきりゅう\nピンチに みずの いりょくが あがる",
+    "status" : "recognized",
+    "characters" : [ {
+      "x" : 88,
+      "y" : 64,
+      "font" : -1,
+      "raw" : "とくせい",
+      "candidates" : [ "とくせい" ],
+      "distance" : 0,
+      "runnerUpDistance" : -1
+    }, {
+      "x" : 88,
+      "y" : 72,
+      "font" : 3,
+      "raw" : "げ",
+      "candidates" : [ "げ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 5
+    }, {
+      "x" : 96,
+      "y" : 72,
+      "font" : 3,
+      "raw" : "き",
+      "candidates" : [ "き" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 104,
+      "y" : 72,
+      "font" : 3,
+      "raw" : "り",
+      "candidates" : [ "り" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 112,
+      "y" : 72,
+      "font" : 3,
+      "raw" : "ゅ",
+      "candidates" : [ "ゅ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 120,
+      "y" : 72,
+      "font" : 3,
+      "raw" : "う",
+      "candidates" : [ "う" ],
+      "distance" : 0,
+      "runnerUpDistance" : 7
+    }, {
+      "x" : 88,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "ピ",
+      "candidates" : [ "ピ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 96,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "ン",
+      "candidates" : [ "ン" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 104,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "チ",
+      "candidates" : [ "チ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 5
+    }, {
+      "x" : 112,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "に",
+      "candidates" : [ "に" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 128,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "み",
+      "candidates" : [ "み" ],
+      "distance" : 0,
+      "runnerUpDistance" : 20
+    }, {
+      "x" : 136,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "ず",
+      "candidates" : [ "ず" ],
+      "distance" : 0,
+      "runnerUpDistance" : 5
+    }, {
+      "x" : 144,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "の",
+      "candidates" : [ "の" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 160,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "い",
+      "candidates" : [ "い" ],
+      "distance" : 0,
+      "runnerUpDistance" : 13
+    }, {
+      "x" : 168,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "り",
+      "candidates" : [ "り" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 176,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "ょ",
+      "candidates" : [ "ょ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 184,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "く",
+      "candidates" : [ "く" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 192,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "が",
+      "candidates" : [ "が" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 208,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "あ",
+      "candidates" : [ "あ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 216,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "が",
+      "candidates" : [ "が" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 224,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "る",
+      "candidates" : [ "る" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    } ]
+  }, {
+    "typeCandidates" : [ "summary_memo" ],
+    "variant" : "summary_info",
+    "logicalBox" : [ 80, 104, 160, 40 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "トレーナーメモ\nがんばりやなせいかく Lv5のとき\n101ばん どうろで であった",
+    "status" : "recognized",
+    "characters" : [ {
+      "x" : 88,
+      "y" : 104,
+      "font" : -1,
+      "raw" : "トレーナーメモ",
+      "candidates" : [ "トレーナーメモ" ],
+      "distance" : 0,
+      "runnerUpDistance" : -1
+    }, {
+      "x" : 88,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "が",
+      "candidates" : [ "が" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 96,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "ん",
+      "candidates" : [ "ん" ],
+      "distance" : 0,
+      "runnerUpDistance" : 17
+    }, {
+      "x" : 104,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "ば",
+      "candidates" : [ "ば" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 112,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "り",
+      "candidates" : [ "り" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 120,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "や",
+      "candidates" : [ "や" ],
+      "distance" : 0,
+      "runnerUpDistance" : 18
+    }, {
+      "x" : 128,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "な",
+      "candidates" : [ "な" ],
+      "distance" : 0,
+      "runnerUpDistance" : 18
+    }, {
+      "x" : 136,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "せ",
+      "candidates" : [ "せ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 144,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "い",
+      "candidates" : [ "い" ],
+      "distance" : 0,
+      "runnerUpDistance" : 13
+    }, {
+      "x" : 152,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "か",
+      "candidates" : [ "か" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 160,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "く",
+      "candidates" : [ "く" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 176,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "Lv",
+      "candidates" : [ "Lv" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 184,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "5",
+      "candidates" : [ "5" ],
+      "distance" : 0,
+      "runnerUpDistance" : 6
+    }, {
+      "x" : 192,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "の",
+      "candidates" : [ "の" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 200,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "と",
+      "candidates" : [ "と" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 208,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "き",
+      "candidates" : [ "き" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 88,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "1",
+      "candidates" : [ "1" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 96,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "0",
+      "candidates" : [ "0", "O" ],
+      "distance" : 0,
+      "runnerUpDistance" : 2
+    }, {
+      "x" : 104,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "1",
+      "candidates" : [ "1" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 112,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "ば",
+      "candidates" : [ "ば" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 120,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "ん",
+      "candidates" : [ "ん" ],
+      "distance" : 0,
+      "runnerUpDistance" : 17
+    }, {
+      "x" : 136,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "ど",
+      "candidates" : [ "ど" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 144,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "う",
+      "candidates" : [ "う" ],
+      "distance" : 0,
+      "runnerUpDistance" : 7
+    }, {
+      "x" : 152,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "ろ",
+      "candidates" : [ "ろ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 160,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "で",
+      "candidates" : [ "で" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 176,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "で",
+      "candidates" : [ "で" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 184,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "あ",
+      "candidates" : [ "あ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 192,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "っ",
+      "candidates" : [ "っ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 5
+    }, {
+      "x" : 200,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "た",
+      "candidates" : [ "た" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    } ]
+  } ],
+  "after" : [ {
+    "typeCandidates" : [ "summary_personal" ],
+    "variant" : "summary_info",
+    "logicalBox" : [ 80, 24, 160, 40 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "パーソナル\nおや/ハルカ IDNo58333\nタイプ/みず じめん",
+    "status" : "recognized",
+    "characters" : [ {
+      "x" : 88,
+      "y" : 24,
+      "font" : -1,
+      "raw" : "パーソナル",
+      "candidates" : [ "パーソナル" ],
+      "distance" : 0,
+      "runnerUpDistance" : -1
+    }, {
+      "x" : 88,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "お",
+      "candidates" : [ "お" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 96,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "や",
+      "candidates" : [ "や" ],
+      "distance" : 0,
+      "runnerUpDistance" : 18
+    }, {
+      "x" : 104,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 112,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "ハ",
+      "candidates" : [ "ハ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 120,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "ル",
+      "candidates" : [ "ル" ],
+      "distance" : 0,
+      "runnerUpDistance" : 16
+    }, {
+      "x" : 128,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "カ",
+      "candidates" : [ "カ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 176,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "ID",
+      "candidates" : [ "ID" ],
+      "distance" : 0,
+      "runnerUpDistance" : 13
+    }, {
+      "x" : 184,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "No",
+      "candidates" : [ "No" ],
+      "distance" : 0,
+      "runnerUpDistance" : 21
+    }, {
+      "x" : 192,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "5",
+      "candidates" : [ "5" ],
+      "distance" : 0,
+      "runnerUpDistance" : 6
+    }, {
+      "x" : 200,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "8",
+      "candidates" : [ "8" ],
+      "distance" : 0,
+      "runnerUpDistance" : 3
+    }, {
+      "x" : 208,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "3",
+      "candidates" : [ "3" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 216,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "3",
+      "candidates" : [ "3" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 224,
+      "y" : 32,
+      "font" : 3,
+      "raw" : "3",
+      "candidates" : [ "3" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 88,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "タ",
+      "candidates" : [ "タ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 96,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "イ",
+      "candidates" : [ "イ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 104,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "プ",
+      "candidates" : [ "プ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 112,
+      "y" : 48,
+      "font" : 3,
+      "raw" : "/",
+      "candidates" : [ "/" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 120,
+      "y" : 48,
+      "font" : -2,
+      "raw" : "みず",
+      "candidates" : [ "みず" ],
+      "distance" : 0,
+      "runnerUpDistance" : 42
+    }, {
+      "x" : 160,
+      "y" : 48,
+      "font" : -2,
+      "raw" : "じめん",
+      "candidates" : [ "じめん" ],
+      "distance" : 0,
+      "runnerUpDistance" : 57
+    } ]
+  }, {
+    "typeCandidates" : [ "summary_ability" ],
+    "variant" : "summary_info",
+    "logicalBox" : [ 80, 64, 160, 40 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "とくせい\nげきりゅう\nピンチに みずの いりょくが あがる",
+    "status" : "recognized",
+    "characters" : [ {
+      "x" : 88,
+      "y" : 64,
+      "font" : -1,
+      "raw" : "とくせい",
+      "candidates" : [ "とくせい" ],
+      "distance" : 0,
+      "runnerUpDistance" : -1
+    }, {
+      "x" : 88,
+      "y" : 72,
+      "font" : 3,
+      "raw" : "げ",
+      "candidates" : [ "げ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 5
+    }, {
+      "x" : 96,
+      "y" : 72,
+      "font" : 3,
+      "raw" : "き",
+      "candidates" : [ "き" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 104,
+      "y" : 72,
+      "font" : 3,
+      "raw" : "り",
+      "candidates" : [ "り" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 112,
+      "y" : 72,
+      "font" : 3,
+      "raw" : "ゅ",
+      "candidates" : [ "ゅ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 120,
+      "y" : 72,
+      "font" : 3,
+      "raw" : "う",
+      "candidates" : [ "う" ],
+      "distance" : 0,
+      "runnerUpDistance" : 7
+    }, {
+      "x" : 88,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "ピ",
+      "candidates" : [ "ピ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 96,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "ン",
+      "candidates" : [ "ン" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 104,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "チ",
+      "candidates" : [ "チ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 5
+    }, {
+      "x" : 112,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "に",
+      "candidates" : [ "に" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 128,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "み",
+      "candidates" : [ "み" ],
+      "distance" : 0,
+      "runnerUpDistance" : 20
+    }, {
+      "x" : 136,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "ず",
+      "candidates" : [ "ず" ],
+      "distance" : 0,
+      "runnerUpDistance" : 5
+    }, {
+      "x" : 144,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "の",
+      "candidates" : [ "の" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 160,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "い",
+      "candidates" : [ "い" ],
+      "distance" : 0,
+      "runnerUpDistance" : 13
+    }, {
+      "x" : 168,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "り",
+      "candidates" : [ "り" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 176,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "ょ",
+      "candidates" : [ "ょ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 184,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "く",
+      "candidates" : [ "く" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 192,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "が",
+      "candidates" : [ "が" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 208,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "あ",
+      "candidates" : [ "あ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 216,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "が",
+      "candidates" : [ "が" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 224,
+      "y" : 88,
+      "font" : 3,
+      "raw" : "る",
+      "candidates" : [ "る" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    } ]
+  }, {
+    "typeCandidates" : [ "summary_memo" ],
+    "variant" : "summary_info",
+    "logicalBox" : [ 80, 104, 160, 40 ],
+    "detectionScore" : 1.0,
+    "rawOcr" : "トレーナーメモ\nがんばりやなせいかく Lv5のとき\n101ばん どうろで であった",
+    "status" : "recognized",
+    "characters" : [ {
+      "x" : 88,
+      "y" : 104,
+      "font" : -1,
+      "raw" : "トレーナーメモ",
+      "candidates" : [ "トレーナーメモ" ],
+      "distance" : 0,
+      "runnerUpDistance" : -1
+    }, {
+      "x" : 88,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "が",
+      "candidates" : [ "が" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 96,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "ん",
+      "candidates" : [ "ん" ],
+      "distance" : 0,
+      "runnerUpDistance" : 17
+    }, {
+      "x" : 104,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "ば",
+      "candidates" : [ "ば" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 112,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "り",
+      "candidates" : [ "り" ],
+      "distance" : 0,
+      "runnerUpDistance" : 12
+    }, {
+      "x" : 120,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "や",
+      "candidates" : [ "や" ],
+      "distance" : 0,
+      "runnerUpDistance" : 18
+    }, {
+      "x" : 128,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "な",
+      "candidates" : [ "な" ],
+      "distance" : 0,
+      "runnerUpDistance" : 18
+    }, {
+      "x" : 136,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "せ",
+      "candidates" : [ "せ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 144,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "い",
+      "candidates" : [ "い" ],
+      "distance" : 0,
+      "runnerUpDistance" : 13
+    }, {
+      "x" : 152,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "か",
+      "candidates" : [ "か" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 160,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "く",
+      "candidates" : [ "く" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 176,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "Lv",
+      "candidates" : [ "Lv" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 184,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "5",
+      "candidates" : [ "5" ],
+      "distance" : 0,
+      "runnerUpDistance" : 6
+    }, {
+      "x" : 192,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "の",
+      "candidates" : [ "の" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 200,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "と",
+      "candidates" : [ "と" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 208,
+      "y" : 112,
+      "font" : 3,
+      "raw" : "き",
+      "candidates" : [ "き" ],
+      "distance" : 0,
+      "runnerUpDistance" : 14
+    }, {
+      "x" : 88,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "1",
+      "candidates" : [ "1" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 96,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "0",
+      "candidates" : [ "0", "O" ],
+      "distance" : 0,
+      "runnerUpDistance" : 2
+    }, {
+      "x" : 104,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "1",
+      "candidates" : [ "1" ],
+      "distance" : 0,
+      "runnerUpDistance" : 8
+    }, {
+      "x" : 112,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "ば",
+      "candidates" : [ "ば" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 120,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "ん",
+      "candidates" : [ "ん" ],
+      "distance" : 0,
+      "runnerUpDistance" : 17
+    }, {
+      "x" : 136,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "ど",
+      "candidates" : [ "ど" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 144,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "う",
+      "candidates" : [ "う" ],
+      "distance" : 0,
+      "runnerUpDistance" : 7
+    }, {
+      "x" : 152,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "ろ",
+      "candidates" : [ "ろ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 9
+    }, {
+      "x" : 160,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "で",
+      "candidates" : [ "で" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 176,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "で",
+      "candidates" : [ "で" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    }, {
+      "x" : 184,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "あ",
+      "candidates" : [ "あ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 10
+    }, {
+      "x" : 192,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "っ",
+      "candidates" : [ "っ" ],
+      "distance" : 0,
+      "runnerUpDistance" : 5
+    }, {
+      "x" : 200,
+      "y" : 128,
+      "font" : 3,
+      "raw" : "た",
+      "candidates" : [ "た" ],
+      "distance" : 0,
+      "runnerUpDistance" : 4
+    } ]
+  } ],
+  "translation" : {
+    "game" : "both",
+    "regions" : [ {
+      "key" : "summary_personal",
+      "raw" : "パーソナル\nおや/ハルカ IDNo58333\nタイプ/みず じめん",
+      "units" : [ {
+        "unit" : {
+          "raw" : "パーソナル",
+          "start" : 0,
+          "end" : 5,
+          "searchText" : "パーソナル",
+          "kind" : null,
+          "fields" : [ ]
+        },
+        "output" : "个人资料",
+        "chinese" : "个人资料",
+        "status" : "original_rsc_semantic_unit",
+        "reason" : "reviewed_original_semantic_unit",
+        "ruleId" : "W379",
+        "citations" : [ {
+          "candidateId" : "original-entry:upstream-5:9486",
+          "qid" : "native.label.personal",
+          "game" : "ruby",
+          "sourceId" : "upstream-5",
+          "sourceLine" : 9486,
+          "sourceChineseSha256" : "b94d13a45ea21152fd63e193e3c0e3d6ff168931b471e1f8bfca84b0723dd3c1",
+          "span" : [ 0, 4 ],
+          "quoteSha256" : "b94d13a45ea21152fd63e193e3c0e3d6ff168931b471e1f8bfca84b0723dd3c1",
+          "sourceEntryId" : "upstream-5:9486",
+          "quote" : "个人资料"
+        }, {
+          "candidateId" : "original-entry:upstream-6:9486",
+          "qid" : "native.label.personal",
+          "game" : "sapphire",
+          "sourceId" : "upstream-6",
+          "sourceLine" : 9486,
+          "sourceChineseSha256" : "b94d13a45ea21152fd63e193e3c0e3d6ff168931b471e1f8bfca84b0723dd3c1",
+          "span" : [ 0, 4 ],
+          "quoteSha256" : "b94d13a45ea21152fd63e193e3c0e3d6ff168931b471e1f8bfca84b0723dd3c1",
+          "sourceEntryId" : "upstream-6:9486",
+          "quote" : "个人资料"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "native.label.personal" ]
+      }, {
+        "unit" : {
+          "raw" : "おや/ハルカ IDNo58333",
+          "start" : 6,
+          "end" : 22,
+          "searchText" : "おや/",
+          "kind" : null,
+          "fields" : [ {
+            "role" : "visible_original_trainer",
+            "raw" : "ハルカ"
+          }, {
+            "role" : "visible_trainer_id",
+            "raw" : "58333"
+          } ]
+        },
+        "output" : "初训/ハルカ IDNo58333",
+        "chinese" : "初训/",
+        "status" : "original_rsc_visible_span",
+        "reason" : "reviewed_original_visible_span",
+        "ruleId" : "W380",
+        "citations" : [ {
+          "candidateId" : "candidate-009834",
+          "qid" : "rs.common.strings.gOtherText_OriginalTrainer",
+          "game" : "ruby",
+          "sourceId" : "upstream-5",
+          "sourceLine" : 9060,
+          "sourceChineseSha256" : "c4a716086d8e694a91bf565d164a15fa7a30d331edd8226e9298372af69a06c1",
+          "span" : [ 0, 3 ],
+          "quoteSha256" : "c4a716086d8e694a91bf565d164a15fa7a30d331edd8226e9298372af69a06c1",
+          "sourceEntryId" : "upstream-5:9060",
+          "quote" : "初训/",
+          "sourceJapanese" : "おや／",
+          "sourceJapaneseSha256" : "f98d0ffb70f8a2898476937e90c5a8ab8b87ee3f09b8d5a2c131f1f0fd4c6355",
+          "sourceEnglish" : "OT/",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "full_record",
+            "matchedJapanese" : "おや/"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        }, {
+          "candidateId" : "candidate-020472",
+          "qid" : "rs.common.strings.gOtherText_OriginalTrainer",
+          "game" : "sapphire",
+          "sourceId" : "upstream-6",
+          "sourceLine" : 9060,
+          "sourceChineseSha256" : "c4a716086d8e694a91bf565d164a15fa7a30d331edd8226e9298372af69a06c1",
+          "span" : [ 0, 3 ],
+          "quoteSha256" : "c4a716086d8e694a91bf565d164a15fa7a30d331edd8226e9298372af69a06c1",
+          "sourceEntryId" : "upstream-6:9060",
+          "quote" : "初训/",
+          "sourceJapanese" : "おや／",
+          "sourceJapaneseSha256" : "f98d0ffb70f8a2898476937e90c5a8ab8b87ee3f09b8d5a2c131f1f0fd4c6355",
+          "sourceEnglish" : "OT/",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "full_record",
+            "matchedJapanese" : "おや/"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.strings.gOtherText_OriginalTrainer" ]
+      }, {
+        "unit" : {
+          "raw" : "ハルカ",
+          "start" : 9,
+          "end" : 12,
+          "searchText" : "ハルカ",
+          "kind" : null,
+          "fields" : [ ]
+        },
+        "output" : "小遥",
+        "chinese" : "小遥",
+        "status" : "original_rsc_name",
+        "reason" : "complete_visible_name_original_lexicon",
+        "ruleId" : null,
+        "citations" : [ {
+          "id" : "candidate-004753",
+          "qid" : "rs.common.trainers.gTrainers.529",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4777",
+          "recordedAddress" : "0x1F57C0",
+          "address" : "0x1F57C0",
+          "sourceSymbol" : "gTrainers[529]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21164",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-004754",
+          "qid" : "rs.common.trainers.gTrainers.530",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4778",
+          "recordedAddress" : "0x1F57E8",
+          "address" : "0x1F57E8",
+          "sourceSymbol" : "gTrainers[530]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21204",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-004755",
+          "qid" : "rs.common.trainers.gTrainers.531",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4779",
+          "recordedAddress" : "0x1F5810",
+          "address" : "0x1F5810",
+          "sourceSymbol" : "gTrainers[531]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21244",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-004756",
+          "qid" : "rs.common.trainers.gTrainers.532",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4780",
+          "recordedAddress" : "0x1F5838",
+          "address" : "0x1F5838",
+          "sourceSymbol" : "gTrainers[532]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21284",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-004757",
+          "qid" : "rs.common.trainers.gTrainers.533",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4781",
+          "recordedAddress" : "0x1F5860",
+          "address" : "0x1F5860",
+          "sourceSymbol" : "gTrainers[533]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21324",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-004758",
+          "qid" : "rs.common.trainers.gTrainers.534",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4782",
+          "recordedAddress" : "0x1F5888",
+          "address" : "0x1F5888",
+          "sourceSymbol" : "gTrainers[534]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21364",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-004759",
+          "qid" : "rs.common.trainers.gTrainers.535",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4783",
+          "recordedAddress" : "0x1F58B0",
+          "address" : "0x1F58B0",
+          "sourceSymbol" : "gTrainers[535]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21404",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-004760",
+          "qid" : "rs.common.trainers.gTrainers.536",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4784",
+          "recordedAddress" : "0x1F58D8",
+          "address" : "0x1F58D8",
+          "sourceSymbol" : "gTrainers[536]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21444",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-004761",
+          "qid" : "rs.common.trainers.gTrainers.537",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4785",
+          "recordedAddress" : "0x1F5900",
+          "address" : "0x1F5900",
+          "sourceSymbol" : "gTrainers[537]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21484",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-004885",
+          "qid" : "rs.common.trainers.gTrainers.664",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4909",
+          "recordedAddress" : "0x1F6CD8",
+          "address" : "0x1F6CD8",
+          "sourceSymbol" : "gTrainers[664]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "26564",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-004886",
+          "qid" : "rs.common.trainers.gTrainers.665",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4910",
+          "recordedAddress" : "0x1F6D00",
+          "address" : "0x1F6D00",
+          "sourceSymbol" : "gTrainers[665]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "26604",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-004887",
+          "qid" : "rs.common.trainers.gTrainers.666",
+          "game" : "ruby",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-5",
+          "sourceLine" : "4911",
+          "recordedAddress" : "0x1F6D28",
+          "address" : "0x1F6D28",
+          "sourceSymbol" : "gTrainers[666]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "26644",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015390",
+          "qid" : "rs.common.trainers.gTrainers.529",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4777",
+          "recordedAddress" : "0x1F5750",
+          "address" : "0x1F5750",
+          "sourceSymbol" : "gTrainers[529]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21164",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015391",
+          "qid" : "rs.common.trainers.gTrainers.530",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4778",
+          "recordedAddress" : "0x1F5778",
+          "address" : "0x1F5778",
+          "sourceSymbol" : "gTrainers[530]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21204",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015392",
+          "qid" : "rs.common.trainers.gTrainers.531",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4779",
+          "recordedAddress" : "0x1F57A0",
+          "address" : "0x1F57A0",
+          "sourceSymbol" : "gTrainers[531]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21244",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015393",
+          "qid" : "rs.common.trainers.gTrainers.532",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4780",
+          "recordedAddress" : "0x1F57C8",
+          "address" : "0x1F57C8",
+          "sourceSymbol" : "gTrainers[532]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21284",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015394",
+          "qid" : "rs.common.trainers.gTrainers.533",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4781",
+          "recordedAddress" : "0x1F57F0",
+          "address" : "0x1F57F0",
+          "sourceSymbol" : "gTrainers[533]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21324",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015395",
+          "qid" : "rs.common.trainers.gTrainers.534",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4782",
+          "recordedAddress" : "0x1F5818",
+          "address" : "0x1F5818",
+          "sourceSymbol" : "gTrainers[534]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21364",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015396",
+          "qid" : "rs.common.trainers.gTrainers.535",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4783",
+          "recordedAddress" : "0x1F5840",
+          "address" : "0x1F5840",
+          "sourceSymbol" : "gTrainers[535]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21404",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015397",
+          "qid" : "rs.common.trainers.gTrainers.536",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4784",
+          "recordedAddress" : "0x1F5868",
+          "address" : "0x1F5868",
+          "sourceSymbol" : "gTrainers[536]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21444",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015398",
+          "qid" : "rs.common.trainers.gTrainers.537",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4785",
+          "recordedAddress" : "0x1F5890",
+          "address" : "0x1F5890",
+          "sourceSymbol" : "gTrainers[537]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "21484",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015522",
+          "qid" : "rs.common.trainers.gTrainers.664",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4909",
+          "recordedAddress" : "0x1F6C68",
+          "address" : "0x1F6C68",
+          "sourceSymbol" : "gTrainers[664]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "26564",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015523",
+          "qid" : "rs.common.trainers.gTrainers.665",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4910",
+          "recordedAddress" : "0x1F6C90",
+          "address" : "0x1F6C90",
+          "sourceSymbol" : "gTrainers[665]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "26604",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        }, {
+          "id" : "candidate-015524",
+          "qid" : "rs.common.trainers.gTrainers.666",
+          "game" : "sapphire",
+          "chinese" : "小遥",
+          "kind" : "rsc_address",
+          "sourceId" : "upstream-6",
+          "sourceLine" : "4911",
+          "recordedAddress" : "0x1F6CB8",
+          "address" : "0x1F6CB8",
+          "sourceSymbol" : "gTrainers[666]+4",
+          "sourceFile" : "src/data/trainers_en.h",
+          "offsetWithinSymbol" : "26644",
+          "evidence" : "symbol_or_rev0_alias_and_exact_english_bytes",
+          "semanticStatus" : "unreviewed"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.trainers.gTrainers.529", "rs.common.trainers.gTrainers.530", "rs.common.trainers.gTrainers.531", "rs.common.trainers.gTrainers.532", "rs.common.trainers.gTrainers.533", "rs.common.trainers.gTrainers.534", "rs.common.trainers.gTrainers.535", "rs.common.trainers.gTrainers.536", "rs.common.trainers.gTrainers.537", "rs.common.trainers.gTrainers.664", "rs.common.trainers.gTrainers.665", "rs.common.trainers.gTrainers.666" ]
+      }, {
+        "unit" : {
+          "raw" : "タイプ/",
+          "start" : 23,
+          "end" : 27,
+          "searchText" : "タイプ/",
+          "kind" : null,
+          "fields" : [ ]
+        },
+        "output" : "属性/",
+        "chinese" : "属性/",
+        "status" : "original_rsc_visible_span",
+        "reason" : "reviewed_original_visible_span",
+        "ruleId" : "W381",
+        "citations" : [ {
+          "candidateId" : "candidate-009835",
+          "qid" : "rs.common.strings.gOtherText_Type2",
+          "game" : "ruby",
+          "sourceId" : "upstream-5",
+          "sourceLine" : 9061,
+          "sourceChineseSha256" : "90d1e1bb079f15b9a6fe69101a609fc0e3a515f5086156c5ae9821b52658ce12",
+          "span" : [ 0, 3 ],
+          "quoteSha256" : "90d1e1bb079f15b9a6fe69101a609fc0e3a515f5086156c5ae9821b52658ce12",
+          "sourceEntryId" : "upstream-5:9061",
+          "quote" : "属性/",
+          "sourceJapanese" : "タイプ／",
+          "sourceJapaneseSha256" : "072a585184407c2c691045113940a01f2df2dc06c824744c5a7215f5c027076e",
+          "sourceEnglish" : "TYPE/",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "full_record",
+            "matchedJapanese" : "タイプ/"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        }, {
+          "candidateId" : "candidate-020473",
+          "qid" : "rs.common.strings.gOtherText_Type2",
+          "game" : "sapphire",
+          "sourceId" : "upstream-6",
+          "sourceLine" : 9061,
+          "sourceChineseSha256" : "90d1e1bb079f15b9a6fe69101a609fc0e3a515f5086156c5ae9821b52658ce12",
+          "span" : [ 0, 3 ],
+          "quoteSha256" : "90d1e1bb079f15b9a6fe69101a609fc0e3a515f5086156c5ae9821b52658ce12",
+          "sourceEntryId" : "upstream-6:9061",
+          "quote" : "属性/",
+          "sourceJapanese" : "タイプ／",
+          "sourceJapaneseSha256" : "072a585184407c2c691045113940a01f2df2dc06c824744c5a7215f5c027076e",
+          "sourceEnglish" : "TYPE/",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "full_record",
+            "matchedJapanese" : "タイプ/"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.strings.gOtherText_Type2" ]
+      }, {
+        "unit" : {
+          "raw" : "みず",
+          "start" : 27,
+          "end" : 29,
+          "searchText" : "みず",
+          "kind" : "type",
+          "fields" : [ ]
+        },
+        "output" : "水",
+        "chinese" : "水",
+        "status" : "original_rsc_visible_span",
+        "reason" : "reviewed_original_visible_span",
+        "ruleId" : "W505",
+        "citations" : [ {
+          "candidateId" : "candidate-005681",
+          "qid" : "rs.common.type_names.gTypeNames.11",
+          "game" : "ruby",
+          "sourceId" : "upstream-5",
+          "sourceLine" : 4950,
+          "sourceChineseSha256" : "327b54d04f71f2126114d9d61d4c3640ca0fc5b30878ad28416ff634a51a712d",
+          "span" : [ 0, 1 ],
+          "quoteSha256" : "327b54d04f71f2126114d9d61d4c3640ca0fc5b30878ad28416ff634a51a712d",
+          "sourceEntryId" : "upstream-5:4950",
+          "quote" : "水",
+          "sourceJapanese" : "みず",
+          "sourceJapaneseSha256" : "986430368256f18defd9d825e5e173ce8b5f915a75a1f81e61cffe009a44e633",
+          "sourceEnglish" : "WATER",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "exact_record",
+            "matchedJapanese" : "みず"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        }, {
+          "candidateId" : "candidate-016318",
+          "qid" : "rs.common.type_names.gTypeNames.11",
+          "game" : "sapphire",
+          "sourceId" : "upstream-6",
+          "sourceLine" : 4950,
+          "sourceChineseSha256" : "327b54d04f71f2126114d9d61d4c3640ca0fc5b30878ad28416ff634a51a712d",
+          "span" : [ 0, 1 ],
+          "quoteSha256" : "327b54d04f71f2126114d9d61d4c3640ca0fc5b30878ad28416ff634a51a712d",
+          "sourceEntryId" : "upstream-6:4950",
+          "quote" : "水",
+          "sourceJapanese" : "みず",
+          "sourceJapaneseSha256" : "986430368256f18defd9d825e5e173ce8b5f915a75a1f81e61cffe009a44e633",
+          "sourceEnglish" : "WATER",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "exact_record",
+            "matchedJapanese" : "みず"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.type_names.gTypeNames.11" ]
+      }, {
+        "unit" : {
+          "raw" : "じめん",
+          "start" : 30,
+          "end" : 33,
+          "searchText" : "じめん",
+          "kind" : "type",
+          "fields" : [ ]
+        },
+        "output" : "地面",
+        "chinese" : "地面",
+        "status" : "original_rsc_visible_span",
+        "reason" : "reviewed_original_visible_span",
+        "ruleId" : "W506",
+        "citations" : [ {
+          "candidateId" : "candidate-005675",
+          "qid" : "rs.common.type_names.gTypeNames.4",
+          "game" : "ruby",
+          "sourceId" : "upstream-5",
+          "sourceLine" : 4944,
+          "sourceChineseSha256" : "c9a0955518c9967e5b883563c5a62ffa907326f93e27351aadadc995cf1603e1",
+          "span" : [ 0, 2 ],
+          "quoteSha256" : "c9a0955518c9967e5b883563c5a62ffa907326f93e27351aadadc995cf1603e1",
+          "sourceEntryId" : "upstream-5:4944",
+          "quote" : "地面",
+          "sourceJapanese" : "じめん",
+          "sourceJapaneseSha256" : "e8a6a64f78b013cc6f780f8198380736646bfc97ea2cb528e3a4b7cca24eab1d",
+          "sourceEnglish" : "GROUND",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "exact_record",
+            "matchedJapanese" : "じめん"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        }, {
+          "candidateId" : "candidate-016312",
+          "qid" : "rs.common.type_names.gTypeNames.4",
+          "game" : "sapphire",
+          "sourceId" : "upstream-6",
+          "sourceLine" : 4944,
+          "sourceChineseSha256" : "c9a0955518c9967e5b883563c5a62ffa907326f93e27351aadadc995cf1603e1",
+          "span" : [ 0, 2 ],
+          "quoteSha256" : "c9a0955518c9967e5b883563c5a62ffa907326f93e27351aadadc995cf1603e1",
+          "sourceEntryId" : "upstream-6:4944",
+          "quote" : "地面",
+          "sourceJapanese" : "じめん",
+          "sourceJapaneseSha256" : "e8a6a64f78b013cc6f780f8198380736646bfc97ea2cb528e3a4b7cca24eab1d",
+          "sourceEnglish" : "GROUND",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "exact_record",
+            "matchedJapanese" : "じめん"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.type_names.gTypeNames.4" ]
+      } ]
+    }, {
+      "key" : "summary_ability",
+      "raw" : "とくせい\nげきりゅう\nピンチに みずの いりょくが あがる",
+      "units" : [ {
+        "unit" : {
+          "raw" : "とくせい",
+          "start" : 0,
+          "end" : 4,
+          "searchText" : "とくせい",
+          "kind" : null,
+          "fields" : [ ]
+        },
+        "output" : "特性",
+        "chinese" : "特性",
+        "status" : "original_rsc_semantic_unit",
+        "reason" : "reviewed_original_semantic_unit",
+        "ruleId" : "W384",
+        "citations" : [ {
+          "candidateId" : "original-entry:upstream-5:9620",
+          "qid" : "native.label.ability",
+          "game" : "ruby",
+          "sourceId" : "upstream-5",
+          "sourceLine" : 9620,
+          "sourceChineseSha256" : "adcf64ba14be2a0a532fa3296033df172f7e3b0364a381d109b16e745d8428a3",
+          "span" : [ 0, 2 ],
+          "quoteSha256" : "adcf64ba14be2a0a532fa3296033df172f7e3b0364a381d109b16e745d8428a3",
+          "sourceEntryId" : "upstream-5:9620",
+          "quote" : "特性"
+        }, {
+          "candidateId" : "original-entry:upstream-6:9620",
+          "qid" : "native.label.ability",
+          "game" : "sapphire",
+          "sourceId" : "upstream-6",
+          "sourceLine" : 9620,
+          "sourceChineseSha256" : "adcf64ba14be2a0a532fa3296033df172f7e3b0364a381d109b16e745d8428a3",
+          "span" : [ 0, 2 ],
+          "quoteSha256" : "adcf64ba14be2a0a532fa3296033df172f7e3b0364a381d109b16e745d8428a3",
+          "sourceEntryId" : "upstream-6:9620",
+          "quote" : "特性"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "native.label.ability" ]
+      }, {
+        "unit" : {
+          "raw" : "げきりゅう",
+          "start" : 5,
+          "end" : 10,
+          "searchText" : "げきりゅう",
+          "kind" : "ability",
+          "fields" : [ ]
+        },
+        "output" : "激流",
+        "chinese" : "激流",
+        "status" : "original_rsc_visible_span",
+        "reason" : "reviewed_original_visible_span",
+        "ruleId" : "W507",
+        "citations" : [ {
+          "candidateId" : "candidate-005834",
+          "qid" : "rs.common.ability_names.gAbilityNames.67",
+          "game" : "ruby",
+          "sourceId" : "corpus-8",
+          "sourceLine" : 347,
+          "sourceChineseSha256" : "e32b2a7e7d2eb7305076bf4df0a9dbc8258ad9c821a3076a6e643176bbf43979",
+          "span" : [ 0, 2 ],
+          "quoteSha256" : "e32b2a7e7d2eb7305076bf4df0a9dbc8258ad9c821a3076a6e643176bbf43979",
+          "sourceEntryId" : "corpus-8:347",
+          "quote" : "激流",
+          "sourceJapanese" : "げきりゅう",
+          "sourceJapaneseSha256" : "f35fc478fa74ec1c87782b9008c590d274d737e29c4f384dbe8344b504860b9c",
+          "sourceEnglish" : "TORRENT",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "exact_record",
+            "matchedJapanese" : "げきりゅう"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        }, {
+          "candidateId" : "candidate-016471",
+          "qid" : "rs.common.ability_names.gAbilityNames.67",
+          "game" : "sapphire",
+          "sourceId" : "corpus-8",
+          "sourceLine" : 347,
+          "sourceChineseSha256" : "e32b2a7e7d2eb7305076bf4df0a9dbc8258ad9c821a3076a6e643176bbf43979",
+          "span" : [ 0, 2 ],
+          "quoteSha256" : "e32b2a7e7d2eb7305076bf4df0a9dbc8258ad9c821a3076a6e643176bbf43979",
+          "sourceEntryId" : "corpus-8:347",
+          "quote" : "激流",
+          "sourceJapanese" : "げきりゅう",
+          "sourceJapaneseSha256" : "f35fc478fa74ec1c87782b9008c590d274d737e29c4f384dbe8344b504860b9c",
+          "sourceEnglish" : "TORRENT",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "exact_record",
+            "matchedJapanese" : "げきりゅう"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.ability_names.gAbilityNames.67" ]
+      }, {
+        "unit" : {
+          "raw" : "ピンチに みずの いりょくが あがる",
+          "start" : 11,
+          "end" : 29,
+          "searchText" : "ピンチに みずの いりょくが あがる",
+          "kind" : "ability_description",
+          "fields" : [ ]
+        },
+        "output" : "危机时提高水属性伤害。",
+        "chinese" : "危机时提高水属性伤害。",
+        "status" : "original_rsc_visible_span",
+        "reason" : "reviewed_original_visible_span",
+        "ruleId" : "W508",
+        "citations" : [ {
+          "candidateId" : "candidate-005755",
+          "qid" : "rs.common.ability_descriptions.gAbilityDescription_Torrent",
+          "game" : "ruby",
+          "sourceId" : "upstream-5",
+          "sourceLine" : 5024,
+          "sourceChineseSha256" : "ee9f02e77083fd370b247e4780b52f020d245648c2bdb941fcf622e750a5a7eb",
+          "span" : [ 0, 11 ],
+          "quoteSha256" : "ee9f02e77083fd370b247e4780b52f020d245648c2bdb941fcf622e750a5a7eb",
+          "sourceEntryId" : "upstream-5:5024",
+          "quote" : "危机时提高水属性伤害。",
+          "sourceJapanese" : "ピンチに　みずの　いりょくが　あがる",
+          "sourceJapaneseSha256" : "3b7aa84734a07d7879f25f824fc7e0081a675aafb3b975834531a2a550f1a380",
+          "sourceEnglish" : "Ups WATER moves in a pinch.",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "full_record",
+            "matchedJapanese" : "ピンチに みずの いりょくが あがる"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        }, {
+          "candidateId" : "candidate-016392",
+          "qid" : "rs.common.ability_descriptions.gAbilityDescription_Torrent",
+          "game" : "sapphire",
+          "sourceId" : "upstream-6",
+          "sourceLine" : 5024,
+          "sourceChineseSha256" : "ee9f02e77083fd370b247e4780b52f020d245648c2bdb941fcf622e750a5a7eb",
+          "span" : [ 0, 11 ],
+          "quoteSha256" : "ee9f02e77083fd370b247e4780b52f020d245648c2bdb941fcf622e750a5a7eb",
+          "sourceEntryId" : "upstream-6:5024",
+          "quote" : "危机时提高水属性伤害。",
+          "sourceJapanese" : "ピンチに　みずの　いりょくが　あがる",
+          "sourceJapaneseSha256" : "3b7aa84734a07d7879f25f824fc7e0081a675aafb3b975834531a2a550f1a380",
+          "sourceEnglish" : "Ups WATER moves in a pinch.",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "full_record",
+            "matchedJapanese" : "ピンチに みずの いりょくが あがる"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.ability_descriptions.gAbilityDescription_Torrent" ]
+      } ]
+    }, {
+      "key" : "summary_memo",
+      "raw" : "トレーナーメモ\nがんばりやなせいかく Lv5のとき\n101ばん どうろで であった",
+      "units" : [ {
+        "unit" : {
+          "raw" : "トレーナーメモ",
+          "start" : 0,
+          "end" : 7,
+          "searchText" : "トレーナーメモ",
+          "kind" : null,
+          "fields" : [ ]
+        },
+        "output" : "トレーナーメモ",
+        "chinese" : null,
+        "status" : "retained_japanese",
+        "reason" : "native_title_correspondence_unverified",
+        "ruleId" : "W387",
+        "citations" : [ ],
+        "bindings" : [ ],
+        "sourceQids" : [ ]
+      }, {
+        "unit" : {
+          "raw" : "がんばりや",
+          "start" : 8,
+          "end" : 13,
+          "searchText" : "がんばりや",
+          "kind" : "nature",
+          "fields" : [ ]
+        },
+        "output" : "勤奋",
+        "chinese" : "勤奋",
+        "status" : "original_rsc_visible_span",
+        "reason" : "reviewed_original_visible_span",
+        "ruleId" : "W509",
+        "citations" : [ {
+          "candidateId" : "candidate-006986",
+          "qid" : "rs.common.nature_names.NatureName_Hardy",
+          "game" : "ruby",
+          "sourceId" : "upstream-5",
+          "sourceLine" : 6563,
+          "sourceChineseSha256" : "9c22043e2263678898467df2b62adc8e331f6004a71a2bee11cbf7c02088f608",
+          "span" : [ 0, 2 ],
+          "quoteSha256" : "9c22043e2263678898467df2b62adc8e331f6004a71a2bee11cbf7c02088f608",
+          "sourceEntryId" : "upstream-5:6563",
+          "quote" : "勤奋",
+          "sourceJapanese" : "がんばりや",
+          "sourceJapaneseSha256" : "d9dd801d5b96932c288fe081523347bb8ce095403908a201f0a30b774501a03e",
+          "sourceEnglish" : "HARDY",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "exact_record",
+            "matchedJapanese" : "がんばりや"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        }, {
+          "candidateId" : "candidate-017623",
+          "qid" : "rs.common.nature_names.NatureName_Hardy",
+          "game" : "sapphire",
+          "sourceId" : "upstream-6",
+          "sourceLine" : 6563,
+          "sourceChineseSha256" : "9c22043e2263678898467df2b62adc8e331f6004a71a2bee11cbf7c02088f608",
+          "span" : [ 0, 2 ],
+          "quoteSha256" : "9c22043e2263678898467df2b62adc8e331f6004a71a2bee11cbf7c02088f608",
+          "sourceEntryId" : "upstream-6:6563",
+          "quote" : "勤奋",
+          "sourceJapanese" : "がんばりや",
+          "sourceJapaneseSha256" : "d9dd801d5b96932c288fe081523347bb8ce095403908a201f0a30b774501a03e",
+          "sourceEnglish" : "HARDY",
+          "japaneseWindow" : {
+            "page" : 0,
+            "lineStart" : 0,
+            "lineCount" : 1,
+            "mode" : "exact_record",
+            "matchedJapanese" : "がんばりや"
+          },
+          "selectionMethod" : "source_record_and_visible_range_alignment"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.nature_names.NatureName_Hardy" ]
+      }, {
+        "unit" : {
+          "raw" : "なせいかく",
+          "start" : 13,
+          "end" : 18,
+          "searchText" : "せいかく",
+          "kind" : null,
+          "fields" : [ {
+            "role" : "grammatical_connector",
+            "raw" : "な"
+          } ]
+        },
+        "output" : "性格，",
+        "chinese" : "性格，",
+        "status" : "original_rsc_semantic_unit",
+        "reason" : "reviewed_original_semantic_unit",
+        "ruleId" : "W389",
+        "citations" : [ {
+          "candidateId" : "original-entry:upstream-5:9750",
+          "qid" : "rs.common.strings2.gOtherText_Nature",
+          "game" : "ruby",
+          "sourceId" : "upstream-5",
+          "sourceLine" : 9750,
+          "sourceChineseSha256" : "4739955935a1512e3d44c0ec7ce66b4fee65cfbe1eb4cdf3af51f815dc254256",
+          "span" : [ 0, 3 ],
+          "quoteSha256" : "4739955935a1512e3d44c0ec7ce66b4fee65cfbe1eb4cdf3af51f815dc254256",
+          "sourceEntryId" : "upstream-5:9750",
+          "quote" : "性格，"
+        }, {
+          "candidateId" : "original-entry:upstream-6:9750",
+          "qid" : "rs.common.strings2.gOtherText_Nature",
+          "game" : "sapphire",
+          "sourceId" : "upstream-6",
+          "sourceLine" : 9750,
+          "sourceChineseSha256" : "4739955935a1512e3d44c0ec7ce66b4fee65cfbe1eb4cdf3af51f815dc254256",
+          "span" : [ 0, 3 ],
+          "quoteSha256" : "4739955935a1512e3d44c0ec7ce66b4fee65cfbe1eb4cdf3af51f815dc254256",
+          "sourceEntryId" : "upstream-6:9750",
+          "quote" : "性格，"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.strings2.gOtherText_Nature" ]
+      }, {
+        "unit" : {
+          "raw" : "Lv5のとき",
+          "start" : 19,
+          "end" : 25,
+          "searchText" : "のとき",
+          "kind" : null,
+          "fields" : [ {
+            "role" : "visible_met_level",
+            "raw" : "5"
+          } ]
+        },
+        "output" : "Lv5,",
+        "chinese" : "Lv5,",
+        "status" : "original_rsc_native_field",
+        "reason" : "reviewed_original_native_printing",
+        "ruleId" : "memo_met_level",
+        "citations" : [ ],
+        "bindings" : [ ],
+        "sourceQids" : [ ]
+      }, {
+        "unit" : {
+          "raw" : "101ばん どうろで であった",
+          "start" : 26,
+          "end" : 41,
+          "searchText" : "101ばん どうろで であった",
+          "kind" : null,
+          "fields" : [ ]
+        },
+        "output" : "101号道路相遇。",
+        "chinese" : "101号道路相遇。",
+        "status" : "original_rsc_native_field",
+        "reason" : "reviewed_original_native_printing",
+        "ruleId" : "memo_met_location",
+        "citations" : [ {
+          "candidateId" : "original-entry:upstream-5:9751",
+          "qid" : "rs.common.strings2.gOtherText_Met",
+          "game" : "ruby",
+          "sourceId" : "upstream-5",
+          "sourceLine" : 9751,
+          "sourceChineseSha256" : "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span" : [ 0, 3 ],
+          "quoteSha256" : "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId" : "upstream-5:9751",
+          "quote" : "相遇。"
+        }, {
+          "candidateId" : "original-entry:upstream-5:8225",
+          "qid" : "rs.common.region_map_entries.sMapName_ROUTE101",
+          "game" : "ruby",
+          "sourceId" : "upstream-5",
+          "sourceLine" : 8225,
+          "sourceChineseSha256" : "5f470ca778c0f9640a7e08b9da77d3483deb92ef44d4b88ea4f82788d3b1cb0d",
+          "span" : [ 0, 6 ],
+          "quoteSha256" : "5f470ca778c0f9640a7e08b9da77d3483deb92ef44d4b88ea4f82788d3b1cb0d",
+          "sourceEntryId" : "upstream-5:8225",
+          "quote" : "101号道路"
+        }, {
+          "candidateId" : "original-entry:upstream-6:9751",
+          "qid" : "rs.common.strings2.gOtherText_Met",
+          "game" : "sapphire",
+          "sourceId" : "upstream-6",
+          "sourceLine" : 9751,
+          "sourceChineseSha256" : "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "span" : [ 0, 3 ],
+          "quoteSha256" : "5526a20ce8c4c29cbb3d93c23037338d1dc61beca75046b7417e07d3d9e0d053",
+          "sourceEntryId" : "upstream-6:9751",
+          "quote" : "相遇。"
+        }, {
+          "candidateId" : "original-entry:upstream-6:8225",
+          "qid" : "rs.common.region_map_entries.sMapName_ROUTE101",
+          "game" : "sapphire",
+          "sourceId" : "upstream-6",
+          "sourceLine" : 8225,
+          "sourceChineseSha256" : "5f470ca778c0f9640a7e08b9da77d3483deb92ef44d4b88ea4f82788d3b1cb0d",
+          "span" : [ 0, 6 ],
+          "quoteSha256" : "5f470ca778c0f9640a7e08b9da77d3483deb92ef44d4b88ea4f82788d3b1cb0d",
+          "sourceEntryId" : "upstream-6:8225",
+          "quote" : "101号道路"
+        } ],
+        "bindings" : [ ],
+        "sourceQids" : [ "rs.common.strings2.gOtherText_Met", "rs.common.region_map_entries.sMapName_ROUTE101" ]
+      } ]
+    } ],
+    "player" : null,
+    "manualPlayer" : "",
+    "automaticPlayer" : "",
+    "resourceVersion" : "6cdd1d54e6fbce1b8ab76a525ec36d70b4576c0018969ee2f79f2461bbfa9195"
+  }
+}
